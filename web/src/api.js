@@ -35,3 +35,22 @@ export const fmtDate = (d) =>
   d ? new Date(d).toLocaleDateString('pt-BR') : '—';
 export const fmtDateTime = (d) =>
   d ? new Date(d).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : '—';
+
+// Exportação — CSV (abre no Excel) a partir de colunas + linhas.
+export function exportCSV(filename, colunas, linhas) {
+  const esc = (v) => {
+    const s = v == null ? '' : String(v);
+    return /[";\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const head = colunas.map((c) => esc(c.label)).join(';');
+  const body = linhas.map((r) => colunas.map((c) => esc(c.get(r))).join(';')).join('\n');
+  const blob = new Blob(['﻿' + head + '\n' + body], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+// Exportação — PDF via impressão do navegador ("Salvar como PDF").
+export function exportPDF() { window.print(); }

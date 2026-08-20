@@ -303,3 +303,40 @@ body, .card, .panel, .sidebar, .topbar, .input, .btn, .detail-head, table td, ta
   .nav a.active::before { left: 8px; right: 8px; top: -6px; bottom: auto; width: auto; height: 3px; border-radius: 0 0 3px 3px; }
   .main { height: auto; flex: 1; }
 }
+
+/* ---------- Impressão / exportação PDF ---------- */
+.print-only { display: none; }
+@media print {
+  .sidebar, .topbar, .fab, .fab-menu, .theme-btn, .no-print { display: none !important; }
+  .app, .main { display: block !important; height: auto !important; }
+  .content { padding: 0 !important; }
+  .print-only { display: block; }
+  .report-header { margin-bottom: 16px; }
+  .report-header h2 { margin: 0 0 4px; }
+  .report-header p { margin: 0; color: #444; font-size: 12px; }
+  body, .app { background: #fff !important; color: #000 !important; }
+  .panel, .card { border: 1px solid #ccc !important; background: #fff !important; box-shadow: none !important; break-inside: avoid; }
+  table { width: 100%; border-collapse: collapse; font-size: 11px; }
+  th, td { border: 1px solid #ddd; padding: 4px 6px; color: #000 !important; }
+  .value, .value.green, .value.red { color: #000 !important; }
+  tr { break-inside: avoid; }
+  @page { margin: 1.5cm; }
+}
+
+/* ---------- Calendário mensal (Agenda) ---------- */
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.cal-head { margin-bottom: 6px; }
+.cal-dow { text-align: center; font-size: 12px; color: var(--muted); font-weight: 600; padding: 4px 0; }
+.cal-cell { min-height: 96px; background: var(--bg-2, rgba(255,255,255,.02)); border: 1px solid var(--border); border-radius: 8px; padding: 5px; display: flex; flex-direction: column; gap: 3px; overflow: hidden; }
+.cal-cell.fora { opacity: .38; }
+.cal-cell.hoje { border-color: var(--accent, #c8a86a); box-shadow: 0 0 0 1px var(--accent, #c8a86a) inset; }
+.cal-num { font-size: 12px; color: var(--muted); font-weight: 600; align-self: flex-end; }
+.cal-cell.hoje .cal-num { color: var(--accent, #c8a86a); }
+.cal-evs { display: flex; flex-direction: column; gap: 3px; overflow: hidden; }
+.cal-pill { display: block; width: 100%; text-align: left; border: none; border-radius: 4px; padding: 2px 5px; font-size: 11px; font-weight: 500; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.4; }
+.cal-pill:hover { filter: brightness(1.15); }
+.cal-mais { font-size: 10px; color: var(--muted); padding-left: 4px; }
+@media (max-width: 720px) {
+  .cal-cell { min-height: 64px; }
+  .cal-pill { font-size: 10px; }
+}

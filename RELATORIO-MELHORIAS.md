@@ -9,8 +9,8 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 
 ## 1. Financeiro
 - 🔧 Marcar como **pago** com 1 clique, **editar** valor/data/status, **excluir**, **filtros** (tipo, status, mês) e **busca**.
-- 🔴 **Parcelamento de honorários**: gerar N parcelas automáticas com vencimentos mensais (hoje é lançamento a lançamento).
-- 🔴 **Baixa parcial** (cliente pagou metade) — hoje é pago/aberto, sem valor recebido parcial.
+- 🔧 **Parcelamento de honorários**: botão "Parcelar" gera N parcelas mensais (soma exata em centavos, vencimentos automáticos, marca parcela X/N).
+- 🔧 **Baixa parcial**: botão "Receber" registra valor parcial → status "parcial" e some quando quita; "Quitar" fecha de uma vez. Cards de resumo consideram o recebido parcial.
 - 🟡 **Recorrência** de despesas fixas (aluguel, software) — lançar 1x e repetir todo mês.
 - 🟡 **Juros/multa automáticos** em atraso; **desconto** para pagamento antecipado.
 - 🟡 **Formas de pagamento** (Pix, boleto, cartão, dinheiro) e **conta bancária**.
