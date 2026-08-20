@@ -1,0 +1,23 @@
+# Configuração de deploy no Render (plano free). Sobe backend + frontend num único serviço.
+services:
+  - type: web
+    name: jurisone
+    runtime: node
+    plan: free
+    rootDir: .
+    buildCommand: >
+      cd web && npm install && npm run build &&
+      cd ../server && npm install &&
+      npx prisma generate --schema prisma/schema.postgres.prisma &&
+      npx prisma db push --schema prisma/schema.postgres.prisma --skip-generate &&
+      node prisma/seed.js
+    startCommand: cd server && node src/index.js
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: JWT_SECRET
+        generateValue: true      # o Render gera um segredo forte automaticamente
+      - key: DATABASE_URL
+        sync: false              # você cola a string do Neon aqui (não vai pro git)
+      - key: DATAJUD_APIKEY
+        sync: false              # opcional; deixe em branco para usar a chave pública padrão
