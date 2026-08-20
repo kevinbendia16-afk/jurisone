@@ -86,9 +86,13 @@ model LancamentoFinanceiro {
   origem     String   @default("honorario") // honorario | despesa | custa | repasse | outro
   descricao  String
   valor      Float
+  valorPago  Float    @default(0) // quanto já foi recebido (baixa parcial)
   data       DateTime @default(now())
   vencimento DateTime?
-  status     String   @default("aberto") // aberto | pago | atrasado
+  status     String   @default("aberto") // aberto | parcial | pago | atrasado
+  parcelaNum   Int?     // nº desta parcela (1..N)
+  parcelaTotal Int?     // total de parcelas do grupo
+  grupoParcela String?  // id que agrupa as parcelas de um mesmo parcelamento
   clienteId  String?
   cliente    Cliente?  @relation(fields: [clienteId], references: [id], onDelete: SetNull)
   processoId String?

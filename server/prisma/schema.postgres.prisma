@@ -86,9 +86,13 @@ model LancamentoFinanceiro {
   origem     String   @default("honorario")
   descricao  String
   valor      Float
+  valorPago  Float    @default(0)
   data       DateTime @default(now())
   vencimento DateTime?
   status     String   @default("aberto")
+  parcelaNum   Int?
+  parcelaTotal Int?
+  grupoParcela String?
   clienteId  String?
   cliente    Cliente?  @relation(fields: [clienteId], references: [id], onDelete: SetNull)
   processoId String?

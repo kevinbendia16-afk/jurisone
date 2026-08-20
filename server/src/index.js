@@ -312,11 +312,62 @@ crud('/api/financeiro', 'lancamentoFinanceiro', {
   include: { cliente: true, processo: true },
   transform: (b) => ({
     tipo: b.tipo, origem: b.origem || 'outro', descricao: b.descricao,
-    valor: Number(b.valor), status: b.status || 'aberto',
+    valor: Number(b.valor), valorPago: Number(b.valorPago) || 0,
+    status: b.status || 'aberto',
     data: b.data ? new Date(b.data) : new Date(),
     vencimento: b.vencimento ? new Date(b.vencimento) : null,
+    parcelaNum: b.parcelaNum != null ? Number(b.parcelaNum) : null,
+    parcelaTotal: b.parcelaTotal != null ? Number(b.parcelaTotal) : null,
+    grupoParcela: b.grupoParcela || null,
     clienteId: b.clienteId || null, processoId: b.processoId || null,
   }),
+});
+
+// Baixa parcial: registra um valor recebido; ajusta status (parcial/pago) automaticamente.
+app.post('/api/financeiro/:id/receber', auth, async (req, res) => {
+  const l = await prisma.lancamentoFinanceiro.findUnique({ where: { id: req.params.id } });
+  if (!l) return res.status(404).json({ error: 'lançamento não encontrado' });
+  const add = Number(req.body.valor);
+  if (!(add > 0)) return res.status(400).json({ error: 'valor inválido' });
+  const pago = Math.min(l.valor, (l.valorPago || 0) + add); // não deixa passar do total
+  const status = pago >= l.valor ? 'pago' : 'parcial';
+  const upd = await prisma.lancamentoFinanceiro.update({
+    where: { id: l.id },
+    data: { valorPago: pago, status, ...(status === 'pago' && !l.data ? { data: new Date() } : {}) },
+  });
+  res.json(upd);
+});
+
+// Parcelamento: gera N lançamentos com vencimentos mensais a partir de uma base.
+app.post('/api/financeiro/parcelar', auth, async (req, res) => {
+  const b = req.body;
+  const n = Number(b.parcelas);
+  const total = Number(b.valorTotal);
+  if (!(n >= 1) || !(total > 0)) return res.status(400).json({ error: 'parcelas e valorTotal obrigatórios' });
+  const grupo = crypto.randomUUID();
+  const base = b.primeiroVencimento ? new Date(b.primeiroVencimento) : new Date();
+  // divide em centavos p/ a soma bater exatamente com o total
+  const centTotal = Math.round(total * 100);
+  const centBase = Math.floor(centTotal / n);
+  const resto = centTotal - centBase * n;
+  const criados = [];
+  for (let i = 0; i < n; i++) {
+    const cent = centBase + (i < resto ? 1 : 0); // sobra vai nas primeiras parcelas
+    const venc = new Date(base);
+    venc.setMonth(venc.getMonth() + i);
+    const item = await prisma.lancamentoFinanceiro.create({
+      data: {
+        tipo: b.tipo || 'entrada', origem: b.origem || 'honorario',
+        descricao: `${b.descricao} (${i + 1}/${n})`,
+        valor: cent / 100, valorPago: 0, status: 'aberto',
+        data: new Date(), vencimento: venc,
+        parcelaNum: i + 1, parcelaTotal: n, grupoParcela: grupo,
+        clienteId: b.clienteId || null, processoId: b.processoId || null,
+      },
+    });
+    criados.push(item);
+  }
+  res.status(201).json({ grupo, parcelas: criados });
 });
 
 // ---------- Valores de terceiros (precatórios) ----------
