@@ -73,7 +73,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔴 **Busca global** de verdade (a barra do topo ainda não pesquisa).
 - 🔴 **Botão "Ação rápida"** abrir os formulários direto (hoje leva à página).
 - 🔧 **Relatórios e exportação**: página "Relatórios" (menu) com 3 relatórios (financeiro/processos/prazos), filtros de período e status, cards de resumo, tabela; exporta **CSV** (abre no Excel) e **PDF** (via impressão do navegador com layout próprio de impressão).
-- 🔴 **Central de notificações** (prazo vencendo, pagamento, audiência).
+- 🔧 **Central de notificações**: sino no topo (badge com contagem), dropdown com prazos vencendo (≤7d), recebimentos a vencer/vencidos (≤7d) e audiências/compromissos próximos (≤3d), ordenado por urgência (vencido→alta→média), clique navega, "marcar como lida" (localStorage), atualiza a cada 2min. Endpoint /api/notificacoes calcula na hora.
 - 🔴 **Documentos/GED** (upload de arquivos, procurações, petições).
 - 🟡 **Contratos** e **modelos de petição** com variáveis.
 - 🟡 **Multiusuário** com permissões (quando o escritório crescer).
