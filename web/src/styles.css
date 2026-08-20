@@ -183,6 +183,9 @@ body { background:
 .badge { border: 1px solid transparent; }
 .detail-head { background: linear-gradient(180deg, var(--card), #121419); }
 tbody tr.clickable:hover { background: rgba(200,168,106,.05); }
+.clickable-card { cursor: pointer; }
+.clickable-card:hover { border-color: var(--accent); }
+.timeline .item.clickable:hover { background: rgba(200,168,106,.05); border-radius: 8px; }
 
 /* ============ Responsivo — celular ============ */
 @media (max-width: 640px) {

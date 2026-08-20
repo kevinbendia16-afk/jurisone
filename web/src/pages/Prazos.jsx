@@ -1,8 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { api, fmtDate } from '../api.js';
 import { PageHead, Field, Empty, Badge } from '../ui.jsx';
 
+// Quanto falta (ou faz) para o vencimento, com cor
+export function diasRestantes(dataFatal) {
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const d = new Date(dataFatal); d.setHours(0, 0, 0, 0);
+  const dias = Math.round((d - hoje) / 86400000);
+  if (dias < 0) return { texto: `Vencido há ${-dias} dia(s)`, cor: 'var(--red)' };
+  if (dias === 0) return { texto: 'Vence hoje', cor: 'var(--red)' };
+  if (dias <= 3) return { texto: `Vence em ${dias} dia(s)`, cor: 'var(--amber)' };
+  return { texto: `Vence em ${dias} dias`, cor: 'var(--muted)' };
+}
+
 export default function Prazos() {
+  const nav = useNavigate();
   const [list, setList] = useState([]);
   const load = () => api.get('/prazos').then(setList).catch(() => {});
   useEffect(() => { load(); }, []);
@@ -11,11 +24,16 @@ export default function Prazos() {
   const vencidos = list.filter((p) => p.status === 'pendente' && new Date(p.dataFatal) < hoje).length;
   const pendentes = list.filter((p) => p.status === 'pendente').length;
 
+  const abrir = (p) => {
+    if (p.processoId) nav('/processos/' + p.processoId);
+    else if (p.clienteId) nav('/clientes/' + p.clienteId);
+  };
+
   return (
     <div>
       <PageHead crumb="Controle de Prazos" title="Prazos processuais" desc="Monitoramento de vencimentos e a calculadora do CPC." />
       <div className="grid cards-3" style={{ marginBottom: 16 }}>
-        <div className="card"><div className="label">Vencidos</div><div className="value">{vencidos}</div></div>
+        <div className="card"><div className="label">Vencidos</div><div className="value" style={{ color: vencidos ? 'var(--red)' : 'inherit' }}>{vencidos}</div></div>
         <div className="card"><div className="label">Pendentes</div><div className="value">{pendentes}</div></div>
         <div className="card"><div className="label">Total</div><div className="value">{list.length}</div></div>
       </div>
@@ -23,11 +41,20 @@ export default function Prazos() {
       <div className="panel" style={{ marginBottom: 16 }}>
         {list.length === 0 ? <Empty>Nenhum prazo cadastrado.</Empty> : (
           <table>
-            <thead><tr><th>Prazo</th><th>Data fatal</th><th>Tipo</th><th>Status</th></tr></thead>
-            <tbody>{list.map((p) => (
-              <tr key={p.id}><td style={{ fontWeight: 600 }}>{p.titulo}</td>
-                <td className="mono">{fmtDate(p.dataFatal)}</td><td>{p.tipoContagem}</td><td><Badge>{p.status}</Badge></td></tr>
-            ))}</tbody>
+            <thead><tr><th>Prazo</th><th>Cliente</th><th>Processo</th><th>Data fatal</th><th>Situação</th><th>Status</th></tr></thead>
+            <tbody>{list.map((p) => {
+              const dr = diasRestantes(p.dataFatal);
+              return (
+                <tr key={p.id} className="clickable" onClick={() => abrir(p)}>
+                  <td style={{ fontWeight: 600 }}>{p.titulo}</td>
+                  <td style={{ color: 'var(--muted)' }}>{p.cliente?.nome || '—'}</td>
+                  <td className="mono" style={{ fontSize: 12 }}>{p.processo?.numeroCnj || p.processo?.titulo || '—'}</td>
+                  <td className="mono">{fmtDate(p.dataFatal)}</td>
+                  <td style={{ color: dr.cor, fontWeight: 500 }}>{dr.texto}</td>
+                  <td><Badge>{p.status}</Badge></td>
+                </tr>
+              );
+            })}</tbody>
           </table>
         )}
       </div>

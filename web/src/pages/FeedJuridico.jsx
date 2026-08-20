@@ -16,10 +16,12 @@ function linkSeguro(url) {
 export default function FeedJuridico() {
   const [itens, setItens] = useState(null);
   const [cat, setCat] = useState('Todas');
+  const [vis, setVis] = useState(8); // carrega aos poucos p/ não pesar
   const [salvos, setSalvos] = useState(() => JSON.parse(localStorage.getItem('feed_salvos') || '[]'));
 
   const carregar = () => { setItens(null); api.get('/feed').then(setItens).catch(() => setItens([])); };
   useEffect(() => { carregar(); }, []);
+  useEffect(() => { setVis(8); }, [cat]); // ao trocar categoria, recomeça
 
   function toggleSalvo(titulo) {
     const novo = salvos.includes(titulo) ? salvos.filter((s) => s !== titulo) : [...salvos, titulo];
@@ -45,7 +47,7 @@ export default function FeedJuridico() {
         <div className="panel"><Empty>Nenhum item nesta categoria no momento.</Empty></div>
       ) : (
         <div className="grid" style={{ gap: 14 }}>
-          {lista.map((i, idx) => (
+          {lista.slice(0, vis).map((i, idx) => (
             <div className="card feed-item" key={idx}>
               <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginBottom: 10 }}>
                 <span className={'badge ' + (CORES[i.categoria] || 'gray')}>{i.categoria}</span>
@@ -60,6 +62,10 @@ export default function FeedJuridico() {
                 style={{ color: 'var(--green)', fontSize: 13, display: 'inline-block', marginTop: 10 }}>Ler na fonte →</a>}
             </div>
           ))}
+          {vis < lista.length && (
+            <button className="btn ghost" style={{ margin: '4px auto', width: 220, justifyContent: 'center' }}
+              onClick={() => setVis((v) => v + 8)}>Carregar mais ({lista.length - vis} restantes)</button>
+          )}
         </div>
       )}
     </div>

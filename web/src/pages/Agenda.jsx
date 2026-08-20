@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { api } from '../api.js';
 import { PageHead, Modal, Field, Empty } from '../ui.jsx';
 
@@ -15,9 +16,11 @@ export const CATEGORIAS = {
 };
 
 export default function Agenda() {
+  const nav = useNavigate();
   const [list, setList] = useState([]);
   const [open, setOpen] = useState(false);
   const [filtro, setFiltro] = useState('todas');
+  const abrir = (e) => { if (e.processoId) nav('/processos/' + e.processoId); else if (e.clienteId) nav('/clientes/' + e.clienteId); };
   const load = () => api.get('/eventos').then((r) =>
     setList(r.slice().sort((a, b) => new Date(a.inicio) - new Date(b.inicio)))).catch(() => {});
   useEffect(() => { load(); }, []);
@@ -51,18 +54,24 @@ export default function Agenda() {
                 const cat = CATEGORIAS[e.categoria] || CATEGORIAS.outro;
                 const hora = e.diaInteiro ? 'Dia inteiro'
                   : new Date(e.inicio).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+                const clicavel = !!(e.processoId || e.clienteId);
                 return (
-                  <div key={e.id} style={{ display: 'flex', gap: 14, alignItems: 'center', padding: '14px 18px', borderBottom: '1px solid var(--border)' }}>
+                  <div key={e.id} className={clicavel ? 'clickable' : ''} onClick={clicavel ? () => abrir(e) : undefined}
+                    style={{ display: 'flex', gap: 14, alignItems: 'center', padding: '14px 18px', borderBottom: '1px solid var(--border)', cursor: clicavel ? 'pointer' : 'default' }}>
                     <span style={{ width: 4, alignSelf: 'stretch', borderRadius: 4, background: cat.cor }} />
                     <span style={{ fontFamily: 'var(--mono)', color: 'var(--muted)', width: 90 }}>{hora}</span>
                     <span style={{ fontSize: 18 }}>{cat.ico}</span>
                     <div style={{ flex: 1 }}>
                       <div style={{ fontWeight: 600 }}>{e.titulo}</div>
                       <div style={{ color: 'var(--muted)', fontSize: 13 }}>
-                        {cat.label}{e.cliente ? ` · ${e.cliente.nome}` : ''}{e.local ? ` · ${e.local}` : ''}
+                        {cat.label}
+                        {e.cliente ? <> · 👤 <b style={{ color: 'var(--text)' }}>{e.cliente.nome}</b></> : ''}
+                        {e.processo?.numeroCnj ? ` · ${e.processo.numeroCnj}` : ''}
+                        {e.local ? ` · ${e.local}` : ''}
                       </div>
                     </div>
                     <span className="badge" style={{ background: cat.cor + '22', color: cat.cor }}>{cat.label}</span>
+                    {clicavel && <span style={{ color: 'var(--muted-2)' }}>›</span>}
                   </div>
                 );
               })}
