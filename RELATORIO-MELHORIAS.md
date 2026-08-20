@@ -11,7 +11,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔧 Marcar como **pago** com 1 clique, **editar** valor/data/status, **excluir**, **filtros** (tipo, status, mês) e **busca**.
 - 🔧 **Parcelamento de honorários**: botão "Parcelar" gera N parcelas mensais (soma exata em centavos, vencimentos automáticos, marca parcela X/N).
 - 🔧 **Baixa parcial**: botão "Receber" registra valor parcial → status "parcial" e some quando quita; "Quitar" fecha de uma vez. Cards de resumo consideram o recebido parcial.
-- 🟡 **Recorrência** de despesas fixas (aluguel, software) — lançar 1x e repetir todo mês.
+- 🔧 **Recorrência** de despesas fixas (aluguel, software) — modal "Parcelar/Repetir" gera N meses com o mesmo valor.
 - 🟡 **Juros/multa automáticos** em atraso; **desconto** para pagamento antecipado.
 - 🟡 **Formas de pagamento** (Pix, boleto, cartão, dinheiro) e **conta bancária**.
 - 🟡 **Fluxo de caixa** (saldo acumulado por período) e **DRE** simples (receita − despesa = resultado).
@@ -21,7 +21,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 ## 2. Clientes
 - ✅ CRM com PF/PJ, visão 360º, importar/exportar CSV, aba WhatsApp.
 - 🔴 **Editar/excluir** cliente (hoje só cria e visualiza).
-- 🟡 Campos ricos: RG, nascimento, endereço, profissão, estado civil, **tags**, origem/indicação.
+- 🔧 Campos ricos: RG, nascimento, endereço/cidade/UF/CEP, profissão, estado civil, **tags**, origem — na seção "mais dados" e exibidos no perfil.
 - 🟡 **Anotações** e **histórico de atendimentos** dentro do cliente (as abas existem, faltam ações).
 - 🔧 **Máscara** de CPF/CNPJ e telefone ao digitar (formatação automática; SEM bloqueio/validação obrigatória — decisão do Kevin p/ não travar cadastro).
 - 🔧 Botão "ligar" (tel:) e "e-mail" (mailto:) clicáveis no perfil e na lista.
@@ -30,7 +30,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - ✅ Cadastro, visão 360º, movimentações manuais, sincronização DataJud (botão).
 - 🔴 **Editar/excluir** processo.
 - 🔧 **Sincronização em massa** do DataJud (botão "Sincronizar todos" na lista de processos — atualiza todos com nº CNJ de uma vez). Agendamento automático (cron) ainda depende de plano pago/serviço externo.
-- 🟡 Partes (polo ativo/passivo, advogado contrário), vara, comarca, órgão.
+- 🔧 Partes (polo ativo/passivo, advogado contrário), vara, comarca, órgão, valor da causa — no cadastro/edição e exibidos na visão geral.
 - 🟡 **Anexar documentos/petições** ao processo (GED).
 - 💡 Cores por status; alerta visual quando há novidade na sincronização.
 
@@ -75,7 +75,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔧 **Relatórios e exportação**: página "Relatórios" (menu) com 3 relatórios (financeiro/processos/prazos), filtros de período e status, cards de resumo, tabela; exporta **CSV** (abre no Excel) e **PDF** (via impressão do navegador com layout próprio de impressão).
 - 🔧 **Central de notificações**: sino no topo (badge com contagem), dropdown com prazos vencendo (≤7d), recebimentos a vencer/vencidos (≤7d) e audiências/compromissos próximos (≤3d), ordenado por urgência (vencido→alta→média), clique navega, "marcar como lida" (localStorage), atualiza a cada 2min. Endpoint /api/notificacoes calcula na hora.
 - 🔧 **Documentos/GED**: aba "Documentos" em processo e cliente — anexar arquivos (procuração, petição, contrato, comprovante, decisão), baixar e excluir; categorias, ícone por tipo, tamanho legível; até 8MB/arquivo. Guardado no banco (base64). ⚠️ Neon free ~0.5GB → migrar p/ storage externo (R2/S3) se crescer.
-- 🟡 **Contratos** e **modelos de petição** com variáveis.
+- 🔧 **Modelos de peças** (petição/contrato/procuração) com variáveis {{cliente.*}}/{{processo.*}}/{{data}} que se preenchem sozinhas; variáveis próprias viram campos manuais; preview + copiar + baixar .txt. (Menu "Modelos de peças".)
 - 🟡 **Multiusuário** com permissões (quando o escritório crescer).
 - 🟡 **Troca de senha** já existe em Configurações; falta **recuperação por e-mail**.
 - 🟡 **Lixeira** (restaurar itens excluídos).
