@@ -15,7 +15,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🟡 **Juros/multa automáticos** em atraso; **desconto** para pagamento antecipado.
 - 🟡 **Formas de pagamento** (Pix, boleto, cartão, dinheiro) e **conta bancária**.
 - 🟡 **Fluxo de caixa** (saldo acumulado por período) e **DRE** simples (receita − despesa = resultado).
-- 💡 Marcar automaticamente como **"atrasado"** quando passa do vencimento e continua aberto.
+- 🔧 Marca automaticamente como **"atrasado"** (badge vermelho) quando passa do vencimento e continua em aberto.
 - 💡 Comprovante/recibo em PDF ao dar baixa.
 
 ## 2. Clientes
@@ -23,13 +23,13 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔴 **Editar/excluir** cliente (hoje só cria e visualiza).
 - 🟡 Campos ricos: RG, nascimento, endereço, profissão, estado civil, **tags**, origem/indicação.
 - 🟡 **Anotações** e **histórico de atendimentos** dentro do cliente (as abas existem, faltam ações).
-- 💡 **Máscara** de CPF/CNPJ e telefone ao digitar; validação de CPF/CNPJ real.
-- 💡 Botão "ligar" e "e-mail" clicáveis no perfil.
+- 🔧 **Máscara** de CPF/CNPJ e telefone ao digitar (formatação automática; SEM bloqueio/validação obrigatória — decisão do Kevin p/ não travar cadastro).
+- 🔧 Botão "ligar" (tel:) e "e-mail" (mailto:) clicáveis no perfil e na lista.
 
 ## 3. Processos
 - ✅ Cadastro, visão 360º, movimentações manuais, sincronização DataJud (botão).
 - 🔴 **Editar/excluir** processo.
-- 🔴 **Sincronização automática agendada** do DataJud (hoje é manual, 1 clique por processo).
+- 🔧 **Sincronização em massa** do DataJud (botão "Sincronizar todos" na lista de processos — atualiza todos com nº CNJ de uma vez). Agendamento automático (cron) ainda depende de plano pago/serviço externo.
 - 🟡 Partes (polo ativo/passivo, advogado contrário), vara, comarca, órgão.
 - 🟡 **Anexar documentos/petições** ao processo (GED).
 - 💡 Cores por status; alerta visual quando há novidade na sincronização.
@@ -37,31 +37,31 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 ## 4. Prazos
 - ✅ Calculadora do CPC; 🔧 agora mostram **cliente/processo** e são clicáveis.
 - 🔴 **Marcar prazo como cumprido**; **editar/excluir** prazo.
-- 🔴 **Feriados forenses e do tribunal** na calculadora (hoje só nacionais + recesso).
+- 🔧 **Feriados móveis nacionais** na calculadora (Carnaval, Sexta-feira Santa, Corpus Christi — via cálculo da Páscoa) + nacionais fixos + recesso. Faltam ainda forenses estaduais/municipais específicos.
 - 🟡 Vincular prazo direto pela publicação (o esboço existe, falta ligar ao fluxo).
 - 💡 Alerta/notificação quando faltam X dias; cor por urgência (🔧 já colori no dashboard/lista).
 
 ## 5. Agenda
 - ✅ Categorias, agrupada por dia; 🔧 agora cada compromisso é **clicável** e mostra o cliente.
 - 🔴 **Editar/excluir/concluir** compromisso.
-- 🔧 Visão de **calendário mensal** (alterna Lista/Calendário; cores por categoria + legenda; navegação ‹ Hoje ›; clique no evento abre modal com data/hora/local/cliente/processo/observações e ações concluir/abrir/excluir). Semanal ainda falta.
+- 🔧 Visões de **calendário mensal e semanal** (alterna Lista/Semana/Mês; cores por categoria + legenda; navegação ‹ Hoje ›; clique no evento abre modal com data/hora/local/cliente/processo/observações e ações concluir/abrir/excluir).
 - 🟡 Lembretes/notificações; recorrência; sincronizar com Google Calendar.
 - 💡 Alerta de conflito de horário; contagem "hoje / próximos 7 dias".
 
 ## 6. Tarefas
 - ✅ Lista com prioridade/status.
-- 🔴 **Editar/concluir/excluir** tarefa; visão **Kanban**.
+- 🔧 **Editar/concluir/excluir** tarefa; visão **Kanban** (3 colunas: A fazer/Em andamento/Concluídas, mover entre colunas).
 - 🟡 Vincular a prazo/audiência; responsável (quando houver equipe).
 
 ## 7. Precatórios / Valores de terceiros
 - ✅ Cálculo do líquido correto; separação receita × custódia.
 - 🔴 **Editar/excluir**; registrar o **repasse** (comprovante, data) e mudar status para "repassado".
-- 🟡 Alerta de data prevista chegando.
+- 🔧 Alerta de data prevista chegando (aparece na central de notificações, ≤15 dias).
 
 ## 8. Feed Jurídico
 - 🔧 Agora puxa **fontes oficiais reais** (STF, STJ, CNJ, Senado, Conjur, Migalhas), classificado, carrega aos poucos.
 - 🟡 Personalizar por **área de atuação** do advogado (mostrar só o relevante) — precisa de IA/filtro.
-- 💡 Marcar "lido"; busca dentro do feed.
+- 🔧 Marcar "lido" (esmaece), busca no feed e filtro "só salvos".
 
 ## 9. Dashboard
 - 🔧 Números e alertas agora **clicáveis** (levam à pessoa/processo/página).
