@@ -1,4 +1,4 @@
-﻿// JurisOne â€” modelo de dados (Fase 1). Banco: SQLite (dev). Trocar provider p/ postgresql na nuvem.
+// JurisOne - modelo de dados (Fase 1). Versao PostgreSQL (nuvem).
 generator client {
   provider = "prisma-client-js"
 }
@@ -18,12 +18,12 @@ model Usuario {
 
 model Cliente {
   id           String   @id @default(cuid())
-  tipo         String   @default("PF") // PF | PJ
+  tipo         String   @default("PF")
   nome         String
   cpfCnpj      String?
   telefone     String?
   email        String?
-  status       String   @default("ativo") // potencial | ativo | inativo | arquivado | inadimplente
+  status       String   @default("ativo")
   responsavel  String?
   observacoes  String?
   createdAt    DateTime @default(now())
@@ -42,9 +42,9 @@ model Processo {
   cliente    Cliente  @relation(fields: [clienteId], references: [id], onDelete: Cascade)
   numeroCnj  String?
   titulo     String
-  area       String   @default("CÃ­vel")
-  status     String   @default("ativo") // consulta | ativo | recurso | encerrado ...
-  prioridade String   @default("normal") // normal | alta | urgente
+  area       String   @default("Civel")
+  status     String   @default("ativo")
+  prioridade String   @default("normal")
   valorCausa Float?
   createdAt  DateTime @default(now())
 
@@ -74,21 +74,21 @@ model Prazo {
   dataInicio   DateTime
   dataFatal    DateTime
   dias         Int?
-  tipoContagem String   @default("uteis") // uteis | corridos
+  tipoContagem String   @default("uteis")
   prioridade   String   @default("normal")
-  status       String   @default("pendente") // pendente | cumprido | cancelado
+  status       String   @default("pendente")
   createdAt    DateTime @default(now())
 }
 
 model LancamentoFinanceiro {
   id         String   @id @default(cuid())
-  tipo       String   // entrada | saida
-  origem     String   @default("honorario") // honorario | despesa | custa | repasse | outro
+  tipo       String
+  origem     String   @default("honorario")
   descricao  String
   valor      Float
   data       DateTime @default(now())
   vencimento DateTime?
-  status     String   @default("aberto") // aberto | pago | atrasado
+  status     String   @default("aberto")
   clienteId  String?
   cliente    Cliente?  @relation(fields: [clienteId], references: [id], onDelete: SetNull)
   processoId String?
@@ -96,41 +96,38 @@ model LancamentoFinanceiro {
   createdAt  DateTime @default(now())
 }
 
-// PrecatÃ³rios / valores de terceiros â€” dinheiro do cliente, NÃƒO Ã© receita do escritÃ³rio.
+// Precatorios / valores de terceiros - dinheiro do cliente, NAO e receita do escritorio.
 model ValorTerceiro {
   id            String   @id @default(cuid())
   clienteId     String
   cliente       Cliente  @relation(fields: [clienteId], references: [id], onDelete: Cascade)
   processoId    String?
   processo      Processo? @relation(fields: [processoId], references: [id], onDelete: SetNull)
-  tipo          String   @default("precatorio") // precatorio | rpv | acordo | alvara | deposito_judicial
+  tipo          String   @default("precatorio")
   valorBruto    Float    @default(0)
   honorarioPct  Float    @default(0)
   custas        Float    @default(0)
   irRetido      Float    @default(0)
-  // honorarioValor e valorLiquido sÃ£o calculados no backend e persistidos p/ relatÃ³rios
   honorarioValor Float   @default(0)
   valorLiquido  Float    @default(0)
   tribunal      String?
   enteDevedor   String?
   dataPrevista  DateTime?
-  status        String   @default("aguardando") // aguardando | recebido | repassado
+  status        String   @default("aguardando")
   createdAt     DateTime @default(now())
 }
 
-// Agenda â€” eventos categorizados para o advogado se planejar.
+// Agenda - eventos categorizados para o advogado se planejar.
 model Evento {
   id         String   @id @default(cuid())
   titulo     String
-  // categoria: audiencia | prazo | reuniao_cliente | novo_cliente | revisar_processo |
-  //            diligencia | tarefa | prazo_interno | outro
   categoria  String   @default("outro")
   inicio     DateTime
   fim        DateTime?
   diaInteiro Boolean  @default(false)
   local      String?
   descricao  String?
-  status     String   @default("agendado") // agendado | concluido | cancelado
+  status     String   @default("agendado")
   clienteId  String?
   cliente    Cliente?  @relation(fields: [clienteId], references: [id], onDelete: SetNull)
   processoId String?
@@ -142,7 +139,7 @@ model Tarefa {
   id         String   @id @default(cuid())
   titulo     String
   descricao  String?
-  status     String   @default("pendente") // pendente | em_andamento | concluida | cancelada
+  status     String   @default("pendente")
   prioridade String   @default("normal")
   prazo      DateTime?
   clienteId  String?
@@ -151,4 +148,3 @@ model Tarefa {
   processo   Processo? @relation(fields: [processoId], references: [id], onDelete: SetNull)
   createdAt  DateTime @default(now())
 }
-
