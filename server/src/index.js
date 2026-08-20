@@ -194,6 +194,10 @@ crud('/api/clientes', 'cliente', {
     telefone: b.telefone || null, email: b.email || null,
     status: b.status || 'ativo', responsavel: b.responsavel || null,
     observacoes: b.observacoes || null,
+    rg: b.rg || null, nascimento: b.nascimento ? new Date(b.nascimento) : null,
+    profissao: b.profissao || null, estadoCivil: b.estadoCivil || null,
+    endereco: b.endereco || null, cidade: b.cidade || null, uf: b.uf || null, cep: b.cep || null,
+    tags: b.tags || null, origem: b.origem || null,
   }),
 });
 // visão 360º do cliente
@@ -241,7 +245,9 @@ crud('/api/processos', 'processo', {
     clienteId: b.clienteId, numeroCnj: b.numeroCnj || null, titulo: b.titulo,
     area: b.area || 'Cível', status: b.status || 'ativo',
     prioridade: b.prioridade || 'normal',
-    valorCausa: b.valorCausa != null ? Number(b.valorCausa) : null,
+    valorCausa: b.valorCausa != null && b.valorCausa !== '' ? Number(b.valorCausa) : null,
+    poloAtivo: b.poloAtivo || null, poloPassivo: b.poloPassivo || null, advContrario: b.advContrario || null,
+    vara: b.vara || null, comarca: b.comarca || null, orgao: b.orgao || null,
   }),
 });
 app.get('/api/processos/:id/completo', auth, async (req, res) => {

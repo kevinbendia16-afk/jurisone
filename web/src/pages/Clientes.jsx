@@ -97,7 +97,9 @@ export default function Clientes() {
 }
 
 function NovoCliente({ onClose, onSaved }) {
-  const [f, setF] = useState({ tipo: 'PF', status: 'ativo', nome: '', cpfCnpj: '', telefone: '', email: '' });
+  const [f, setF] = useState({ tipo: 'PF', status: 'ativo', nome: '', cpfCnpj: '', telefone: '', email: '',
+    rg: '', nascimento: '', profissao: '', estadoCivil: '', endereco: '', cidade: '', uf: '', cep: '', tags: '', origem: '' });
+  const [mais, setMais] = useState(false);
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   async function save() {
     if (!f.nome.trim()) return;
@@ -120,6 +122,34 @@ function NovoCliente({ onClose, onSaved }) {
           onChange={(e) => setF({ ...f, telefone: maskTelefone(e.target.value) })} placeholder="(11) 91234-5678" /></Field>
       </div>
       <Field label="E-mail"><input className="input" type="email" value={f.email} onChange={set('email')} /></Field>
+
+      <button type="button" className="btn ghost sm" style={{ marginBottom: 14 }} onClick={() => setMais((v) => !v)}>
+        {mais ? '− Menos dados' : '+ Mais dados (endereço, profissão, tags…)'}
+      </button>
+      {mais && <>
+        <div className="row-2">
+          <Field label="RG"><input className="input" value={f.rg} onChange={set('rg')} /></Field>
+          <Field label="Nascimento"><input className="input" type="date" value={f.nascimento} onChange={set('nascimento')} /></Field>
+        </div>
+        <div className="row-2">
+          <Field label="Profissão"><input className="input" value={f.profissao} onChange={set('profissao')} /></Field>
+          <Field label="Estado civil"><select className="input" value={f.estadoCivil} onChange={set('estadoCivil')}>
+            <option value="">—</option><option>Solteiro(a)</option><option>Casado(a)</option><option>Divorciado(a)</option>
+            <option>Viúvo(a)</option><option>União estável</option></select></Field>
+        </div>
+        <Field label="Endereço"><input className="input" value={f.endereco} onChange={set('endereco')} placeholder="Rua, nº, complemento, bairro" /></Field>
+        <div className="row-2">
+          <Field label="Cidade"><input className="input" value={f.cidade} onChange={set('cidade')} /></Field>
+          <div className="row-2">
+            <Field label="UF"><input className="input" maxLength={2} value={f.uf} onChange={(e) => setF({ ...f, uf: e.target.value.toUpperCase() })} /></Field>
+            <Field label="CEP"><input className="input" value={f.cep} onChange={set('cep')} /></Field>
+          </div>
+        </div>
+        <div className="row-2">
+          <Field label="Tags (separadas por vírgula)"><input className="input" value={f.tags} onChange={set('tags')} placeholder="VIP, trabalhista, indicação" /></Field>
+          <Field label="Origem"><input className="input" value={f.origem} onChange={set('origem')} placeholder="Indicação, site, Google…" /></Field>
+        </div>
+      </>}
       <div className="actions"><button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={save}>Salvar cliente</button></div>
     </Modal>
   );

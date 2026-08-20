@@ -26,6 +26,16 @@ model Cliente {
   status       String   @default("ativo") // potencial | ativo | inativo | arquivado | inadimplente
   responsavel  String?
   observacoes  String?
+  rg           String?
+  nascimento   DateTime?
+  profissao    String?
+  estadoCivil  String?
+  endereco     String?
+  cidade       String?
+  uf           String?
+  cep          String?
+  tags         String?  // separadas por vírgula
+  origem       String?  // como chegou ao escritório (indicação, site, etc.)
   createdAt    DateTime @default(now())
 
   processos      Processo[]
@@ -47,6 +57,12 @@ model Processo {
   status     String   @default("ativo") // consulta | ativo | recurso | encerrado ...
   prioridade String   @default("normal") // normal | alta | urgente
   valorCausa Float?
+  poloAtivo    String?
+  poloPassivo  String?
+  advContrario String?
+  vara         String?
+  comarca      String?
+  orgao        String?
   createdAt  DateTime @default(now())
 
   movimentacoes  Movimentacao[]

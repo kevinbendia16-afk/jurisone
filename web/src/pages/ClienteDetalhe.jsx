@@ -63,6 +63,21 @@ export default function ClienteDetalhe() {
             <div className="card"><div className="label">A receber</div><div className="value money">{fmtMoney(aReceber)}</div></div>
             <div className="card"><div className="label">Próximos prazos</div><div className="value">{d.prazos.length}</div></div>
           </div>
+          {(c.tags || c.rg || c.nascimento || c.profissao || c.estadoCivil || c.endereco || c.cidade || c.origem) && (
+            <div className="panel" style={{ padding: 22, marginBottom: 16 }}>
+              <div className="label" style={{ color: 'var(--muted)', marginBottom: 16 }}>Dados cadastrais</div>
+              {c.tags && <div style={{ marginBottom: 14, display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                {c.tags.split(',').map((t) => t.trim()).filter(Boolean).map((t) => <span key={t} className="badge gray">🏷 {t}</span>)}</div>}
+              <div className="kv">
+                {c.rg && <div><div className="k">RG</div><div className="v">{c.rg}</div></div>}
+                {c.nascimento && <div><div className="k">Nascimento</div><div className="v">{fmtDate(c.nascimento)}</div></div>}
+                {c.profissao && <div><div className="k">Profissão</div><div className="v" style={{ fontFamily: 'inherit' }}>{c.profissao}</div></div>}
+                {c.estadoCivil && <div><div className="k">Estado civil</div><div className="v" style={{ fontFamily: 'inherit' }}>{c.estadoCivil}</div></div>}
+                {(c.endereco || c.cidade) && <div><div className="k">Endereço</div><div className="v" style={{ fontFamily: 'inherit' }}>{[c.endereco, c.cidade && `${c.cidade}${c.uf ? '/' + c.uf : ''}`, c.cep].filter(Boolean).join(' · ')}</div></div>}
+                {c.origem && <div><div className="k">Origem</div><div className="v" style={{ fontFamily: 'inherit' }}>{c.origem}</div></div>}
+              </div>
+            </div>
+          )}
           <div className="panel" style={{ padding: 22 }}>
             <div className="label" style={{ color: 'var(--muted)', marginBottom: 16 }}>Timeline do relacionamento</div>
             <div className="timeline">
@@ -117,6 +132,9 @@ function EditarCliente({ cliente, onClose, onSaved }) {
     tipo: cliente.tipo || 'PF', status: cliente.status || 'ativo', nome: cliente.nome || '',
     cpfCnpj: cliente.cpfCnpj || '', telefone: cliente.telefone || '', email: cliente.email || '',
     responsavel: cliente.responsavel || '', observacoes: cliente.observacoes || '',
+    rg: cliente.rg || '', nascimento: cliente.nascimento ? String(cliente.nascimento).slice(0, 10) : '',
+    profissao: cliente.profissao || '', estadoCivil: cliente.estadoCivil || '', endereco: cliente.endereco || '',
+    cidade: cliente.cidade || '', uf: cliente.uf || '', cep: cliente.cep || '', tags: cliente.tags || '', origem: cliente.origem || '',
   });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   async function salvar() { if (!f.nome.trim()) return; await api.put('/clientes/' + cliente.id, f); onSaved(); }
@@ -135,6 +153,28 @@ function EditarCliente({ cliente, onClose, onSaved }) {
       </div>
       <Field label="E-mail"><input className="input" value={f.email} onChange={set('email')} /></Field>
       <Field label="Responsável"><input className="input" value={f.responsavel} onChange={set('responsavel')} /></Field>
+      <div className="row-2">
+        <Field label="RG"><input className="input" value={f.rg} onChange={set('rg')} /></Field>
+        <Field label="Nascimento"><input className="input" type="date" value={f.nascimento} onChange={set('nascimento')} /></Field>
+      </div>
+      <div className="row-2">
+        <Field label="Profissão"><input className="input" value={f.profissao} onChange={set('profissao')} /></Field>
+        <Field label="Estado civil"><select className="input" value={f.estadoCivil} onChange={set('estadoCivil')}>
+          <option value="">—</option><option>Solteiro(a)</option><option>Casado(a)</option><option>Divorciado(a)</option>
+          <option>Viúvo(a)</option><option>União estável</option></select></Field>
+      </div>
+      <Field label="Endereço"><input className="input" value={f.endereco} onChange={set('endereco')} placeholder="Rua, nº, complemento, bairro" /></Field>
+      <div className="row-2">
+        <Field label="Cidade"><input className="input" value={f.cidade} onChange={set('cidade')} /></Field>
+        <div className="row-2">
+          <Field label="UF"><input className="input" maxLength={2} value={f.uf} onChange={(e) => setF({ ...f, uf: e.target.value.toUpperCase() })} /></Field>
+          <Field label="CEP"><input className="input" value={f.cep} onChange={set('cep')} /></Field>
+        </div>
+      </div>
+      <div className="row-2">
+        <Field label="Tags (vírgula)"><input className="input" value={f.tags} onChange={set('tags')} placeholder="VIP, trabalhista" /></Field>
+        <Field label="Origem"><input className="input" value={f.origem} onChange={set('origem')} placeholder="Indicação, site…" /></Field>
+      </div>
       <Field label="Observações"><textarea className="input" rows={3} value={f.observacoes} onChange={set('observacoes')} style={{ resize: 'vertical' }} /></Field>
       <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={salvar}>Salvar alterações</button>
     </Modal>

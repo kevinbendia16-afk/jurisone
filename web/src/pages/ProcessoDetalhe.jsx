@@ -68,11 +68,27 @@ export default function ProcessoDetalhe() {
       <div className="tabs">{TABS.map((t) => <button key={t} className={tab === t ? 'active' : ''} onClick={() => setTab(t)}>{t}</button>)}</div>
 
       {tab === 'Visão geral' && (
-        <div className="grid cards-3">
-          <div className="card"><div className="label">Receitas do processo</div><div className="value money green">{fmtMoney(receitas)}</div></div>
-          <div className="card"><div className="label">Despesas do processo</div><div className="value money">{fmtMoney(despesas)}</div></div>
-          <div className="card"><div className="label">Saldo</div><div className="value money">{fmtMoney(receitas - despesas)}</div></div>
-        </div>
+        <>
+          <div className="grid cards-3" style={{ marginBottom: 16 }}>
+            <div className="card"><div className="label">Receitas do processo</div><div className="value money green">{fmtMoney(receitas)}</div></div>
+            <div className="card"><div className="label">Despesas do processo</div><div className="value money">{fmtMoney(despesas)}</div></div>
+            <div className="card"><div className="label">Saldo</div><div className="value money">{fmtMoney(receitas - despesas)}</div></div>
+          </div>
+          {(p.poloAtivo || p.poloPassivo || p.advContrario || p.vara || p.comarca || p.orgao || p.valorCausa) && (
+            <div className="panel" style={{ padding: 22 }}>
+              <div className="label" style={{ color: 'var(--muted)', marginBottom: 16 }}>Dados do processo</div>
+              <div className="kv">
+                {p.poloAtivo && <div><div className="k">Polo ativo</div><div className="v" style={{ fontFamily: 'inherit' }}>{p.poloAtivo}</div></div>}
+                {p.poloPassivo && <div><div className="k">Polo passivo</div><div className="v" style={{ fontFamily: 'inherit' }}>{p.poloPassivo}</div></div>}
+                {p.advContrario && <div><div className="k">Adv. contrário</div><div className="v" style={{ fontFamily: 'inherit' }}>{p.advContrario}</div></div>}
+                {p.vara && <div><div className="k">Vara</div><div className="v" style={{ fontFamily: 'inherit' }}>{p.vara}</div></div>}
+                {p.comarca && <div><div className="k">Comarca</div><div className="v" style={{ fontFamily: 'inherit' }}>{p.comarca}</div></div>}
+                {p.orgao && <div><div className="k">Órgão</div><div className="v" style={{ fontFamily: 'inherit' }}>{p.orgao}</div></div>}
+                {p.valorCausa != null && <div><div className="k">Valor da causa</div><div className="v">{fmtMoney(p.valorCausa)}</div></div>}
+              </div>
+            </div>
+          )}
+        </>
       )}
 
       {tab === 'Movimentações' && (
@@ -112,6 +128,8 @@ function EditarProcesso({ proc, onClose, onSaved }) {
     titulo: proc.titulo || '', numeroCnj: proc.numeroCnj || '', area: proc.area || 'Cível',
     status: proc.status || 'ativo', prioridade: proc.prioridade || 'normal',
     valorCausa: proc.valorCausa ?? '', clienteId: proc.clienteId,
+    poloAtivo: proc.poloAtivo || '', poloPassivo: proc.poloPassivo || '', advContrario: proc.advContrario || '',
+    vara: proc.vara || '', comarca: proc.comarca || '', orgao: proc.orgao || '',
   });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   async function salvar() { if (!f.titulo.trim()) return; await api.put('/processos/' + proc.id, f); onSaved(); }
@@ -129,7 +147,19 @@ function EditarProcesso({ proc, onClose, onSaved }) {
         <Field label="Prioridade"><select className="input" value={f.prioridade} onChange={set('prioridade')}>
           <option value="normal">normal</option><option value="alta">alta</option><option value="urgente">urgente</option></select></Field>
       </div>
-      <Field label="Valor da causa (R$)"><input className="input" type="number" value={f.valorCausa} onChange={set('valorCausa')} /></Field>
+      <div className="row-2">
+        <Field label="Polo ativo (autor)"><input className="input" value={f.poloAtivo} onChange={set('poloAtivo')} /></Field>
+        <Field label="Polo passivo (réu)"><input className="input" value={f.poloPassivo} onChange={set('poloPassivo')} /></Field>
+      </div>
+      <Field label="Advogado da parte contrária"><input className="input" value={f.advContrario} onChange={set('advContrario')} /></Field>
+      <div className="row-2">
+        <Field label="Vara"><input className="input" value={f.vara} onChange={set('vara')} /></Field>
+        <Field label="Comarca"><input className="input" value={f.comarca} onChange={set('comarca')} /></Field>
+      </div>
+      <div className="row-2">
+        <Field label="Órgão / Tribunal"><input className="input" value={f.orgao} onChange={set('orgao')} /></Field>
+        <Field label="Valor da causa (R$)"><input className="input" type="number" value={f.valorCausa} onChange={set('valorCausa')} /></Field>
+      </div>
       <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={salvar}>Salvar alterações</button>
     </Modal>
   );

@@ -54,7 +54,9 @@ export default function Processos() {
 
 function NovoProcesso({ onClose, onSaved }) {
   const [clientes, setClientes] = useState([]);
-  const [f, setF] = useState({ clienteId: '', numeroCnj: '', area: 'Cível', titulo: '', status: 'ativo', prioridade: 'normal' });
+  const [f, setF] = useState({ clienteId: '', numeroCnj: '', area: 'Cível', titulo: '', status: 'ativo', prioridade: 'normal',
+    poloAtivo: '', poloPassivo: '', advContrario: '', vara: '', comarca: '', orgao: '', valorCausa: '' });
+  const [mais, setMais] = useState(false);
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   useEffect(() => { api.get('/clientes').then(setClientes).catch(() => {}); }, []);
   async function save() {
@@ -82,6 +84,25 @@ function NovoProcesso({ onClose, onSaved }) {
         <Field label="Prioridade"><select className="input" value={f.prioridade} onChange={set('prioridade')}>
           <option value="normal">normal</option><option value="alta">alta</option><option value="urgente">urgente</option></select></Field>
       </div>
+
+      <button type="button" className="btn ghost sm" style={{ marginBottom: 14 }} onClick={() => setMais((v) => !v)}>
+        {mais ? '− Menos dados' : '+ Partes, vara/comarca e valor da causa'}
+      </button>
+      {mais && <>
+        <div className="row-2">
+          <Field label="Polo ativo (autor)"><input className="input" value={f.poloAtivo} onChange={set('poloAtivo')} /></Field>
+          <Field label="Polo passivo (réu)"><input className="input" value={f.poloPassivo} onChange={set('poloPassivo')} /></Field>
+        </div>
+        <Field label="Advogado da parte contrária"><input className="input" value={f.advContrario} onChange={set('advContrario')} /></Field>
+        <div className="row-2">
+          <Field label="Vara"><input className="input" value={f.vara} onChange={set('vara')} placeholder="Ex.: 3ª Vara Cível" /></Field>
+          <Field label="Comarca"><input className="input" value={f.comarca} onChange={set('comarca')} /></Field>
+        </div>
+        <div className="row-2">
+          <Field label="Órgão / Tribunal"><input className="input" value={f.orgao} onChange={set('orgao')} placeholder="Ex.: TJSP" /></Field>
+          <Field label="Valor da causa (R$)"><input className="input" type="number" value={f.valorCausa} onChange={set('valorCausa')} /></Field>
+        </div>
+      </>}
       <div className="actions"><button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={save}>Salvar processo</button></div>
     </Modal>
   );
