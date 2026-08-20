@@ -27,9 +27,18 @@ const NAV = [
 export default function Layout({ children }) {
   const nav = useNavigate();
   const [quick, setQuick] = useState(false);
+  const [fab, setFab] = useState(false);
+  const [theme, setTheme] = useState(document.documentElement.dataset.theme || 'dark');
   const [q, setQ] = useState('');
   const [res, setRes] = useState([]);
   const cache = useRef(null);
+
+  function toggleTheme() {
+    const novo = theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = novo;
+    localStorage.setItem('theme', novo);
+    setTheme(novo);
+  }
 
   async function garantirCache() {
     if (cache.current) return cache.current;
@@ -106,10 +115,23 @@ export default function Layout({ children }) {
               </div>
             )}
           </div>
+          <button className="theme-btn" onClick={toggleTheme} title={theme === 'dark' ? 'Tema claro' : 'Tema escuro'}>
+            {theme === 'dark' ? '☀️' : '🌙'}
+          </button>
           <div className="avatar">K</div>
         </div>
         <div className="content">{children}</div>
       </div>
+
+      {/* Botão flutuante (FAB) com ações rápidas */}
+      {fab && (
+        <div className="fab-menu" onMouseLeave={() => setFab(false)}>
+          {QUICK.map(([to, label]) => (
+            <a key={to} onClick={() => { setFab(false); nav(to); }}>{label}</a>
+          ))}
+        </div>
+      )}
+      <button className={'fab' + (fab ? ' rot' : '')} onClick={() => setFab((v) => !v)} title="Ação rápida">+</button>
     </div>
   );
 }

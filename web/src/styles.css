@@ -52,7 +52,7 @@ input, select, textarea, button { font-family: inherit; font-size: 14px; }
   background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; color: var(--muted); }
 .search input { background: transparent; border: 0; outline: 0; color: var(--text); flex: 1; }
 .topbar .spacer { flex: 1; }
-.avatar { width: 34px; height: 34px; border-radius: 50%; background: #23262c; display: grid; place-items: center; font-weight: 600; }
+.avatar { width: 34px; height: 34px; border-radius: 50%; background: var(--card-2); display: grid; place-items: center; font-weight: 600; }
 
 .content { padding: 28px; overflow: auto; }
 .crumb { color: var(--muted-2); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
@@ -92,7 +92,7 @@ td .mono, .mono { font-family: var(--mono); color: var(--muted); }
 .badge { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 500; }
 .badge.green { background: var(--green-bg); color: var(--green); }
 .badge.amber { background: var(--amber-bg); color: var(--amber); }
-.badge.gray { background: #23262c; color: var(--muted); }
+.badge.gray { background: var(--card-2); color: var(--muted); }
 
 /* ---------- Filter/inputs ---------- */
 .filter { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; margin-bottom: 16px; color: var(--muted); }
@@ -161,10 +161,10 @@ body { background:
 .btn.ghost { background: transparent; box-shadow: none; }
 
 /* Cards com brilho no topo e hover */
-.card { background: linear-gradient(180deg, var(--card), #121419); transition: transform .12s ease, border-color .12s ease; }
+.card { background: linear-gradient(180deg, var(--card), var(--bg)); transition: transform .12s ease, border-color .12s ease; }
 .card:hover { border-color: #333844; }
 .value.green { text-shadow: 0 0 24px rgba(52,211,153,.25); }
-.panel { background: linear-gradient(180deg, var(--card), #121419); }
+.panel { background: linear-gradient(180deg, var(--card), var(--bg)); }
 
 /* Topbar Ação rápida */
 .quick { position: relative; }
@@ -181,11 +181,71 @@ body { background:
 
 /* Badge default um pouco mais suave */
 .badge { border: 1px solid transparent; }
-.detail-head { background: linear-gradient(180deg, var(--card), #121419); }
+.detail-head { background: linear-gradient(180deg, var(--card), var(--bg)); }
 tbody tr.clickable:hover { background: rgba(200,168,106,.05); }
 .clickable-card { cursor: pointer; }
 .clickable-card:hover { border-color: var(--accent); }
 .timeline .item.clickable:hover { background: rgba(200,168,106,.05); border-radius: 8px; }
+
+/* ============ Tema claro ============ */
+:root[data-theme="light"] {
+  --bg: #f3f4f7;
+  --bg-2: #ffffff;
+  --card: #ffffff;
+  --card-2: #eef0f4;
+  --border: #e2e5ec;
+  --text: #171a20;
+  --muted: #5b616b;
+  --muted-2: #9aa1ad;
+  --accent: #b5883f;
+  --accent-2: #caa25a;
+  --accent-text: #ffffff;
+  --green: #16a34a;
+  --green-bg: rgba(22,163,74,.10);
+  --amber: #c2740a;
+  --amber-bg: rgba(194,116,10,.12);
+  --red: #dc2626;
+}
+:root[data-theme="light"] body {
+  background:
+    radial-gradient(1200px 600px at 100% -10%, rgba(181,136,63,.06), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(80,120,255,.05), transparent 55%),
+    var(--bg);
+}
+:root[data-theme="light"] .card,
+:root[data-theme="light"] .panel,
+:root[data-theme="light"] .detail-head { box-shadow: 0 1px 3px rgba(20,30,60,.05); }
+
+/* Transições suaves ao trocar de tema */
+body, .card, .panel, .sidebar, .topbar, .input, .btn, .detail-head, table td, table th, .badge {
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+/* ============ Botão flutuante (FAB) — moderno ============ */
+.fab {
+  position: fixed; right: 26px; bottom: 26px; z-index: 45;
+  width: 58px; height: 58px; border-radius: 50%; border: 0; cursor: pointer;
+  background: linear-gradient(145deg, var(--accent-2), var(--accent)); color: var(--accent-text);
+  font-size: 28px; line-height: 1; display: grid; place-items: center;
+  box-shadow: 0 8px 24px rgba(200,168,106,.4); transition: transform .15s ease, box-shadow .15s ease;
+}
+.fab:hover { transform: translateY(-2px) scale(1.05); box-shadow: 0 12px 30px rgba(200,168,106,.5); }
+.fab.rot { transform: rotate(45deg); }
+.fab-menu {
+  position: fixed; right: 26px; bottom: 96px; z-index: 45; display: flex; flex-direction: column; gap: 8px; align-items: flex-end;
+}
+.fab-menu a {
+  background: var(--card-2); border: 1px solid var(--border); color: var(--text);
+  padding: 10px 16px; border-radius: 24px; cursor: pointer; white-space: nowrap; font-size: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.25); animation: fabpop .18s ease;
+}
+.fab-menu a:hover { border-color: var(--accent); }
+@keyframes fabpop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* Botão de tema no topbar */
+.theme-btn { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--border); background: var(--card);
+  cursor: pointer; font-size: 16px; display: grid; place-items: center; color: var(--text); }
+.theme-btn:hover { border-color: var(--accent); }
 
 /* ============ Responsivo — celular ============ */
 @media (max-width: 640px) {
