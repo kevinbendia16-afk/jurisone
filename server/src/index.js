@@ -399,6 +399,32 @@ app.post('/api/financeiro/parcelar', auth, async (req, res) => {
   res.status(201).json({ grupo, parcelas: criados });
 });
 
+// Recorrência: repete o MESMO valor por N meses (ex.: aluguel, software) — diferente do parcelamento.
+app.post('/api/financeiro/recorrente', auth, async (req, res) => {
+  const b = req.body;
+  const n = Number(b.meses);
+  const valor = Number(b.valor);
+  if (!(n >= 1) || !(valor > 0)) return res.status(400).json({ error: 'meses e valor obrigatórios' });
+  const grupo = crypto.randomUUID();
+  const base = b.primeiroVencimento ? new Date(b.primeiroVencimento) : new Date();
+  const criados = [];
+  for (let i = 0; i < n; i++) {
+    const venc = new Date(base);
+    venc.setMonth(venc.getMonth() + i);
+    const item = await prisma.lancamentoFinanceiro.create({
+      data: {
+        tipo: b.tipo || 'saida', origem: b.origem || 'despesa',
+        descricao: `${b.descricao} (${venc.toLocaleDateString('pt-BR', { month: '2-digit', year: 'numeric' })})`,
+        valor, valorPago: 0, status: 'aberto', data: new Date(), vencimento: venc,
+        parcelaNum: i + 1, parcelaTotal: n, grupoParcela: grupo,
+        clienteId: b.clienteId || null, processoId: b.processoId || null,
+      },
+    });
+    criados.push(item);
+  }
+  res.status(201).json({ grupo, lancamentos: criados });
+});
+
 // ---------- Valores de terceiros (precatórios) ----------
 function calcTerceiro(b) {
   const valorBruto = Number(b.valorBruto) || 0;

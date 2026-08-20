@@ -118,25 +118,37 @@ export default function Financeiro() {
 
 function Parcelar({ item, clientes, processos, onClose, onSaved }) {
   const [f, setF] = useState(item);
+  const [modo, setModo] = useState('parcelar'); // parcelar (dividir total, entrada) | recorrente (repetir valor, saída)
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   const n = Number(f.parcelas) || 0;
-  const total = Number(String(f.valorTotal).replace(',', '.')) || 0;
-  const porParcela = n > 0 ? total / n : 0;
+  const valorDigitado = Number(String(f.valorTotal).replace(',', '.')) || 0;
+  const recorrente = modo === 'recorrente';
+  const porMes = recorrente ? valorDigitado : (n > 0 ? valorDigitado / n : 0);
   async function salvar() {
-    if (!f.descricao.trim() || !(total > 0) || !(n >= 1)) return;
-    await api.post('/financeiro/parcelar', {
-      descricao: f.descricao, valorTotal: total, parcelas: n, tipo: 'entrada', origem: f.origem,
-      primeiroVencimento: f.primeiroVencimento || null,
-      clienteId: f.clienteId || null, processoId: f.processoId || null,
-    });
+    if (!f.descricao.trim() || !(valorDigitado > 0) || !(n >= 1)) return;
+    if (recorrente) {
+      await api.post('/financeiro/recorrente', {
+        descricao: f.descricao, valor: valorDigitado, meses: n, tipo: 'saida', origem: f.origem,
+        primeiroVencimento: f.primeiroVencimento || null, clienteId: f.clienteId || null, processoId: f.processoId || null,
+      });
+    } else {
+      await api.post('/financeiro/parcelar', {
+        descricao: f.descricao, valorTotal: valorDigitado, parcelas: n, tipo: 'entrada', origem: f.origem,
+        primeiroVencimento: f.primeiroVencimento || null, clienteId: f.clienteId || null, processoId: f.processoId || null,
+      });
+    }
     onSaved();
   }
   return (
-    <Modal title="Parcelar honorário" onClose={onClose}>
-      <Field label="Descrição"><input className="input" value={f.descricao} onChange={set('descricao')} placeholder="Ex.: Honorários contratuais" /></Field>
+    <Modal title="Parcelar / Repetir lançamento" onClose={onClose}>
+      <div className="tabs" style={{ marginTop: 0 }}>
+        <button className={modo === 'parcelar' ? 'active' : ''} onClick={() => { setModo('parcelar'); setF({ ...f, origem: 'honorario' }); }}>Parcelar receita (dividir total)</button>
+        <button className={modo === 'recorrente' ? 'active' : ''} onClick={() => { setModo('recorrente'); setF({ ...f, origem: 'despesa' }); }}>Despesa recorrente (repetir)</button>
+      </div>
+      <Field label="Descrição"><input className="input" value={f.descricao} onChange={set('descricao')} placeholder={recorrente ? 'Ex.: Aluguel do escritório' : 'Ex.: Honorários contratuais'} /></Field>
       <div className="row-2">
-        <Field label="Valor total (R$)"><input className="input" type="number" value={f.valorTotal} onChange={set('valorTotal')} /></Field>
-        <Field label="Nº de parcelas"><input className="input" type="number" min="1" value={f.parcelas} onChange={set('parcelas')} /></Field>
+        <Field label={recorrente ? 'Valor por mês (R$)' : 'Valor total (R$)'}><input className="input" type="number" value={f.valorTotal} onChange={set('valorTotal')} /></Field>
+        <Field label={recorrente ? 'Nº de meses' : 'Nº de parcelas'}><input className="input" type="number" min="1" value={f.parcelas} onChange={set('parcelas')} /></Field>
       </div>
       <div className="row-2">
         <Field label="Origem"><select className="input" value={f.origem} onChange={set('origem')}>
@@ -149,11 +161,13 @@ function Parcelar({ item, clientes, processos, onClose, onSaved }) {
         <Field label="Processo (opcional)"><select className="input" value={f.processoId || ''} onChange={set('processoId')}>
           <option value="">—</option>{processos.filter((p) => !f.clienteId || p.clienteId === f.clienteId).map((p) => <option key={p.id} value={p.id}>{p.titulo}</option>)}</select></Field>
       </div>
-      {n > 0 && total > 0 &&
+      {n > 0 && valorDigitado > 0 &&
         <div className="panel" style={{ padding: 12, marginBottom: 12, color: 'var(--muted)' }}>
-          {n}× de <b>{fmtMoney(porParcela)}</b> — vencimentos mensais a partir de {f.primeiroVencimento ? fmtDate(f.primeiroVencimento) : 'hoje'}.
+          {recorrente
+            ? <>{n} lançamentos de <b>{fmtMoney(porMes)}</b> (total {fmtMoney(porMes * n)}) — todo mês a partir de {f.primeiroVencimento ? fmtDate(f.primeiroVencimento) : 'hoje'}.</>
+            : <>{n}× de <b>{fmtMoney(porMes)}</b> — vencimentos mensais a partir de {f.primeiroVencimento ? fmtDate(f.primeiroVencimento) : 'hoje'}.</>}
         </div>}
-      <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={salvar}>Gerar {n || ''} parcelas</button>
+      <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={salvar}>Gerar {n || ''} {recorrente ? 'lançamentos' : 'parcelas'}</button>
     </Modal>
   );
 }
