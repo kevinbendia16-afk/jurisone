@@ -413,6 +413,46 @@ crud('/api/eventos', 'evento', {
   }),
 });
 
+// ---------- Documentos / GED ----------
+const DOC_MAX = 8 * 1024 * 1024; // 8MB por arquivo
+const jsonGrande = express.json({ limit: '12mb' }); // upload de documento precisa de body maior
+// Lista metadados (SEM o conteúdo base64, p/ ficar leve) filtrando por cliente/processo.
+app.get('/api/documentos', auth, async (req, res) => {
+  const where = {};
+  if (req.query.clienteId) where.clienteId = req.query.clienteId;
+  if (req.query.processoId) where.processoId = req.query.processoId;
+  const docs = await prisma.documento.findMany({
+    where, orderBy: { createdAt: 'desc' },
+    select: { id: true, nome: true, categoria: true, mime: true, tamanho: true, createdAt: true, clienteId: true, processoId: true },
+  });
+  res.json(docs);
+});
+// Baixa 1 documento (com o conteúdo) — o front monta o download.
+app.get('/api/documentos/:id', auth, async (req, res) => {
+  const doc = await prisma.documento.findUnique({ where: { id: req.params.id } });
+  if (!doc) return res.status(404).json({ error: 'documento não encontrado' });
+  res.json(doc);
+});
+app.post('/api/documentos', auth, jsonGrande, async (req, res) => {
+  const b = req.body;
+  if (!b.nome || !b.conteudo) return res.status(400).json({ error: 'nome e conteúdo obrigatórios' });
+  const tamanho = Number(b.tamanho) || Math.round((b.conteudo.length * 3) / 4);
+  if (tamanho > DOC_MAX) return res.status(413).json({ error: 'arquivo acima de 8MB' });
+  const doc = await prisma.documento.create({
+    data: {
+      nome: String(b.nome).slice(0, 255), categoria: b.categoria || 'outro',
+      mime: b.mime || null, tamanho, conteudo: b.conteudo,
+      clienteId: b.clienteId || null, processoId: b.processoId || null,
+    },
+    select: { id: true, nome: true, categoria: true, mime: true, tamanho: true, createdAt: true, clienteId: true, processoId: true },
+  });
+  res.status(201).json(doc);
+});
+app.delete('/api/documentos/:id', auth, async (req, res) => {
+  await prisma.documento.delete({ where: { id: req.params.id } });
+  res.json({ ok: true });
+});
+
 // ---------- Dashboard ----------
 app.get('/api/dashboard', auth, async (req, res) => {
   const [clientes, processos, tarefas, prazos, lancamentos, terceiros] = await Promise.all([

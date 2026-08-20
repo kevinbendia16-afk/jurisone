@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { api, fmtMoney, fmtDate, fmtDateTime } from '../api.js';
 import { Badge, Empty, Modal, Field } from '../ui.jsx';
+import Documentos from '../Documentos.jsx';
 
-const TABS = ['Visão geral', 'Processos', 'Financeiro', 'Prazos', 'Valores de terceiros', 'Tarefas', 'WhatsApp'];
+const TABS = ['Visão geral', 'Processos', 'Financeiro', 'Prazos', 'Valores de terceiros', 'Documentos', 'Tarefas', 'WhatsApp'];
 
 function waLink(telefone, texto) {
   let d = (telefone || '').replace(/\D/g, '');
@@ -80,6 +81,7 @@ export default function ClienteDetalhe() {
       {tab === 'Financeiro' && <SimpleTable rows={d.lancamentos} cols={[['descricao', 'Descrição'], ['tipo', 'Tipo'], ['valor', 'Valor', 'money'], ['status', 'Status', 'badge']]} empty="Nenhum lançamento." />}
       {tab === 'Prazos' && <SimpleTable rows={d.prazos} cols={[['titulo', 'Prazo'], ['dataFatal', 'Data fatal', 'date'], ['status', 'Status', 'badge']]} empty="Nenhum prazo." />}
       {tab === 'Valores de terceiros' && <SimpleTable rows={d.valoresTerceiro} cols={[['tipo', 'Tipo'], ['valorBruto', 'Bruto', 'money'], ['valorLiquido', 'Líquido a repassar', 'money'], ['status', 'Status', 'badge']]} empty="Nenhum valor de terceiro." />}
+      {tab === 'Documentos' && <Documentos clienteId={c.id} />}
       {tab === 'Tarefas' && <SimpleTable rows={d.tarefas} cols={[['titulo', 'Tarefa'], ['prioridade', 'Prioridade'], ['status', 'Status', 'badge']]} empty="Nenhuma tarefa." />}
       {tab === 'WhatsApp' && <WhatsApp cliente={c} />}
     </div>

@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { api, fmtMoney, fmtDate, fmtDateTime } from '../api.js';
 import { Badge, Empty, Field, Modal } from '../ui.jsx';
+import Documentos from '../Documentos.jsx';
 
-const TABS = ['Visão geral', 'Movimentações', 'Prazos', 'Financeiro', 'Valores de terceiros', 'Tarefas'];
+const TABS = ['Visão geral', 'Movimentações', 'Prazos', 'Financeiro', 'Valores de terceiros', 'Documentos', 'Tarefas'];
 
 export default function ProcessoDetalhe() {
   const { id } = useParams();
@@ -100,6 +101,7 @@ export default function ProcessoDetalhe() {
       {tab === 'Prazos' && <T rows={d.prazos} cols={[['titulo', 'Prazo'], ['dataFatal', 'Data fatal', 'date'], ['status', 'Status', 'badge']]} empty="Nenhum prazo." />}
       {tab === 'Financeiro' && <T rows={d.lancamentos} cols={[['descricao', 'Descrição'], ['tipo', 'Tipo'], ['valor', 'Valor', 'money'], ['status', 'Status', 'badge']]} empty="Nenhum lançamento." />}
       {tab === 'Valores de terceiros' && <T rows={d.valoresTerceiro} cols={[['tipo', 'Tipo'], ['valorBruto', 'Bruto', 'money'], ['valorLiquido', 'Líquido', 'money'], ['status', 'Status', 'badge']]} empty="Nenhum valor." />}
+      {tab === 'Documentos' && <Documentos processoId={p.id} />}
       {tab === 'Tarefas' && <T rows={d.tarefas} cols={[['titulo', 'Tarefa'], ['status', 'Status', 'badge']]} empty="Nenhuma tarefa." />}
     </div>
   );
