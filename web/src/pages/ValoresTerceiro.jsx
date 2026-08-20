@@ -5,8 +5,10 @@ import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 export default function ValoresTerceiro() {
   const [list, setList] = useState([]);
   const [open, setOpen] = useState(false);
+  const [edit, setEdit] = useState(null);
   const load = () => api.get('/valores-terceiro').then(setList).catch(() => {});
   useEffect(() => { load(); }, []);
+  const mudarStatus = async (t, status) => { await api.put('/valores-terceiro/' + t.id, { ...t, status }); load(); };
 
   // Regra de ouro: receita = honorário só quando recebido/repassado; custódia = líquido não repassado.
   const receita = list.filter((t) => t.status === 'recebido' || t.status === 'repassado').reduce((s, t) => s + t.honorarioValor, 0);
@@ -23,26 +25,36 @@ export default function ValoresTerceiro() {
       <div className="panel">
         {list.length === 0 ? <Empty>Nenhum valor de terceiro.</Empty> : (
           <table>
-            <thead><tr><th>Cliente</th><th>Tipo</th><th>Bruto</th><th>Honorário deduzido</th><th>Líquido a repassar</th><th>Status</th></tr></thead>
+            <thead><tr><th>Cliente</th><th>Tipo</th><th>Bruto</th><th>Honorário deduzido</th><th>Líquido a repassar</th><th>Status</th><th></th></tr></thead>
             <tbody>{list.map((t) => (
-              <tr key={t.id}><td style={{ fontWeight: 600 }}>{t.cliente?.nome}</td>
+              <tr key={t.id} className="clickable" onClick={() => setEdit(t)}>
+                <td style={{ fontWeight: 600 }}>{t.cliente?.nome}</td>
                 <td style={{ textTransform: 'capitalize' }}>{t.tipo}</td>
                 <td className="mono">{fmtMoney(t.valorBruto)}</td>
                 <td className="mono" style={{ color: 'var(--green)' }}>{fmtMoney(t.honorarioValor)}</td>
                 <td className="mono">{fmtMoney(t.valorLiquido)}</td>
-                <td><Badge>{t.status}</Badge></td></tr>
+                <td><Badge>{t.status}</Badge></td>
+                <td onClick={(e) => e.stopPropagation()} style={{ whiteSpace: 'nowrap' }}>
+                  {t.status === 'aguardando' && <button className="btn sm" style={{ marginRight: 6 }} onClick={() => mudarStatus(t, 'recebido')}>Recebido</button>}
+                  {t.status === 'recebido' && <button className="btn sm" style={{ background: 'var(--green)', color: '#06281a', marginRight: 6 }} onClick={() => mudarStatus(t, 'repassado')}>Repassado</button>}
+                </td>
+              </tr>
             ))}</tbody>
           </table>
         )}
       </div>
       {open && <Novo onClose={() => setOpen(false)} onSaved={() => { setOpen(false); load(); }} />}
+      {edit && <Novo item={edit} onClose={() => setEdit(null)} onSaved={() => { setEdit(null); load(); }} />}
     </div>
   );
 }
 
-function Novo({ onClose, onSaved }) {
+function Novo({ item, onClose, onSaved }) {
   const [clientes, setClientes] = useState([]);
-  const [f, setF] = useState({ clienteId: '', tipo: 'precatorio', valorBruto: '', honorarioPct: '', custas: '', irRetido: '', tribunal: '', enteDevedor: '', status: 'aguardando' });
+  const editando = !!item;
+  const [f, setF] = useState(item
+    ? { clienteId: item.clienteId || '', tipo: item.tipo, valorBruto: item.valorBruto, honorarioPct: item.honorarioPct, custas: item.custas, irRetido: item.irRetido, tribunal: item.tribunal || '', enteDevedor: item.enteDevedor || '', status: item.status }
+    : { clienteId: '', tipo: 'precatorio', valorBruto: '', honorarioPct: '', custas: '', irRetido: '', tribunal: '', enteDevedor: '', status: 'aguardando' });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   useEffect(() => { api.get('/clientes').then(setClientes).catch(() => {}); }, []);
 
@@ -50,9 +62,15 @@ function Novo({ onClose, onSaved }) {
   const honor = bruto * (Number(f.honorarioPct) || 0) / 100;
   const liquido = bruto - honor - (Number(f.custas) || 0) - (Number(f.irRetido) || 0);
 
-  async function save() { if (!f.clienteId) return; await api.post('/valores-terceiro', f); onSaved(); }
+  async function save() {
+    if (!f.clienteId) return;
+    if (editando) await api.put('/valores-terceiro/' + item.id, f);
+    else await api.post('/valores-terceiro', f);
+    onSaved();
+  }
+  async function excluir() { if (confirm('Excluir este valor de terceiro?')) { await api.del('/valores-terceiro/' + item.id); onSaved(); } }
   return (
-    <Modal title="Novo valor de terceiro" onClose={onClose}>
+    <Modal title={editando ? 'Editar valor de terceiro' : 'Novo valor de terceiro'} onClose={onClose}>
       <Field label="Cliente"><select className="input" value={f.clienteId} onChange={set('clienteId')}>
         <option value="">Selecione</option>{clientes.map((c) => <option key={c.id} value={c.id}>{c.nome}</option>)}</select></Field>
       <div className="row-2">
@@ -78,7 +96,10 @@ function Novo({ onClose, onSaved }) {
         <span className="label" style={{ margin: 0 }}>Valor líquido de repasse (calculado)</span>
         <span className="value money">{fmtMoney(liquido)}</span>
       </div>
-      <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={save}>Salvar</button>
+      <div style={{ display: 'flex', gap: 10 }}>
+        <button className="btn" style={{ flex: 1, justifyContent: 'center' }} onClick={save}>{editando ? 'Salvar alterações' : 'Salvar'}</button>
+        {editando && <button className="btn ghost" onClick={excluir} style={{ color: 'var(--red)' }}>Excluir</button>}
+      </div>
     </Modal>
   );
 }

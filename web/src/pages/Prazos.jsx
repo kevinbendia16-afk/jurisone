@@ -28,6 +28,8 @@ export default function Prazos() {
     if (p.processoId) nav('/processos/' + p.processoId);
     else if (p.clienteId) nav('/clientes/' + p.clienteId);
   };
+  const cumprir = async (p) => { await api.put('/prazos/' + p.id, { ...p, status: 'cumprido' }); load(); };
+  const excluir = async (p) => { if (confirm('Excluir este prazo?')) { await api.del('/prazos/' + p.id); load(); } };
 
   return (
     <div>
@@ -41,7 +43,7 @@ export default function Prazos() {
       <div className="panel" style={{ marginBottom: 16 }}>
         {list.length === 0 ? <Empty>Nenhum prazo cadastrado.</Empty> : (
           <table>
-            <thead><tr><th>Prazo</th><th>Cliente</th><th>Processo</th><th>Data fatal</th><th>Situação</th><th>Status</th></tr></thead>
+            <thead><tr><th>Prazo</th><th>Cliente</th><th>Processo</th><th>Data fatal</th><th>Situação</th><th>Status</th><th></th></tr></thead>
             <tbody>{list.map((p) => {
               const dr = diasRestantes(p.dataFatal);
               return (
@@ -50,8 +52,12 @@ export default function Prazos() {
                   <td style={{ color: 'var(--muted)' }}>{p.cliente?.nome || '—'}</td>
                   <td className="mono" style={{ fontSize: 12 }}>{p.processo?.numeroCnj || p.processo?.titulo || '—'}</td>
                   <td className="mono">{fmtDate(p.dataFatal)}</td>
-                  <td style={{ color: dr.cor, fontWeight: 500 }}>{dr.texto}</td>
+                  <td style={{ color: dr.cor, fontWeight: 500 }}>{p.status === 'cumprido' ? '—' : dr.texto}</td>
                   <td><Badge>{p.status}</Badge></td>
+                  <td onClick={(e) => e.stopPropagation()} style={{ whiteSpace: 'nowrap' }}>
+                    {p.status === 'pendente' && <button className="btn sm" style={{ background: 'var(--green)', color: '#06281a', marginRight: 6 }} onClick={() => cumprir(p)}>✓ Cumprido</button>}
+                    <button className="btn ghost sm" onClick={() => excluir(p)} style={{ color: 'var(--red)' }}>🗑</button>
+                  </td>
                 </tr>
               );
             })}</tbody>

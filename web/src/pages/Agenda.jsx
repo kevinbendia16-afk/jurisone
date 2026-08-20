@@ -21,6 +21,8 @@ export default function Agenda() {
   const [open, setOpen] = useState(false);
   const [filtro, setFiltro] = useState('todas');
   const abrir = (e) => { if (e.processoId) nav('/processos/' + e.processoId); else if (e.clienteId) nav('/clientes/' + e.clienteId); };
+  const concluir = async (e) => { await api.put('/eventos/' + e.id, { ...e, status: 'concluido' }); load(); };
+  const excluir = async (e) => { if (confirm('Excluir este compromisso?')) { await api.del('/eventos/' + e.id); load(); } };
   const load = () => api.get('/eventos').then((r) =>
     setList(r.slice().sort((a, b) => new Date(a.inicio) - new Date(b.inicio)))).catch(() => {});
   useEffect(() => { load(); }, []);
@@ -70,8 +72,11 @@ export default function Agenda() {
                         {e.local ? ` · ${e.local}` : ''}
                       </div>
                     </div>
-                    <span className="badge" style={{ background: cat.cor + '22', color: cat.cor }}>{cat.label}</span>
-                    {clicavel && <span style={{ color: 'var(--muted-2)' }}>›</span>}
+                    <span className="badge" style={{ background: cat.cor + '22', color: cat.cor }}>{e.status === 'concluido' ? '✓ Concluído' : cat.label}</span>
+                    <span onClick={(ev) => ev.stopPropagation()} style={{ whiteSpace: 'nowrap' }}>
+                      {e.status !== 'concluido' && <button className="btn sm" style={{ marginRight: 6 }} onClick={() => concluir(e)}>✓</button>}
+                      <button className="btn ghost sm" onClick={() => excluir(e)} style={{ color: 'var(--red)' }}>🗑</button>
+                    </span>
                   </div>
                 );
               })}

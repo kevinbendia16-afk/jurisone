@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { api, fmtMoney, fmtDate, fmtDateTime } from '../api.js';
-import { Badge, Empty } from '../ui.jsx';
+import { Badge, Empty, Modal, Field } from '../ui.jsx';
 
 const TABS = ['Visão geral', 'Processos', 'Financeiro', 'Prazos', 'Valores de terceiros', 'Tarefas', 'WhatsApp'];
 
@@ -17,14 +17,26 @@ export default function ClienteDetalhe() {
   const nav = useNavigate();
   const [d, setD] = useState(null);
   const [tab, setTab] = useState('Visão geral');
-  useEffect(() => { api.get(`/clientes/${id}/completo`).then(setD).catch(() => nav('/clientes')); }, [id]);
+  const [editando, setEditando] = useState(false);
+  const carregar = () => api.get(`/clientes/${id}/completo`).then(setD).catch(() => nav('/clientes'));
+  useEffect(() => { carregar(); }, [id]);
   if (!d) return <div className="empty">Carregando…</div>;
   const c = d.cliente;
   const aReceber = d.lancamentos.filter((l) => l.tipo === 'entrada' && l.status !== 'pago').reduce((s, l) => s + l.valor, 0);
+  async function excluir() {
+    if (!confirm('Excluir este cliente? Isso remove também os processos e dados vinculados.')) return;
+    await api.del('/clientes/' + id); nav('/clientes');
+  }
 
   return (
     <div>
-      <div className="crumb" style={{ marginBottom: 12 }}><Link to="/clientes">Clientes</Link> &nbsp;›&nbsp; {c.nome}</div>
+      <div className="crumb" style={{ marginBottom: 12, display: 'flex', justifyContent: 'space-between' }}>
+        <span><Link to="/clientes">Clientes</Link> &nbsp;›&nbsp; {c.nome}</span>
+        <span style={{ whiteSpace: 'nowrap' }}>
+          <button className="btn ghost sm" onClick={() => setEditando(true)} style={{ marginRight: 8 }}>✎ Editar</button>
+          <button className="btn ghost sm" onClick={excluir} style={{ color: 'var(--red)' }}>🗑 Excluir</button>
+        </span>
+      </div>
       <div className="detail-head">
         <div className="big-avatar">👤</div>
         <div style={{ flex: 1 }}>
@@ -37,6 +49,7 @@ export default function ClienteDetalhe() {
           </div>
         </div>
       </div>
+      {editando && <EditarCliente cliente={c} onClose={() => setEditando(false)} onSaved={() => { setEditando(false); carregar(); }} />}
 
       <div className="tabs">
         {TABS.map((t) => <button key={t} className={tab === t ? 'active' : ''} onClick={() => setTab(t)}>{t}</button>)}
@@ -94,6 +107,35 @@ function WhatsApp({ cliente }) {
       </a>
       <div className="warn" style={{ marginTop: 14 }}>Abre o WhatsApp Web/app com a mensagem pronta. O envio é feito por você (não automático).</div>
     </div>
+  );
+}
+
+function EditarCliente({ cliente, onClose, onSaved }) {
+  const [f, setF] = useState({
+    tipo: cliente.tipo || 'PF', status: cliente.status || 'ativo', nome: cliente.nome || '',
+    cpfCnpj: cliente.cpfCnpj || '', telefone: cliente.telefone || '', email: cliente.email || '',
+    responsavel: cliente.responsavel || '', observacoes: cliente.observacoes || '',
+  });
+  const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
+  async function salvar() { if (!f.nome.trim()) return; await api.put('/clientes/' + cliente.id, f); onSaved(); }
+  return (
+    <Modal title="Editar cliente" onClose={onClose}>
+      <div className="row-2">
+        <Field label="Tipo"><select className="input" value={f.tipo} onChange={set('tipo')}><option>PF</option><option>PJ</option></select></Field>
+        <Field label="Status"><select className="input" value={f.status} onChange={set('status')}>
+          <option value="potencial">potencial</option><option value="ativo">ativo</option>
+          <option value="inativo">inativo</option><option value="inadimplente">inadimplente</option><option value="arquivado">arquivado</option></select></Field>
+      </div>
+      <Field label="Nome / Razão social"><input className="input" value={f.nome} onChange={set('nome')} /></Field>
+      <div className="row-2">
+        <Field label="CPF / CNPJ"><input className="input" value={f.cpfCnpj} onChange={set('cpfCnpj')} /></Field>
+        <Field label="Telefone"><input className="input" value={f.telefone} onChange={set('telefone')} /></Field>
+      </div>
+      <Field label="E-mail"><input className="input" value={f.email} onChange={set('email')} /></Field>
+      <Field label="Responsável"><input className="input" value={f.responsavel} onChange={set('responsavel')} /></Field>
+      <Field label="Observações"><textarea className="input" rows={3} value={f.observacoes} onChange={set('observacoes')} style={{ resize: 'vertical' }} /></Field>
+      <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={salvar}>Salvar alterações</button>
+    </Modal>
   );
 }
 
