@@ -18,7 +18,8 @@ export default function FeedJuridico() {
   const [cat, setCat] = useState('Todas');
   const [salvos, setSalvos] = useState(() => JSON.parse(localStorage.getItem('feed_salvos') || '[]'));
 
-  useEffect(() => { api.get('/feed').then(setItens).catch(() => setItens([])); }, []);
+  const carregar = () => { setItens(null); api.get('/feed').then(setItens).catch(() => setItens([])); };
+  useEffect(() => { carregar(); }, []);
 
   function toggleSalvo(titulo) {
     const novo = salvos.includes(titulo) ? salvos.filter((s) => s !== titulo) : [...salvos, titulo];
@@ -30,12 +31,18 @@ export default function FeedJuridico() {
   return (
     <div>
       <PageHead crumb="Atualizações" title="Feed Jurídico"
-        desc="Decisões, notícias e novidades do mundo jurídico. Conteúdo informativo — não substitui a pesquisa oficial." />
+        desc="Notícias e decisões direto de fontes oficiais — cada item com link para a origem."
+        action={<button className="btn ghost" onClick={carregar}>↻ Atualizar</button>} />
+      <div style={{ color: 'var(--muted-2)', fontSize: 12, marginBottom: 14, display: 'flex', alignItems: 'center', gap: 6 }}>
+        🛡️ Fontes: STF · STJ · CNJ · Senado · Conjur · Migalhas. Conteúdo informativo — confira sempre na fonte oficial.
+      </div>
       <div className="tabs" style={{ marginTop: 0 }}>
         {CATS.map((c) => <button key={c} className={cat === c ? 'active' : ''} onClick={() => setCat(c)}>{c}</button>)}
       </div>
-      {!itens ? <div className="empty">Carregando…</div> : lista.length === 0 ? (
-        <div className="panel"><Empty>Nada por aqui ainda.</Empty></div>
+      {!itens ? <div className="empty">Buscando atualizações nas fontes oficiais…</div> : itens.length === 0 ? (
+        <div className="panel"><Empty>Não foi possível carregar as atualizações agora. Toque em ↻ Atualizar para tentar de novo.</Empty></div>
+      ) : lista.length === 0 ? (
+        <div className="panel"><Empty>Nenhum item nesta categoria no momento.</Empty></div>
       ) : (
         <div className="grid" style={{ gap: 14 }}>
           {lista.map((i, idx) => (
