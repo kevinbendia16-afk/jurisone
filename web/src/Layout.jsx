@@ -21,6 +21,7 @@ const NAV = [
   ['/financeiro', '🏛', 'Financeiro'],
   ['/valores-terceiros', '⊠', 'Valores de terceiros'],
   ['/relatorios', '📊', 'Relatórios'],
+  ['/modelos', '📝', 'Modelos de peças'],
   ['/feed', '📰', 'Feed Jurídico'],
   ['/configuracoes', '⚙', 'Configurações'],
 ];

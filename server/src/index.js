@@ -446,6 +446,11 @@ crud('/api/valores-terceiro', 'valorTerceiro', {
   }),
 });
 
+// ---------- Modelos de petição/contrato ----------
+crud('/api/modelos', 'modelo', {
+  transform: (b) => ({ nome: b.nome, tipo: b.tipo || 'peticao', conteudo: b.conteudo || '' }),
+});
+
 // ---------- Tarefas ----------
 crud('/api/tarefas', 'tarefa', {
   include: { cliente: true, processo: true },

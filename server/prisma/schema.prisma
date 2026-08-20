@@ -118,6 +118,15 @@ model LancamentoFinanceiro {
   createdAt  DateTime @default(now())
 }
 
+// Modelos de petição/contrato com variáveis {{cliente.nome}}, {{processo.numeroCnj}}, {{data}} etc.
+model Modelo {
+  id        String   @id @default(cuid())
+  nome      String
+  tipo      String   @default("peticao") // peticao | contrato | procuracao | notificacao | outro
+  conteudo  String   // texto com variáveis {{...}}
+  createdAt DateTime @default(now())
+}
+
 // Documentos / GED — arquivos anexados a cliente/processo (procurações, petições, contratos).
 model Documento {
   id         String   @id @default(cuid())
