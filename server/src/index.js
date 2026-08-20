@@ -509,10 +509,11 @@ const fmtBRL = (n) => (Number(n) || 0).toLocaleString('pt-BR', { style: 'currenc
 app.get('/api/notificacoes', auth, async (req, res) => {
   const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
   const diasEntre = (d) => Math.round((new Date(d).setHours(0, 0, 0, 0) - hoje) / 86400000);
-  const [prazos, lancamentos, eventos] = await Promise.all([
+  const [prazos, lancamentos, eventos, terceiros] = await Promise.all([
     prisma.prazo.findMany({ where: { status: 'pendente' }, include: { cliente: true, processo: true } }),
     prisma.lancamentoFinanceiro.findMany({ where: { tipo: 'entrada', status: { not: 'pago' }, vencimento: { not: null } }, include: { cliente: true } }),
     prisma.evento.findMany({ where: { status: { not: 'concluido' } }, include: { cliente: true, processo: true } }),
+    prisma.valorTerceiro.findMany({ where: { status: { not: 'repassado' }, dataPrevista: { not: null } }, include: { cliente: true } }),
   ]);
   const itens = [];
   const urg = (dias) => dias < 0 ? 'vencido' : dias <= 2 ? 'alta' : 'media';
@@ -537,6 +538,12 @@ app.get('/api/notificacoes', auth, async (req, res) => {
       titulo: e.titulo, sub: [e.cliente?.nome, e.local].filter(Boolean).join(' · '),
       data: e.inicio, dias: d, quando: quando(d), urgencia: urg(d),
       link: e.processoId ? '/processos/' + e.processoId : '/agenda' });
+  }
+  for (const t of terceiros) {
+    const d = diasEntre(t.dataPrevista);
+    if (d <= 15) itens.push({ id: 'ter-' + t.id, tipo: 'precatorio', icone: '⚖',
+      titulo: `Valor a receber: ${t.tipo}`, sub: [t.cliente?.nome, fmtBRL(t.valorLiquido) + ' líquido'].filter(Boolean).join(' · '),
+      data: t.dataPrevista, dias: d, quando: quando(d), urgencia: urg(d), link: '/valores-terceiros' });
   }
   const rank = { vencido: 0, alta: 1, media: 2 };
   itens.sort((a, b) => (rank[a.urgencia] - rank[b.urgencia]) || (a.dias - b.dias));

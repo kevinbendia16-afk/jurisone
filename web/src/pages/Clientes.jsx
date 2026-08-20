@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { api, maskCPFCNPJ, maskTelefone, validaDocumento } from '../api.js';
+import { api, maskCPFCNPJ, maskTelefone } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
 const CAMPOS = ['nome', 'tipo', 'cpfCnpj', 'telefone', 'email', 'status', 'responsavel'];
@@ -99,10 +99,8 @@ export default function Clientes() {
 function NovoCliente({ onClose, onSaved }) {
   const [f, setF] = useState({ tipo: 'PF', status: 'ativo', nome: '', cpfCnpj: '', telefone: '', email: '' });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
-  const docValido = validaDocumento(f.cpfCnpj);
   async function save() {
     if (!f.nome.trim()) return;
-    if (!docValido && !confirm('O CPF/CNPJ informado parece inválido. Salvar mesmo assim?')) return;
     await api.post('/clientes', f);
     onSaved();
   }
@@ -116,11 +114,8 @@ function NovoCliente({ onClose, onSaved }) {
       </div>
       <Field label="Nome / Razão social"><input className="input" value={f.nome} onChange={set('nome')} /></Field>
       <div className="row-2">
-        <Field label="CPF / CNPJ">
-          <input className="input" value={f.cpfCnpj} onChange={(e) => setF({ ...f, cpfCnpj: maskCPFCNPJ(e.target.value) })}
-            style={{ borderColor: f.cpfCnpj && !docValido ? 'var(--red)' : undefined }} placeholder="000.000.000-00" />
-          {f.cpfCnpj && !docValido && <span style={{ color: 'var(--red)', fontSize: 12 }}>Documento inválido</span>}
-        </Field>
+        <Field label="CPF / CNPJ"><input className="input" value={f.cpfCnpj}
+          onChange={(e) => setF({ ...f, cpfCnpj: maskCPFCNPJ(e.target.value) })} placeholder="000.000.000-00" /></Field>
         <Field label="Telefone"><input className="input" value={f.telefone}
           onChange={(e) => setF({ ...f, telefone: maskTelefone(e.target.value) })} placeholder="(11) 91234-5678" /></Field>
       </div>

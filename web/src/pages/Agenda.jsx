@@ -45,7 +45,8 @@ export default function Agenda() {
         action={<div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <div className="tabs" style={{ margin: 0 }}>
             <button className={vista === 'lista' ? 'active' : ''} onClick={() => setVista('lista')}>☰ Lista</button>
-            <button className={vista === 'mes' ? 'active' : ''} onClick={() => setVista('mes')}>▦ Calendário</button>
+            <button className={vista === 'semana' ? 'active' : ''} onClick={() => setVista('semana')}>▤ Semana</button>
+            <button className={vista === 'mes' ? 'active' : ''} onClick={() => setVista('mes')}>▦ Mês</button>
           </div>
           <button className="btn" onClick={() => setOpen(true)}>+ Novo compromisso</button>
         </div>} />
@@ -59,6 +60,8 @@ export default function Agenda() {
 
       {vista === 'mes' ? (
         <Calendario eventos={filtrada} mesRef={mesRef} setMesRef={setMesRef} onEvento={setDetalhe} />
+      ) : vista === 'semana' ? (
+        <Semana eventos={filtrada} mesRef={mesRef} setMesRef={setMesRef} onEvento={setDetalhe} />
       ) : Object.keys(grupos).length === 0 ? <div className="panel"><Empty>Nenhum compromisso na agenda.</Empty></div> : (
         Object.entries(grupos).map(([dia, evs]) => (
           <div key={dia} style={{ marginBottom: 22 }}>
@@ -169,6 +172,54 @@ function Calendario({ eventos, mesRef, setMesRef, onEvento }) {
             <span style={{ width: 11, height: 11, borderRadius: 3, background: v.cor }} />{v.label}
           </span>
         ))}
+      </div>
+    </div>
+  );
+}
+
+// ---------- Visão semanal ----------
+function Semana({ eventos, mesRef, setMesRef, onEvento }) {
+  const base = new Date(mesRef);
+  const ini = new Date(base); ini.setDate(base.getDate() - base.getDay()); ini.setHours(0, 0, 0, 0);
+  const dias = Array.from({ length: 7 }, (_, i) => { const d = new Date(ini); d.setDate(ini.getDate() + i); return d; });
+  const hojeStr = new Date().toDateString();
+  const porDia = {};
+  eventos.forEach((e) => { (porDia[new Date(e.inicio).toDateString()] ||= []).push(e); });
+  Object.values(porDia).forEach((arr) => arr.sort((a, b) => new Date(a.inicio) - new Date(b.inicio)));
+  const mover = (d) => { const x = new Date(ini); x.setDate(ini.getDate() + d); setMesRef(x); };
+  const fim = new Date(ini); fim.setDate(ini.getDate() + 6);
+
+  return (
+    <div className="panel" style={{ padding: 16 }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 14 }}>
+        <div style={{ display: 'flex', gap: 8 }}>
+          <button className="btn ghost sm" onClick={() => mover(-7)}>‹</button>
+          <button className="btn ghost sm" onClick={() => setMesRef(new Date())}>Esta semana</button>
+          <button className="btn ghost sm" onClick={() => mover(7)}>›</button>
+        </div>
+        <div style={{ fontWeight: 700 }}>{ini.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' })} – {fim.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' })}</div>
+        <div style={{ width: 120 }} />
+      </div>
+      <div className="cal-grid">
+        {dias.map((d, i) => {
+          const evs = porDia[d.toDateString()] || [];
+          const ehHoje = d.toDateString() === hojeStr;
+          return (
+            <div key={i} className={'sem-col' + (ehHoje ? ' hoje' : '')}>
+              <div className="sem-head">{SEMANA[d.getDay()]} <b>{d.getDate()}</b></div>
+              {evs.length === 0 ? <div className="cal-mais" style={{ padding: 6 }}>—</div> : evs.map((e) => {
+                const cat = CATEGORIAS[e.categoria] || CATEGORIAS.outro;
+                const hora = e.diaInteiro ? 'Dia' : new Date(e.inicio).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+                return (
+                  <button key={e.id} className="cal-pill" style={{ background: cat.cor + '26', color: cat.cor, borderLeft: `3px solid ${cat.cor}`, whiteSpace: 'normal', marginBottom: 4 }} onClick={() => onEvento(e)}>
+                    <div className="mono" style={{ fontSize: 10 }}>{hora}</div>{e.titulo}
+                    {e.local && <div style={{ fontSize: 10, opacity: .8 }}>📍 {e.local}</div>}
+                  </button>
+                );
+              })}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -15,17 +15,28 @@ export default function FeedJuridico() {
   const [cat, setCat] = useState('Todas');
   const [vis, setVis] = useState(6);
   const [salvos, setSalvos] = useState(() => JSON.parse(localStorage.getItem('feed_salvos') || '[]'));
+  const [lidos, setLidos] = useState(() => JSON.parse(localStorage.getItem('feed_lidos') || '[]'));
+  const [q, setQ] = useState('');
+  const [soSalvos, setSoSalvos] = useState(false);
 
   const carregar = () => { setItens(null); api.get('/feed').then(setItens).catch(() => setItens([])); };
   useEffect(() => { carregar(); }, []);
-  useEffect(() => { setVis(6); }, [cat]);
+  useEffect(() => { setVis(6); }, [cat, q, soSalvos]);
 
   function toggleSalvo(titulo) {
     const novo = salvos.includes(titulo) ? salvos.filter((s) => s !== titulo) : [...salvos, titulo];
     setSalvos(novo); localStorage.setItem('feed_salvos', JSON.stringify(novo));
   }
+  function marcarLido(titulo) {
+    if (lidos.includes(titulo)) return;
+    const novo = [...lidos, titulo];
+    setLidos(novo); localStorage.setItem('feed_lidos', JSON.stringify(novo));
+  }
 
-  const lista = (itens || []).filter((i) => cat === 'Todas' || i.categoria === cat);
+  const termo = q.trim().toLowerCase();
+  const lista = (itens || []).filter((i) => (cat === 'Todas' || i.categoria === cat)
+    && (!soSalvos || salvos.includes(i.titulo))
+    && (!termo || (i.titulo + ' ' + (i.resumo || '') + ' ' + (i.fonte || '')).toLowerCase().includes(termo)));
 
   return (
     <div>
@@ -38,6 +49,10 @@ export default function FeedJuridico() {
       <div className="tabs" style={{ marginTop: 0 }}>
         {CATS.map((c) => <button key={c} className={cat === c ? 'active' : ''} onClick={() => setCat(c)}>{c}</button>)}
       </div>
+      <div className="panel" style={{ padding: 12, marginBottom: 16, display: 'flex', gap: 10, flexWrap: 'wrap', alignItems: 'center' }}>
+        <input className="input" style={{ flex: 1, minWidth: 200 }} placeholder="🔍 Buscar no feed…" value={q} onChange={(e) => setQ(e.target.value)} />
+        <button className={'btn ' + (soSalvos ? '' : 'ghost')} onClick={() => setSoSalvos((v) => !v)}>★ Só salvos {salvos.length ? `(${salvos.length})` : ''}</button>
+      </div>
 
       {!itens ? <div className="empty">Buscando atualizações nas fontes oficiais…</div> : itens.length === 0 ? (
         <div className="panel"><Empty>Não foi possível carregar as atualizações agora. Toque em ↻ Atualizar para tentar de novo.</Empty></div>
@@ -49,8 +64,9 @@ export default function FeedJuridico() {
             {lista.slice(0, vis).map((i, idx) => {
               const href = linkSeguro(i.link);
               const cor = CORES[i.categoria] || '#8b9cff';
+              const lido = lidos.includes(i.titulo);
               return (
-                <article className="feed-card" key={idx}>
+                <article className="feed-card" key={idx} style={{ opacity: lido ? 0.6 : 1 }}>
                   <a href={href} target="_blank" rel="noopener noreferrer" className="feed-capa" style={{ background: `linear-gradient(135deg, ${cor}22, ${cor}08)` }}>
                     {i.imagem
                       ? <img src={i.imagem} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
@@ -62,7 +78,8 @@ export default function FeedJuridico() {
                     <a href={href} target="_blank" rel="noopener noreferrer" className="feed-titulo">{i.titulo}</a>
                     {i.resumo && <p className="feed-resumo">{i.resumo}</p>}
                     <div className="feed-rodape">
-                      {href && <a href={href} target="_blank" rel="noopener noreferrer" className="feed-ler">Ler na fonte →</a>}
+                      {href && <a href={href} target="_blank" rel="noopener noreferrer" className="feed-ler" onClick={() => marcarLido(i.titulo)}>Ler na fonte →</a>}
+                      <button className="btn ghost sm" onClick={() => marcarLido(i.titulo)} title="Marcar como lido">{lido ? '✓ Lido' : 'Marcar lido'}</button>
                       <button className="btn ghost sm" onClick={() => toggleSalvo(i.titulo)}>
                         {salvos.includes(i.titulo) ? '★ Salvo' : '☆ Salvar'}
                       </button>
