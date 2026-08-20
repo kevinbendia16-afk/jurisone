@@ -11,7 +11,6 @@ import rateLimit from 'express-rate-limit';
 import slowDown from 'express-slow-down';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
-import geoip from 'geoip-lite';
 import { PrismaClient } from '@prisma/client';
 import { calcularPrazo } from './prazos.js';
 import { getFeed } from './feed.js';
@@ -61,12 +60,18 @@ function ehIpLocal(ip) {
   return ip === '::1' || ip.startsWith('127.') || ip.startsWith('10.') ||
     ip.startsWith('192.168.') || /^172\.(1[6-9]|2\d|3[01])\./.test(ip);
 }
-app.use((req, res, next) => {
+// geoip-lite é carregado de forma preguiçosa (só na 1ª requisição) para o boot ser leve/rápido.
+let _geoip = null;
+async function geoLookup(ip) {
+  try { if (!_geoip) _geoip = (await import('geoip-lite')).default; return _geoip.lookup(ip); }
+  catch { return null; }
+}
+app.use(async (req, res, next) => {
   if (!GEO_ENFORCE) return next();
   if (req.path === '/api/health') return next(); // health check do Render
   const ip = (req.ip || '').replace('::ffff:', '');
   if (ehIpLocal(ip)) return next();
-  const geo = geoip.lookup(ip);
+  const geo = await geoLookup(ip);
   if (!geo || GEO_ALLOW.includes(geo.country)) return next(); // desconhecido: libera (evita falso bloqueio)
   return res.status(403).json({ error: 'Acesso permitido apenas do Brasil.' });
 });
