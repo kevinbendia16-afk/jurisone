@@ -12,7 +12,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔧 **Parcelamento de honorários**: botão "Parcelar" gera N parcelas mensais (soma exata em centavos, vencimentos automáticos, marca parcela X/N).
 - 🔧 **Baixa parcial**: botão "Receber" registra valor parcial → status "parcial" e some quando quita; "Quitar" fecha de uma vez. Cards de resumo consideram o recebido parcial.
 - 🔧 **Recorrência** de despesas fixas (aluguel, software) — modal "Parcelar/Repetir" gera N meses com o mesmo valor.
-- 🟡 **Juros/multa automáticos** em atraso; **desconto** para pagamento antecipado.
+- 🔧 **Juros/multa automáticos** em atraso (multa 2% + juros 1% a.m. pro rata; botão "+ Juros/multa" quita e lança os encargos). Desconto p/ antecipação ainda falta.
 - 🟡 **Formas de pagamento** (Pix, boleto, cartão, dinheiro) e **conta bancária**.
 - 🟡 **Fluxo de caixa** (saldo acumulado por período) e **DRE** simples (receita − despesa = resultado).
 - 🔧 Marca automaticamente como **"atrasado"** (badge vermelho) quando passa do vencimento e continua em aberto.
@@ -78,7 +78,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔧 **Modelos de peças** (petição/contrato/procuração) com variáveis {{cliente.*}}/{{processo.*}}/{{data}} que se preenchem sozinhas; variáveis próprias viram campos manuais; preview + copiar + baixar .txt. (Menu "Modelos de peças".)
 - 🟡 **Multiusuário** com permissões (quando o escritório crescer).
 - 🟡 **Troca de senha** já existe em Configurações; falta **recuperação por e-mail**.
-- 🟡 **Lixeira** (restaurar itens excluídos).
+- 🔧 **Lixeira** (menu): itens excluídos de lançamentos, prazos, tarefas, agenda, valores de terceiros e modelos podem ser restaurados ou apagados de vez. (Cliente/Processo seguem exclusão definitiva por causa da cascata.)
 
 ## 11. Detalhes pequenos que facilitam muito (💡)
 - Máscaras e validações (CPF, CNPJ, telefone, dinheiro).
