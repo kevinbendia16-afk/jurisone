@@ -7,14 +7,28 @@ export default function Processos() {
   const nav = useNavigate();
   const [list, setList] = useState([]);
   const [open, setOpen] = useState(false);
+  const [sinc, setSinc] = useState('');
   const [sp] = useSearchParams();
   const load = () => api.get('/processos').then(setList).catch(() => {});
   useEffect(() => { load(); if (sp.get('novo')) setOpen(true); }, []);
 
+  async function sincronizarTodos() {
+    if (!confirm('Buscar andamentos novos de todos os processos com número CNJ na base do CNJ (DataJud)? Pode levar alguns segundos.')) return;
+    setSinc('Sincronizando… não feche a página.');
+    try {
+      const r = await api.post('/processos/sincronizar-todos', {});
+      setSinc(`✓ ${r.sincronizados}/${r.processos} processos verificados · ${r.novasMovimentacoes} andamento(s) novo(s)${r.erros ? ` · ${r.erros} com erro` : ''}.`);
+    } catch { setSinc('Não foi possível sincronizar agora. Tente novamente mais tarde.'); }
+  }
+
   return (
     <div>
       <PageHead crumb="Gestão Processual" title="Processos" desc="Controle processual centralizado e vinculado aos clientes."
-        action={<button className="btn" onClick={() => setOpen(true)}>+ Novo processo</button>} />
+        action={<div style={{ display: 'flex', gap: 8 }}>
+          <button className="btn ghost" onClick={sincronizarTodos} title="Buscar andamentos novos de todos os processos na base nacional do CNJ">🔄 Sincronizar todos</button>
+          <button className="btn" onClick={() => setOpen(true)}>+ Novo processo</button>
+        </div>} />
+      {sinc && <div className="panel" style={{ padding: '12px 16px', marginBottom: 16, color: 'var(--muted)' }}>{sinc}</div>}
       <div className="panel">
         {list.length === 0 ? <Empty>Nenhum processo cadastrado.</Empty> : (
           <table>

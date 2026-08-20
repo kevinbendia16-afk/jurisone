@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { api } from '../api.js';
+import { api, maskCPFCNPJ, maskTelefone, validaDocumento } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
 const CAMPOS = ['nome', 'tipo', 'cpfCnpj', 'telefone', 'email', 'status', 'responsavel'];
@@ -79,7 +79,10 @@ export default function Clientes() {
                 <tr key={c.id} className="clickable" onClick={() => nav('/clientes/' + c.id)}>
                   <td style={{ fontWeight: 600 }}>{c.nome}</td>
                   <td className="mono">{c.cpfCnpj || '—'}</td>
-                  <td>{c.email || '—'}<br /><span className="mono">{c.telefone || ''}</span></td>
+                  <td onClick={(e) => e.stopPropagation()}>
+                    {c.email ? <a href={'mailto:' + c.email} className="clickable-link">{c.email}</a> : '—'}<br />
+                    {c.telefone && <a href={'tel:' + c.telefone.replace(/\D/g, '')} className="clickable-link mono">{c.telefone}</a>}
+                  </td>
                   <td><Badge>{c.status}</Badge></td>
                   <td style={{ color: 'var(--muted)' }}>{c.responsavel || 'Não atribuído'}</td>
                 </tr>
@@ -96,8 +99,10 @@ export default function Clientes() {
 function NovoCliente({ onClose, onSaved }) {
   const [f, setF] = useState({ tipo: 'PF', status: 'ativo', nome: '', cpfCnpj: '', telefone: '', email: '' });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
+  const docValido = validaDocumento(f.cpfCnpj);
   async function save() {
     if (!f.nome.trim()) return;
+    if (!docValido && !confirm('O CPF/CNPJ informado parece inválido. Salvar mesmo assim?')) return;
     await api.post('/clientes', f);
     onSaved();
   }
@@ -111,10 +116,15 @@ function NovoCliente({ onClose, onSaved }) {
       </div>
       <Field label="Nome / Razão social"><input className="input" value={f.nome} onChange={set('nome')} /></Field>
       <div className="row-2">
-        <Field label="CPF / CNPJ"><input className="input" value={f.cpfCnpj} onChange={set('cpfCnpj')} /></Field>
-        <Field label="Telefone"><input className="input" value={f.telefone} onChange={set('telefone')} /></Field>
+        <Field label="CPF / CNPJ">
+          <input className="input" value={f.cpfCnpj} onChange={(e) => setF({ ...f, cpfCnpj: maskCPFCNPJ(e.target.value) })}
+            style={{ borderColor: f.cpfCnpj && !docValido ? 'var(--red)' : undefined }} placeholder="000.000.000-00" />
+          {f.cpfCnpj && !docValido && <span style={{ color: 'var(--red)', fontSize: 12 }}>Documento inválido</span>}
+        </Field>
+        <Field label="Telefone"><input className="input" value={f.telefone}
+          onChange={(e) => setF({ ...f, telefone: maskTelefone(e.target.value) })} placeholder="(11) 91234-5678" /></Field>
       </div>
-      <Field label="E-mail"><input className="input" value={f.email} onChange={set('email')} /></Field>
+      <Field label="E-mail"><input className="input" type="email" value={f.email} onChange={set('email')} /></Field>
       <div className="actions"><button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={save}>Salvar cliente</button></div>
     </Modal>
   );

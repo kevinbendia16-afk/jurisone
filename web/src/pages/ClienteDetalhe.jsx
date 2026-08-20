@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { api, fmtMoney, fmtDate, fmtDateTime } from '../api.js';
+import { api, fmtMoney, fmtDate, fmtDateTime, maskCPFCNPJ, maskTelefone } from '../api.js';
 import { Badge, Empty, Modal, Field } from '../ui.jsx';
 import Documentos from '../Documentos.jsx';
 
@@ -44,8 +44,8 @@ export default function ClienteDetalhe() {
           <h1>{c.nome} <Badge>{c.status}</Badge> <span className="badge gray">{c.tipo}</span></h1>
           <div className="kv">
             <div><div className="k">Documento</div><div className="v">{c.cpfCnpj || '—'}</div></div>
-            <div><div className="k">Telefone</div><div className="v">{c.telefone || '—'}</div></div>
-            <div><div className="k">E-mail</div><div className="v">{c.email || '—'}</div></div>
+            <div><div className="k">Telefone</div><div className="v">{c.telefone ? <a href={'tel:' + c.telefone.replace(/\D/g, '')} className="clickable-link">{c.telefone}</a> : '—'}</div></div>
+            <div><div className="k">E-mail</div><div className="v">{c.email ? <a href={'mailto:' + c.email} className="clickable-link">{c.email}</a> : '—'}</div></div>
             <div><div className="k">Responsável</div><div className="v">{c.responsavel || 'Não atribuído'}</div></div>
           </div>
         </div>
@@ -130,8 +130,8 @@ function EditarCliente({ cliente, onClose, onSaved }) {
       </div>
       <Field label="Nome / Razão social"><input className="input" value={f.nome} onChange={set('nome')} /></Field>
       <div className="row-2">
-        <Field label="CPF / CNPJ"><input className="input" value={f.cpfCnpj} onChange={set('cpfCnpj')} /></Field>
-        <Field label="Telefone"><input className="input" value={f.telefone} onChange={set('telefone')} /></Field>
+        <Field label="CPF / CNPJ"><input className="input" value={f.cpfCnpj} onChange={(e) => setF({ ...f, cpfCnpj: maskCPFCNPJ(e.target.value) })} /></Field>
+        <Field label="Telefone"><input className="input" value={f.telefone} onChange={(e) => setF({ ...f, telefone: maskTelefone(e.target.value) })} /></Field>
       </div>
       <Field label="E-mail"><input className="input" value={f.email} onChange={set('email')} /></Field>
       <Field label="Responsável"><input className="input" value={f.responsavel} onChange={set('responsavel')} /></Field>

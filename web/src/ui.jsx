@@ -41,8 +41,9 @@ export function Empty({ children }) {
 }
 
 const STATUS = {
-  ativo: 'green', recebido: 'green', repassado: 'green', pago: 'green', concluida: 'green', cumprido: 'green',
-  aguardando: 'amber', pendente: 'amber', aberto: 'amber', atrasado: 'amber', em_andamento: 'amber',
+  ativo: 'green', recebido: 'green', repassado: 'green', pago: 'green', concluida: 'green', concluido: 'green', cumprido: 'green',
+  aguardando: 'amber', pendente: 'amber', aberto: 'amber', parcial: 'amber', em_andamento: 'amber', alta: 'amber',
+  atrasado: 'red', inadimplente: 'red', urgente: 'red', vencido: 'red',
 };
 export function Badge({ children }) {
   const key = String(children || '').toLowerCase();

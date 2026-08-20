@@ -54,3 +54,56 @@ export function exportCSV(filename, colunas, linhas) {
 
 // Exportação — PDF via impressão do navegador ("Salvar como PDF").
 export function exportPDF() { window.print(); }
+
+// ---------- Máscaras e validações (BR) ----------
+export function maskCPFCNPJ(v) {
+  const d = String(v || '').replace(/\D/g, '').slice(0, 14);
+  if (d.length <= 11) {
+    return d.replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+  }
+  return d.replace(/^(\d{2})(\d)/, '$1.$2').replace(/^(\d{2}\.\d{3})(\d)/, '$1.$2')
+    .replace(/\.(\d{3})(\d)/, '.$1/$2').replace(/(\d{4})(\d{1,2})$/, '$1-$2');
+}
+export function maskTelefone(v) {
+  const d = String(v || '').replace(/\D/g, '').slice(0, 11);
+  if (d.length <= 10) return d.replace(/(\d{2})(\d)/, '($1) $2').replace(/(\d{4})(\d{1,4})$/, '$1-$2');
+  return d.replace(/(\d{2})(\d)/, '($1) $2').replace(/(\d{5})(\d{1,4})$/, '$1-$2');
+}
+export function validaCPF(cpf) {
+  const c = String(cpf || '').replace(/\D/g, '');
+  if (c.length !== 11 || /^(\d)\1{10}$/.test(c)) return false;
+  let s = 0; for (let i = 0; i < 9; i++) s += +c[i] * (10 - i);
+  let r = (s * 10) % 11; if (r === 10) r = 0; if (r !== +c[9]) return false;
+  s = 0; for (let i = 0; i < 10; i++) s += +c[i] * (11 - i);
+  r = (s * 10) % 11; if (r === 10) r = 0; return r === +c[10];
+}
+export function validaCNPJ(cnpj) {
+  const c = String(cnpj || '').replace(/\D/g, '');
+  if (c.length !== 14 || /^(\d)\1{13}$/.test(c)) return false;
+  const calc = (base) => {
+    let s = 0, pos = base - 7;
+    for (let i = base; i >= 1; i--) { s += +c[base - i] * pos--; if (pos < 2) pos = 9; }
+    const r = s % 11; return r < 2 ? 0 : 11 - r;
+  };
+  return calc(12) === +c[12] && calc(13) === +c[13];
+}
+// Documento válido conforme o tamanho (CPF 11 / CNPJ 14). Vazio = válido (opcional).
+export function validaDocumento(v) {
+  const d = String(v || '').replace(/\D/g, '');
+  if (!d) return true;
+  if (d.length === 11) return validaCPF(d);
+  if (d.length === 14) return validaCNPJ(d);
+  return false;
+}
+
+// Data relativa amigável: "hoje", "amanhã", "há 3 dias", "em 5 dias".
+export function fmtRelativo(d) {
+  if (!d) return '';
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const alvo = new Date(d); alvo.setHours(0, 0, 0, 0);
+  const dias = Math.round((alvo - hoje) / 86400000);
+  if (dias === 0) return 'hoje';
+  if (dias === 1) return 'amanhã';
+  if (dias === -1) return 'ontem';
+  return dias < 0 ? `há ${-dias} dias` : `em ${dias} dias`;
+}

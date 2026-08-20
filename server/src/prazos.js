@@ -18,6 +18,29 @@ const FERIADOS_FIXOS = new Set([
 
 function pad(n) { return String(n).padStart(2, '0'); }
 
+// Domingo de Páscoa (algoritmo de Meeus/Butcher) — base dos feriados móveis.
+function domingoPascoa(ano) {
+  const a = ano % 19, b = Math.floor(ano / 100), c = ano % 100;
+  const d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25);
+  const g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
+  const i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7;
+  const m = Math.floor((a + 11 * h + 22 * l) / 451);
+  const mes = Math.floor((h + l - 7 * m + 114) / 31);
+  const dia = ((h + l - 7 * m + 114) % 31) + 1;
+  return new Date(ano, mes - 1, dia);
+}
+// Cache dos feriados móveis nacionais por ano (Set de 'MM-DD').
+const _movCache = {};
+function feriadosMoveis(ano) {
+  if (_movCache[ano]) return _movCache[ano];
+  const p = domingoPascoa(ano);
+  const desloca = (dias) => { const x = new Date(p); x.setDate(p.getDate() + dias); return `${pad(x.getMonth() + 1)}-${pad(x.getDate())}`; };
+  // Carnaval (segunda e terça), Sexta-feira Santa, Corpus Christi.
+  const set = new Set([desloca(-48), desloca(-47), desloca(-2), desloca(60)]);
+  _movCache[ano] = set;
+  return set;
+}
+
 // Recesso forense: 20/12 a 20/01 (inclusive) — suspende a contagem.
 function noRecesso(d) {
   const m = d.getMonth() + 1;
@@ -30,6 +53,7 @@ function ehDiaUtil(d) {
   if (dow === 0 || dow === 6) return false;
   const mmdd = `${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   if (FERIADOS_FIXOS.has(mmdd)) return false;
+  if (feriadosMoveis(d.getFullYear()).has(mmdd)) return false; // Carnaval, Sexta Santa, Corpus Christi
   if (noRecesso(d)) return false;
   return true;
 }

@@ -281,6 +281,29 @@ app.post('/api/processos/:id/sincronizar', auth, async (req, res) => {
   }
 });
 
+// Sincroniza TODOS os processos que têm número CNJ (atualização em lote).
+app.post('/api/processos/sincronizar-todos', auth, async (req, res) => {
+  const procs = await prisma.processo.findMany({ where: { numeroCnj: { not: null } } });
+  let totalNovas = 0, sincronizados = 0, erros = 0;
+  for (const proc of procs) {
+    try {
+      const r = await consultarProcesso(proc.numeroCnj);
+      if (!r.encontrado) continue;
+      const existentes = await prisma.movimentacao.findMany({ where: { processoId: proc.id } });
+      const chave = (d, desc) => `${new Date(d).toISOString().slice(0, 10)}|${desc}`;
+      const jaTem = new Set(existentes.map((m) => chave(m.data, m.descricao)));
+      for (const m of r.movimentos) {
+        if (jaTem.has(chave(m.data, m.descricao))) continue;
+        await prisma.movimentacao.create({ data: { processoId: proc.id, data: m.data, descricao: m.descricao } });
+        totalNovas++;
+      }
+      sincronizados++;
+    } catch { erros++; }
+    await new Promise((r) => setTimeout(r, 300)); // gentil com a API do CNJ
+  }
+  res.json({ processos: procs.length, sincronizados, novasMovimentacoes: totalNovas, erros });
+});
+
 app.post('/api/processos/:id/movimentacoes', auth, async (req, res) => {
   const m = await prisma.movimentacao.create({
     data: { processoId: req.params.id, descricao: req.body.descricao,

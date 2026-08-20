@@ -95,7 +95,7 @@ export default function Financeiro() {
                     <div style={{ color: 'var(--green)', fontSize: 11 }}>recebido {fmtMoney(l.valorPago)}</div>}
                 </td>
                 <td className="mono" style={{ fontSize: 12 }}>{l.vencimento ? fmtDate(l.vencimento) : '—'}</td>
-                <td><Badge>{l.status}</Badge>{l.parcelaTotal ? <div style={{ color: 'var(--muted-2)', fontSize: 11 }}>parcela {l.parcelaNum}/{l.parcelaTotal}</div> : null}</td>
+                <td><Badge>{(l.tipo === 'entrada' && l.status !== 'pago' && l.vencimento && new Date(l.vencimento) < new Date().setHours(0, 0, 0, 0)) ? 'atrasado' : l.status}</Badge>{l.parcelaTotal ? <div style={{ color: 'var(--muted-2)', fontSize: 11 }}>parcela {l.parcelaNum}/{l.parcelaTotal}</div> : null}</td>
                 <td onClick={(e) => e.stopPropagation()}>
                   {l.tipo === 'entrada' && l.status !== 'pago' && <div style={{ display: 'flex', gap: 6 }}>
                     <button className="btn ghost sm" onClick={() => receberParcial(l)}>Receber</button>
