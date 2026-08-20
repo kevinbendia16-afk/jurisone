@@ -340,3 +340,22 @@ body, .card, .panel, .sidebar, .topbar, .input, .btn, .detail-head, table td, ta
   .cal-cell { min-height: 64px; }
   .cal-pill { font-size: 10px; }
 }
+
+/* ---------- Central de notificações ---------- */
+.notif-wrap { position: relative; }
+.notif-badge { position: absolute; top: -4px; right: -4px; background: var(--red, #f87171); color: #fff; font-size: 10px; font-weight: 700; min-width: 16px; height: 16px; padding: 0 3px; border-radius: 9px; display: flex; align-items: center; justify-content: center; line-height: 1; }
+.notif-menu { position: absolute; right: 0; top: 46px; width: 360px; max-width: 90vw; max-height: 460px; overflow-y: auto; background: var(--panel, #171a21); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,.5); z-index: 60; }
+.notif-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--panel, #171a21); }
+.notif-empty { padding: 28px 14px; text-align: center; color: var(--muted); }
+.notif-item { display: flex; gap: 10px; align-items: center; padding: 11px 14px; border-bottom: 1px solid var(--border); cursor: pointer; }
+.notif-item:hover { background: rgba(255,255,255,.04); }
+.notif-item.lida { opacity: .55; }
+.notif-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: var(--muted); }
+.notif-dot.vencido, .notif-quando.vencido { color: var(--red, #f87171); }
+.notif-dot.vencido { background: var(--red, #f87171); }
+.notif-dot.alta { background: #fbbf24; }
+.notif-dot.media { background: #38bdf8; }
+.notif-titulo { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.notif-sub { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.notif-quando { font-size: 11px; color: var(--muted); white-space: nowrap; font-weight: 600; }
+.notif-quando.vencido { color: var(--red, #f87171); }

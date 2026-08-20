@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { api, clearToken } from './api.js';
 
@@ -33,6 +33,29 @@ export default function Layout({ children }) {
   const [q, setQ] = useState('');
   const [res, setRes] = useState([]);
   const cache = useRef(null);
+  const [notifs, setNotifs] = useState([]);
+  const [showNotif, setShowNotif] = useState(false);
+  const [lidas, setLidas] = useState(() => new Set(JSON.parse(localStorage.getItem('notif_lidas') || '[]')));
+
+  useEffect(() => {
+    const carregar = () => api.get('/notificacoes').then(setNotifs).catch(() => {});
+    carregar();
+    const t = setInterval(carregar, 120000); // atualiza a cada 2 min
+    return () => clearInterval(t);
+  }, []);
+  const naoLidas = notifs.filter((n) => !lidas.has(n.id));
+  function marcarTodasLidas() {
+    const nova = new Set([...lidas, ...notifs.map((n) => n.id)]);
+    setLidas(nova);
+    localStorage.setItem('notif_lidas', JSON.stringify([...nova]));
+  }
+  function abrirNotif(n) {
+    const nova = new Set([...lidas, n.id]);
+    setLidas(nova);
+    localStorage.setItem('notif_lidas', JSON.stringify([...nova]));
+    setShowNotif(false);
+    nav(n.link);
+  }
 
   function toggleTheme() {
     const novo = theme === 'dark' ? 'light' : 'dark';
@@ -112,6 +135,32 @@ export default function Layout({ children }) {
               <div className="quick-menu" onMouseLeave={() => setQuick(false)}>
                 {QUICK.map(([to, label]) => (
                   <a key={to} onClick={() => { setQuick(false); nav(to); }} style={{ cursor: 'pointer' }}>{label}</a>
+                ))}
+              </div>
+            )}
+          </div>
+          <div className="notif-wrap">
+            <button className="theme-btn" onClick={() => setShowNotif((v) => !v)} title="Notificações" style={{ position: 'relative' }}>
+              🔔{naoLidas.length > 0 && <span className="notif-badge">{naoLidas.length > 9 ? '9+' : naoLidas.length}</span>}
+            </button>
+            {showNotif && (
+              <div className="notif-menu" onMouseLeave={() => setShowNotif(false)}>
+                <div className="notif-head">
+                  <b>Notificações</b>
+                  {naoLidas.length > 0 && <a onClick={marcarTodasLidas} style={{ cursor: 'pointer', fontSize: 12, color: 'var(--muted)' }}>Marcar todas como lidas</a>}
+                </div>
+                {notifs.length === 0 ? (
+                  <div className="notif-empty">Nada pendente por aqui. ✓</div>
+                ) : notifs.map((n) => (
+                  <div key={n.id} className={'notif-item ' + n.urgencia + (lidas.has(n.id) ? ' lida' : '')} onClick={() => abrirNotif(n)}>
+                    <span className={'notif-dot ' + n.urgencia} />
+                    <span style={{ fontSize: 18 }}>{n.icone}</span>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div className="notif-titulo">{n.titulo}</div>
+                      {n.sub && <div className="notif-sub">{n.sub}</div>}
+                    </div>
+                    <span className={'notif-quando ' + n.urgencia}>{n.quando}</span>
+                  </div>
                 ))}
               </div>
             )}

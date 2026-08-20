@@ -440,6 +440,46 @@ app.get('/api/dashboard', auth, async (req, res) => {
   });
 });
 
+const fmtBRL = (n) => (Number(n) || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+// ---------- Central de notificações ----------
+// Calcula alertas na hora (sem tabela própria): prazos, pagamentos e compromissos próximos/vencidos.
+app.get('/api/notificacoes', auth, async (req, res) => {
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const diasEntre = (d) => Math.round((new Date(d).setHours(0, 0, 0, 0) - hoje) / 86400000);
+  const [prazos, lancamentos, eventos] = await Promise.all([
+    prisma.prazo.findMany({ where: { status: 'pendente' }, include: { cliente: true, processo: true } }),
+    prisma.lancamentoFinanceiro.findMany({ where: { tipo: 'entrada', status: { not: 'pago' }, vencimento: { not: null } }, include: { cliente: true } }),
+    prisma.evento.findMany({ where: { status: { not: 'concluido' } }, include: { cliente: true, processo: true } }),
+  ]);
+  const itens = [];
+  const urg = (dias) => dias < 0 ? 'vencido' : dias <= 2 ? 'alta' : 'media';
+  const quando = (dias) => dias < 0 ? `há ${-dias} dia(s)` : dias === 0 ? 'hoje' : dias === 1 ? 'amanhã' : `em ${dias} dias`;
+
+  for (const p of prazos) {
+    const d = diasEntre(p.dataFatal);
+    if (d <= 7) itens.push({ id: 'prazo-' + p.id, tipo: 'prazo', icone: '⏱',
+      titulo: `Prazo: ${p.titulo}`, sub: [p.cliente?.nome, p.processo?.numeroCnj].filter(Boolean).join(' · '),
+      data: p.dataFatal, dias: d, quando: quando(d), urgencia: urg(d),
+      link: p.processoId ? '/processos/' + p.processoId : '/prazos' });
+  }
+  for (const l of lancamentos) {
+    const d = diasEntre(l.vencimento);
+    if (d <= 7) itens.push({ id: 'fin-' + l.id, tipo: 'financeiro', icone: '💰',
+      titulo: `Recebimento: ${l.descricao}`, sub: [l.cliente?.nome, fmtBRL(l.valor - (l.valorPago || 0))].filter(Boolean).join(' · '),
+      data: l.vencimento, dias: d, quando: quando(d), urgencia: urg(d), link: '/financeiro' });
+  }
+  for (const e of eventos) {
+    const d = diasEntre(e.inicio);
+    if (d >= 0 && d <= 3) itens.push({ id: 'evt-' + e.id, tipo: 'agenda', icone: '📅',
+      titulo: e.titulo, sub: [e.cliente?.nome, e.local].filter(Boolean).join(' · '),
+      data: e.inicio, dias: d, quando: quando(d), urgencia: urg(d),
+      link: e.processoId ? '/processos/' + e.processoId : '/agenda' });
+  }
+  const rank = { vencido: 0, alta: 1, media: 2 };
+  itens.sort((a, b) => (rank[a.urgencia] - rank[b.urgencia]) || (a.dias - b.dias));
+  res.json(itens);
+});
+
 // ---------- Feed Jurídico ----------
 app.get('/api/feed', auth, async (req, res) => {
   try { res.json(await getFeed()); }

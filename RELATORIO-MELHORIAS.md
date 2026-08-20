@@ -44,7 +44,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 ## 5. Agenda
 - ✅ Categorias, agrupada por dia; 🔧 agora cada compromisso é **clicável** e mostra o cliente.
 - 🔴 **Editar/excluir/concluir** compromisso.
-- 🔴 Visões de **calendário mensal/semanal** (hoje é lista).
+- 🔧 Visão de **calendário mensal** (alterna Lista/Calendário; cores por categoria + legenda; navegação ‹ Hoje ›; clique no evento abre modal com data/hora/local/cliente/processo/observações e ações concluir/abrir/excluir). Semanal ainda falta.
 - 🟡 Lembretes/notificações; recorrência; sincronizar com Google Calendar.
 - 💡 Alerta de conflito de horário; contagem "hoje / próximos 7 dias".
 
@@ -72,7 +72,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 ## 10. Funcionalidades transversais que faltam
 - 🔴 **Busca global** de verdade (a barra do topo ainda não pesquisa).
 - 🔴 **Botão "Ação rápida"** abrir os formulários direto (hoje leva à página).
-- 🔴 **Relatórios e exportação** (PDF/Excel) de financeiro, processos, prazos.
+- 🔧 **Relatórios e exportação**: página "Relatórios" (menu) com 3 relatórios (financeiro/processos/prazos), filtros de período e status, cards de resumo, tabela; exporta **CSV** (abre no Excel) e **PDF** (via impressão do navegador com layout próprio de impressão).
 - 🔴 **Central de notificações** (prazo vencendo, pagamento, audiência).
 - 🔴 **Documentos/GED** (upload de arquivos, procurações, petições).
 - 🟡 **Contratos** e **modelos de petição** com variáveis.
