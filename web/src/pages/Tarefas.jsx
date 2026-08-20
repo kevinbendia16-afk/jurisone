@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { api, fmtDateTime } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
@@ -10,9 +10,10 @@ export default function Tarefas() {
   const nav = useNavigate();
   const [list, setList] = useState([]);
   const [open, setOpen] = useState(false);
+  const [sp] = useSearchParams();
   const load = () => api.get('/tarefas').then((r) =>
     setList(r.slice().sort((a, b) => (a.prazo ? new Date(a.prazo) : 8e15) - (b.prazo ? new Date(b.prazo) : 8e15)))).catch(() => {});
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); if (sp.get('novo')) setOpen(true); }, []);
   const avancar = async (t) => { await api.put('/tarefas/' + t.id, { ...t, status: PROXIMO[t.status] || 'pendente' }); load(); };
   const excluir = async (t) => { if (confirm('Excluir esta tarefa?')) { await api.del('/tarefas/' + t.id); load(); } };
   const abrir = (t) => { if (t.processoId) nav('/processos/' + t.processoId); else if (t.clienteId) nav('/clientes/' + t.clienteId); };

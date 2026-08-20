@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { api, fmtMoney } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
@@ -6,8 +7,9 @@ export default function ValoresTerceiro() {
   const [list, setList] = useState([]);
   const [open, setOpen] = useState(false);
   const [edit, setEdit] = useState(null);
+  const [sp] = useSearchParams();
   const load = () => api.get('/valores-terceiro').then(setList).catch(() => {});
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); if (sp.get('novo')) setOpen(true); }, []);
   const mudarStatus = async (t, status) => { await api.put('/valores-terceiro/' + t.id, { ...t, status }); load(); };
 
   // Regra de ouro: receita = honorário só quando recebido/repassado; custódia = líquido não repassado.

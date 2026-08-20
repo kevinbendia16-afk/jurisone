@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { api, fmtMoney, fmtDate } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
@@ -14,11 +15,13 @@ export default function Financeiro() {
   const [fStatus, setFStatus] = useState('todos');
   const [fMes, setFMes] = useState('');
 
+  const [sp] = useSearchParams();
   const load = () => api.get('/financeiro').then(setList).catch(() => {});
   useEffect(() => {
     load();
     api.get('/clientes').then(setClientes).catch(() => {});
     api.get('/processos').then(setProcessos).catch(() => {});
+    if (sp.get('novo')) setEdit({ tipo: 'entrada', origem: 'honorario', descricao: '', valor: '', status: 'aberto', data: new Date().toISOString().slice(0, 10), vencimento: '', clienteId: '', processoId: '' });
   }, []);
 
   const filtrada = list.filter((l) => {

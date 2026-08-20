@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { api } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
@@ -34,8 +34,9 @@ export default function Clientes() {
   const [open, setOpen] = useState(false);
   const fileRef = React.useRef();
 
+  const [sp] = useSearchParams();
   const load = () => api.get('/clientes').then(setList).catch(() => {});
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); if (sp.get('novo')) setOpen(true); }, []);
 
   const filtered = list.filter((c) =>
     (c.nome + (c.cpfCnpj || '') + (c.email || '')).toLowerCase().includes(q.toLowerCase()));

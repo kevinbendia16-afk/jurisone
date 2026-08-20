@@ -3,12 +3,12 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { api, clearToken } from './api.js';
 
 const QUICK = [
-  ['/clientes', '👥 Novo cliente'],
-  ['/processos', '⚖ Novo processo'],
-  ['/agenda', '📅 Novo compromisso'],
-  ['/prazos', '⏱ Novo prazo'],
-  ['/tarefas', '☑ Nova tarefa'],
-  ['/financeiro', '🏛 Novo lançamento'],
+  ['/clientes?novo=1', '👥 Novo cliente'],
+  ['/processos?novo=1', '⚖ Novo processo'],
+  ['/agenda?novo=1', '📅 Novo compromisso'],
+  ['/tarefas?novo=1', '☑ Nova tarefa'],
+  ['/financeiro?novo=1', '🏛 Novo lançamento'],
+  ['/valores-terceiros?novo=1', '⊠ Novo precatório'],
 ];
 
 const NAV = [

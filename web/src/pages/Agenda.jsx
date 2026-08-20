@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { api } from '../api.js';
 import { PageHead, Modal, Field, Empty } from '../ui.jsx';
 
@@ -23,9 +23,10 @@ export default function Agenda() {
   const abrir = (e) => { if (e.processoId) nav('/processos/' + e.processoId); else if (e.clienteId) nav('/clientes/' + e.clienteId); };
   const concluir = async (e) => { await api.put('/eventos/' + e.id, { ...e, status: 'concluido' }); load(); };
   const excluir = async (e) => { if (confirm('Excluir este compromisso?')) { await api.del('/eventos/' + e.id); load(); } };
+  const [sp] = useSearchParams();
   const load = () => api.get('/eventos').then((r) =>
     setList(r.slice().sort((a, b) => new Date(a.inicio) - new Date(b.inicio)))).catch(() => {});
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); if (sp.get('novo')) setOpen(true); }, []);
 
   const filtrada = list.filter((e) => filtro === 'todas' || e.categoria === filtro);
   // agrupa por dia

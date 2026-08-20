@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { api, fmtMoney, fmtDate, fmtDateTime } from '../api.js';
-import { Badge, Empty, Field } from '../ui.jsx';
+import { Badge, Empty, Field, Modal } from '../ui.jsx';
 
 const TABS = ['Visão geral', 'Movimentações', 'Prazos', 'Financeiro', 'Valores de terceiros', 'Tarefas'];
 
@@ -12,10 +12,15 @@ export default function ProcessoDetalhe() {
   const [tab, setTab] = useState('Visão geral');
   const [nova, setNova] = useState('');
   const [sinc, setSinc] = useState('');
+  const [editando, setEditando] = useState(false);
   const load = () => api.get(`/processos/${id}/completo`).then(setD).catch(() => nav('/processos'));
   useEffect(() => { load(); }, [id]);
   if (!d) return <div className="empty">Carregando…</div>;
   const p = d.processo;
+  async function excluir() {
+    if (!confirm('Excluir este processo e seus dados vinculados?')) return;
+    await api.del('/processos/' + id); nav('/processos');
+  }
 
   async function sincronizar() {
     setSinc('Consultando o DataJud/CNJ…');
@@ -38,7 +43,14 @@ export default function ProcessoDetalhe() {
 
   return (
     <div>
-      <div className="crumb" style={{ marginBottom: 12 }}><Link to="/processos">Processos</Link> &nbsp;›&nbsp; {p.titulo}</div>
+      <div className="crumb" style={{ marginBottom: 12, display: 'flex', justifyContent: 'space-between' }}>
+        <span><Link to="/processos">Processos</Link> &nbsp;›&nbsp; {p.titulo}</span>
+        <span style={{ whiteSpace: 'nowrap' }}>
+          <button className="btn ghost sm" onClick={() => setEditando(true)} style={{ marginRight: 8 }}>✎ Editar</button>
+          <button className="btn ghost sm" onClick={excluir} style={{ color: 'var(--red)' }}>🗑 Excluir</button>
+        </span>
+      </div>
+      {editando && <EditarProcesso proc={p} onClose={() => setEditando(false)} onSaved={() => { setEditando(false); load(); }} />}
       <div className="detail-head">
         <div className="big-avatar">⚖</div>
         <div style={{ flex: 1 }}>
@@ -90,6 +102,34 @@ export default function ProcessoDetalhe() {
       {tab === 'Valores de terceiros' && <T rows={d.valoresTerceiro} cols={[['tipo', 'Tipo'], ['valorBruto', 'Bruto', 'money'], ['valorLiquido', 'Líquido', 'money'], ['status', 'Status', 'badge']]} empty="Nenhum valor." />}
       {tab === 'Tarefas' && <T rows={d.tarefas} cols={[['titulo', 'Tarefa'], ['status', 'Status', 'badge']]} empty="Nenhuma tarefa." />}
     </div>
+  );
+}
+
+function EditarProcesso({ proc, onClose, onSaved }) {
+  const [f, setF] = useState({
+    titulo: proc.titulo || '', numeroCnj: proc.numeroCnj || '', area: proc.area || 'Cível',
+    status: proc.status || 'ativo', prioridade: proc.prioridade || 'normal',
+    valorCausa: proc.valorCausa ?? '', clienteId: proc.clienteId,
+  });
+  const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
+  async function salvar() { if (!f.titulo.trim()) return; await api.put('/processos/' + proc.id, f); onSaved(); }
+  return (
+    <Modal title="Editar processo" onClose={onClose}>
+      <div className="row-2">
+        <Field label="Número CNJ"><input className="input" value={f.numeroCnj} onChange={set('numeroCnj')} /></Field>
+        <Field label="Área jurídica"><input className="input" value={f.area} onChange={set('area')} /></Field>
+      </div>
+      <Field label="Título / assunto"><input className="input" value={f.titulo} onChange={set('titulo')} /></Field>
+      <div className="row-2">
+        <Field label="Status"><select className="input" value={f.status} onChange={set('status')}>
+          <option value="consulta">consulta</option><option value="ativo">ativo</option>
+          <option value="recurso">recurso</option><option value="acordo">acordo</option><option value="encerrado">encerrado</option></select></Field>
+        <Field label="Prioridade"><select className="input" value={f.prioridade} onChange={set('prioridade')}>
+          <option value="normal">normal</option><option value="alta">alta</option><option value="urgente">urgente</option></select></Field>
+      </div>
+      <Field label="Valor da causa (R$)"><input className="input" type="number" value={f.valorCausa} onChange={set('valorCausa')} /></Field>
+      <button className="btn" style={{ width: '100%', justifyContent: 'center' }} onClick={salvar}>Salvar alterações</button>
+    </Modal>
   );
 }
 
