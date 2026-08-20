@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import 'express-async-errors'; // captura erros de rotas async e envia ao error handler
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
@@ -10,6 +11,7 @@ import rateLimit from 'express-rate-limit';
 import slowDown from 'express-slow-down';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
+import geoip from 'geoip-lite';
 import { PrismaClient } from '@prisma/client';
 import { calcularPrazo } from './prazos.js';
 import { getFeed } from './feed.js';
@@ -34,10 +36,11 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      scriptSrc: ["'self'"],
+      scriptSrc: ["'self'", 'https://challenges.cloudflare.com'],
       styleSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", 'data:'],
-      connectSrc: ["'self'"],
+      connectSrc: ["'self'", 'https://challenges.cloudflare.com'],
+      frameSrc: ["'self'", 'https://challenges.cloudflare.com'],
       objectSrc: ["'none'"],
       frameAncestors: ["'none'"],
     },
@@ -48,6 +51,25 @@ app.use(helmet({
 // CORS restrito: por padrão desabilitado (app é servido na mesma origem).
 // Para liberar origens específicas, defina CORS_ORIGIN=https://a.com,https://b.com
 app.use(cors({ origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : false }));
+
+// ---------- Bloqueio geográfico (só países permitidos, padrão: Brasil) ----------
+// Desative com GEO_ENFORCE=0. Ajuste países com GEO_ALLOW=BR,PT (etc).
+const GEO_ALLOW = (process.env.GEO_ALLOW || 'BR').split(',').map((s) => s.trim().toUpperCase());
+const GEO_ENFORCE = process.env.GEO_ENFORCE !== '0';
+function ehIpLocal(ip) {
+  if (!ip) return true;
+  return ip === '::1' || ip.startsWith('127.') || ip.startsWith('10.') ||
+    ip.startsWith('192.168.') || /^172\.(1[6-9]|2\d|3[01])\./.test(ip);
+}
+app.use((req, res, next) => {
+  if (!GEO_ENFORCE) return next();
+  if (req.path === '/api/health') return next(); // health check do Render
+  const ip = (req.ip || '').replace('::ffff:', '');
+  if (ehIpLocal(ip)) return next();
+  const geo = geoip.lookup(ip);
+  if (!geo || GEO_ALLOW.includes(geo.country)) return next(); // desconhecido: libera (evita falso bloqueio)
+  return res.status(403).json({ error: 'Acesso permitido apenas do Brasil.' });
+});
 
 app.use(express.json({ limit: '1mb' }));
 
@@ -76,10 +98,33 @@ function auth(req, res, next) {
   }
 }
 
+// Config pública do frontend (ex.: chave do CAPTCHA). Não expõe segredos.
+app.get('/api/config', (req, res) => {
+  res.json({ turnstileSiteKey: process.env.TURNSTILE_SITE_KEY || null });
+});
+
+// Verifica o token do Cloudflare Turnstile (CAPTCHA "não sou robô"). Só ativa se TURNSTILE_SECRET existir.
+async function verificarTurnstile(token, ip) {
+  if (!process.env.TURNSTILE_SECRET) return true; // CAPTCHA desativado
+  if (!token) return false;
+  try {
+    const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ secret: process.env.TURNSTILE_SECRET, response: token, remoteip: ip }),
+    });
+    const j = await r.json();
+    return !!j.success;
+  } catch { return false; }
+}
+
 app.post('/api/login', loginLimiter, loginSlowDown, async (req, res) => {
-  const { email, senha, website } = req.body;
+  const { email, senha, website, captcha } = req.body;
   // Honeypot: campo oculto que só robôs preenchem. Se vier preenchido, rejeita silenciosamente.
   if (website) return res.status(400).json({ error: 'requisição inválida' });
+  // CAPTCHA "não sou robô" (se configurado)
+  if (!(await verificarTurnstile(captcha, req.ip))) {
+    return res.status(400).json({ error: 'Confirme que você não é um robô.' });
+  }
   if (typeof email !== 'string' || typeof senha !== 'string') {
     return res.status(400).json({ error: 'dados inválidos' });
   }
@@ -226,7 +271,8 @@ app.post('/api/processos/:id/sincronizar', auth, async (req, res) => {
     }
     res.json({ encontrado: true, novas, classe: r.classe, orgaoJulgador: r.orgaoJulgador });
   } catch (e) {
-    res.status(502).json({ error: e.message });
+    console.error('DataJud erro:', e.message);
+    res.status(502).json({ error: 'Não foi possível consultar o DataJud agora. Tente novamente mais tarde.' });
   }
 });
 
@@ -377,6 +423,9 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
 
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
+// 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
+app.use('/api', (req, res) => res.status(404).json({ error: 'não encontrado' }));
+
 // ---------- Servir o frontend buildado (web/dist), se existir ----------
 const distDir = path.resolve(__dirname, '../../web/dist');
 if (fs.existsSync(distDir)) {
@@ -384,6 +433,14 @@ if (fs.existsSync(distDir)) {
   // SPA fallback: qualquer rota não-API devolve o index.html
   app.get(/^(?!\/api).*/, (req, res) => res.sendFile(path.join(distDir, 'index.html')));
 }
+
+// Error handler global: registra o erro no servidor, devolve mensagem genérica ao cliente.
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  console.error('Erro:', err?.message || err);
+  if (res.headersSent) return;
+  res.status(err?.status || 500).json({ error: 'Erro interno. Tente novamente.' });
+});
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`JurisOne API rodando em http://localhost:${PORT}`));

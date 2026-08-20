@@ -6,3 +6,6 @@ server/dev.db
 server/dev.db-journal
 **/.env
 .env
+push-device.log
+push-device.bat
+enviar-github.bat
