@@ -159,10 +159,21 @@ app.post('/api/change-password', auth, async (req, res) => {
 });
 
 // helper CRUD genérico simplificado
-function crud(path, model, { include, transform } = {}) {
+// Modelos com "lixeira" (soft-delete): DELETE marca deletedAt; listagens escondem os excluídos.
+const SOFT_MODELS = {
+  lancamentoFinanceiro: { rotulo: (x) => x.descricao, tipo: 'Lançamento', pagina: '/financeiro' },
+  prazo: { rotulo: (x) => x.titulo, tipo: 'Prazo', pagina: '/prazos' },
+  tarefa: { rotulo: (x) => x.titulo, tipo: 'Tarefa', pagina: '/tarefas' },
+  evento: { rotulo: (x) => x.titulo, tipo: 'Compromisso', pagina: '/agenda' },
+  valorTerceiro: { rotulo: (x) => `${x.tipo} — ${fmtBRL(x.valorLiquido)}`, tipo: 'Valor de terceiro', pagina: '/valores-terceiros' },
+  modelo: { rotulo: (x) => x.nome, tipo: 'Modelo', pagina: '/modelos' },
+};
+
+function crud(path, model, { include, transform, soft } = {}) {
   const r = express.Router();
+  const baseWhere = soft ? { deletedAt: null } : {};
   r.get('/', async (req, res) => {
-    const items = await prisma[model].findMany({ include, orderBy: { createdAt: 'desc' } });
+    const items = await prisma[model].findMany({ where: baseWhere, include, orderBy: { createdAt: 'desc' } });
     res.json(items);
   });
   r.get('/:id', async (req, res) => {
@@ -181,11 +192,35 @@ function crud(path, model, { include, transform } = {}) {
     res.json(item);
   });
   r.delete('/:id', async (req, res) => {
-    await prisma[model].delete({ where: { id: req.params.id } });
+    if (soft) await prisma[model].update({ where: { id: req.params.id }, data: { deletedAt: new Date() } });
+    else await prisma[model].delete({ where: { id: req.params.id } });
     res.json({ ok: true });
   });
   app.use(path, auth, r);
 }
+
+// ---------- Lixeira (itens excluídos que podem ser restaurados) ----------
+app.get('/api/lixeira', auth, async (req, res) => {
+  const itens = [];
+  for (const [model, cfg] of Object.entries(SOFT_MODELS)) {
+    const excluidos = await prisma[model].findMany({ where: { deletedAt: { not: null } }, orderBy: { deletedAt: 'desc' } });
+    for (const x of excluidos) itens.push({ model, id: x.id, tipo: cfg.tipo, rotulo: cfg.rotulo(x), pagina: cfg.pagina, deletedAt: x.deletedAt });
+  }
+  itens.sort((a, b) => new Date(b.deletedAt) - new Date(a.deletedAt));
+  res.json(itens);
+});
+app.post('/api/lixeira/:model/:id/restaurar', auth, async (req, res) => {
+  const { model, id } = req.params;
+  if (!SOFT_MODELS[model]) return res.status(400).json({ error: 'tipo inválido' });
+  await prisma[model].update({ where: { id }, data: { deletedAt: null } });
+  res.json({ ok: true });
+});
+app.delete('/api/lixeira/:model/:id', auth, async (req, res) => {
+  const { model, id } = req.params;
+  if (!SOFT_MODELS[model]) return res.status(400).json({ error: 'tipo inválido' });
+  await prisma[model].delete({ where: { id } }); // exclusão definitiva
+  res.json({ ok: true });
+});
 
 // ---------- Clientes ----------
 crud('/api/clientes', 'cliente', {
@@ -207,10 +242,10 @@ app.get('/api/clientes/:id/completo', auth, async (req, res) => {
   if (!cliente) return res.status(404).json({ error: 'não encontrado' });
   const [processos, prazos, lancamentos, valoresTerceiro, tarefas] = await Promise.all([
     prisma.processo.findMany({ where: { clienteId: id }, orderBy: { createdAt: 'desc' } }),
-    prisma.prazo.findMany({ where: { clienteId: id }, orderBy: { dataFatal: 'asc' } }),
-    prisma.lancamentoFinanceiro.findMany({ where: { clienteId: id }, orderBy: { createdAt: 'desc' } }),
-    prisma.valorTerceiro.findMany({ where: { clienteId: id }, orderBy: { createdAt: 'desc' } }),
-    prisma.tarefa.findMany({ where: { clienteId: id }, orderBy: { createdAt: 'desc' } }),
+    prisma.prazo.findMany({ where: { clienteId: id, deletedAt: null }, orderBy: { dataFatal: 'asc' } }),
+    prisma.lancamentoFinanceiro.findMany({ where: { clienteId: id, deletedAt: null }, orderBy: { createdAt: 'desc' } }),
+    prisma.valorTerceiro.findMany({ where: { clienteId: id, deletedAt: null }, orderBy: { createdAt: 'desc' } }),
+    prisma.tarefa.findMany({ where: { clienteId: id, deletedAt: null }, orderBy: { createdAt: 'desc' } }),
   ]);
   res.json({ cliente, processos, prazos, lancamentos, valoresTerceiro, tarefas });
 });
@@ -256,10 +291,10 @@ app.get('/api/processos/:id/completo', auth, async (req, res) => {
   if (!processo) return res.status(404).json({ error: 'não encontrado' });
   const [movimentacoes, prazos, lancamentos, valoresTerceiro, tarefas] = await Promise.all([
     prisma.movimentacao.findMany({ where: { processoId: id }, orderBy: { data: 'desc' } }),
-    prisma.prazo.findMany({ where: { processoId: id }, orderBy: { dataFatal: 'asc' } }),
-    prisma.lancamentoFinanceiro.findMany({ where: { processoId: id }, orderBy: { createdAt: 'desc' } }),
-    prisma.valorTerceiro.findMany({ where: { processoId: id }, orderBy: { createdAt: 'desc' } }),
-    prisma.tarefa.findMany({ where: { processoId: id }, orderBy: { createdAt: 'desc' } }),
+    prisma.prazo.findMany({ where: { processoId: id, deletedAt: null }, orderBy: { dataFatal: 'asc' } }),
+    prisma.lancamentoFinanceiro.findMany({ where: { processoId: id, deletedAt: null }, orderBy: { createdAt: 'desc' } }),
+    prisma.valorTerceiro.findMany({ where: { processoId: id, deletedAt: null }, orderBy: { createdAt: 'desc' } }),
+    prisma.tarefa.findMany({ where: { processoId: id, deletedAt: null }, orderBy: { createdAt: 'desc' } }),
   ]);
   res.json({ processo, movimentacoes, prazos, lancamentos, valoresTerceiro, tarefas });
 });
@@ -320,6 +355,7 @@ app.post('/api/processos/:id/movimentacoes', auth, async (req, res) => {
 
 // ---------- Prazos ----------
 crud('/api/prazos', 'prazo', {
+  soft: true,
   include: { processo: true, cliente: true },
   transform: (b) => ({
     titulo: b.titulo, processoId: b.processoId || null, clienteId: b.clienteId || null,
@@ -338,6 +374,7 @@ app.post('/api/prazos/calcular', auth, (req, res) => {
 
 // ---------- Financeiro ----------
 crud('/api/financeiro', 'lancamentoFinanceiro', {
+  soft: true,
   include: { cliente: true, processo: true },
   transform: (b) => ({
     tipo: b.tipo, origem: b.origem || 'outro', descricao: b.descricao,
@@ -436,6 +473,7 @@ function calcTerceiro(b) {
   return { valorBruto, honorarioPct, custas, irRetido, honorarioValor, valorLiquido };
 }
 crud('/api/valores-terceiro', 'valorTerceiro', {
+  soft: true,
   include: { cliente: true, processo: true },
   transform: (b) => ({
     clienteId: b.clienteId, processoId: b.processoId || null, tipo: b.tipo || 'precatorio',
@@ -448,11 +486,13 @@ crud('/api/valores-terceiro', 'valorTerceiro', {
 
 // ---------- Modelos de petição/contrato ----------
 crud('/api/modelos', 'modelo', {
+  soft: true,
   transform: (b) => ({ nome: b.nome, tipo: b.tipo || 'peticao', conteudo: b.conteudo || '' }),
 });
 
 // ---------- Tarefas ----------
 crud('/api/tarefas', 'tarefa', {
+  soft: true,
   include: { cliente: true, processo: true },
   transform: (b) => ({
     titulo: b.titulo, descricao: b.descricao || null, status: b.status || 'pendente',
@@ -463,6 +503,7 @@ crud('/api/tarefas', 'tarefa', {
 
 // ---------- Agenda / Eventos ----------
 crud('/api/eventos', 'evento', {
+  soft: true,
   include: { cliente: true, processo: true },
   transform: (b) => ({
     titulo: b.titulo, categoria: b.categoria || 'outro',
@@ -518,10 +559,10 @@ app.get('/api/dashboard', auth, async (req, res) => {
   const [clientes, processos, tarefas, prazos, lancamentos, terceiros] = await Promise.all([
     prisma.cliente.count(),
     prisma.processo.count(),
-    prisma.tarefa.count({ where: { status: { in: ['pendente', 'em_andamento'] } } }),
-    prisma.prazo.findMany({ where: { status: 'pendente' } }),
-    prisma.lancamentoFinanceiro.findMany(),
-    prisma.valorTerceiro.findMany(),
+    prisma.tarefa.count({ where: { status: { in: ['pendente', 'em_andamento'] }, deletedAt: null } }),
+    prisma.prazo.findMany({ where: { status: 'pendente', deletedAt: null } }),
+    prisma.lancamentoFinanceiro.findMany({ where: { deletedAt: null } }),
+    prisma.valorTerceiro.findMany({ where: { deletedAt: null } }),
   ]);
   const aReceber = lancamentos
     .filter((l) => l.tipo === 'entrada' && l.status !== 'pago')
@@ -547,10 +588,10 @@ app.get('/api/notificacoes', auth, async (req, res) => {
   const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
   const diasEntre = (d) => Math.round((new Date(d).setHours(0, 0, 0, 0) - hoje) / 86400000);
   const [prazos, lancamentos, eventos, terceiros] = await Promise.all([
-    prisma.prazo.findMany({ where: { status: 'pendente' }, include: { cliente: true, processo: true } }),
-    prisma.lancamentoFinanceiro.findMany({ where: { tipo: 'entrada', status: { not: 'pago' }, vencimento: { not: null } }, include: { cliente: true } }),
-    prisma.evento.findMany({ where: { status: { not: 'concluido' } }, include: { cliente: true, processo: true } }),
-    prisma.valorTerceiro.findMany({ where: { status: { not: 'repassado' }, dataPrevista: { not: null } }, include: { cliente: true } }),
+    prisma.prazo.findMany({ where: { status: 'pendente', deletedAt: null }, include: { cliente: true, processo: true } }),
+    prisma.lancamentoFinanceiro.findMany({ where: { tipo: 'entrada', status: { not: 'pago' }, vencimento: { not: null }, deletedAt: null }, include: { cliente: true } }),
+    prisma.evento.findMany({ where: { status: { not: 'concluido' }, deletedAt: null }, include: { cliente: true, processo: true } }),
+    prisma.valorTerceiro.findMany({ where: { status: { not: 'repassado' }, dataPrevista: { not: null }, deletedAt: null }, include: { cliente: true } }),
   ]);
   const itens = [];
   const urg = (dias) => dias < 0 ? 'vencido' : dias <= 2 ? 'alta' : 'media';
@@ -596,7 +637,7 @@ app.get('/api/feed', auth, async (req, res) => {
 // ---------- Dashboard: dados dos gráficos ----------
 app.get('/api/dashboard/charts', auth, async (req, res) => {
   const [lancamentos, processos] = await Promise.all([
-    prisma.lancamentoFinanceiro.findMany(),
+    prisma.lancamentoFinanceiro.findMany({ where: { deletedAt: null } }),
     prisma.processo.findMany(),
   ]);
   // Receitas x Despesas nos últimos 6 meses

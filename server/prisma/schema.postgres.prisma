@@ -96,6 +96,7 @@ model Prazo {
   prioridade   String   @default("normal")
   status       String   @default("pendente")
   createdAt    DateTime @default(now())
+  deletedAt    DateTime?
 }
 
 model LancamentoFinanceiro {
@@ -116,6 +117,7 @@ model LancamentoFinanceiro {
   processoId String?
   processo   Processo? @relation(fields: [processoId], references: [id], onDelete: SetNull)
   createdAt  DateTime @default(now())
+  deletedAt  DateTime?
 }
 
 // Modelos de peticao/contrato com variaveis.
@@ -125,6 +127,7 @@ model Modelo {
   tipo      String   @default("peticao")
   conteudo  String
   createdAt DateTime @default(now())
+  deletedAt DateTime?
 }
 
 // Documentos / GED - arquivos anexados a cliente/processo.
@@ -161,6 +164,7 @@ model ValorTerceiro {
   dataPrevista  DateTime?
   status        String   @default("aguardando")
   createdAt     DateTime @default(now())
+  deletedAt     DateTime?
 }
 
 // Agenda - eventos categorizados para o advogado se planejar.
@@ -179,6 +183,7 @@ model Evento {
   processoId String?
   processo   Processo? @relation(fields: [processoId], references: [id], onDelete: SetNull)
   createdAt  DateTime @default(now())
+  deletedAt  DateTime?
 }
 
 model Tarefa {
@@ -193,4 +198,5 @@ model Tarefa {
   processoId String?
   processo   Processo? @relation(fields: [processoId], references: [id], onDelete: SetNull)
   createdAt  DateTime @default(now())
+  deletedAt  DateTime?
 }

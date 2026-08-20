@@ -23,6 +23,7 @@ const NAV = [
   ['/relatorios', '📊', 'Relatórios'],
   ['/modelos', '📝', 'Modelos de peças'],
   ['/feed', '📰', 'Feed Jurídico'],
+  ['/lixeira', '🗑', 'Lixeira'],
   ['/configuracoes', '⚙', 'Configurações'],
 ];
 

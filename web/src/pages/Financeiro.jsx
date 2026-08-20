@@ -5,6 +5,21 @@ import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
 const ORIGENS = ['honorario', 'despesa', 'custa', 'reembolso', 'outro'];
 
+// Encargos padrão de mora: multa 2% + juros 1% ao mês (pro rata die) sobre o saldo em aberto.
+function calcJurosMulta(l) {
+  if (!l.vencimento) return null;
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  const venc = new Date(l.vencimento); venc.setHours(0, 0, 0, 0);
+  const dias = Math.round((hoje - venc) / 86400000);
+  if (dias <= 0) return null;
+  const base = l.valor - (l.valorPago || 0);
+  if (!(base > 0)) return null;
+  const multa = base * 0.02;
+  const juros = base * 0.01 * (dias / 30);
+  const extra = multa + juros;
+  return { dias, base, multa, juros, extra, total: base + extra };
+}
+
 export default function Financeiro() {
   const [list, setList] = useState([]);
   const [clientes, setClientes] = useState([]);
@@ -55,6 +70,21 @@ export default function Financeiro() {
     load();
   }
 
+  // Quita um lançamento vencido cobrando juros (1% a.m. pro rata) + multa (2%) sobre o saldo.
+  async function receberComJuros(l) {
+    const jm = calcJurosMulta(l);
+    if (!jm) return;
+    const ok = confirm(`Saldo ${fmtMoney(jm.base)} + multa 2% (${fmtMoney(jm.multa)}) + juros 1% a.m. por ${jm.dias} dia(s) (${fmtMoney(jm.juros)})\n= total ${fmtMoney(jm.total)}.\n\nQuitar e lançar os encargos (${fmtMoney(jm.extra)}) como receita?`);
+    if (!ok) return;
+    await api.put('/financeiro/' + l.id, { ...l, status: 'pago', valorPago: l.valor, data: new Date().toISOString().slice(0, 10) });
+    await api.post('/financeiro', {
+      tipo: 'entrada', origem: 'outro', descricao: `Juros/multa — ${l.descricao}`, valor: jm.extra,
+      status: 'pago', data: new Date().toISOString().slice(0, 10),
+      clienteId: l.clienteId || null, processoId: l.processoId || null,
+    });
+    load();
+  }
+
   return (
     <div>
       <PageHead crumb="Gestão Financeira" title="Financeiro" desc="Contas, recebimentos e despesas — editável, com filtros e busca."
@@ -99,6 +129,7 @@ export default function Financeiro() {
                 <td onClick={(e) => e.stopPropagation()}>
                   {l.tipo === 'entrada' && l.status !== 'pago' && <div style={{ display: 'flex', gap: 6 }}>
                     <button className="btn ghost sm" onClick={() => receberParcial(l)}>Receber</button>
+                    {calcJurosMulta(l) && <button className="btn ghost sm" title="Quitar cobrando juros 1% a.m. + multa 2%" onClick={() => receberComJuros(l)}>+ Juros/multa</button>}
                     <button className="btn sm" style={{ background: 'var(--green)', color: '#06281a' }} onClick={() => marcarPago(l)}>✓ Quitar</button>
                   </div>}
                 </td>
