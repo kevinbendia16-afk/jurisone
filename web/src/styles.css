@@ -247,6 +247,27 @@ body, .card, .panel, .sidebar, .topbar, .input, .btn, .detail-head, table td, ta
   cursor: pointer; font-size: 16px; display: grid; place-items: center; color: var(--text); }
 .theme-btn:hover { border-color: var(--accent); }
 
+/* ============ Feed Jurídico — layout revista ============ */
+.feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; }
+.feed-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; display: flex; flex-direction: column; transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease; }
+.feed-card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+.feed-capa { position: relative; display: block; height: 168px; overflow: hidden; }
+.feed-capa img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.feed-capa-ph { position: absolute; inset: 0; display: grid; place-items: center; font-weight: 700;
+  font-size: 15px; letter-spacing: 1px; text-transform: uppercase; opacity: .8; }
+.feed-cat { position: absolute; top: 12px; left: 12px; color: #0b0c0e; font-size: 11px; font-weight: 700;
+  padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .5px; }
+.feed-corpo { padding: 16px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+.feed-meta { color: var(--muted-2); font-size: 12px; margin-bottom: 8px; }
+.feed-titulo { font-weight: 700; font-size: 16px; line-height: 1.35; color: var(--text); margin-bottom: 8px; display: block; }
+.feed-titulo:hover { color: var(--accent); }
+.feed-resumo { color: var(--muted); line-height: 1.55; font-size: 13.5px; margin: 0 0 14px;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.feed-rodape { margin-top: auto; display: flex; align-items: center; justify-content: space-between; }
+.feed-ler { color: var(--green); font-size: 13px; font-weight: 600; }
+@media (max-width: 640px) { .feed-grid { grid-template-columns: 1fr; } }
+
 /* ============ Responsivo — celular ============ */
 @media (max-width: 640px) {
   .topbar { padding: 12px 14px; gap: 10px; }

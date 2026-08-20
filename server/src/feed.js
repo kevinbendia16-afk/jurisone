@@ -34,19 +34,31 @@ function linkOficial(link) {
   } catch { return null; }
 }
 
-// Refina a categoria pelo título (melhora a distribuição entre as abas)
-function categorizar(titulo, padrao) {
-  const t = (titulo || '').toLowerCase();
-  if (/sancion|nova lei|projeto de lei|\bpl\b|promulg|publicada a lei|medida provis|decreto/.test(t)) return 'Nova Lei';
-  if (/julg|decis|súmula|sumula|tese|repercuss|acórdão|acordao|mantém|mantem|condena|absolv|nega|concede|reconhece/.test(t)) return 'Decisão';
-  if (/artigo|opini|parecer|análise|analise|coluna|entenda|por que|como /.test(t)) return 'Artigo';
+// Refina a categoria pelo título/resumo (melhora a distribuição entre as abas)
+function categorizar(texto, padrao) {
+  const t = (texto || '').toLowerCase();
+  if (/sancion|nova lei|projeto de lei|\bpl\b|\bpec\b|emenda constitucional|emenda à|promulg|publicada a lei|medida provis|\bmp \b|decreto|regulamenta|aprova(?:da|do) (?:a )?lei/.test(t)) return 'Nova Lei';
+  if (/julg|decis|decid|súmula|sumula|\btese\b|repercuss|acórdão|acordao|mant[eé]m|condena|absolv|nega provimento|concede|reconhece|determina|liminar|habeas|recurso/.test(t)) return 'Decisão';
+  if (/artigo|opini|parecer|an[aá]lise|coluna|reflex|ensaio|\bpor que\b|entenda|o papel|os limites|não é|deve ser/.test(t)) return 'Artigo';
   return padrao;
+}
+
+// Extrai a URL de uma imagem de capa (media:content, enclosure, ou <img> no conteúdo)
+function extrairImagem(bloco) {
+  let m = bloco.match(/<media:(?:content|thumbnail)[^>]+url=["']([^"']+)["']/i);
+  if (m) return m[1];
+  m = bloco.match(/<enclosure[^>]+url=["']([^"']+\.(?:jpg|jpeg|png|webp)[^"']*)["'][^>]*type=["']image/i)
+    || bloco.match(/<enclosure[^>]+type=["']image[^>]+url=["']([^"']+)["']/i);
+  if (m) return m[1];
+  m = bloco.match(/<img[^>]+src=["']([^"']+)["']/i);
+  if (m) return m[1];
+  return null;
 }
 
 function parseRss(xml, fonte, categoriaPadrao) {
   const itens = [];
   const blocos = xml.split(/<item[\s>]/i).slice(1);
-  for (const b of blocos.slice(0, 12)) {
+  for (const b of blocos.slice(0, 14)) {
     const g = (tag) => {
       const m = b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, 'i'));
       return m ? m[1] : '';
@@ -55,10 +67,13 @@ function parseRss(xml, fonte, categoriaPadrao) {
     let link = stripTags(g('link')) || stripTags(g('guid'));
     link = linkOficial(link);
     if (!titulo || !link) continue; // sem título ou sem fonte oficial válida => descarta
+    const conteudo = g('content:encoded') || g('description');
+    const resumo = stripTags(conteudo).slice(0, 300);
+    let imagem = extrairImagem(b);
+    if (imagem && imagem.startsWith('http:')) imagem = imagem.replace('http:', 'https:');
     itens.push({
-      fonte, categoria: categorizar(titulo, categoriaPadrao), titulo,
-      resumo: stripTags(g('description')).slice(0, 260),
-      link, data: (g('pubDate') || g('dc:date') || new Date().toISOString()).trim(),
+      fonte, categoria: categorizar(titulo + ' ' + resumo, categoriaPadrao), titulo,
+      resumo, imagem, link, data: (g('pubDate') || g('dc:date') || new Date().toISOString()).trim(),
     });
   }
   return itens;
