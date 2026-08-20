@@ -74,7 +74,7 @@ Legenda: ✅ pronto · 🔧 feito agora nesta rodada · 🟡 falta (prioridade m
 - 🔴 **Botão "Ação rápida"** abrir os formulários direto (hoje leva à página).
 - 🔧 **Relatórios e exportação**: página "Relatórios" (menu) com 3 relatórios (financeiro/processos/prazos), filtros de período e status, cards de resumo, tabela; exporta **CSV** (abre no Excel) e **PDF** (via impressão do navegador com layout próprio de impressão).
 - 🔧 **Central de notificações**: sino no topo (badge com contagem), dropdown com prazos vencendo (≤7d), recebimentos a vencer/vencidos (≤7d) e audiências/compromissos próximos (≤3d), ordenado por urgência (vencido→alta→média), clique navega, "marcar como lida" (localStorage), atualiza a cada 2min. Endpoint /api/notificacoes calcula na hora.
-- 🔴 **Documentos/GED** (upload de arquivos, procurações, petições).
+- 🔧 **Documentos/GED**: aba "Documentos" em processo e cliente — anexar arquivos (procuração, petição, contrato, comprovante, decisão), baixar e excluir; categorias, ícone por tipo, tamanho legível; até 8MB/arquivo. Guardado no banco (base64). ⚠️ Neon free ~0.5GB → migrar p/ storage externo (R2/S3) se crescer.
 - 🟡 **Contratos** e **modelos de petição** com variáveis.
 - 🟡 **Multiusuário** com permissões (quando o escritório crescer).
 - 🟡 **Troca de senha** já existe em Configurações; falta **recuperação por e-mail**.
