@@ -5,6 +5,14 @@ import { PageHead, Empty } from '../ui.jsx';
 const CORES = { 'Decisão': 'green', 'Notícia': 'gray', 'Nova Lei': 'amber', 'Artigo': 'gray' };
 const CATS = ['Todas', 'Decisão', 'Notícia', 'Nova Lei', 'Artigo'];
 
+// Só aceita links http/https (evita javascript: e outros esquemas perigosos)
+function linkSeguro(url) {
+  try {
+    const u = new URL(url, window.location.origin);
+    return (u.protocol === 'http:' || u.protocol === 'https:') ? u.href : null;
+  } catch { return null; }
+}
+
 export default function FeedJuridico() {
   const [itens, setItens] = useState(null);
   const [cat, setCat] = useState('Todas');
@@ -41,7 +49,7 @@ export default function FeedJuridico() {
               </div>
               <div style={{ fontWeight: 600, fontSize: 16, marginBottom: 6 }}>{i.titulo}</div>
               {i.resumo && <div style={{ color: 'var(--muted)', lineHeight: 1.6 }}>{i.resumo}</div>}
-              {i.link && <a href={i.link} target="_blank" rel="noreferrer"
+              {linkSeguro(i.link) && <a href={linkSeguro(i.link)} target="_blank" rel="noopener noreferrer"
                 style={{ color: 'var(--green)', fontSize: 13, display: 'inline-block', marginTop: 10 }}>Ler na fonte →</a>}
             </div>
           ))}

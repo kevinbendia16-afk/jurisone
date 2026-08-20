@@ -2,8 +2,12 @@ import 'dotenv/config';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import express from 'express';
 import cors from 'cors';
+import helmet from 'helmet';
+import rateLimit from 'express-rate-limit';
+import slowDown from 'express-slow-down';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import { PrismaClient } from '@prisma/client';
@@ -13,12 +17,51 @@ import { consultarProcesso } from './datajud.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// JWT_SECRET obrigatório: sem fallback inseguro. Em produção deve vir do ambiente.
+// Se faltar, gera um segredo aleatório por boot (tokens não sobrevivem a restart, mas nunca é forjável).
+const JWT_SECRET = process.env.JWT_SECRET || crypto.randomBytes(48).toString('hex');
+if (!process.env.JWT_SECRET) {
+  console.warn('[AVISO] JWT_SECRET não definido — usando segredo aleatório temporário. Defina JWT_SECRET no ambiente.');
+}
+
 const prisma = new PrismaClient();
 const app = express();
-app.use(cors());
-app.use(express.json());
+app.disable('x-powered-by');
+app.set('trust proxy', 1); // atrás do proxy do Render (necessário p/ rate-limit por IP)
 
-const JWT_SECRET = process.env.JWT_SECRET || 'dev-secret';
+// Cabeçalhos de segurança (CSP permite estilos inline usados pelo app e imagens data:)
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
+      imgSrc: ["'self'", 'data:'],
+      connectSrc: ["'self'"],
+      objectSrc: ["'none'"],
+      frameAncestors: ["'none'"],
+    },
+  },
+  crossOriginEmbedderPolicy: false,
+}));
+
+// CORS restrito: por padrão desabilitado (app é servido na mesma origem).
+// Para liberar origens específicas, defina CORS_ORIGIN=https://a.com,https://b.com
+app.use(cors({ origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : false }));
+
+app.use(express.json({ limit: '1mb' }));
+
+// Rate limiting global (protege contra abuso/DoS leve)
+app.use('/api', rateLimit({ windowMs: 60 * 1000, max: 200, standardHeaders: true, legacyHeaders: false }));
+// Rate limiting estrito no login (anti força-bruta)
+const loginLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, max: 10, standardHeaders: true, legacyHeaders: false,
+  message: { error: 'Muitas tentativas de login. Tente novamente em alguns minutos.' },
+});
+// Atraso progressivo anti-robô: cada tentativa após a 3ª fica mais lenta (frustra bots automatizados)
+const loginSlowDown = slowDown({
+  windowMs: 15 * 60 * 1000, delayAfter: 3, delayMs: (hits) => hits * 500, maxDelayMs: 10000,
+});
 
 // ---------- Auth ----------
 function auth(req, res, next) {
@@ -33,14 +76,36 @@ function auth(req, res, next) {
   }
 }
 
-app.post('/api/login', async (req, res) => {
-  const { email, senha } = req.body;
-  const u = await prisma.usuario.findUnique({ where: { email: (email || '').toLowerCase() } });
-  if (!u || !bcrypt.compareSync(senha || '', u.senhaHash)) {
+app.post('/api/login', loginLimiter, loginSlowDown, async (req, res) => {
+  const { email, senha, website } = req.body;
+  // Honeypot: campo oculto que só robôs preenchem. Se vier preenchido, rejeita silenciosamente.
+  if (website) return res.status(400).json({ error: 'requisição inválida' });
+  if (typeof email !== 'string' || typeof senha !== 'string') {
+    return res.status(400).json({ error: 'dados inválidos' });
+  }
+  const u = await prisma.usuario.findUnique({ where: { email: email.toLowerCase() } });
+  if (!u || !bcrypt.compareSync(senha, u.senhaHash)) {
     return res.status(401).json({ error: 'e-mail ou senha inválidos' });
   }
   const token = jwt.sign({ id: u.id, nome: u.nome }, JWT_SECRET, { expiresIn: '7d' });
   res.json({ token, usuario: { id: u.id, nome: u.nome, email: u.email } });
+});
+
+// Troca de senha (autenticado): exige a senha atual + nova senha forte.
+app.post('/api/change-password', auth, async (req, res) => {
+  const { senhaAtual, novaSenha } = req.body || {};
+  if (typeof senhaAtual !== 'string' || typeof novaSenha !== 'string') {
+    return res.status(400).json({ error: 'dados inválidos' });
+  }
+  if (novaSenha.length < 8) {
+    return res.status(400).json({ error: 'A nova senha deve ter pelo menos 8 caracteres.' });
+  }
+  const u = await prisma.usuario.findUnique({ where: { id: req.user.id } });
+  if (!u || !bcrypt.compareSync(senhaAtual, u.senhaHash)) {
+    return res.status(401).json({ error: 'Senha atual incorreta.' });
+  }
+  await prisma.usuario.update({ where: { id: u.id }, data: { senhaHash: bcrypt.hashSync(novaSenha, 10) } });
+  res.json({ ok: true });
 });
 
 // helper CRUD genérico simplificado
@@ -99,6 +164,9 @@ app.get('/api/clientes/:id/completo', auth, async (req, res) => {
 // Importação em massa de clientes (de outro sistema, via CSV)
 app.post('/api/clientes/import', auth, async (req, res) => {
   const linhas = Array.isArray(req.body?.clientes) ? req.body.clientes : [];
+  if (linhas.length > 2000) {
+    return res.status(413).json({ error: 'Importação limitada a 2000 clientes por vez.' });
+  }
   let criados = 0;
   for (const l of linhas) {
     const nome = (l.nome || l.Nome || '').trim();

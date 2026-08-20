@@ -14,6 +14,7 @@ import Financeiro from './pages/Financeiro.jsx';
 import ValoresTerceiro from './pages/ValoresTerceiro.jsx';
 import Agenda from './pages/Agenda.jsx';
 import FeedJuridico from './pages/FeedJuridico.jsx';
+import Configuracoes from './pages/Configuracoes.jsx';
 
 function Private({ children }) {
   return getToken() ? <Layout>{children}</Layout> : <Navigate to="/login" replace />;
@@ -26,6 +27,7 @@ export default function App() {
       <Route path="/" element={<Private><Dashboard /></Private>} />
       <Route path="/agenda" element={<Private><Agenda /></Private>} />
       <Route path="/feed" element={<Private><FeedJuridico /></Private>} />
+      <Route path="/configuracoes" element={<Private><Configuracoes /></Private>} />
       <Route path="/clientes" element={<Private><Clientes /></Private>} />
       <Route path="/clientes/:id" element={<Private><ClienteDetalhe /></Private>} />
       <Route path="/processos" element={<Private><Processos /></Private>} />

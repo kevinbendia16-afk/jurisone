@@ -21,6 +21,7 @@ const NAV = [
   ['/financeiro', '🏛', 'Financeiro'],
   ['/valores-terceiros', '⊠', 'Valores de terceiros'],
   ['/feed', '📰', 'Feed Jurídico'],
+  ['/configuracoes', '⚙', 'Configurações'],
 ];
 
 export default function Layout({ children }) {
