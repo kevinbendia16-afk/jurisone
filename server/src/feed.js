@@ -2,21 +2,19 @@
 // sempre com link para a fonte (verificação: sem link oficial válido, o item não entra).
 // NÃO inventa conteúdo. Se as fontes falharem, retorna lista vazia (o frontend avisa).
 
-// Fontes oficiais e imprensa jurídica de referência. categoria = classificação padrão da fonte.
+// Fontes reais e estáveis. Google News agrega os tribunais e a imprensa jurídica
+// (com link para o veículo de origem); JOTA tem RSS próprio confiável. categoria = padrão da fonte,
+// refinada depois por palavras-chave. google:true => extrai o veículo real do título ("... - Fonte").
+const GN = (q) => `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=pt-BR&gl=BR&ceid=BR:pt-419`;
 const FONTES = [
-  { fonte: 'STF',      categoria: 'Decisão', urls: [
-      'https://portal.stf.jus.br/RSS/', 'https://noticias.stf.jus.br/postsnoticias/feed/' ] },
-  { fonte: 'STJ',      categoria: 'Decisão', urls: [
-      'https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/rss.aspx',
-      'https://www.stj.jus.br/publicacaoinstitucional/index.php/Rss' ] },
-  { fonte: 'CNJ',      categoria: 'Notícia', urls: [ 'https://www.cnj.jus.br/feed/' ] },
-  { fonte: 'Conjur',   categoria: 'Notícia', urls: [ 'https://www.conjur.com.br/rss.xml' ] },
-  { fonte: 'Migalhas', categoria: 'Notícia', urls: [
-      'https://www.migalhas.com.br/rss/quentes', 'https://www.migalhas.com.br/rss' ] },
-  { fonte: 'Senado',   categoria: 'Nova Lei', urls: [
-      'https://www12.senado.leg.br/noticias/rss/feed/materias' ] },
+  { fonte: 'Tribunais',  categoria: 'Decisão', google: true, urls: [ GN('STF OR STJ OR CNJ OR TST decisão OR julgamento') ] },
+  { fonte: 'Jurídico',   categoria: 'Notícia', google: true, urls: [ GN('direito OR jurídico OR advocacia OR OAB OR jurisprudência') ] },
+  { fonte: 'Legislação', categoria: 'Nova Lei', google: true, urls: [ GN('"projeto de lei" OR "nova lei" OR "reforma tributária" OR Congresso lei') ] },
+  { fonte: 'JOTA',       categoria: 'Notícia', urls: [ 'https://www.jota.info/feed' ] },
 ];
-const DOMINIOS_OFICIAIS = ['stf.jus.br','stj.jus.br','cnj.jus.br','conjur.com.br','migalhas.com.br','senado.leg.br','camara.leg.br','planalto.gov.br','gov.br','jus.br'];
+// Só entram links destes domínios (evita link injetado). Inclui o agregador Google News e a imprensa.
+const DOMINIOS_OFICIAIS = ['news.google.com','jota.info','stf.jus.br','stj.jus.br','cnj.jus.br','tst.jus.br',
+  'conjur.com.br','migalhas.com.br','senado.leg.br','camara.leg.br','planalto.gov.br','gov.br','jus.br'];
 
 function stripTags(s = '') {
   return s.replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '')
@@ -55,24 +53,31 @@ function extrairImagem(bloco) {
   return null;
 }
 
-function parseRss(xml, fonte, categoriaPadrao) {
+function parseRss(xml, fonte, categoriaPadrao, google) {
   const itens = [];
   const blocos = xml.split(/<item[\s>]/i).slice(1);
-  for (const b of blocos.slice(0, 14)) {
+  for (const b of blocos.slice(0, 20)) {
     const g = (tag) => {
       const m = b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, 'i'));
       return m ? m[1] : '';
     };
-    const titulo = stripTags(g('title'));
+    let titulo = stripTags(g('title'));
+    let fonteReal = fonte;
+    if (google) {
+      // Google News: título vem "Manchete - Veículo"; separa o veículo real.
+      const i = titulo.lastIndexOf(' - ');
+      if (i > 10 && titulo.length - i < 45) { fonteReal = titulo.slice(i + 3).trim(); titulo = titulo.slice(0, i).trim(); }
+      else fonteReal = stripTags(g('source')) || fonte;
+    }
     let link = stripTags(g('link')) || stripTags(g('guid'));
     link = linkOficial(link);
-    if (!titulo || !link) continue; // sem título ou sem fonte oficial válida => descarta
+    if (!titulo || !link) continue; // sem título ou sem fonte válida => descarta
     const conteudo = g('content:encoded') || g('description');
     const resumo = stripTags(conteudo).slice(0, 300);
     let imagem = extrairImagem(b);
     if (imagem && imagem.startsWith('http:')) imagem = imagem.replace('http:', 'https:');
     itens.push({
-      fonte, categoria: categorizar(titulo + ' ' + resumo, categoriaPadrao), titulo,
+      fonte: fonteReal, categoria: categorizar(titulo + ' ' + resumo, categoriaPadrao), titulo,
       resumo, imagem, link, data: (g('pubDate') || g('dc:date') || new Date().toISOString()).trim(),
     });
   }
@@ -83,12 +88,13 @@ async function buscarFonte(f) {
   for (const url of f.urls) {
     try {
       const ctrl = new AbortController();
-      const to = setTimeout(() => ctrl.abort(), 8000);
+      const to = setTimeout(() => ctrl.abort(), 9000);
       const res = await fetch(url, { signal: ctrl.signal, redirect: 'follow',
-        headers: { 'User-Agent': 'Mozilla/5.0 JurisOne/1.0', 'Accept': 'application/rss+xml, application/xml, text/xml, */*' } });
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36',
+          'Accept': 'application/rss+xml, application/xml, text/xml, */*' } });
       clearTimeout(to);
       if (!res.ok) continue;
-      const itens = parseRss(await res.text(), f.fonte, f.categoria);
+      const itens = parseRss(await res.text(), f.fonte, f.categoria, f.google);
       if (itens.length) return itens; // primeira URL que funcionar
     } catch { /* tenta próxima url */ }
   }
