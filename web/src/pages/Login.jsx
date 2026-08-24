@@ -15,9 +15,12 @@ export default function Login() {
   // Descobre se o CAPTCHA (Turnstile) está configurado
   useEffect(() => { api.get('/config').then((c) => setSiteKey(c.turnstileSiteKey)).catch(() => {}); }, []);
 
-  // Carrega e renderiza o widget do Turnstile quando houver chave
+  // Carrega e renderiza o widget do Turnstile quando houver chave.
+  // NÃO carrega em navegador automatizado/embutido (ex.: preview interno do Claude): o desafio
+  // do Cloudflare entra em loop nesse contexto e trava a aba. Navegadores reais não são afetados.
   useEffect(() => {
     if (!siteKey) return;
+    if (navigator.webdriver) return;
     const render = () => {
       if (window.turnstile && widgetRef.current && !widgetRef.current.dataset.rendered) {
         window.turnstile.render(widgetRef.current, { sitekey: siteKey, callback: setCaptcha });
