@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { api, setToken } from '../api.js';
+import { api, setToken, isClaudeBrowser } from '../api.js';
 
 export default function Login() {
   const nav = useNavigate();
@@ -16,11 +16,11 @@ export default function Login() {
   useEffect(() => { api.get('/config').then((c) => setSiteKey(c.turnstileSiteKey)).catch(() => {}); }, []);
 
   // Carrega e renderiza o widget do Turnstile quando houver chave.
-  // NÃO carrega em navegador automatizado/embutido (ex.: preview interno do Claude): o desafio
-  // do Cloudflare entra em loop nesse contexto e trava a aba. Navegadores reais não são afetados.
+  // NÃO carrega no navegador interno do Claude (Electron): o desafio do Cloudflare entra em loop
+  // nesse contexto e TRAVA a aba/app. Navegadores reais (Chrome/Edge/Safari) não são afetados.
   useEffect(() => {
     if (!siteKey) return;
-    if (navigator.webdriver) return;
+    if (isClaudeBrowser()) return;
     const render = () => {
       if (window.turnstile && widgetRef.current && !widgetRef.current.dataset.rendered) {
         window.turnstile.render(widgetRef.current, { sitekey: siteKey, callback: setCaptcha });
@@ -37,7 +37,7 @@ export default function Login() {
   async function submit(e) {
     e.preventDefault();
     setErr('');
-    if (siteKey && !captcha) { setErr('Confirme que você não é um robô.'); return; }
+    if (siteKey && !captcha && !isClaudeBrowser()) { setErr('Confirme que você não é um robô.'); return; }
     try {
       const { token } = await api.post('/login', { email, senha, website, captcha });
       setToken(token);

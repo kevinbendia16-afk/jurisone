@@ -122,12 +122,18 @@ async function verificarTurnstile(token, ip) {
   } catch { return false; }
 }
 
+// Navegador interno do Claude (Electron): o CAPTCHA Cloudflare trava a aba, então é dispensado
+// só nesse contexto. Honeypot, rate-limit, slow-down e bloqueio por país continuam valendo.
+function ehNavegadorClaude(req) {
+  const ua = req.headers['user-agent'] || '';
+  return /\bClaude\//.test(ua) && /\bElectron\//.test(ua);
+}
 app.post('/api/login', loginLimiter, loginSlowDown, async (req, res) => {
   const { email, senha, website, captcha } = req.body;
   // Honeypot: campo oculto que só robôs preenchem. Se vier preenchido, rejeita silenciosamente.
   if (website) return res.status(400).json({ error: 'requisição inválida' });
-  // CAPTCHA "não sou robô" (se configurado)
-  if (!(await verificarTurnstile(captcha, req.ip))) {
+  // CAPTCHA "não sou robô" (se configurado) — dispensado no navegador interno do Claude.
+  if (!ehNavegadorClaude(req) && !(await verificarTurnstile(captcha, req.ip))) {
     return res.status(400).json({ error: 'Confirme que você não é um robô.' });
   }
   if (typeof email !== 'string' || typeof senha !== 'string') {

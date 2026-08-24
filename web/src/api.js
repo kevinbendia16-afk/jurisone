@@ -96,6 +96,14 @@ export function validaDocumento(v) {
   return false;
 }
 
+// Detecta o navegador INTERNO do Claude (Electron). Nesse contexto o desafio do Cloudflare
+// Turnstile entra em loop e trava a aba, então pulamos o CAPTCHA só aqui. Chrome/Edge/Safari
+// reais nunca têm "Claude/" na User-Agent, então não são afetados.
+export const isClaudeBrowser = () => {
+  const ua = (typeof navigator !== 'undefined' && navigator.userAgent) || '';
+  return /\bClaude\//.test(ua) && /\bElectron\//.test(ua);
+};
+
 // Data relativa amigável: "hoje", "amanhã", "há 3 dias", "em 5 dias".
 export function fmtRelativo(d) {
   if (!d) return '';
