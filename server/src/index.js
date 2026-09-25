@@ -304,51 +304,121 @@ app.get('/api/processos/:id/completo', auth, async (req, res) => {
   ]);
   res.json({ processo, movimentacoes, prazos, lancamentos, valoresTerceiro, tarefas });
 });
+// Puxa o histórico de UM processo do DataJud e grava movimentos novos (sem duplicar).
+// Também completa órgão/classe no processo se estiverem vazios. Retorna resumo.
+async function sincronizarUm(proc) {
+  if (!proc.numeroCnj) return { encontrado: false, novas: 0, motivo: 'sem número CNJ' };
+  const r = await consultarProcesso(proc.numeroCnj);
+  if (!r.encontrado) return { encontrado: false, novas: 0 };
+  const existentes = await prisma.movimentacao.findMany({ where: { processoId: proc.id } });
+  const chave = (d, desc) => `${new Date(d).toISOString().slice(0, 10)}|${desc}`;
+  const jaTem = new Set(existentes.map((m) => chave(m.data, m.descricao)));
+  let novas = 0;
+  for (const m of r.movimentos) {
+    if (jaTem.has(chave(m.data, m.descricao))) continue;
+    await prisma.movimentacao.create({ data: { processoId: proc.id, data: m.data, descricao: m.descricao } });
+    novas++;
+  }
+  // Completa dados do processo vindos da base nacional, sem sobrescrever o que o advogado preencheu.
+  const patch = {};
+  if (!proc.orgao && r.orgaoJulgador) patch.orgao = r.orgaoJulgador;
+  if (Object.keys(patch).length) await prisma.processo.update({ where: { id: proc.id }, data: patch });
+  return { encontrado: true, novas, classe: r.classe, orgaoJulgador: r.orgaoJulgador };
+}
+
+// Sincroniza os andamentos de TODOS os processos com número CNJ. Retorna o resumo.
+async function sincronizarTodos() {
+  const procs = await prisma.processo.findMany({ where: { numeroCnj: { not: null } } });
+  let novasMovimentacoes = 0, sincronizados = 0, erros = 0;
+  for (const proc of procs) {
+    try {
+      const r = await sincronizarUm(proc);
+      if (r.encontrado) { novasMovimentacoes += r.novas; sincronizados++; }
+    } catch { erros++; }
+    await new Promise((r) => setTimeout(r, 300)); // gentil com a API do CNJ
+  }
+  return { processos: procs.length, sincronizados, novasMovimentacoes, erros };
+}
+
 // Sincroniza andamentos do processo com o DataJud/CNJ (atualização automática).
 app.post('/api/processos/:id/sincronizar', auth, async (req, res) => {
   const proc = await prisma.processo.findUnique({ where: { id: req.params.id } });
   if (!proc) return res.status(404).json({ error: 'processo não encontrado' });
   if (!proc.numeroCnj) return res.status(400).json({ error: 'processo sem número CNJ' });
   try {
-    const r = await consultarProcesso(proc.numeroCnj);
-    if (!r.encontrado) return res.json({ encontrado: false, novas: 0 });
-    const existentes = await prisma.movimentacao.findMany({ where: { processoId: proc.id } });
-    const chave = (d, desc) => `${new Date(d).toISOString().slice(0, 10)}|${desc}`;
-    const jaTem = new Set(existentes.map((m) => chave(m.data, m.descricao)));
-    let novas = 0;
-    for (const m of r.movimentos) {
-      if (jaTem.has(chave(m.data, m.descricao))) continue;
-      await prisma.movimentacao.create({ data: { processoId: proc.id, data: m.data, descricao: m.descricao } });
-      novas++;
-    }
-    res.json({ encontrado: true, novas, classe: r.classe, orgaoJulgador: r.orgaoJulgador });
+    res.json(await sincronizarUm(proc));
   } catch (e) {
     console.error('DataJud erro:', e.message);
     res.status(502).json({ error: 'Não foi possível consultar o DataJud agora. Tente novamente mais tarde.' });
   }
 });
 
-// Sincroniza TODOS os processos que têm número CNJ (atualização em lote).
+// Sincroniza TODOS os processos que têm número CNJ (atualização em lote — botão manual).
 app.post('/api/processos/sincronizar-todos', auth, async (req, res) => {
-  const procs = await prisma.processo.findMany({ where: { numeroCnj: { not: null } } });
-  let totalNovas = 0, sincronizados = 0, erros = 0;
-  for (const proc of procs) {
-    try {
-      const r = await consultarProcesso(proc.numeroCnj);
-      if (!r.encontrado) continue;
-      const existentes = await prisma.movimentacao.findMany({ where: { processoId: proc.id } });
-      const chave = (d, desc) => `${new Date(d).toISOString().slice(0, 10)}|${desc}`;
-      const jaTem = new Set(existentes.map((m) => chave(m.data, m.descricao)));
-      for (const m of r.movimentos) {
-        if (jaTem.has(chave(m.data, m.descricao))) continue;
-        await prisma.movimentacao.create({ data: { processoId: proc.id, data: m.data, descricao: m.descricao } });
-        totalNovas++;
-      }
-      sincronizados++;
-    } catch { erros++; }
-    await new Promise((r) => setTimeout(r, 300)); // gentil com a API do CNJ
+  res.json(await sincronizarTodos());
+});
+
+// ATUALIZAÇÃO AUTOMÁTICA: endpoint chamado por um cron externo (cron-job.org) para manter
+// os processos atualizados sozinho ("tempo real"). Protegido por CRON_SECRET (sem login).
+app.post('/api/cron/sincronizar', async (req, res) => {
+  const secret = process.env.CRON_SECRET;
+  const dado = req.query.key || req.headers['x-cron-key'];
+  if (!secret || dado !== secret) return res.status(403).json({ error: 'não autorizado' });
+  try { res.json({ ok: true, ...(await sincronizarTodos()) }); }
+  catch (e) { res.status(502).json({ error: e.message }); }
+});
+
+// IMPORTAÇÃO EM MASSA: recebe uma lista de processos (número CNJ + nome do cliente) e, para cada um,
+// cria/vincula o cliente, cria o processo e puxa TODO o histórico do DataJud. Ideal para onboarding.
+app.post('/api/processos/importar', auth, async (req, res) => {
+  const itens = Array.isArray(req.body?.itens) ? req.body.itens.slice(0, 300) : [];
+  const clienteIdPadrao = req.body?.clienteId || null;
+  if (!itens.length) return res.status(400).json({ error: 'lista vazia' });
+
+  // cache de clientes por nome (case-insensitive), para reutilizar/criar uma vez só
+  const cacheCliente = new Map();
+  async function acharOuCriarCliente(nome) {
+    const chave = nome.trim().toLowerCase();
+    if (cacheCliente.has(chave)) return cacheCliente.get(chave);
+    let c = await prisma.cliente.findFirst({ where: { nome: { equals: nome.trim() } } });
+    if (!c) c = await prisma.cliente.create({ data: { nome: nome.trim(), tipo: 'PF', status: 'ativo' } });
+    cacheCliente.set(chave, c.id);
+    return c.id;
   }
-  res.json({ processos: procs.length, sincronizados, novasMovimentacoes: totalNovas, erros });
+
+  const resultados = [];
+  for (const item of itens) {
+    const numeroCnj = String(item.numeroCnj || '').trim();
+    const digits = numeroCnj.replace(/\D/g, '');
+    if (digits.length !== 20) { resultados.push({ numeroCnj, ok: false, erro: 'número CNJ inválido' }); continue; }
+    try {
+      // não duplica processo já cadastrado
+      const existente = await prisma.processo.findFirst({ where: { numeroCnj: { in: [numeroCnj, digits] } } });
+      if (existente) { resultados.push({ numeroCnj, ok: false, erro: 'já cadastrado' }); continue; }
+
+      let clienteId = clienteIdPadrao;
+      if (item.cliente && String(item.cliente).trim()) clienteId = await acharOuCriarCliente(String(item.cliente));
+      if (!clienteId) clienteId = await acharOuCriarCliente('Cliente a identificar');
+
+      // 1) O processo é SEMPRE criado (parte durável). 2) O histórico é puxado em seguida;
+      //    se o DataJud falhar/estiver fora, marca pendente e enche na próxima sincronização.
+      const proc = await prisma.processo.create({
+        data: { clienteId, numeroCnj, titulo: (item.titulo || `Processo ${numeroCnj}`).slice(0, 200),
+          area: item.area || 'Cível', status: 'ativo', prioridade: 'normal' },
+      });
+      let r = { encontrado: false, novas: 0, classe: null, pendente: false };
+      try { r = await sincronizarUm(proc); }
+      catch { r.pendente = true; }
+      if (!item.titulo && r.classe) await prisma.processo.update({ where: { id: proc.id }, data: { titulo: r.classe.slice(0, 200) } });
+      resultados.push({ numeroCnj, ok: true, processoId: proc.id, encontrado: r.encontrado, movimentos: r.novas, classe: r.classe || null, pendente: !!r.pendente });
+      await new Promise((res2) => setTimeout(res2, 300)); // gentil com a API do CNJ
+    } catch (e) {
+      resultados.push({ numeroCnj, ok: false, erro: 'não foi possível cadastrar' });
+    }
+  }
+  const criados = resultados.filter((r) => r.ok).length;
+  const movimentos = resultados.reduce((s, r) => s + (r.movimentos || 0), 0);
+  res.json({ total: itens.length, criados, movimentos, resultados });
 });
 
 app.post('/api/processos/:id/movimentacoes', auth, async (req, res) => {
