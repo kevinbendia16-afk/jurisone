@@ -741,7 +741,8 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-app.get('/api/health', (req, res) => res.json({ ok: true }));
+const APP_VERSION = 'autosync-1'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
 app.use('/api', (req, res) => res.status(404).json({ error: 'não encontrado' }));
