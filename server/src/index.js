@@ -764,3 +764,21 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`JurisOne API rodando em http://localhost:${PORT}`));
+
+// ---------- Atualização automática interna (sem cron externo) ----------
+// Enquanto o serviço está no ar (o pinger mantém acordado, e cada acesso também), sincroniza
+// TODOS os processos com o DataJud 1x por dia. É idempotente (não duplica movimentos).
+// Desligável com AUTO_SYNC=0. Também roda a cada acesso natural, sem depender de login/env externo.
+if (process.env.AUTO_SYNC !== '0') {
+  const UM_DIA = 24 * 60 * 60 * 1000;
+  let rodando = false;
+  const jobDiario = async () => {
+    if (rodando) return; // evita sobreposição
+    rodando = true;
+    try { const r = await sincronizarTodos(); console.log('[auto-sync]', new Date().toISOString(), JSON.stringify(r)); }
+    catch (e) { console.error('[auto-sync] falhou:', e.message); }
+    finally { rodando = false; }
+  };
+  setTimeout(jobDiario, 15 * 60 * 1000); // 1ª execução ~15 min após subir (deixa o boot assentar)
+  setInterval(jobDiario, UM_DIA);        // depois, 1x por dia
+}
