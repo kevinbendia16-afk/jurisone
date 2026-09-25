@@ -747,7 +747,7 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-const APP_VERSION = 'demo-2'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+const APP_VERSION = 'demo-3'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
 app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
@@ -857,6 +857,28 @@ async function atualizarDemo() {
   }
   console.log(`[demo] datas avançadas ${dias} dia(s) em ${n} registros (${est.ultimoDia} → ${hoje})`);
 }
+// Ferramentas do demo (protegidas pela senha do admin do site): ver o estado e ajustar datas de uma tabela.
+app.get('/site/api/demo', siteAdminAuth, async (req, res) => {
+  res.json({ hoje: diaSP(), estado: await prisma.demoEstado.findUnique({ where: { id: 1 } }), tabelas: Object.keys(DEMO_CAMPOS) });
+});
+// body: { model, dias, campoFiltro?, aPartirDe? } — avança (+) ou recua (-) as datas dos registros do model;
+// com campoFiltro/aPartirDe, só os registros cujo campoFiltro >= aPartirDe (AAAA-MM-DD).
+app.post('/site/api/demo/ajuste', siteAdminAuth, async (req, res) => {
+  const { model, dias, campoFiltro, aPartirDe } = req.body || {};
+  const campos = DEMO_CAMPOS[model];
+  if (!campos || !Number.isInteger(dias) || Math.abs(dias) > 400) return res.status(400).json({ error: 'model/dias inválidos' });
+  if (campoFiltro && !campos.includes(campoFiltro)) return res.status(400).json({ error: 'campoFiltro inválido' });
+  const where = campoFiltro && aPartirDe ? { [campoFiltro]: { gte: new Date(aPartirDe + 'T00:00:00-03:00') } } : {};
+  const itens = await prisma[model].findMany({ where, select: Object.fromEntries([['id', true], ...campos.map((c) => [c, true])]) });
+  let n = 0;
+  for (const it of itens) {
+    const data = {};
+    for (const c of campos) if (it[c]) data[c] = new Date(new Date(it[c]).getTime() + dias * 86400000);
+    if (Object.keys(data).length) n += (await prisma[model].updateMany({ where: { id: it.id }, data })).count;
+  }
+  res.json({ ok: true, model, dias, alterados: n });
+});
+
 setTimeout(() => atualizarDemo().catch((e) => console.error('[demo] falhou:', e.message)), 20 * 1000);
 setInterval(() => atualizarDemo().catch((e) => console.error('[demo] falhou:', e.message)), 60 * 60 * 1000);
 
