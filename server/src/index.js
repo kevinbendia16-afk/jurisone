@@ -747,7 +747,7 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-const APP_VERSION = 'demo-1'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+const APP_VERSION = 'demo-2'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
 app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
@@ -823,8 +823,6 @@ const DEMO_CAMPOS = {
   lancamentoFinanceiro: ['data', 'vencimento', 'createdAt'],
   valorTerceiro: ['dataPrevista', 'createdAt'],
   movimentacao: ['data'],
-  processo: ['createdAt'],
-  cliente: ['createdAt'],
 };
 const diaSP = (d = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(d);
 async function atualizarDemo() {
@@ -836,19 +834,27 @@ async function atualizarDemo() {
     const primeiro = await prisma.cliente.findFirst({ orderBy: { createdAt: 'asc' } });
     est = await prisma.demoEstado.create({ data: { id: 1, ultimoDia: primeiro ? diaSP(primeiro.createdAt) : hoje } });
   }
+  // Correção única (25/09/2026): a 1ª execução em produção avançou as datas mas abortou antes de gravar
+  // o dia (um andamento foi apagado durante a execução). Marca como já aplicado p/ não avançar 2x.
+  if (est.ultimoDia === '2026-08-20') est = await prisma.demoEstado.update({ where: { id: 1 }, data: { ultimoDia: '2026-09-25' } });
   const dias = Math.round((Date.parse(hoje) - Date.parse(est.ultimoDia)) / 86400000);
   if (dias <= 0) return;
+  // Grava o dia ANTES de mexer: se algo falhar no meio, nunca avança duas vezes o mesmo período.
+  const marcado = await prisma.demoEstado.updateMany({ where: { id: 1, ultimoDia: est.ultimoDia }, data: { ultimoDia: hoje } });
+  if (!marcado.count) return; // outra execução já pegou este dia
   const ms = dias * 86400000;
   let n = 0;
   for (const [model, campos] of Object.entries(DEMO_CAMPOS)) {
-    const itens = await prisma[model].findMany({ select: Object.fromEntries([['id', true], ...campos.map((c) => [c, true])]) });
-    for (const it of itens) {
-      const data = {};
-      for (const c of campos) if (it[c]) data[c] = new Date(new Date(it[c]).getTime() + ms);
-      if (Object.keys(data).length) { await prisma[model].update({ where: { id: it.id }, data }); n++; }
-    }
+    try {
+      const itens = await prisma[model].findMany({ select: Object.fromEntries([['id', true], ...campos.map((c) => [c, true])]) });
+      for (const it of itens) {
+        const data = {};
+        for (const c of campos) if (it[c]) data[c] = new Date(new Date(it[c]).getTime() + ms);
+        // updateMany não quebra se o registro sumiu no meio do caminho
+        if (Object.keys(data).length) n += (await prisma[model].updateMany({ where: { id: it.id }, data })).count;
+      }
+    } catch (e) { console.error(`[demo] ${model}:`, e.message); }
   }
-  await prisma.demoEstado.update({ where: { id: 1 }, data: { ultimoDia: hoje } });
   console.log(`[demo] datas avançadas ${dias} dia(s) em ${n} registros (${est.ultimoDia} → ${hoje})`);
 }
 setTimeout(() => atualizarDemo().catch((e) => console.error('[demo] falhou:', e.message)), 20 * 1000);
