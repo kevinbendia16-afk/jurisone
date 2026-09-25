@@ -421,6 +421,12 @@ app.post('/api/processos/importar', auth, async (req, res) => {
   res.json({ total: itens.length, criados, movimentos, resultados });
 });
 
+// Remove um andamento (ex.: lançado manualmente por engano).
+app.delete('/api/movimentacoes/:id', auth, async (req, res) => {
+  await prisma.movimentacao.deleteMany({ where: { id: req.params.id } });
+  res.json({ ok: true });
+});
+
 app.post('/api/processos/:id/movimentacoes', auth, async (req, res) => {
   const m = await prisma.movimentacao.create({
     data: { processoId: req.params.id, descricao: req.body.descricao,
@@ -741,7 +747,7 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-const APP_VERSION = 'site-2'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+const APP_VERSION = 'demo-1'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
 app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
@@ -805,6 +811,48 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`JurisOne API rodando em http://localhost:${PORT}`));
+
+// ---------- Atualizador do DEMO: mantém as datas "vivas" ----------
+// Esta instância é a DEMONSTRAÇÃO (dados fictícios). Sem isto, os dados envelhecem: todos os prazos
+// ficam vencidos e a agenda esvazia. A cada dia novo, TODAS as datas avançam o mesmo número de dias
+// que se passaram, preservando a distribuição (uns vencidos, a maioria por vir). Desligar: DEMO_REFRESH=0.
+const DEMO_CAMPOS = {
+  prazo: ['dataInicio', 'dataFatal', 'createdAt'],
+  evento: ['inicio', 'fim', 'createdAt'],
+  tarefa: ['prazo', 'createdAt'],
+  lancamentoFinanceiro: ['data', 'vencimento', 'createdAt'],
+  valorTerceiro: ['dataPrevista', 'createdAt'],
+  movimentacao: ['data'],
+  processo: ['createdAt'],
+  cliente: ['createdAt'],
+};
+const diaSP = (d = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(d);
+async function atualizarDemo() {
+  if (process.env.DEMO_REFRESH === '0') return;
+  const hoje = diaSP();
+  let est = await prisma.demoEstado.findUnique({ where: { id: 1 } });
+  if (!est) {
+    // 1ª vez: a base é o dia em que os dados de exemplo foram gerados (cadastro do 1º cliente)
+    const primeiro = await prisma.cliente.findFirst({ orderBy: { createdAt: 'asc' } });
+    est = await prisma.demoEstado.create({ data: { id: 1, ultimoDia: primeiro ? diaSP(primeiro.createdAt) : hoje } });
+  }
+  const dias = Math.round((Date.parse(hoje) - Date.parse(est.ultimoDia)) / 86400000);
+  if (dias <= 0) return;
+  const ms = dias * 86400000;
+  let n = 0;
+  for (const [model, campos] of Object.entries(DEMO_CAMPOS)) {
+    const itens = await prisma[model].findMany({ select: Object.fromEntries([['id', true], ...campos.map((c) => [c, true])]) });
+    for (const it of itens) {
+      const data = {};
+      for (const c of campos) if (it[c]) data[c] = new Date(new Date(it[c]).getTime() + ms);
+      if (Object.keys(data).length) { await prisma[model].update({ where: { id: it.id }, data }); n++; }
+    }
+  }
+  await prisma.demoEstado.update({ where: { id: 1 }, data: { ultimoDia: hoje } });
+  console.log(`[demo] datas avançadas ${dias} dia(s) em ${n} registros (${est.ultimoDia} → ${hoje})`);
+}
+setTimeout(() => atualizarDemo().catch((e) => console.error('[demo] falhou:', e.message)), 20 * 1000);
+setInterval(() => atualizarDemo().catch((e) => console.error('[demo] falhou:', e.message)), 60 * 60 * 1000);
 
 // ---------- Atualização automática interna (sem cron externo) ----------
 // Enquanto o serviço está no ar (o pinger mantém acordado, e cada acesso também), sincroniza

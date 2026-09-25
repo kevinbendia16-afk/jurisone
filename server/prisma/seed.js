@@ -17,8 +17,8 @@ async function main() {
   // Usuário público de DEMONSTRAÇÃO (usado pelo botão "Ver demonstração" do site /site)
   await prisma.usuario.upsert({
     where: { email: 'demo@jurisone.com.br' },
-    update: {},
-    create: { nome: 'Dr(a). Demonstração', email: 'demo@jurisone.com.br', senhaHash: bcrypt.hashSync('demo1234', 10) },
+    update: { nome: 'Dra. Helena Duarte' },
+    create: { nome: 'Dra. Helena Duarte', email: 'demo@jurisone.com.br', senhaHash: bcrypt.hashSync('demo1234', 10) },
   });
 
   // Evita duplicar dados de exemplo em re-seeds

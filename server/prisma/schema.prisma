@@ -215,3 +215,9 @@ model Tarefa {
   createdAt  DateTime @default(now())
   deletedAt  DateTime?
 }
+
+// Estado do atualizador do DEMO (último dia em que as datas foram "andadas" para frente).
+model DemoEstado {
+  id         Int    @id @default(1)
+  ultimoDia  String // AAAA-MM-DD (fuso de São Paulo)
+}

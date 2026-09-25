@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { api, fmtMoney, fmtDate } from '../api.js';
+import { api, fmtMoney, fmtDate, usuarioAtual, nomeCurto } from '../api.js';
 import { PageHead } from '../ui.jsx';
 import { BarChart, Donut } from '../Charts.jsx';
 import { diasRestantes } from './Prazos.jsx';
@@ -23,7 +23,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <PageHead title={`${saud}, Kevin.`} desc="Veja o que precisa da sua atenção hoje." />
+      <PageHead title={`${saud}, ${nomeCurto(usuarioAtual().nome) || "bem-vindo"}.`} desc="Veja o que precisa da sua atenção hoje." />
       {!d ? <div className="empty">Carregando…</div> : (
         <>
           <div className="panel" style={{ padding: '18px 22px', marginBottom: 16, display: 'flex', gap: 30, alignItems: 'center', flexWrap: 'wrap' }}>

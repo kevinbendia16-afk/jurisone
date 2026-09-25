@@ -115,3 +115,16 @@ export function fmtRelativo(d) {
   if (dias === -1) return 'ontem';
   return dias < 0 ? `há ${-dias} dias` : `em ${dias} dias`;
 }
+
+// Usuário logado (lido do token JWT, sem chamada extra). Ex.: { nome: 'Dra. Helena Duarte' }
+export function usuarioAtual() {
+  try {
+    const p = getToken().split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+    return JSON.parse(decodeURIComponent(escape(atob(p))));
+  } catch { return {}; }
+}
+// Nome curto p/ saudação: "Kevin", "Dra. Helena"
+export function nomeCurto(nome = '') {
+  const w = nome.trim().split(/\s+/);
+  return /^dr/i.test(w[0] || '') ? w.slice(0, 2).join(' ') : (w[0] || '');
+}

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { api, clearToken } from './api.js';
+import { api, clearToken, usuarioAtual } from './api.js';
 
 const QUICK = [
   ['/clientes?novo=1', '👥 Novo cliente'],
@@ -170,7 +170,7 @@ export default function Layout({ children }) {
           <button className="theme-btn" onClick={toggleTheme} title={theme === 'dark' ? 'Tema claro' : 'Tema escuro'}>
             {theme === 'dark' ? '☀️' : '🌙'}
           </button>
-          <div className="avatar">K</div>
+          <div className="avatar" title={usuarioAtual().nome || ""}>{((usuarioAtual().nome || '?').replace(/^dra?\.?\s*/i, '')[0] || '?').toUpperCase()}</div>
         </div>
         <div className="content">{children}</div>
       </div>
