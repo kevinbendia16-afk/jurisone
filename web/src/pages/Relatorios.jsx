@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { api, fmtMoney, fmtDate, exportCSV, exportPDF } from '../api.js';
 import { PageHead, Empty, Badge } from '../ui.jsx';
 
+const ORIGEM_ROTULO = { honorario: 'Honorário', despesa: 'Despesa', custa: 'Custas', reembolso: 'Reembolso', repasse: 'Repasse', outro: 'Outro' };
+
 const TIPOS = [
   ['financeiro', '🏛 Financeiro'],
   ['processos', '⚖ Processos'],
@@ -51,10 +53,10 @@ export default function Relatorios() {
         colunas: [
           { label: 'Descrição', get: (r) => r.descricao },
           { label: 'Cliente', get: (r) => r.cliente?.nome || '' },
-          { label: 'Tipo', get: (r) => r.tipo },
-          { label: 'Origem', get: (r) => r.origem },
-          { label: 'Valor', get: (r) => (Number(r.valor) || 0).toFixed(2).replace('.', ',') },
-          { label: 'Recebido', get: (r) => (Number(r.valorPago) || 0).toFixed(2).replace('.', ',') },
+          { label: 'Tipo', get: (r) => (r.tipo === 'entrada' ? 'Entrada' : 'Saída') },
+          { label: 'Origem', get: (r) => ORIGEM_ROTULO[r.origem] || r.origem },
+          { label: 'Valor', dinheiro: true, get: (r) => (Number(r.valor) || 0).toFixed(2).replace('.', ',') },
+          { label: 'Recebido', dinheiro: true, get: (r) => (Number(r.valorPago) || 0).toFixed(2).replace('.', ',') },
           { label: 'Vencimento', get: (r) => r.vencimento ? fmtDate(r.vencimento) : '' },
           { label: 'Status', get: (r) => r.status },
         ],
@@ -153,6 +155,8 @@ export default function Relatorios() {
               <tbody>{cfg.rows.map((r, i) => (
                 <tr key={r.id || i}>{cfg.colunas.map((c) => {
                   const v = c.get(r);
+                  // na tela o dinheiro sai formatado (R$); no CSV fica o número puro, pronto p/ somar no Excel
+                  if (c.dinheiro) return <td key={c.label} className="mono" style={{ whiteSpace: 'nowrap' }}>{fmtMoney(Number(String(v).replace(',', '.')))}</td>;
                   return <td key={c.label}>{c.label === 'Status' ? <Badge>{v}</Badge> : (v || '—')}</td>;
                 })}</tr>
               ))}</tbody>

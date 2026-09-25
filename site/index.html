@@ -4,25 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JurisOne — gestão jurídica para advogados</title>
-<meta name="description" content="Processos, prazos, clientes, agenda, financeiro e precatórios num só lugar. Importe seus processos pelo número CNJ e acompanhe os andamentos automaticamente.">
+<meta name="description" content="Processos, prazos, agenda, financeiro e precatórios num só lugar. Cole o número CNJ e o JurisOne traz todo o histórico do processo — e atualiza sozinho, todo dia.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="topo">
   <div class="wrap topo-in">
-    <a class="marca" href="#inicio"><span class="selo">⚖</span> JurisOne</a>
+    <a class="marca" href="#inicio" aria-label="JurisOne, início"><img src="favicon.svg" alt="" width="30" height="30"> JurisOne</a>
     <nav class="menu" aria-label="Seções">
-      <a href="#recursos">Recursos</a>
-      <a href="#pratica">Na prática</a>
+      <a href="#tour">Conheça por dentro</a>
+      <a href="#incluso">Recursos</a>
       <a href="#tutoriais">Tutoriais</a>
-      <a href="#seguranca">Segurança</a>
       <a href="#faq">Dúvidas</a>
     </nav>
     <div class="topo-acoes">
       <a class="btn ghost" href="/login?demo=1">Ver demonstração</a>
-      <a class="btn" href="#contato">Quero conhecer</a>
+      <a class="btn" href="#contato">Falar com a gente</a>
     </div>
   </div>
 </header>
@@ -31,95 +32,65 @@
 
 <section class="hero">
   <div class="wrap hero-in">
-    <div class="hero-txt">
-      <p class="eyebrow">Gestão jurídica para o advogado e o escritório</p>
-      <h1>Seus processos, prazos e honorários <em>em ordem</em> — sem papel.</h1>
-      <p class="lede">Cole o número CNJ e o JurisOne cadastra o processo com todo o histórico da base nacional do CNJ. Depois, os andamentos chegam sozinhos, todo dia.</p>
-      <div class="hero-cta">
-        <a class="btn grande" href="#contato">Agendar apresentação</a>
-        <a class="btn ghost grande" href="/login?demo=1">Abrir a demonstração →</a>
-      </div>
-      <ul class="hero-provas">
-        <li><b>DataJud / CNJ</b> andamentos automáticos</li>
-        <li><b>Prazos CPC</b> dias úteis e feriados</li>
-        <li><b>Precatórios</b> repasse sem confusão</li>
-      </ul>
+    <p class="selo-topo"><span></span>Andamentos do CNJ atualizados todo dia</p>
+    <h1>O escritório inteiro <em>numa tela só</em>.</h1>
+    <p class="lede">Processos, prazos, agenda, honorários e precatórios organizados. Cole o número CNJ e o JurisOne traz o histórico completo do processo — depois, acompanha sozinho.</p>
+    <div class="hero-cta">
+      <a class="btn grande" href="/login?demo=1">Abrir a demonstração</a>
+      <a class="btn ghost grande" href="#tour">Ver as telas</a>
     </div>
+    <ul class="provas">
+      <li><b>Sem instalar nada</b>roda no navegador</li>
+      <li><b>Prazos pelo CPC</b>dias úteis e feriados</li>
+      <li><b>Dados no Brasil</b>conexão criptografada</li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <figure class="janela hero-shot">
+      <div class="janela-barra"><i></i><i></i><i></i><span>jurisone · visão geral</span></div>
+      <button class="zoom" type="button" data-zoom="painel" aria-label="Ampliar a tela do painel">
+        <img src="img/painel.webp" alt="Painel do JurisOne: prazos da semana, valores a receber, alertas e gráfico de receitas e despesas" width="2160" height="1350" fetchpriority="high">
+      </button>
+    </figure>
+  </div>
+</section>
 
-    <div class="mock" aria-label="Prévia do painel do JurisOne">
-      <div class="mock-barra"><i></i><i></i><i></i><span>jurisone · painel</span></div>
-      <div class="mock-corpo">
-        <aside class="mock-nav">
-          <span class="on">Visão geral</span><span>Agenda</span><span>Clientes</span><span>Processos</span><span>Prazos</span><span>Financeiro</span><span>Precatórios</span>
-        </aside>
-        <div class="mock-main">
-          <p class="mock-ola">Boa tarde, Dra. Helena.</p>
-          <div class="mock-cards">
-            <div><small>Prazos esta semana</small><b>7</b></div>
-            <div><small>A receber</small><b>R$ 48.300</b></div>
-            <div><small>Processos ativos</small><b>126</b></div>
-          </div>
-          <div class="mock-lista">
-            <div class="li urg"><span>Contestação — Souza x Banco Alfa</span><em>amanhã</em></div>
-            <div class="li"><span>Audiência de instrução · 3ª Vara Cível</span><em>qui 14h</em></div>
-            <div class="li"><span>Novo andamento: sentença publicada</span><em>hoje</em></div>
-            <div class="li ok"><span>Honorários parcela 4/12 recebida</span><em>ontem</em></div>
-          </div>
-        </div>
-      </div>
+<section class="passos">
+  <div class="wrap passos-in">
+    <div class="passo"><span>1</span><div><h3>Traga seus processos</h3><p>Cole os números CNJ. Cada processo entra com o histórico completo.</p></div></div>
+    <div class="passo"><span>2</span><div><h3>Organize a rotina</h3><p>Prazos, audiências e cobranças aparecem por ordem de urgência.</p></div></div>
+    <div class="passo"><span>3</span><div><h3>Acompanhe sem esforço</h3><p>Todo dia o sistema busca andamentos novos e avisa você.</p></div></div>
+  </div>
+</section>
+
+<section id="tour" class="bloco">
+  <div class="wrap">
+    <p class="eyebrow">Conheça por dentro</p>
+    <h2>Telas reais do sistema, <em>como você vai usar</em></h2>
+    <p class="sub">Tudo abaixo é o JurisOne de verdade, com dados de demonstração. Clique na imagem para ver em tela cheia.</p>
+    <div class="tour-abas" role="tablist" aria-label="Telas do sistema" id="tourAbas"></div>
+    <div class="tour" id="tour-painel"></div>
+    <div class="tour-nav">
+      <button class="btn ghost" type="button" id="tourAnt" aria-label="Tela anterior">← Anterior</button>
+      <span id="tourPos" class="tour-pos"></span>
+      <button class="btn ghost" type="button" id="tourProx" aria-label="Próxima tela">Próxima →</button>
     </div>
   </div>
 </section>
 
-<section id="recursos" class="bloco">
+<section id="incluso" class="bloco claro">
   <div class="wrap">
-    <p class="eyebrow">Recursos</p>
-    <h2>Tudo que o escritório usa no dia a dia, num lugar só</h2>
+    <p class="eyebrow">Também incluso</p>
+    <h2>Os detalhes que poupam tempo</h2>
     <div class="grade">
-      <article class="rec"><h3>Importação em massa por CNJ</h3><p>Cole a lista de processos que você já tem. O sistema cria cada um, vincula o cliente e puxa todo o histórico de andamentos.</p></article>
-      <article class="rec"><h3>Andamentos automáticos</h3><p>Uma vez por dia o JurisOne consulta a base nacional do CNJ e grava os movimentos novos de todos os seus processos.</p></article>
-      <article class="rec"><h3>Prazos pelo CPC</h3><p>Calculadora em dias úteis, com exclusão do dia do início, feriados nacionais e móveis e recesso forense de 20/12 a 20/01.</p></article>
-      <article class="rec"><h3>Agenda e notificações</h3><p>Audiências, reuniões e diligências em lista, semana ou mês. O sino avisa o que vence hoje, amanhã e na semana.</p></article>
-      <article class="rec"><h3>Financeiro do escritório</h3><p>Honorários parcelados, baixa parcial, despesas recorrentes, juros e multa no atraso, relatórios em PDF e planilha.</p></article>
-      <article class="rec"><h3>Precatórios e valores de terceiros</h3><p>Dinheiro do cliente fica separado da receita: bruto, honorário, custas, IR e o líquido a repassar, com registro do repasse.</p></article>
-      <article class="rec"><h3>Documentos e modelos de peças</h3><p>Procurações e petições anexadas a cada processo. Modelos que se preenchem sozinhos com os dados do cliente.</p></article>
-      <article class="rec"><h3>Visão 360º do cliente</h3><p>Processos, prazos, financeiro, documentos e atalho para o WhatsApp do cliente numa mesma tela.</p></article>
-    </div>
-  </div>
-</section>
-
-<section id="pratica" class="bloco escuro">
-  <div class="wrap">
-    <p class="eyebrow">Na prática</p>
-    <h2>Como fica a rotina com o JurisOne</h2>
-    <div class="abas" role="tablist">
-      <button role="tab" class="aba on" data-aba="entrada">Primeiro dia</button>
-      <button role="tab" class="aba" data-aba="prazos">Prazos</button>
-      <button role="tab" class="aba" data-aba="agenda">Agenda</button>
-      <button role="tab" class="aba" data-aba="financeiro">Financeiro</button>
-      <button role="tab" class="aba" data-aba="precatorios">Precatórios</button>
-    </div>
-    <div class="painel on" data-painel="entrada">
-      <div class="p-txt"><h3>Traga sua carteira inteira em minutos</h3><p>Em <b>Processos → Importar em massa</b>, cole os números CNJ (um por linha, com o nome do cliente depois do “;”). Cada processo entra com o histórico completo do CNJ. Nada de redigitar andamento por andamento.</p></div>
-      <div class="p-demo"><pre class="cod">0001234-56.2026.8.26.0100 ; Maria Souza
-0007654-32.2025.8.26.0100 ; João Lima
-5001234-00.2024.4.03.6100 ; Alfa Transportes</pre><p class="res">✓ 3 processos importados · 214 andamentos puxados do CNJ</p></div>
-    </div>
-    <div class="painel" data-painel="prazos">
-      <div class="p-txt"><h3>Prazo calculado, não chutado</h3><p>Informe a data da intimação e a quantidade de dias. O JurisOne conta só dias úteis, pula Carnaval, Sexta-feira Santa, Corpus Christi e o recesso forense, e mostra a data fatal.</p></div>
-      <div class="p-demo"><div class="calc"><span>Intimação</span><b>01/06/2026</b><span>Prazo</span><b>5 dias úteis</b><span>Data fatal</span><b class="dourado">09/06/2026</b></div><p class="res">Corpus Christi (04/06) descontado automaticamente</p></div>
-    </div>
-    <div class="painel" data-painel="agenda">
-      <div class="p-txt"><h3>O dia inteiro na sua frente</h3><p>Audiências, reuniões com clientes e diligências com hora, local e processo. Cores por tipo de compromisso, visão de semana e de mês.</p></div>
-      <div class="p-demo"><div class="ag"><div><em>09:00</em> Audiência AIJ · Fórum Central, sala 5</div><div><em>14:00</em> Reunião com cliente · Escritório</div><div><em>16:30</em> Diligência · Cartório 2º Ofício</div></div></div>
-    </div>
-    <div class="painel" data-painel="financeiro">
-      <div class="p-txt"><h3>Honorário combinado é honorário recebido</h3><p>Parcele em 12 vezes com um clique, registre pagamento parcial, cobre juros e multa quando atrasar e exporte o relatório do mês.</p></div>
-      <div class="p-demo"><div class="fin"><div><span>Honorários contratuais (4/12)</span><b>R$ 1.500</b><i class="pago">pago</i></div><div><span>Honorários contratuais (5/12)</span><b>R$ 1.500</b><i>aberto</i></div><div><span>Aluguel do escritório (09/2026)</span><b>R$ 2.200</b><i class="atr">atrasado</i></div></div></div>
-    </div>
-    <div class="painel" data-painel="precatorios">
-      <div class="p-txt"><h3>Dinheiro do cliente não é receita</h3><p>Receba o bruto, desconte honorário, custas e IR e veja o líquido a repassar. A receita do escritório só entra quando o valor é recebido.</p></div>
-      <div class="p-demo"><div class="calc"><span>Valor bruto</span><b>R$ 180.000</b><span>Honorário 20%</span><b>− R$ 36.000</b><span>Líquido ao cliente</span><b class="dourado">R$ 142.600</b></div><p class="res">Custas e IR retidos já descontados</p></div>
+      <article class="item"><h3>Avisos no sino</h3><p>Prazo que vence amanhã, parcela atrasada, audiência da semana — em ordem de urgência.</p></article>
+      <article class="item"><h3>Documentos do processo</h3><p>Procurações, petições e comprovantes anexados ao processo e ao cliente.</p></article>
+      <article class="item"><h3>Tarefas em quadro</h3><p>A fazer, em andamento e concluídas, com responsável e data.</p></article>
+      <article class="item"><h3>Busca em tudo</h3><p>Digite nome, CPF ou número CNJ na barra do topo e vá direto ao registro.</p></article>
+      <article class="item"><h3>Lixeira</h3><p>Apagou um prazo ou lançamento por engano? Restaure com um clique.</p></article>
+      <article class="item"><h3>Feed jurídico</h3><p>Notícias de tribunais e da imprensa jurídica, com busca e itens salvos.</p></article>
+      <article class="item"><h3>WhatsApp do cliente</h3><p>Mensagens prontas de atualização e lembrete, abertas direto no WhatsApp.</p></article>
+      <article class="item"><h3>Tema claro e escuro</h3><p>Use como preferir, no computador ou no celular.</p></article>
     </div>
   </div>
 </section>
@@ -127,9 +98,9 @@
 <section id="tutoriais" class="bloco">
   <div class="wrap">
     <p class="eyebrow">Central de tutoriais</p>
-    <h2>Aprenda cada tarefa em poucos passos</h2>
+    <h2>Cada tarefa em poucos passos</h2>
     <div class="filtros">
-      <input id="busca" type="search" placeholder="Buscar tutorial… (ex.: prazo, importar, parcela)" aria-label="Buscar tutorial">
+      <input id="busca" type="search" placeholder="Buscar tutorial… ex.: prazo, importar, parcela" aria-label="Buscar tutorial">
       <div class="chips" id="chips"></div>
     </div>
     <div class="tuts" id="tuts"></div>
@@ -137,15 +108,17 @@
   </div>
 </section>
 
-<section id="seguranca" class="bloco escuro">
-  <div class="wrap">
-    <p class="eyebrow">Segurança</p>
-    <h2>Dados do seu cliente protegidos</h2>
-    <div class="grade g3">
-      <article class="rec"><h3>Acesso protegido</h3><p>Senhas guardadas com hash, sessão com token, limite de tentativas de login e verificação anti-robô.</p></article>
-      <article class="rec"><h3>Conexão criptografada</h3><p>Todo o tráfego em HTTPS e banco de dados com conexão TLS em servidor no Brasil.</p></article>
-      <article class="rec"><h3>Lixeira e histórico</h3><p>Excluiu por engano? Lançamentos, prazos, tarefas e compromissos vão para a lixeira e podem ser restaurados.</p></article>
+<section id="seguranca" class="bloco claro">
+  <div class="wrap seg">
+    <div>
+      <p class="eyebrow">Segurança</p>
+      <h2>Dados do cliente protegidos</h2>
     </div>
+    <ul class="seg-lista">
+      <li><b>Acesso protegido</b> Senha guardada com criptografia, limite de tentativas e verificação anti-robô no login.</li>
+      <li><b>Conexão criptografada</b> Todo o tráfego em HTTPS e banco de dados em servidor no Brasil.</li>
+      <li><b>Nada se perde</b> Exclusões vão para a lixeira e podem ser desfeitas.</li>
+    </ul>
   </div>
 </section>
 
@@ -155,26 +128,31 @@
     <h2>Perguntas frequentes</h2>
     <details><summary>Preciso instalar alguma coisa?</summary><p>Não. O JurisOne roda no navegador, no computador ou no celular.</p></details>
     <details><summary>Consigo trazer os processos que já tenho?</summary><p>Sim. Cole os números CNJ na importação em massa e o sistema puxa o histórico de cada processo na base pública do CNJ (DataJud).</p></details>
-    <details><summary>Os andamentos atualizam sozinhos?</summary><p>Sim, uma vez por dia. Também dá para sincronizar na hora, processo a processo ou todos de uma vez.</p></details>
-    <details><summary>O sistema encontra meus processos pelo meu CPF ou OAB?</summary><p>A base pública do CNJ não permite busca por parte ou advogado. Por isso a entrada é pelo número do processo — o que você já tem em mãos.</p></details>
+    <details><summary>Os andamentos atualizam sozinhos?</summary><p>Sim, uma vez por dia. Também dá para sincronizar na hora, um processo ou todos de uma vez.</p></details>
+    <details><summary>O sistema acha meus processos pelo CPF ou pela OAB?</summary><p>A base pública do CNJ não permite busca por parte ou por advogado. Por isso a entrada é pelo número do processo — que você já tem.</p></details>
     <details><summary>Serve para escritório com mais de um advogado?</summary><p>Hoje o foco é o advogado solo. Acesso por equipe está no planejamento — fale com a gente.</p></details>
-    <details><summary>Posso testar antes?</summary><p>Pode. Clique em “Ver demonstração”: o acesso de teste já vem preenchido, com dados fictícios.</p></details>
+    <details><summary>Posso testar antes?</summary><p>Pode. Clique em “Abrir a demonstração”: o acesso de teste já vem preenchido, com dados fictícios.</p></details>
   </div>
 </section>
 
-<section id="contato" class="bloco escuro">
+<section id="contato" class="bloco contato">
   <div class="wrap contato-in">
     <div>
       <p class="eyebrow">Fale com a gente</p>
-      <h2>Quer ver o JurisOne com os seus processos?</h2>
-      <p class="lede">Deixe seu contato. Mostramos o sistema, importamos alguns processos seus de exemplo e tiramos suas dúvidas.</p>
+      <h2>Quer ver com os <em>seus</em> processos?</h2>
+      <p class="sub">Deixe seu contato. Mostramos o sistema, importamos alguns processos seus como exemplo e tiramos suas dúvidas.</p>
+      <a class="btn ghost" href="/login?demo=1">Ou abra a demonstração agora →</a>
     </div>
     <form id="form" class="form" novalidate>
-      <label>Nome<input name="nome" required autocomplete="name"></label>
-      <label>E-mail<input name="email" type="email" autocomplete="email"></label>
-      <label>Telefone / WhatsApp<input name="telefone" autocomplete="tel"></label>
-      <label>Escritório (opcional)<input name="escritorio" autocomplete="organization"></label>
-      <label>Mensagem (opcional)<textarea name="mensagem" rows="3"></textarea></label>
+      <div class="linha2">
+        <label>Nome<input name="nome" required autocomplete="name"></label>
+        <label>Escritório <small>(opcional)</small><input name="escritorio" autocomplete="organization"></label>
+      </div>
+      <div class="linha2">
+        <label>E-mail<input name="email" type="email" autocomplete="email"></label>
+        <label>WhatsApp<input name="telefone" autocomplete="tel" inputmode="tel"></label>
+      </div>
+      <label>Mensagem <small>(opcional)</small><textarea name="mensagem" rows="3"></textarea></label>
       <label class="armadilha" aria-hidden="true">Site<input name="site" tabindex="-1" autocomplete="off"></label>
       <button class="btn grande" type="submit">Enviar contato</button>
       <p class="msg" id="msg" role="status"></p>
@@ -190,6 +168,13 @@
     <span><a href="/login?demo=1">Demonstração</a> · <a href="#contato">Contato</a></span>
   </div>
 </footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Tela ampliada">
+  <button class="lb-fechar" type="button" id="lbFechar" aria-label="Fechar">✕</button>
+  <button class="lb-seta esq" type="button" id="lbAnt" aria-label="Tela anterior">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbLegenda"></figcaption></figure>
+  <button class="lb-seta dir" type="button" id="lbProx" aria-label="Próxima tela">›</button>
+</div>
 
 <script src="app.js"></script>
 </body>
