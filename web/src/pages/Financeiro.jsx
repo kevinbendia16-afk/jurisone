@@ -4,6 +4,16 @@ import { api, fmtMoney, fmtDate } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
 const ORIGENS = ['honorario', 'despesa', 'custa', 'reembolso', 'outro'];
+const ORIGEM_ROTULO = { honorario: 'Honorário', despesa: 'Despesa', custa: 'Custas', reembolso: 'Reembolso', repasse: 'Repasse', outro: 'Outro' };
+
+// "Atrasado" é consequência da data, não um valor fixo: entrada não paga com vencimento já passado.
+// (Um "atrasado" gravado cujo vencimento ainda não chegou volta a ser "aberto".)
+function statusEfetivo(l) {
+  if (l.status === 'pago') return 'pago';
+  const vencido = l.vencimento && new Date(l.vencimento) < new Date().setHours(0, 0, 0, 0);
+  if (l.tipo === 'entrada' && vencido) return 'atrasado';
+  return l.status === 'atrasado' ? 'aberto' : l.status;
+}
 
 // Encargos padrão de mora: multa 2% + juros 1% ao mês (pro rata die) sobre o saldo em aberto.
 function calcJurosMulta(l) {
@@ -42,7 +52,7 @@ export default function Financeiro() {
 
   const filtrada = list.filter((l) => {
     if (fTipo !== 'todos' && l.tipo !== fTipo) return false;
-    if (fStatus !== 'todos' && l.status !== fStatus) return false;
+    if (fStatus !== 'todos' && statusEfetivo(l) !== fStatus) return false;
     if (fMes && (l.data || '').slice(0, 7) !== fMes) return false;
     if (q) {
       const t = (l.descricao + ' ' + (l.cliente?.nome || '') + ' ' + l.origem).toLowerCase();
@@ -117,15 +127,15 @@ export default function Financeiro() {
             <thead><tr><th>Descrição</th><th>Cliente</th><th>Tipo</th><th>Valor</th><th>Vencimento</th><th>Status</th><th></th></tr></thead>
             <tbody>{filtrada.map((l) => (
               <tr key={l.id} className="clickable" onClick={() => setEdit({ ...l, data: (l.data || '').slice(0, 10), vencimento: (l.vencimento || '').slice(0, 10), clienteId: l.clienteId || '', processoId: l.processoId || '' })}>
-                <td style={{ fontWeight: 600 }}>{l.descricao}<div style={{ color: 'var(--muted-2)', fontSize: 11 }}>{l.origem}</div></td>
+                <td style={{ fontWeight: 600 }}>{l.descricao}<div style={{ color: 'var(--muted-2)', fontSize: 11 }}>{ORIGEM_ROTULO[l.origem] || l.origem}</div></td>
                 <td style={{ color: 'var(--muted)' }}>{l.cliente?.nome || '—'}</td>
-                <td><span style={{ color: l.tipo === 'entrada' ? 'var(--green)' : 'var(--red)' }}>{l.tipo === 'entrada' ? '↑ entrada' : '↓ saída'}</span></td>
+                <td style={{ whiteSpace: 'nowrap' }}><span style={{ color: l.tipo === 'entrada' ? 'var(--green)' : 'var(--red)' }}>{l.tipo === 'entrada' ? '↑ entrada' : '↓ saída'}</span></td>
                 <td className="mono">{fmtMoney(l.valor)}
                   {l.valorPago > 0 && l.valorPago < l.valor &&
                     <div style={{ color: 'var(--green)', fontSize: 11 }}>recebido {fmtMoney(l.valorPago)}</div>}
                 </td>
                 <td className="mono" style={{ fontSize: 12 }}>{l.vencimento ? fmtDate(l.vencimento) : '—'}</td>
-                <td><Badge>{(l.tipo === 'entrada' && l.status !== 'pago' && l.vencimento && new Date(l.vencimento) < new Date().setHours(0, 0, 0, 0)) ? 'atrasado' : l.status}</Badge>{l.parcelaTotal ? <div style={{ color: 'var(--muted-2)', fontSize: 11 }}>parcela {l.parcelaNum}/{l.parcelaTotal}</div> : null}</td>
+                <td><Badge>{statusEfetivo(l)}</Badge>{l.parcelaTotal ? <div style={{ color: 'var(--muted-2)', fontSize: 11 }}>parcela {l.parcelaNum}/{l.parcelaTotal}</div> : null}</td>
                 <td onClick={(e) => e.stopPropagation()}>
                   {l.tipo === 'entrada' && l.status !== 'pago' && <div style={{ display: 'flex', gap: 6 }}>
                     <button className="btn ghost sm" onClick={() => receberParcial(l)}>Receber</button>
@@ -183,7 +193,7 @@ function Parcelar({ item, clientes, processos, onClose, onSaved }) {
       </div>
       <div className="row-2">
         <Field label="Origem"><select className="input" value={f.origem} onChange={set('origem')}>
-          {ORIGENS.map((o) => <option key={o} value={o}>{o}</option>)}</select></Field>
+          {ORIGENS.map((o) => <option key={o} value={o}>{ORIGEM_ROTULO[o]}</option>)}</select></Field>
         <Field label="1º vencimento"><input className="input" type="date" value={f.primeiroVencimento || ''} onChange={set('primeiroVencimento')} /></Field>
       </div>
       <div className="row-2">
@@ -226,7 +236,7 @@ function Editar({ item, clientes, processos, onClose, onSaved }) {
         <Field label="Tipo"><select className="input" value={f.tipo} onChange={set('tipo')}>
           <option value="entrada">Entrada (receita)</option><option value="saida">Saída (despesa)</option></select></Field>
         <Field label="Origem"><select className="input" value={f.origem} onChange={set('origem')}>
-          {ORIGENS.map((o) => <option key={o} value={o}>{o}</option>)}</select></Field>
+          {ORIGENS.map((o) => <option key={o} value={o}>{ORIGEM_ROTULO[o]}</option>)}</select></Field>
       </div>
       <Field label="Descrição"><input className="input" value={f.descricao} onChange={set('descricao')} /></Field>
       <div className="row-2">
