@@ -3,6 +3,8 @@ import { useSearchParams } from 'react-router-dom';
 import { api, fmtMoney } from '../api.js';
 import { PageHead, Modal, Field, Empty, Badge } from '../ui.jsx';
 
+const TIPO_ROTULO = { precatorio: 'Precatório', rpv: 'RPV', acordo: 'Acordo', alvara: 'Alvará', deposito_judicial: 'Depósito judicial' };
+
 export default function ValoresTerceiro() {
   const [list, setList] = useState([]);
   const [open, setOpen] = useState(false);
@@ -31,7 +33,7 @@ export default function ValoresTerceiro() {
             <tbody>{list.map((t) => (
               <tr key={t.id} className="clickable" onClick={() => setEdit(t)}>
                 <td style={{ fontWeight: 600 }}>{t.cliente?.nome}</td>
-                <td style={{ textTransform: 'capitalize' }}>{t.tipo}</td>
+                <td>{TIPO_ROTULO[t.tipo] || t.tipo}</td>
                 <td className="mono">{fmtMoney(t.valorBruto)}</td>
                 <td className="mono" style={{ color: 'var(--green)' }}>{fmtMoney(t.honorarioValor)}</td>
                 <td className="mono">{fmtMoney(t.valorLiquido)}</td>

@@ -171,7 +171,7 @@ const SOFT_MODELS = {
   prazo: { rotulo: (x) => x.titulo, tipo: 'Prazo', pagina: '/prazos' },
   tarefa: { rotulo: (x) => x.titulo, tipo: 'Tarefa', pagina: '/tarefas' },
   evento: { rotulo: (x) => x.titulo, tipo: 'Compromisso', pagina: '/agenda' },
-  valorTerceiro: { rotulo: (x) => `${x.tipo} — ${fmtBRL(x.valorLiquido)}`, tipo: 'Valor de terceiro', pagina: '/valores-terceiros' },
+  valorTerceiro: { rotulo: (x) => `${TIPO_TERCEIRO[x.tipo] || x.tipo} — ${fmtBRL(x.valorLiquido)}`, tipo: 'Valor de terceiro', pagina: '/valores-terceiros' },
   modelo: { rotulo: (x) => x.nome, tipo: 'Modelo', pagina: '/modelos' },
 };
 
@@ -663,6 +663,7 @@ app.get('/api/dashboard', auth, async (req, res) => {
   });
 });
 
+const TIPO_TERCEIRO = { precatorio: 'Precatório', rpv: 'RPV', acordo: 'Acordo', alvara: 'Alvará', deposito_judicial: 'Depósito judicial' };
 const fmtBRL = (n) => (Number(n) || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 // ---------- Central de notificações ----------
 // Calcula alertas na hora (sem tabela própria): prazos, pagamentos e compromissos próximos/vencidos.
@@ -702,7 +703,7 @@ app.get('/api/notificacoes', auth, async (req, res) => {
   for (const t of terceiros) {
     const d = diasEntre(t.dataPrevista);
     if (d <= 15) itens.push({ id: 'ter-' + t.id, tipo: 'precatorio', icone: '⚖',
-      titulo: `Valor a receber: ${t.tipo}`, sub: [t.cliente?.nome, fmtBRL(t.valorLiquido) + ' líquido'].filter(Boolean).join(' · '),
+      titulo: `Valor a receber: ${TIPO_TERCEIRO[t.tipo] || t.tipo}`, sub: [t.cliente?.nome, fmtBRL(t.valorLiquido) + ' líquido'].filter(Boolean).join(' · '),
       data: t.dataPrevista, dias: d, quando: quando(d), urgencia: urg(d), link: '/valores-terceiros' });
   }
   const rank = { vencido: 0, alta: 1, media: 2 };
@@ -747,7 +748,7 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-const APP_VERSION = 'demo-3'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+const APP_VERSION = 'demo-4'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
 app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
