@@ -4,8 +4,10 @@ import { api, setToken, isClaudeBrowser } from '../api.js';
 
 export default function Login() {
   const nav = useNavigate();
-  const [email, setEmail] = useState('kevin@jurisone.local');
-  const [senha, setSenha] = useState('');
+  // /login?demo=1 (vindo do site de divulgação) já traz o acesso de demonstração preenchido
+  const ehDemo = new URLSearchParams(window.location.search).has('demo');
+  const [email, setEmail] = useState(ehDemo ? 'demo@jurisone.com.br' : 'kevin@jurisone.local');
+  const [senha, setSenha] = useState(ehDemo ? 'demo1234' : '');
   const [website, setWebsite] = useState(''); // honeypot (deve ficar vazio)
   const [siteKey, setSiteKey] = useState(null);
   const [captcha, setCaptcha] = useState('');

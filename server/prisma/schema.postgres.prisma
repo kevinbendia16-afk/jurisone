@@ -120,6 +120,18 @@ model LancamentoFinanceiro {
   deletedAt  DateTime?
 }
 
+// Leads do site de divulgacao.
+model Lead {
+  id         String   @id @default(cuid())
+  nome       String
+  email      String?
+  telefone   String?
+  escritorio String?
+  mensagem   String?
+  origem     String?
+  createdAt  DateTime @default(now())
+}
+
 // Modelos de peticao/contrato com variaveis.
 model Modelo {
   id        String   @id @default(cuid())

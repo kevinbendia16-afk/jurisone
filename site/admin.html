@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Contatos do site — JurisOne</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<main class="wrap">
+  <header class="cab">
+    <div>
+      <p class="eyebrow">Site de divulgação</p>
+      <h1>Contatos recebidos</h1>
+    </div>
+    <div class="acoes">
+      <button id="csv" class="btn ghost" type="button">Baixar CSV</button>
+      <button id="atualizar" class="btn" type="button">Atualizar</button>
+    </div>
+  </header>
+  <p class="resumo" id="resumo">Carregando…</p>
+  <div class="tabela">
+    <table>
+      <thead><tr><th>Recebido em</th><th>Nome</th><th>E-mail</th><th>Telefone</th><th>Escritório</th><th>Mensagem</th></tr></thead>
+      <tbody id="linhas"></tbody>
+    </table>
+  </div>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>

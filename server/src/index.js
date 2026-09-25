@@ -741,18 +741,54 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-const APP_VERSION = 'autosync-1'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+const APP_VERSION = 'site-1'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
 app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
 app.use('/api', (req, res) => res.status(404).json({ error: 'não encontrado' }));
+
+// ---------- Site de divulgação (/site) + leads + admin ----------
+const siteDir = path.resolve(__dirname, '../../site');
+const leadLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 8, standardHeaders: true, legacyHeaders: false,
+  message: { error: 'Muitas tentativas. Tente de novo em alguns minutos.' } });
+app.post('/site/api/lead', leadLimiter, async (req, res) => {
+  const b = req.body || {};
+  if (b.site) return res.json({ ok: true }); // armadilha anti-robô: finge sucesso
+  const limpa = (v, n) => (typeof v === 'string' ? v.trim().slice(0, n) : '');
+  const nome = limpa(b.nome, 120), email = limpa(b.email, 160), telefone = limpa(b.telefone, 40);
+  if (nome.length < 2) return res.status(400).json({ error: 'Informe seu nome.' });
+  if (!email && !telefone) return res.status(400).json({ error: 'Informe um e-mail ou telefone para contato.' });
+  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({ error: 'E-mail inválido.' });
+  await prisma.lead.create({ data: { nome, email: email || null, telefone: telefone || null,
+    escritorio: limpa(b.escritorio, 160) || null, mensagem: limpa(b.mensagem, 2000) || null, origem: limpa(b.origem, 200) || null } });
+  res.json({ ok: true });
+});
+// Admin dos leads: HTTP Basic (usuário kevin; senha via env SITE_ADMIN_PASS).
+function siteAdminAuth(req, res, next) {
+  const senha = process.env.SITE_ADMIN_PASS || 'jurisone-leads';
+  const [tipo, cred] = (req.headers.authorization || '').split(' ');
+  if (tipo === 'Basic' && cred) {
+    const [u, p] = Buffer.from(cred, 'base64').toString().split(':');
+    if (u === 'kevin' && p === senha) return next();
+  }
+  res.set('WWW-Authenticate', 'Basic realm="JurisOne leads"').status(401).send('Acesso restrito.');
+}
+app.get('/site/api/leads', siteAdminAuth, async (req, res) => {
+  res.json(await prisma.lead.findMany({ orderBy: { createdAt: 'desc' } }));
+});
+app.get('/site/admin', siteAdminAuth, (req, res) => {
+  // com barra final os caminhos relativos (admin.css/admin.js) quebrariam: normaliza sem barra
+  if (req.path.endsWith('/')) return res.redirect(301, '/site/admin');
+  res.sendFile(path.join(siteDir, 'admin.html'));
+});
+if (fs.existsSync(siteDir)) app.use('/site', express.static(siteDir));
 
 // ---------- Servir o frontend buildado (web/dist), se existir ----------
 const distDir = path.resolve(__dirname, '../../web/dist');
 if (fs.existsSync(distDir)) {
   app.use(express.static(distDir));
   // SPA fallback: qualquer rota não-API devolve o index.html
-  app.get(/^(?!\/api).*/, (req, res) => res.sendFile(path.join(distDir, 'index.html')));
+  app.get(/^(?!\/api|\/site).*/, (req, res) => res.sendFile(path.join(distDir, 'index.html')));
 }
 
 // Error handler global: registra o erro no servidor, devolve mensagem genérica ao cliente.
