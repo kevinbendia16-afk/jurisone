@@ -16,7 +16,7 @@ function desenhar() {
     ? `${leads.length} contato(s) no total.` : 'Nenhum contato recebido ainda.';
   if (!leads.length) {
     const tr = document.createElement('tr'); const td = document.createElement('td');
-    td.colSpan = 6; td.className = 'vazio'; td.textContent = 'Quando alguém preencher o formulário do site, aparece aqui.';
+    td.colSpan = 7; td.className = 'vazio'; td.textContent = 'Quando alguém preencher o formulário do site, aparece aqui.';
     tr.appendChild(td); tb.appendChild(tr); return;
   }
   leads.forEach((l) => {
@@ -35,6 +35,15 @@ function desenhar() {
     tr.appendChild(tdTel);
     tr.appendChild(celula(l.escritorio));
     tr.appendChild(celula(l.mensagem, 'msg'));
+    const tdAcao = document.createElement('td');
+    const del = document.createElement('button');
+    del.type = 'button'; del.className = 'btn ghost mini'; del.textContent = 'Excluir';
+    del.addEventListener('click', async () => {
+      if (!confirm(`Excluir o contato de ${l.nome}?`)) return;
+      const r = await fetch('api/leads/' + encodeURIComponent(l.id), { method: 'DELETE', credentials: 'same-origin' });
+      if (r.ok) { leads = leads.filter((x) => x.id !== l.id); desenhar(); } else alert('Não foi possível excluir. Recarregue a página.');
+    });
+    tdAcao.appendChild(del); tr.appendChild(tdAcao);
     tb.appendChild(tr);
   });
 }

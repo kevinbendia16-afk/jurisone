@@ -741,7 +741,7 @@ app.get('/api/dashboard/charts', auth, async (req, res) => {
   });
 });
 
-const APP_VERSION = 'site-1'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
+const APP_VERSION = 'site-2'; // marcador p/ confirmar deploy no ar (bump a cada deploy backend relevante)
 app.get('/api/health', (req, res) => res.json({ ok: true, versao: APP_VERSION }));
 
 // 404 para rotas de API desconhecidas (resposta JSON limpa, sem vazar detalhes)
@@ -775,6 +775,10 @@ function siteAdminAuth(req, res, next) {
 }
 app.get('/site/api/leads', siteAdminAuth, async (req, res) => {
   res.json(await prisma.lead.findMany({ orderBy: { createdAt: 'desc' } }));
+});
+app.delete('/site/api/leads/:id', siteAdminAuth, async (req, res) => {
+  await prisma.lead.deleteMany({ where: { id: req.params.id } });
+  res.json({ ok: true });
 });
 app.get('/site/admin', siteAdminAuth, (req, res) => {
   // com barra final os caminhos relativos (admin.css/admin.js) quebrariam: normaliza sem barra
