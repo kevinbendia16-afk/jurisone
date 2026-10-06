@@ -799,7 +799,14 @@ const oabDir = path.resolve(__dirname, '../../oab');
 if (fs.existsSync(oabDir)) {
   // caminhos relativos exigem a barra final (sem o teste, '/oab/' tambem casaria e entraria em loop)
   app.get('/oab', (req, res, next) => (req.path === '/oab' ? res.redirect(301, '/oab/') : next()));
-  app.use('/oab', express.static(oabDir));
+  // CSP propria: o app usa a fonte do Google Fonts e toca videoaulas do YouTube embutidas
+  const oabCsp = [
+    "default-src 'self'", "script-src 'self'", "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "font-src 'self' https://fonts.gstatic.com", "img-src 'self' data: https:", "connect-src 'self'",
+    'frame-src https://www.youtube-nocookie.com https://www.youtube.com', "worker-src 'self'",
+    "object-src 'none'", "frame-ancestors 'none'",
+  ].join('; ');
+  app.use('/oab', (req, res, next) => { res.setHeader('Content-Security-Policy', oabCsp); next(); }, express.static(oabDir));
 }
 
 // ---------- Servir o frontend buildado (web/dist), se existir ----------
