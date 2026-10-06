@@ -1,0 +1,282 @@
+[
+  { "id": "47-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Essa é a tese do positivismo ético (legalismo), não do jusnaturalismo. Para o jusnaturalismo, a lei contrária ao direito natural é injusta, perde legitimidade e pode ser contestada.",
+      "Errada. Só o positivismo vincula a validade ao procedimento de produção da norma. O jusnaturalismo exige também que o conteúdo da lei esteja de acordo com o direito natural.",
+      "Errada. A afirmação descreve o jusnaturalismo. O positivismo jurídico clássico (Kelsen, Bobbio) separa direito e moral e afere a validade pela produção conforme a norma superior, não pela correção moral.",
+      "Correta. O jusnaturalismo admite direitos anteriores e superiores ao direito posto, que servem de parâmetro para contestar leis injustas. Já o positivismo clássico afirma a separação entre a validade da lei e seu conteúdo moral."
+    ] },
+  { "id": "47-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Rousseau, a vontade geral só se manifesta em atos gerais; quando incide sobre objeto particular, deixa de ser vontade geral e não legitima lei particularizada (O Contrato Social, Livro II, caps. IV e VI).",
+      "Errada. Rousseau distingue a vontade geral, voltada ao bem comum, da vontade de todos, que é a soma de interesses particulares. Interesses predominantes que não correspondem ao bem comum não são vontade geral.",
+      "Correta. Por visar ao interesse comum, a vontade geral exige leis gerais e abstratas: a lei considera os súditos em conjunto e as ações em abstrato, nunca um homem ou uma ação particular (Livro II, cap. VI).",
+      "Errada. A vontade geral não se confunde com a vontade da maioria nem com o simples procedimento formal. O que a define é a orientação ao interesse comum, distinto dos interesses particulares."
+    ] },
+  { "id": "46-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Ao pôr em dúvida o próprio conceito de ladrão, Sócrates adota o enfoque zetético (especulativo, voltado a saber o que algo é), e não o dogmático.",
+      "Correta. A ênfase na dúvida e na pergunta ontológica (o que é um ladrão?) caracteriza o enfoque zetético, que tem função especulativa e problematiza as próprias premissas, segundo Tercio Sampaio Ferraz Junior.",
+      "Errada. Partir dos conceitos legais de furto e roubo (arts. 155 e 157 do CP), tomados como premissas inquestionáveis para orientar uma decisão, é típico do enfoque dogmático.",
+      "Errada. Para Tercio, zetética e dogmática são enfoques complementares no estudo do direito; o autor não sustenta que a investigação zetética deva ser abandonada."
+    ] },
+  { "id": "46-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Costume é a prática reiterada com convicção de obrigatoriedade. O STF não aplicou uma prática social, mas uma lei já existente a situação semelhante.",
+      "Errada. Equidade é a justiça do caso concreto, que abranda o rigor da lei, e o juiz só decide por equidade nos casos previstos em lei (art. 140, parágrafo único, do CPC).",
+      "Correta. Diante da lacuna (falta da lei exigida pelo art. 37, VII, da CF), o STF aplicou a Lei 7.783/1989 por semelhança de razões, o que caracteriza a analogia (art. 4º da LINDB; MIs 670, 708 e 712).",
+      "Errada. Os princípios gerais de direito são o último recurso de integração (art. 4º da LINDB) e não consistem em aplicar outra lei a caso semelhante, traço próprio da analogia."
+    ] },
+  { "id": "45-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A luta de classes é categoria do marxismo, que explica a história pelo conflito entre classes, e não a forma de associação proposta por Rousseau.",
+      "Correta. Em O Contrato Social (Livro I, cap. VI), Rousseau apresenta o pacto social como solução: cada um se dá a todos, submete-se à vontade geral e, assim, obedece apenas a si mesmo.",
+      "Errada. A união das nações não é a resposta de Rousseau. O problema trata da associação política entre indivíduos que funda o corpo político.",
+      "Errada. O utilitarismo de regras é corrente ética posterior, derivada de Bentham e Mill, que avalia regras pela utilidade, e não o pacto de Rousseau."
+    ] },
+  { "id": "45-10", "status": "valida",
+    "explicacoes": [
+      "Errada. No caso I a interpretação é restritiva (exclui o cão-guia do alcance da palavra animais); a interpretação extensiva ocorre no caso III.",
+      "Errada. O caso I não é axiológico, mas restritivo, e o caso III não é especificador, mas extensivo, pois amplia o alcance da norma à mãe adotiva.",
+      "Correta. Em I, o tribunal reduz o alcance do texto (restritiva); em II, limita-se ao que está textualmente contido (especificadora ou declarativa); em III, estende o benefício a hipótese não prevista literalmente (extensiva).",
+      "Errada. O caso I é de interpretação restritiva, e não especificadora, já que o tribunal reduz o alcance do termo animais."
+    ] },
+  { "id": "44-9", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Locke, ninguém na sociedade civil pode isentar-se das leis que a regem, e os próprios legisladores ficam sujeitos às leis que fizeram (Segundo Tratado sobre o Governo, §§ 94 e 143).",
+      "Errada. A ideia de um soberano fora do pacto e não sujeito às próprias leis é associada a Hobbes. Para Locke, o poder civil é limitado e também se submete à lei.",
+      "Errada. Locke não isenta autoridades religiosas das leis civis; todos os membros da sociedade política estão sujeitos à lei.",
+      "Errada. Locke rejeita qualquer isenção de parlamentares ou magistrados. O legislativo é poder fiduciário, limitado e sujeito às leis que produz."
+    ] },
+  { "id": "44-10", "status": "valida",
+    "explicacoes": [
+      "Errada. A interpretação gramatical, apoiada no brocardo in claris cessat interpretatio, levaria a ler casa em sentido literal estrito, o que não favorece o cliente.",
+      "Errada. A interpretação restritiva reduziria o alcance do conceito de casa e afastaria a proteção ao quarto de hotel, contra o interesse de João Vicente.",
+      "Errada. Interpretação autêntica é a feita pelo próprio órgão que editou a norma. Além disso, o domicílio civil (art. 70 do CC) não se confunde com a casa protegida pelo art. 5º, XI, da CF.",
+      "Correta. A interpretação extensiva amplia o alcance do termo casa para abranger o quarto de hotel ocupado, como reconhece o STF (RHC 90.376) e o art. 150, § 4º, II, do CP (aposento ocupado de habitação coletiva)."
+    ] },
+  { "id": "43-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A Escola da Exegese centrava-se na lei, sobretudo no Código Civil francês, e não na interpretação da constituição como limite ao legislador.",
+      "Correta. Segundo Reale, a tese fundamental da Exegese é que o direito, por excelência, é revelado pelas leis, normas gerais escritas emanadas do Estado, constitutivas de direitos e instauradoras de faculdades e obrigações.",
+      "Errada. Valores anteriores e superiores ao Estado remetem ao jusnaturalismo, que a Exegese, positivista e legalista, não adotava como fundamento do direito.",
+      "Errada. Buscar os fins sociais e o bem comum é próprio das correntes que superaram a Exegese (interpretação teleológica, hoje no art. 5º da LINDB). A Exegese buscava a vontade do legislador e via a evolução do direito apenas pelo processo legislativo."
+    ] },
+  { "id": "43-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Kant não define dignidade como conjunto de direitos fundamentais assegurados pelo Estado; essa é uma leitura jurídico-constitucional posterior.",
+      "Errada. Para Kant, a dignidade está acima de todo preço e não admite equivalente, por isso não pode ser posta em cálculo ou confronto com o que tem preço.",
+      "Errada. A dignidade como valor do trabalho na transformação da natureza aproxima-se de leituras marxistas, e não da Fundamentação da Metafísica dos Costumes.",
+      "Correta. Na Fundamentação, Kant afirma que no reino dos fins tudo tem um preço ou uma dignidade: o que tem dignidade não tem valor relativo (preço), mas valor íntimo, e é fim em si mesmo."
+    ] },
+  { "id": "42-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A justiça como prática adquirida pela repetição de atos justos é concepção aristotélica (Ética a Nicômaco), não platônica.",
+      "Errada. O contrato social que assegura direitos e liberdades é ideia do contratualismo moderno (Hobbes, Locke, Rousseau).",
+      "Errada. A justiça como processo histórico de luta contra a exploração remete ao marxismo.",
+      "Correta. Para Platão, a justiça é uma Ideia, essência perfeita apreendida pela razão para além das aparências do mundo sensível, como ilustra a Alegoria da Caverna."
+    ] },
+  { "id": "42-10", "status": "valida",
+    "explicacoes": [
+      "Correta. Em A Política (Livro III), Aristóteles aponta as formas degeneradas: a tirania (utilidade do monarca), a oligarquia (utilidade dos ricos) e a democracia (utilidade dos pobres).",
+      "Errada. Imperialismo e aporofobia não constam da classificação aristotélica, e timocracia é nome que Aristóteles dá, na Ética a Nicômaco, à forma reta do governo de muitos, não à degenerada.",
+      "Errada. Cleptocracia, parlamentarismo e agorafobia são estranhos à tipologia de Aristóteles, que classifica os governos pelo número de governantes e pela busca do bem comum ou do interesse próprio.",
+      "Errada. Misticismo, elitismo e assembleísmo não integram a classificação aristotélica, cujas formas corrompidas são tirania, oligarquia e democracia."
+    ] },
+  { "id": "41-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Em A República, Platão define a justiça como cada parte da cidade e da alma cumprindo sua função própria, e não como igualdade proporcional entre desiguais.",
+      "Correta. Tratar desigualmente os desiguais na medida de sua desigualdade é a justiça distributiva de Aristóteles, baseada na igualdade proporcional ou geométrica (Ética a Nicômaco, Livro V).",
+      "Errada. Na Crítica da Razão Prática, Kant trata da lei moral e do imperativo categórico, de caráter universal, e não da igualdade proporcional.",
+      "Errada. A Teoria Pura do Direito de Kelsen afasta da ciência jurídica os juízos de justiça, como o critério de igualdade material."
+    ] },
+  { "id": "41-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Kelsen não nega a conexão do direito com a sociologia, a ética e a política; apenas evita o sincretismo metodológico, excluindo-as do objeto da ciência jurídica.",
+      "Correta. A pureza é metodológica: a ciência do direito deve descrever seu objeto, as normas jurídicas, excluindo elementos estranhos como a psicologia, a sociologia, a ética e a teoria política.",
+      "Errada. Por ser ciência e não política do direito, a Teoria Pura busca saber o que é e como é o direito, e não como ele deve ser ou como deve ser feito.",
+      "Errada. Kelsen afasta a teoria política da Teoria Pura justamente para evitar o sincretismo metodológico; não a incorpora."
+    ] },
+  { "id": "40-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Vincular a dignidade à participação nos destinos políticos da cidade lembra a concepção grega de cidadania (Aristóteles), e não a de Kant.",
+      "Correta. Kant afirma que, no reino dos fins, tudo tem preço ou dignidade; o que está acima de todo preço e não admite equivalente tem dignidade (Fundamentação da Metafísica dos Costumes).",
+      "Errada. O amor à lei e à pátria como base da dignidade remete às virtudes cívicas (como em Montesquieu), não ao conceito kantiano.",
+      "Errada. Para Kant, dignidade não é autoestima ou amor-próprio, mas o valor absoluto do ser racional como fim em si mesmo."
+    ] },
+  { "id": "40-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Kelsen, a validade não decorre do legislador democrático: a norma é válida por ter sido produzida conforme a norma superior, qualquer que seja o regime político.",
+      "Errada. A soberania popular é fundamento político de legitimidade, que a Teoria Pura exclui da análise da validade jurídica.",
+      "Correta. Para Kelsen, a validade de todas as normas do ordenamento remonta à norma fundamental (Grundnorm), pressuposta e não posta, ponto de partida do processo de criação do direito positivo.",
+      "Errada. O direito das gentes (direito internacional) não é o fundamento lógico de validade descrito no enunciado; essa função cabe à norma fundamental pressuposta."
+    ] },
+  { "id": "39-9", "status": "valida",
+    "explicacoes": [
+      "Errada. O acordo entre comunidades políticas é direito convencional (tratados), e não lei natural, que para Aristóteles independe de qualquer convenção.",
+      "Errada. Na Retórica, a lei natural não se encarna no soberano nem serve para legitimar a monarquia; ela é comum a todos.",
+      "Errada. As tradições de um povo correspondem à lei particular de cada comunidade, e não à lei comum, conforme à natureza.",
+      "Correta. Na Retórica (Livro I), Aristóteles define a lei comum, conforme à natureza, como o justo que todos de algum modo intuem, independentemente de comunidade ou convenção recíproca, e cita a Antígona como exemplo."
+    ] },
+  { "id": "39-10", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei como realidade histórica, interpretada segundo o espírito do povo, é a tese da Escola Histórica (Savigny), adversária da Exegese.",
+      "Errada. Buscar fora da lei, no costume e em outras fontes, a solução quando a lei não corresponde aos fatos é tese das correntes que reagiram à Exegese, como a livre investigação científica de Gény.",
+      "Errada. Julgar segundo a ciência e a consciência, até contra a lei, é a tese do movimento do Direito Livre (Kantorowicz), oposto à Exegese.",
+      "Correta. Reale ensina que a Exegese sustentava que na lei positiva, especialmente no Código Civil, já se encontrava a solução para todos os casos da vida social, cabendo ao intérprete revelar a vontade do legislador."
+    ] },
+  { "id": "38-9", "status": "valida",
+    "explicacoes": [
+      "Correta. Em Vigiar e Punir, Foucault afirma que o castigo disciplinar tem a função de reduzir os desvios, sendo essencialmente corretivo e ligado ao exercício e ao aprendizado.",
+      "Errada. O castigo disciplinar não se volta a coibir crimes; pune a inobservância e os desvios em relação à regra, ainda que não sejam ilícitos.",
+      "Errada. Foucault não atribui ao castigo disciplinar função de expiação ou arrependimento; sua lógica é corretiva e normalizadora.",
+      "Errada. A reparação de danos à vítima não é função do castigo disciplinar, que busca ajustar o indivíduo à norma."
+    ] },
+  { "id": "38-10", "status": "valida",
+    "explicacoes": [
+      "Correta. Hart afirma que a moral penetra no direito pela legislação ou pelo processo judicial e que, em alguns sistemas, os critérios últimos de validade incorporam explicitamente princípios de justiça ou valores morais substantivos (O Conceito de Direito, cap. IX).",
+      "Errada. Hart não aponta a religião ou a influência de autoridades religiosas sobre as instituições como via de penetração da moral no direito.",
+      "Errada. O desenvolvimento científico não é indicado por Hart como canal de influência da moral sobre o direito.",
+      "Errada. A incorporação espontânea e automática de padrões naturais aproxima-se do jusnaturalismo; Hart descreve a influência por canais institucionais, como a legislação e as decisões judiciais."
+    ] },
+  { "id": "37-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Dworkin rejeita que o juiz decida segundo sua consciência pessoal; a decisão deve buscar a melhor interpretação do direito como integridade.",
+      "Errada. Dworkin não separa direito e moral (tese positivista), e é equivocado dizer que a norma jurídica é subjetiva e a moral objetiva.",
+      "Errada. Admitir a moral apenas quando o legislador a incorpora ao direito positivo é a tese do positivismo inclusivo, criticada por Dworkin.",
+      "Correta. Em A Justiça de Toga, Dworkin propõe tratar o direito como um segmento da moral, e não como algo separado dela, de modo que a teoria jurídica é parte especial da moral política."
+    ] },
+  { "id": "37-10", "status": "valida",
+    "explicacoes": [
+      "Errada. O homem como animal político, dotado de fala e de senso do justo e do injusto, é ideia de Aristóteles (A Política, Livro I).",
+      "Errada. A distribuição proporcional dos bens comuns na relação entre o todo e as partes corresponde à justiça distributiva da tradição aristotélico-tomista, e não ao imperativo categórico.",
+      "Correta. É a fórmula da humanidade do imperativo categórico (Fundamentação da Metafísica dos Costumes): tratar a humanidade, em si e nos outros, sempre como fim e nunca apenas como meio.",
+      "Errada. O trecho sobre o mundo ético vivo e a eticidade é de Hegel (Fenomenologia do Espírito), e não de Kant."
+    ] },
+  { "id": "36-9", "status": "valida",
+    "explicacoes": [
+      "Correta. MacCormick aponta como dificuldade do raciocínio consequencialista definir a extensão das consequências que os juízes devem considerar e as bases sobre as quais devem avaliá-las.",
+      "Errada. A dificuldade apontada pelo autor não está nas convicções religiosas do juiz, mas na delimitação e na avaliação das consequências.",
+      "Errada. MacCormick considera o raciocínio consequencialista decisivo na justificação jurídica; não diz que é impossível fazer juízos consequencialistas a partir das normas.",
+      "Errada. O autor não restringe o consequencialismo ao sistema romano-germânico; ele o examina inclusive em decisões do common law."
+    ] },
+  { "id": "36-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Bobbio afirma que justiça, validade e eficácia são critérios independentes: uma norma pode ser eficaz sem ser válida ou justa, e vice-versa.",
+      "Correta. Para Bobbio, o problema da eficácia é o de a norma ser ou não seguida pelas pessoas a quem se dirige e, se violada, ser imposta coercitivamente pela autoridade.",
+      "Errada. A correspondência da norma aos valores últimos que inspiram o ordenamento é o problema da justiça.",
+      "Errada. A existência da regra e sua pertença ao ordenamento, verificada por juízo de fato, é o problema da validade."
+    ] },
+  { "id": "35-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A liberdade de consciência e de crença é um direito fundamental específico, que pressupõe o pertencimento a uma comunidade capaz de garanti-lo.",
+      "Correta. Arendt sustenta que o primeiro direito é o direito a ter direitos, isto é, pertencer a uma comunidade política organizada e à humanidade, cuja perda atingiu os apátridas.",
+      "Errada. O direito de resistência a governos tiranos é tema do contratualismo (Locke), e não o direito primordial identificado por Arendt.",
+      "Errada. Para Arendt, o drama dos sem direitos não é a desigualdade perante a lei, mas a inexistência de qualquer lei que os proteja."
+    ] },
+  { "id": "35-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Bobbio resolve essa antinomia pelo critério da especialidade, e não por ponderação de princípios, técnica associada a Alexy.",
+      "Correta. Pelo critério da especialidade (lex specialis derogat generali), prevalece a lei especial e a lei geral é derrogada, isto é, cai parcialmente, permanecendo válida no restante.",
+      "Errada. A data das leis interessa ao critério cronológico; no conflito entre lei geral e especial aplica-se a especialidade, e a lei geral nova não revoga a especial (art. 2º, § 2º, da LINDB).",
+      "Errada. Para Bobbio, o momento ineliminável de desenvolvimento do ordenamento é a passagem da regra geral para a especial, que por isso deve prevalecer, e não o contrário."
+    ] },
+  { "id": "34-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Hobbes não define a liberdade dos súditos pelos princípios do direito internacional, pelas tradições ou pelos costumes.",
+      "Errada. Os súditos não conservam liberdade para instaurar assembleia soberana; pelo pacto, transferem o poder ao soberano.",
+      "Errada. O poder do mais forte sobre os mais fracos descreve relações de força entre Estados, e não a liberdade dos súditos.",
+      "Correta. Em Leviatã (cap. XXI), a liberdade dos súditos está nas coisas que o soberano permitiu ao regular as ações, como comprar, vender e celebrar contratos mútuos."
+    ] },
+  { "id": "34-10", "status": "valida",
+    "explicacoes": [
+      "Errada. A sociedade política como instrumento de dominação de classe é concepção marxista.",
+      "Errada. Locke não vê o estado de natureza como animalidade a ser contida; ele já é regido pela lei natural, que é a razão.",
+      "Correta. Para Locke, os homens se unem em sociedade política para a mútua conservação de suas vidas, liberdades e bens, que ele chama genericamente de propriedade (Segundo Tratado, §§ 123 e 124).",
+      "Errada. Um soberano forte, limitado apenas pela própria vontade, aproxima-se de Hobbes; Locke defende governo limitado, sujeito à lei e ao consentimento."
+    ] },
+  { "id": "33-9", "status": "valida",
+    "explicacoes": [
+      "Errada. O devido processo legal é garantia processual, e não a ideia de freios e contrapesos desenvolvida em O Federalista.",
+      "Errada. O Federalista não propõe escola de governo para filtrar candidatos; os freios e contrapesos tratam da divisão e do controle recíproco dos poderes.",
+      "Errada. Ampla defesa e contraditório são garantias processuais (art. 5º, LV, da CF), e não o princípio dos freios e contrapesos.",
+      "Correta. Em O Federalista (n. 51), cada poder deve ter vontade própria e mínima influência na escolha dos membros dos demais, o legislativo é dividido em duas casas, e impede-se que uma facção oprima a outra."
+    ] },
+  { "id": "33-10", "status": "valida",
+    "explicacoes": [
+      "Errada. A sanção que atua na consciência e gera sentimento de culpa é a sanção moral, que é interna.",
+      "Errada. A sanção que decorre dos costumes e da vida em sociedade é a sanção social, externa, mas não institucionalizada.",
+      "Correta. Para Bobbio, a sanção jurídica é institucionalizada: prevista para a violação de regra primária, tem medida estabelecida e é executada por pessoas previamente determinadas.",
+      "Errada. Bobbio não funda a sanção jurídica no direito natural, na vontade de Deus ou na natureza das coisas, mas na organização do próprio ordenamento."
+    ] },
+  { "id": "32-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Reale, a executoriedade compulsória decorrente do preenchimento dos requisitos de elaboração é a vigência ou validade formal, e não a eficácia.",
+      "Errada. A conformidade formal e material com a Constituição diz respeito à validade da norma, e não à sua eficácia social.",
+      "Errada. O valor ou fim objetivado pela norma é o seu fundamento (validade ética), outra dimensão da validade em Reale.",
+      "Correta. Reale define a eficácia como a regra jurídica enquanto momento da conduta humana: sua dimensão experimental, ligada ao cumprimento efetivo pela sociedade e aos efeitos sociais que provoca."
+    ] },
+  { "id": "32-10", "status": "valida",
+    "explicacoes": [
+      "Errada. O positivismo ético não diz respeito ao fundamento moral da autoridade para propor leis, mas ao dever de obedecer à lei.",
+      "Errada. Condicionar a validade à aceitação moral da maioria contraria o próprio positivismo jurídico.",
+      "Errada. A obediência condicionada à utilidade social é posição utilitarista; o positivismo ético prega obediência incondicional.",
+      "Correta. Bobbio chama de positivismo ético a ideologia que afirma o dever absoluto ou incondicional de obedecer à lei enquanto tal."
+    ] },
+  { "id": "31-9", "status": "valida",
+    "explicacoes": [
+      "Correta. Kant afirma que o homem abandonou a liberdade selvagem e sem lei para reencontrar sua liberdade na dependência legal, no estado jurídico, porque essa dependência procede de sua própria vontade legisladora (Doutrina do Direito, § 47).",
+      "Errada. Para Kant, a liberdade civil não é fazer tudo o que se deseja, mas obedecer apenas às leis com as quais o cidadão, como colegislador, consentiu.",
+      "Errada. Kant não reduz a liberdade à vontade do soberano; ela se funda na autonomia da vontade legisladora de cada um.",
+      "Errada. Na república kantiana, a liberdade é atributo dos cidadãos (liberdade legal), e não apenas do governante."
+    ] },
+  { "id": "31-10", "status": "valida",
+    "explicacoes": [
+      "Correta. Em Ética a Nicômaco (Livro V), a justiça é meio-termo, mas não como as outras virtudes: relaciona-se com uma quantia intermediária, enquanto a injustiça se liga aos extremos (ter demais ou de menos).",
+      "Errada. A justiça como o conveniente ao mais forte é tese de Trasímaco, refutada em A República de Platão.",
+      "Errada. A justiça como cumprimento dos pactos é concepção contratualista (Hobbes), e não a definição aristotélica da justiça como virtude.",
+      "Errada. O imperativo categórico é formulação de Kant, e não de Aristóteles."
+    ] },
+  { "id": "30-9", "status": "valida",
+    "explicacoes": [
+      "Correta. Para MacCormick, fundamentar é dar boas razões ostensivamente justificadoras da decisão, apresentando a argumentação como processo de justificação, independentemente dos motivos íntimos do julgador.",
+      "Errada. No silogismo jurídico a norma é a premissa maior, os fatos a premissa menor e a decisão a conclusão; a alternativa inverte esses elementos.",
+      "Errada. A decisão como ato de vontade que escolhe uma norma dentro da moldura é ideia de Kelsen, e não a noção central de MacCormick.",
+      "Errada. Seguir precedentes pode integrar a justificação, mas MacCormick não reduz a fundamentação ao alinhamento à jurisprudência dominante."
+    ] },
+  { "id": "30-10", "status": "valida",
+    "explicacoes": [
+      "Correta. Mill afirma que a utilidade recomenda que as leis e os dispositivos sociais ponham, tanto quanto possível, a felicidade ou o interesse de cada indivíduo em harmonia com o interesse do todo (Utilitarismo, cap. II).",
+      "Errada. Mill não funda a moral no direito natural ou na natureza das coisas, mas no princípio da utilidade.",
+      "Errada. Mill sustenta que os sentimentos morais não são inatos, mas adquiridos, ainda que naturais (Utilitarismo, cap. III).",
+      "Errada. O utilitarismo exige imparcialidade e harmonia entre a felicidade de cada um e a geral, e não a busca da felicidade própria em detrimento da alheia."
+    ] },
+  { "id": "29-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A justiça como o conveniente ao mais forte é tese de Trasímaco, que Platão refuta em A República.",
+      "Errada. Para Platão, a justiça é virtude ligada à sabedoria e à harmonia da alma e da cidade, e não mera obediência à lei.",
+      "Correta. Ao refutar Polemarco (dar a cada um o devido como fazer bem aos amigos e mal aos inimigos), Sócrates mostra que fazer mal torna os homens piores, e a justiça, virtude que aperfeiçoa, não pode fazer mal a ninguém.",
+      "Errada. A crítica de Platão não se baseia em restringir a fórmula às trocas entre particulares, mas na incompatibilidade entre justiça e fazer o mal."
+    ] },
+  { "id": "29-10", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Bobbio, ao reconhecer atos ou fatos dos quais depende a produção de normas, reconhece-se que o ordenamento regula o comportamento das pessoas e também o modo de produzir regras (normas de estrutura).",
+      "Errada. Definir o ordenamento apenas como complexo de normas de comportamento ignora as normas de estrutura, ponto central da passagem citada.",
+      "Errada. A alternativa trata da separação entre direito e moral, e não do que Bobbio destaca sobre as fontes: a regulação da própria produção normativa.",
+      "Errada. O raciocínio é circular e não capta a tese de Bobbio de que o ordenamento regula sua própria produção normativa por meio das fontes."
+    ] },
+  { "id": "28-9", "status": "valida",
+    "explicacoes": [
+      "Correta. Em O Problema da Justiça, Kelsen sustenta que a validade de uma norma de direito positivo é independente da validade de uma norma de justiça, pois ambas não podem valer ao mesmo tempo se entram em conflito.",
+      "Errada. A textura aberta do direito é ideia de Hart (O Conceito de Direito), e não de Kelsen nessa obra.",
+      "Errada. Kelsen separa o valor de justiça da validade jurídica; não os confunde.",
+      "Errada. A validade com dimensões normativa, axiológica e fática corresponde à teoria tridimensional de Miguel Reale."
+    ] },
+  { "id": "28-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Regras que exigem praticar ou abster-se de atos, quer se queira quer não, são as regras primárias de obrigação.",
+      "Correta. Para Hart, a regra de reconhecimento é a regra secundária que fornece os critérios pelos quais se identificam as normas válidas do sistema jurídico.",
+      "Errada. Impor deveres aos cidadãos é próprio das regras primárias, e não da regra de reconhecimento.",
+      "Errada. A regra de reconhecimento não trata dos direitos de minorias, mas dos critérios de identificação das normas válidas."
+    ] }
+]

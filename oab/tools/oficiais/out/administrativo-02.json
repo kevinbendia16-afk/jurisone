@@ -1,0 +1,282 @@
+[
+  { "id": "39-30", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo decadencial do mandado de segurança é de 120 dias (art. 23 da Lei 12.016/09), e não há razão para anular todo o concurso: o vício atinge apenas a eliminação de Maria por exame psicotécnico sem previsão em lei.",
+      "Errada. A ação popular (Lei 4.717/65) serve para anular ato lesivo ao patrimônio público ou à moralidade administrativa, e não para obter a nomeação da candidata nem para condenar o agente por crime de responsabilidade.",
+      "Errada. Não existe afastamento cautelar de um ano como medida punitiva nessa hipótese; a Lei 9.784/99 prevê a responsabilização pessoal cível, administrativa e penal da autoridade que não adequar suas decisões (art. 64-B).",
+      "Correta. Acolhida a reclamação, a autoridade deve adequar as futuras decisões administrativas em casos semelhantes, sob pena de responsabilização pessoal nas esferas cível, administrativa e penal (art. 64-B da Lei 9.784/99). A autoridade pode reconsiderar a decisão que contraria súmula vinculante (art. 56, §§ 1º e 3º)."
+    ] },
+  { "id": "39-31", "status": "valida",
+    "explicacoes": [
+      "Correta. A alienação de bens móveis, subordinada a interesse público justificado e precedida de avaliação, depende de licitação na modalidade leilão, sem necessidade de autorização legislativa (art. 76, II, da Lei 14.133/21).",
+      "Errada. A autorização legislativa só é exigida para bens imóveis (art. 76, I), e mesmo nesse caso a modalidade é o leilão; a concorrência não é a modalidade de alienação na Lei 14.133/21.",
+      "Errada. Não há inexigibilidade: a regra é o leilão, e as exceções do art. 76, II, da Lei 14.133/21 são hipóteses de licitação dispensada (doação para fins de interesse social, permuta etc.).",
+      "Errada. Na Lei 14.133/21 a modalidade não é definida pelo valor, mas pela natureza do objeto; para a alienação de bens a modalidade é o leilão (arts. 6º, XL, e 76, II)."
+    ] },
+  { "id": "39-32", "status": "valida",
+    "explicacoes": [
+      "Errada. Na Lei 14.133/21, a locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha é hipótese de inexigibilidade (art. 74, V), e não de dispensa, como previa o art. 24, X, da revogada Lei 8.666/93.",
+      "Errada. A hipótese é de inexigibilidade, mas a lei não exige autorização legislativa da Câmara Municipal; os requisitos são os do art. 74, § 5º, da Lei 14.133/21.",
+      "Errada. Não se trata de dispensa, mas de inexigibilidade (art. 74, V, da Lei 14.133/21), e a avaliação prévia deve abranger também o prazo de amortização dos investimentos (art. 74, § 5º, I).",
+      "Correta. É caso de inexigibilidade (art. 74, V, da Lei 14.133/21), exigindo-se avaliação prévia do bem, do seu estado de conservação, dos custos de adaptações imprescindíveis e do prazo de amortização dos investimentos (art. 74, § 5º, I), além da certificação e das justificativas já juntadas (incisos II e III)."
+    ] },
+  { "id": "39-33", "status": "valida",
+    "explicacoes": [
+      "Errada. O acordo de leniência não isenta da multa, apenas a reduz em até 2/3, e não reduz a obrigação de reparar integralmente o dano causado (art. 16, §§ 2º e 3º, da Lei 12.846/13).",
+      "Errada. O acordo não exime a pessoa jurídica da reparação integral do dano (art. 16, § 3º) nem da suspensão ou interdição parcial de atividades, sanção judicial não abrangida pela isenção (art. 19, II, da Lei 12.846/13).",
+      "Correta. A leniência isenta a empresa da publicação extraordinária da decisão condenatória (art. 6º, II) e da proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos (art. 19, IV), e reduz em até 2/3 o valor da multa aplicável (art. 16, § 2º, da Lei 12.846/13).",
+      "Errada. A multa administrativa não é afastada, apenas reduzida em até 2/3 (art. 16, § 2º, da Lei 12.846/13), e a lei não condiciona a manutenção das atividades à adoção de programa de integridade em 90 dias."
+    ] },
+  { "id": "39-34", "status": "valida",
+    "explicacoes": [
+      "Correta. As concessões patrocinadas em que mais de 70% da remuneração do parceiro privado for paga pela Administração dependem de autorização legislativa específica (art. 10, § 3º, da Lei 11.079/04); no caso, o percentual é de 75%.",
+      "Errada. Antes da celebração do contrato, deve ser constituída sociedade de propósito específico, incumbida de implantar e gerir o objeto da parceria (art. 9º da Lei 11.079/04); não é a própria licitante vencedora que formaliza o contrato.",
+      "Errada. A contraprestação pode ser feita por ordem bancária, cessão de créditos não tributários, outorga de direitos em face da Administração, outorga de direitos sobre bens públicos dominicais ou outros meios admitidos em lei (art. 6º da Lei 11.079/04).",
+      "Errada. As obrigações pecuniárias da Administração na PPP podem ser garantidas por vinculação de receitas, fundos especiais, seguro-garantia, organismos internacionais e fundo garantidor, entre outros mecanismos (art. 8º da Lei 11.079/04)."
+    ] },
+  { "id": "38-30", "status": "valida",
+    "explicacoes": [
+      "Errada. Na Lei 14.133/21 a modalidade não depende do valor; a concorrência serve a bens e serviços especiais e a obras e serviços de engenharia (art. 6º, XXXVIII), e não ao objeto cuja solução precisa ser construída com o mercado.",
+      "Errada. O leilão destina-se à alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos (art. 6º, XL, da Lei 14.133/21).",
+      "Errada. O concurso serve à escolha de trabalho técnico, científico ou artístico, com prêmio ou remuneração ao vencedor (art. 6º, XXXIX); a vedação de revelar a outros licitantes as soluções propostas é regra do diálogo competitivo (art. 32, § 1º, IV, da Lei 14.133/21).",
+      "Correta. O diálogo competitivo cabe para objeto com inovação tecnológica ou técnica, que exige adaptação de soluções do mercado e cujas especificações não podem ser definidas com precisão pela Administração (art. 32, I). Encerrados os diálogos, os licitantes apresentam proposta final (art. 6º, XLII, e art. 32, § 1º, VIII, da Lei 14.133/21)."
+    ] },
+  { "id": "38-31", "status": "valida",
+    "explicacoes": [
+      "Correta. A servidão administrativa, em regra, não gera indenização, que só é devida quando o proprietário comprova prejuízo efetivo (art. 40 do Decreto-Lei 3.365/41 e doutrina); no caso, o dano é incontroverso.",
+      "Errada. A servidão administrativa tem caráter perpétuo, durando enquanto subsistir a utilidade pública; prazo determinado é característica da ocupação temporária e da requisição.",
+      "Errada. A servidão é direito real público, que deve ser registrado no Registro de Imóveis quando instituída por acordo ou sentença, e eventual indenização é paga em dinheiro, não em títulos da dívida pública.",
+      "Errada. A descrição (necessidade ou utilidade pública, interesse social e prévia e justa indenização em dinheiro) corresponde à desapropriação (art. 5º, XXIV, da CF), que retira a propriedade, e não à servidão."
+    ] },
+  { "id": "38-32", "status": "valida",
+    "explicacoes": [
+      "Errada. Sendo a progressão ato vinculado, com critérios objetivos fixados em lei, o preenchimento dos requisitos gera direito subjetivo do servidor.",
+      "Errada. A publicidade é a regra e o sigilo, a exceção (art. 3º, I, da Lei 12.527/11); só podem ser classificadas como sigilosas as informações imprescindíveis à segurança da sociedade ou do Estado (arts. 23 e 24), o que não é o caso.",
+      "Errada. O acesso aos próprios dados pessoais é assegurado à pessoa a que eles se referem (art. 31, § 1º, I, da Lei 12.527/11), e é vedado exigir motivos para o pedido (art. 10, § 3º); não há discricionariedade.",
+      "Correta. O direito de acesso compreende a informação sobre atividades exercidas pelos órgãos e entidades, inclusive as relativas à sua política, organização e serviços (art. 7º, V, da Lei 12.527/11)."
+    ] },
+  { "id": "38-33", "status": "valida",
+    "explicacoes": [
+      "Correta. Negar publicidade a atos oficiais e nomear cônjuge para cargo em comissão são atos de improbidade que atentam contra os princípios (art. 11, IV e XI, da Lei 8.429/92). Exigem dolo com o fim de obter proveito ou benefício indevido (art. 11, §§ 1º e 2º) e lesividade relevante, mas independem de dano ao erário (art. 11, § 4º).",
+      "Errada. A Lei 14.230/21 tipificou expressamente o nepotismo como ato de improbidade (art. 11, XI, da Lei 8.429/92), em linha com a Súmula Vinculante 13.",
+      "Errada. Negar publicidade a atos oficiais não protegidos por sigilo é ato de improbidade previsto no art. 11, IV, da Lei 8.429/92.",
+      "Errada. Os atos do art. 11 exigem lesividade relevante ao bem jurídico tutelado, mas independem do reconhecimento de dano ao erário e de enriquecimento ilícito (art. 11, § 4º, da Lei 8.429/92)."
+    ] },
+  { "id": "38-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A competência é irrenunciável (art. 11 da Lei 9.784/99), e o ato de delegação deve ser publicado no meio oficial (art. 14), não podendo ser verbal.",
+      "Errada. O ato de delegação é revogável a qualquer tempo pela autoridade delegante (art. 14, § 2º, da Lei 9.784/99).",
+      "Errada. A delegação pode ser feita a outros órgãos ou titulares, ainda que estes não lhe sejam hierarquicamente subordinados (art. 12 da Lei 9.784/99).",
+      "Correta. A avocação temporária de competência atribuída a órgão hierarquicamente inferior é permitida em caráter excepcional e por motivos relevantes devidamente justificados (art. 15 da Lei 9.784/99)."
+    ] },
+  { "id": "37-27", "status": "valida",
+    "explicacoes": [
+      "Errada. Nos regimes de contratação integrada e semi-integrada, o edital pode atribuir ao contratado a realização da desapropriação autorizada pelo poder público (art. 25, § 5º, II, e art. 46, § 4º, da Lei 14.133/21).",
+      "Errada. A fase declaratória (decreto de utilidade pública ou interesse social) é privativa do poder público (art. 6º do Decreto-Lei 3.365/41); ao contratado só podem ser atribuídas providências da fase executória.",
+      "Errada. O edital e o contrato podem definir o responsável pelo pagamento das indenizações devidas pelos bens expropriados (art. 46, § 4º, II, da Lei 14.133/21).",
+      "Correta. O edital deve prever a distribuição objetiva de riscos, inclusive pelos prejuízos decorrentes de atraso na disponibilização dos bens expropriados (art. 46, § 4º, IV), e o reequilíbrio por fato imprevisível respeita, em qualquer caso, a repartição objetiva de risco do contrato (art. 124, II, d, da Lei 14.133/21)."
+    ] },
+  { "id": "37-28", "status": "valida",
+    "explicacoes": [
+      "Correta. A posse e o exercício do agente público ficam condicionados à apresentação da declaração de imposto de renda entregue à Receita Federal, a fim de ser arquivada no serviço de pessoal competente (art. 13 da Lei 8.429/92, com redação da Lei 14.230/21).",
+      "Errada. A exigência condiciona a posse e o exercício, e não o pagamento dos vencimentos (art. 13 da Lei 8.429/92).",
+      "Errada. A entrega decorre de exigência legal e não depende de quebra de sigilo fiscal por ordem judicial; além disso, o que fica condicionado é a posse e o exercício (art. 13 da Lei 8.429/92).",
+      "Errada. A posse e o exercício ficam condicionados à declaração, e quem se recusa a prestá-la no prazo ou presta declaração falsa é punido com demissão (art. 13, caput e § 3º, da Lei 8.429/92)."
+    ] },
+  { "id": "37-29", "status": "valida",
+    "explicacoes": [
+      "Errada. A concessão patrocinada pressupõe tarifa cobrada dos usuários somada à contraprestação pública (art. 2º, § 1º, da Lei 11.079/04); sem tarifa e sendo a Administração usuária direta ou indireta, a modalidade adequada é a concessão administrativa (art. 2º, § 2º).",
+      "Errada. O contrato de PPP deve ter prazo entre 5 e 35 anos, incluída eventual prorrogação (art. 5º, I, da Lei 11.079/04), sendo vedada PPP com período de prestação inferior a 5 anos (art. 2º, § 4º, II).",
+      "Errada. São indelegáveis as funções de regulação, jurisdicional, de exercício do poder de polícia e outras atividades exclusivas do Estado (art. 4º, III, da Lei 11.079/04), como a segurança pública.",
+      "Correta. É vedada a PPP que tenha como objeto único o fornecimento de mão de obra, o fornecimento e instalação de equipamentos ou a execução de obra pública (art. 2º, § 4º, III, da Lei 11.079/04); aqui o objeto reúne serviços, manutenção e fornecimentos."
+    ] },
+  { "id": "37-30", "status": "valida",
+    "explicacoes": [
+      "Correta. São vedadas quaisquer exigências relativas aos motivos determinantes da apresentação de manifestações perante a ouvidoria (art. 10, § 2º, da Lei 13.460/17).",
+      "Errada. O serviço público é de titularidade estatal e pode ser prestado mediante concessão (art. 175 da CF); o usuário pode apresentar manifestações sobre a prestação do serviço (art. 9º da Lei 13.460/17).",
+      "Errada. Os serviços públicos devem observar os princípios da regularidade, continuidade e efetividade, entre outros (art. 4º da Lei 13.460/17 e art. 6º, § 1º, da Lei 8.987/95), o que pode ser exigido da concessionária.",
+      "Errada. A identificação do requerente não pode conter exigências que inviabilizem a manifestação (art. 10, § 1º), e em nenhuma hipótese será recusado o recebimento de manifestações (art. 11 da Lei 13.460/17)."
+    ] },
+  { "id": "37-31", "status": "valida",
+    "explicacoes": [
+      "Errada. O Estado responde pela morte de detento quando descumpre seu dever específico de proteção (art. 5º, XLIX, da CF; Tema 592 do STF), inclusive no suicídio evitável; e não há nexo causal direto entre a fuga e o crime praticado seis meses depois (Tema 362 do STF).",
+      "Errada. A Constituição adota a teoria do risco administrativo (art. 37, § 6º), que admite excludentes, e não a do risco integral; pela morte de Tânia não há responsabilidade, por falta de nexo causal direto (Tema 362 do STF).",
+      "Errada. Quando há dever específico de proteção, como em relação ao preso sob custódia, o Estado responde objetivamente mesmo por omissão (Tema 592 do STF), de modo que responde pela morte de Mateus.",
+      "Correta. O Estado responde pela morte do preso sob sua custódia, por inobservância do dever específico de proteção (art. 5º, XLIX, da CF; Tema 592 do STF), mas não pelo crime do foragido sem nexo causal direto com o momento da fuga (Tema 362 do STF)."
+    ] },
+  { "id": "37-32", "status": "valida",
+    "explicacoes": [
+      "Errada. Os interessados do art. 9º da Lei 9.784/99, entre eles as associações representativas de interesses coletivos, podem habilitar-se como ouvintes na decisão coordenada (art. 49-B).",
+      "Errada. Os participantes da decisão coordenada devem ser intimados na forma do art. 26 da Lei 9.784/99 (art. 49-D).",
+      "Errada. Eventual dissenso deve ser manifestado durante as reuniões, de forma fundamentada e acompanhado das propostas de solução e de alteração necessárias (art. 49-F da Lei 9.784/99).",
+      "Correta. A participação na reunião, que poderá incluir direito a voz, será deferida por decisão irrecorrível da autoridade responsável pela convocação da decisão coordenada (art. 49-B, parágrafo único, da Lei 9.784/99)."
+    ] },
+  { "id": "36-27", "status": "valida",
+    "explicacoes": [
+      "Errada. É vedada a delegação de competências normativas no acordo de cooperação entre agências reguladoras (art. 34, § 1º, da Lei 13.848/19).",
+      "Errada. Na execução da fiscalização delegada, a agência estadual deve observar as normas legais e regulamentares federais pertinentes (art. 34, § 3º, da Lei 13.848/19).",
+      "Errada. A execução das atividades delegadas será permanentemente acompanhada e avaliada pela agência reguladora federal (art. 34, § 2º, da Lei 13.848/19).",
+      "Correta. Havendo delegação de competência, a agência delegante permanece como instância superior e recursal das decisões tomadas no exercício da competência delegada (art. 34, § 7º, da Lei 13.848/19)."
+    ] },
+  { "id": "36-28", "status": "valida",
+    "explicacoes": [
+      "Correta. O imóvel rural que não cumpre a função social, inclusive por não preservar o meio ambiente (art. 186, II, da CF), pode ser desapropriado pela União, por interesse social, para reforma agrária, com prévia e justa indenização em títulos da dívida agrária (art. 184 da CF).",
+      "Errada. A desapropriação-sanção do imóvel rural para reforma agrária é de competência exclusiva da União (art. 184 da CF), e não do Estado.",
+      "Errada. O confisco (expropriação sem qualquer indenização) só cabe em propriedades com culturas ilegais de plantas psicotrópicas ou exploração de trabalho escravo (art. 243 da CF).",
+      "Errada. A desapropriação sancionatória municipal recai sobre imóvel urbano não edificado, subutilizado ou não utilizado e é paga em títulos da dívida pública (art. 182, § 4º, III, da CF); o imóvel rural que descumpre a função social é desapropriado pela União."
+    ] },
+  { "id": "36-29", "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 12.846/13 alcança atos lesivos contra a administração pública nacional ou estrangeira (arts. 1º e 5º), cabendo à CGU apurar os ilícitos praticados contra a administração estrangeira (art. 9º).",
+      "Errada. A pessoa jurídica responde objetivamente nas esferas administrativa e civil (art. 2º), e sua responsabilização não exclui a responsabilidade individual de dirigentes e administradores (art. 3º da Lei 12.846/13).",
+      "Errada. A dissolução compulsória é sanção aplicável apenas na esfera judicial (art. 19, III, da Lei 12.846/13); na esfera administrativa cabem multa e publicação extraordinária da decisão condenatória (art. 6º).",
+      "Correta. Na esfera administrativa, a responsabilidade da pessoa jurídica não afasta a possibilidade de sua responsabilização na esfera judicial (art. 18 da Lei 12.846/13)."
+    ] },
+  { "id": "36-30", "status": "valida",
+    "explicacoes": [
+      "Errada. A aposentadoria do servidor não é ato simples: sujeita-se a registro pelo Tribunal de Contas (art. 71, III, da CF) e é tradicionalmente qualificada pelo STF como ato complexo.",
+      "Correta. O direito de a Administração anular atos que geram efeitos favoráveis decai em cinco anos, salvo comprovada má-fé (art. 54 da Lei 9.784/99); como Túlio fraudou documentos, a anulação do registro ainda é possível.",
+      "Errada. O contraditório e a ampla defesa não são exigidos na apreciação da legalidade do ato de concessão inicial de aposentadoria pelo TCU (Súmula Vinculante 3).",
+      "Errada. O prazo de cinco anos do art. 54 da Lei 9.784/99 é decadencial e não corre diante de comprovada má-fé do beneficiário, como no caso."
+    ] },
+  { "id": "36-31", "status": "valida",
+    "explicacoes": [
+      "Errada. O tombamento protege o patrimônio histórico, artístico e cultural (Decreto-Lei 25/37) e não serve para uso temporário de terreno durante obra pública.",
+      "Errada. A requisição administrativa pressupõe iminente perigo público (art. 5º, XXV, da CF), inexistente no caso.",
+      "Correta. A ocupação temporária permite o uso de terrenos não edificados, vizinhos às obras e necessários à sua realização, com indenização afinal, por ação própria (art. 36 do Decreto-Lei 3.365/41).",
+      "Errada. A servidão administrativa é ônus real de caráter perpétuo, e não uso transitório enquanto dura a obra; além disso, a indenização só é devida se houver dano efetivo."
+    ] },
+  { "id": "36-32", "status": "valida",
+    "explicacoes": [
+      "Errada. A perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado (art. 20 da Lei 8.429/92), e as sanções só podem ser executadas após o trânsito em julgado da condenação (art. 12, § 9º).",
+      "Errada. No enriquecimento ilícito, a suspensão dos direitos políticos é de até 14 anos (art. 12, I, da Lei 8.429/92), e o dolo é exigido para qualquer ato de improbidade, não servindo para ampliar esse limite.",
+      "Errada. As sanções podem ser aplicadas isolada ou cumulativamente, de acordo com a gravidade do fato (art. 12, caput, da Lei 8.429/92).",
+      "Correta. O ressarcimento integral do dano, se efetivo, é independente das sanções, e no enriquecimento ilícito cabe multa civil equivalente ao valor do acréscimo patrimonial (art. 12, caput e I, da Lei 8.429/92)."
+    ] },
+  { "id": "35-27", "status": "valida",
+    "explicacoes": [
+      "Errada. O consórcio com personalidade de direito público (associação pública) integra a administração indireta de todos os entes consorciados (art. 6º, § 1º, da Lei 11.107/05).",
+      "Correta. Os entes consorciados somente entregarão recursos ao consórcio público mediante contrato de rateio (art. 8º da Lei 11.107/05).",
+      "Errada. Não se exige a participação da União; ela só participará de consórcio do qual também façam parte todos os Estados em cujos territórios estejam situados os Municípios consorciados (art. 1º, § 2º, da Lei 11.107/05).",
+      "Errada. A associação pública adquire personalidade jurídica mediante a vigência das leis de ratificação do protocolo de intenções (art. 6º, I, da Lei 11.107/05), e não por decreto."
+    ] },
+  { "id": "35-28", "status": "valida",
+    "explicacoes": [
+      "Correta. Desde que devidamente motivada e com amparo em investigação ou sindicância, é permitida a instauração de PAD com base em denúncia anônima, em face do poder-dever de autotutela (Súmula 611 do STJ).",
+      "Errada. A denúncia anônima seguida de sindicância e de portaria motivada é válida (Súmula 611 do STJ), sem ofensa à publicidade, ainda que a comissão seja de fato composta por três servidores estáveis (art. 149 da Lei 8.112/90).",
+      "Errada. A alegação não prospera porque a instauração é válida (Súmula 611 do STJ), e não por preclusão; a lei não fixa prazo de 120 dias para arguir essa nulidade.",
+      "Errada. O servidor não tem direito subjetivo de conhecer o autor da denúncia; o contraditório e a ampla defesa são exercidos no próprio PAD, validamente instaurado após apuração prévia (Súmula 611 do STJ)."
+    ] },
+  { "id": "35-29", "status": "valida",
+    "explicacoes": [
+      "Correta. Nos concursos destinados à elaboração de projeto, o vencedor deve ceder à Administração todos os direitos patrimoniais relativos ao projeto e autorizar sua execução conforme juízo de conveniência e oportunidade (art. 30, parágrafo único, e art. 93 da Lei 14.133/21).",
+      "Errada. Trabalho técnico de natureza cultural é escolhido por concurso (art. 6º, XXXIX), e o pregão não se aplica a serviços técnicos especializados de natureza predominantemente intelectual (art. 29, parágrafo único, da Lei 14.133/21).",
+      "Errada. A Lei 14.133/21 prevê expressamente o concurso como modalidade (arts. 28, III, e 30); o diálogo competitivo destina-se a contratações com inovação e especificações que não podem ser definidas com precisão (art. 32).",
+      "Errada. O concurso licitatório escolhe trabalho técnico, científico ou artístico pelo critério de melhor técnica ou conteúdo artístico, com prêmio ou remuneração ao vencedor (art. 6º, XXXIX, da Lei 14.133/21), e não se confunde com concurso público de provas e títulos."
+    ] },
+  { "id": "35-30", "status": "valida",
+    "explicacoes": [
+      "Errada. A qualificação como OSCIP é ato vinculado ao cumprimento dos requisitos legais (art. 1º, § 2º, da Lei 9.790/99), embora seja requerida ao Ministério da Justiça (art. 5º).",
+      "Errada. A OSCIP firma termo de parceria com o poder público (art. 9º da Lei 9.790/99); contrato de gestão é o instrumento das Organizações Sociais (Lei 9.637/98).",
+      "Correta. As instituições religiosas ou voltadas para a disseminação de credos, cultos, práticas e visões devocionais e confessionais não são passíveis de qualificação como OSCIP (art. 2º, III, da Lei 9.790/99).",
+      "Errada. É permitida a participação de servidores públicos na composição de conselho ou diretoria de OSCIP (art. 4º, parágrafo único, da Lei 9.790/99)."
+    ] },
+  { "id": "35-31", "status": "valida",
+    "explicacoes": [
+      "Correta. Na concessão patrocinada, a concessionária cobra tarifa dos usuários e recebe, adicionalmente, contraprestação pecuniária do parceiro público (art. 2º, § 1º, da Lei 11.079/04), e antes da celebração do contrato deve ser constituída sociedade de propósito específico para implantar e gerir o objeto (art. 9º).",
+      "Errada. Remuneração paga integralmente pela Administração, como usuária direta ou indireta, caracteriza a concessão administrativa (art. 2º, § 2º), e a lei exige sociedade de propósito específico para implantar e gerir o objeto (art. 9º da Lei 11.079/04), e não subsidiária para planejá-lo.",
+      "Errada. Tarifa suficiente sem contraprestação do poder público caracteriza a concessão comum da Lei 8.987/95, que não é PPP (art. 2º, § 3º, da Lei 11.079/04).",
+      "Errada. Não há regra de pagamento de metade da tarifa pelo Estado, e a PPP é licitada por concorrência ou diálogo competitivo (art. 10 da Lei 11.079/04, com redação da Lei 14.133/21), nunca por pregão, independentemente do valor."
+    ] },
+  { "id": "35-32", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei continua punindo ações e omissões dolosas (arts. 9º, 10 e 11 da Lei 8.429/92); o que a Lei 14.230/21 suprimiu foi a modalidade culposa.",
+      "Correta. Após a Lei 14.230/21, só há improbidade por conduta dolosa (art. 1º, § 1º), e dolo é a vontade livre e consciente de alcançar o resultado ilícito, não bastando a voluntariedade do agente (art. 1º, § 2º). Como o ato é de 2022, posterior à lei, a ausência de dolo afasta a improbidade (Tema 1199 do STF).",
+      "Errada. O ato que causa lesão ao erário continua tipificado de forma autônoma no art. 10 da Lei 8.429/92, desde que doloso, sem exigir enriquecimento ilícito do agente.",
+      "Errada. As categorias dos arts. 9º, 10 e 11 da Lei 8.429/92 são autônomas; o dano ao erário doloso configura improbidade sem necessidade de enquadramento cumulativo no art. 11."
+    ] },
+  { "id": "34-27", "status": "valida",
+    "explicacoes": [
+      "Errada. A responsabilidade do Estado não depende do território onde ocorreu o fato, mas da atuação de seu agente nessa qualidade (art. 37, § 6º, da CF).",
+      "Errada. O policial militar é agente do Estado-membro (art. 144, § 6º, da CF), de modo que a União não responde por seus atos.",
+      "Correta. O STF reconhece a responsabilidade objetiva do Estado quando o policial, mesmo de folga e à paisana, utiliza arma da corporação, cuja posse decorre da condição de agente público (art. 37, § 6º, da CF).",
+      "Errada. O ordenamento adota, como regra, a teoria do risco administrativo (art. 37, § 6º, da CF), que admite excludentes, e não a do risco integral."
+    ] },
+  { "id": "34-28", "status": "valida",
+    "explicacoes": [
+      "Errada. Diante de iminente perigo público, o instituto cabível é a requisição, e não a ocupação temporária; além disso, havendo dano, o proprietário tem direito a indenização (art. 5º, XXV, da CF).",
+      "Errada. A limitação administrativa é imposição geral e abstrata que, em regra, não gera indenização, e o direito de preempção é instituto do Estatuto da Cidade (arts. 25 a 27 da Lei 10.257/01), alheio ao caso.",
+      "Errada. A servidão administrativa é ônus real de caráter perpétuo e só gera indenização se houver dano; não se presta a uso emergencial e transitório.",
+      "Correta. No caso de iminente perigo público, a autoridade competente pode usar a propriedade particular, assegurada ao proprietário indenização ulterior, se houver dano (art. 5º, XXV, da CF)."
+    ] },
+  { "id": "34-29", "status": "valida",
+    "explicacoes": [
+      "Errada. A garantia do salário mínimo refere-se ao total da remuneração percebida pelo servidor, e não ao vencimento-base (Súmula Vinculante 16; arts. 7º, IV, e 39, § 3º, da CF).",
+      "Errada. A remuneração dos servidores só pode ser fixada ou alterada por lei específica (art. 37, X, da CF), e não por decreto.",
+      "Correta. O cálculo de gratificações não incide sobre o abono utilizado para atingir o salário mínimo (Súmula Vinculante 15), e os acréscimos pecuniários, como o adicional por tempo de serviço, não são computados para fins de acréscimos ulteriores (art. 37, XIV, da CF).",
+      "Errada. O subsídio é obrigatório apenas para certos agentes (art. 39, § 4º, e art. 144, § 9º, da CF); para servidores organizados em carreira, é facultativo (art. 39, § 8º)."
+    ] },
+  { "id": "34-30", "status": "valida",
+    "explicacoes": [
+      "Errada. A sociedade de economia mista integra a administração indireta e deve realizar concurso público para contratar seus empregados (art. 37, II, da CF).",
+      "Errada. A criação de sociedade de economia mista depende de autorização por lei específica (art. 37, XIX, da CF; art. 4º da Lei 13.303/16).",
+      "Correta. Por ser pessoa jurídica de direito privado que explora atividade econômica, sujeita-se ao regime jurídico próprio das empresas privadas quanto às obrigações trabalhistas, com empregados públicos regidos pela CLT (art. 173, § 1º, II, da CF).",
+      "Errada. A sociedade de economia mista é pessoa jurídica de direito privado (art. 4º da Lei 13.303/16), cuja criação é autorizada por lei e se aperfeiçoa com o registro dos atos constitutivos."
+    ] },
+  { "id": "34-31", "status": "valida",
+    "explicacoes": [
+      "Correta. Para os membros dos tribunais, inclusive os nomeados pelo quinto constitucional, a vitaliciedade é adquirida com a posse; o prazo de dois anos de exercício só se aplica ao primeiro grau (art. 95, I, da CF).",
+      "Errada. Os dois anos de exercício só são exigidos para a vitaliciedade dos juízes de primeiro grau (art. 95, I, da CF), e não para desembargador nomeado pelo quinto constitucional.",
+      "Errada. Não há estágio de três anos para magistrados nem supervisão pela OAB; o prazo de três anos refere-se à estabilidade dos servidores (art. 41 da CF).",
+      "Errada. A vitaliciedade não depende de ato complexo da OAB e do Tribunal; a OAB participa apenas da formação da lista sêxtupla (art. 94 da CF), e a garantia é adquirida com a posse."
+    ] },
+  { "id": "34-32", "status": "valida",
+    "explicacoes": [
+      "Errada. Cassação é a extinção do ato porque o beneficiário descumpriu as condições necessárias para continuar a desfrutar dele, o que não ocorreu; também não se trata de revogação.",
+      "Correta. Caducidade é a extinção do ato pela superveniência de norma jurídica que torna inadmissível a situação antes permitida, sem culpa do beneficiário, como a alteração do plano diretor no caso.",
+      "Errada. A anulação pressupõe vício de legalidade originário, e a autorização nasceu válida; o fato do príncipe é instituto ligado ao equilíbrio dos contratos administrativos.",
+      "Errada. Contraposição (ou derrubada) é a extinção por ato posterior, editado com base em competência diversa e com efeitos opostos ao anterior (ex.: exoneração em face da nomeação), e não decorre de lei superveniente."
+    ] },
+  { "id": "33-27", "status": "valida",
+    "explicacoes": [
+      "Correta. Faz coisa julgada em âmbito cível e no administrativo-disciplinar a sentença penal que reconhecer ter sido o ato praticado em estado de necessidade (art. 8º da Lei 13.869/19; art. 65 do CPP).",
+      "Errada. As instâncias penal, civil e administrativa são independentes (art. 125 da Lei 8.112/90), e a ação penal não impede a instauração do PAD.",
+      "Errada. Além da negativa de autoria ou da inexistência do fato (art. 126 da Lei 8.112/90), a sentença penal que reconhece excludente de ilicitude, como o estado de necessidade, repercute na esfera disciplinar (art. 8º da Lei 13.869/19).",
+      "Errada. A absolvição por ausência de provas não vincula a Administração, que pode punir a falta funcional residual (art. 126 da Lei 8.112/90 e Súmula 18 do STF)."
+    ] },
+  { "id": "33-28", "status": "valida",
+    "explicacoes": [
+      "Correta. A ocupação indevida de bem público configura mera detenção, de natureza precária, insuscetível de retenção ou indenização por acessões e benfeitorias (Súmula 619 do STJ).",
+      "Errada. As terras devolutas indispensáveis à defesa das fronteiras pertencem à União (art. 20, II, da CF); aos Estados cabem as demais terras devolutas (art. 26, IV).",
+      "Errada. O ocupante irregular de bem público não tem direito de retenção nem de indenização por acessões e benfeitorias (Súmula 619 do STJ).",
+      "Errada. Os imóveis públicos não são adquiridos por usucapião (arts. 183, § 3º, e 191, parágrafo único, da CF; art. 102 do CC)."
+    ] },
+  { "id": "33-29", "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 13.303/16 admite alteração contratual por acordo entre as partes, inclusive quando houver modificação das especificações para melhor adequação técnica aos objetivos da estatal (art. 81, I).",
+      "Errada. Nos contratos das estatais não há alteração unilateral: eles somente podem ser alterados por acordo entre as partes (art. 72 da Lei 13.303/16).",
+      "Correta. A alteração depende de acordo (arts. 72 e 81, I, da Lei 13.303/16) e deve respeitar os limites legais, como 25% do valor inicial atualizado do contrato para acréscimos fora dos casos de reforma (art. 81, § 1º).",
+      "Errada. Mesmo havendo acordo, nenhum acréscimo pode exceder os limites do art. 81, § 1º; só as supressões resultantes de acordo podem ultrapassá-los (art. 81, § 2º, da Lei 13.303/16)."
+    ] },
+  { "id": "33-30", "status": "valida",
+    "explicacoes": [
+      "Errada. Retrocessão é o direito do ex-proprietário quando o bem desapropriado não recebe a destinação pública (art. 519 do CC), situação diversa do apossamento sem processo expropriatório.",
+      "Correta. O apossamento administrativo irreversível de bem particular, afetado a uma escola, configura desapropriação indireta, cabendo ação indenizatória paga por precatório (art. 100 da CF), já que o bem incorporado ao patrimônio público não pode ser reivindicado (art. 35 do Decreto-Lei 3.365/41).",
+      "Errada. Tredestinação ilícita pressupõe desapropriação regular seguida de desvio de finalidade; além disso, o bem já afetado ao serviço público não pode ser objeto de reivindicação (art. 35 do Decreto-Lei 3.365/41).",
+      "Errada. O interdito proibitório é ação preventiva contra ameaça à posse, inútil quando a posse já foi perdida, e a condenação da Fazenda Pública é paga por precatório (art. 100 da CF)."
+    ] },
+  { "id": "33-31", "status": "valida",
+    "explicacoes": [
+      "Errada. As organizações públicas internacionais equiparam-se à administração pública estrangeira para os fins da Lei 12.846/13 (art. 5º, § 2º), e os atos lesivos contra ela são puníveis.",
+      "Correta. A pessoa jurídica responde objetivamente, nas esferas administrativa e civil, pelos atos lesivos praticados em seu interesse ou benefício (art. 2º da Lei 12.846/13), sem necessidade de demonstrar dolo ou culpa.",
+      "Errada. A pessoa jurídica é responsabilizada independentemente da responsabilização individual das pessoas naturais (art. 3º, § 1º, da Lei 12.846/13).",
+      "Errada. No processo administrativo cabem multa e publicação extraordinária da decisão condenatória (art. 6º); a dissolução compulsória só pode ser aplicada judicialmente (art. 19, III, da Lei 12.846/13)."
+    ] },
+  { "id": "33-32", "status": "valida",
+    "explicacoes": [
+      "Correta. O Governador, como agente político, sujeita-se à Lei de Improbidade, sem prejuízo do crime de responsabilidade (STF, Pet 3240 AgR; Tema 576). Revelar dolosamente fato que deva permanecer em segredo, pondo em risco a segurança da sociedade, é ato que atenta contra os princípios (art. 11, III, da Lei 8.429/92).",
+      "Errada. Os agentes políticos, com exceção do Presidente da República, submetem-se a duplo regime sancionatório: crime de responsabilidade e improbidade administrativa (STF, Pet 3240 AgR).",
+      "Errada. O Governador responde por improbidade administrativa, além de eventual crime de responsabilidade, que segue o rito da Lei 1.079/50 e não é objeto de ação proposta pelo Ministério Público.",
+      "Errada. O impeachment é processo por crime de responsabilidade, de natureza político-administrativa (Lei 1.079/50), e não pedido formulado em ação civil pública."
+    ] }
+]

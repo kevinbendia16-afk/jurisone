@@ -99,44 +99,75 @@
     ligarChecks();
   }
 
+  /* grade do curso: a ementa completa da matéria, por unidade; aulas ainda não escritas ficam "em produção" */
+  function gradeDe(m) {
+    const ementa = (window.EMENTA || {})[m.id] || [];
+    const usados = new Set();
+    const unidades = ementa.map(u => ({
+      nome: u.unidade,
+      aulas: u.aulas.map(([id, titulo]) => {
+        const t = m.topicos.find(x => x.id === id);
+        if (t) usados.add(id);
+        return { id, titulo: t ? t.titulo : titulo, t };
+      }),
+    }));
+    const extras = m.topicos.filter(t => !usados.has(t.id));
+    if (extras.length) unidades.push({ nome: 'Aulas complementares', aulas: extras.map(t => ({ id: t.id, titulo: t.titulo, t })) });
+    return unidades;
+  }
+  const aulasOrdenadas = m => gradeDe(m).flatMap(u => u.aulas).filter(a => a.t).map(a => a.t);
+  const totalGrade = m => gradeDe(m).reduce((n, u) => n + u.aulas.length, 0);
+
   function materias() {
     const ord = M.slice().sort((a, b) => b.qtd - a.qtd);
+    const prontas = M.reduce((n, m) => n + m.topicos.length, 0), total = M.reduce((n, m) => n + totalGrade(m), 0);
     app.innerHTML = `
       <h1>1ª Fase · Matérias</h1>
-      <p class="muted">Ordenadas pelo número médio de questões na prova. Comece pelas de maior peso.</p>
+      <p class="muted">O curso completo da 1ª fase: ${total} aulas em 20 matérias, com a ementa inteira de cada uma e foco no que a FGV cobra. ${prontas} aulas já estão no ar; as demais estão em produção. Comece pelas matérias de maior peso.</p>
       <div class="grid">${ord.map(m => {
-        const st = statsDe(Q.filter(q => q.materia === m.id));
+        const tot = totalGrade(m);
         return `<a class="card subj" href="#/materia/${m.id}">
-          <div class="row between"><span class="ico" style="background:${m.cor}22">${m.icone}</span><span class="pill">≈ ${m.qtd} questões</span></div>
+          <div class="row between"><span class="ico" style="background:${m.cor}22">${m.icone}</span><span class="pill">≈ ${m.qtd} questões na prova</span></div>
           <h3>${esc(m.nome)}</h3>
-          <span class="muted">${aulasDe(m)}/${m.topicos.length} aulas · ${st.feitas}/${st.total} questões</span>
-          <div class="bar"><i style="width:${pct(aulasDe(m), m.topicos.length)}%"></i></div>
+          <span class="muted">${m.topicos.length} de ${tot} aulas no ar · ${aulasDe(m)} concluídas</span>
+          <div class="bar"><i style="width:${pct(aulasDe(m), tot)}%"></i></div>
         </a>`; }).join('')}</div>`;
   }
 
   function materia(id) {
     const m = mat(id); if (!m) return notFound();
     const qs = Q.filter(q => q.materia === id);
+    const grade = gradeDe(m), tot = totalGrade(m);
+    let n = 0;
     app.innerHTML = `
       <a class="back" href="#/materias">← Matérias</a>
       <h1>${m.icone} ${esc(m.nome)}</h1>
+      <p class="muted">${tot} aulas em ${grade.length} unidade(s) · ${m.topicos.length} no ar · ${aulasDe(m)} concluídas por você · ≈ ${m.qtd} questões na prova</p>
       <div class="box macete"><h3>🎯 Estratégia para esta matéria</h3>${esc(m.dica)}</div>
-      <h2>Aulas</h2>
-      <div class="list">${m.topicos.map((t, i) => `
-        <a class="card" href="#/aula/${m.id}/${t.id}">
-          <div><div class="muted">Aula ${i + 1}</div><h3>${esc(t.titulo)}</h3>
-          <span class="pill ${t.incidencia}">Incidência ${t.incidencia === 'alta' ? 'alta' : 'média'}</span></div>
-          ${state.aulas[m.id + ':' + t.id] ? '<span class="check">✓</span>' : '<span class="muted">→</span>'}
-        </a>`).join('')}</div>
+      ${grade.map(u => `
+        <h2>${esc(u.nome)}</h2>
+        <div class="list">${u.aulas.map(a => {
+          n++;
+          if (!a.t) return `<div class="card aula-off"><div><div class="muted">Aula ${n}</div><h3>${esc(a.titulo)}</h3><span class="pill">Em produção</span></div></div>`;
+          return `<a class="card" href="#/aula/${m.id}/${a.t.id}">
+            <div><div class="muted">Aula ${n}</div><h3>${esc(a.titulo)}</h3>
+            <span class="pill ${a.t.incidencia}">Incidência ${a.t.incidencia === 'alta' ? 'alta' : 'média'}</span></div>
+            ${state.aulas[m.id + ':' + a.t.id] ? '<span class="check">✓</span>' : '<span class="muted">→</span>'}
+          </a>`;
+        }).join('')}</div>`).join('')}
       <h2>Praticar</h2>
-      <a class="btn" href="#/quiz/${m.id}">Resolver ${qs.length} questões de ${esc(m.nome)}</a>`;
+      <div class="row">
+        <a class="btn" href="#/oficiais/${m.id}">Questões oficiais de ${esc(m.nome)}</a>
+        ${qs.length ? `<a class="btn ghost" href="#/quiz/${m.id}">${qs.length} questões inéditas</a>` : ''}
+      </div>`;
   }
 
   // parágrafo no formato "Título: texto" vira subtítulo + texto (títulos curtos, até 50 caracteres)
   function paragrafoAula(p) {
     const m = p.match(/^([^:]{2,50}):\s+([\s\S]+)$/);
     if (m && /^[A-ZÀ-Úa-zà-ú0-9"(]/.test(m[1]) && !/[.!?]$/.test(m[1].trim())) {
-      return `<h3 class="sub">${esc(m[1].trim())}</h3><p>${esc(m[2])}</p>`;
+      const corpo = m[2].charAt(0).toUpperCase() + m[2].slice(1);
+      return `<h3 class="sub">${esc(m[1].trim())}</h3><p>${esc(corpo)}</p>`;
     }
     return `<p>${esc(p)}</p>`;
   }
@@ -146,7 +177,7 @@
     if (!t) return notFound();
     const chave = mid + ':' + tid;
     const vid = state.videos[chave] || t.videoId || '';
-    const idx = m.topicos.indexOf(t), prox = m.topicos[idx + 1];
+    const ordem = aulasOrdenadas(m), prox = ordem[ordem.indexOf(t) + 1];
     const nq = Q.filter(q => q.materia === mid && q.topico === tid).length;
     app.innerHTML = `
       <a class="back" href="#/materia/${mid}">← ${esc(m.nome)}</a>

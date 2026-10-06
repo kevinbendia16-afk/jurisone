@@ -1,0 +1,397 @@
+[
+  {
+    "id": "23-40",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Fato jurídico em sentido estrito é evento natural, sem conduta humana; o domicílio depende de residência com ânimo definitivo (art. 70 do CC).",
+      "Errada. Não é ato-fato, porque a lei exige o elemento volitivo: o ânimo definitivo de permanecer no local (arts. 70 e 74 do CC).",
+      "Correta. A fixação do domicílio é ato jurídico em sentido estrito: a vontade (ânimo definitivo) é necessária para configurá-lo, mas seus efeitos são predeterminados pela lei (arts. 70 e 74 do CC).",
+      "Errada. Não é negócio jurídico, pois a vontade não escolhe os efeitos; eles decorrem da lei (por exemplo, a regra do foro do domicílio do réu, art. 46 do CPC)."
+    ]
+  },
+  {
+    "id": "23-41",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O caso é de erro sobre qualidade do objeto, vício de consentimento que gera anulabilidade, e não nulidade (arts. 139, I, e 171, II, do CC); mesmo assim, só anula se for perceptível pela outra parte.",
+      "Correta. O erro só torna o negócio anulável se puder ser percebido por pessoa de diligência normal, em face das circunstâncias (art. 138 do CC; princípio da confiança, Enunciado 12 do CJF); Júlia não tinha motivo para perceber o engano de Marta.",
+      "Errada. O prazo decadencial para anular negócio por erro é de quatro anos, contados do dia em que o negócio se realizou (art. 178, II, do CC), e não da descoberta.",
+      "Errada. A oferta de suplemento ou redução do proveito é regra da lesão (art. 157, § 2º, do CC); no erro, o negócio se mantém se a outra parte se oferecer para executá-lo conforme a vontade real do manifestante (art. 144)."
+    ]
+  },
+  {
+    "id": "22-37",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O reparo do vazamento conserva o bem e evita sua deterioração, sendo benfeitoria necessária (art. 96, § 3º, do CC).",
+      "Errada. O novo cômodo para despensa aumenta ou facilita o uso do imóvel: é benfeitoria útil (art. 96, § 2º, do CC).",
+      "Errada. Ampliar o número de tomadas aumenta a utilidade do imóvel, mas não o conserva: é benfeitoria útil (art. 96, § 2º, do CC).",
+      "Errada. O portão eletrônico traz comodidade e facilita o uso, mas não é indispensável à conservação do bem; não é benfeitoria necessária (art. 96 do CC)."
+    ]
+  },
+  {
+    "id": "22-38",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os fiadores não renunciaram ao benefício de ordem nem se obrigaram como principais pagadores ou devedores solidários; por isso, respondem subsidiariamente (arts. 827 e 828 do CC).",
+      "Errada. Maria celebrou a fiança com João e também é fiadora; a fiança prestada conjuntamente gera solidariedade entre os cofiadores (art. 829 do CC).",
+      "Errada. A fiança é garantia locatícia e cobre o aluguel não pago pelo locatário (art. 818 do CC e art. 37, II, da Lei 8.245/91).",
+      "Correta. Sem renúncia ao benefício de ordem, o fiador pode exigir que primeiro sejam executados os bens do devedor (art. 827 do CC), respondendo de forma subsidiária."
+    ]
+  },
+  {
+    "id": "22-39",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Perdida a coisa sem culpa do devedor antes da tradição, a obrigação se resolve para ambas as partes e o preço pago deve ser restituído (art. 234 do CC).",
+      "Errada. Não há divisão do prejuízo: até a tradição, os riscos da coisa correm por conta do vendedor (art. 492 do CC), que devolve todo o valor.",
+      "Errada. A enchente é força maior, sem culpa do vendedor; e, se houvesse culpa, ele responderia pelo equivalente mais perdas e danos (art. 234, parte final, do CC), não por 50%.",
+      "Correta. O carro pereceu sem culpa do vendedor antes da tradição: a obrigação se resolve e o vendedor suporta o risco, devolvendo integralmente o preço (arts. 234 e 492 do CC)."
+    ]
+  },
+  {
+    "id": "22-40",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A entrega após a data da festa tornou a prestação inútil para a credora, o que converte a mora em inadimplemento absoluto e autoriza a recusa (art. 395, parágrafo único, do CC). A multa pode ser exigida, pois não excede o valor da obrigação principal (arts. 408, 410 e 412 do CC).",
+      "Errada. A cláusula penal só não pode exceder o valor da obrigação principal (art. 412 do CC); fixá-la em valor igual é lícito, ressalvada a redução equitativa do art. 413.",
+      "Errada. Não há adimplemento quando a prestação, por causa do atraso, perdeu a utilidade para o credor (art. 395, parágrafo único, do CC).",
+      "Errada. O contrato é empresarial e paritário, sem relação de consumo; o limite de 2% do art. 52, § 1º, do CDC refere-se à multa de mora em crédito ao consumidor. Vale o teto do art. 412 do CC."
+    ]
+  },
+  {
+    "id": "22-41",
+    "status": "duvidosa",
+    "motivo": "O caso envolve motorista de ônibus coletivo de transportadora que pode ser concessionária de serviço público. Pelo Tema 940 do STF (RE 1.027.633, 2019, posterior à prova), a ação por dano causado por agente de pessoa jurídica de direito privado prestadora de serviço público deve ser proposta contra a pessoa jurídica, sendo o autor do ato parte ilegítima, com direito de regresso (art. 37, § 6º, da CF). Se a Via Rápida for concessionária, a alternativa C passa a ser a correta e o gabarito B (solidariedade entre empresa e motorista, arts. 932, III, e 942 do CC) fica superado; o enunciado não esclarece."
+  },
+  {
+    "id": "22-42",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O apartamento, adquirido onerosamente na constância do casamento, é bem comum: sobre ele Clara tem meação (art. 1.660, I, do CC), e a concorrência com o descendente recai sobre os bens particulares (art. 1.829, I).",
+      "Correta. Clara é meeira do apartamento, bem comum (art. 1.660, I), e herda, em concorrência com Joaquim, o sítio, bem particular recebido por herança (arts. 1.659, I, e 1.829, I, do CC).",
+      "Errada. Sobre o apartamento Clara é meeira, não herdeira; na comunhão parcial, o cônjuge concorre com os descendentes apenas quanto aos bens particulares (art. 1.829, I, do CC, conforme o STJ).",
+      "Errada. O sítio herdado é bem particular de Sérgio (art. 1.659, I, do CC) e não gera meação; o bem comum é o apartamento."
+    ]
+  },
+  {
+    "id": "22-43",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Só a servidão aparente pode ser adquirida por usucapião (art. 1.379 do CC), e a servidão de vista é não aparente; além disso, o prazo seria de 10 anos com justo título ou 20 anos sem ele.",
+      "Errada. A servidão por destinação do proprietário pressupõe dois imóveis do mesmo dono, com serventia visível; o prédio foi erguido em terreno de terceiro, que nunca pertenceu a George.",
+      "Errada. A servidão de vista é não aparente, pois não se revela por obras exteriores, e por isso não admite usucapião (art. 1.379 do CC).",
+      "Correta. A servidão não aparente só se constitui por declaração expressa dos proprietários ou por testamento, com registro no Cartório de Registro de Imóveis (art. 1.378 do CC); a promessa de George não vincula o terceiro dono do terreno."
+    ]
+  },
+  {
+    "id": "21-37",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a Lei 13.146/15 (Estatuto da Pessoa com Deficiência), só os menores de 16 anos são absolutamente incapazes (art. 3º do CC), e a deficiência mental, por si só, não afeta a capacidade civil (art. 6º da Lei 13.146/15).",
+      "Errada. Quem, por causa transitória, não pode exprimir sua vontade é relativamente incapaz (art. 4º, III, do CC), e o negócio é anulável, não nulo (art. 171, I).",
+      "Correta. O surto transitório que retirou o discernimento enquadra André no art. 4º, III, do CC (causa transitória que impede a expressão da vontade), tornando os negócios anuláveis (art. 171, I, do CC).",
+      "Errada. A enfermidade ou deficiência mental deixou de ser causa de incapacidade relativa com a Lei 13.146/15; o fundamento correto é a causa transitória que impediu a expressão da vontade (art. 4º, III, do CC)."
+    ]
+  },
+  {
+    "id": "21-38",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. No erro há falsa percepção da realidade (art. 138 do CC); Eliseu sabia o que contratava e aceitou por necessidade.",
+      "Errada. Não houve artifício para induzir Eliseu em erro, requisito do dolo (art. 145 do CC).",
+      "Errada. A coação exige ameaça de dano feita pelo outro contratante ou por terceiro (art. 151 do CC); o perigo decorreu do mal súbito.",
+      "Correta. Premido da necessidade de salvar-se de grave dano conhecido pela outra parte, Eliseu assumiu obrigação excessivamente onerosa: estado de perigo, que torna o negócio anulável (arts. 156 e 171, II, do CC)."
+    ]
+  },
+  {
+    "id": "21-39",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 550 do CC trata da doação do cônjuge adúltero ao cúmplice e prevê anulabilidade, não nulidade; além disso, separado de fato, João pode viver em união estável com Vânia (art. 1.723, § 1º).",
+      "Errada. O art. 550 do CC não se aplica a quem já estava separado de fato; e o prazo nele previsto conta-se da dissolução da sociedade conjugal, não da assinatura do contrato.",
+      "Errada. Não há ilícito a indenizar: separado de fato há anos, João pode doar bem adquirido após a separação, que não integra o patrimônio comum.",
+      "Correta. A separação de fato encerra os deveres conjugais e o regime de bens e permite a união estável (art. 1.723, § 1º, do CC); Vânia é companheira, não concubina (art. 1.727), e a doação é válida."
+    ]
+  },
+  {
+    "id": "21-40",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Quando o empreiteiro fornece os materiais, os riscos correm por sua conta até a entrega da obra (art. 611 do CC); a perda por força maior é dele, e o preço ajustado não muda (art. 619).",
+      "Errada. A perda de parte do material não torna a obra impossível; a empreiteira continua obrigada a concluí-la pelo preço ajustado (arts. 611 e 619 do CC).",
+      "Errada. A enchente é caso fortuito ou força maior, mas, ainda assim, o risco é da empreiteira que forneceu os materiais (art. 611 do CC).",
+      "Errada. Tiago não paga o adicional e a empreiteira não se libera: o risco dos materiais é dela até a entrega da obra (art. 611 do CC)."
+    ]
+  },
+  {
+    "id": "21-41",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Sem solidariedade, não se pode exigir a dívida toda de um só devedor; a solidariedade não se presume (art. 265 do CC).",
+      "Errada. Pelo mesmo motivo, Felipe responde apenas por sua parte (arts. 257 e 265 do CC).",
+      "Correta. A obrigação de pagar dinheiro é divisível e, sem solidariedade prevista em lei ou contrato, divide-se em tantas obrigações iguais quantos forem os devedores (arts. 257 e 265 do CC).",
+      "Errada. Não há solidariedade passiva, que resulta da lei ou da vontade das partes e não se presume (art. 265 do CC)."
+    ]
+  },
+  {
+    "id": "21-42",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Se a ofensa tiver mais de um autor, todos respondem solidariamente pela reparação (art. 942, caput, parte final, do CC).",
+      "Errada. A pluralidade de autores do dano gera solidariedade, e não obrigação fracionária (art. 942 do CC).",
+      "Errada. Perante a vítima, cada coautor responde pelo todo; a divisão das culpas só importa no regresso entre eles (arts. 942 e 283 do CC).",
+      "Errada. Houve um único dano moral, causado pela conduta conjunta, cuja reparação pode ser exigida solidariamente dos coautores (art. 942 do CC)."
+    ]
+  },
+  {
+    "id": "21-43",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há preferência pela mãe: a guarda compartilhada é a regra quando ambos os genitores estão aptos (art. 1.584, § 2º, do CC), e a definição da guarda segue o melhor interesse da criança.",
+      "Errada. O tempo de convívio na guarda compartilhada deve ser dividido de forma equilibrada, e não matemática (art. 1.583, § 2º, do CC).",
+      "Errada. O pai ou a mãe que contrair novas núpcias não perde o direito de ter consigo os filhos (art. 1.588 do CC).",
+      "Correta. Na guarda compartilhada, a cidade considerada base de moradia dos filhos é a que melhor atender aos interesses deles (art. 1.583, § 3º, do CC)."
+    ]
+  },
+  {
+    "id": "20-37",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Herdeiros necessários são os descendentes, os ascendentes e o cônjuge (art. 1.845 do CC); sem eles, o testador pode dispor de toda a herança, e os colaterais são excluídos bastando não contemplá-los (art. 1.850).",
+      "Errada. A sucessão legítima só alcança os bens não abrangidos pelo testamento (art. 1.788 do CC); o irmão é colateral e pode ser afastado (art. 1.850).",
+      "Errada. A legítima de metade só existe havendo herdeiros necessários (arts. 1.789 e 1.846 do CC); dever de alimentos não cria reserva hereditária.",
+      "Errada. Não existe quota mínima de 1/4 para irmão; os colaterais podem ser totalmente excluídos por testamento (art. 1.850 do CC)."
+    ]
+  },
+  {
+    "id": "20-38",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O devedor exonerado da solidariedade continua a contribuir, no rateio, pela parte que cabia ao insolvente (art. 284 do CC).",
+      "Correta. A quota de cada um é R$ 2.000,00; a parte do insolvente João é rateada entre Pedro e Paulo, inclusive o exonerado (arts. 283 e 284 do CC). Paulo deve R$ 2.000,00 + R$ 1.000,00 = R$ 3.000,00.",
+      "Errada. O devedor que paga a dívida toda só pode exigir de cada codevedor a respectiva quota, e não a integralidade (art. 283 do CC).",
+      "Errada. Exonerado um devedor da solidariedade, ela subsiste quanto aos demais (art. 282, parágrafo único, do CC)."
+    ]
+  },
+  {
+    "id": "20-39",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Márcia contratou em nome próprio; a empreiteira só pode cobrar dela, que tem regresso contra os demais condôminos (art. 1.318 do CC).",
+      "Correta. A dívida contraída por um condômino em proveito da comunhão obriga o contratante, que tem ação regressiva contra os demais (art. 1.318 do CC); cada um concorre para as despesas de conservação na proporção de sua parte (art. 1.315).",
+      "Errada. Não se exige aprovação de todos para despesa de conservação; o contrato vincula Márcia, que o celebrou (arts. 1.315 e 1.318 do CC).",
+      "Errada. A despesa de conservação beneficia todos, e o art. 1.318 do CC assegura a Márcia o regresso contra os demais condôminos."
+    ]
+  },
+  {
+    "id": "20-40",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Entram na comunhão parcial os bens adquiridos por fato eventual, como o prêmio de loteria (art. 1.660, II, do CC), e os frutos dos bens particulares percebidos na constância do casamento (art. 1.660, V).",
+      "Errada. O prêmio de loteria também se comunica, por ser bem adquirido por fato eventual (art. 1.660, II, do CC).",
+      "Errada. Os aluguéis são frutos civis dos bens particulares, percebidos durante o casamento, e se comunicam (art. 1.660, V, do CC).",
+      "Correta. O prêmio de loteria (fato eventual) e os aluguéis dos imóveis particulares (frutos percebidos na constância do casamento) são bens comuns (art. 1.660, II e V, do CC)."
+    ]
+  },
+  {
+    "id": "20-41",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. No casamento, a alteração do regime de bens depende de autorização judicial (art. 1.639, § 2º, do CC; art. 734 do CPC); escritura pública não basta.",
+      "Errada. O STJ admite a alteração em casamentos celebrados antes do CC/2002, pois o art. 2.039 não impede a mudança do regime.",
+      "Correta. A alteração é admitida mediante autorização judicial, em pedido motivado de ambos os cônjuges, apurada a procedência das razões e ressalvados os direitos de terceiros (art. 1.639, § 2º, do CC; art. 734 do CPC).",
+      "Errada. A lei não restringe o novo regime à comunhão parcial; os cônjuges podem adotar a separação de bens, atendidos os requisitos do art. 1.639, § 2º, do CC."
+    ]
+  },
+  {
+    "id": "20-42",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O marido sofre dano moral próprio (dano reflexo ou por ricochete) com a morte da esposa e pode pleiteá-lo em nome próprio (arts. 186, 927 e 948 do CC).",
+      "Errada. A conduta da vítima influi na responsabilidade: a culpa concorrente reduz a indenização (art. 945 do CC) e a culpa exclusiva afasta o dever de indenizar.",
+      "Errada. João, que também dependia economicamente de Maria, pode pedir pensão em nome próprio (art. 948, II, do CC).",
+      "Correta. A pensão é devida a quem dependia do falecido (art. 948, II, do CC); para o filho menor a dependência é presumida, e o STJ admite a pensão mesmo sem prova de atividade remunerada da vítima, com base no salário mínimo."
+    ]
+  },
+  {
+    "id": "20-43",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quando for extremamente provável a morte de quem estava em perigo de vida, a morte presumida pode ser declarada sem decretação de ausência (art. 7º, I, do CC).",
+      "Errada. Qualquer interessado, como o cônjuge, pode requerer a declaração; o Ministério Público não tem legitimidade exclusiva.",
+      "Correta. Sendo extremamente provável a morte de quem estava em perigo de vida, a morte presumida é declarada sem decretação de ausência, depois de esgotadas as buscas e averiguações (art. 7º, I e parágrafo único, do CC).",
+      "Errada. A sentença deve fixar a data provável do falecimento (art. 7º, parágrafo único, do CC)."
+    ]
+  },
+  {
+    "id": "19-37",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Na obrigação facultativa há uma só prestação devida, com faculdade de substituição pelo devedor; aqui há duas prestações alternativas, e Carla é a credora, sem direito de escolha no silêncio do contrato.",
+      "Correta. Teresa é a devedora e, no silêncio do contrato, a escolha da prestação na obrigação alternativa cabe ao devedor (art. 252 do CC).",
+      "Errada. O devedor não pode obrigar o credor a receber parte em uma prestação e parte em outra (art. 252, § 1º, do CC).",
+      "Errada. Impossibilitadas as duas prestações por culpa do devedor, ele paga o valor da que por último se impossibilitou, mais perdas e danos (art. 254 do CC)."
+    ]
+  },
+  {
+    "id": "19-38",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Em circunstâncias excepcionais declaradas na cédula, o testamento particular de próprio punho e assinado pelo testador dispensa testemunhas (art. 1.879 do CC).",
+      "Errada. O sobrinho é colateral, não herdeiro necessário (art. 1.845 do CC); sem herdeiros necessários, o testador pode dispor de toda a herança (art. 1.850).",
+      "Correta. O testamento particular escrito e assinado pelo testador, sem testemunhas, em circunstâncias excepcionais declaradas na cédula, pode ser confirmado a critério do juiz (art. 1.879 do CC).",
+      "Errada. O CC admite testamentos ordinários público, cerrado e particular, além dos especiais (arts. 1.862 e 1.886 do CC)."
+    ]
+  },
+  {
+    "id": "19-39",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O reconhecimento também pode ser feito no registro de nascimento, por escrito particular ou por manifestação direta e expressa perante o juiz (art. 1.609 do CC).",
+      "Correta. A declaração perante o juiz é forma válida de reconhecimento, ainda que não seja o objeto principal do ato (art. 1.609, IV, do CC), e o reconhecimento é irrevogável (art. 1.610).",
+      "Errada. O art. 1.609, IV, do CC admite o reconhecimento em juízo ainda que não seja o objeto único e principal do ato que o contém.",
+      "Errada. O reconhecimento não pode ser revogado nem mesmo quando feito em testamento (art. 1.610 do CC)."
+    ]
+  },
+  {
+    "id": "19-40",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo para anular o negócio por estado de perigo é decadencial, de quatro anos contados da celebração (art. 178, II, do CC), e não prescricional.",
+      "Errada. O caso é de estado de perigo, não de dolo (não houve artifício para induzir em erro); e o dolo gera anulabilidade, não nulidade (art. 171, II, do CC).",
+      "Correta. Para salvar o filho de grave dano conhecido pela outra parte, Juliana assumiu obrigação excessivamente onerosa: estado de perigo (art. 156), que torna o negócio anulável (art. 171, II) no prazo decadencial de quatro anos da celebração (art. 178, II, do CC).",
+      "Errada. O caso é de estado de perigo, pois há risco à vida de pessoa da família; e a lesão (art. 157) também gera anulabilidade e admite confirmação (art. 172 do CC)."
+    ]
+  },
+  {
+    "id": "19-41",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há enriquecimento sem causa: o contrato de mútuo é a causa jurídica da transferência, e a ação do art. 884 do CC não serve para contornar a prescrição.",
+      "Errada. A subsidiariedade (art. 886 do CC) impede a ação quando a lei dá outros meios ao lesado; a perda desses meios pela prescrição não abre essa via, sobretudo havendo justa causa (o contrato).",
+      "Correta. Há justa causa para o enriquecimento de Ronaldo, que é o próprio mútuo; negócio jurídico válido afasta a ação de enriquecimento sem causa (art. 884 do CC; Enunciado 188 do CJF).",
+      "Errada. Os prazos são distintos: a cobrança de dívida líquida constante de instrumento particular prescreve em cinco anos (art. 206, § 5º, I, do CC), e a pretensão de ressarcimento de enriquecimento sem causa, em três (art. 206, § 3º, IV)."
+    ]
+  },
+  {
+    "id": "19-42",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Na obrigação de dar coisa certa, o credor não é obrigado a receber outra (art. 313 do CC); perdida a coisa por culpa do devedor, cabe o equivalente mais perdas e danos (art. 234).",
+      "Correta. A escultura pereceu por culpa de Lúcio, que avançou o sinal; ele responde pelo equivalente mais perdas e danos, incluindo o prejuízo com a devolução dos ingressos (arts. 234 e 402 do CC).",
+      "Errada. A obrigação é de dar coisa certa (entregar escultura já pronta), não de fazer; e, pela culpa, cabem o equivalente e as perdas e danos (art. 234 do CC).",
+      "Errada. A propriedade de bem móvel transfere-se pela tradição, não pelo pagamento (art. 1.267 do CC); até a entrega, os riscos são do vendedor (art. 492)."
+    ]
+  },
+  {
+    "id": "19-43",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A insuficiência dos bens não anula a disposição: eles são incorporados a outra fundação de fim igual ou semelhante (art. 63 do CC).",
+      "Errada. O testamento continua válido; o art. 63 do CC dá destino próprio aos bens insuficientes para a fundação.",
+      "Correta. Se o instituidor nada dispôs, os bens insuficientes para constituir a fundação são incorporados a outra fundação que se proponha a fim igual ou semelhante (art. 63 do CC).",
+      "Errada. O destino dos bens é dado pela lei (art. 63 do CC), e não por escolha dos herdeiros necessários."
+    ]
+  },
+  {
+    "id": "18-37",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A propositura de ação pelo credor contra um ou alguns dos devedores não importa renúncia à solidariedade (art. 275, parágrafo único, do CC).",
+      "Errada. Se um codevedor for insolvente, sua quota é dividida igualmente entre todos os demais, inclusive quem pagou (art. 283 do CC); Joana não suporta sozinha a perda.",
+      "Errada. Cada herdeiro do devedor solidário só responde pela quota correspondente ao seu quinhão hereditário, salvo se a obrigação for indivisível (art. 276 do CC).",
+      "Errada. Havendo solidariedade passiva, o credor pode exigir de qualquer devedor a dívida toda (art. 275 do CC)."
+    ]
+  },
+  {
+    "id": "18-38",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Na dissolução da união estável, a locação residencial prossegue automaticamente com o companheiro que permanecer no imóvel (art. 12 da Lei 8.245/91).",
+      "Errada. Natália sub-roga-se na posição de locatária, com os mesmos direitos, sem extinção do contrato no termo (art. 12 da Lei 8.245/91).",
+      "Errada. A fiança não caduca automaticamente: o fiador pode exonerar-se em 30 dias da comunicação, respondendo por 120 dias após notificar o locador (art. 12, § 2º, da Lei 8.245/91).",
+      "Correta. A locação prossegue com a companheira que ficou no imóvel, e o fiador pode exonerar-se em 30 dias da comunicação, ficando responsável pelos efeitos da fiança por 120 dias após a notificação ao locador (art. 12, caput e §§ 1º e 2º, da Lei 8.245/91)."
+    ]
+  },
+  {
+    "id": "18-39",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A dação da coisa empenhada em pagamento, após o vencimento, não exige escritura pública, até porque se trata de bem móvel (art. 1.428, parágrafo único, do CC).",
+      "Errada. Proibido é o pacto comissório, que autoriza o credor a ficar com a coisa se a dívida não for paga no vencimento (art. 1.428, caput, do CC); a dação após o vencimento é permitida.",
+      "Errada. A lei não exige homologação judicial para a dação em pagamento da coisa empenhada (art. 1.428, parágrafo único, do CC).",
+      "Correta. Após o vencimento, o devedor pode dar a coisa em pagamento da dívida (art. 1.428, parágrafo único, do CC)."
+    ]
+  },
+  {
+    "id": "18-40",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A casa recebida por herança é bem particular e não se comunica na comunhão parcial (art. 1.659, I, do CC).",
+      "Correta. O imóvel comprado com o prêmio de loteria, fato eventual ocorrido na constância do casamento, é bem comum (art. 1.660, II); a casa herdada é bem particular (art. 1.659, I, do CC).",
+      "Errada. É o contrário: o bem adquirido com prêmio de loteria se comunica (art. 1.660, II, do CC), e o recebido por herança não (art. 1.659, I).",
+      "Errada. O imóvel do Recreio dos Bandeirantes é bem comum, pois foi adquirido com prêmio de loteria (art. 1.660, II, do CC)."
+    ]
+  },
+  {
+    "id": "18-41",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As arras foram confirmatórias (negócio irretratável), e o comprador pode pedir indenização suplementar se provar prejuízo maior (art. 419 do CC); a comissão é devida mesmo com o arrependimento (art. 725).",
+      "Errada. Por serem arras confirmatórias, a parte inocente pode exigir indenização suplementar, valendo as arras como taxa mínima (art. 419 do CC).",
+      "Errada. A comissão de corretagem é devida quando o resultado é obtido, ainda que o negócio não se efetive por arrependimento das partes (art. 725 do CC).",
+      "Correta. Desistindo quem recebeu as arras confirmatórias, deve devolvê-las mais o equivalente (art. 418 do CC), e o comprador pode exigir indenização suplementar se provar prejuízo maior (art. 419). A comissão é devida, pois o negócio só não se efetivou por arrependimento (art. 725 do CC)."
+    ]
+  },
+  {
+    "id": "18-42",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há regra que obrigue o adquirente a depositar o preço em favor do locatário.",
+      "Errada. O proprietário pode alienar a coisa locada; o adquirente apenas não fica obrigado a respeitar a locação sem cláusula de vigência registrada (art. 576 do CC).",
+      "Correta. Subentende-se a tradição quando o transmitente cede ao adquirente o direito à restituição da coisa que se encontra em poder de terceiro (art. 1.267, parágrafo único, do CC).",
+      "Errada. O constituto possessório pressupõe que o próprio transmitente continue possuindo a coisa em nome do adquirente; como a bicicleta está com José, a figura cabível é a cessão do direito à restituição (art. 1.267, parágrafo único, do CC)."
+    ]
+  },
+  {
+    "id": "18-43",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O regime de bens é irrelevante: o cônjuge não separado judicialmente ou de fato é, de direito, curador do outro (art. 1.775 do CC).",
+      "Errada. O ascendente só é curador na falta do cônjuge ou companheiro (art. 1.775, § 1º, do CC).",
+      "Errada. O descendente só é curador na falta do cônjuge e dos pais (art. 1.775, §§ 1º e 2º, do CC).",
+      "Correta. Mauro, impossibilitado de exprimir sua vontade, sujeita-se a curatela (arts. 4º, III, e 1.767, I, do CC), e o cônjuge não separado é, de direito, seu curador (art. 1.775 do CC)."
+    ]
+  },
+  {
+    "id": "17-37",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O usufruto é intransmissível (art. 1.393 do CC) e se extingue com a morte do usufrutuário (art. 1.410, I), não passando aos herdeiros.",
+      "Errada. Não há conversão em direito de uso; o direito real de usufruto simplesmente se extingue (art. 1.410, I, do CC).",
+      "Correta. O usufruto extingue-se pela morte do usufrutuário, ainda que o prazo não tenha terminado (art. 1.410, I, do CC).",
+      "Errada. Extinto o usufruto com a morte de Otávia (art. 1.410, I, do CC), não há direito a ser constituído em favor da herdeira."
+    ]
+  },
+  {
+    "id": "17-38",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Há duas prestações distintas (dinheiro ou cavalo) ligadas pela disjuntiva “ou”, com escolha atribuída ao devedor: obrigação alternativa (art. 252 do CC).",
+      "Errada. Solidariedade pressupõe pluralidade de credores ou de devedores na mesma obrigação (art. 264 do CC); além disso, dinheiro é bem fungível.",
+      "Errada. Na obrigação alternativa, se uma das prestações se tornar impossível, subsiste o débito quanto à outra (art. 253 do CC).",
+      "Errada. Na obrigação alternativa, a escolha cabe ao devedor, se outra coisa não se estipulou (art. 252 do CC); não há nulidade."
+    ]
+  },
+  {
+    "id": "17-39",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A retrovenda é expressamente admitida pelo CC para imóveis, pelo prazo máximo de três anos (art. 505 do CC).",
+      "Errada. Se o comprador recusar o preço, o vendedor o deposita judicialmente para exercer o resgate (art. 506 do CC); a recusa não torna a cláusula ineficaz.",
+      "Errada. A preempção (art. 513 do CC) só obriga o comprador a oferecer a coisa ao vendedor se decidir vendê-la; na retrovenda, o vendedor recompra independentemente da vontade do comprador.",
+      "Correta. A cláusula de retrovenda permite ao vendedor de imóvel reservar-se o direito de recobrá-lo, em até três anos, restituindo o preço e as despesas do comprador (art. 505 do CC)."
+    ]
+  }
+]

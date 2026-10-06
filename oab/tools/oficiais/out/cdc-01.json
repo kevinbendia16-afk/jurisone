@@ -1,0 +1,402 @@
+[
+  {
+    "id": "47-45",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A boa-fé objetiva (arts. 4º, III, e 51, IV, do CDC; art. 422 do CC) fundamenta a teoria do adimplemento substancial: paga a quase totalidade das parcelas (23 de 24), o inadimplemento mínimo não autoriza a resolução do contrato, cabendo ao fornecedor apenas cobrar a parcela em aberto. Marina pode pagar o saldo e exigir as diárias.",
+      "Errada. Marina não está limitada ao reembolso: diante do adimplemento substancial, pode exigir o cumprimento do contrato mediante o pagamento da parcela restante, pois a resolução por inadimplemento mínimo é desproporcional e abusiva (art. 51, IV, do CDC).",
+      "Errada. O problema não é de mera clareza da informação, mas de resolução indevida diante de inadimplemento mínimo; com base na boa-fé objetiva e no adimplemento substancial, Marina pode exigir a manutenção do contrato.",
+      "Errada. Pedir divulgação mais clara e reembolso não resolve o caso: a resolução é indevida, e Marina conserva o direito às diárias mediante o pagamento da última parcela, por força da boa-fé objetiva e do adimplemento substancial."
+    ]
+  },
+  {
+    "id": "47-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. No vício de quantidade (art. 19 do CDC) não há prazo para o fornecedor sanar o problema nem cabe a ele escolher a solução; a escolha entre as alternativas legais é do consumidor, de imediato.",
+      "Errada. O preposto não pode impor o abatimento do preço: pelo art. 19 do CDC, a escolha entre abatimento, complementação, substituição ou restituição cabe ao consumidor.",
+      "Errada. Não há previsão legal para ficar com o produto sem nada pagar; o art. 19 do CDC prevê abatimento proporcional, complementação do peso ou medida, substituição ou restituição da quantia paga.",
+      "Correta. No vício de quantidade, o consumidor pode exigir, alternativamente e à sua escolha, o abatimento proporcional do preço, a complementação do peso ou medida, a substituição do produto ou a restituição imediata da quantia paga (art. 19, I a IV, do CDC)."
+    ]
+  },
+  {
+    "id": "46-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A ausência injustificada do credor à audiência de conciliação acarreta a suspensão da exigibilidade do débito, e não o seu vencimento antecipado (art. 104-A, § 2º, do CDC).",
+      "Correta. O não comparecimento injustificado do credor à audiência do processo de repactuação acarreta a suspensão da exigibilidade do débito e a interrupção dos encargos da mora (art. 104-A, § 2º, do CDC, incluído pela Lei 14.181/21).",
+      "Errada. Com a ausência injustificada, a exigibilidade do débito fica suspensa, e o credor ausente sujeita-se compulsoriamente ao plano de pagamento se o valor devido for certo e conhecido pelo consumidor (art. 104-A, § 2º, do CDC).",
+      "Errada. O credor ausente sujeita-se compulsoriamente ao plano, mas não nas mesmas condições dos presentes: o pagamento a ele só ocorrerá após o pagamento aos credores que compareceram à audiência (art. 104-A, § 2º, do CDC)."
+    ]
+  },
+  {
+    "id": "46-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Sem previsão contratual, o banco não pode debitar a fatura do cartão na conta-corrente; o STJ admite o débito do valor mínimo apenas quando houver cláusula expressa e destacada (REsp 1.626.997/RJ; art. 54, § 4º, do CDC). Não existe regra legal de 60 dias com notificação.",
+      "Errada. Cartão de crédito e conta-corrente são contratos distintos, e a mera existência de relação com o mesmo banco não autoriza o débito automático; é indispensável previsão contratual expressa (STJ, REsp 1.626.997/RJ).",
+      "Errada. A existência de saldo não supre a falta de autorização contratual; o débito sem previsão expressa viola o dever de informação e a boa-fé (arts. 6º, III, e 54, § 4º, do CDC).",
+      "Correta. Segundo o STJ (REsp 1.626.997/RJ), não é abusiva a cláusula que autoriza o débito do valor mínimo da fatura na conta-corrente em caso de inadimplemento, desde que prevista de forma expressa, clara e destacada no contrato (arts. 6º, III, e 54, § 4º, do CDC)."
+    ]
+  },
+  {
+    "id": "45-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O contrato escrito de adesão não impede a contestação: suas cláusulas são interpretadas a favor do consumidor e as abusivas são nulas (arts. 47, 51 e 54 do CDC).",
+      "Correta. As cláusulas contratuais são interpretadas da maneira mais favorável ao consumidor (art. 47 do CDC; art. 423 do CC), e a cobrança de ajuste retroativo sem previsão nem informação prévia viola os arts. 6º, III, 46 e 54, §§ 3º e 4º, do CDC.",
+      "Errada. O serviço essencial pode ser interrompido por inadimplemento atual, após aviso prévio (art. 6º, § 3º, II, da Lei 8.987/95); além disso, não há termos pactuados para o ajuste retroativo, que não constava do contrato.",
+      "Errada. A interrupção por inadimplência exige aviso prévio (art. 6º, § 3º, II, da Lei 8.987/95), e o STJ, em regra, não admite o corte por débitos pretéritos, que devem ser cobrados pelos meios ordinários."
+    ]
+  },
+  {
+    "id": "45-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O risco inerente (art. 8º do CDC) não abrange curto-circuito decorrente de falha de fabricação; o produto com defeito de fabricação é defeituoso e gera responsabilidade do fabricante (art. 12, caput e § 1º, do CDC).",
+      "Errada. A responsabilidade é objetiva e cabe ao fabricante provar as excludentes, como a culpa exclusiva do consumidor ou a inexistência do defeito (art. 12, § 3º, do CDC); a consumidora não precisa provar que não houve uso inadequado.",
+      "Errada. Não se exige que a consumidora prove o uso conforme o manual nem a adequação de suas instalações; o ônus de provar a culpa exclusiva da vítima é do fabricante (art. 12, § 3º, III, do CDC).",
+      "Correta. O fabricante responde, independentemente de culpa, pelos danos causados por defeito de fabricação (fato do produto), bastando a demonstração do defeito, do dano e do nexo causal (art. 12 do CDC)."
+    ]
+  },
+  {
+    "id": "44-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O tratamento do superendividamento alcança as dívidas de consumo em geral, inclusive operações de crédito e empréstimos (art. 54-A, § 2º, do CDC); ficam de fora apenas as exceções legais, como crédito com garantia real, financiamento imobiliário e crédito rural (art. 104-A, § 1º).",
+      "Correta. A consumidora superendividada de boa-fé pode requerer a repactuação de dívidas, com audiência conciliatória e plano de pagamento de até cinco anos, preservado o mínimo existencial (arts. 54-A e 104-A do CDC, incluídos pela Lei 14.181/21).",
+      "Errada. A lei não exige prova da causa das dívidas, mas a boa-fé do consumidor e a impossibilidade manifesta de pagar suas dívidas de consumo sem comprometer o mínimo existencial (art. 54-A, § 1º, do CDC).",
+      "Errada. Desde a Lei 14.181/21, o CDC prevê a repactuação judicial das dívidas do superendividado (arts. 104-A a 104-C), mitigando a força obrigatória dos contratos para preservar o mínimo existencial."
+    ]
+  },
+  {
+    "id": "44-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo (art. 2º, parágrafo único, do CDC), e seus interesses podem ser tutelados por ação civil pública proposta por associação (arts. 81 e 82, IV, do CDC; Lei 7.347/85).",
+      "Errada. O CDC admite a defesa coletiva de interesses difusos, coletivos e individuais homogêneos, com legitimidade das associações de defesa do consumidor (arts. 81 e 82, IV, do CDC).",
+      "Errada. A equiparação do art. 2º, parágrafo único, do CDC abrange a coletividade ainda que indeterminável, sem exigir prova de que tenha adquirido o produto.",
+      "Errada. A tutela coletiva protege também a coletividade exposta ao produto e admite dano moral coletivo; a legitimidade da associação não depende da identificação dos consumidores que compraram o produto (arts. 2º, parágrafo único, 81 e 82 do CDC)."
+    ]
+  },
+  {
+    "id": "43-45",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O consumidor tem direito à informação adequada e clara sobre quantidade, composição e preço (art. 6º, III, do CDC), e a oferta deve trazer informações corretas, claras, precisas e ostensivas (art. 31 do CDC); a redução quantitativa e os ingredientes devem estar visíveis na embalagem.",
+      "Errada. A falta ou deficiência de informação viola o CDC independentemente de dano material e pode gerar sanções administrativas e responsabilidade civil (arts. 6º, III, 31 e 56 do CDC).",
+      "Errada. As informações sobre o produto devem ser prestadas em língua portuguesa (art. 31 do CDC).",
+      "Errada. A informação deve constar do próprio produto ou da embalagem, de forma ostensiva; a simples remissão ao site não cumpre o dever de informação (arts. 6º, III, e 31 do CDC)."
+    ]
+  },
+  {
+    "id": "43-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O direito de arrependimento independe de motivo: Ângela não precisa demonstrar justo motivo, bastando exercê-lo no prazo de 7 dias (art. 49 do CDC).",
+      "Errada. No exercício do arrependimento, os valores pagos devem ser devolvidos de imediato e integralmente, monetariamente atualizados, sem retenção de custos operacionais (art. 49, parágrafo único, do CDC).",
+      "Errada. O prazo legal é de 7 dias e não pode ser reduzido por política da empresa (arts. 49 e 51, I, do CDC); Ângela desistiu no sexto dia, dentro do prazo.",
+      "Correta. Na contratação fora do estabelecimento comercial, como pela internet, o consumidor pode desistir em 7 dias, sem justificativa, com devolução integral dos valores pagos (art. 49 do CDC; Decreto 7.962/13); Ângela exerceu o direito no sexto dia."
+    ]
+  },
+  {
+    "id": "42-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O CDC não impõe a cessação imediata da fabricação; exige que o fornecedor comunique imediatamente o risco às autoridades e aos consumidores (art. 10, § 1º, do CDC).",
+      "Errada. A lei não impõe à autoridade a proibição imediata da fabricação; tomando conhecimento da periculosidade, ela deve informar os consumidores (art. 10, § 3º, do CDC), adotando as medidas administrativas cabíveis conforme o caso.",
+      "Correta. O fornecedor que, após a introdução do produto no mercado, tiver conhecimento de sua periculosidade deve comunicar o fato imediatamente às autoridades competentes e aos consumidores, mediante anúncios publicitários (art. 10, § 1º, do CDC, o chamado recall).",
+      "Errada. O tempo de mercado não afasta o dever de informar riscos descobertos depois; o art. 10, § 1º, do CDC impõe a comunicação imediata."
+    ]
+  },
+  {
+    "id": "42-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de 30 dias do art. 18, § 1º, do CDC aplica-se ao vício do produto, e não ao descumprimento da oferta pela não entrega, regido pelo art. 35 do CDC.",
+      "Correta. Descumprida a oferta pela não entrega, o consumidor pode, à sua livre escolha, exigir o cumprimento forçado, aceitar produto equivalente ou rescindir o contrato com restituição da quantia paga, atualizada, e perdas e danos (art. 35, I a III, do CDC).",
+      "Errada. A falta de matéria-prima é risco da atividade (fortuito interno) e não afasta a responsabilidade do fornecedor nem obriga a consumidora a esperar (arts. 30 e 35 do CDC).",
+      "Errada. O fornecedor do produto é solidariamente responsável pelos atos de seus prepostos ou representantes autônomos (art. 34 do CDC)."
+    ]
+  },
+  {
+    "id": "41-45",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Para produtos duráveis, o prazo decadencial é de 90 dias (art. 26, II, do CDC), e a reclamação comprovadamente formulada perante o fornecedor obsta a decadência até a resposta negativa inequívoca (art. 26, § 2º, I, do CDC).",
+      "Errada. O fogão é produto durável, com prazo de 90 dias (art. 26, II, do CDC), e a reclamação ao fornecedor obsta a decadência até a resposta negativa (art. 26, § 2º, I).",
+      "Errada. A reclamação perante órgão de defesa do consumidor não obsta a decadência, pois o inciso que a previa (art. 26, § 2º, II, do CDC) foi vetado; obstam apenas a reclamação ao fornecedor e a instauração de inquérito civil.",
+      "Errada. O prazo é de 90 dias por se tratar de produto durável (art. 26, II, do CDC); o prazo de 30 dias vale para produtos e serviços não duráveis (art. 26, I)."
+    ]
+  },
+  {
+    "id": "41-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. São direitos básicos do consumidor a garantia de práticas de crédito responsável e de prevenção do superendividamento (art. 6º, XI, do CDC, incluído pela Lei 14.181/21) e a proteção contra a publicidade enganosa e abusiva (art. 6º, IV, do CDC).",
+      "Errada. A responsabilidade do banco é objetiva, independendo de prova de negligência (art. 14 do CDC; Súmula 297 do STJ), e o assédio a consumidor idoso na oferta de crédito é vedado (art. 54-C, IV, do CDC).",
+      "Errada. O prazo de arrependimento na contratação fora do estabelecimento é de 7 dias, e não de 10 (art. 49 do CDC).",
+      "Errada. O fornecedor deve avaliar de forma responsável as condições de crédito do consumidor (art. 54-D, II, do CDC), sendo vedado ofertar crédito indicando que será concedido sem avaliação da situação financeira (art. 54-C, II)."
+    ]
+  },
+  {
+    "id": "40-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Justamente por ser exemplificativo (o art. 51 usa a expressão entre outras), o rol não esgota as cláusulas abusivas; além disso, a cláusula que exonera ou atenua a responsabilidade do fornecedor é nula (art. 51, I, do CDC).",
+      "Errada. O rol do art. 51 do CDC é exemplificativo, e não taxativo, e não existe lista de cláusulas permitidas.",
+      "Errada. O art. 51 do CDC aplica-se a todos os contratos de consumo, inclusive os de adesão (art. 54 do CDC).",
+      "Correta. O art. 51 do CDC enumera cláusulas abusivas em rol exemplificativo, de modo que também são nulas as cláusulas que coloquem o consumidor em desvantagem exagerada ou sejam incompatíveis com a boa-fé (art. 51, IV e § 1º), como a que afasta o direito à indenização (art. 51, I)."
+    ]
+  },
+  {
+    "id": "39-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O escore de crédito dispensa o consentimento do consumidor, e não há prazo de 5 dias úteis para isso (Súmula 550 do STJ; Tema 710 do STJ).",
+      "Errada. O consumidor tem direito a esclarecimentos sobre as fontes dos dados considerados no cálculo do escore (Súmula 550 do STJ).",
+      "Correta. O escore de crédito é método estatístico de avaliação de risco que não constitui banco de dados e dispensa o consentimento do consumidor, a quem se garante o direito de obter esclarecimentos sobre as informações pessoais valoradas e as fontes dos dados considerados (Súmula 550 do STJ; Tema 710 do STJ).",
+      "Errada. As informações pessoais valoradas devem ser esclarecidas ao consumidor que as solicitar (Súmula 550 do STJ); o sigilo protege apenas o método de cálculo (segredo empresarial), e não os dados do consumidor."
+    ]
+  },
+  {
+    "id": "39-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O STF decidiu que, no transporte aéreo internacional, as Convenções de Varsóvia e Montreal prevalecem sobre o CDC quanto aos danos materiais, por força do art. 178 da CF (Tema 210, RE 636.331), sem ofensa à soberania.",
+      "Correta. Segundo o STF (Tema 210), as convenções internacionais que limitam a responsabilidade das transportadoras aéreas, especialmente Varsóvia e Montreal, prevalecem sobre o CDC nos voos internacionais quanto aos danos materiais (art. 178 da CF); nos voos domésticos aplica-se o CDC. Os danos morais não se sujeitam a esses limites (STF, Tema 1240).",
+      "Errada. As convenções internacionais aplicam-se apenas ao transporte aéreo internacional; no transporte doméstico prevalece o CDC (STF, Tema 210).",
+      "Errada. A prevalência das convenções decorre do art. 178 da CF e do entendimento do STF (Tema 210), e não depende de previsão no contrato assinado pelo consumidor."
+    ]
+  },
+  {
+    "id": "38-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É abusiva a cláusula contratual de plano de saúde que limita no tempo a internação hospitalar do segurado (Súmula 302 do STJ; art. 51, IV, do CDC; art. 12, II, a, da Lei 9.656/98).",
+      "Errada. A exigência de caução como condição para o atendimento é prática abusiva (art. 39, V, do CDC) e, em atendimento emergencial, configura crime (art. 135-A do CP).",
+      "Errada. A clareza da redação não convalida cláusula que restringe direito inerente ao contrato; a limitação temporal da internação é abusiva (Súmula 302 do STJ).",
+      "Errada. As cláusulas abusivas são nulas de pleno direito, e não anuláveis (art. 51, caput, do CDC)."
+    ]
+  },
+  {
+    "id": "37-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As explicações sobre o CET e o prazo de validade da oferta violam o art. 54-B do CDC: o CET deve constar do contrato ou de instrumento apartado de fácil acesso, e a oferta deve valer por, no mínimo, 2 dias.",
+      "Errada. A taxa efetiva mensal pode constar de instrumento apartado, de fácil acesso ao consumidor (art. 54-B, § 1º, do CDC); os equívocos estão no CET e no prazo de validade da oferta.",
+      "Errada. Nem todas as explicações estão erradas, pois a taxa mensal pode constar de documento apartado (art. 54-B, § 1º), e o prazo mínimo de validade da oferta é de 2 dias, e não de 7 (art. 54-B, III, do CDC).",
+      "Correta. O CET deve ser informado previamente e constar do contrato, da fatura ou de instrumento apartado, de fácil acesso ao consumidor (art. 54-B, I e § 1º, do CDC), e o prazo de validade da oferta deve ser de, no mínimo, 2 dias (art. 54-B, III, do CDC)."
+    ]
+  },
+  {
+    "id": "37-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A venda casada é abusiva (art. 39, I, do CDC), mas a simples proposta de seguro, sem condicionamento, não equivale a enviar produto ou fornecer serviço sem solicitação prévia (art. 39, III).",
+      "Errada. Condicionar a venda das persianas à compra dos tapetes é venda casada, prática abusiva ainda que sejam produtos da mesma coleção (art. 39, I, do CDC).",
+      "Correta. Condicionar o fornecimento de um produto à aquisição de outro é venda casada (art. 39, I, do CDC); já a mera oferta do seguro residencial, sem condicionamento e sem envio de produto ou prestação de serviço, é lícita.",
+      "Errada. A venda casada das persianas com os tapetes é abusiva (art. 39, I, do CDC), e o envio de proposta não se confunde com o fornecimento de produto ou serviço sem solicitação, vedado pelo art. 39, III."
+    ]
+  },
+  {
+    "id": "36-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O direito de arrependimento é imotivado e pode ser exercido em 7 dias contados do recebimento do produto (art. 49 do CDC); não existe regra de 48 horas que imponha motivação.",
+      "Errada. Por ser imotivado, o fornecedor não pode exigir justificativa nem condicionar a devolução dos valores a ela (art. 49, parágrafo único, do CDC).",
+      "Errada. A boa-fé objetiva não autoriza exigir motivação; o art. 49 do CDC garante a desistência sem justificativa, com devolução imediata dos valores pagos.",
+      "Correta. O arrependimento dispensa motivação e foi exercido dentro de 7 dias do recebimento (art. 49 do CDC); o fornecedor deve comunicar imediatamente a administradora do cartão para que a transação não seja lançada ou seja estornada (art. 5º, § 3º, do Decreto 7.962/13)."
+    ]
+  },
+  {
+    "id": "36-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Perante o consumidor, as sociedades consorciadas são solidariamente responsáveis pelas obrigações decorrentes do CDC (art. 28, § 3º), independentemente do que disponha o contrato de consórcio.",
+      "Errada. A responsabilidade subsidiária é a das sociedades integrantes de grupos societários e das controladas (art. 28, § 2º, do CDC); as consorciadas respondem solidariamente (art. 28, § 3º).",
+      "Correta. As sociedades consorciadas são solidariamente responsáveis pelas obrigações decorrentes do CDC (art. 28, § 3º), podendo o consumidor demandar qualquer delas, sem benefício de ordem e independentemente de previsão contratual diversa.",
+      "Errada. A responsabilidade condicionada à culpa é a das sociedades coligadas (art. 28, § 4º, do CDC); as consorciadas respondem solidariamente, sem necessidade de prova de culpa (art. 28, § 3º)."
+    ]
+  },
+  {
+    "id": "35-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. No vício do produto, todos os fornecedores da cadeia, inclusive o fabricante, respondem solidariamente (art. 18 do CDC).",
+      "Errada. O prazo de 90 dias é decadencial, e não prescricional (art. 26, II, do CDC), e, tratando-se de vício oculto, a contagem começa quando o defeito ficar evidenciado (art. 26, § 3º).",
+      "Errada. Margarida é consumidora, pois utiliza o produto como destinatária final (art. 2º do CDC), e pode demandar o fabricante, que responde solidariamente pelos vícios (art. 18).",
+      "Correta. Em se tratando de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito (art. 26, § 3º, do CDC), e a reclamação ao fornecedor obsta a decadência (art. 26, § 2º, I); o prazo não se conta da data da compra."
+    ]
+  },
+  {
+    "id": "35-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quem introduz o serviço no mercado e garante a qualidade dos conveniados integra a cadeia de fornecimento e responde solidariamente pelos danos (arts. 7º, parágrafo único, 14 e 25, § 1º, do CDC).",
+      "Correta. A Pratice integra a cadeia de fornecimento do serviço que oferece e divulga, respondendo solidária e objetivamente pelos danos causados pelo hotel conveniado (arts. 7º, parágrafo único, 14, 25, § 1º, e 34 do CDC).",
+      "Errada. O hotel conveniado não é terceiro estranho à relação, mas parceiro integrante da cadeia de fornecimento, de modo que não se aplica a excludente do art. 14, § 3º, II, do CDC.",
+      "Errada. A responsabilidade do fornecedor de serviços é objetiva (art. 14 do CDC) e solidária entre os integrantes da cadeia (art. 7º, parágrafo único), e não subjetiva e subsidiária."
+    ]
+  },
+  {
+    "id": "34-44",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É abusiva a cláusula que restringe a responsabilidade da instituição financeira por roubo, furto ou extravio de bem entregue em garantia no contrato de penhor (Súmula 638 do STJ; art. 51, I, do CDC); a nulidade decorre do conteúdo, e não da redação.",
+      "Errada. Roubo e furto são riscos inerentes à atividade bancária (fortuito interno, Súmula 479 do STJ), a responsabilidade é objetiva (art. 14 do CDC) e a cláusula limitativa é nula (Súmula 638 do STJ).",
+      "Errada. O contrato de penhor celebrado com instituição financeira é relação de consumo (Súmula 297 do STJ; art. 3º, § 2º, do CDC).",
+      "Errada. A cláusula é nula (Súmula 638 do STJ), e a perda do bem empenhado configura falha na prestação do serviço, sujeita à prescrição de 5 anos do art. 27 do CDC, e não de 2 anos."
+    ]
+  },
+  {
+    "id": "34-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A responsabilidade da concessionária é objetiva (art. 14 do CDC; art. 37, § 6º, da CF): a vítima não precisa provar culpa, apenas o dano e o nexo causal.",
+      "Errada. A responsabilidade da concessionária de rodovia perante o usuário é objetiva, e não subjetiva (art. 14 do CDC; art. 37, § 6º, da CF; art. 25 da Lei 8.987/95).",
+      "Correta. O STJ reconhece relação de consumo entre o usuário e a concessionária de rodovia, cuja responsabilidade por falhas na conservação da via é objetiva (arts. 14 e 22 do CDC; art. 37, § 6º, da CF).",
+      "Errada. O CDC e a responsabilidade objetiva do art. 37, § 6º, da CF são compatíveis e convergem; a concessionária responde objetivamente como fornecedora de serviço público (art. 22 do CDC)."
+    ]
+  },
+  {
+    "id": "33-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os interesses decorrem de origem comum e são individuais homogêneos, admitindo ação coletiva (art. 81, parágrafo único, III, do CDC), e a restrição creditícia não justifica a recusa quando o pagamento é à vista (art. 39, IX, do CDC; STJ, REsp 1.594.024).",
+      "Correta. Trata-se de direitos individuais homogêneos, defensáveis por ação coletiva (arts. 81, III, e 82 do CDC), e a restrição de crédito só legitima a recusa se o prêmio for parcelado: quem se dispõe ao pronto pagamento não pode ser recusado por esse motivo (art. 39, IX, do CDC; STJ, REsp 1.594.024).",
+      "Errada. A seguradora pode recusar a proposta após legítima análise de risco ou ajustar o prêmio; o que o STJ veda é a recusa fundada apenas na restrição de crédito de quem paga à vista. Além disso, o direito é individual homogêneo, e não difuso.",
+      "Errada. A recusa por restrição creditícia é abusiva quando há pronto pagamento (art. 39, IX, do CDC; STJ, REsp 1.594.024), e a defesa coletiva é cabível para direitos individuais homogêneos (art. 81, III, do CDC)."
+    ]
+  },
+  {
+    "id": "32-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A vendedora é preposta, e o fornecedor responde objetiva e solidariamente pelos atos de seus prepostos (arts. 14 e 34 do CDC); não se trata de culpa de terceiro.",
+      "Errada. Segundo o STJ, a franqueadora responde solidariamente com a franqueada perante o consumidor, por integrarem a mesma cadeia de fornecimento (arts. 7º, parágrafo único, e 25, § 1º, do CDC), e não com exclusividade.",
+      "Correta. Em acidente de consumo é vedada a denunciação da lide (art. 88 do CDC), vedação que o STJ estende a todas as hipóteses de fato do produto e do serviço; o direito de regresso deve ser exercido em ação autônoma.",
+      "Errada. Há relação de consumo mesmo sem compra: Maria utilizou o produto e o serviço oferecidos no estabelecimento e é, no mínimo, consumidora por equiparação, como vítima do evento (arts. 2º e 17 do CDC)."
+    ]
+  },
+  {
+    "id": "31-44",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A gastroplastia é tratamento da obesidade mórbida, e a cirurgia plástica reparadora ou funcional pós-bariátrica indicada pelo médico assistente é de cobertura obrigatória, por integrar o tratamento (STJ, Tema 1069).",
+      "Errada. O STJ (Tema 1069) considera a plástica pós-bariátrica reparadora ou funcional, de cobertura obrigatória, e não meramente estética; havendo dúvida razoável, a operadora pode instaurar junta médica.",
+      "Errada. A cobertura não depende de previsão contratual específica, pois se trata de tratamento de doença coberta (art. 10 da Lei 9.656/98; STJ, Tema 1069).",
+      "Errada. A gastroplastia consta do rol da ANS, e o STJ reconhece a obrigatoriedade da plástica pós-bariátrica (Tema 1069); além disso, o rol é referência básica, admitindo cobertura fora dele nas condições do art. 10, § 13, da Lei 9.656/98 (Lei 14.454/22)."
+    ]
+  },
+  {
+    "id": "31-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O site de viagens integra a cadeia de fornecimento e responde solidariamente com o hotel (arts. 7º, parágrafo único, e 25, § 1º, do CDC).",
+      "Correta. Site e hotel integram a cadeia de fornecimento do serviço e respondem solidária e objetivamente pelos danos ao consumidor, inclusive pela diferença paga (arts. 7º, parágrafo único, 14, 25, § 1º, e 34 do CDC).",
+      "Errada. O consumidor não tinha o dever de conferir a fatura: o cancelamento por erro do fornecedor é falha na prestação do serviço (art. 14 do CDC), e a oferta aceita vincula o fornecedor (arts. 30 e 35).",
+      "Errada. Não há responsabilidade exclusiva do site nem subsidiária do hotel: ambos respondem solidariamente (arts. 7º, parágrafo único, e 25, § 1º, do CDC)."
+    ]
+  },
+  {
+    "id": "30-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Como o problema foi apenas estético, sem risco à segurança, trata-se de vício do produto (art. 18 do CDC), com responsabilidade solidária do comerciante e do fabricante, e não de fato do produto.",
+      "Errada. O CDC é aplicável, pois o condomínio adquiriu as peças como destinatário final e é vulnerável perante o fornecedor (teoria finalista mitigada; art. 2º do CDC).",
+      "Errada. O condomínio pode demandar individualmente, na qualidade de consumidor, sem necessidade de ação coletiva (art. 2º do CDC).",
+      "Correta. A soltura de tinta atóxica torna o produto inadequado, caracterizando vício de qualidade (art. 18 do CDC), com responsabilidade solidária do fornecedor e do fabricante; o condomínio é consumidor pela teoria finalista mitigada e tem legitimidade para agir individualmente."
+    ]
+  },
+  {
+    "id": "30-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A lesão a consumidores com origem comum caracteriza interesses individuais homogêneos (art. 81, III, do CDC), e as indenizações individuais têm preferência no concurso de créditos sobre as condenações coletivas do mesmo evento (art. 99 do CDC).",
+      "Errada. A liquidação e a execução individuais são possíveis e podem ser promovidas pela vítima e por seus sucessores (arts. 97 e 98 do CDC).",
+      "Errada. Trata-se de interesses individuais homogêneos, e a liquidação e a execução podem ser promovidas pela vítima e também por seus sucessores (art. 97 do CDC).",
+      "Correta. Nos interesses individuais homogêneos a condenação é genérica (art. 95 do CDC), e a liquidação e a execução podem ser promovidas pela vítima e seus sucessores (art. 97), que deverão provar o dano pessoal, o nexo causal e o montante."
+    ]
+  },
+  {
+    "id": "29-44",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A pessoa com deficiência tem direito, mediante solicitação, a receber contas, boletos, recibos e extratos em formato acessível, como o Braille (art. 62 da Lei 13.146/15), e a informação ao consumidor deve ser acessível (art. 6º, parágrafo único, do CDC).",
+      "Errada. A informação deve ser acessível à pessoa com deficiência em geral, e não somente à pessoa com deficiência visual (art. 6º, parágrafo único, do CDC, incluído pela Lei 13.146/15).",
+      "Errada. Não há dispensa legal; ao contrário, a lei exige informação em formatos acessíveis (art. 6º, parágrafo único, do CDC; arts. 62 e 69 da Lei 13.146/15).",
+      "Errada. A fatura em formato acessível deve conter as mesmas informações detalhadas das demais, e não apenas o preço (art. 62 da Lei 13.146/15; art. 6º, III, do CDC)."
+    ]
+  },
+  {
+    "id": "29-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O fabricante responde diretamente perante o consumidor pelos defeitos de fabricação, ainda que a compra tenha sido feita na concessionária (arts. 12 e 18 do CDC).",
+      "Errada. Quanto ao veículo adquirido para uso próprio, a concessionária é destinatária final e, portanto, consumidora (art. 2º do CDC), de modo que a relação com a montadora é de consumo.",
+      "Correta. Ao adquirir o veículo para uso próprio, e não para revenda, a concessionária é destinatária final do bem, configurando relação de consumo com a montadora, ainda que ambas sejam pessoas jurídicas (art. 2º do CDC).",
+      "Errada. Por se tratar de defeito de fabricação que compromete a segurança (fato do produto), o consumidor pode demandar diretamente o fabricante (art. 12 do CDC)."
+    ]
+  },
+  {
+    "id": "28-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A possibilidade de reação alérgica decorrente da natureza química do produto deveria ter sido informada; a informação insuficiente sobre riscos torna o produto defeituoso (arts. 9º e 12, caput, do CDC), não havendo culpa exclusiva da consumidora.",
+      "Errada. Mesmo os riscos normais e previsíveis exigem informações necessárias e adequadas (art. 8º do CDC); sem elas não há culpa exclusiva da vítima, que seguiu as instruções do rótulo.",
+      "Errada. A retirada de circulação não é consequência necessária; o defeito decorre da falta de informação adequada sobre os riscos, que deve ser suprida (arts. 9º e 12 do CDC).",
+      "Correta. O fornecedor de produto potencialmente nocivo à saúde deve informar, de maneira ostensiva e adequada, sobre sua nocividade ou periculosidade (art. 9º do CDC); a omissão sobre o potencial alergênico configura defeito de informação (art. 12, caput, do CDC)."
+    ]
+  },
+  {
+    "id": "28-45",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O reajuste por faixa etária também é admitido nos planos individuais ou familiares, desde que previsto em contrato e observados os demais requisitos (STJ, Tema 952).",
+      "Correta. O reajuste de plano individual ou familiar por mudança de faixa etária é válido se houver previsão contratual, se forem observadas as normas dos órgãos reguladores e se não forem aplicados percentuais desarrazoados ou aleatórios que onerem excessivamente o consumidor ou discriminem o idoso (STJ, Tema 952).",
+      "Errada. O reajuste por faixa etária exige previsão contratual, tanto nos planos individuais quanto nos coletivos (STJ, Temas 952 e 1016).",
+      "Errada. O reajuste por faixa etária é admitido nos termos do Tema 952 do STJ, e a ANS regula a matéria, inclusive fixando as faixas etárias permitidas."
+    ]
+  },
+  {
+    "id": "27-44",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A carência não é, por si, abusiva, pois a Lei 9.656/98 admite prazos de carência (art. 12, V); abusiva é a carência superior a 24 horas para urgência e emergência (Súmula 597 do STJ).",
+      "Errada. Em situação de emergência, a carência máxima é de 24 horas (art. 12, V, c, da Lei 9.656/98), e a cobertura é obrigatória (art. 35-C); a cláusula que ultrapasse esse prazo é abusiva (Súmula 597 do STJ).",
+      "Errada. A Lei 9.656/98 não contradiz o CDC; ambos se aplicam de forma complementar aos planos de saúde (Súmula 608 do STJ), e a lei especial admite carências razoáveis.",
+      "Correta. Nos casos de urgência e emergência, o prazo máximo de carência é de 24 horas (arts. 12, V, c, e 35-C da Lei 9.656/98), sendo abusiva a cláusula que o ultrapasse (Súmula 597 do STJ), embora sejam lícitas, em geral, as cláusulas limitativas redigidas com destaque (art. 54, § 4º, do CDC)."
+    ]
+  },
+  {
+    "id": "27-45",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A lesão aos adquirentes do combustível adulterado tem origem comum e configura interesses individuais homogêneos (art. 81, III, do CDC); da condenação genérica, o consumidor pode promover liquidação e execução individual ou habilitar-se na execução coletiva (arts. 95, 97 e 98 do CDC).",
+      "Errada. A intervenção do consumidor como litisconsorte no processo de conhecimento é facultativa (art. 94 do CDC), e não requisito para receber a indenização.",
+      "Errada. Trata-se de interesses individuais homogêneos (art. 81, III, do CDC), que admitem liquidação e execução individual (art. 97), e não apenas execução coletiva.",
+      "Errada. Os consumidores podem liquidar e executar individualmente a sentença coletiva; a reversão ao fundo só ocorre se, decorrido um ano, não houver habilitação de interessados em número compatível com a gravidade do dano (art. 100 do CDC)."
+    ]
+  },
+  {
+    "id": "26-44",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O fornecedor de serviços não responde se provar que, tendo prestado o serviço, o defeito inexiste (art. 14, § 3º, I, do CDC); a adequação do procedimento e a doença preexistente afastam o nexo causal.",
+      "Errada. A responsabilidade é objetiva, mas exige defeito do serviço e nexo causal; comprovada a inexistência de defeito, o fornecedor não responde (art. 14, § 3º, I, do CDC), não havendo nexo presumido.",
+      "Errada. A excludente não depende da prestação de primeiros socorros; basta provar a inexistência de defeito no serviço ou a culpa exclusiva do consumidor ou de terceiro (art. 14, § 3º, do CDC).",
+      "Errada. Sem defeito no serviço não há responsabilidade da Hípica (art. 14, § 3º, I, do CDC), e o médico veterinário, como profissional liberal, responde mediante verificação de culpa (art. 14, § 4º, do CDC)."
+    ]
+  },
+  {
+    "id": "26-45",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A oferta veiculada em folder vincula o fornecedor (art. 30 do CDC), e a não entrega da área de lazer anunciada caracteriza publicidade enganosa (art. 37, § 1º), o que autoriza ação individual ou coletiva (arts. 35, 81 e 83 do CDC).",
+      "Errada. A não entrega da área comum anunciada configura publicidade enganosa (art. 37, § 1º, do CDC), e não mero inadimplemento; além disso, a mora da construtora gera dever de indenizar mesmo sem cláusula penal (art. 6º, VI, do CDC; art. 43-A da Lei 4.591/64).",
+      "Errada. Cada adquirente tem interesse processual próprio e pode ajuizar ação individual, sem prejuízo da ação coletiva (arts. 81 e 83 do CDC).",
+      "Errada. A nulidade de cláusula abusiva não invalida o contrato, salvo quando, apesar dos esforços de integração, decorrer ônus excessivo a qualquer das partes (art. 51, § 2º, do CDC)."
+    ]
+  }
+]

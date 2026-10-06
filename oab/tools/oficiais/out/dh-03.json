@@ -1,0 +1,174 @@
+[
+  { "id": "12-22", "status": "valida",
+    "explicacoes": [
+      "Errada. O esgotamento dos recursos internos é requisito de admissibilidade das petições (art. 46.1.a da CADH), mas comporta exceções, como a demora injustificada (art. 46.2). Além disso, não é exigido para medidas cautelares em situação de gravidade e urgência (art. 25 do Regulamento da CIDH).",
+      "Errada. Indivíduos e familiares não têm acesso direto à Corte IDH: somente os Estados-partes e a Comissão podem submeter casos a ela (art. 61 da CADH). As denúncias individuais são dirigidas à Comissão (art. 44).",
+      "Errada. Além do sistema de petições individuais, a Comissão pode, de ofício ou a pedido, outorgar medidas cautelares, inclusive de natureza coletiva, independentemente de petição ou caso pendente (art. 25 do Regulamento da CIDH).",
+      "Correta. Em situações de gravidade e urgência, com risco de dano irreparável às pessoas, a Comissão pode solicitar ao Estado a adoção de medidas cautelares para fazer cessar a violação (art. 25 do Regulamento da CIDH)."
+    ] },
+  { "id": "11-20", "status": "valida",
+    "explicacoes": [
+      "Errada. A Comissão pode recomendar ao Estado a adoção de medidas no âmbito de suas leis internas, inclusive mudanças legislativas (arts. 41, b, e 51 da CADH), além da reparação da vítima.",
+      "Errada. Entre as recomendações do relatório final (art. 51 da CADH) pode constar a reparação integral da vítima, inclusive indenização pecuniária pelos danos sofridos.",
+      "Correta. A Comissão formula recomendações ao Estado (arts. 41, b, 50 e 51 da CADH), que podem incluir a alteração do ordenamento jurídico interno cumulada com outras medidas, como a reparação dos danos sofridos pela vítima.",
+      "Errada. A Comissão deve se colocar à disposição das partes para buscar uma solução amistosa (art. 48.1.f da CADH) e não impõe punição a ninguém: ela apenas recomenda ao Estado que investigue e puna os responsáveis."
+    ] },
+  { "id": "11-21", "status": "valida",
+    "explicacoes": [
+      "Errada. O relativismo cultural sustenta que os direitos devem ser compreendidos à luz de cada cultura; por isso, seus defensores tendem a ser contra a lei, vista como imposição de valores ocidentais, e não a favor dela.",
+      "Correta. Para o universalismo, existe um núcleo de direitos válido para todas as culturas, como a igualdade entre homens e mulheres (Declaração de Viena de 1993, item 5); com esse argumento, defende-se a proibição de vestes vistas como instrumento de opressão da mulher.",
+      "Errada. A ideia de que os direitos humanos se aplicam igualmente a todas as culturas é a premissa do universalismo, e não do relativismo; o relativista se opõe à lei justamente por negar essa aplicação uniforme.",
+      "Errada. No enquadramento do debate proposto, a oposição à lei com base na diversidade cultural e religiosa é o argumento relativista; os universalistas apoiam a lei em nome da igualdade de gênero."
+    ] },
+  { "id": "11-22", "status": "valida",
+    "explicacoes": [
+      "Errada. A Magna Carta (1215) foi um pacto entre o rei e os barões que limitou o poder real; não consolidou direitos civis e políticos e muito menos direitos econômicos e sociais, que só surgem nos séculos XIX e XX (Constituições do México de 1917 e de Weimar de 1919).",
+      "Correta. Ao exigir julgamento pelos pares e segundo a lei da terra (law of the land), a Magna Carta é apontada como a origem do devido processo legal (due process of law), hoje previsto no art. 5º, LIV, da CF.",
+      "Errada. A Magna Carta foi anulada pelo papa poucos meses depois de editada e precisou ser reeditada várias vezes; não foi respeitada por todos os governos seguintes.",
+      "Errada. Embora seja vista como inspiração, o habeas corpus só foi institucionalizado na Inglaterra pelo Habeas Corpus Act de 1679."
+    ] },
+  { "id": "11-23", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há embargos infringentes no sistema interamericano: a sentença da Corte IDH é definitiva e inapelável ainda que não unânime, e o juiz vencido apenas pode juntar seu voto dissidente (arts. 66.2 e 67 da CADH).",
+      "Errada. Não existe ação rescisória contra sentença da Corte IDH; cabe apenas pedido de interpretação sobre seu sentido ou alcance, em 90 dias, sem modificar o julgado (art. 67 da CADH).",
+      "Correta. Nos termos do art. 67 da CADH, a sentença da Corte é definitiva e inapelável; havendo divergência sobre seu sentido ou alcance, a Corte apenas a interpreta, a pedido de qualquer das partes, em até 90 dias da notificação.",
+      "Errada. Não há recurso de apelação contra sentença da Corte IDH, que decide em instância única e de forma definitiva (art. 67 da CADH)."
+    ] },
+  { "id": "10-20", "status": "valida",
+    "explicacoes": [
+      "Errada. A Comissão não responsabiliza pessoas naturais ou jurídicas; ela examina petições contra Estados-partes por violação da Convenção (arts. 44 e 48 da CADH), e a responsabilidade apurada é a internacional do Estado.",
+      "Errada. A Comissão também não responsabiliza pessoas jurídicas; seu objeto é exclusivamente a responsabilidade internacional do Estado (arts. 44 a 51 da CADH).",
+      "Errada. A Comissão não atribui responsabilidade a particulares, e a responsabilidade do Estado não é subsidiária: ele responde diretamente pelos atos de seus agentes e por não prevenir ou reprimir violações (arts. 1.1 e 2 da CADH).",
+      "Correta. A Comissão (assim como a Corte IDH) apura apenas a responsabilidade internacional do Estado; a responsabilização penal individual cabe à jurisdição interna ou ao Tribunal Penal Internacional (art. 25 do Estatuto de Roma)."
+    ] },
+  { "id": "10-21", "status": "valida",
+    "explicacoes": [
+      "Correta. Segundo a doutrina (Flávia Piovesan), o Direito Humanitário, a Liga das Nações e a OIT são os primeiros marcos da internacionalização dos direitos humanos, pois relativizam a soberania absoluta dos Estados em prol da proteção da pessoa.",
+      "Errada. A Carta Internacional dos Direitos Humanos (International Bill of Rights) é formada pela DUDH, pelo PIDCP e pelo PIDESC; e os Pactos, uma vez ratificados, são juridicamente vinculantes, não ficando a critério do Estado cumpri-los ou não.",
+      "Errada. O sistema global abrange também o sistema especial de proteção, formado por tratados temáticos, como a Convenção contra a Tortura, a CEDAW e a Convenção sobre os Direitos da Criança.",
+      "Errada. Os mecanismos não convencionais do sistema global são os fundados na Carta da ONU e em resoluções de seus órgãos (Conselho de Direitos Humanos, Revisão Periódica Universal, procedimentos especiais); os criados por tratados específicos são os mecanismos convencionais."
+    ] },
+  { "id": "10-22", "status": "valida",
+    "explicacoes": [
+      "Errada. A afirmativa é verdadeira, logo não é a exceção: a CADH determina que a lei proíba toda propaganda a favor da guerra (art. 13.5), e a CF consagra o repúdio ao terrorismo e ao racismo nas relações internacionais (art. 4º, VIII).",
+      "Errada. A afirmativa é verdadeira: a CADH garante proteção judicial contra violações de direitos fundamentais mesmo quando cometidas por pessoas no exercício de funções oficiais (art. 25.1).",
+      "Correta. É a afirmativa falsa: em nenhum caso a retificação ou a resposta eximem das outras responsabilidades legais (art. 14.2 da CADH), e a CF assegura o direito de resposta além da indenização por dano material, moral ou à imagem (art. 5º, V).",
+      "Errada. A afirmativa é verdadeira: a CF prevê a concessão de asilo político (art. 4º, X), e a CADH garante o asilo em caso de perseguição por delitos políticos ou comuns conexos com delitos políticos (art. 22.7)."
+    ] },
+  { "id": "09-20", "status": "valida",
+    "explicacoes": [
+      "Errada. As partes confirmam que o genocídio é crime contra o Direito Internacional, seja cometido em tempo de paz, seja em tempo de guerra (art. I da Convenção para a Prevenção e Repressão do Crime de Genocídio).",
+      "Errada. O genocídio abrange não só o assassinato, mas também o dano grave à integridade física ou mental de membros do grupo, entre outros atos, praticados com a intenção de destruí-lo no todo ou em parte (art. II da Convenção).",
+      "Errada. A incitação direta e pública a cometer genocídio também é punível, ao lado da associação, da tentativa e da cumplicidade (art. III, c, da Convenção).",
+      "Correta. A transferência forçada de crianças do grupo para outro grupo, com a intenção de destruí-lo no todo ou em parte, configura genocídio (art. II, e, da Convenção; no Brasil, art. 1º, e, da Lei 2.889/56)."
+    ] },
+  { "id": "09-21", "status": "valida",
+    "explicacoes": [
+      "Errada. A sentença da Corte IDH é decisão internacional, e não estrangeira: não depende de homologação nem é executada no STJ, cuja competência (art. 105, I, i, da CF) se limita às sentenças estrangeiras.",
+      "Correta. A parte da sentença que fixa indenização compensatória pode ser executada no país pelo processo interno vigente para a execução de sentenças contra o Estado (art. 68.2 da CADH); sendo ré a União, a competência é da Justiça Federal (art. 109, I, da CF), sem necessidade de homologação.",
+      "Errada. A Corte IDH não tem processo de execução próprio: a indenização é executada segundo o direito interno (art. 68.2 da CADH), e a Corte apenas supervisiona o cumprimento e informa o descumprimento à Assembleia Geral da OEA (art. 65).",
+      "Errada. Os Estados se comprometem a cumprir as decisões da Corte (art. 68.1 da CADH), e o descumprimento é informado à Assembleia Geral da OEA, e não à Assembleia Geral da ONU (art. 65)."
+    ] },
+  { "id": "09-22", "status": "valida",
+    "explicacoes": [
+      "Errada. O fato de ter agido por ordens superiores não exime o agente da responsabilidade penal correspondente (art. 4º da Convenção Interamericana para Prevenir e Punir a Tortura).",
+      "Errada. Os Estados devem tomar as medidas necessárias para conceder a extradição tanto da pessoa condenada quanto da pessoa acusada de delito de tortura (art. 11 da Convenção).",
+      "Correta. É a regra do art. 10 da Convenção: a declaração obtida mediante tortura é inadmissível como prova, salvo no processo contra o acusado de tê-la obtido por tortura e unicamente para provar que ele a obteve por esse meio.",
+      "Errada. Esgotados os recursos internos, o caso poderá ser submetido às instâncias internacionais cuja competência tenha sido aceita pelo Estado (art. 8º da Convenção)."
+    ] },
+  { "id": "08-20", "status": "valida",
+    "explicacoes": [
+      "Errada. Pelo princípio da obrigatoriedade da informação, a criança e o adolescente, respeitados seu estágio de desenvolvimento e capacidade de compreensão, também devem ser informados dos motivos da intervenção (art. 100, parágrafo único, XI, do ECA).",
+      "Correta. A Convenção sobre os Direitos da Criança determina que os Estados incentivem os meios de comunicação a considerar as necessidades linguísticas da criança indígena ou que pertença a grupo minoritário (art. 17, d).",
+      "Errada. O ECA impõe o dever a proprietários, diretores, gerentes e funcionários das empresas de venda ou locação de fitas de vídeo, e o invólucro deve informar a natureza da obra e a faixa etária (art. 77 e parágrafo único).",
+      "Errada. A liberdade de expressão da criança pode sofrer restrições previstas em lei e necessárias ao respeito dos direitos e da reputação dos demais, à segurança nacional, à ordem pública e à saúde e moral públicas (art. 13.2 da Convenção sobre os Direitos da Criança)."
+    ] },
+  { "id": "08-21", "status": "duvidosa",
+    "motivo": "O gabarito reproduz o art. 8º do Estatuto do Índio (Lei 6.001/73), que integra o regime tutelar e o paradigma integracionista, considerados pela doutrina majoritária e pela jurisprudência recente incompatíveis com a CF/88 (arts. 231 e 232, que reconhecem a organização social e a capacidade processual dos indígenas) e com a Convenção 169 da OIT; o Código Civil de 2002 remeteu a capacidade dos indígenas à legislação especial. Não há segurança de que a nulidade dos atos praticados sem assistência do órgão tutelar seja ensinável como regra vigente, e a alternativa B também depende desse regime (art. 9º)." },
+  { "id": "08-22", "status": "valida",
+    "explicacoes": [
+      "Correta. É a afirmativa falsa: a redação original do art. 2º, III, da Lei 10.098/2000 abrangia limitação temporária ou permanente; hoje, após a Lei 13.146/15, pessoa com deficiência é a que tem impedimento de longo prazo, e pessoa com mobilidade reduzida é a que tem dificuldade de movimentação permanente ou temporária (art. 2º, III e IV).",
+      "Errada. A afirmativa é verdadeira, logo não é a exceção: o Programa Nacional de Acessibilidade conta com dotação orçamentária específica (art. 22 da Lei 10.098/2000).",
+      "Errada. A afirmativa é verdadeira: o art. 22 da Lei 10.098/2000 instituiu o Programa Nacional de Acessibilidade no âmbito da então Secretaria de Estado de Direitos Humanos do Ministério da Justiça.",
+      "Errada. A afirmativa é verdadeira: os edifícios de uso privado com instalação obrigatória de elevador devem ter percurso acessível que una a edificação à via pública (art. 13, II, da Lei 10.098/2000), exigência de acessibilidade que também alcança os edifícios públicos e de uso coletivo (art. 11)."
+    ] },
+  { "id": "07-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A obrigação alimentar em favor da pessoa idosa é solidária, podendo ela optar entre os prestadores (art. 12 do Estatuto da Pessoa Idosa, Lei 10.741/03).",
+      "Correta. A garantia de prioridade inclui a prioridade no recebimento da restituição do Imposto de Renda (art. 3º, § 1º, IX, da Lei 10.741/03), com prioridade especial para os maiores de 80 anos (art. 3º, § 2º).",
+      "Errada. São vedadas a discriminação e a fixação de limite máximo de idade, inclusive em concursos, ressalvados os casos em que a natureza do cargo o exigir (art. 27 da Lei 10.741/03).",
+      "Errada. A gratuidade aos maiores de 65 anos nos transportes coletivos públicos urbanos e semiurbanos exclui os serviços seletivos e especiais prestados paralelamente aos regulares (art. 39 da Lei 10.741/03; art. 230, § 2º, da CF)."
+    ] },
+  { "id": "07-14", "status": "valida",
+    "explicacoes": [
+      "Errada. O trânsito em julgado demonstra justamente o esgotamento dos recursos internos, que é requisito de admissibilidade (art. 46.1.a da CADH); basta apresentar a petição em até seis meses da notificação da decisão definitiva (art. 46.1.b).",
+      "Errada. A CADH protege a família como elemento natural e fundamental da sociedade (art. 17), além de garantir a igualdade perante a lei (art. 24) e os direitos da criança (art. 19).",
+      "Correta. Esgotados os recursos internos, a petição pode ser admitida (arts. 44 e 46 da CADH), e a mudança legislativa posterior não alcança a coisa julgada nem repara a violação já consumada, de modo que a Comissão pode examinar o mérito.",
+      "Errada. Qualquer pessoa, grupo de pessoas ou entidade não governamental legalmente reconhecida pode apresentar petição à Comissão (art. 44 da CADH); não é preciso ser representado por um Estado."
+    ] },
+  { "id": "07-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A CADH protege o direito à propriedade (art. 21), e a Corte IDH o interpreta como abrangendo a propriedade coletiva de povos indígenas e comunidades tradicionais, como os quilombolas.",
+      "Errada. A soberania não afasta a responsabilidade internacional do Estado que aderiu à CADH: o Brasil se obrigou a respeitar e garantir os direitos nela previstos (arts. 1.1 e 2), e a petição é admissível se preenchidos os requisitos do art. 46.",
+      "Errada. Não se exige representação por ONG voltada ao combate ao racismo: a petição pode ser apresentada pelas próprias vítimas, por grupo de pessoas ou por qualquer entidade não governamental legalmente reconhecida (art. 44 da CADH).",
+      "Correta. Pelo art. 44 da CADH, a petição pode ser apresentada diretamente pelos indivíduos ou por entidade não governamental legalmente reconhecida em um ou mais Estados-membros da OEA, e o caso envolve direitos protegidos pela Convenção, como a proteção da família (art. 17) e a propriedade (art. 21)."
+    ] },
+  { "id": "06-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A CEDAW integra o sistema especial de proteção dos direitos humanos, voltado a grupos vulneráveis, que complementa o sistema geral de proteção.",
+      "Correta. O Protocolo Facultativo à CEDAW (1999), ratificado pelo Brasil (Decreto 4.316/02), permite a apresentação de comunicações (petições) individuais ao Comitê CEDAW e prevê procedimento de investigação.",
+      "Errada. As ações afirmativas são medidas especiais de caráter temporário, que devem cessar quando alcançados os objetivos de igualdade de oportunidade e tratamento (art. 4º, 1, da CEDAW).",
+      "Errada. O texto da CEDAW prevê relatórios periódicos (art. 18) e solução de controvérsias entre Estados por arbitragem ou pela Corte Internacional de Justiça (art. 29); as petições individuais vieram com o Protocolo Facultativo."
+    ] },
+  { "id": "06-14", "status": "valida",
+    "explicacoes": [
+      "Correta. Ambos os Pactos preveem o envio, pelos próprios Estados, de relatórios sobre as medidas adotadas e os progressos alcançados (art. 16 do PIDESC e art. 40 do PIDCP).",
+      "Errada. Não existe nos Pactos mecanismo de 'acusação de regresso'; a vedação do retrocesso é princípio de interpretação, e não instrumento de monitoramento.",
+      "Errada. As comunicações interestatais constam do texto do PIDCP (art. 41), mas não do texto do PIDESC, que só passou a admiti-las com o Protocolo Facultativo de 2008.",
+      "Errada. Os relatórios são elaborados e apresentados pelo próprio Estado-parte sobre sua situação, e não por outro Estado (art. 16 do PIDESC e art. 40 do PIDCP)."
+    ] },
+  { "id": "06-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A CADH não proíbe de forma absoluta a pena de morte: nos países que não a aboliram, ela pode ser imposta para os delitos mais graves, por sentença final de tribunal competente (art. 4.2).",
+      "Errada. Em nenhum caso a pena de morte pode ser aplicada a delitos políticos, nem a delitos comuns conexos com delitos políticos (art. 4.4 da CADH).",
+      "Correta. Não se impõe pena de morte a quem, no momento do delito, tinha menos de 18 ou mais de 70 anos, nem se aplica à mulher em estado de gravidez (art. 4.5 da CADH).",
+      "Errada. A CADH proíbe restabelecer a pena de morte nos Estados que a tenham abolido (art. 4.3) e estendê-la a delitos aos quais não se aplique atualmente (art. 4.2)."
+    ] },
+  { "id": "05-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A internacionalização dos direitos humanos é fenômeno do pós-Segunda Guerra, marcado pela Carta da ONU (1945) e pela DUDH (1948); antes disso havia apenas precedentes, como o Direito Humanitário, a Liga das Nações e a OIT.",
+      "Errada. A previsão constitucional de limitação do poder não basta, por si só, para garantir os direitos humanos; por isso se desenvolveu a proteção internacional, complementar e subsidiária à interna.",
+      "Correta. As normas internacionais de proteção permitem responsabilizar o Estado quando as normas e instituições nacionais forem omissas ou falharem na proteção dos direitos humanos.",
+      "Errada. Com a internacionalização, o indivíduo passou a ser reconhecido como sujeito de direito internacional, com capacidade inclusive de peticionar a órgãos internacionais (por exemplo, art. 44 da CADH)."
+    ] },
+  { "id": "05-14", "status": "valida",
+    "explicacoes": [
+      "Errada. A Constituição de 1946 marcou a redemocratização após o Estado Novo, restaurando direitos e garantias individuais e mantendo os direitos sociais.",
+      "Correta. A Constituição de 1967, elaborada sob o regime militar, incorporou e institucionalizou medidas dos Atos Institucionais, como a eleição indireta e o fortalecimento do Executivo, representando retrocesso em direitos humanos.",
+      "Errada. A Constituição de 1934, inspirada na Constituição de Weimar, foi a primeira brasileira a prever direitos sociais e normas de proteção ao trabalhador, como salário mínimo, jornada de oito horas e férias.",
+      "Errada. A EC 1/1969, editada pela Junta Militar após o AI-5, endureceu ainda mais o regime e é considerada mais autoritária que o texto de 1967."
+    ] },
+  { "id": "05-15", "status": "valida",
+    "explicacoes": [
+      "Correta. É a redação do art. 109, § 5º, da CF (EC 45/04): nas hipóteses de grave violação de direitos humanos, o Procurador-Geral da República pode suscitar perante o STJ o deslocamento de competência para a Justiça Federal.",
+      "Errada. O IDC está ligado à efetividade da proteção e à razoável duração do processo (art. 5º, LXXVIII, também inserido pela EC 45/04): o STJ admite o deslocamento quando as instâncias locais se mostram omissas, lentas ou incapazes na apuração.",
+      "Errada. O IDC tem caráter preventivo: busca evitar a responsabilização internacional do Brasil, não exigindo que ela já tenha ocorrido.",
+      "Errada. O IDC está previsto na própria Constituição e, segundo o STJ (IDC 1 e IDC 2), é compatível com o pacto federativo por ser medida excepcional e subsidiária, cabível apenas diante da incapacidade das instâncias estaduais."
+    ] },
+  { "id": "04-13", "status": "valida",
+    "explicacoes": [
+      "Errada. Status de lei ordinária têm os tratados internacionais comuns, que não versam sobre direitos humanos.",
+      "Correta. Tratados de direitos humanos aprovados em cada Casa do Congresso, em dois turnos, por três quintos dos votos equivalem às emendas constitucionais (art. 5º, § 3º, da CF), caso da Convenção sobre os Direitos das Pessoas com Deficiência (Decreto Legislativo 186/08 e Decreto 6.949/09).",
+      "Errada. Não há tratado internalizado com status de lei complementar; a hierarquia depende do conteúdo do tratado e do rito de aprovação.",
+      "Errada. O status supralegal é o dos tratados de direitos humanos aprovados sem o rito do art. 5º, § 3º, da CF (STF, RE 466.343), o que não é o caso desta Convenção."
+    ] },
+  { "id": "04-14", "status": "duvidosa",
+    "motivo": "A alternativa B, tida como errada pelo gabarito, tornou-se discutível: o texto original da CADH tem um capítulo intitulado 'Direitos Econômicos, Sociais e Culturais' (art. 26), e desde o caso Lagos del Campo vs. Peru (2017) a Corte IDH reconhece a justiciabilidade direta desses direitos com base nesse artigo. Há risco de duas respostas defensáveis (B e C)." },
+  { "id": "04-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A prática do racismo constitui crime inafiançável (art. 5º, XLII, da CF).",
+      "Errada. O racismo é imprescritível, não havendo prazo de prescrição (art. 5º, XLII, da CF).",
+      "Errada. O crime de racismo está sujeito à pena de reclusão, nos termos da lei (art. 5º, XLII, da CF; Lei 7.716/89).",
+      "Correta. A CF dispõe que a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão (art. 5º, XLII); a Lei 14.532/23 ainda equiparou a injúria racial ao racismo (art. 2º-A da Lei 7.716/89)."
+    ] }
+]

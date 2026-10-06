@@ -197,3 +197,6 @@ details.card > summary { cursor: pointer; }
 details.gab > summary { cursor: pointer; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 details.gab .alt { cursor: default; }
 details.gab .why { color: var(--text); opacity: .85; }
+
+.aula-off { opacity: .55; }
+.aula-off h3 { font-weight: 600; }

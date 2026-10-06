@@ -1,0 +1,277 @@
+[
+  { "id": "31-76", "status": "valida",
+    "explicacoes": [
+      "Errada. A citação para pagar em 48 horas é o ato inicial da execução contra o devedor (art. 880 da CLT), não do incidente de desconsideração; no IDPJ o sócio é citado para se defender (art. 135 do CPC, aplicado pelo art. 855-A da CLT).",
+      "Correta. O art. 855-A da CLT manda aplicar ao processo do trabalho o IDPJ dos arts. 133 a 137 do CPC; instaurado o incidente, o sócio é citado para se manifestar e requerer as provas cabíveis em 15 dias (art. 135 do CPC).",
+      "Errada. O contraditório prévio é obrigatório no IDPJ (art. 135 do CPC); o que a CLT admite, com a suspensão do processo, é a tutela de urgência cautelar (art. 855-A, §2º), e não o bloqueio sem citação como regra.",
+      "Errada. Não há previsão de vista prévia ao Ministério Público do Trabalho no incidente; o rito é o dos arts. 133 a 137 do CPC, com citação do sócio e decisão interlocutória ao final."
+    ] },
+  { "id": "31-77", "status": "valida",
+    "explicacoes": [
+      "Errada. Ajuizar ação com acordo já combinado e advogado indicado e pago pela empresa configura lide simulada, vedada (art. 142 do CPC); a via adequada é a homologação de acordo extrajudicial (arts. 855-B a 855-E da CLT).",
+      "Correta. O processo de homologação de acordo extrajudicial começa por petição conjunta, sendo obrigatória a representação das partes por advogado, que não pode ser comum (art. 855-B, caput e §1º, da CLT).",
+      "Errada. O jus postulandi não se aplica ao acordo extrajudicial: a representação por advogado é obrigatória (art. 855-B da CLT); o trabalhador pode ser assistido pelo advogado do sindicato (§2º).",
+      "Errada. É vedado o advogado comum às partes no acordo extrajudicial (art. 855-B, §1º, da CLT)."
+    ] },
+  { "id": "31-78", "status": "valida",
+    "explicacoes": [
+      "Errada. Nas reclamações plúrimas e ações de cumprimento os empregados podem ser representados pelo sindicato (art. 843, caput, da CLT), e João, por doença ou motivo poderoso, pode ser representado por colega de profissão ou pelo sindicato (art. 843, §2º).",
+      "Errada. João não precisa comparecer em qualquer hipótese: o art. 843, §2º, da CLT admite sua representação por empregado da mesma profissão ou pelo sindicato em caso de doença ou motivo poderoso comprovado; e a empresa pode fazer-se substituir pelo gerente ou por preposto (§1º).",
+      "Correta. Reproduz o art. 843 da CLT: representação pelo sindicato nas plúrimas e ações de cumprimento (caput), representação do empregado impedido por motivo poderoso (§2º) e preposto que não precisa ser empregado (§3º, incluído pela Lei 13.467/17).",
+      "Errada. Desde a Reforma Trabalhista, o preposto não precisa ser empregado da reclamada (art. 843, §3º, da CLT)."
+    ] },
+  { "id": "31-79", "status": "valida",
+    "explicacoes": [
+      "Errada. No processo do trabalho, o agravo de instrumento serve apenas para destrancar recurso que teve seguimento negado (art. 897, 'b', da CLT).",
+      "Correta. Contra acórdão de TRT em processo de sua competência originária, como o mandado de segurança, cabe recurso ordinário para o TST (art. 895, II, da CLT; Súmula 201 do TST).",
+      "Errada. O agravo de petição é o recurso contra decisões do juiz na execução (art. 897, 'a', da CLT).",
+      "Errada. O recurso de revista cabe contra acórdãos de TRT proferidos em grau de recurso ordinário (art. 896 da CLT), não em ações de competência originária do tribunal."
+    ] },
+  { "id": "31-80", "status": "valida",
+    "explicacoes": [
+      "Errada. O empregador doméstico não está dispensado do depósito recursal; tem apenas a redução pela metade (art. 899, §9º, da CLT).",
+      "Errada. O depósito recursal do empregador doméstico é reduzido pela metade (art. 899, §9º, da CLT); só as custas são recolhidas integralmente.",
+      "Errada. As custas devem ser pagas e comprovadas no prazo do recurso por quem não é beneficiário da justiça gratuita (art. 789, §1º, da CLT), e o empregador doméstico não tem isenção.",
+      "Correta. O empregador doméstico recolhe as custas integralmente (art. 789 da CLT) e o depósito recursal pela metade (art. 899, §9º, da CLT, incluído pela Lei 13.467/17)."
+    ] },
+  { "id": "30-76", "status": "valida",
+    "explicacoes": [
+      "Errada. O processo não fica parado indefinidamente: a inércia do exequente em cumprir determinação judicial faz correr a prescrição intercorrente (art. 11-A, §1º, da CLT).",
+      "Errada. A prescrição intercorrente pode ser requerida ou declarada de ofício, em qualquer grau de jurisdição (art. 11-A, §2º, da CLT).",
+      "Correta. A prescrição intercorrente no processo do trabalho ocorre em 2 anos e começa a fluir quando o exequente deixa de cumprir determinação judicial no curso da execução (art. 11-A, caput e §1º, da CLT).",
+      "Errada. O prazo começa a fluir com o descumprimento da determinação judicial já feita (art. 11-A, §1º, da CLT), sem necessidade de nova intimação para iniciá-lo."
+    ] },
+  { "id": "30-77", "status": "valida",
+    "explicacoes": [
+      "Errada. O rito sumaríssimo não vale para qualquer parte: estão excluídas as demandas em que é parte a Administração Pública direta, autárquica e fundacional (art. 852-A, parágrafo único, da CLT).",
+      "Correta. Embora o valor seja inferior a 40 salários mínimos, a presença da União no polo passivo afasta o sumaríssimo (art. 852-A, parágrafo único, da CLT), e a ação segue o rito ordinário.",
+      "Errada. A vedação da citação por edital é própria do rito sumaríssimo (art. 852-B, II, da CLT); no rito ordinário ela é admitida (art. 841, §1º, da CLT).",
+      "Errada. A ação não segue o sumaríssimo e, nesse rito, cada parte pode ouvir no máximo duas testemunhas (art. 852-H, §2º, da CLT)."
+    ] },
+  { "id": "30-78", "status": "valida",
+    "explicacoes": [
+      "Correta. Elaborada a conta, o juiz deve abrir às partes prazo comum de 8 dias para impugnação fundamentada, sob pena de preclusão (art. 879, §2º, da CLT); homologar sem essa vista viola a lei.",
+      "Errada. A celeridade não autoriza suprimir o contraditório que a CLT tornou obrigatório na liquidação (art. 879, §2º).",
+      "Errada. A CLT disciplina a liquidação no art. 879, inclusive com prazo obrigatório de 8 dias para as partes impugnarem os cálculos.",
+      "Errada. O prazo das partes é de 8 dias (art. 879, §2º, da CLT); a intimação é da União, e não do INSS, com prazo de 10 dias (art. 879, §3º)."
+    ] },
+  { "id": "30-79", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão que nega a homologação do acordo extrajudicial encerra o procedimento e tem natureza de sentença (art. 855-D da CLT), sendo recorrível.",
+      "Correta. Contra a sentença que recusa a homologação do acordo extrajudicial cabe recurso ordinário (arts. 855-D e 895, I, da CLT).",
+      "Errada. Havendo recurso próprio (recurso ordinário), não cabe mandado de segurança (art. 5º, II, da Lei 12.016/09); além disso, homologar acordo é faculdade do juiz, sem direito líquido e certo (Súmula 418 do TST).",
+      "Errada. Repetir o pedido em outra Vara para escolher o juiz ofende o juiz natural e a regra de prevenção (art. 286, II, do CPC); a via correta é o recurso ordinário."
+    ] },
+  { "id": "30-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A entidade sem fins lucrativos (Instituição ABCD) tem apenas redução de metade do depósito recursal (art. 899, §9º, da CLT); só a filantrópica é isenta (§10).",
+      "Errada. Empregador doméstico, microempreendedor individual e entidade sem fins lucrativos têm o depósito reduzido pela metade, e não isenção (art. 899, §9º, da CLT).",
+      "Correta. São isentos do depósito recursal os beneficiários da justiça gratuita, as entidades filantrópicas e as empresas em recuperação judicial (art. 899, §10, da CLT); entre as quatro, só o Instituto Sonhar.",
+      "Errada. Microempreendedor individual e empregador doméstico apenas recolhem o depósito recursal pela metade (art. 899, §9º, da CLT)."
+    ] },
+  { "id": "29-76", "status": "valida",
+    "explicacoes": [
+      "Correta. Contra a sentença que julga os embargos à execução e a impugnação à liquidação cabe agravo de petição (arts. 884, §4º, e 897, 'a', da CLT), e o recurso adesivo é compatível com o agravo de petição (Súmula 283 do TST).",
+      "Errada. Mesmo sem ter recorrido no prazo próprio, a executada pode aderir ao agravo de petição do exequente, no prazo de 8 dias das contrarrazões (Súmula 283 do TST; art. 997, §2º, do CPC).",
+      "Errada. Na execução, o recurso contra a decisão dos embargos e da impugnação é o agravo de petição (art. 897, 'a', da CLT), não o recurso de revista, e a executada ainda pode recorrer adesivamente.",
+      "Errada. O recurso ordinário é cabível contra decisões definitivas ou terminativas da fase de conhecimento (art. 895 da CLT); na execução, o recurso próprio é o agravo de petição."
+    ] },
+  { "id": "29-77", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há exceção para a sociedade anônima: o preposto não precisa ser empregado da reclamada (art. 843, §3º, da CLT).",
+      "Correta. Como o preposto não precisa ser empregado (art. 843, §3º, da CLT), a revelia foi indevida, e a sentença deve ser atacada por recurso ordinário em 8 dias (art. 895, I, da CLT).",
+      "Errada. Havendo recurso próprio contra a sentença (recurso ordinário), não cabe mandado de segurança (art. 5º, II, da Lei 12.016/09; OJ 92 da SDI-2 do TST).",
+      "Errada. A CLT não deixa a critério do juiz aceitar ou não preposto não empregado (art. 843, §3º), e pedido de reconsideração não é recurso nem interrompe o prazo recursal."
+    ] },
+  { "id": "29-78", "status": "valida",
+    "explicacoes": [
+      "Errada. Depois de oferecida a contestação, a desistência depende do consentimento do reclamado (art. 841, §3º, da CLT).",
+      "Errada. A desistência é possível, mas, após a contestação, exige a concordância do réu (art. 841, §3º, da CLT).",
+      "Correta. Oferecida a contestação, ainda que eletronicamente, o reclamante não pode desistir da ação sem o consentimento do reclamado (art. 841, §3º, da CLT, incluído pela Lei 13.467/17).",
+      "Errada. O oferecimento da defesa é justamente o marco a partir do qual a desistência exige a anuência do réu (art. 841, §3º, da CLT)."
+    ] },
+  { "id": "29-79", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT prevê processo de jurisdição voluntária para homologação de acordo extrajudicial (arts. 855-B a 855-E).",
+      "Correta. A decisão que nega a homologação do acordo extrajudicial é sentença (art. 855-D da CLT), impugnável por recurso ordinário (art. 895, I, da CLT).",
+      "Errada. Repropor a ação para buscar outro juízo afronta a regra de prevenção (art. 286, II, do CPC); o meio adequado de impugnação é o recurso ordinário.",
+      "Errada. Embora o juiz não seja obrigado a homologar acordo (Súmula 418 do TST), a decisão que recusa a homologação é sentença e pode ser impugnada por recurso ordinário."
+    ] },
+  { "id": "29-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A autorização para trabalho artístico de criança é da Justiça Comum (Juízo da Infância e da Juventude), conforme decidido pelo STF na ADI 5326, e a cobrança de honorários contratuais de advogado é da Justiça Estadual (Súmula 363 do STJ).",
+      "Errada. A ação para converter auxílio-doença comum em acidentário é movida contra o INSS na Justiça Estadual (art. 109, I, da CF; Súmula 15 do STJ e Súmula 501 do STF).",
+      "Errada. Nem o pedido de Victor (Justiça Comum, ADI 5326) nem o de Regis (ação acidentária contra o INSS, art. 109, I, da CF) são da competência da Justiça do Trabalho.",
+      "Correta. Compete à Justiça do Trabalho julgar as ações relativas às penalidades administrativas impostas aos empregadores pelos órgãos de fiscalização das relações de trabalho (art. 114, VII, da CF), como a anulação do auto de infração da FFX Ltda."
+    ] },
+  { "id": "28-76", "status": "valida",
+    "explicacoes": [
+      "Correta. A vista à parte contrária só é exigida quando os embargos puderem ter efeito modificativo (art. 897-A, §2º, da CLT); o erro material, como número do processo e nome das partes, pode ser corrigido até de ofício (art. 897-A, §1º).",
+      "Errada. A CLT trata do tema no art. 897-A, exigindo vista à parte contrária apenas diante de possível efeito modificativo.",
+      "Errada. Havendo possibilidade de efeito modificativo, a parte contrária deve ser ouvida no prazo de 5 dias, e não de 8 (art. 897-A, §2º, da CLT).",
+      "Errada. O contraditório nos embargos de declaração só é obrigatório quando houver possível efeito modificativo, e o prazo é de 5 dias (art. 897-A, §2º, da CLT)."
+    ] },
+  { "id": "28-77", "status": "valida",
+    "explicacoes": [
+      "Errada. Apelação é recurso do processo civil (art. 1.009 do CPC), não existe no processo do trabalho.",
+      "Errada. O recurso ordinário ataca decisões definitivas ou terminativas da fase de conhecimento (art. 895 da CLT); a decisão proferida na execução desafia agravo de petição.",
+      "Errada. No processo do trabalho, o agravo de instrumento serve apenas para destrancar recurso que teve seguimento negado (art. 897, 'b', da CLT).",
+      "Correta. Das decisões do juiz na execução cabe agravo de petição (art. 897, 'a', da CLT); a decisão que acolhe a exceção de pré-executividade e anula a execução põe fim a essa fase e é impugnável por esse recurso."
+    ] },
+  { "id": "28-78", "status": "valida",
+    "explicacoes": [
+      "Correta. Empregados e empregadores podem firmar, na vigência ou não do contrato, termo de quitação anual de obrigações trabalhistas perante o sindicato dos empregados da categoria (art. 507-B da CLT).",
+      "Errada. A CLT admite quitações extrajudiciais válidas, como o termo anual de quitação (art. 507-B) e o acordo extrajudicial homologado (arts. 855-B a 855-E).",
+      "Errada. O termo de quitação anual deve ser firmado perante o sindicato dos empregados, e não o patronal (art. 507-B da CLT).",
+      "Errada. Não basta o mútuo consentimento: o termo deve ser firmado perante o sindicato dos empregados, que discrimina as obrigações cumpridas (art. 507-B e parágrafo único da CLT)."
+    ] },
+  { "id": "28-79", "status": "valida",
+    "explicacoes": [
+      "Errada. O dirigente sindical tem estabilidade e só pode ser dispensado por falta grave apurada em inquérito judicial (art. 543, §3º, da CLT; Súmula 379 do TST).",
+      "Errada. A autoridade policial não autoriza dispensa; a falta grave do dirigente sindical deve ser apurada em inquérito judicial na Justiça do Trabalho (arts. 494 e 853 da CLT).",
+      "Correta. O empregador pode suspender o dirigente e deve ajuizar o inquérito para apuração de falta grave em até 30 dias da suspensão (arts. 494 e 853 da CLT; Súmula 379 do TST; Súmula 403 do STF).",
+      "Errada. A imediatidade exige reação em prazo razoável, não necessariamente no mesmo dia; buscar orientação no dia seguinte não caracteriza perdão tácito."
+    ] },
+  { "id": "28-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A Súmula 214, 'c', do TST admite recurso imediato contra a decisão que acolhe exceção de incompetência territorial e remete os autos para TRT distinto.",
+      "Correta. Remetidos os autos de São Paulo para Goiânia, vinculada a outro TRT, cabe recurso ordinário imediato, no prazo de 8 dias (Súmula 214, 'c', do TST; arts. 799, §2º, e 895, I, da CLT).",
+      "Errada. Existindo recurso próprio (recurso ordinário, Súmula 214, 'c', do TST), não cabe mandado de segurança (OJ 92 da SDI-2 do TST).",
+      "Errada. O agravo de petição é cabível contra decisões na execução (art. 897, 'a', da CLT), e o processo está na fase de conhecimento."
+    ] },
+  { "id": "27-77", "status": "valida",
+    "explicacoes": [
+      "Correta. A causa de Juca, de até 40 salários mínimos e entre particulares, segue o sumaríssimo (art. 852-A da CLT); a de Paulo, apesar do valor, segue o ordinário porque o Município, da Administração direta, é parte (art. 852-A, parágrafo único).",
+      "Errada. A presença do Município no polo passivo exclui a causa de Paulo do sumaríssimo (art. 852-A, parágrafo único, da CLT).",
+      "Errada. A causa de Juca, entre particulares e de valor até 40 salários mínimos, deve seguir o sumaríssimo (art. 852-A da CLT).",
+      "Errada. É o inverso: Juca no sumaríssimo e Paulo no ordinário (art. 852-A e parágrafo único da CLT)."
+    ] },
+  { "id": "27-78", "status": "valida",
+    "explicacoes": [
+      "Errada. A inscrição no BNDT não é imediata: só pode ocorrer depois de 45 dias da citação sem garantia do juízo (art. 883-A da CLT).",
+      "Errada. A lei fixa o momento: 45 dias contados da citação do executado, se não houver garantia do juízo (art. 883-A da CLT).",
+      "Errada. O BNDT continua em uso pela Justiça do Trabalho, inclusive para a emissão da Certidão Negativa de Débitos Trabalhistas (arts. 642-A e 883-A da CLT).",
+      "Correta. Protesto, inscrição em cadastros de crédito e inscrição no BNDT só podem ocorrer depois de 45 dias da citação, se não houver garantia do juízo (art. 883-A da CLT); a tentativa de bloqueio de valores após o prazo para pagar, porém, é regular."
+    ] },
+  { "id": "27-79", "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a Lei 13.467/17, são devidos honorários de sucumbência ao advogado particular, sem exigência de assistência sindical (art. 791-A da CLT).",
+      "Errada. A faixa de 10% a 20% é a do CPC (art. 85, §2º); no processo do trabalho os honorários de sucumbência são de 5% a 15% (art. 791-A da CLT).",
+      "Correta. Na ação ajuizada após a Reforma Trabalhista, os honorários de sucumbência são fixados entre 5% e 15% sobre o valor da liquidação, do proveito econômico ou da causa (art. 791-A da CLT).",
+      "Errada. Os honorários de sucumbência não dependem de a assistência ser gratuita, e o limite máximo é de 15% (art. 791-A da CLT)."
+    ] },
+  { "id": "27-80", "status": "valida",
+    "explicacoes": [
+      "Errada. Não cabe recurso ordinário contra decisão interlocutória (Súmula 214 do TST), e a medida cautelar não é a via para reverter o indeferimento da tutela.",
+      "Errada. A irrecorribilidade imediata das interlocutórias não deixa a parte sem meio: contra tutela provisória concedida ou indeferida antes da sentença cabe mandado de segurança (Súmula 414, II, do TST).",
+      "Correta. Indeferida a tutela de urgência antes da sentença, cabe mandado de segurança, por inexistir recurso próprio (Súmula 414, II, do TST).",
+      "Errada. No processo do trabalho, o agravo de instrumento só serve para destrancar recurso (art. 897, 'b', da CLT); não há agravo contra decisão interlocutória sobre tutela de urgência."
+    ] },
+  { "id": "26-76", "status": "valida",
+    "explicacoes": [
+      "Correta. Presume-se recebida a notificação 48 horas depois de sua postagem, e o não recebimento ou a entrega após esse prazo é ônus de prova do destinatário (Súmula 16 do TST); é esse o fundamento do pedido de revelia e confissão (art. 844 da CLT).",
+      "Errada. A revelia pressupõe citação válida; sem citação, a ausência do réu não gera revelia nem confissão (arts. 841 e 844 da CLT).",
+      "Errada. Não é preciso confirmação nos autos: a notificação postal presume-se recebida 48 horas após a postagem (Súmula 16 do TST).",
+      "Errada. A presunção de recebimento é relativa e admite prova em contrário pelo destinatário (Súmula 16 do TST)."
+    ] },
+  { "id": "26-77", "status": "valida",
+    "explicacoes": [
+      "Errada. O revel pode recorrer, pois pode intervir no processo em qualquer fase (art. 346, parágrafo único, do CPC); a revelia não impede o recurso ordinário.",
+      "Errada. O recolhimento insuficiente das custas ou do depósito recursal pode ser sanado, com prazo de 5 dias para complementação (OJ 140 da SDI-1 do TST; art. 1.007, §2º, do CPC).",
+      "Correta. Em caso de recolhimento insuficiente das custas ou do depósito recursal, só haverá deserção se, concedido o prazo de 5 dias, o recorrente não complementar e comprovar o valor devido (OJ 140 da SDI-1 do TST; art. 1.007, §2º, do CPC).",
+      "Errada. A OJ 140 da SDI-1 do TST abrange tanto as custas quanto o depósito recursal, com o mesmo prazo de 5 dias para complementação."
+    ] },
+  { "id": "26-78", "status": "valida",
+    "explicacoes": [
+      "Correta. A exigência de garantia ou penhora para os embargos não se aplica às entidades filantrópicas (art. 884, §6º, da CLT, incluído pela Lei 13.467/17).",
+      "Errada. A regra geral da garantia do juízo para embargar (art. 884 da CLT) é afastada para as entidades filantrópicas (art. 884, §6º).",
+      "Errada. Não há garantia de 50%: a entidade filantrópica está dispensada de qualquer garantia para embargar (art. 884, §6º, da CLT).",
+      "Errada. A entidade sem fins lucrativos que admite trabalhadores como empregados equipara-se a empregador (art. 2º, §1º, da CLT), e os embargos seguem o prazo de 5 dias (art. 884)."
+    ] },
+  { "id": "26-79", "status": "valida",
+    "explicacoes": [
+      "Errada. A empresa é a autora da consignação; a revelia é efeito da ausência do réu, e não do autor (art. 844 da CLT).",
+      "Errada. Ausente o autor sem justificativa, a CLT não manda remarcar a audiência, e sim arquivar a reclamação (art. 844 da CLT).",
+      "Correta. O não comparecimento do reclamante, aqui a empresa autora da consignação em pagamento, à audiência importa o arquivamento da reclamação (art. 844 da CLT).",
+      "Errada. A ausência do autor à audiência inaugural ou una gera arquivamento (art. 844 da CLT); a confissão ficta do autor ocorre quando, intimado para depor, falta à audiência de prosseguimento (Súmula 74, I, do TST)."
+    ] },
+  { "id": "26-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A vontade das partes não basta: o acordo extrajudicial exige petição conjunta com advogados distintos para cada parte (art. 855-B, §1º, da CLT).",
+      "Correta. No processo de homologação de acordo extrajudicial, as partes não podem ser representadas por advogado comum (art. 855-B, §1º, da CLT).",
+      "Errada. A CLT prevê processo de jurisdição voluntária para homologação de acordo extrajudicial (arts. 855-B a 855-E).",
+      "Errada. Não há exigência salarial para o acordo extrajudicial; o critério de duas vezes o teto do RGPS se refere ao empregado hipersuficiente (art. 444, parágrafo único, da CLT)."
+    ] },
+  { "id": "25-77", "status": "valida",
+    "explicacoes": [
+      "Errada. A suspensão decorrente da recuperação judicial atinge as execuções (art. 6º, II e §4º, da Lei 11.101/05); as ações que demandam quantia ilíquida e as trabalhistas prosseguem até a apuração do crédito (art. 6º, §§1º e 2º).",
+      "Errada. A Lei 11.101/05 disciplina o tema no art. 6º, inclusive quanto às ações de natureza trabalhista (§2º).",
+      "Correta. A reclamação trabalhista na fase de conhecimento prossegue na Justiça do Trabalho até a apuração do crédito, que depois será inscrito no quadro-geral de credores; a suspensão alcança as execuções (art. 6º, II, §§1º, 2º e 4º, da Lei 11.101/05).",
+      "Errada. A Justiça do Trabalho continua competente para processar a ação trabalhista até a apuração do crédito (art. 6º, §2º, da Lei 11.101/05; art. 114 da CF)."
+    ] },
+  { "id": "25-78", "status": "valida",
+    "explicacoes": [
+      "Errada. O privilégio da massa falida não se estende à empresa em liquidação extrajudicial, que deve recolher custas e depósito recursal (Súmula 86 do TST).",
+      "Correta. Não ocorre deserção do recurso da massa falida por falta de custas ou de depósito recursal, mas esse privilégio não se aplica à empresa em liquidação extrajudicial (Súmula 86 do TST).",
+      "Errada. A massa falida está dispensada das custas e do depósito recursal (Súmula 86 do TST).",
+      "Errada. A massa falida não precisa recolher nem custas nem depósito recursal (Súmula 86 do TST)."
+    ] },
+  { "id": "25-79", "status": "valida",
+    "explicacoes": [
+      "Errada. A conferência do calculista não substitui o contraditório: o juiz deve abrir às partes prazo comum de 8 dias para impugnação (art. 879, §2º, da CLT).",
+      "Correta. Desde a Lei 13.467/17, elaborada a conta, o juiz deve abrir às partes prazo comum de 8 dias para impugnação fundamentada, sob pena de preclusão (art. 879, §2º, da CLT).",
+      "Errada. O poder de direção do processo não autoriza descumprir norma expressa que impõe a vista dos cálculos às partes (art. 879, §2º, da CLT).",
+      "Errada. A antiga faculdade de abrir prazo sucessivo de 10 dias foi substituída pelo dever de abrir prazo comum de 8 dias (art. 879, §2º, da CLT, com redação da Lei 13.467/17)."
+    ] },
+  { "id": "25-80", "status": "valida",
+    "explicacoes": [
+      "Correta. Contra acórdão de TRT em ação rescisória, de sua competência originária, cabe recurso ordinário para o TST (art. 895, II, da CLT; Súmula 158 do TST).",
+      "Errada. O recurso de revista cabe contra acórdãos de TRT proferidos em recurso ordinário (art. 896 da CLT), não em ação de competência originária.",
+      "Errada. O recurso especial é dirigido ao STJ e não é cabível contra decisões da Justiça do Trabalho.",
+      "Errada. No processo do trabalho, o agravo de instrumento serve apenas para destrancar recurso com seguimento negado (art. 897, 'b', da CLT)."
+    ] },
+  { "id": "24-76", "status": "valida",
+    "explicacoes": [
+      "Correta. Extinto o contrato em janeiro de 2013, o prazo bienal (art. 7º, XXIX, da CF; art. 11 da CLT) terminou no início de 2015, mesmo com a projeção do aviso prévio (OJ 83 da SDI-1), antes do protesto de junho de 2015, que não podia interromper prazo já consumado.",
+      "Errada. O protesto judicial interrompe a prescrição (OJ 392 da SDI-1 do TST), mas só se ajuizado antes do fim do prazo; aqui ele veio depois de esgotado o biênio.",
+      "Errada. O protesto judicial é cabível no processo do trabalho (OJ 392 da SDI-1 do TST); a prescrição ocorreu porque ele foi ajuizado tarde demais.",
+      "Errada. Não há regra que suspenda a prescrição trabalhista para maiores de 60 anos; o que a CLT prevê é que não corre prescrição contra menores de 18 anos (art. 440)."
+    ] },
+  { "id": "24-77", "status": "desatualizada",
+    "motivo": "Na época (XXIV Exame, 2017), o art. 819, §2º, da CLT atribuía as despesas com intérprete à parte interessada no depoimento, daí o gabarito A. A Lei 13.660/18 alterou o dispositivo: hoje essas despesas correm por conta da parte sucumbente, salvo se beneficiária da justiça gratuita. Assim, a alternativa A deixou de ser correta e nenhuma outra traz a regra atual." },
+  { "id": "24-78", "status": "valida",
+    "explicacoes": [
+      "Correta. Contra acórdão de TRT que denega mandado de segurança de sua competência originária cabe recurso ordinário para o TST (art. 895, II, da CLT; Súmula 201 do TST).",
+      "Errada. Não há agravo de instrumento para o STF nessa hipótese; o recurso cabível contra o acórdão do TRT em mandado de segurança é o recurso ordinário para o TST.",
+      "Errada. O agravo interno impugna decisão monocrática do relator (art. 1.021 do CPC), e a decisão aqui foi colegiada, por unanimidade.",
+      "Errada. A decisão é recorrível por recurso ordinário ao TST (art. 895, II, da CLT; Súmula 201 do TST)."
+    ] },
+  { "id": "24-79", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT tem regra própria (art. 820), o que afasta a aplicação subsidiária do sistema direto do art. 459 do CPC (art. 769 da CLT).",
+      "Errada. A CLT disciplina a inquirição no art. 820, adotando o sistema indireto.",
+      "Errada. A CLT não prevê sistema híbrido: partes e testemunhas são inquiridas pelo juiz e reinquiridas por seu intermédio (art. 820).",
+      "Correta. Pelo art. 820 da CLT, partes e testemunhas são inquiridas pelo juiz e podem ser reinquiridas, por seu intermédio, a requerimento das partes ou de seus advogados (sistema indireto ou presidencial)."
+    ] },
+  { "id": "24-80", "status": "valida",
+    "explicacoes": [
+      "Correta. Aberto prazo para impugnar a conta e mantendo-se o réu inerte, opera-se a preclusão (art. 879, §2º, da CLT, que hoje fixa prazo comum de 8 dias), e ele não pode rediscutir os cálculos nos embargos; cabe ao autor arguir a preclusão e defender a conta homologada.",
+      "Errada. Limitar-se a defender a conta deixa de arguir a preclusão, principal defesa diante da inércia do réu na fase de liquidação (art. 879, §2º, da CLT).",
+      "Errada. Os embargos foram opostos dentro do prazo de 5 dias após a garantia do juízo (art. 884 da CLT), logo são tempestivos.",
+      "Errada. A resposta deve arguir a preclusão quanto aos cálculos (art. 879, §2º, da CLT); defender apenas a correção da conta deixa de lado esse fundamento."
+    ] },
+  { "id": "23-77", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT tem regra própria: os embargos à execução pressupõem execução garantida ou bens penhorados (art. 884 da CLT), o que afasta o art. 914 do CPC.",
+      "Errada. A CLT não prevê garantia de 50%; exige-se a garantia da execução (arts. 882 e 884 da CLT), salvo exceções legais, como as entidades filantrópicas (art. 884, §6º).",
+      "Correta. Sem garantir a execução ou ter bens penhorados, o executado não pode opor embargos à execução (art. 884 da CLT), e as matérias alegadas não serão apreciadas naquele momento.",
+      "Errada. A CLT não impõe ao embargante declarar e depositar o valor que entende devido; a exigência é a garantia do juízo (art. 884 da CLT)."
+    ] },
+  { "id": "23-78", "status": "valida",
+    "explicacoes": [
+      "Errada. O jus postulandi não alcança os recursos de competência do TST (Súmula 425 do TST), de modo que o recurso de revista interposto pela própria parte, sem advogado, não será conhecido.",
+      "Errada. Do acórdão do TRT cabe recurso de revista ao TST, inclusive por violação direta da Constituição (art. 896, 'c', da CLT); o recurso extraordinário ao STF só cabe depois de esgotadas as instâncias trabalhistas.",
+      "Errada. Do acórdão do TRT em recurso ordinário cabe recurso de revista (art. 896 da CLT).",
+      "Correta. O jus postulandi limita-se às Varas do Trabalho e aos TRTs e não alcança os recursos de competência do TST (Súmula 425 do TST); o recurso de revista subscrito pela própria parte padece de irregularidade de representação."
+    ] }
+]

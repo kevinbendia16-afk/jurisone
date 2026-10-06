@@ -1,0 +1,402 @@
+[
+  {
+    "id": "47-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Declaração Universal de 1948 é resolução da Assembleia Geral da ONU, não tratado; por isso não passa pelo processo de incorporação do art. 5º, § 3º, da CF.",
+      "Errada. O Pacto de São José foi incorporado em 1992 (Decreto 678/1992), antes da EC 45/2004, e tem status supralegal segundo o STF (RE 466.343).",
+      "Errada. A Convenção de Belém do Pará foi promulgada pelo Decreto 1.973/1996, sem o rito do § 3º, e por isso tem status supralegal, não de emenda constitucional.",
+      "Correta. O Tratado de Marraqueche foi aprovado pelo rito do art. 5º, § 3º, da CF (Decreto Legislativo 261/2015; Decreto 9.522/2018), ao lado da Convenção sobre os Direitos das Pessoas com Deficiência e da Convenção Interamericana contra o Racismo."
+    ]
+  },
+  {
+    "id": "47-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Pelo art. 11 do Estatuto de Roma, o TPI só tem competência sobre crimes cometidos após a entrada em vigor do Estatuto (1º/07/2002) ou, para o Estado que aderir depois, após a entrada em vigor para ele, salvo declaração do art. 12, § 3º.",
+      "Errada. O Juízo de Instrução pode expedir mandado de detenção a pedido do procurador (art. 58 do Estatuto de Roma).",
+      "Errada. O procurador pode abrir inquérito por iniciativa própria (proprio motu), com base em informações recebidas, mediante autorização do Juízo de Instrução (art. 15 do Estatuto).",
+      "Errada. O TPI julga pessoas físicas em geral (art. 25), ocupem ou não cargos públicos; a qualidade oficial apenas não exime de responsabilidade (art. 27)."
+    ]
+  },
+  {
+    "id": "46-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O direito às terras é coletivo e a própria comunidade tem legitimidade para ir a juízo (art. 232 da CF); a Corte IDH também reconhece a comunidade como titular coletiva, sem substituição por membros isolados.",
+      "Correta. O STF rejeitou o marco temporal (RE 1.017.365, Tema 1.031) e reafirmou essa posição ao julgar a Lei 14.701/2023 (ADC 87); além disso, o renitente esbulho iniciado antes de 1988 nunca impediu o reconhecimento da tradicionalidade.",
+      "Errada. As terras indígenas são inalienáveis e indisponíveis, e os direitos sobre elas são imprescritíveis (art. 231, § 4º, da CF); a Corte IDH protege a propriedade coletiva justamente pelo vínculo do povo com o território.",
+      "Errada. Não há representação obrigatória pela Funai: índios, suas comunidades e organizações são partes legítimas para ingressar em juízo, com intervenção do Ministério Público (art. 232 da CF)."
+    ]
+  },
+  {
+    "id": "46-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A paridade com lei ordinária (RE 80.004/1977) foi superada; desde o RE 466.343 (2008), o STF atribui status supralegal aos tratados de direitos humanos não aprovados pelo rito do art. 5º, § 3º.",
+      "Errada. O STF não adota a supraconstitucionalidade; a Constituição continua no topo, e os tratados de direitos humanos anteriores à EC 45/2004 têm status supralegal.",
+      "Errada. O status constitucional com base no art. 5º, § 2º, defendido pelo Min. Celso de Mello, ficou vencido; só equivalem a emenda os tratados aprovados pelo rito do § 3º.",
+      "Correta. No RE 466.343 e no HC 87.585, o STF fixou o status supralegal desses tratados, o que paralisou a legislação sobre prisão civil do depositário infiel diante do art. 7º, 7, do Pacto de São José (Súmula Vinculante 25)."
+    ]
+  },
+  {
+    "id": "45-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O usufruto exclusivo existe (art. 231, § 2º, da CF), mas são vedados a pesquisa e o cultivo de organismos geneticamente modificados em terras indígenas (art. 1º da Lei 11.460/2007); o veto ao trecho da Lei 14.701/2023 que os permitia foi mantido.",
+      "Correta. O art. 14 da Convenção 169 da OIT determina que se reconheçam aos povos interessados os direitos de propriedade e de posse sobre as terras que tradicionalmente ocupam.",
+      "Errada. É vedado o arrendamento de terras indígenas ou qualquer negócio que restrinja a posse direta da comunidade (art. 18 da Lei 6.001/1973 e art. 26, § 1º, da Lei 14.701/2023).",
+      "Errada. A Corte IDH reconhece a propriedade coletiva indígena com base no art. 21 da CADH (casos Awas Tingni e Xucuru vs. Brasil); já a CF não outorga título de propriedade: as terras são bens da União, com posse permanente e usufruto exclusivo dos índios (arts. 20, XI, e 231, § 2º)."
+    ]
+  },
+  {
+    "id": "45-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Para a Corte IDH, a proteção judicial do art. 25 da CADH inclui o cumprimento efetivo das decisões (art. 25, 2, c); não basta a tutela cognitiva sem execução.",
+      "Errada. O art. 25 exige recurso simples, rápido e efetivo; a Corte IDH afirma que não basta a previsão formal do recurso, ele precisa ser idôneo para remediar a violação.",
+      "Errada. A Corte IDH pode examinar os processos judiciais internos para verificar se o Estado violou a CADH por atos de seus juízes (caso Villagrán Morales e outros vs. Guatemala).",
+      "Errada. Para a Corte IDH, leis de anistia que impedem a investigação e a punição de graves violações são incompatíveis com a CADH (Barrios Altos vs. Peru; Gomes Lund vs. Brasil)."
+    ]
+  },
+  {
+    "id": "44-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A doutrina aponta a igualdade formal e a material, esta ligada à justiça social e distributiva e ao reconhecimento de identidades (gênero, raça, etnia); não há consenso sobre dimensão 'retributiva' ou 'instrumental'.",
+      "Errada. A CEDAW admite expressamente medidas especiais de caráter temporário para acelerar a igualdade de fato entre homens e mulheres, sem que isso seja discriminação (art. 4º).",
+      "Errada. A Convenção sobre a Eliminação da Discriminação Racial admite expressamente ações afirmativas (arts. 1º, 4, e 2º, 2), que não configuram discriminação.",
+      "Correta. Nas Opiniões Consultivas OC-4/84 e OC-18/03, a Corte IDH distingue a 'distinção' (diferença razoável, proporcional e objetiva, admitida) da 'discriminação' (diferença arbitrária, vedada)."
+    ]
+  },
+  {
+    "id": "44-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. As Regras de Nelson Mandela (Res. 70/175, 2015) e as Regras de Bangkok (Res. 65/229, 2010) são resoluções da Assembleia Geral da ONU, de soft law, que orientam os Estados.",
+      "Errada. As Regras de Nelson Mandela foram aprovadas pela Assembleia Geral da ONU (sistema global), não pelo sistema interamericano.",
+      "Errada. As Regras de Mandela proíbem o confinamento solitário prolongado (mais de 15 dias consecutivos) e o indefinido, inclusive como sanção disciplinar (regras 43 e 44).",
+      "Errada. Não são tratados nem normas de jus cogens; as Regras de Mandela valem para todas as pessoas presas, inclusive mulheres, e as Regras de Bangkok as complementam com regras específicas para mulheres."
+    ]
+  },
+  {
+    "id": "43-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Só Estados podem ser partes em casos contenciosos perante a Corte Internacional de Justiça (art. 34 do Estatuto da CIJ; art. IX da Convenção sobre Genocídio).",
+      "Errada. O TPI julga pessoas físicas, não Estados (art. 25 do Estatuto de Roma); ONGs podem enviar informações ao procurador, mas isso não responsabiliza o Estado brasileiro.",
+      "Correta. O procedimento de queixas do Conselho de Direitos Humanos da ONU (Res. 5/1) recebe comunicações de indivíduos, grupos ou ONGs sobre padrões de violações graves e sistemáticas de direitos humanos.",
+      "Errada. O Alto Comissariado é o órgão de secretariado e coordenação da ONU em direitos humanos; não tem procedimento próprio para julgar petições e responsabilizar Estados."
+    ]
+  },
+  {
+    "id": "43-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Qualquer pessoa pode peticionar à Comissão Interamericana (art. 44 da CADH), após esgotar os recursos internos (art. 46), e o Protocolo de San Salvador admite petições individuais por violação do direito à educação (arts. 13 e 19, 6).",
+      "Errada. O STF reconhece a educação básica como direito fundamental exigível judicialmente, podendo o Judiciário determinar a matrícula (RE 1.008.166, Tema 548).",
+      "Errada. O art. 19, 6, do Protocolo de San Salvador permite usar o sistema de petições individuais da CADH justamente para o direito à educação (art. 13) e os direitos sindicais (art. 8º, a).",
+      "Errada. O Brasil ratificou o Protocolo de San Salvador, promulgado pelo Decreto 3.321/1999."
+    ]
+  },
+  {
+    "id": "42-17",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É o conceito do art. 2º do Decreto 4.887/2003, que regulamenta o art. 68 do ADCT e foi declarado constitucional pelo STF (ADI 3.239): autoatribuição, trajetória histórica própria, territorialidade específica e presunção de ancestralidade negra.",
+      "Errada. O conceito de quilombola nada tem a ver com descendência de imigrantes ou privação de moradia; baseia-se na autoatribuição e na ancestralidade negra ligada à resistência à opressão (art. 2º do Decreto 4.887/2003).",
+      "Errada. Remanescentes de quilombos são grupos étnico-raciais específicos, com territorialidade própria, e não toda a população afrodescendente brasileira.",
+      "Errada. A alternativa descreve os povos indígenas (art. 231 da CF); aos quilombolas o art. 68 do ADCT assegura a propriedade definitiva das terras que ocupam, com emissão de títulos pelo Estado."
+    ]
+  },
+  {
+    "id": "42-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O pedido de refúgio suspende qualquer procedimento administrativo ou criminal pela entrada irregular, e o reconhecimento leva ao arquivamento (art. 10, caput e § 1º, da Lei 9.474/1997).",
+      "Correta. É refugiado quem, devido a grave e generalizada violação de direitos humanos, é obrigado a deixar seu país de nacionalidade para buscar refúgio em outro país (art. 1º, III, da Lei 9.474/1997).",
+      "Errada. O asilo político destina-se a perseguidos por motivos políticos (art. 4º, X, da CF; art. 27 da Lei 13.445/2017); quem foge de grave e generalizada violação de direitos humanos deve pedir refúgio.",
+      "Errada. O solicitante já tem proteção desde o pedido: vale o non-refoulement (art. 7º, § 1º), a entrada irregular não impede o pedido (art. 8º), os procedimentos ficam suspensos (art. 10) e o protocolo garante residência provisória (art. 21 da Lei 9.474/1997)."
+    ]
+  },
+  {
+    "id": "41-17",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O art. 6º da Convenção 169 da OIT obriga os governos a consultar os povos interessados, por procedimentos apropriados e por meio de suas instituições representativas, sempre que se prevejam medidas legislativas ou administrativas que possam afetá-los diretamente.",
+      "Errada. A Convenção não excepciona a consulta para medidas tidas como benéficas; o dever de consulta e de participação vale para qualquer medida que afete diretamente esses povos (arts. 6º e 7º).",
+      "Errada. A consulta prévia, livre e informada é dever do Estado (art. 6º da Convenção 169); a Convenção não condiciona as consequências de sua falta à prova de prejuízo no caso concreto.",
+      "Errada. A Funai não representa obrigatoriamente as comunidades: índios, suas comunidades e organizações são partes legítimas para ir a juízo (art. 232 da CF), e a consulta se faz por suas próprias instituições representativas."
+    ]
+  },
+  {
+    "id": "41-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Mesmo sem depender da Convenção da ONU sobre os Trabalhadores Migrantes, o caso pode ser levado ao sistema interamericano com base na CADH e na Carta da OEA, como afirmou a Corte IDH na OC-18/03.",
+      "Correta. Na OC-18/03, a Corte IDH afirmou que os Estados da OEA devem respeitar e garantir os direitos trabalhistas dos migrantes indocumentados, pois a igualdade e a não discriminação são jus cogens e a situação migratória não justifica privá-los desses direitos.",
+      "Errada. O acesso à Justiça é garantido aos migrantes independentemente da situação migratória (art. 5º, caput e XXXV, da CF; art. 4º da Lei 13.445/2017; OC-18/03).",
+      "Errada. Para peticionar à Comissão é preciso, em regra, esgotar antes os recursos internos (art. 46, 1, a, da CADH), salvo as exceções do art. 46, 2; não se trata de acesso simultâneo."
+    ]
+  },
+  {
+    "id": "40-17",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O art. 3º comum às Convenções de Genebra aplica-se justamente ao conflito armado sem caráter internacional que surja no território de uma das Altas Partes Contratantes.",
+      "Errada. O art. 3º comum fixa garantias mínimas de tratamento humano; não impõe cessar-fogo durante negociações.",
+      "Errada. O art. 3º comum não atribui ao Conselho de Segurança competência para julgar a legitimidade da guerra nem para aplicar sanções; o tema é regido pela Carta da ONU.",
+      "Errada. As Convenções de Genebra não criam tribunal; obrigam os Estados a processar as infrações graves, e os tribunais penais internacionais surgiram de resoluções do Conselho de Segurança (ex-Iugoslávia e Ruanda) ou de tratado (Estatuto de Roma)."
+    ]
+  },
+  {
+    "id": "40-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A ADPF (art. 102, § 1º, da CF; Lei 9.882/1999) é ação de controle concentrado de constitucionalidade no STF, não instituto exclusivo de proteção dos direitos humanos.",
+      "Correta. O incidente de deslocamento de competência (art. 109, § 5º, da CF, incluído pela EC 45/2004) permite ao PGR pedir ao STJ a federalização de casos de grave violação de direitos humanos para assegurar o cumprimento de tratados.",
+      "Errada. A repercussão geral é requisito de admissibilidade do recurso extraordinário (art. 102, § 3º, da CF), não instituto de deslocamento de competência.",
+      "Errada. A ação popular (art. 5º, LXXIII, da CF) serve para anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural."
+    ]
+  },
+  {
+    "id": "39-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Obstáculos em vias e espaços públicos e privados de uso coletivo são barreiras urbanísticas (art. 3º, IV, a, da Lei 13.146/2015).",
+      "Correta. Barreiras atitudinais são atitudes ou comportamentos que impedem ou prejudicam a participação social da pessoa com deficiência em igualdade de condições e oportunidades (art. 3º, IV, e, da Lei 13.146/2015).",
+      "Errada. Barreiras em edifícios são arquitetônicas, e as dos sistemas e meios de transporte são barreiras nos transportes (art. 3º, IV, b e c, da Lei 13.146/2015).",
+      "Errada. Obstáculos na expressão ou no recebimento de mensagens e informações são barreiras nas comunicações e na informação (art. 3º, IV, d, da Lei 13.146/2015)."
+    ]
+  },
+  {
+    "id": "38-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CADH não deixa a escolha do veículo ao ofendido; a resposta deve sair pelo mesmo órgão de difusão (art. 14, 1).",
+      "Errada. O critério da Convenção não é o alcance do veículo, e sim o mesmo órgão de difusão em que foi divulgada a informação ofensiva (art. 14, 1, da CADH).",
+      "Correta. Pelo art. 14, 1, da CADH, quem é atingido por informações inexatas ou ofensivas tem direito de fazer, pelo mesmo órgão de difusão, sua retificação ou resposta, nas condições que a lei estabelecer.",
+      "Errada. A CADH não condiciona o direito de resposta a decisão judicial transitada em julgado; remete apenas às condições fixadas em lei (art. 14, 1)."
+    ]
+  },
+  {
+    "id": "38-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 27, 2, da CADH proíbe suspender também as garantias judiciais indispensáveis à proteção dos direitos inderrogáveis; segundo a OC-8/87, o habeas corpus é uma delas.",
+      "Errada. Para a Corte IDH, o habeas corpus não pode ser suspenso nem por decisão do Executivo confirmada pelo Judiciário, pois é garantia indispensável à proteção de direitos inderrogáveis (OC-8/87 e OC-9/87).",
+      "Correta. Nas OC-8/87 e OC-9/87, a Corte IDH afirmou que o habeas corpus, o amparo e as demais garantias judiciais indispensáveis à proteção dos direitos do art. 27, 2, não podem ser suspensos nem em estado de emergência.",
+      "Errada. A soberania nacional não autoriza suspender o habeas corpus; a suspensão de garantias do art. 27 tem limites, e as garantias judiciais essenciais permanecem (OC-8/87 e OC-9/87)."
+    ]
+  },
+  {
+    "id": "37-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Em assuntos que ainda não estão submetidos à Corte, ela só adota medidas provisórias a pedido da Comissão Interamericana (art. 63, 2, da CADH); a vítima não peticiona diretamente à Corte.",
+      "Errada. A Comissão Jurídica Interamericana é órgão consultivo da OEA em assuntos jurídicos (art. 99 da Carta da OEA) e não adota medidas provisórias.",
+      "Errada. Não há exigência de duplo grau para acionar o sistema interamericano; a demora injustificada na decisão dos recursos internos dispensa até o esgotamento (art. 46, 2, c, da CADH).",
+      "Correta. Nos casos ainda não submetidos à Corte, ela pode adotar medidas provisórias a pedido da Comissão (art. 63, 2, da CADH); assim, leva-se o caso à Comissão, que avalia se as solicita."
+    ]
+  },
+  {
+    "id": "37-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF/88 abandonou o paradigma integracionista e reconhece aos índios sua organização social, costumes, línguas, crenças e tradições (art. 231).",
+      "Errada. O uso das línguas maternas e dos processos próprios de aprendizagem é assegurado no próprio ensino fundamental regular (art. 210, § 2º, da CF; art. 32, § 3º, da LDB).",
+      "Errada. A garantia está na Constituição e vincula todos os entes; o Município não pode afastá-la por lei local (art. 210, § 2º, da CF).",
+      "Correta. O ensino fundamental regular é ministrado em língua portuguesa, assegurada às comunidades indígenas também a utilização de suas línguas maternas e processos próprios de aprendizagem (art. 210, § 2º, da CF)."
+    ]
+  },
+  {
+    "id": "36-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Somente os Estados Partes e a Comissão Interamericana têm direito de submeter um caso à decisão da Corte (art. 61, 1, da CADH); a vítima peticiona à Comissão (art. 44).",
+      "Errada. O esgotamento dos recursos internos é requisito da petição à Comissão (art. 46 da CADH), e as vítimas não podem encaminhar o caso diretamente à Corte.",
+      "Errada. As vítimas não podem submeter o caso à Corte, e em caso ainda não submetido a ela as medidas provisórias dependem de pedido da Comissão (arts. 61 e 63, 2, da CADH).",
+      "Errada. O Brasil reconheceu a competência contenciosa da Corte IDH em 1998 (Decreto Legislativo 89/1998; Decreto 4.463/2002)."
+    ]
+  },
+  {
+    "id": "36-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF exige o ensino fundamental regular em língua portuguesa, mas assegura às comunidades indígenas também o uso de suas línguas maternas (art. 210, § 2º).",
+      "Errada. A obrigação decorre diretamente da Constituição (art. 210, § 2º), não de determinação da Funai.",
+      "Errada. O uso das línguas maternas e dos processos próprios de aprendizagem deve ocorrer no próprio ensino fundamental regular oferecido pelo Poder Público, e não apenas em reforço de ONG (art. 210, § 2º, da CF).",
+      "Correta. É a literalidade do art. 210, § 2º, da CF: ensino fundamental regular em língua portuguesa, assegurada às comunidades indígenas também a utilização de suas línguas maternas e processos próprios de aprendizagem."
+    ]
+  },
+  {
+    "id": "35-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O CNDH é órgão colegiado ligado ao Poder Executivo federal, não órgão de assessoramento do Congresso; ele pode opinar sobre atos normativos e legislativos de interesse da política de direitos humanos, mas não tem a função de assessorar o Parlamento (art. 4º da Lei 12.986/2014).",
+      "Errada. A representação do Estado brasileiro perante a Comissão Interamericana cabe à União, por seus órgãos próprios (Itamaraty e AGU); o CNDH apenas acompanha as obrigações internacionais e colabora com o Ministério das Relações Exteriores.",
+      "Correta. O CNDH recebe representações ou denúncias de condutas contrárias aos direitos humanos e apura responsabilidades (art. 4º da Lei 12.986/2014), podendo aplicar advertência, censura pública e recomendação de afastamento de cargo, função ou emprego (art. 6º).",
+      "Errada. A Lei 12.986/2014 não dá ao CNDH a função de representar vítimas em juízo, e não existe 'jurisdição especial' do STJ para essas ações; a defesa judicial das vítimas cabe à advocacia, à Defensoria Pública e ao Ministério Público."
+    ]
+  },
+  {
+    "id": "35-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Verificar a compatibilidade das leis com a Constituição é controle de constitucionalidade; o de convencionalidade tem como parâmetro os tratados de direitos humanos.",
+      "Correta. O controle de convencionalidade verifica a compatibilidade das normas internas com os tratados de direitos humanos em vigor no país e com a interpretação da Corte IDH (Recomendação CNJ 123/2022; caso Almonacid Arellano vs. Chile).",
+      "Errada. A lógica é inversa: a legislação interna é que deve ser interpretada e aplicada conforme os tratados de direitos humanos, à luz do princípio pro persona.",
+      "Errada. O parâmetro do controle de convencionalidade são os tratados de direitos humanos ratificados, não o Direito Natural."
+    ]
+  },
+  {
+    "id": "34-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Braille é apenas uma das formas possíveis; o Tratado define exemplar em formato acessível de modo amplo, como qualquer forma alternativa que dê acesso à obra (art. 2, b), sem limitá-lo a centros especializados.",
+      "Errada. O Tratado de Marraqueche prevê limitações e exceções aos direitos autorais para que entidades autorizadas reproduzam e distribuam obras em formato acessível (art. 4); não fixa teto de preço nem isenção tributária.",
+      "Correta. É a definição do art. 2, b, do Tratado de Marraqueche: reprodução da obra de maneira ou forma alternativa que dê aos beneficiários acesso a ela de forma tão prática e cômoda quanto a de pessoa sem deficiência visual.",
+      "Errada. A presença de ledores em bibliotecas não é o conceito de exemplar em formato acessível, que se refere à reprodução da obra em forma alternativa (art. 2, b, do Tratado)."
+    ]
+  },
+  {
+    "id": "34-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O relatório final não é a resposta à urgência nem é obrigatório em todo caso: após o relatório preliminar, a Comissão pode submeter o caso à Corte (arts. 50 e 51 da CADH); para a urgência, o instrumento é a medida cautelar.",
+      "Errada. As decisões dos órgãos do sistema interamericano não dependem de homologação pelo STJ, que homologa sentenças estrangeiras, não decisões de órgãos internacionais de direitos humanos.",
+      "Errada. A Comissão pode pedir medidas provisórias à Corte (art. 63, 2, da CADH), mas não é obrigada a enviar o caso de imediato; ela própria pode outorgar medidas cautelares (art. 25 do seu Regulamento).",
+      "Correta. Em situações de gravidade e urgência, a Comissão pode, por iniciativa própria ou a pedido, solicitar ao Estado medidas cautelares para prevenir danos irreparáveis às pessoas (art. 25 do Regulamento da CIDH)."
+    ]
+  },
+  {
+    "id": "33-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O § 5º da Declaração e Programa de Ação de Viena (1993) afirma que todos os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados e devem ser tratados em pé de igualdade e com a mesma ênfase.",
+      "Errada. A Declaração de Viena não divide os direitos humanos em públicos e privados nem dá ênfase a uma categoria; afirma sua indivisibilidade.",
+      "Errada. A Declaração de Viena rejeita a hierarquia entre direitos civis e políticos e direitos econômicos, sociais e culturais, que devem receber a mesma ênfase.",
+      "Errada. A Declaração de Viena trata expressamente da indivisibilidade dos direitos humanos (§ 5º)."
+    ]
+  },
+  {
+    "id": "33-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A vedação da pena de morte (art. 5º, XLVII, a, da CF) é direito individual protegido como cláusula pétrea (art. 60, § 4º, IV), e não pode ser abolida por emenda.",
+      "Errada. Nem com referendo a PEC seria válida: a cláusula pétrea impede emenda tendente a abolir direitos e garantias individuais (art. 60, § 4º, IV, da CF).",
+      "Correta. A vedação é cláusula pétrea (arts. 5º, XLVII, a, e 60, § 4º, IV, da CF), e o Brasil promulgou o Protocolo à CADH sobre a Abolição da Pena de Morte (Decreto 2.754/1998); além disso, a CADH proíbe restabelecer a pena de morte onde foi abolida (art. 4º, 3).",
+      "Errada. O STF não pode criar ou admitir pena de morte; a única exceção é a prevista na própria CF, para guerra declarada (art. 5º, XLVII, a)."
+    ]
+  },
+  {
+    "id": "32-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Velásquez Rodríguez (1988) foi caso contra Honduras; a primeira condenação do Brasil pela Corte IDH foi no caso Ximenes Lopes (2006).",
+      "Correta. No caso Velásquez Rodríguez vs. Honduras, a Corte IDH afirmou o dever dos Estados de prevenir, investigar e punir toda violação dos direitos da CADH e de buscar o restabelecimento do direito e a reparação dos danos (art. 1º, 1, da CADH).",
+      "Errada. A Corte IDH é órgão judicial autônomo, e suas sentenças são definitivas e obrigatórias para os Estados que reconheceram sua competência, sem confirmação pela Assembleia Geral da OEA (arts. 67 e 68 da CADH).",
+      "Errada. As sentenças da Corte IDH obrigam os Estados por si mesmas (art. 68, 1, da CADH) e não dependem de ratificação pelos tribunais internos."
+    ]
+  },
+  {
+    "id": "32-19",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É o art. 2º do Decreto 8.727/2016: os órgãos e entidades da administração pública federal direta, autárquica e fundacional devem adotar o nome social da pessoa travesti ou transexual, conforme seu requerimento.",
+      "Errada. A CADH não tem regra expressa sobre nome social; a Corte IDH, na OC-24/17, extraiu da Convenção o direito à adequação do nome à identidade de gênero, mas a norma que regula o nome social na administração federal é o Decreto 8.727/2016.",
+      "Errada. Após a ADI 4.275, o CNJ regulamentou a alteração de prenome e gênero diretamente no registro civil (Provimento 73/2018, hoje no Código Nacional de Normas), e não o uso de nome social em contratos.",
+      "Errada. Não se trata de ato discricionário: o Decreto 8.727/2016 diz que a administração 'deverá' adotar o nome social a pedido do interessado, e o fato de lecionar para adolescentes não autoriza a recusa."
+    ]
+  },
+  {
+    "id": "31-18",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O art. 4º do PIDCP permite, em situação excepcional que ameace a existência da nação e seja proclamada oficialmente, suspender obrigações na estrita medida necessária, sem discriminação por raça, cor, sexo, língua, religião ou origem social, ressalvados os direitos inderrogáveis do art. 4º, 2.",
+      "Errada. O PIDCP não exige ato conjunto do Legislativo e do Executivo nem fixa prazo máximo de 2 anos; exige situação excepcional proclamada oficialmente, medidas estritamente necessárias e comunicação aos demais Estados Partes (art. 4º, 1 e 3).",
+      "Errada. O art. 4º do PIDCP admite a derrogação temporária de obrigações em emergência pública, salvo quanto aos direitos inderrogáveis (art. 4º, 2).",
+      "Errada. O PIDCP, ratificado e promulgado (Decreto 592/1992), é norma vigente e obrigatória, com status supralegal no Brasil."
+    ]
+  },
+  {
+    "id": "31-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CADH proíbe a censura prévia e só admite responsabilidades posteriores (art. 13, 2), e a CF veda toda censura de natureza política, ideológica e artística (art. 220, § 2º).",
+      "Errada. Nem por lei se admite censura prévia; a lei só pode fixar responsabilidades posteriores para proteger a reputação, a segurança nacional, a ordem ou a moral públicas (art. 13, 2, da CADH).",
+      "Errada. Não há exceção para exposições em museus; a expressão artística é livre, independentemente de censura ou licença (art. 5º, IX, da CF; art. 13 da CADH).",
+      "Correta. A lei pode regular o acesso a espetáculos públicos para a proteção moral da infância e da adolescência (art. 13, 4, da CADH; art. 220, § 3º, I, da CF), mas é vedada toda censura de natureza política, ideológica e artística (art. 220, § 2º, da CF)."
+    ]
+  },
+  {
+    "id": "30-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As jazidas e os recursos minerais constituem propriedade distinta da do solo e pertencem à União (arts. 20, IX, e 176 da CF), e a pesquisa e a lavra de petróleo são monopólio da União (art. 177, I).",
+      "Errada. Não há desapropriação automática, e a CF assegura ao proprietário do solo participação nos resultados da lavra (art. 176, § 2º).",
+      "Correta. O art. 176, § 2º, da CF assegura ao proprietário do solo participação nos resultados da lavra, na forma e no valor que a lei dispuser; para o petróleo, a Lei 9.478/1997 (art. 52) prevê participação de 0,5% a 1% da produção.",
+      "Errada. Embora os recursos do subsolo sejam da União, o proprietário do solo tem participação nos resultados da lavra garantida pelo art. 176, § 2º, da CF."
+    ]
+  },
+  {
+    "id": "30-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CADH prevê expressamente a indenização por erro judiciário (art. 10).",
+      "Errada. A indenização por erro judiciário está prevista no art. 10 da CADH, no art. 14, 6, do PIDCP e no art. 5º, LXXV, da CF.",
+      "Errada. O art. 10 da CADH não exclui a esfera penal; ao contrário, sua hipótese típica é justamente a condenação criminal por erro judiciário.",
+      "Correta. É a literalidade do art. 10 da CADH: toda pessoa tem direito a ser indenizada conforme a lei, se tiver sido condenada em sentença transitada em julgado por erro judiciário."
+    ]
+  },
+  {
+    "id": "29-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Brasil ratificou o Protocolo de San Salvador, promulgado pelo Decreto 3.321/1999, que pode servir de parâmetro para o controle de convencionalidade.",
+      "Correta. O art. 7º do Protocolo de San Salvador garante férias remuneradas e remuneração nos feriados nacionais; como o Brasil o ratificou (Decreto 3.321/1999), uma lei contrária pode ser submetida ao controle de convencionalidade.",
+      "Errada. O Protocolo é tratado internacional de direitos humanos que vincula o Brasil, com status supralegal (RE 466.343), e pode servir de parâmetro do controle de convencionalidade.",
+      "Errada. O art. 7º do Protocolo trata justamente das condições justas, equitativas e satisfatórias de trabalho, aí incluídas as férias remuneradas e a remuneração nos feriados nacionais."
+    ]
+  },
+  {
+    "id": "29-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Convenção Americana é de 1969 (em vigor desde 1978), e o sistema interamericano está em pleno funcionamento; a Corte IDH foi instalada em 1979.",
+      "Errada. O sistema interamericano tem Comissão e Corte (art. 33 da CADH); o europeu é que teve uma Comissão até o Protocolo 11 (1998), e hoje conta só com o Tribunal permanente.",
+      "Errada. O sistema europeu admite petições individuais diretamente ao Tribunal Europeu (art. 34 da Convenção Europeia); o Comitê de Ministros supervisiona a execução das sentenças (art. 46).",
+      "Correta. O sistema interamericano funciona com Comissão e Corte (art. 33 da CADH), enquanto o europeu, desde o Protocolo 11 (1998), extinguiu a Comissão e tem um Tribunal Europeu dos Direitos Humanos permanente, com acesso direto do indivíduo."
+    ]
+  },
+  {
+    "id": "28-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O PIDCP protege a vida privada, a família e a correspondência contra ingerências arbitrárias (art. 17), e Ana Maria é maior de idade, de modo que nem há poder familiar a invocar.",
+      "Errada. O art. 17 do PIDCP veda ingerências arbitrárias ou ilegais em qualquer âmbito, inclusive no familiar.",
+      "Correta. O art. 17 do PIDCP dispõe que ninguém poderá ser objeto de ingerências arbitrárias ou ilegais em sua vida privada, família, domicílio ou correspondência, e que toda pessoa tem direito à proteção da lei contra elas.",
+      "Errada. O PIDCP trata expressamente do tema (art. 17) e exige que a lei proteja a pessoa contra essas ingerências, inclusive de particulares (art. 17, 2)."
+    ]
+  },
+  {
+    "id": "28-19",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Há obrigação legal: o estudo da história geral da África e da história da população negra no Brasil é obrigatório nos ensinos fundamental e médio (art. 11 da Lei 12.288/2010; art. 26-A da LDB).",
+      "Errada. A obrigação alcança os estabelecimentos de ensino públicos e privados (art. 11 da Lei 12.288/2010).",
+      "Errada. A obrigatoriedade decorre da própria lei (art. 11 da Lei 12.288/2010 e art. 26-A da LDB), e não de decisão dos Conselhos de Educação.",
+      "Correta. O art. 11 do Estatuto da Igualdade Racial torna obrigatório esse estudo nos ensinos fundamental e médio, públicos e privados, e determina que os conteúdos sejam ministrados no âmbito de todo o currículo escolar (§ 1º)."
+    ]
+  },
+  {
+    "id": "27-18",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A LBI proíbe expressamente a cobrança de valores adicionais (art. 28, § 1º, da Lei 13.146/2015), e cobrar valores adicionais da matrícula em razão da deficiência é crime (art. 8º, I, da Lei 7.853/1989).",
+      "Errada. Há vedação legal expressa à cobrança (art. 28, § 1º, da Lei 13.146/2015), declarada constitucional pelo STF (ADI 5.357).",
+      "Errada. A LBI não admite a cobrança nem prevê isenção para hipossuficientes com compensação tributária; a vedação vale para todas as famílias (art. 28, § 1º).",
+      "Correta. As escolas privadas devem cumprir as medidas do art. 28 da LBI, inclusive o acesso a jogos e atividades recreativas, esportivas e de lazer (inciso XV), sendo vedada a cobrança de valores adicionais de qualquer natureza (art. 28, § 1º; ADI 5.357)."
+    ]
+  }
+]

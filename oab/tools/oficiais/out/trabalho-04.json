@@ -1,0 +1,247 @@
+[
+  { "id": "26-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A rescisão indireta (art. 483 da CLT) põe fim ao contrato, o que contraria o interesse de Lucas em manter o emprego. Além disso, três dias de suspensão por duas faltas injustificadas não configuram, por si, punição excessiva.",
+      "Correta. Se a norma regulamentar da empresa exige sindicância prévia, a punição aplicada sem ela é nula (Súmula 77 do TST).",
+      "Errada. O Judiciário não gradua a pena aplicada pelo empregador: mantém a punição ou a anula. Aqui o vício é formal (falta da sindicância prevista no regulamento), o que leva à nulidade (Súmula 77 do TST).",
+      "Errada. A suspensão foi aplicada logo após o retorno, respeitando a imediatidade, e há nexo direto entre as faltas e a punição. O fundamento adequado é a nulidade pela falta da sindicância regulamentar."
+    ] },
+  { "id": "25-70", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora o aviso prévio, mesmo indenizado, integre o tempo de serviço (art. 487, §1º, da CLT), o registro da candidatura no curso do aviso não gera estabilidade (Súmula 369, V, do TST).",
+      "Errada. O aviso prévio é computado no tempo de serviço, e a data de saída na CTPS é a do término do aviso, ainda que indenizado (art. 487, §1º, da CLT e OJ 82 da SDI-1 do TST). A estabilidade é negada por outro motivo (Súmula 369, V).",
+      "Correta. O aviso prévio integra o contrato para todos os fins (art. 487, §1º, da CLT), mas o registro da candidatura a dirigente sindical durante o aviso, ainda que indenizado, não assegura a estabilidade do art. 543, §3º, da CLT (Súmula 369, V, do TST).",
+      "Errada. A situação é regulada pelo art. 487, §1º, da CLT e pela Súmula 369, V, do TST, não havendo espaço para decisão casuística."
+    ] },
+  { "id": "25-71", "status": "valida",
+    "explicacoes": [
+      "Correta. O art. 484-A da CLT permite a extinção do contrato por acordo: o aviso prévio indenizado e a indenização sobre o FGTS são devidos pela metade, o saque do FGTS fica limitado a 80% e não há direito ao seguro-desemprego (§§1º e 2º).",
+      "Errada. O distrato do art. 484-A da CLT não depende de homologação judicial nem sindical; a Lei 13.467/17 revogou inclusive a exigência de assistência sindical na rescisão (antigo art. 477, §1º, da CLT).",
+      "Errada. Desde a Lei 13.467/17 há previsão legal expressa da extinção do contrato por comum acordo (art. 484-A da CLT).",
+      "Errada. Propor um acordo para deixar a empresa não é desídia (art. 482, 'e', da CLT), que pressupõe desleixo no cumprimento das obrigações."
+    ] },
+  { "id": "25-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há vedação legal ao retorno do aposentado do RGPS ao emprego na mesma empresa privada; a aposentadoria espontânea nem sequer extingue o contrato de trabalho (OJ 361 da SDI-1 do TST).",
+      "Correta. O aposentado do RGPS que volta a exercer atividade abrangida pelo regime é segurado obrigatório em relação a ela e continua sujeito às contribuições previdenciárias (art. 12, §4º, da Lei 8.212/91 e art. 11, §3º, da Lei 8.213/91).",
+      "Errada. É possível receber ao mesmo tempo o salário e a aposentadoria por tempo de contribuição; a restrição de permanecer em atividade atinge a aposentadoria especial, quanto às atividades nocivas (art. 57, §8º, da Lei 8.213/91).",
+      "Errada. Na readmissão, não se computa o tempo anterior de quem recebeu indenização legal ou se aposentou espontaneamente (art. 453 da CLT)."
+    ] },
+  { "id": "25-73", "status": "valida",
+    "explicacoes": [
+      "Correta. O art. 507-A da CLT admite cláusula compromissória de arbitragem para empregado com remuneração superior a duas vezes o teto do RGPS, desde que por iniciativa dele ou com sua concordância expressa; o salário de R$ 22.000,00 supera esse patamar.",
+      "Errada. O diploma de nível superior é requisito do empregado hipersuficiente do art. 444, parágrafo único, da CLT, e não da arbitragem, que depende da remuneração e da concordância expressa (art. 507-A).",
+      "Errada. Desde a Lei 13.467/17, a arbitragem é admitida em lides individuais nas hipóteses do art. 507-A da CLT.",
+      "Errada. A lei não exige homologação sindical; basta a iniciativa ou a concordância expressa do empregado (art. 507-A da CLT)."
+    ] },
+  { "id": "25-74", "status": "valida",
+    "explicacoes": [
+      "Correta. O art. 4º, §2º, da CLT exclui do tempo à disposição a permanência por escolha própria para alimentação, lazer e troca de uniforme quando não houver obrigatoriedade de trocá-lo na empresa. O contrato de Lúcio é todo posterior a 11/11/2017.",
+      "Errada. A simples presença nas dependências da empresa não gera tempo à disposição quando o empregado ali permanece por escolha própria para fins pessoais (art. 4º, §2º, da CLT).",
+      "Errada. A alimentação, inclusive o café da manhã, também está entre as hipóteses que não configuram tempo à disposição (art. 4º, §2º, V, da CLT).",
+      "Errada. Jogar pingue-pongue no intervalo é lazer por escolha própria (art. 4º, §2º, III, da CLT) e não suprime a pausa, que continuava integralmente à disposição do empregado."
+    ] },
+  { "id": "25-75", "status": "valida",
+    "explicacoes": [
+      "Correta. Após a Reforma Trabalhista, a concessão parcial do intervalo intrajornada gera o pagamento apenas do período suprimido (45 minutos), com adicional de 50% e natureza indenizatória, sem reflexos (art. 71, §4º, da CLT).",
+      "Errada. A parcela tem natureza indenizatória por força do art. 71, §4º, da CLT e não gera reflexos nas demais verbas.",
+      "Errada. O pagamento da hora integral (antiga Súmula 437, I, do TST) não se aplica a fatos posteriores a 11/11/2017; paga-se só o tempo suprimido (art. 71, §4º, da CLT).",
+      "Errada. Paga-se apenas o período suprimido, e a natureza é indenizatória, não salarial (art. 71, §4º, da CLT)."
+    ] },
+  { "id": "25-76", "status": "valida",
+    "explicacoes": [
+      "Correta. A constituição de procurador pode ser feita por simples registro em ata de audiência, a requerimento verbal do advogado e com anuência da parte, e confere poderes para o foro em geral (art. 791, §3º, da CLT).",
+      "Errada. O mandato registrado em ata (apud acta) é expressamente admitido pelo art. 791, §3º, da CLT, sem necessidade de prazo para juntada de procuração.",
+      "Errada. O registro em ata confere apenas poderes para o foro em geral; poderes especiais, como transigir, exigem outorga expressa (art. 105 do CPC, aplicado subsidiariamente).",
+      "Errada. O mandato registrado em ata vale para todos os atos abrangidos pelos poderes gerais do foro, e não só para a audiência (art. 791, §3º, da CLT)."
+    ] },
+  { "id": "24-70", "status": "valida",
+    "explicacoes": [
+      "Correta. Tripulantes que permanecem a bordo durante o abastecimento não têm direito ao adicional de periculosidade (Súmula 447 do TST), e a descaracterização da insalubridade por ato da autoridade competente afasta o adicional, sem ofensa a direito adquirido (Súmula 248 do TST e art. 194 da CLT).",
+      "Errada. Solange não tem direito ao adicional de periculosidade (Súmula 447 do TST), e Iracema não tem direito adquirido ao adicional após a reclassificação da atividade (Súmula 248 do TST).",
+      "Errada. Iracema perde o adicional, pois o direito cessa com a descaracterização da insalubridade pela autoridade competente (art. 194 da CLT e Súmula 248 do TST).",
+      "Errada. Solange não faz jus ao adicional de periculosidade por permanecer a bordo durante o abastecimento (Súmula 447 do TST)."
+    ] },
+  { "id": "24-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O trabalho para mais de uma empresa do mesmo grupo econômico na mesma jornada não gera mais de um contrato (Súmula 129 do TST); a solidariedade do grupo (art. 2º, §2º, da CLT) não cria duplicidade de vínculos.",
+      "Errada. Não há duplicidade de contratos (Súmula 129 do TST) e, no grupo econômico, a responsabilidade é solidária, e não subsidiária (art. 2º, §2º, da CLT).",
+      "Errada. Há um único contrato de trabalho, salvo ajuste em contrário, e as empresas do grupo respondem solidariamente (Súmula 129 do TST e art. 2º, §2º, da CLT).",
+      "Correta. A prestação de serviços a mais de uma empresa do mesmo grupo econômico, durante a mesma jornada, não caracteriza a coexistência de mais de um contrato de trabalho, salvo ajuste em contrário (Súmula 129 do TST)."
+    ] },
+  { "id": "24-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A obrigação de registrar o ponto é aferida por estabelecimento, e não pelo total de empregados da empresa (art. 74, §2º, da CLT).",
+      "Errada. O critério legal é o estabelecimento, e não o estado da Federação (art. 74, §2º, da CLT).",
+      "Correta. O controle de jornada é exigido por estabelecimento, e cada filial tem só 5 empregados, logo não há obrigação. Atenção: desde a Lei 13.874/19 o registro só é obrigatório em estabelecimentos com mais de 20 trabalhadores (art. 74, §2º, da CLT), e não mais de 10.",
+      "Errada. A lei não é omissa: o art. 74, §2º, da CLT disciplina o tema e só obriga o controle nos estabelecimentos com mais de 20 trabalhadores, onde se admite a pré-assinalação do intervalo."
+    ] },
+  { "id": "24-74", "status": "valida",
+    "explicacoes": [
+      "Errada. Nos períodos destinados a refeição ou descanso durante o trabalho, o empregado é considerado no exercício do trabalho (art. 21, §1º, da Lei 8.213/91), de modo que o acidente se equipara a acidente do trabalho.",
+      "Correta. O acidente no intervalo para refeição equipara-se a acidente do trabalho (art. 21, §1º, da Lei 8.213/91) e, com afastamento superior a 15 dias e auxílio-doença acidentário, gera garantia de emprego de 12 meses após a alta (art. 118 da Lei 8.213/91 e Súmula 378, II, do TST).",
+      "Errada. A Lei 8.213/91 trata expressamente da hipótese no art. 21, §1º.",
+      "Errada. Não há dever legal genérico de fornecer alimentação; a consequência jurídica é o reconhecimento do acidente do trabalho e da estabilidade do art. 118 da Lei 8.213/91."
+    ] },
+  { "id": "24-75", "status": "valida",
+    "explicacoes": [
+      "Errada. Empregados de banco que integram categoria profissional diferenciada não se beneficiam do regime dos bancários (Súmula 117 do TST), e o professor integra categoria diferenciada.",
+      "Errada. O enquadramento sindical decorre da lei (atividade preponderante do empregador ou categoria diferenciada, art. 511 da CLT), e não da escolha do trabalhador; professores formam categoria diferenciada, e não conexa.",
+      "Errada. As regras aplicáveis decorrem da lei e das normas coletivas da categoria diferenciada dos professores, e não de definição pela Justiça do Trabalho.",
+      "Correta. Professores formam categoria profissional diferenciada (art. 511, §3º, da CLT), e empregados de banco nessa condição não se submetem ao regime dos bancários (Súmula 117 do TST)."
+    ] },
+  { "id": "23-70", "status": "desatualizada",
+    "motivo": "O gabarito pressupõe a contribuição sindical obrigatória (arts. 578 e 579 da CLT na redação anterior). Desde a Lei 13.467/17, a contribuição sindical depende de autorização prévia e expressa do trabalhador (arts. 545, 578, 579 e 582 da CLT; ADI 5794), de modo que o desconto feito no não sindicalizado sem autorização é inválido. Hoje a resposta seria a B, e não a C." },
+  { "id": "23-71", "status": "desatualizada",
+    "motivo": "O gabarito se apoia no antigo art. 461, §§2º e 3º, da CLT e na Súmula 6, I, do TST (quadro de carreira homologado e promoções alternadas por antiguidade e merecimento). Após a Lei 13.467/17, o plano de cargos e salários pode ser adotado por norma interna ou negociação coletiva, sem homologação, com promoções por um só critério (art. 461, §§2º e 3º, e art. 611-A, V, da CLT); o plano do enunciado passou a ser válido e impede a equiparação." },
+  { "id": "23-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora o representante comercial autônomo não seja empregado (e, segundo o STF, Tema 550, essas causas sejam da Justiça Comum), a Lei 4.886/65 proíbe a cláusula del credere, e a opção do representante não valida a prática (art. 43).",
+      "Errada. Truck system é o pagamento do salário em vales ou mercadorias, vedado pelo art. 462, §§2º a 4º, da CLT; não existe limite legal de 50% para o prejuízo do representante.",
+      "Errada. A Lei 4.886/65 não é omissa: o art. 43 veda expressamente a cláusula del credere no contrato de representação comercial.",
+      "Correta. Responsabilizar o representante pela inadimplência do comprador caracteriza a cláusula del credere, vedada pelo art. 43 da Lei 4.886/65."
+    ] },
+  { "id": "23-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A irredutibilidade salarial admite exceção mediante convenção ou acordo coletivo (art. 7º, VI, da CF), de modo que as reduções de X e Y são válidas.",
+      "Errada. O art. 7º, VI, da CF autoriza a redução salarial tanto por convenção quanto por acordo coletivo; só a via individual é inválida.",
+      "Correta. A redução salarial exige negociação coletiva (art. 7º, VI, da CF), e o acordo individual feito pela empresa Z não a autoriza. Hoje, a norma coletiva que reduz salário deve ainda prever proteção contra dispensa imotivada durante sua vigência (art. 611-A, §3º, da CLT).",
+      "Errada. A redução por acordo individual escrito, adotada pela empresa Z, não atende ao art. 7º, VI, da CF."
+    ] },
+  { "id": "23-74", "status": "valida",
+    "explicacoes": [
+      "Correta. O depósito do FGTS é obrigatório no afastamento para serviço militar obrigatório (art. 15, §5º, da Lei 8.036/90), mas não durante o auxílio-doença comum, que suspende o contrato; a empresa errou quanto a Pedro e acertou quanto a Júlio Cesar.",
+      "Errada. Quanto a Júlio Cesar, afastado com auxílio-doença comum (hoje auxílio por incapacidade temporária previdenciário), não há depósito de FGTS após os 15 primeiros dias; o art. 15, §5º, da Lei 8.036/90 abrange apenas serviço militar e acidente do trabalho.",
+      "Errada. É o inverso: o FGTS é devido no serviço militar obrigatório e não é devido no auxílio-doença comum (art. 15, §5º, da Lei 8.036/90).",
+      "Errada. A empresa deveria ter depositado o FGTS de Pedro durante o serviço militar obrigatório (art. 15, §5º, da Lei 8.036/90)."
+    ] },
+  { "id": "23-75", "status": "valida",
+    "explicacoes": [
+      "Correta. Trata-se de factum principis: na paralisação definitiva do trabalho motivada por ato de autoridade municipal, a indenização fica a cargo do governo responsável (art. 486 da CLT), no caso o Município.",
+      "Errada. A indenização cabe ao governo responsável pelo ato que paralisou a atividade (art. 486 da CLT), e a obra e a interdição foram municipais.",
+      "Errada. No factum principis, a indenização fica a cargo do governo responsável, e não do empregador (art. 486 da CLT).",
+      "Errada. A CLT dá tratamento específico à paralisação por ato de autoridade (art. 486). Mesmo na força maior comum há indenização, reduzida à metade (art. 502, II, da CLT)."
+    ] },
+  { "id": "23-76", "status": "valida",
+    "explicacoes": [
+      "Errada. Os honorários do assistente técnico são da parte que o indicou, ainda que vencedora no objeto da perícia (Súmula 341 do TST).",
+      "Errada. Os honorários periciais cabem à parte sucumbente na pretensão objeto da perícia, e não a quem perdeu outros pedidos (art. 790-B da CLT).",
+      "Errada. O processo do trabalho admite a indicação de um assistente técnico por cada parte (art. 3º, parágrafo único, da Lei 5.584/70).",
+      "Correta. Os honorários periciais são da parte sucumbente na pretensão objeto da perícia (art. 790-B da CLT), e os do assistente técnico, de quem o indicou, ainda que vencedora (Súmula 341 do TST)."
+    ] },
+  { "id": "22-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A assistência médica, hospitalar e odontológica, prestada diretamente ou mediante seguro-saúde, não tem natureza salarial (art. 458, §2º, IV, da CLT).",
+      "Correta. A habitação fornecida habitualmente e não indispensável ao trabalho é salário-utilidade (art. 458, caput, da CLT e Súmula 367, I, do TST), enquanto a assistência odontológica não integra o salário (art. 458, §2º, IV, da CLT).",
+      "Errada. A moradia fornecida pelo trabalho, e não para o trabalho, integra o salário como utilidade (art. 458, caput, da CLT).",
+      "Errada. É o inverso: a habitação integra o salário, e o plano odontológico não (art. 458, caput e §2º, IV, da CLT)."
+    ] },
+  { "id": "22-71", "status": "valida",
+    "explicacoes": [
+      "Correta. Não há transferência sem mudança de domicílio (art. 469, caput, da CLT), caso de Célio, e o adicional de 25% pressupõe transferência provisória (art. 469, §3º, da CLT e OJ 113 da SDI-1 do TST), ao passo que a de Paulo foi definitiva.",
+      "Errada. A transferência de Paulo foi definitiva, e o adicional de transferência pressupõe transferência provisória (OJ 113 da SDI-1 do TST).",
+      "Errada. Célio não mudou de domicílio, o que afasta a própria caracterização da transferência (art. 469, caput, da CLT); poderia, no máximo, pleitear o suplemento da despesa de transporte (Súmula 29 do TST).",
+      "Errada. Nenhum dos dois tem direito: Célio não mudou de domicílio e Paulo foi transferido em caráter definitivo (art. 469 da CLT e OJ 113 da SDI-1 do TST)."
+    ] },
+  { "id": "22-72", "status": "desatualizada",
+    "motivo": "O gabarito se apoia no antigo art. 457, §2º, da CLT e na Súmula 101 do TST (diárias de viagem acima de 50% do salário integram a remuneração). Com a Lei 13.467/17, as diárias para viagem, ainda que habituais e em qualquer valor, não integram a remuneração (art. 457, §2º, da CLT), de modo que a alternativa A deixou de ser correta." },
+  { "id": "22-73", "status": "valida",
+    "explicacoes": [
+      "Correta. É inválida a norma coletiva que fixa adicional de periculosidade inferior ao legal e proporcional ao tempo de exposição, por se tratar de norma de saúde e segurança de ordem pública (Súmula 364, II, do TST); a Reforma Trabalhista manteve a vedação (art. 611-B, XVIII, da CLT).",
+      "Errada. Convenções coletivas não dependem de homologação judicial, e a cláusula é inválida por reduzir adicional de atividade perigosa (art. 611-B, XVIII, da CLT).",
+      "Errada. O reconhecimento das convenções coletivas (art. 7º, XXVI, da CF) não alcança a redução do adicional de periculosidade, objeto ilícito de negociação (art. 611-B, XVIII, da CLT e Súmula 364, II, do TST).",
+      "Errada. A lei (art. 611-B, XVIII, da CLT) e o TST (Súmula 364, II) tratam expressamente do tema."
+    ] },
+  { "id": "22-74", "status": "valida",
+    "explicacoes": [
+      "Errada. Para o aprendiz, a alíquota do FGTS é de 2% (art. 15, §7º, da Lei 8.036/90); o erro da empresa está apenas no desconto.",
+      "Errada. O FGTS é encargo exclusivo do empregador e não pode ser descontado do empregado em nenhuma proporção (art. 15 da Lei 8.036/90 e art. 462 da CLT).",
+      "Correta. O depósito de 2% é o correto para o aprendiz (art. 15, §7º, da Lei 8.036/90), mas o FGTS é obrigação do empregador e não pode ser descontado do salário (art. 462 da CLT).",
+      "Errada. O percentual está correto, mas o desconto é ilegal, pois o FGTS é encargo do empregador (art. 15 da Lei 8.036/90)."
+    ] },
+  { "id": "22-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O critério por número de empregados do art. 74, §2º, da CLT não se aplica ao doméstico; a LC 150/15 exige o registro do horário independentemente do número de empregados (art. 12).",
+      "Errada. A LC 150/15, lei de regência do trabalho doméstico, não prevê dispensa da marcação da jornada normal; ao contrário, impõe o registro do horário (art. 12).",
+      "Errada. A LC 150/15 trata expressamente do tema no art. 12.",
+      "Correta. É obrigatório o registro do horário de trabalho do empregado doméstico por qualquer meio manual, mecânico ou eletrônico, desde que idôneo (art. 12 da LC 150/15)."
+    ] },
+  { "id": "22-76", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT não prevê rateio das custas em partes iguais entre os réus; apenas o Estado é isento (art. 790-A, I, da CLT).",
+      "Errada. A isenção do Estado é pessoal e não se estende ao empregador nem à tomadora privada (art. 790-A, I, da CLT).",
+      "Correta. Os Estados são isentos do pagamento de custas (art. 790-A, I, da CLT); o empregador e a empresa privada tomadora continuam sujeitos ao recolhimento.",
+      "Errada. As custas incidem uma única vez sobre o valor da condenação (art. 789 da CLT), e não há regra que imponha o recolhimento integral por cada réu; além disso, o Estado é isento (art. 790-A, I)."
+    ] },
+  { "id": "21-70", "status": "desatualizada",
+    "motivo": "A Lei 13.509/17 incluiu o parágrafo único no art. 391-A da CLT, estendendo a estabilidade provisória ao empregado adotante a quem tenha sido concedida guarda provisória para fins de adoção. A afirmativa A (Tereza sem garantia no emprego) deixou de ser correta." },
+  { "id": "21-71", "status": "duvidosa",
+    "motivo": "A alternativa B também traz fundamento válido: dois meses sem pagamento de salário configuram descumprimento grave de obrigação contratual (art. 483, 'd', da CLT), e o TST não exige a mora contumaz de três meses do DL 368/68 para a rescisão indireta. O gabarito A depende do critério subjetivo de 'melhor atende' (faculdade de deixar o serviço, art. 483, §3º), o que torna discutível a existência de uma única resposta correta." },
+  { "id": "21-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O dissídio coletivo de natureza econômica é ajuizado pelas partes da negociação, de comum acordo (art. 114, §2º, da CF); o MPT não substitui o sindicato omisso.",
+      "Correta. A legitimidade do MPT para ajuizar dissídio coletivo está ligada à greve, especialmente em atividade essencial com possibilidade de lesão ao interesse público (art. 114, §3º, da CF e art. 83, VIII, da LC 75/93), o que não ocorre no caso.",
+      "Errada. O MPT não celebra convenção coletiva, que é firmada entre sindicatos das categorias (art. 611 da CLT), e a convenção não depende de homologação judicial.",
+      "Errada. A Justiça do Trabalho não tem competência criminal (STF, ADI 3684), e a ação de improbidade não gera condenação criminal."
+    ] },
+  { "id": "21-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Pelo falecimento de irmão, a ausência justificada é de até 2 dias consecutivos (art. 473, I, da CLT); os 3 dias são para o casamento (art. 473, II).",
+      "Errada. São até 2 dias consecutivos pelo falecimento de irmão e até 3 dias consecutivos por casamento (art. 473, I e II, da CLT).",
+      "Correta. O empregado pode faltar sem prejuízo do salário até 2 dias consecutivos pelo falecimento de irmão e até 3 dias consecutivos em virtude de casamento (art. 473, I e II, da CLT).",
+      "Errada. A CLT fala em dias consecutivos, e não em dias úteis (art. 473, I e II)."
+    ] },
+  { "id": "21-74", "status": "valida",
+    "explicacoes": [
+      "Correta. Na morte do empregado não há dispensa sem justa causa, logo não cabe a indenização de 40% do FGTS, e os valores não recebidos em vida são pagos aos dependentes habilitados perante a Previdência Social (art. 1º da Lei 6.858/80).",
+      "Errada. As férias proporcionais são devidas na extinção do contrato por morte, e o pagamento é feito aos dependentes habilitados na Previdência, e não aos herdeiros (art. 1º da Lei 6.858/80).",
+      "Errada. O aviso prévio de fato não é devido, mas o pagamento cabe aos dependentes habilitados perante a Previdência Social; os sucessores da lei civil só recebem na falta deles (art. 1º da Lei 6.858/80).",
+      "Errada. O 13º salário proporcional é devido na extinção do contrato por morte do empregado (Lei 4.090/62)."
+    ] },
+  { "id": "21-75", "status": "desatualizada",
+    "motivo": "O art. 29 da CLT previa prazo de 48 horas para a anotação da CTPS. Após a Lei 13.874/19 (Liberdade Econômica), o prazo passou a ser de 5 dias úteis, com a CTPS em meio digital, de modo que a alternativa B (anotação em 48 horas) não está mais correta." },
+  { "id": "21-76", "status": "valida",
+    "explicacoes": [
+      "Correta. Com todos os documentos nos autos e incontroversos, a apuração depende apenas de contas, sendo a liquidação feita por cálculos (art. 879 da CLT).",
+      "Errada. O arbitramento é usado quando a apuração exige conhecimento técnico ou avaliação (art. 509, I, do CPC), o que não ocorre no caso.",
+      "Errada. A liquidação por artigos (hoje, pelo procedimento comum, art. 509, II, do CPC) exige a prova de fato novo, o que não é o caso.",
+      "Errada. Execução por quantia certa não é modalidade de liquidação; ela pressupõe sentença já liquidada."
+    ] },
+  { "id": "20-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A transferência por ato unilateral do empregador para local mais distante gera direito ao suplemento da despesa de transporte (Súmula 29 do TST e art. 470 da CLT), independentemente da opção anterior pelo vale-transporte.",
+      "Errada. O vale-transporte abrange todos os deslocamentos residência-trabalho por transporte coletivo necessários, e não apenas uma tarifa (Lei 7.418/85).",
+      "Errada. O enunciado não indica falta de transporte público regular, e o aumento da despesa decorre da transferência determinada pelo empregador (Súmula 29 do TST).",
+      "Correta. O empregado transferido por ato unilateral do empregador para local mais distante de sua residência tem direito a suplemento salarial correspondente ao acréscimo da despesa de transporte (Súmula 29 do TST)."
+    ] },
+  { "id": "20-71", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora haja suspensão do contrato, o depósito do FGTS continua obrigatório na licença por acidente do trabalho (art. 15, §5º, da Lei 8.036/90).",
+      "Errada. Com o recebimento do auxílio-doença acidentário, a partir do 16º dia, o contrato fica suspenso, e não interrompido, embora o FGTS continue devido (art. 15, §5º, da Lei 8.036/90).",
+      "Correta. O afastamento com auxílio-doença acidentário (hoje auxílio por incapacidade temporária acidentário) suspende o contrato, mas o empregador continua obrigado a depositar o FGTS (art. 15, §5º, da Lei 8.036/90).",
+      "Errada. Não se trata de interrupção, e o depósito do FGTS é obrigatório no afastamento por acidente do trabalho (art. 15, §5º, da Lei 8.036/90)."
+    ] },
+  { "id": "20-72", "status": "valida",
+    "explicacoes": [
+      "Correta. Ao empregado transferido para o exterior aplica-se a legislação brasileira sobre FGTS (art. 3º, parágrafo único, da Lei 7.064/82), e o FGTS incide sobre as parcelas salariais pagas no exterior (OJ 232 da SDI-1 do TST).",
+      "Errada. Não há redução do FGTS à metade; o depósito incide integralmente sobre as parcelas salariais (art. 3º, parágrafo único, da Lei 7.064/82 e OJ 232 da SDI-1 do TST).",
+      "Errada. A ausência de FGTS na lei mexicana é irrelevante, pois a Lei 7.064/82 assegura ao transferido a legislação brasileira de FGTS (art. 3º, parágrafo único).",
+      "Errada. O direito ao FGTS decorre da lei e não depende de documento assinado pelo empregado (art. 3º, parágrafo único, da Lei 7.064/82)."
+    ] },
+  { "id": "20-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A prescrição trabalhista não se aplica às ações que tenham por objeto anotações para fins de prova junto à Previdência Social (art. 11, §1º, da CLT).",
+      "Errada. Existe prescrição trabalhista (art. 7º, XXIX, da CF e art. 11 da CLT); a hipótese é de exceção legal, e não de inexistência do instituto.",
+      "Errada. O prazo prescricional não alcança a ação declaratória para fins de prova previdenciária (art. 11, §1º, da CLT).",
+      "Correta. O art. 11, §1º, da CLT afasta a prescrição nas ações que tenham por objeto anotações para fins de prova junto à Previdência Social."
+    ] },
+  { "id": "20-74", "status": "valida",
+    "explicacoes": [
+      "Errada. O argumento de ferramenta de trabalho é inadequado; a defesa deve invocar a previsão legal expressa de que o plano de saúde não é salário (art. 458, §2º, IV, da CLT).",
+      "Correta. A assistência médica, hospitalar e odontológica, prestada diretamente ou mediante seguro-saúde, não tem natureza salarial por expressa disposição legal (art. 458, §2º, IV, e §5º, da CLT).",
+      "Errada. Alegar que os reflexos foram pagos equivaleria a admitir a natureza salarial, contrariando o art. 458, §2º, IV, da CLT.",
+      "Errada. A natureza não salarial decorre da previsão legal expressa (art. 458, §2º, IV, da CLT), e não da possibilidade de manter o plano após a rescisão."
+    ] },
+  { "id": "20-75", "status": "desatualizada",
+    "motivo": "O gabarito segue o antigo art. 477, §6º, da CLT (primeiro dia útil após o término do contrato, se o aviso foi trabalhado; dez dias, se ausente, indenizado ou dispensado o aviso). Com a Lei 13.467/17, o prazo passou a ser único: até dez dias contados do término do contrato, em qualquer modalidade de aviso." }
+]

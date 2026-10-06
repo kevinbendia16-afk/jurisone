@@ -1,0 +1,397 @@
+[
+  {
+    "id": "37-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 11.101/05 não prevê indisponibilidade de bens da massa em favor de um credor individual; o comprador deve se habilitar e receber conforme a ordem legal de pagamentos (arts. 7º e 83).",
+      "Errada. A restituição em dinheiro é restrita às hipóteses do art. 86 da Lei 11.101/05 (como adiantamento de contrato de câmbio ou valores entregues ao devedor em caso de revogação ou ineficácia do art. 136), que não abrangem o preço pago em compra e venda não cumprida.",
+      "Correta. Os contratos bilaterais não se resolvem pela falência, mas a declaração negativa do administrador judicial dá ao contratante direito a indenização, que constitui crédito quirografário (art. 117, § 2º, c/c art. 83, VI, da Lei 11.101/05).",
+      "Errada. A decretação da falência suspende as execuções individuais contra o devedor (arts. 6º, II, e 99, V, da Lei 11.101/05); o credor deve habilitar seu crédito no concurso."
+    ]
+  },
+  {
+    "id": "37-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quando a lei não exigir poderes especiais, o gerente está autorizado a praticar todos os atos necessários ao exercício dos poderes que lhe foram outorgados (art. 1.173 do CC).",
+      "Errada. Na falta de estipulação diversa, os poderes conferidos a dois ou mais gerentes presumem-se solidários (art. 1.173, parágrafo único, do CC).",
+      "Errada. O gerente pode estar em juízo em nome do preponente pelas obrigações resultantes do exercício da sua função (art. 1.176 do CC).",
+      "Correta. A modificação ou revogação do mandato do gerente, para ser oposta a terceiros, deve ser arquivada e averbada no Registro Público de Empresas Mercantis, salvo se provado que o terceiro a conhecia (art. 1.174, parágrafo único, do CC)."
+    ]
+  },
+  {
+    "id": "37-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A proteção da propriedade industrial, considerado o interesse social e o desenvolvimento tecnológico e econômico do país, efetua-se, entre outros meios, pela concessão de registro de marca (art. 2º, III, da Lei 9.279/96).",
+      "Errada. O nome empresarial não é registrado no INPI; sua proteção decorre do arquivamento dos atos na Junta Comercial (art. 1.166 do CC e art. 33 da Lei 8.934/94).",
+      "Errada. A LPI não prevê registro de título de estabelecimento; ele é protegido pela repressão à concorrência desleal (art. 195, V, da Lei 9.279/96).",
+      "Errada. Obras literárias, arquitetônicas e artísticas são protegidas pelo direito autoral (arts. 7º e 18 da Lei 9.610/98), cuja proteção independe de registro, e não pela propriedade industrial."
+    ]
+  },
+  {
+    "id": "37-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A sociedade simples que adota um dos tipos empresariais subordina-se às normas desse tipo (art. 983 do CC), devendo formar sua denominação conforme as regras da limitada (art. 1.158 do CC).",
+      "Errada. Tecnicamente, a sociedade simples não tem nome empresarial; sua denominação apenas se equipara ao nome empresarial para efeito de proteção (art. 1.155, parágrafo único, do CC).",
+      "Correta. A sociedade simples não exerce empresa e, por isso, não tem nome empresarial em sentido próprio (art. 1.155, parágrafo único, do CC), mas, ao adotar o tipo limitada, sua designação segue as regras do art. 1.158 do CC (art. 983 do CC).",
+      "Errada. A sociedade de médicos, sem elemento de empresa, é simples (art. 966, parágrafo único, do CC); além disso, a limitada pode usar firma ou denominação e a palavra limitada é obrigatória, sob pena de responsabilidade solidária e ilimitada dos administradores (art. 1.158, caput e § 3º, do CC)."
+    ]
+  },
+  {
+    "id": "36-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Dentro do prazo de contestação, o devedor pode pleitear sua recuperação judicial, e a falência não será decretada se ele provar esse pedido (arts. 95 e 96, VII, da Lei 11.101/05), sem exigência de depósito elisivo.",
+      "Errada. O depósito elisivo (art. 98, parágrafo único, da Lei 11.101/05) é faculdade do devedor e não é requisito para o pedido de recuperação judicial no prazo de contestação (art. 95).",
+      "Errada. O pedido de recuperação judicial deve ser feito no prazo da contestação (art. 95 da Lei 11.101/05); decretada a falência, o devedor não pode mais requerê-la (art. 48, I).",
+      "Errada. A existência de pedido de falência não impede a recuperação judicial: a lei permite expressamente que o devedor a requeira no prazo de contestação (art. 95 da Lei 11.101/05)."
+    ]
+  },
+  {
+    "id": "36-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A exclusão extrajudicial exige justa causa, isto é, atos de inegável gravidade que ponham em risco a continuidade da empresa (art. 1.085, caput, do CC).",
+      "Errada. A exclusão extrajudicial só é possível se o contrato social previr a exclusão por justa causa (art. 1.085, caput, do CC).",
+      "Errada. A exclusão se faz justamente mediante alteração do contrato social (art. 1.085, caput, do CC).",
+      "Correta. Quando a sociedade tem apenas dois sócios, a exclusão dispensa a reunião ou assembleia especialmente convocada para esse fim (art. 1.085, parágrafo único, do CC, com redação da Lei 13.792/19)."
+    ]
+  },
+  {
+    "id": "36-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O devedor responde ainda que o título tenha circulado contra a sua vontade (art. 905, parágrafo único, do CC); o desapossamento não o exonera, e só o pagamento feito antes de ciência da ação do proprietário o libera (art. 909, parágrafo único).",
+      "Correta. O proprietário injustamente desapossado do título pode obter novo título em juízo, bem como impedir que sejam pagos a outrem o capital e os rendimentos (art. 909 do CC).",
+      "Errada. O devedor pode opor ao portador exceção fundada em direito pessoal ou em nulidade de sua obrigação (art. 906 do CC).",
+      "Errada. Quem se apodera indevidamente do título age de má-fé e não se torna portador legítimo (art. 16 da LUG, aplicável à nota promissória pelo art. 77); além disso, não há fundamento para excluir Altamira, endossante que garante o pagamento (art. 15 da LUG)."
+    ]
+  },
+  {
+    "id": "36-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A inscrição dos atos constitutivos ou suas averbações asseguram o uso exclusivo do nome nos limites do respectivo Estado (art. 1.166, caput, do CC).",
+      "Errada. A proteção não se restringe ao município da sede; abrange todo o Estado da Junta Comercial em que foi feito o registro (art. 1.166 do CC).",
+      "Errada. A proteção só se estende a todo o território nacional se o nome for registrado na forma da lei especial (art. 1.166, parágrafo único, do CC), o que não decorre da simples inscrição.",
+      "Errada. Não existe proteção regional do nome empresarial; a regra é a proteção no âmbito do Estado do registro (art. 1.166 do CC)."
+    ]
+  },
+  {
+    "id": "35-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os credores podem deliberar a suspensão, mas a assembleia deve ser encerrada em até 90 dias contados da sua instalação, e não em 15 dias da deliberação (art. 56, § 9º, da Lei 11.101/05).",
+      "Errada. A assembleia instalada em segunda convocação (art. 37, § 2º) pode ser suspensa por deliberação dos credores (art. 56, § 9º, da Lei 11.101/05).",
+      "Correta. Suspensa a assembleia-geral convocada para votar o plano, ela deverá ser encerrada no prazo de até 90 dias, contado da data de sua instalação (art. 56, § 9º, da Lei 11.101/05, incluído pela Lei 14.112/20).",
+      "Errada. A suspensão é regra geral da recuperação judicial ordinária; no plano especial de ME e EPP nem há assembleia para votação do plano (art. 72 da Lei 11.101/05)."
+    ]
+  },
+  {
+    "id": "35-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei de Duplicatas não é omissa: o aval posterior ao vencimento produz os mesmos efeitos do anterior (art. 12, parágrafo único, da Lei 5.474/68), regra que o art. 900 do CC também adota.",
+      "Errada. A validade do aval posterior ao vencimento não depende da inexistência de endosso (art. 12, parágrafo único, da Lei 5.474/68).",
+      "Errada. O aval é admitido na duplicata cartular (art. 12 da Lei 5.474/68); a Lei 13.775/18, que criou a duplicata escritural, não o proibiu.",
+      "Correta. O aval dado após o vencimento produz os mesmos efeitos do prestado antes dele (art. 12, parágrafo único, da Lei 5.474/68)."
+    ]
+  },
+  {
+    "id": "35-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A não sujeição do credor fiduciário e a prevalência das condições contratuais é regra da recuperação judicial (art. 49, § 3º, da Lei 11.101/05); na falência, todos os credores se sujeitam ao juízo universal (art. 115).",
+      "Errada. O bem objeto de propriedade fiduciária pertence ao credor, que pode pedir sua restituição (art. 85 da Lei 11.101/05 e art. 7º do DL 911/69); ele não é alienado de imediato para pagar credores extraconcursais.",
+      "Errada. Na falência os bens são arrecadados e o falido perde a posse e a administração deles (arts. 103 e 108 da Lei 11.101/05); a permanência na posse de bens de capital é situação própria da recuperação judicial.",
+      "Correta. Decretada a falência, o crédito se sujeita ao concurso (art. 115 da Lei 11.101/05), ressalvado o direito do proprietário fiduciário de pedir a restituição do bem (art. 85 da Lei 11.101/05; art. 7º do DL 911/69; art. 32 da Lei 9.514/97)."
+    ]
+  },
+  {
+    "id": "35-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Não se considera empresário quem exerce profissão intelectual de natureza científica, ainda que com auxiliares ou colaboradores, salvo se a profissão constituir elemento de empresa (art. 966, parágrafo único, do CC).",
+      "Errada. O exercício de profissão liberal com finalidade lucrativa não basta para caracterizar empresa; a profissão intelectual só é empresária se constituir elemento de empresa (art. 966, parágrafo único, do CC).",
+      "Errada. Mesmo com o concurso de auxiliares ou colaboradores, a profissão intelectual não configura empresa, salvo se for elemento de empresa (art. 966, parágrafo único, do CC).",
+      "Errada. Uma página na Internet para marcar consultas não transforma a atividade pessoal da fisioterapeuta em elemento de empresa (art. 966, parágrafo único, do CC)."
+    ]
+  },
+  {
+    "id": "34-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os contratos civis e empresariais presumem-se paritários e simétricos até que elementos concretos afastem a presunção, ressalvados os regimes de leis especiais (art. 421-A do CC); não há exceção para empresário individual, e a EIRELI nem existe mais (Lei 14.195/21).",
+      "Correta. As partes podem estabelecer parâmetros objetivos para a interpretação das cláusulas negociais e de seus pressupostos de revisão ou de resolução (art. 421-A, I, do CC, incluído pela Lei 13.874/19).",
+      "Errada. A alocação de riscos definida pelas partes deve ser respeitada e observada (art. 421-A, II, do CC), prevalecendo a intervenção mínima e a excepcionalidade da revisão (art. 421, parágrafo único), sem intervenção discricionária do Estado.",
+      "Errada. A revisão contratual somente ocorrerá de maneira excepcional e limitada (art. 421-A, III, do CC); não há presunção absoluta de vulnerabilidade de ME e EPP."
+    ]
+  },
+  {
+    "id": "34-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A data e o lugar em que a sentença foi proferida são requisitos obrigatórios (art. 26, IV, da Lei 9.307/96), e sua falta gera nulidade (art. 32, III), não mero erro material.",
+      "Errada. A menção à data e ao lugar não é dispensável: é requisito obrigatório da sentença arbitral (art. 26, IV, da Lei 9.307/96).",
+      "Errada. O julgamento por equidade apenas deve ser mencionado nos fundamentos (art. 26, II, da Lei 9.307/96) e não dispensa a data e o lugar da sentença.",
+      "Correta. É nula a sentença arbitral que não contiver os requisitos do art. 26, entre eles a data e o lugar em que foi proferida (arts. 26, IV, e 32, III, da Lei 9.307/96)."
+    ]
+  },
+  {
+    "id": "34-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O plano especial abrange todos os créditos existentes na data do pedido, exceto os decorrentes de repasse de recursos oficiais, os fiscais e os do art. 49, §§ 3º e 4º (art. 71, I, da Lei 11.101/05).",
+      "Errada. O plano especial deve prever o pagamento da primeira parcela em até 180 dias, contados da distribuição do pedido de recuperação judicial (art. 71, III, da Lei 11.101/05).",
+      "Correta. O plano especial não abrange os créditos do art. 49, §§ 3º e 4º, como os do proprietário fiduciário e do vendedor com reserva de domínio, que mantêm as condições contratuais (art. 71, I, c/c art. 49, § 3º, da Lei 11.101/05).",
+      "Errada. O plano especial é apresentado no prazo do art. 53, ou seja, em 60 dias improrrogáveis da publicação da decisão que defere o processamento da recuperação (art. 71, caput, da Lei 11.101/05)."
+    ]
+  },
+  {
+    "id": "34-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a Lei 14.195/21, a companhia fechada pode criar classes de ações ordinárias com voto plural, não superior a 10 votos por ação (arts. 16, IV, e 110-A, I, da Lei 6.404/76).",
+      "Errada. A conversibilidade em ações preferenciais é critério expressamente admitido para a criação de classes de ações ordinárias na companhia fechada (art. 16, I, da Lei 6.404/76).",
+      "Correta. As ações ordinárias de companhia fechada podem ser de classes diversas em função da conversibilidade em preferenciais e da atribuição de voto plural (art. 16, I e IV, da Lei 6.404/76), respeitado o limite de 10 votos por ação (art. 110-A).",
+      "Errada. Ambos os critérios são lícitos na companhia fechada (arts. 16, I e IV, e 110-A da Lei 6.404/76)."
+    ]
+  },
+  {
+    "id": "34-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A distribuição proporcional à participação no capital é típica das sociedades de capital; na cooperativa, os resultados são distribuídos conforme as operações do sócio com a sociedade (art. 1.094, VII, do CC).",
+      "Errada. O valor dos bens conferidos ao capital não é o critério de distribuição dos resultados na cooperativa (art. 1.094, VII, do CC).",
+      "Correta. Na cooperativa, os resultados são distribuídos proporcionalmente ao valor das operações efetuadas pelo sócio com a sociedade, podendo ser atribuído juro fixo ao capital realizado (art. 1.094, VII, do CC; art. 4º, VII, da Lei 5.764/71).",
+      "Errada. Os Fundos de Reserva e de Assistência Técnica, Educacional e Social são indivisíveis entre os associados (art. 1.094, VIII, do CC; art. 4º, VIII, e art. 28 da Lei 5.764/71) e não servem de critério de distribuição."
+    ]
+  },
+  {
+    "id": "33-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O avalista que paga fica sub-rogado nos direitos contra o avalizado (Belizário) e contra os obrigados para com este (Antenor), podendo cobrar o valor integral (art. 32 da LUG, aplicável à nota promissória pelo art. 77).",
+      "Errada. Antônio é avalista do próprio Miguel, ou seja, posterior a ele na cadeia, e não pode ser demandado por ele; além disso, o regresso cambial é pelo valor integral, não por quota-parte (art. 32 da LUG).",
+      "Errada. Miguel não tem regresso contra Antônio, que é seu próprio avalista; o regresso alcança o avalizado e os obrigados anteriores (art. 32 da LUG).",
+      "Errada. Belizário não fica desonerado: ele é o avalizado de Miguel, que se sub-roga nos direitos contra ele e contra Antenor (art. 32 da LUG)."
+    ]
+  },
+  {
+    "id": "33-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A distribuição do pedido de falência previne a jurisdição para qualquer pedido posterior de recuperação judicial relativo ao mesmo devedor (art. 6º, § 8º, da Lei 11.101/05).",
+      "Correta. A distribuição do pedido de falência previne a jurisdição para qualquer outro pedido de falência, de recuperação judicial ou de homologação de recuperação extrajudicial do mesmo devedor (art. 6º, § 8º, da Lei 11.101/05).",
+      "Errada. A prevenção não decorre do enquadramento como empresa de pequeno porte: aplica-se a qualquer devedor (art. 6º, § 8º, da Lei 11.101/05).",
+      "Errada. O porte do devedor é irrelevante para a prevenção, que se aplica a todos os devedores (art. 6º, § 8º, da Lei 11.101/05)."
+    ]
+  },
+  {
+    "id": "33-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O protesto deve ser tirado em 30 dias do vencimento (art. 13, § 4º, da Lei 5.474/68); apresentado 28 dias após o vencimento, o título foi levado a protesto em tempo hábil.",
+      "Errada. O protesto é dispensável para executar o aceitante (art. 15, I, da Lei 5.474/68), mas é necessário para conservar o direito de regresso contra o endossante (art. 13, § 4º).",
+      "Correta. O protesto foi requerido dentro de 30 dias do vencimento, o que preserva o regresso contra o endossante (art. 13, § 4º, da Lei 5.474/68), e o aceitante, obrigado principal, pode ser executado de qualquer modo (art. 15, I).",
+      "Errada. Não houve perda do prazo, pois o título foi apresentado a protesto dentro dos 30 dias do vencimento (art. 13, § 4º, da Lei 5.474/68)."
+    ]
+  },
+  {
+    "id": "33-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A lei não exige comunicação ao locador em 30 dias; a única condição para a sub-rogação é continuar no mesmo ramo (art. 51, § 3º, da Lei 8.245/91).",
+      "Errada. A Lei de Locações confere ao sócio sobrevivente a sub-rogação no direito à renovação quando a sociedade é dissolvida por morte de sócio (art. 51, § 3º, da Lei 8.245/91).",
+      "Correta. Dissolvida a sociedade por morte de um dos sócios, o sócio sobrevivente fica sub-rogado no direito à renovação, desde que continue no mesmo ramo (art. 51, § 3º, da Lei 8.245/91).",
+      "Errada. O art. 51, § 3º, da Lei 8.245/91 trata justamente da dissolução da sociedade por morte de sócio, conferindo o direito ao sócio sobrevivente."
+    ]
+  },
+  {
+    "id": "33-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O sócio pode participar e votar a distância, e a reunião ou assembleia pode ser digital (art. 1.080-A do CC, incluído pela Lei 14.030/20).",
+      "Errada. A reunião ou assembleia de forma digital é expressamente permitida (art. 1.080-A, parágrafo único, do CC).",
+      "Errada. A participação e o voto a distância são expressamente permitidos (art. 1.080-A, caput, do CC).",
+      "Correta. O sócio pode participar e votar a distância, e a reunião ou assembleia pode ser realizada de forma digital, respeitados os direitos de participação e manifestação dos sócios (art. 1.080-A do CC)."
+    ]
+  },
+  {
+    "id": "32-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A sociedade limitada pode ser constituída por uma ou mais pessoas e, se unipessoal, aplicam-se ao seu ato de constituição, no que couber, as disposições sobre o contrato social (art. 1.052, §§ 1º e 2º, do CC).",
+      "Errada. A limitada pode ser unipessoal desde a constituição (art. 1.052, § 1º, do CC), e a regra dos 180 dias para recompor a pluralidade (art. 1.033, IV) foi revogada pela Lei 14.195/21.",
+      "Errada. Além da empresa pública e da subsidiária integral, a sociedade limitada pode ser unipessoal, tendo como sócio pessoa natural ou jurídica (art. 1.052, § 1º, do CC).",
+      "Errada. A limitada unipessoal não exige capital mínimo; os 100 salários mínimos eram exigidos da EIRELI (antigo art. 980-A do CC), extinta pela Lei 14.195/21."
+    ]
+  },
+  {
+    "id": "32-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Bonfim, emitente da nota promissória, é o obrigado principal (art. 78 da LUG); Iracema e Moura são endossantes, e Iracema, por ter endossado sem garantia, não responde (art. 15 da LUG).",
+      "Correta. O emitente Bonfim responde como obrigado principal, independentemente de protesto, e Moura, endossante, é coobrigado, exigindo-se o protesto tempestivo para cobrá-lo (arts. 15, 53 e 77 da LUG); Normandia proibiu novo endosso e Iracema endossou sem garantia, por isso não respondem perante Cantá.",
+      "Errada. Normandia não é obrigada principal, e, por ter proibido novo endosso, não garante o pagamento aos endossatários posteriores, como Cantá (art. 15, segunda parte, da LUG).",
+      "Errada. Cantá é o portador, não endossante; Iracema (endosso sem garantia) e Normandia (proibição de novo endosso) não respondem, e o protesto é necessário para acionar coobrigados (arts. 15 e 53 da LUG)."
+    ]
+  },
+  {
+    "id": "32-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O representante permanente no Brasil deve ter poderes para resolver quaisquer questões e também para receber citação judicial pela sociedade (art. 1.138 do CC).",
+      "Errada. A nacionalização com transferência da sede para o Brasil depende de autorização do Poder Executivo (art. 1.141 do CC).",
+      "Errada. A sociedade estrangeira autorizada não pode iniciar sua atividade antes de inscrita no registro próprio do lugar em que deva se estabelecer (art. 1.136 do CC).",
+      "Correta. A sociedade estrangeira autorizada fica sujeita às leis e aos tribunais brasileiros quanto aos atos praticados no Brasil (art. 1.137 do CC), e qualquer modificação no contrato depende de aprovação do Poder Executivo para produzir efeitos no país (art. 1.139 do CC)."
+    ]
+  },
+  {
+    "id": "32-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A desconsideração por confusão patrimonial alcança os bens dos sócios e administradores beneficiados direta ou indiretamente pelo abuso (art. 50 do CC), não apenas o sócio majoritário.",
+      "Errada. As sócias também foram beneficiadas, pois a sociedade cumpriu obrigações pessoais delas, de modo que seus bens podem ser atingidos (art. 50, caput e § 2º, I, do CC).",
+      "Correta. A confusão patrimonial caracterizada pelo cumprimento repetitivo, pela sociedade, de obrigações dos sócios (art. 50, § 2º, I, do CC) permite estender os efeitos aos bens dos sócios e administradores envolvidos e beneficiados, ou seja, todas as sócias e o administrador que praticou os atos.",
+      "Errada. O percentual de participação é irrelevante: Carmen também foi beneficiada, e o administrador praticou os atos de confusão (art. 50 do CC)."
+    ]
+  },
+  {
+    "id": "32-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O pedido de recuperação judicial depende de deliberação de sócios representando mais da metade do capital (arts. 1.071, VIII, e 1.076, II, do CC), não de unanimidade.",
+      "Errada. Em regra, o pedido depende de deliberação dos sócios (art. 1.071, VIII, do CC); só em caso de urgência os administradores podem requerê-lo com autorização de titulares de mais da metade do capital (art. 1.072, § 4º).",
+      "Correta. Havendo urgência, os administradores podem requerer a recuperação judicial com autorização de titulares de mais da metade do capital social (art. 1.072, § 4º, do CC, aplicado à antiga concordata preventiva, c/c art. 1.071, VIII).",
+      "Errada. O quórum para essa matéria é de mais da metade do capital (art. 1.076, II, do CC), e o quórum de 3/4 nem existe mais na limitada desde a Lei 14.451/22."
+    ]
+  },
+  {
+    "id": "31-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Sem regência supletiva da sociedade anônima, a limitada rege-se pelas normas da sociedade simples (art. 1.053 do CC), segundo as quais, na morte de sócio, liquida-se sua quota (art. 1.028 do CC).",
+      "Errada. A transmissão da quota aos herdeiros não é automática; depende de previsão contratual ou de acordo com os herdeiros (art. 1.028, I e III, do CC).",
+      "Errada. A substituição do sócio falecido depende de acordo entre os sócios remanescentes e os herdeiros (art. 1.028, III, do CC), não de decisão unilateral dos sócios.",
+      "Errada. Não há obrigação de incluir cláusula sobre sucessão; na omissão, aplica-se a regra legal de liquidação da quota (art. 1.028 do CC)."
+    ]
+  },
+  {
+    "id": "31-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A obrigação de integralizar existe desde a subscrição, e não apenas com a falência (arts. 1.004 e 1.052 do CC).",
+      "Errada. Os condôminos de quota indivisa respondem solidariamente pelas prestações necessárias à sua integralização (art. 1.056, § 2º, do CC).",
+      "Correta. Todos os sócios respondem pela integralização do capital (art. 1.052 do CC), e os condôminos de quota indivisa respondem solidariamente pela integralização dela (art. 1.056, § 2º, do CC).",
+      "Errada. Não há capital mínimo para a sociedade limitada, e o valor do capital não interfere no dever de integralização (arts. 1.052 e 1.055 do CC)."
+    ]
+  },
+  {
+    "id": "31-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O alienante continua solidariamente obrigado por um ano, e não por cinco anos (art. 1.146 do CC).",
+      "Errada. A solidariedade do alienante decorre da lei e independe de previsão contratual (art. 1.146 do CC).",
+      "Errada. A responsabilidade do alienante é limitada a um ano, contado da publicação quanto aos créditos vencidos, e não até a prescrição do título (art. 1.146 do CC).",
+      "Correta. O devedor primitivo fica solidariamente obrigado pelo prazo de um ano, contado da publicação quanto aos créditos vencidos (art. 1.146 do CC); em 15/01/2020 já havia passado mais de um ano da publicação de 15/10/2018."
+    ]
+  },
+  {
+    "id": "31-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A atuação em zona determinada, em regra com exclusividade, é característica do contrato de agência (arts. 710 e 711 do CC), e o proponente pode conferir poderes ao agente para representá-lo na conclusão dos contratos (art. 710, parágrafo único).",
+      "Errada. A zona determinada é elemento do contrato de agência e a exclusividade é presumida (arts. 710 e 711 do CC).",
+      "Errada. A outorga de mandato ao agente é expressamente permitida (art. 710, parágrafo único, do CC); a ausência de dependência refere-se à autonomia do agente, e a zona determinada é lícita.",
+      "Errada. A lei permite que o agente represente o proponente na conclusão dos contratos (art. 710, parágrafo único, do CC), não se limitando à mediação."
+    ]
+  },
+  {
+    "id": "31-50",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Na convolação, consideram-se habilitados os créditos remanescentes da recuperação judicial quando definitivamente incluídos no quadro-geral de credores, prosseguindo as habilitações em curso (art. 80 da Lei 11.101/05).",
+      "Errada. As ações que devam ser propostas no juízo da falência estão sujeitas à distribuição por dependência, sem a exceção mencionada (art. 78, parágrafo único, da Lei 11.101/05).",
+      "Errada. A falência acarreta o vencimento antecipado das dívidas (art. 77), e os credores têm reconstituídos seus direitos e garantias nas condições originalmente contratadas, deduzidos os valores pagos (art. 61, § 2º, da Lei 11.101/05).",
+      "Errada. As ações prosseguem com o administrador judicial, que deve ser intimado para representar a massa, sob pena de nulidade (art. 76, parágrafo único, da Lei 11.101/05)."
+    ]
+  },
+  {
+    "id": "30-46",
+    "status": "desatualizada",
+    "motivo": "O gabarito (B) aponta a empresa individual de responsabilidade limitada (EIRELI) como forma jurídica atual de ME/EPP. A EIRELI foi extinta: a Lei 14.195/21 (art. 41) transformou as EIRELIs em sociedades limitadas unipessoais e a Lei 14.382/22 revogou o art. 980-A do CC. Hoje nenhuma alternativa retrata corretamente as formas admitidas (empresário individual, sociedade empresária, sociedade simples e sociedade limitada unipessoal), e a questão ensinaria uma figura que não existe mais."
+  },
+  {
+    "id": "30-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quem pratica atos em nome próprio, à conta de outrem, é o comissário (art. 693 do CC); o corretor é que não se vincula por mandato (art. 722), e quem pode receber poderes de representação é o agente (art. 710, parágrafo único).",
+      "Correta. O comissário age em nome próprio, à conta do comitente (art. 693 do CC); o corretor não está ligado ao cliente por mandato ou dependência (art. 722 do CC); e o agente pode receber poderes para representar o proponente na conclusão dos contratos (art. 710, parágrafo único, do CC).",
+      "Errada. O corretor não age em nome próprio, o agente pode ser mandatário do proponente (art. 710, parágrafo único, do CC), e quem age em nome próprio é o comissário (art. 693).",
+      "Errada. O corretor não age em nome próprio (art. 722 do CC); a zona geográfica é característica da agência, não da comissão (art. 710); e o agente pode receber poderes de representação, não se limitando à mediação (art. 710, parágrafo único)."
+    ]
+  },
+  {
+    "id": "30-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Essa é a hipótese de impontualidade injustificada (art. 94, I, da Lei 11.101/05), que não se confunde com os atos de falência do art. 94, III.",
+      "Errada. A transferência do estabelecimento não é ato de falência quando faz parte do plano de recuperação judicial (art. 94, III, caput e alínea c, da Lei 11.101/05).",
+      "Errada. Essa é a hipótese de execução frustrada (art. 94, II, da Lei 11.101/05), distinta dos atos de falência previstos no art. 94, III.",
+      "Correta. Deixar de cumprir, no prazo, obrigação assumida no plano de recuperação judicial é ato de falência (art. 94, III, g, da Lei 11.101/05); encerrado o período de fiscalização, o descumprimento autoriza o pedido de falência com base no art. 94 (arts. 61 e 62)."
+    ]
+  },
+  {
+    "id": "30-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Embora a pretensão não esteja prescrita, o fundamento é errado: o prazo de vigência da patente (art. 40 da Lei 9.279/96) não se confunde com o prazo prescricional da ação de reparação, que é de 5 anos (art. 225).",
+      "Errada. Não se aplica o prazo de 3 anos do art. 206, § 3º, V, do CC, pois há regra especial: a ação de reparação de dano à propriedade industrial prescreve em 5 anos (art. 225 da Lei 9.279/96).",
+      "Correta. Prescreve em 5 anos a ação para reparação de dano causado ao direito de propriedade industrial (art. 225 da Lei 9.279/96); entre o conhecimento da violação (2015) e o ajuizamento (2019) não se passaram 5 anos.",
+      "Errada. O titular da patente tem o direito de impedir terceiros de explorá-la e de ser indenizado independentemente de licenciamento (arts. 42, 44 e 208 a 210 da Lei 9.279/96)."
+    ]
+  },
+  {
+    "id": "30-50",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Nos contratos de adesão, a cláusula compromissória só tem eficácia se o aderente tomar a iniciativa de instituir a arbitragem ou concordar expressamente com ela, por escrito em documento anexo ou em negrito, com assinatura ou visto especialmente para essa cláusula (art. 4º, § 2º, da Lei 9.307/96).",
+      "Errada. A cláusula compromissória em contrato de adesão não é nula de pleno direito; a lei a admite, condicionando sua eficácia aos requisitos do art. 4º, § 2º, da Lei 9.307/96.",
+      "Errada. A eficácia não depende só da iniciativa do aderente; também basta sua concordância expressa na forma do art. 4º, § 2º, da Lei 9.307/96, e a cláusula não é nula.",
+      "Errada. A lei admite expressamente a concordância em documento anexo ou em negrito, com assinatura ou visto especialmente para a cláusula (art. 4º, § 2º, da Lei 9.307/96)."
+    ]
+  },
+  {
+    "id": "29-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há período de dispensa: a inscrição é obrigatória antes do início da atividade (art. 967 do CC).",
+      "Correta. É obrigatória a inscrição do empresário no Registro Público de Empresas Mercantis da respectiva sede, antes do início de sua atividade (art. 967 do CC).",
+      "Errada. O microempreendedor individual também deve se inscrever, ainda que por procedimento simplificado (art. 18-A da LC 123/06 e art. 967 do CC).",
+      "Errada. A inscrição é obrigatória para todo empresário, e o próprio enquadramento como ME ou EPP pressupõe o registro (art. 3º da LC 123/06 e art. 967 do CC)."
+    ]
+  },
+  {
+    "id": "29-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A desistência é possível com a anuência expressa dos demais signatários (art. 161, § 5º, da Lei 11.101/05).",
+      "Errada. Após a distribuição do pedido de homologação, o credor não pode desistir unilateralmente da adesão (art. 161, § 5º, da Lei 11.101/05).",
+      "Correta. Após a distribuição do pedido de homologação, os credores não podem desistir da adesão ao plano, salvo com a anuência expressa dos demais signatários (art. 161, § 5º, da Lei 11.101/05).",
+      "Errada. O percentual do crédito na classe é irrelevante para a desistência, que depende da anuência expressa dos demais signatários (art. 161, § 5º, da Lei 11.101/05)."
+    ]
+  },
+  {
+    "id": "29-48",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A decretação da falência suspende o exercício do direito de retirada ou de recebimento do valor das quotas ou ações pelos sócios da sociedade falida (art. 116, II, da Lei 11.101/05).",
+      "Errada. O direito de retirada fica suspenso com a falência (art. 116, II, da Lei 11.101/05), e os haveres não seriam crédito extraconcursal, cujas hipóteses estão no art. 84.",
+      "Errada. O juiz da falência não deve deferir a retirada, pois esse direito está suspenso pela decretação da falência (art. 116, II, da Lei 11.101/05).",
+      "Errada. A decretação da falência suspende, sim, o direito de retirada do sócio (art. 116, II, da Lei 11.101/05)."
+    ]
+  }
+]

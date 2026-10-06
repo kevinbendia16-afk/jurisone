@@ -1,0 +1,277 @@
+[
+  { "id": "24-26", "status": "valida",
+    "explicacoes": [
+      "Errada. A execução fiscal não é o único meio de cobrança: a Lei 9.492/97 (art. 1º, parágrafo único, incluído pela Lei 12.767/12) prevê expressamente o protesto da CDA.",
+      "Correta. O protesto da CDA é meio extrajudicial de cobrança previsto no art. 1º, parágrafo único, da Lei 9.492/97; o STF o declarou constitucional na ADI 5135 e o STJ confirmou a possibilidade no Tema 777.",
+      "Errada. O protesto é feito em cartório, fora do processo; é instrumento extrajudicial, e não judicial, de cobrança (art. 1º, parágrafo único, da Lei 9.492/97).",
+      "Errada. Há previsão legal expressa, e o STF fixou na ADI 5135 que o protesto da CDA não é sanção política, pois não restringe de forma desproporcional os direitos do contribuinte."
+    ] },
+  { "id": "23-22", "status": "valida",
+    "explicacoes": [
+      "Errada. A imunidade não exige que a instituição seja deficitária; o superávit é admitido desde que integralmente aplicado nas finalidades institucionais (art. 14, II, do CTN).",
+      "Errada. O art. 150, VI, c, da CF alcança justamente as instituições privadas de educação sem fins lucrativos; as públicas são protegidas pela imunidade recíproca (art. 150, VI, a, e §2º).",
+      "Errada. É requisito da imunidade não distribuir qualquer parcela do patrimônio ou das rendas, a qualquer título (art. 14, I, do CTN).",
+      "Correta. Sem fins lucrativos não significa sem superávit: basta que o resultado seja reinvestido nas finalidades da instituição e que ela cumpra os requisitos do art. 14 do CTN (art. 150, VI, c, e §4º, da CF)."
+    ] },
+  { "id": "23-23", "status": "valida",
+    "explicacoes": [
+      "Errada. Primeiro se paga o crédito extraconcursal, que é a remuneração do administrador judicial (art. 84, I-D, da Lei 11.101/05, com redação da Lei 14.112/20), antes de qualquer crédito concursal do art. 83.",
+      "Errada. Entre os concursais, os créditos trabalhistas de até 150 salários mínimos por credor preferem aos tributários (art. 83, I, da Lei 11.101/05 e art. 186, parágrafo único, II, do CTN); os 30 salários mínimos cabem nesse limite.",
+      "Correta. A ordem é: remuneração do administrador (extraconcursal, art. 84), créditos trabalhistas (art. 83, I), créditos tributários (art. 83, III) e, por fim, os créditos dos sócios.",
+      "Errada. O último lugar cabe aos créditos dos sócios, que são subordinados (art. 83, VIII, b, da Lei 11.101/05) ou, no máximo, quirografários, sempre depois dos tributários (art. 83, III)."
+    ] },
+  { "id": "23-24", "status": "valida",
+    "explicacoes": [
+      "Correta. Na importação, a base do IPI é o preço normal do produto (art. 20, II, do CTN) acrescido do imposto de importação, das taxas de entrada e dos encargos cambiais (art. 47, I, do CTN); não há autorização para usar 150% do preço corrente no atacado da praça do remetente.",
+      "Errada. A inclusão do imposto de importação na base do IPI está expressamente prevista no art. 47, I, a, do CTN.",
+      "Errada. A inclusão das taxas exigidas para a entrada do produto no país está expressamente prevista no art. 47, I, b, do CTN.",
+      "Errada. A inclusão dos encargos cambiais efetivamente pagos pelo importador está expressamente prevista no art. 47, I, c, do CTN."
+    ] },
+  { "id": "23-25", "status": "valida",
+    "explicacoes": [
+      "Errada. A sucessora responde também pelas multas, moratórias e punitivas, relativas a fatos geradores anteriores à sucessão (Súmula 554 do STJ).",
+      "Correta. Na incorporação, a incorporadora responde pelos tributos devidos pela incorporada (art. 132 do CTN), e essa responsabilidade abrange as multas moratórias e punitivas de fatos geradores ocorridos até a sucessão (Súmula 554 do STJ).",
+      "Errada. A responsabilidade por sucessão independe de a sucessora ter praticado o fato gerador; ela decorre do art. 132 do CTN.",
+      "Errada. Não há distinção entre multa moratória e punitiva: ambas são transferidas à sucessora (Súmula 554 do STJ)."
+    ] },
+  { "id": "23-26", "status": "valida",
+    "explicacoes": [
+      "Errada. O CTN admite anistia limitada a determinada região do território da entidade tributante, em função de condições a ela peculiares (art. 181, II, c).",
+      "Errada. O despacho que efetiva a anistia não gera direito adquirido e pode ser revogado de ofício se o beneficiário deixar de cumprir as condições (art. 182, parágrafo único, c/c art. 155 do CTN).",
+      "Errada. A anistia pode ser concedida em caráter geral ou limitadamente (art. 181, I e II, do CTN).",
+      "Correta. Concedida em caráter não geral, a anistia é efetivada por despacho que não gera direito adquirido, podendo ser revogada de ofício diante do descumprimento das condições (art. 182, parágrafo único, c/c art. 155 do CTN)."
+    ] },
+  { "id": "22-25", "status": "valida",
+    "explicacoes": [
+      "Correta. A isenção exonera todos os obrigados, salvo se outorgada pessoalmente a um deles; nesse caso, subsiste a solidariedade quanto aos demais pelo saldo (art. 125, II, do CTN).",
+      "Errada. A exoneração total dos coobrigados só ocorre quando a isenção não é pessoal; sendo pessoal de João, Pedro continua obrigado pelo saldo (art. 125, II, do CTN).",
+      "Errada. A solidariedade não afasta a isenção: João está isento, e Pedro responde apenas pelo saldo (art. 125, II, do CTN).",
+      "Errada. Pedro não paga o valor integral, mas apenas o saldo, descontada a parcela isenta de João (art. 125, II, do CTN)."
+    ] },
+  { "id": "22-26", "status": "valida",
+    "explicacoes": [
+      "Errada. A imunidade dos templos alcança apenas impostos (art. 150, VI, b, da CF), e não taxas.",
+      "Errada. A taxa cobrada exclusivamente pela coleta, remoção e tratamento de lixo de imóveis é específica e divisível e não viola o art. 145, II, da CF (Súmula Vinculante 19).",
+      "Errada. Todos os entes, inclusive os Municípios, podem instituir taxas pelos serviços públicos que prestam (art. 145, II, da CF).",
+      "Correta. A taxa de lixo domiciliar é constitucional (Súmula Vinculante 19), e a imunidade das entidades religiosas e templos restringe-se a impostos (art. 150, VI, b, da CF)."
+    ] },
+  { "id": "22-27", "status": "valida",
+    "explicacoes": [
+      "Errada. A contribuição de melhoria é de competência comum e cabe ao ente que realizou a obra, no caso o Município (art. 145, III, da CF e art. 81 do CTN).",
+      "Correta. A contribuição de melhoria é instituída para fazer face ao custo de obra pública da qual decorra valorização imobiliária (art. 81 do CTN e art. 145, III, da CF).",
+      "Errada. A valorização imobiliária é pressuposto da contribuição de melhoria; sem ela, o tributo não pode ser cobrado (arts. 81 e 82 do CTN).",
+      "Errada. A alternativa inverte os limites: o limite total é a despesa realizada, e o limite individual é o acréscimo de valor de cada imóvel beneficiado (art. 81 do CTN)."
+    ] },
+  { "id": "22-28", "status": "valida",
+    "explicacoes": [
+      "Errada. Entre a publicação (01/09/2015) e a vigência (02/01/2016) passaram-se mais de 90 dias, o que atende à noventena exigida para as contribuições da seguridade social (art. 195, §6º, da CF).",
+      "Errada. As contribuições para a seguridade social não se submetem à anterioridade de exercício, mas apenas à noventena (art. 195, §6º, da CF).",
+      "Correta. Contribuição residual para a seguridade social, com fato gerador e base de cálculo distintos dos previstos na CF, exige lei complementar (art. 195, §4º, c/c art. 154, I, da CF); lei ordinária não basta.",
+      "Errada. Ao contrário, o art. 154, I, aplicado por remissão do art. 195, §4º, da CF, exige que a contribuição residual seja não cumulativa."
+    ] },
+  { "id": "21-25", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há sobrestamento da ação anulatória; a lei estabelece que a ação judicial importa desistência do recurso administrativo (art. 38, parágrafo único, da Lei 6.830/80).",
+      "Errada. A pendência de discussão administrativa não impede o acesso ao Judiciário (art. 5º, XXXV, da CF); a consequência é a desistência da esfera administrativa.",
+      "Errada. A propositura de ação judicial com o mesmo objeto importa renúncia ao poder de recorrer e desistência do recurso administrativo interposto (art. 38, parágrafo único, da Lei 6.830/80).",
+      "Correta. Pelo art. 38, parágrafo único, da Lei 6.830/80, declarado constitucional pelo STF, a ação judicial sobre a mesma matéria implica renúncia ao poder de recorrer e desistência do recurso administrativo."
+    ] },
+  { "id": "21-26", "status": "valida",
+    "explicacoes": [
+      "Errada. O lançamento se rege pela lei vigente na data do fato gerador (art. 144 do CTN), e a lei que agrava penalidade não retroage (art. 106, II, c, do CTN).",
+      "Errada. A alíquota aplicável é a da lei vigente ao tempo do fato gerador (art. 144 do CTN), não a da lei posterior que a majorou.",
+      "Correta. O tributo se rege pela lei do fato gerador (art. 144 do CTN), e a multa só retroagiria se a lei nova fosse mais benéfica (art. 106, II, c, do CTN), o que não ocorre, pois ela majorou as multas.",
+      "Errada. Multa majorada por lei posterior não retroage; só a penalidade menos severa alcança atos não definitivamente julgados (art. 106, II, c, do CTN)."
+    ] },
+  { "id": "21-27", "status": "valida",
+    "explicacoes": [
+      "Correta. É o texto da Súmula Vinculante 48 do STF, que vincula o Judiciário e a Administração Pública de todas as esferas (art. 103-A da CF).",
+      "Errada. A Súmula Vinculante 52 exige que o valor dos aluguéis seja aplicado nas atividades para as quais as entidades foram constituídas; a finalidade dos aluguéis importa.",
+      "Errada. A Súmula Vinculante 50 diz o contrário: a norma que altera o prazo de recolhimento não se sujeita ao princípio da anterioridade.",
+      "Errada. A Súmula Vinculante 28 declara inconstitucional a exigência de depósito prévio como requisito de admissibilidade de ação judicial que discuta a exigibilidade do crédito tributário."
+    ] },
+  { "id": "21-28", "status": "valida",
+    "explicacoes": [
+      "Errada. O parcelamento não extingue o crédito tributário; as causas de extinção estão no art. 156 do CTN.",
+      "Errada. Com o crédito suspenso, o contribuinte tem direito à certidão positiva com efeitos de negativa, sem precisar quitar o débito (art. 206 do CTN).",
+      "Correta. O parcelamento suspende a exigibilidade do crédito tributário (art. 151, VI, do CTN), o que garante a certidão positiva com efeitos de negativa (art. 206 do CTN).",
+      "Errada. A exclusão do crédito tributário ocorre apenas pela isenção e pela anistia (art. 175 do CTN); o parcelamento é causa de suspensão."
+    ] },
+  { "id": "20-25", "status": "valida",
+    "explicacoes": [
+      "Errada. Estados, DF e Municípios só podem instituir contribuição cobrada de seus servidores para custeio do regime próprio de previdência (art. 149, §1º, da CF), não sobre a folha de empregadores privados.",
+      "Correta. A contribuição social do empregador sobre a folha de salários e demais rendimentos do trabalho pagos à pessoa física, ainda que sem vínculo empregatício, é de competência da União (art. 195, I, a, da CF).",
+      "Errada. O tributo descrito, destinado a financiar a seguridade social e incidente sobre a folha, é contribuição social (art. 195, I, a, da CF), e não imposto sobre a renda.",
+      "Errada. A competência para as contribuições sociais da seguridade é, em regra, exclusiva da União (arts. 149 e 195 da CF), com a única ressalva do art. 149, §1º, que não abrange a folha do empregador privado."
+    ] },
+  { "id": "20-26", "status": "valida",
+    "explicacoes": [
+      "Errada. A autarquia permanece imune quanto ao seu patrimônio (art. 150, §2º, da CF); quem passa a ser contribuinte é o promitente comprador (art. 150, §3º, da CF).",
+      "Errada. A imunidade da autarquia não exonera o promitente comprador da obrigação de pagar o imposto relativo ao imóvel (art. 150, §3º, da CF e Súmula 583 do STF).",
+      "Errada. Não há solidariedade com a autarquia, que é imune; o IPTU é devido pelo promitente comprador (art. 150, §3º, da CF).",
+      "Correta. O promitente comprador de imóvel em nome de autarquia é contribuinte do IPTU, pois a imunidade não o beneficia (art. 150, §3º, da CF; Súmula 583 do STF; art. 34 do CTN)."
+    ] },
+  { "id": "20-27", "status": "valida",
+    "explicacoes": [
+      "Errada. Lei formalmente complementar que trata de matéria não reservada à lei complementar tem natureza de lei ordinária e pode ser alterada por lei ordinária, conforme entendimento do STF.",
+      "Errada. A CF não reserva à lei complementar a fixação da alíquota nem da base de cálculo de taxas; ambas podem ser alteradas por lei ordinária.",
+      "Errada. A base de cálculo das taxas também não está reservada à lei complementar; a reserva do art. 146, III, a, da CF diz respeito às normas gerais e aos impostos nela discriminados.",
+      "Correta. A instituição e a alteração de taxa estadual não exigem lei complementar; a lei complementar estadual que tratou do tema é materialmente ordinária e pode ser modificada por lei ordinária (art. 97 do CTN)."
+    ] },
+  { "id": "20-28", "status": "valida",
+    "explicacoes": [
+      "Correta. Prescreve em 2 anos a ação anulatória da decisão administrativa que denegar a restituição (art. 169 do CTN), prazo contado da ciência dessa decisão pelo contribuinte.",
+      "Errada. O prazo de 5 anos é o do pedido de restituição (art. 168 do CTN); para anular a decisão administrativa denegatória, o prazo é de 2 anos (art. 169 do CTN).",
+      "Errada. O prazo de 5 anos contado do primeiro dia do exercício seguinte é o prazo decadencial para o Fisco lançar (art. 173, I, do CTN), e não o da ação anulatória.",
+      "Errada. Não existe prazo de 1 ano; o art. 169 do CTN fixa 2 anos para a ação anulatória."
+    ] },
+  { "id": "19-25", "status": "valida",
+    "explicacoes": [
+      "Errada. Na execução fiscal o prazo conta-se da intimação da penhora, e não da juntada do mandado cumprido (art. 16, III, da Lei 6.830/80; STJ, REsp 1.112.416, repetitivo).",
+      "Errada. A citação abre o prazo de 5 dias para pagar ou garantir a execução (art. 8º da Lei 6.830/80); os embargos dependem de garantia e seu prazo corre da intimação da penhora.",
+      "Correta. Os embargos à execução fiscal são opostos em 30 dias contados da intimação da penhora (art. 16, III, da Lei 6.830/80), regra especial que prevalece sobre o art. 915 do CPC.",
+      "Errada. A propositura da execução não é termo inicial do prazo; o art. 16 da Lei 6.830/80 conta os 30 dias do depósito, da juntada da fiança ou do seguro garantia, ou da intimação da penhora."
+    ] },
+  { "id": "19-26", "status": "valida",
+    "explicacoes": [
+      "Errada. O ISS só alcança o transporte de natureza estritamente municipal (item 16 da lista anexa à LC 116/03); o transporte interestadual está no campo do ICMS.",
+      "Errada. A prestação de serviço de transporte interestadual é fato gerador do ICMS (art. 155, II, da CF).",
+      "Correta. O ICMS, de competência dos Estados, incide sobre prestações de serviço de transporte interestadual e intermunicipal (art. 155, II, da CF; art. 2º, II, da LC 87/96); ele segue vigente durante a transição da EC 132/23, que prevê sua extinção em 2033.",
+      "Errada. O IPVA incide sobre a propriedade de veículos automotores (art. 155, III, da CF), e não sobre a prestação do serviço de transporte."
+    ] },
+  { "id": "19-27", "status": "valida",
+    "explicacoes": [
+      "Errada. Na falência, o crédito tributário não prefere aos extraconcursais, às restituições nem aos créditos com garantia real até o limite do bem gravado (art. 186, parágrafo único, I, do CTN); a inscrição anterior em dívida ativa não altera essa ordem.",
+      "Errada. A regra de que o crédito tributário prefere a qualquer outro (art. 186, caput, do CTN) é excepcionada na falência em favor dos créditos com garantia real (art. 186, parágrafo único, I, do CTN).",
+      "Correta. Na falência, o crédito tributário não prefere aos créditos com garantia real, no limite do valor do bem gravado (art. 186, parágrafo único, I, do CTN; art. 83, II, da Lei 11.101/05).",
+      "Errada. O limite da preferência do credor com garantia real é o valor do bem gravado, e não o valor da dívida garantida (art. 186, parágrafo único, I, do CTN; art. 83, II, da Lei 11.101/05)."
+    ] },
+  { "id": "19-28", "status": "valida",
+    "explicacoes": [
+      "Errada. Os Estados não têm competência residual para criar impostos, nem mesmo por lei complementar ou previsão na Constituição Estadual; seus impostos são apenas os do art. 155 da CF.",
+      "Errada. A competência residual não pertence aos Estados, mas à União (art. 154, I, da CF); a iniciativa do Governador é irrelevante.",
+      "Correta. A competência residual para instituir impostos não previstos na CF é exclusiva da União, mediante lei complementar, desde que não cumulativos e com fato gerador e base de cálculo próprios (art. 154, I, da CF).",
+      "Errada. A União pode instituir impostos não previstos na CF, pela competência residual (art. 154, I) e pela extraordinária em caso de guerra (art. 154, II)."
+    ] },
+  { "id": "18-25", "status": "valida",
+    "explicacoes": [
+      "Correta. A competência tributária é indelegável, mas as funções de arrecadar e fiscalizar (capacidade tributária ativa) podem ser atribuídas a outra pessoa jurídica de direito público (art. 7º do CTN).",
+      "Errada. A competência tributária, isto é, o poder de instituir o tributo, é indelegável (art. 7º do CTN); o que se transferiu foi apenas a capacidade tributária ativa.",
+      "Errada. A atribuição pode ser revogada a qualquer tempo, por ato unilateral da pessoa jurídica que a conferiu (art. 7º, §2º, do CTN).",
+      "Errada. A atribuição compreende as garantias e privilégios processuais do ente que a conferiu (art. 7º, §1º, do CTN), e a autarquia tem prazo em dobro para todas as suas manifestações processuais (art. 183 do CPC)."
+    ] },
+  { "id": "18-26", "status": "valida",
+    "explicacoes": [
+      "Errada. A multa deve observar a lei nova mais benéfica, pois o ato não foi definitivamente julgado (art. 106, II, c, do CTN); o correto seria multa de 10%.",
+      "Errada. A redução da alíquota não retroage: o imposto se rege pela lei vigente na data do fato gerador (art. 144 do CTN), mantendo-se os 5%.",
+      "Errada. A alternativa inverte a regra: o imposto segue a alíquota da época do fato gerador (art. 144 do CTN), e a multa mais branda retroage (art. 106, II, c, do CTN).",
+      "Correta. O ISS deve ser lançado com a alíquota de 5% vigente no fato gerador (art. 144 do CTN), mas a multa deve ser de 10%, pois a lei que comina penalidade menos severa retroage a atos não definitivamente julgados (art. 106, II, c, do CTN)."
+    ] },
+  { "id": "18-27", "status": "valida",
+    "explicacoes": [
+      "Errada. O Poder Executivo pode alterar as alíquotas do IPI dentro dos limites fixados em lei (art. 153, §1º, da CF), o que excepciona a legalidade estrita.",
+      "Errada. Alíquotas elevadas sobre produtos supérfluos ou nocivos, como o cigarro, decorrem da seletividade e da extrafiscalidade do IPI e não configuram, por si, confisco (art. 150, IV, da CF).",
+      "Errada. A CF não prevê progressividade para o IPI; ela é prevista para tributos como IR, ITR, IPTU e ITCMD. A variação de alíquotas por produto é seletividade.",
+      "Correta. O IPI é seletivo em função da essencialidade do produto (art. 153, §3º, I, da CF): produtos essenciais têm alíquotas menores, e supérfluos ou nocivos, alíquotas maiores."
+    ] },
+  { "id": "18-28", "status": "valida",
+    "explicacoes": [
+      "Errada. Isenção só pode ser concedida por lei específica do ente competente (art. 150, §6º, da CF e art. 176 do CTN); decreto não basta.",
+      "Errada. A isenção é causa de exclusão do crédito tributário (art. 175, I, do CTN), e não de suspensão da exigibilidade.",
+      "Correta. A isenção de IPTU exige lei específica municipal (art. 150, §6º, da CF; arts. 97, VI, e 176 do CTN).",
+      "Errada. A isenção concedida por prazo certo e sob determinadas condições não pode ser revogada a qualquer tempo (art. 178 do CTN e Súmula 544 do STF)."
+    ] },
+  { "id": "17-25", "status": "valida",
+    "explicacoes": [
+      "Errada. A impugnação administrativa suspende a exigibilidade do crédito (art. 151, III, do CTN); exclusão ocorre só pela isenção e pela anistia (art. 175 do CTN).",
+      "Errada. Com a exigibilidade suspensa pela impugnação, o contribuinte tem direito à certidão positiva com efeitos de negativa (art. 206 do CTN), sem precisar pagar.",
+      "Errada. O depósito do montante integral é apenas uma das causas de suspensão (art. 151, II, do CTN); a impugnação já suspende a exigibilidade (art. 151, III).",
+      "Correta. A impugnação administrativa suspende a exigibilidade do crédito tributário (art. 151, III, do CTN), o que permite a emissão da certidão positiva com efeitos de negativa (art. 206 do CTN)."
+    ] },
+  { "id": "17-26", "status": "valida",
+    "explicacoes": [
+      "Errada. A falência é forma regular de dissolução da sociedade e não configura infração à lei para fins do art. 135, III, do CTN, segundo o STJ.",
+      "Errada. A simples condição de sócio não gera responsabilidade pessoal; é preciso atuação com excesso de poderes ou infração à lei (art. 135, III, do CTN), e o mero inadimplemento não basta (Súmula 430 do STJ).",
+      "Errada. O encerramento ilegal das atividades (dissolução irregular) autoriza o redirecionamento contra o administrador (Súmula 435 do STJ; Tema 981 do STJ).",
+      "Correta. A decretação de falência, por si só, não autoriza o redirecionamento ao sócio, pois não é dissolução irregular nem infração à lei (art. 135, III, do CTN; jurisprudência do STJ)."
+    ] },
+  { "id": "17-27", "status": "valida",
+    "explicacoes": [
+      "Errada. A isenção concedida por prazo certo e sob condição não pode ser suprimida por lei enquanto o contribuinte cumprir a condição (art. 178 do CTN; Súmula 544 do STF).",
+      "Correta. A isenção onerosa, concedida por prazo certo e sob condição, não pode ser revogada ou modificada durante o prazo se o contribuinte cumprir a condição (art. 178 do CTN; Súmula 544 do STF).",
+      "Errada. A proteção do art. 178 do CTN depende do cumprimento da condição; usando o imóvel para outra atividade, o contribuinte perde o benefício.",
+      "Errada. Isenção concedida por lei não pode ser suprimida por decreto (art. 150, §6º, da CF; art. 97, VI, do CTN) e, por ser onerosa e a prazo certo, nem mesmo por lei (art. 178 do CTN)."
+    ] },
+  { "id": "17-28", "status": "valida",
+    "explicacoes": [
+      "Errada. O STF firmou que custas judiciais e emolumentos têm natureza tributária de taxa (ADI 1378 e ADI 3694), sujeitando-se às limitações ao poder de tributar.",
+      "Correta. Custas e emolumentos são taxas pela prestação de serviço público; criados por provimento e cobrados desde a publicação, violam a legalidade (art. 150, I) e as anterioridades de exercício e nonagesimal (art. 150, III, b e c, da CF).",
+      "Errada. Custas e emolumentos não são contribuições sociais, mas taxas de serviço, segundo o STF.",
+      "Errada. Não se trata de taxa de poder de polícia, mas de taxa de serviço; além disso, a alternativa omite a violação à noventena (art. 150, III, c, da CF), que também se aplica às taxas."
+    ] },
+  { "id": "16-25", "status": "valida",
+    "explicacoes": [
+      "Errada. A legislação que disponha sobre isenção interpreta-se literalmente (art. 111, II, do CTN), o que impede estendê-la às indústrias de aviação.",
+      "Errada. A isenção concedida por prazo certo e sob condições não pode ser revogada ou modificada a qualquer tempo em prejuízo de quem cumpre os requisitos (art. 178 do CTN).",
+      "Errada. A isenção exige lei específica (art. 150, §6º, da CF e art. 176 do CTN); decreto não basta.",
+      "Correta. A isenção não dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal cujo crédito seja excluído (art. 175, parágrafo único, do CTN), já que elas são autônomas (art. 113 do CTN)."
+    ] },
+  { "id": "16-26", "status": "valida",
+    "explicacoes": [
+      "Correta. Na imputação do pagamento, a autoridade aplica primeiro às contribuições de melhoria, depois às taxas e por fim aos impostos (art. 163, II, do CTN).",
+      "Errada. O critério dos prazos prescricionais é a ordem crescente, e não decrescente (art. 163, III, do CTN), e só se aplica depois do critério da espécie tributária.",
+      "Errada. O critério dos montantes é a ordem decrescente, e não crescente (art. 163, IV, do CTN), e é o último da lista.",
+      "Errada. A ordem legal é a inversa: primeiro a taxa e depois o imposto (art. 163, II, do CTN)."
+    ] },
+  { "id": "16-27", "status": "valida",
+    "explicacoes": [
+      "Errada. O lançamento não é o marco da fraude; desde a LC 118/05, o art. 185 do CTN exige crédito regularmente inscrito em dívida ativa.",
+      "Correta. Presume-se fraudulenta a alienação de bens por sujeito passivo em débito com crédito tributário regularmente inscrito em dívida ativa (art. 185 do CTN, com redação da LC 118/05; STJ, Tema 290), salvo se reservados bens suficientes.",
+      "Errada. O despacho citatório não é o marco; depois da LC 118/05 basta a inscrição em dívida ativa (art. 185 do CTN).",
+      "Errada. O ajuizamento da execução não é o marco; a LC 118/05 antecipou a presunção de fraude para a inscrição em dívida ativa (art. 185 do CTN), e a Súmula 375 do STJ não se aplica às execuções fiscais."
+    ] },
+  { "id": "16-28", "status": "duvidosa",
+    "motivo": "A questão (XVI Exame, 2015) se baseia na Súmula 409 do STJ, apoiada no art. 219, §5º, do CPC/1973, para afirmar que o juiz pode decretar de ofício a prescrição originária sem ouvir a Fazenda. O CPC/2015 passou a exigir, como regra, que as partes sejam ouvidas antes do reconhecimento da prescrição (arts. 10 e 487, parágrafo único), ressalvando apenas a improcedência liminar do art. 332, §1º, cuja aplicação à execução fiscal é discutível. Há risco de que a expressão 'independentemente da prévia oitiva da Fazenda Pública' (alternativa C) não seja mais a única resposta correta, e a alternativa A pode ser defendida hoje." },
+  { "id": "15-25", "status": "valida",
+    "explicacoes": [
+      "Errada. A liminar não extingue o crédito tributário; as causas de extinção estão no art. 156 do CTN, e a liminar não está entre elas.",
+      "Errada. A exclusão do crédito tributário decorre apenas da isenção e da anistia (art. 175 do CTN), concedidas por lei.",
+      "Errada. A constituição do crédito é feita pelo lançamento, ato privativo da autoridade administrativa (art. 142 do CTN), e não interessa ao contribuinte que quer afastar a cobrança.",
+      "Correta. A concessão de medida liminar em mandado de segurança suspende a exigibilidade do crédito tributário (art. 151, IV, do CTN)."
+    ] },
+  { "id": "15-26", "status": "valida",
+    "explicacoes": [
+      "Errada. A falta de lei complementar de normas gerais não impede os Estados de instituir seus impostos: eles exercem competência legislativa plena (art. 24, §3º, da CF; art. 34, §3º, do ADCT).",
+      "Errada. Convênios entre Estados não substituem a lei complementar de normas gerais; a solução constitucional é a competência legislativa plena do art. 24, §3º, da CF.",
+      "Correta. Inexistindo lei complementar de normas gerais, os Estados exercem competência legislativa plena (art. 24, §3º, da CF; art. 34, §3º, do ADCT), como reconheceu o STF quanto ao IPVA; sobrevindo a lei complementar, suspende-se a eficácia da lei estadual no que lhe for contrária (art. 24, §4º).",
+      "Errada. Medida provisória não pode tratar de matéria reservada à lei complementar (art. 62, §1º, III, da CF), e não cabe à União autorizar o exercício da competência estadual."
+    ] },
+  { "id": "15-27", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora vencido e não pago, o crédito está com a exigibilidade suspensa pela defesa administrativa (art. 151, III, do CTN), o que permite obter certidão positiva com efeitos de negativa (art. 206 do CTN).",
+      "Correta. A defesa administrativa tempestiva suspende a exigibilidade do crédito (art. 151, III, do CTN), e a certidão positiva com efeitos de negativa tem os mesmos efeitos da certidão negativa (art. 206 do CTN), permitindo a participação na licitação.",
+      "Errada. Não é preciso aguardar o julgamento: a suspensão da exigibilidade existe enquanto a defesa estiver pendente (art. 151, III, do CTN).",
+      "Errada. O depósito integral é apenas uma das causas de suspensão (art. 151, II, do CTN); a defesa administrativa já suspende a exigibilidade (art. 151, III)."
+    ] },
+  { "id": "15-28", "status": "valida",
+    "explicacoes": [
+      "Errada. A LC 123/06 não é isenção heterônoma: a própria CF autoriza a lei complementar a instituir tratamento diferenciado e regime único de arrecadação abrangendo tributos de todos os entes (art. 146, III, d, e §1º, da CF).",
+      "Errada. O regime único de arrecadação é opcional para o contribuinte (art. 146, §1º, I, da CF).",
+      "Errada. Não é necessário convênio do CONFAZ, porque a inclusão do ICMS no regime simplificado tem fundamento direto na CF (art. 146, III, d, e §1º).",
+      "Correta. A arrecadação, a fiscalização e a cobrança do regime único podem ser compartilhadas pelos entes federados, adotado cadastro nacional único de contribuintes (art. 146, §1º, IV, da CF, antigo parágrafo único renumerado pela EC 132/23)."
+    ] },
+  { "id": "14-25", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há reserva de lei complementar: a lei ordinária fixa os limites e o Poder Executivo pode alterar as alíquotas do imposto de importação dentro deles (art. 153, §1º, da CF).",
+      "Errada. A alteração das alíquotas do imposto de importação pode ser feita por ato do Poder Executivo, nos limites da lei (art. 153, §1º, da CF e art. 21 do CTN).",
+      "Correta. A irretroatividade (art. 150, III, a, da CF) não comporta exceção: a alíquota majorada só alcança fatos geradores posteriores à sua vigência.",
+      "Errada. O imposto de importação é exceção tanto à anterioridade de exercício quanto à nonagesimal (art. 150, §1º, da CF)."
+    ] },
+  { "id": "14-26", "status": "valida",
+    "explicacoes": [
+      "Errada. O bis in idem não é vedado quando autorizado pela própria CF; a CSLL tem fundamento expresso no art. 195, I, c, e o IRPJ no art. 153, III, conforme entendimento do STF.",
+      "Errada. Não há direito adquirido a regime jurídico tributário; a empresa constituída antes de 1988 se submete às contribuições criadas com base na nova Constituição.",
+      "Correta. Ambos os tributos têm previsão constitucional expressa (art. 153, III, e art. 195, I, c, da CF), e o STF admite a coexistência de IRPJ e CSLL sobre o lucro.",
+      "Errada. A simples coexistência de dois tributos previstos na CF sobre o lucro não caracteriza confisco (art. 150, IV, da CF), que exige carga tributária excessiva demonstrada."
+    ] }
+]
