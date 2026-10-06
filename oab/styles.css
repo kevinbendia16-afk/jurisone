@@ -200,3 +200,11 @@ details.gab .why { color: var(--text); opacity: .85; }
 
 .aula-off { opacity: .55; }
 .aula-off h3 { font-weight: 600; }
+
+details.unidade { margin-top: 14px; border: 1px solid var(--card-b); border-radius: var(--radius); background: rgba(255, 255, 255, .025); }
+details.unidade > summary { cursor: pointer; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between;
+  align-items: center; padding: 14px 16px; font-size: 17px; }
+details.unidade > summary::-webkit-details-marker { display: none; }
+details.unidade > summary::before { content: '▸'; color: var(--gold); margin-right: 4px; transition: transform .15s; }
+details.unidade[open] > summary::before { transform: rotate(90deg); }
+details.unidade > .list { padding: 0 12px 12px; }

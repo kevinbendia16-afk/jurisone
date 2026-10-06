@@ -144,8 +144,10 @@
       <h1>${m.icone} ${esc(m.nome)}</h1>
       <p class="muted">${tot} aulas em ${grade.length} unidade(s) · ${m.topicos.length} no ar · ${aulasDe(m)} concluídas por você · ≈ ${m.qtd} questões na prova</p>
       <div class="box macete"><h3>🎯 Estratégia para esta matéria</h3>${esc(m.dica)}</div>
-      ${grade.map(u => `
-        <h2>${esc(u.nome)}</h2>
+      ${grade.map((u, ui) => {
+        const noAr = u.aulas.filter(a => a.t).length, feitas = u.aulas.filter(a => a.t && state.aulas[m.id + ':' + a.t.id]).length;
+        return `<details class="unidade" ${ui === 0 || (feitas && feitas < noAr) ? 'open' : ''}>
+        <summary><span><b>${esc(u.nome)}</b></span><span class="muted">${noAr}/${u.aulas.length} no ar${feitas ? ` · ${feitas} concluída(s)` : ''}</span></summary>
         <div class="list">${u.aulas.map(a => {
           n++;
           if (!a.t) return `<div class="card aula-off"><div><div class="muted">Aula ${n}</div><h3>${esc(a.titulo)}</h3><span class="pill">Em produção</span></div></div>`;
@@ -154,7 +156,8 @@
             <span class="pill ${a.t.incidencia}">Incidência ${a.t.incidencia === 'alta' ? 'alta' : 'média'}</span></div>
             ${state.aulas[m.id + ':' + a.t.id] ? '<span class="check">✓</span>' : '<span class="muted">→</span>'}
           </a>`;
-        }).join('')}</div>`).join('')}
+        }).join('')}</div></details>`;
+      }).join('')}
       <h2>Praticar</h2>
       <div class="row">
         <a class="btn" href="#/oficiais/${m.id}">Questões oficiais de ${esc(m.nome)}</a>

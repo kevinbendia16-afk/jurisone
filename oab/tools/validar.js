@@ -8,7 +8,7 @@ const path = require('path');
 const dir = path.join(__dirname, '..', 'data');
 const arquivos = fs.readdirSync(dir).filter(f => f.endsWith('.js'));
 const ordem = f =>
-  f === 'materias.js' ? 0 : f === 'materias2.js' ? 1 : f.startsWith('aulas-') ? 2 :
+  f === 'materias.js' ? 0 : f === 'materias2.js' ? 1 : f === 'ementa.js' ? 1.5 : f.startsWith('ementa-') ? 1.6 : f.startsWith('aulas-') ? 2 :
   f === 'questoes.js' ? 3 : f.startsWith('questoes') ? 4 : 5;
 arquivos.sort((a, b) => ordem(a) - ordem(b) || a.localeCompare(b, 'pt', { numeric: true }));
 
@@ -76,6 +76,12 @@ for (const c of window.CASOS_2FASE || []) {
   }
 }
 
+const E = window.EMENTA || {};
+for (const m of M) {
+  if (!E[m.id]) { erros.push(`ementa: matéria ${m.id} sem grade`); continue; }
+  const ids = E[m.id].flatMap(u => u.aulas.map(a => a[0]));
+  ids.filter((x, i) => ids.indexOf(x) !== i).forEach(x => erros.push(`ementa ${m.id}: id repetido ${x}`));
+}
 const aulas = M.reduce((n, m) => n + m.topicos.length, 0);
 console.log(`Arquivos: ${arquivos.length} | matérias: ${M.length} | aulas: ${aulas} | questões: ${Q.length} | casos 2ª fase: ${casoIds.size}`);
 if (erros.length) { console.log(`\n${erros.length} problema(s):\n- ` + erros.join('\n- ')); process.exit(1); }
