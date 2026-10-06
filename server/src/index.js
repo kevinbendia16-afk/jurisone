@@ -794,12 +794,20 @@ app.get('/site/admin', siteAdminAuth, (req, res) => {
 });
 if (fs.existsSync(siteDir)) app.use('/site', express.static(siteDir));
 
+// ---------- Aprova OAB (/oab): app estatico do curso preparatorio ----------
+const oabDir = path.resolve(__dirname, '../../oab');
+if (fs.existsSync(oabDir)) {
+  // caminhos relativos exigem a barra final (sem o teste, '/oab/' tambem casaria e entraria em loop)
+  app.get('/oab', (req, res, next) => (req.path === '/oab' ? res.redirect(301, '/oab/') : next()));
+  app.use('/oab', express.static(oabDir));
+}
+
 // ---------- Servir o frontend buildado (web/dist), se existir ----------
 const distDir = path.resolve(__dirname, '../../web/dist');
 if (fs.existsSync(distDir)) {
   app.use(express.static(distDir));
   // SPA fallback: qualquer rota não-API devolve o index.html
-  app.get(/^(?!\/api|\/site).*/, (req, res) => res.sendFile(path.join(distDir, 'index.html')));
+  app.get(/^(?!\/api|\/site|\/oab).*/, (req, res) => res.sendFile(path.join(distDir, 'index.html')));
 }
 
 // Error handler global: registra o erro no servidor, devolve mensagem genérica ao cliente.
