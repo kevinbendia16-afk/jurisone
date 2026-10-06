@@ -95,7 +95,10 @@ async function comRetentativa(fazer) {
   }
   return null
 }
-function redigir(L) {
+// se a saída foi barrada pelo filtro de conteúdo, a nova tentativa pede paráfrase em vez de transcrição longa
+const PARAFRASE = `
+IMPORTANTE: não transcreva trechos longos de leis, livros ou materiais de terceiros. Explique sempre com suas próprias palavras, citando apenas o número do artigo (no máximo uma frase curta entre aspas, quando a literalidade for o que a prova cobra).`
+function redigir(L, t = 1) {
   const { arqA, arqQ, lista } = arquivos(L)
   return agent(`Você escreve o curso completo da 1ª fase do Exame de Ordem (FGV) no app "Aprova OAB" (${BASE}). Hoje é outubro de 2026.
 Matéria: ${L.nome} (id '${L.materia}'). Unidade: ${L.unidade}.
@@ -111,10 +114,10 @@ Escreva somente nos seus dois arquivos.
 ${ESTILO}
 ${REGRAS_JURIDICAS}
 ${REGRAS_FORMATO}
-
+${t > 1 ? PARAFRASE : ''}
 Devolva o resumo pedido.`, { label: `redigir:${L.lote}`, phase: 'Redigir', schema: RESUMO })
 }
-function revisar(L, red) {
+function revisar(L, red, t = 1) {
   const { arqA, arqQ } = arquivos(L)
   return agent(`Você é professor de cursinho para a OAB, especialista em ${L.nome}, e revisor de provas da FGV. Revise com rigor máximo o lote ${L.lote} (unidade "${L.unidade}") ANTES de ele chegar aos alunos. Hoje é outubro de 2026. Parta do princípio de que há erros.
 Arquivos: ${arqA} (aulas) e ${arqQ} (questões). Resumo do redator: ${JSON.stringify(red || {})}
@@ -125,11 +128,12 @@ Arquivos: ${arqA} (aulas) e ${arqQ} (questões). Resumo do redator: ${JSON.strin
 ${REGRAS_JURIDICAS}
 ${REGRAS_FORMATO}
 
-Edite somente esses dois arquivos. Ao final rode node ${BASE}/tools/validar.js, corrija problemas nos seus arquivos (ignore os de outros) e devolva o relatório.`, { label: `revisar:${L.lote}`, phase: 'Revisar', schema: RELATORIO, effort: 'high' })
+Edite somente esses dois arquivos. Ao final rode node ${BASE}/tools/validar.js, corrija problemas nos seus arquivos (ignore os de outros) e devolva o relatório.${t > 1 ? PARAFRASE : ''}`, { label: `revisar:${L.lote}`, phase: 'Revisar', schema: RELATORIO, effort: 'high' })
 }
 log(`${args.lotes.length} lote(s): ${args.lotes.map(l => l.lote).join(', ')}`)
 return await pipeline(
   args.lotes,
-  L => comRetentativa(() => redigir(L)),
-  (red, L) => comRetentativa(() => revisar(L, red)).then(rev => ({ lote: L.lote, materia: L.materia, aulas: L.aulas.map(a => a[0]), red, rev })),
+  // L.redigido: o redator já terminou numa execução anterior (o arquivo existe); falta só a revisão
+  L => L.redigido ? Promise.resolve(L.redigido) : comRetentativa(t => redigir(L, t)),
+  (red, L) => comRetentativa(t => revisar(L, red, t)).then(rev => ({ lote: L.lote, materia: L.materia, aulas: L.aulas.map(a => a[0]), red, rev })),
 )
