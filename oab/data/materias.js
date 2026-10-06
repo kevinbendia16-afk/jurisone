@@ -256,7 +256,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'processotrabalho', nome: 'Processo do Trabalho', icone: '🧾', qtd: 6, cor: '#1e9e8a',
+  id: 'processotrabalho', nome: 'Processo do Trabalho', icone: '🧾', qtd: 5, cor: '#1e9e8a',
   dica: 'Recursos trabalhistas, prazos de 8 dias, depósito recursal, honorários sucumbenciais e procedimento sumaríssimo.',
   topicos: [
     { id: 'recursostrab', titulo: 'Recursos trabalhistas', incidencia: 'alta',
@@ -318,7 +318,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'tributario', nome: 'Direito Tributário', icone: '💰', qtd: 4, cor: '#d9a43b',
+  id: 'tributario', nome: 'Direito Tributário', icone: '💰', qtd: 5, cor: '#d9a43b',
   dica: 'Princípios, imunidades, espécies tributárias, obrigação, crédito tributário (suspensão, extinção e exclusão) e prescrição/decadência.',
   topicos: [
     { id: 'principios', titulo: 'Princípios e imunidades', incidencia: 'alta',

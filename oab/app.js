@@ -43,6 +43,8 @@
     [/^\/questoes$/, questoesMenu],
     [/^\/quiz\/([\w-]+)(?:\/([\w-]+))?$/, quiz],
     [/^\/simulado$/, simulado],
+    [/^\/prova$/, prova],
+    [/^\/oficiais\/([\w-]+)$/, oficiaisMateria],
     [/^\/segunda$/, segunda],
     [/^\/segunda\/([\w-]+)$/, segundaArea],
     [/^\/caso\/([\w-]+)$/, caso],
@@ -57,7 +59,7 @@
       if (m) { fn(...m.slice(1)); break; }
     }
     const sec = path.split('/')[1] || 'home';
-    const ativo = { materia: 'materias', aula: 'materias', quiz: 'questoes', simulado: 'questoes', caso: 'segunda' }[sec] || sec;
+    const ativo = { materia: 'materias', aula: 'materias', quiz: 'questoes', simulado: 'questoes', caso: 'segunda', prova: 'questoes', oficiais: 'questoes' }[sec] || sec;
     document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('active', a.dataset.nav === ativo));
     window.scrollTo(0, 0);
   }
@@ -80,6 +82,7 @@
         </div>
       </section>
       ${planoCardHome()}
+      ${simuladoCardHome()}
       <h2>Seu progresso</h2>
       <div class="grid">
         <div class="card"><div class="muted">Aulas concluídas</div><div class="stat">${lidas}/${totalAulas}</div><div class="bar"><i style="width:${pct(lidas, totalAulas)}%"></i></div></div>
@@ -129,6 +132,15 @@
       <a class="btn" href="#/quiz/${m.id}">Resolver ${qs.length} questões de ${esc(m.nome)}</a>`;
   }
 
+  // parágrafo no formato "Título: texto" vira subtítulo + texto (títulos curtos, até 50 caracteres)
+  function paragrafoAula(p) {
+    const m = p.match(/^([^:]{2,50}):\s+([\s\S]+)$/);
+    if (m && /^[A-ZÀ-Úa-zà-ú0-9"(]/.test(m[1]) && !/[.!?]$/.test(m[1].trim())) {
+      return `<h3 class="sub">${esc(m[1].trim())}</h3><p>${esc(m[2])}</p>`;
+    }
+    return `<p>${esc(p)}</p>`;
+  }
+
   function aula(mid, tid) {
     const m = mat(mid); const t = m && m.topicos.find(x => x.id === tid);
     if (!t) return notFound();
@@ -142,7 +154,7 @@
       <span class="pill ${t.incidencia}">Incidência ${t.incidencia === 'alta' ? 'alta' : 'média'} na prova</span>
 
       <div class="card lesson" style="margin-top:16px">
-        ${t.aula.map(p => `<p>${esc(p)}</p>`).join('')}
+        ${t.aula.map(paragrafoAula).join('')}
         <div class="box cai"><h3>📌 Como a FGV cobra</h3><ul>${t.cai.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
         <div class="box macete"><h3>💡 Macetes</h3><ul>${t.macetes.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
       </div>
@@ -179,6 +191,13 @@
     const erradas = Q.filter(q => state.resp[q.id] && !state.resp[q.id].ok).length;
     app.innerHTML = `
       <h1>Banco de questões</h1>
+      <section class="card hero">
+        <div class="row between"><h2 style="margin:0">Questões oficiais da OAB</h2><span class="pill oficial" id="ofTotal">carregando…</span></div>
+        <p class="muted" style="margin-bottom:0">Questões que já caíram no Exame de Ordem, de todas as edições, revisadas para a lei de hoje e com explicação de cada alternativa. As desatualizadas ficaram de fora.</p>
+        <div class="row" style="margin-top:12px"><a class="btn" href="#/prova">Simulado de domingo: prova completa</a></div>
+        <div class="grid" id="ofMaterias" style="margin-top:14px"></div>
+      </section>
+      <h2>Questões inéditas do Aprova OAB</h2>
       <p class="muted">${Q.length} questões no estilo FGV, com explicação de cada alternativa: por que a certa está certa e por que as erradas estão erradas.</p>
       <div class="grid">
         <a class="card subj" href="#/quiz/todas"><span class="ico" style="background:#f5b94222">🔀</span><h3>Todas misturadas</h3><span class="muted">${st.feitas}/${st.total} resolvidas</span></a>
@@ -190,12 +209,20 @@
         const s = statsDe(Q.filter(q => q.materia === m.id));
         return `<a class="card" href="#/quiz/${m.id}"><div><h3>${m.icone} ${esc(m.nome)}</h3><span class="muted">${s.feitas}/${s.total} resolvidas · ${pct(s.acertos, s.feitas)}% de acerto</span></div><span class="muted">→</span></a>`;
       }).join('')}</div>`;
+    carregarIndice().then(ind => {
+      const tot = document.getElementById('ofTotal'), box = document.getElementById('ofMaterias');
+      if (!tot) return;
+      tot.textContent = ind.total ? `${ind.total} questões` : 'em revisão';
+      box.innerHTML = ORDEM_CADERNO.filter(id => ind.porMateria[id]).map(id => {
+        return `<a class="card subj" href="#/oficiais/${id}"><span class="muted">${mat(id).icone} ${esc(mat(id).nome)}</span><b>${ind.porMateria[id]} questões</b></a>`;
+      }).join('') || '<p class="muted">As questões oficiais estão sendo revisadas e aparecem aqui conforme ficam prontas.</p>';
+    });
   }
 
   /* motor de questões, usado no treino e no simulado */
   function rodar(lista, opts) {
     opts = opts || {};
-    const prep = lista.map(q => ({ q, alt: shuffle(q.alt) }));
+    const prep = lista.map(q => ({ q, alt: q.oficial ? q.alt : shuffle(q.alt) }));
     let i = 0, acertos = 0;
     const resp = [];
     const fim = opts.segundos ? Date.now() + opts.segundos * 1000 : 0;
@@ -213,6 +240,7 @@
         <div class="row between"><a class="back" href="${opts.voltar || '#/questoes'}">← Sair</a>
           ${fim ? '<span class="timer" id="timer">--:--</span>' : ''}</div>
         <div class="row between"><span class="pill">${m.icone} ${esc(m.nome)}</span><span class="muted">Questão ${i + 1} de ${prep.length}</span></div>
+        ${q.oficial ? `<div class="row" style="margin-top:8px">${seloOficial(q)}</div>` : ''}
         <div class="bar"><i style="width:${pct(i, prep.length)}%"></i></div>
         <div class="card" style="margin-top:14px">
           <div class="q-enun">${esc(q.enunciado)}</div>
@@ -263,6 +291,201 @@
       return;
     }
     tela();
+  }
+
+  /* ---------- questões oficiais (provas anteriores; carregadas sob demanda) ---------- */
+  const OF = { indice: null, porMateria: {} };
+  // ordem das matérias no caderno da FGV (a quantidade de cada uma vem de MATERIAS[].qtd)
+  const ORDEM_CADERNO = ['etica', 'filosofia', 'constitucional', 'eleitoral', 'dh', 'internacional', 'financeiro', 'tributario',
+    'administrativo', 'ambiental', 'civil', 'eca', 'cdc', 'empresarial', 'processocivil', 'penal', 'processopenal',
+    'previdenciario', 'trabalho', 'processotrabalho'];
+  function carregarIndice() {
+    if (OF.indice) return Promise.resolve(OF.indice);
+    return fetch('data/oficiais/indice.json').then(r => (r.ok ? r.json() : null)).catch(() => null)
+      .then(i => (OF.indice = i || { total: 0, porMateria: {}, exames: [] }));
+  }
+  function carregarMateria(id) {
+    if (OF.porMateria[id]) return Promise.resolve(OF.porMateria[id]);
+    return fetch(`data/oficiais/${id}.json`).then(r => (r.ok ? r.json() : [])).catch(() => [])
+      .then(lista => (OF.porMateria[id] = lista.map(x => ({
+        id: 'of:' + x.id, materia: id, topico: null, enunciado: x.q,
+        alt: x.a.map((t, k) => [t, k === x.r, x.ex[k]]), oficial: { exame: x.e, n: x.n, tema: x.t },
+      }))));
+  }
+  const carregarTodas = () => carregarIndice().then(() => Promise.all(ORDEM_CADERNO.map(carregarMateria))).then(ls => ls.flat());
+  // mostra "carregando" e só desenha o resultado se o aluno ainda estiver na mesma tela
+  function aguardar(promessa, desenhar) {
+    const rota = location.hash;
+    app.innerHTML = '<div class="card result"><p class="muted">Carregando questões oficiais…</p></div>';
+    promessa.then(v => { if (location.hash === rota) desenhar(v); });
+  }
+  const seloOficial = q => (q.oficial ? `<span class="pill oficial">Questão oficial · ${esc(q.oficial.exame)} · nº ${q.oficial.n}</span>` : '');
+
+  function oficiaisMateria(id) {
+    const m = mat(id); if (!m) return notFound();
+    aguardar(carregarMateria(id), lista => {
+      const novas = lista.filter(q => !state.resp[q.id]);
+      rodar(shuffle(novas.length ? novas : lista), { voltar: '#/questoes' });
+    });
+  }
+
+  /* ---------- simulado de domingo: prova completa, igual à da FGV ---------- */
+  const DURACAO_PROVA = 5 * 3600 * 1000;
+  function porId(todas) { const mapa = new Map(todas.concat(Q).map(q => [q.id, q])); return id => mapa.get(id); }
+  function montarProvaOficial(todas) {
+    const vistas = new Set(state.provaVistas || []);
+    const ids = [], ineditas = [];
+    for (const id of ORDEM_CADERNO) {
+      const m = mat(id); if (!m) continue;
+      const of = shuffle(todas.filter(q => q.materia === id));
+      const escolha = of.filter(q => !vistas.has(q.id)).concat(of.filter(q => vistas.has(q.id))).slice(0, m.qtd);
+      if (escolha.length < m.qtd) { // completa com questões inéditas do app se faltar oficial válida
+        const extra = shuffle(Q.filter(q => q.materia === id)).slice(0, m.qtd - escolha.length);
+        if (extra.length) ineditas.push(m.nome);
+        escolha.push(...extra);
+      }
+      ids.push(...escolha.map(q => q.id));
+    }
+    return { ids, ineditas };
+  }
+  function prova() {
+    aguardar(carregarTodas(), todas => {
+      const p = state.prova;
+      if (p && p.ids) return p.entregue ? provaResultado(todas) : provaTela(todas);
+      provaInicio(todas);
+    });
+  }
+  function provaInicio(todas) {
+    const hist = state.historicoProvas || [];
+    const n = OF.indice.total;
+    app.innerHTML = `
+      <a class="back" href="#/questoes">← Questões</a>
+      <h1>Simulado de domingo</h1>
+      <div class="card hero">
+        <p style="margin-top:0">Uma prova completa <b>igual à da FGV</b>, montada com <b>questões oficiais</b> de exames anteriores, misturadas de todas as edições. Só entram questões que continuam valendo pela lei de hoje: cada uma foi revisada por dois professores, e as desatualizadas ficaram de fora.</p>
+        <ul>
+          <li><b>80 questões</b> na ordem e na quantidade do caderno: Ética (1 a 8), Filosofia (9 e 10), Constitucional (11 a 16)… até Processo do Trabalho (76 a 80).</li>
+          <li><b>5 horas</b> de prova, como no dia (das 13h às 18h, horário de Brasília). O tempo continua correndo se você sair do app.</li>
+          <li>Sem consulta e sem gabarito durante a prova. Você pode pular, voltar, trocar respostas e marcar questões para revisar.</li>
+          <li>Para passar: <b>40 acertos</b>. No final você vê a nota, o desempenho por matéria e o gabarito comentado de todas as alternativas.</li>
+        </ul>
+        <p class="muted">${n ? `${n} questões oficiais válidas disponíveis${OF.indice.exames.length ? `, de ${OF.indice.exames.length} exames (${esc(OF.indice.exames[0])} ao ${esc(OF.indice.exames[OF.indice.exames.length - 1])})` : ''}.` : 'As questões oficiais ainda estão sendo revisadas; por enquanto a prova usa as questões do app.'}</p>
+        <div class="row"><button class="btn" id="comecar">Começar a prova</button></div>
+      </div>
+      ${hist.length ? `<h2>Seus simulados</h2><div class="card table-wrap"><table><tr><th>Data</th><th>Acertos</th><th>Resultado</th></tr>
+        ${hist.slice().reverse().map(h => `<tr><td>${fmtData(h.data)}</td><td>${h.acertos}/${h.total}</td><td>${h.acertos >= 40 ? '✅ Acima da nota de corte' : '❌ Abaixo de 40'}</td></tr>`).join('')}</table></div>` : ''}`;
+    document.getElementById('comecar').onclick = () => {
+      const { ids, ineditas } = montarProvaOficial(todas);
+      state.prova = { ids, resp: {}, flags: {}, inicio: Date.now(), fim: Date.now() + DURACAO_PROVA, atual: 0, ineditas };
+      save(); provaTela(todas);
+    };
+  }
+  function provaTela(todas) {
+    const p = state.prova, achar = porId(todas);
+    const qs = p.ids.map(achar).filter(Boolean);
+    if (qs.length !== p.ids.length) { // alguma questão saiu do banco (ex.: revisão posterior): recomeça
+      state.prova = null; save(); return provaInicio(todas);
+    }
+    const desenhar = () => {
+      const i = p.atual, q = qs[i];
+      const respondidas = Object.keys(p.resp).length;
+      app.innerHTML = `
+        <div class="prova-topo">
+          <span class="timer" id="timer">--:--:--</span>
+          <span class="muted">${respondidas}/80 respondidas</span>
+          <button class="btn ghost sm" id="vercartao">Cartão-resposta</button>
+        </div>
+        <div class="cartao" id="cartao" hidden>${qs.map((x, k) => `<button class="bolha ${p.resp[k] != null ? 'resp' : ''} ${p.flags[k] ? 'flag' : ''} ${k === i ? 'atual' : ''}" data-k="${k}">${k + 1}</button>`).join('')}</div>
+        <div class="card" style="margin-top:12px">
+          <div class="row between"><b>Questão ${i + 1}</b>
+            <label class="chip"><input type="checkbox" id="flag" ${p.flags[i] ? 'checked' : ''}><span>Revisar depois</span></label></div>
+          <div class="q-enun">${esc(q.enunciado)}</div>
+          ${q.alt.map((a, k) => `<button class="alt ${p.resp[i] === k ? 'marcada' : ''}" data-k="${k}"><span class="lt">${LETRAS[k]}</span><span>${esc(a[0])}</span></button>`).join('')}
+          <div class="row between" style="margin-top:12px">
+            <button class="btn ghost sm" id="ant" ${i === 0 ? 'disabled' : ''}>← Anterior</button>
+            <button class="btn ghost sm" id="prox" ${i === qs.length - 1 ? 'disabled' : ''}>Próxima →</button>
+          </div>
+        </div>
+        <div class="row" style="margin-top:16px"><button class="btn" id="entregar">Entregar prova</button>
+          <span class="muted" id="avisoEntrega"></span></div>`;
+      const ir = k => { p.atual = Math.max(0, Math.min(qs.length - 1, k)); save(); desenhar(); window.scrollTo(0, 0); };
+      document.querySelectorAll('.alt').forEach(b => b.onclick = () => {
+        const k = +b.dataset.k;
+        if (p.resp[i] === k) delete p.resp[i]; else p.resp[i] = k; // tocar de novo desmarca
+        save(); desenhar();
+      });
+      document.getElementById('flag').onchange = e => { if (e.target.checked) p.flags[i] = 1; else delete p.flags[i]; save(); desenhar(); };
+      document.getElementById('ant').onclick = () => ir(i - 1);
+      document.getElementById('prox').onclick = () => ir(i + 1);
+      document.getElementById('vercartao').onclick = () => { const c = document.getElementById('cartao'); c.hidden = !c.hidden; };
+      document.querySelectorAll('.bolha').forEach(b => b.onclick = () => ir(+b.dataset.k));
+      const ent = document.getElementById('entregar');
+      ent.onclick = () => {
+        const faltam = qs.length - Object.keys(p.resp).length;
+        if (!ent.dataset.confirmar) {
+          ent.dataset.confirmar = '1'; ent.textContent = 'Confirmar entrega';
+          document.getElementById('avisoEntrega').textContent = faltam ? `Ainda há ${faltam} questão(ões) em branco.` : 'Todas respondidas.';
+          return;
+        }
+        entregar();
+      };
+      tick();
+    };
+    const tick = () => {
+      const r = Math.max(0, Math.round((p.fim - Date.now()) / 1000));
+      const el = document.getElementById('timer');
+      if (el) el.textContent = `${Math.floor(r / 3600)}:${String(Math.floor(r % 3600 / 60)).padStart(2, '0')}:${String(r % 60).padStart(2, '0')}`;
+      if (r === 0) entregar();
+    };
+    const entregar = () => {
+      clearInterval(timerId);
+      p.entregue = Date.now();
+      let acertos = 0; const porMateria = {};
+      qs.forEach((q, k) => {
+        const ok = p.resp[k] != null && !!q.alt[p.resp[k]][1];
+        if (ok) acertos++;
+        const o = porMateria[q.materia] = porMateria[q.materia] || [0, 0]; o[1]++; if (ok) o[0]++;
+        if (p.resp[k] != null) state.resp[q.id] = { ok, em: Date.now() };
+      });
+      p.acertos = acertos;
+      state.provaVistas = [...new Set((state.provaVistas || []).concat(p.ids))].slice(-4000);
+      (state.historicoProvas = state.historicoProvas || []).push({ data: hoje(), acertos, total: qs.length, porMateria,
+        minutos: Math.round((Math.min(p.entregue, p.fim) - p.inicio) / 60000) });
+      save(); provaResultado(todas);
+    };
+    if (Date.now() >= p.fim) return entregar();
+    clearInterval(timerId); timerId = setInterval(tick, 1000);
+    desenhar();
+  }
+  function provaResultado(todas) {
+    const p = state.prova, achar = porId(todas);
+    const qs = p.ids.map(achar);
+    const porMateria = {};
+    qs.forEach((q, k) => { if (!q) return; const ok = p.resp[k] != null && !!q.alt[p.resp[k]][1]; const o = porMateria[q.materia] = porMateria[q.materia] || [0, 0]; o[1]++; if (ok) o[0]++; });
+    const passou = p.acertos >= 40;
+    app.innerHTML = `
+      <div class="card result">
+        <div class="muted">Simulado de domingo · resultado</div>
+        <div class="big ${passou ? 'grad' : ''}">${p.acertos}/80</div>
+        <p>${passou ? '🎉 Aprovado neste simulado: acima dos 40 acertos.' : `💪 Faltaram ${40 - p.acertos} acerto(s) para os 40. Veja abaixo onde focar.`}</p>
+        <p class="muted">Tempo usado: ${fmtMin(Math.round((Math.min(p.entregue, p.fim) - p.inicio) / 60000))} de 5h.</p>
+        <div class="row" style="justify-content:center"><button class="btn" id="nova">Fazer outra prova</button><a class="btn ghost" href="#/plano">Voltar ao plano</a></div>
+      </div>
+      ${p.ineditas && p.ineditas.length ? `<p class="muted">Nesta prova, ${esc(p.ineditas.join(', '))} ainda não tinham questões oficiais revisadas suficientes e foram completadas com questões do app.</p>` : ''}
+      <h2>Desempenho por matéria</h2>
+      <div class="card table-wrap"><table><tr><th>Matéria</th><th>Acertos</th><th>%</th></tr>
+        ${ORDEM_CADERNO.filter(id => porMateria[id]).map(id => { const [a, t] = porMateria[id]; return `<tr><td>${mat(id).icone} ${esc(mat(id).nome)}</td><td>${a}/${t}</td><td>${pct(a, t)}%</td></tr>`; }).join('')}
+      </table></div>
+      <h2>Gabarito comentado</h2>
+      <div class="list">${qs.map((q, k) => {
+        if (!q) return '';
+        const marcada = p.resp[k], certa = q.alt.findIndex(a => a[1]), ok = marcada === certa;
+        return `<details class="card gab" ${ok ? '' : 'open'}><summary><b>${k + 1}.</b> ${ok ? '✅' : marcada == null ? '⬜ Em branco' : '❌'} ${esc(mat(q.materia).nome)} ${seloOficial(q)}</summary>
+          <div class="q-enun">${esc(q.enunciado)}</div>
+          ${q.alt.map((a, j) => `<div class="alt ${j === certa ? 'ok' : j === marcada ? 'bad' : ''}"><span class="lt">${LETRAS[j]}</span><span>${esc(a[0])}<span class="why">${esc(a[2])}</span></span></div>`).join('')}
+        </details>`;
+      }).join('')}</div>`;
+    document.getElementById('nova').onclick = () => { state.prova = null; save(); provaInicio(todas); };
   }
 
   function quiz(sel, top) {
@@ -440,7 +663,7 @@
       case 'revfinal': return `#/materia/${it.m}`;
       case 'leitura': return '#/materia/etica';
       case 'erros': return '#/quiz/erradas';
-      case 'simulado': return '#/simulado';
+      case 'simulado': return '#/prova';
       case 'caso': return `#/caso/${it.caso}`;
       case 'peca': case 'discursiva': case 'simulado2': return it.area ? `#/segunda/${it.area}` : '#/segunda';
       default: return '';
@@ -513,6 +736,19 @@
       <a class="btn ghost sm" href="#/plano">Ver plano completo</a></section>`;
   }
 
+  function simuladoCardHome() {
+    const p = state.prova;
+    if (p && p.ids && !p.entregue) {
+      return `<a class="card plano-cta" href="#/prova"><div><span class="pill oficial">Prova em andamento</span><h3 style="margin:8px 0 0">Continue seu simulado: ${Object.keys(p.resp).length}/80 respondidas</h3></div><span class="btn">Continuar</span></a>`;
+    }
+    const d = U.parse(hoje()); const falta = (7 - d.getDay()) % 7;
+    const dom = U.soma(hoje(), falta);
+    return `<a class="card plano-cta" href="#/prova"><div><span class="pill oficial">Simulado de domingo</span>
+      <h3 style="margin:8px 0 4px">${falta === 0 ? 'Hoje é dia de simulado!' : `Próximo simulado: domingo, ${fmtData(dom)}`}</h3>
+      <p class="muted" style="margin:0">Prova completa igual à da FGV: 80 questões oficiais de exames anteriores, 5 horas, das 13h às 18h.</p></div>
+      <span class="btn ghost">Abrir</span></a>`;
+  }
+
   function plano() {
     const cfg = state.plano && state.plano.cfg;
     if (!cfg || state.plano.editando) return planoForm(cfg);
@@ -535,6 +771,7 @@
           <button class="btn ghost sm" id="editar">Editar datas e rotina</button>
         </div>
       </div>
+      ${PD.seccionais[cfg.uf || 'RJ'] ? `<p class="muted">📍 ${esc(PD.seccionais[cfg.uf || 'RJ'])}</p>` : ''}
       ${r.avisos.length ? `<div class="box macete"><h3>⚠️ Atenção</h3><ul>${r.avisos.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>` : ''}
       <h2>Próximos dias</h2>
       <div class="list">${proximos.map((d, i) => diaHtml(d, i === 0 || d.data === h)).join('') || '<p class="muted">Nenhuma meta pela frente.</p>'}</div>
@@ -585,6 +822,9 @@
         <input type="range" id="pHoras" min="1" max="8" step="1" value="${atual.horas}">
         <b>3. Em quais dias da semana?</b>
         <div class="row" id="pDias">${DIAS_SEMANA.map((n, i) => `<label class="chip"><input type="checkbox" value="${i}" ${atual.dias.includes(i) ? 'checked' : ''}><span>${n}</span></label>`).join('')}</div>
+        <label for="pUf"><b>Seu estado</b></label>
+        <select id="pUf">${['AC','AL','AM','AP','BA','CE','DF','ES','GO','MA','MG','MS','MT','PA','PB','PE','PI','PR','RJ','RN','RO','RR','RS','SC','SE','SP','TO']
+          .map(uf => `<option ${(atual.uf || 'RJ') === uf ? 'selected' : ''}>${uf}</option>`).join('')}</select>
         <label for="pArea"><b>4. Qual área você vai escolher na 2ª fase?</b></label>
         <select id="pArea"><option value="">Ainda não sei</option>${S2.areas.map(a => `<option value="${a.id}" ${atual.area === a.id ? 'selected' : ''}>${esc(a.nome)}</option>`).join('')}</select>
         <p class="muted" id="pErro" hidden></p>
@@ -607,7 +847,7 @@
       const dias = [...document.querySelectorAll('#pDias input:checked')].map(i => +i.value);
       const e = PD.exames.find(x => x.id === ex.value);
       const novo = { exame: ex.value, fase1: e && !e.fase1 ? null : (f1.value || null), fase2: f2.value || null, horas: +hr.value, dias,
-        area: document.getElementById('pArea').value, inicio: hoje(), jaFeitas: Object.keys(state.aulas).filter(k => state.aulas[k]) };
+        area: document.getElementById('pArea').value, uf: document.getElementById('pUf').value, inicio: hoje(), jaFeitas: Object.keys(state.aulas).filter(k => state.aulas[k]) };
       const erro = !dias.length ? 'Escolha pelo menos um dia da semana.'
         : !novo.fase1 && !novo.fase2 ? 'Informe a data de pelo menos uma das fases.'
         : novo.fase1 && novo.fase2 && novo.fase2 <= novo.fase1 ? 'A 2ª fase precisa ser depois da 1ª.' : '';
