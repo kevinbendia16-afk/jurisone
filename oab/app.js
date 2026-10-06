@@ -9,7 +9,7 @@
   const KEY = 'aprova-oab-v1';
   const state = load();
   function load() {
-    const vazio = () => ({ resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {} });
+    const vazio = () => ({ resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {}, plano: {} });
     try { return Object.assign(vazio(), JSON.parse(localStorage.getItem(KEY)) || {}); }
     catch (e) { return vazio(); }
   }
@@ -46,6 +46,7 @@
     [/^\/segunda$/, segunda],
     [/^\/segunda\/([\w-]+)$/, segundaArea],
     [/^\/caso\/([\w-]+)$/, caso],
+    [/^\/plano$/, plano],
     [/^\/estrategias$/, estrategias]
   ];
   function render() {
@@ -78,6 +79,7 @@
           <a class="btn ghost" href="#/simulado">Fazer simulado</a>
         </div>
       </section>
+      ${planoCardHome()}
       <h2>Seu progresso</h2>
       <div class="grid">
         <div class="card"><div class="muted">Aulas concluídas</div><div class="stat">${lidas}/${totalAulas}</div><div class="bar"><i style="width:${pct(lidas, totalAulas)}%"></i></div></div>
@@ -91,6 +93,7 @@
         <div class="card"><h3>✍️ 2ª fase – prático-profissional</h3><p class="muted">Peça profissional (5 pontos) + 4 questões discursivas (1,25 cada), na área escolhida. Precisa de nota 6,0.</p><a class="btn sm ghost" href="#/segunda">Preparar a 2ª fase</a></div>
       </div>
       <p class="footer-note">Conteúdo inédito, organizado a partir da lei e das súmulas cobradas pela FGV. Confira sempre o edital vigente do seu exame.</p>`;
+    ligarChecks();
   }
 
   function materias() {
@@ -400,9 +403,218 @@
       <div class="grid two">${EST.map((e, i) => `<div class="card"><span class="pill">#${i + 1}</span><h3 style="margin-top:8px">${esc(e.titulo)}</h3><p class="muted" style="margin:0">${esc(e.texto)}</p></div>`).join('')}</div>
       <h2>Zerar progresso</h2>
       <div class="card row between"><span class="muted">Apaga aulas concluídas, respostas, treinos da 2ª fase e vídeos salvos neste aparelho.</span><button class="btn ghost sm" id="reset">Zerar</button></div>`;
-    document.getElementById('reset').onclick = () => {
-      if (!confirm('Apagar todo o seu progresso?')) return;
-      Object.assign(state, { resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {} }); save(); render();
+    const rs = document.getElementById('reset');
+    rs.onclick = () => {
+      if (!rs.dataset.confirmar) { rs.dataset.confirmar = '1'; rs.textContent = 'Clique de novo para apagar tudo'; return; }
+      Object.assign(state, { resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {}, plano: {} }); save(); render();
+    };
+  }
+
+  /* ---------- plano de estudos inteligente ---------- */
+  const PD = window.PLANO_DADOS;
+  const U = window.Plano.util;
+  const hoje = () => U.iso(new Date());
+  const DIAS_SEMANA = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+  const fmtData = d => U.parse(d).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+  const fmtDia = d => U.parse(d).toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit', month: 'long' });
+  const fmtMin = m => (m >= 60 ? `${Math.floor(m / 60)}h${m % 60 ? String(m % 60).padStart(2, '0') : ''}` : `${m} min`);
+  let planoCache = null;
+  function planoAtual() {
+    const cfg = state.plano && state.plano.cfg;
+    if (!cfg) return null;
+    const chave = JSON.stringify(cfg) + (window.CASOS_2FASE || []).length;
+    if (!planoCache || planoCache.chave !== chave) {
+      planoCache = { chave, r: window.Plano.gerar(cfg, { materias: M, blocos: PD.blocos, areas: S2.areas, casos: window.CASOS_2FASE || [] }) };
+    }
+    return planoCache.r;
+  }
+  function itemFeito(d, it) {
+    if (it.tipo === 'aula') return !!state.aulas[it.m + ':' + it.t];
+    if (it.tipo === 'caso') return state.casos[it.caso] != null;
+    return !!(state.plano.feitos || {})[d.data + '|' + it.chave];
+  }
+  function itemLink(it) {
+    switch (it.tipo) {
+      case 'aula': case 'revisao': return `#/aula/${it.m}/${it.t}`;
+      case 'questoes': case 'etica': return `#/quiz/${it.m}`;
+      case 'revfinal': return `#/materia/${it.m}`;
+      case 'leitura': return '#/materia/etica';
+      case 'erros': return '#/quiz/erradas';
+      case 'simulado': return '#/simulado';
+      case 'caso': return `#/caso/${it.caso}`;
+      case 'peca': case 'discursiva': case 'simulado2': return it.area ? `#/segunda/${it.area}` : '#/segunda';
+      default: return '';
+    }
+  }
+  function itemHtml(d, it) {
+    const feito = itemFeito(d, it), link = itemLink(it);
+    const marcavel = !['prova', 'aula', 'caso'].includes(it.tipo);
+    return `<div class="meta ${feito ? 'feita' : ''}">
+      ${marcavel ? `<input type="checkbox" class="chk-meta" data-d="${d.data}" data-k="${esc(it.chave)}" ${feito ? 'checked' : ''} aria-label="Marcar como feita">`
+        : `<span class="meta-ico">${it.tipo === 'prova' ? '🏁' : feito ? '✓' : '○'}</span>`}
+      <div class="meta-txt"><b>${esc(it.texto)}</b><span class="muted">${esc(it.detalhe || '')}</span></div>
+      <span class="meta-min">${it.tipo === 'prova' ? '' : fmtMin(it.min)}</span>
+      ${link ? `<a class="btn ghost sm" href="${link}">Abrir</a>` : ''}
+    </div>`;
+  }
+  function ligarChecks() {
+    document.querySelectorAll('.chk-meta').forEach(el => el.onchange = () => {
+      state.plano.feitos = state.plano.feitos || {};
+      const k = el.dataset.d + '|' + el.dataset.k;
+      if (el.checked) state.plano.feitos[k] = 1; else delete state.plano.feitos[k];
+      save(); el.closest('.meta').classList.toggle('feita', el.checked);
+    });
+  }
+  function diaHtml(d, aberto) {
+    const h = hoje();
+    const total = d.itens.reduce((s, it) => s + (it.tipo === 'prova' ? 0 : it.min), 0);
+    const feitas = d.itens.filter(it => itemFeito(d, it)).length;
+    const rotulo = d.data === h ? 'Hoje' : U.entre(h, d.data) === 1 ? 'Amanhã' : fmtDia(d.data);
+    if (d.folga) return `<div class="dia folga"><span>${esc(rotulo)}</span><span class="muted">Folga</span></div>`;
+    return `<details class="dia" ${aberto ? 'open' : ''}><summary><span><b>${esc(rotulo)}</b> <span class="muted">· ${esc(d.etapa)}</span></span>
+      <span class="muted">${feitas}/${d.itens.length} metas · ${fmtMin(total)}</span></summary>
+      <div class="metas">${d.itens.map(it => itemHtml(d, it)).join('')}</div></details>`;
+  }
+  function contagem(cfg) {
+    const h = hoje(), out = [];
+    if (cfg.fase1 && cfg.fase1 >= h) out.push({ n: U.entre(h, cfg.fase1), txt: 'dias para a 1ª fase', data: cfg.fase1 });
+    if (cfg.fase2 && cfg.fase2 >= h) out.push({ n: U.entre(h, cfg.fase2), txt: 'dias para a 2ª fase', data: cfg.fase2 });
+    return out;
+  }
+  function situacao(r) {
+    const h = hoje();
+    const passados = r.dias.filter(d => d.data < h && !d.folga);
+    const metas = passados.flatMap(d => d.itens.filter(it => it.tipo !== 'prova').map(it => itemFeito(d, it)));
+    const atrasadas = metas.filter(x => !x).length;
+    const futuros = r.dias.filter(d => !d.folga);
+    const todas = futuros.flatMap(d => d.itens.filter(it => it.tipo !== 'prova').map(it => itemFeito(d, it)));
+    return { atrasadas, pct: pct(todas.filter(Boolean).length, todas.length) };
+  }
+
+  function planoCardHome() {
+    const cfg = state.plano && state.plano.cfg;
+    if (!cfg) {
+      const ex = PD.exames[0];
+      const n = U.entre(hoje(), ex.fase1);
+      return `<section class="card plano-cta">
+        <div><span class="pill">Plano de estudos</span><h2 style="margin:8px 0 4px">${n > 0 ? `Faltam ${n} dias para a 1ª fase do ${esc(ex.nome)}` : 'Monte seu plano até a prova'}</h2>
+        <p class="muted" style="margin:0">Diga quanto tempo você tem por dia e o app monta metas diárias até a 1ª fase (${fmtData(ex.fase1)}) e a 2ª fase (${fmtData(ex.fase2)}).</p></div>
+        <a class="btn" href="#/plano">Montar meu plano</a></section>`;
+    }
+    const r = planoAtual(), h = hoje();
+    const d = r.dias.find(x => x.data === h);
+    const prox = r.dias.find(x => x.data > h && !x.folga);
+    const cont = contagem(cfg);
+    return `<section class="card plano-hoje">
+      <div class="row between"><h2 style="margin:0">Metas de hoje</h2>
+        <div class="row">${cont.map(c => `<span class="pill">${c.n} ${c.txt}</span>`).join('')}</div></div>
+      ${d && !d.folga ? `<div class="metas">${d.itens.slice(0, 5).map(it => itemHtml(d, it)).join('')}</div>`
+        : `<p class="muted">${d && d.folga ? 'Hoje é folga no seu plano.' : 'Nenhuma meta para hoje.'} ${prox ? `Próximo dia de estudo: ${fmtDia(prox.data)}.` : ''}</p>`}
+      <a class="btn ghost sm" href="#/plano">Ver plano completo</a></section>`;
+  }
+
+  function plano() {
+    const cfg = state.plano && state.plano.cfg;
+    if (!cfg || state.plano.editando) return planoForm(cfg);
+    const r = planoAtual(), h = hoje();
+    const sit = situacao(r);
+    const cont = contagem(cfg);
+    const etapaAtual = r.etapas.find(e => e.de <= h && e.ate >= h);
+    const proximos = r.dias.filter(d => d.data >= h).slice(0, 8);
+    const meses = {};
+    r.dias.forEach(d => { const k = d.data.slice(0, 7); (meses[k] = meses[k] || []).push(d); });
+    app.innerHTML = `
+      <h1>Seu plano de estudos</h1>
+      <div class="card hero">
+        <div class="contagem">${cont.length ? cont.map(c => `<div><div class="stat">${c.n}</div><div class="muted">${c.txt}<br>${fmtData(c.data)}</div></div>`).join('') : '<div class="muted">As datas do plano já passaram. Edite o plano para a próxima prova.</div>'}
+          <div><div class="stat">${sit.pct}%</div><div class="muted">do plano concluído</div></div></div>
+        <p style="margin:14px 0 0">${etapaAtual ? `Etapa atual: <b>${esc(etapaAtual.nome)}</b> (até ${fmtData(etapaAtual.ate)}).` : ''}
+          ${sit.atrasadas ? `Você tem <b>${sit.atrasadas}</b> meta(s) atrasada(s). Faça as que puder ou replaneje a partir de hoje.` : 'Você está em dia. 👏'}</p>
+        <div class="row" style="margin-top:12px">
+          <button class="btn sm" id="replanejar">Replanejar a partir de hoje</button>
+          <button class="btn ghost sm" id="editar">Editar datas e rotina</button>
+        </div>
+      </div>
+      ${r.avisos.length ? `<div class="box macete"><h3>⚠️ Atenção</h3><ul>${r.avisos.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>` : ''}
+      <h2>Próximos dias</h2>
+      <div class="list">${proximos.map((d, i) => diaHtml(d, i === 0 || d.data === h)).join('') || '<p class="muted">Nenhuma meta pela frente.</p>'}</div>
+      <h2>Etapas</h2>
+      <div class="card"><ol class="steps">${r.etapas.map(e => `<li class="${etapaAtual === e ? 'atual' : ''}"><b>${esc(e.nome)}</b><br><span class="muted">${fmtData(e.de)} a ${fmtData(e.ate)}</span></li>`).join('')}</ol></div>
+      <details class="card" id="completo"><summary><b>Ver o plano completo, dia a dia</b> <span class="muted">(${r.dias.filter(d => !d.folga).length} dias de estudo)</span></summary>
+        ${Object.keys(meses).map(k => `<h3 style="margin:18px 0 8px;text-transform:capitalize">${U.parse(k + '-01').toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' })}</h3>
+          <div class="list">${meses[k].map(d => diaHtml(d, false)).join('')}</div>`).join('')}
+      </details>
+      ${r.resumo.foraDoPlano && r.resumo.foraDoPlano.length ? `<h2>Se sobrar tempo</h2><div class="list">${r.resumo.foraDoPlano.map(x => `<a class="card" href="#/aula/${x.m}/${x.t}"><span>${esc(mat(x.m).nome)}: ${esc(x.titulo)}</span><span class="muted">→</span></a>`).join('')}</div>` : ''}
+      <h2>Matérias que rendem juntas</h2>
+      <p class="muted">O plano estuda as matérias em blocos de afinidade, intercalando direito material e processo. Assim um assunto reforça o outro.</p>
+      <div class="grid two">${PD.blocos.map((b, i) => `<div class="card"><span class="pill">Bloco ${i + 1}</span><h3 style="margin-top:8px">${esc(b.nome)}</h3><p class="muted" style="margin:0">${esc(b.porque)}</p></div>`).join('')}</div>
+      <h2>Técnicas de estudo do plano</h2>
+      <div class="grid two">${PD.tecnicas.map(t => `<div class="card"><h3>${esc(t.titulo)}</h3><p class="muted" style="margin:0 0 8px">${esc(t.texto)}</p><span class="pill">${esc(t.aplica)}</span></div>`).join('')}</div>
+      <h2>Para a 2ª fase</h2>
+      <div class="card"><ol class="steps">${PD.segunda.map(s => `<li>${esc(s)}</li>`).join('')}</ol></div>
+      <p class="row" style="margin-top:20px"><a class="btn ghost sm" href="#/estrategias">Estratégias de prova</a>
+        <button class="btn ghost sm" id="apagar">Apagar plano</button></p>`;
+    ligarChecks();
+    document.getElementById('replanejar').onclick = () => {
+      Object.assign(state.plano.cfg, { inicio: hoje(), jaFeitas: Object.keys(state.aulas).filter(k => state.aulas[k]) });
+      save(); plano();
+    };
+    document.getElementById('editar').onclick = () => { state.plano.editando = true; plano(); window.scrollTo(0, 0); };
+    const ap = document.getElementById('apagar');
+    ap.onclick = () => {
+      if (ap.dataset.confirmar) { state.plano = {}; save(); plano(); return; }
+      ap.dataset.confirmar = '1'; ap.textContent = 'Clique de novo para apagar o plano';
+    };
+  }
+
+  function planoForm(cfg) {
+    const atual = cfg || { exame: '48', fase1: PD.exames[0].fase1, fase2: PD.exames[0].fase2, horas: 3, dias: [1, 2, 3, 4, 5, 6], area: '' };
+    app.innerHTML = `
+      ${cfg ? '<a class="back" href="#/plano" id="cancelar">← Voltar ao plano</a>' : ''}
+      <h1>Monte seu plano de estudos</h1>
+      <p class="muted">Responda 4 perguntas e o app distribui todo o conteúdo em metas diárias, com revisões programadas, simulados e a preparação da 2ª fase.</p>
+      <form class="card plano-form" id="fplano">
+        <label for="pExame"><b>1. Qual prova você vai fazer?</b></label>
+        <select id="pExame">${PD.exames.map(e => `<option value="${e.id}" ${atual.exame === e.id ? 'selected' : ''}>${esc(e.nome)}</option>`).join('')}
+          <option value="outro" ${atual.exame === 'outro' ? 'selected' : ''}>Outra data</option></select>
+        <div class="grid two" style="gap:10px">
+          <div id="wF1"><label for="pF1" class="muted">Data da 1ª fase</label><input type="date" id="pF1" value="${atual.fase1 || ''}"></div>
+          <div><label for="pF2" class="muted">Data da 2ª fase</label><input type="date" id="pF2" value="${atual.fase2 || ''}"></div>
+        </div>
+        <label for="pHoras"><b>2. Quantas horas por dia você pode estudar?</b> <span id="lHoras" class="pill">${atual.horas}h</span></label>
+        <input type="range" id="pHoras" min="1" max="8" step="1" value="${atual.horas}">
+        <b>3. Em quais dias da semana?</b>
+        <div class="row" id="pDias">${DIAS_SEMANA.map((n, i) => `<label class="chip"><input type="checkbox" value="${i}" ${atual.dias.includes(i) ? 'checked' : ''}><span>${n}</span></label>`).join('')}</div>
+        <label for="pArea"><b>4. Qual área você vai escolher na 2ª fase?</b></label>
+        <select id="pArea"><option value="">Ainda não sei</option>${S2.areas.map(a => `<option value="${a.id}" ${atual.area === a.id ? 'selected' : ''}>${esc(a.nome)}</option>`).join('')}</select>
+        <p class="muted" id="pErro" hidden></p>
+        <div class="row"><button class="btn" type="submit">${cfg ? 'Salvar e recalcular' : 'Gerar meu plano'}</button></div>
+      </form>`;
+    const ex = document.getElementById('pExame'), f1 = document.getElementById('pF1'), f2 = document.getElementById('pF2');
+    const sincroniza = () => {
+      const e = PD.exames.find(x => x.id === ex.value);
+      if (e) { f1.value = e.fase1 || ''; f2.value = e.fase2 || ''; }
+      document.getElementById('wF1').hidden = !!(e && !e.fase1);
+    };
+    ex.onchange = sincroniza;
+    document.getElementById('wF1').hidden = !!((PD.exames.find(x => x.id === ex.value) || {}).fase1 === null);
+    const hr = document.getElementById('pHoras');
+    hr.oninput = () => { document.getElementById('lHoras').textContent = hr.value + 'h'; };
+    const canc = document.getElementById('cancelar');
+    if (canc) canc.onclick = ev => { ev.preventDefault(); delete state.plano.editando; plano(); };
+    document.getElementById('fplano').onsubmit = ev => {
+      ev.preventDefault();
+      const dias = [...document.querySelectorAll('#pDias input:checked')].map(i => +i.value);
+      const e = PD.exames.find(x => x.id === ex.value);
+      const novo = { exame: ex.value, fase1: e && !e.fase1 ? null : (f1.value || null), fase2: f2.value || null, horas: +hr.value, dias,
+        area: document.getElementById('pArea').value, inicio: hoje(), jaFeitas: Object.keys(state.aulas).filter(k => state.aulas[k]) };
+      const erro = !dias.length ? 'Escolha pelo menos um dia da semana.'
+        : !novo.fase1 && !novo.fase2 ? 'Informe a data de pelo menos uma das fases.'
+        : novo.fase1 && novo.fase2 && novo.fase2 <= novo.fase1 ? 'A 2ª fase precisa ser depois da 1ª.' : '';
+      const pe = document.getElementById('pErro');
+      if (erro) { pe.textContent = erro; pe.hidden = false; return; }
+      state.plano = { cfg: novo, feitos: (state.plano && state.plano.feitos) || {} };
+      save(); location.hash = '#/plano'; plano(); window.scrollTo(0, 0);
     };
   }
 
