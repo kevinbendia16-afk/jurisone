@@ -27,6 +27,7 @@
       return mapa.get(data);
     };
     const estuda = data => cfg.dias.includes(parse(data).getDay());
+    const domingo = data => parse(data).getDay() === 0;
     const minutos = Math.max(1, Math.min(10, +cfg.horas || 2)) * 60;
     const mat = id => ctx.materias.find(m => m.id === id);
     const jaFeitas = new Set(cfg.jaFeitas || []);
@@ -37,8 +38,11 @@
     if (cfg.fase1 && cfg.fase1 > cfg.inicio) {
       const vespera = soma(cfg.fase1, -1);
       const todos = intervalo(cfg.inicio, soma(vespera, -1));
-      const estudo = todos.filter(estuda);
-      todos.filter(d => !estuda(d)).forEach(d => { dia(d, 'Folga').folga = true; });
+      const estudo = todos.filter(d => estuda(d) && !domingo(d));
+      todos.filter(d => !estuda(d) && !domingo(d)).forEach(d => { dia(d, 'Folga').folga = true; });
+      // todo domingo: simulado igual à prova, com questões oficiais (o 1º serve de diagnóstico)
+      todos.filter(domingo).forEach((d, i) => { dia(d, 'Simulado de domingo').itens.push(provaDomingo(i === 0)); });
+      resumo.domingos = todos.filter(domingo).length;
       const N = estudo.length;
       resumo.diasEstudo1 = N;
 
@@ -134,15 +138,9 @@
         const nQ = Math.max(10, Math.round(minutos / 60 * 12)); // ~12 questões por hora
         quest.forEach((d, i) => {
           const D = dia(d, 'Questões e simulados');
-          const proxEstudo = quest[i + 1] || final[0];
-          const fimDeSemana = !proxEstudo || entre(d, proxEstudo) > 1 || parse(d).getDay() === 6 || parse(d).getDay() === 0;
-          if (fimDeSemana && i > 0) {
-            D.itens.push(simulado(minutos));
-          } else {
-            const a = rodizio[(i * 2) % rodizio.length], b = rodizio[(i * 2 + 1) % rodizio.length];
-            [a, b].filter((v, j, arr) => arr.indexOf(v) === j).forEach(id => D.itens.push({ tipo: 'questoes', chave: `q:${id}`, m: id,
-              texto: `Questões de ${mat(id).nome}`, detalhe: `${Math.round(nQ / 2)} questões, lendo a explicação de todas as alternativas`, min: Math.round(minutos * 0.35) }));
-          }
+          const a = rodizio[(i * 2) % rodizio.length], b = rodizio[(i * 2 + 1) % rodizio.length];
+          [a, b].filter((v, j, arr) => arr.indexOf(v) === j).forEach(id => D.itens.push({ tipo: 'questoes', chave: `q:${id}`, m: id,
+            texto: `Questões de ${mat(id).nome}`, detalhe: `${Math.round(nQ / 2)} questões (oficiais e inéditas), lendo a explicação de todas as alternativas`, min: Math.round(minutos * 0.35) }));
           if (extraQuest[i]) { D.itens.push(aulaItem(extraQuest[i])); agendarRevisoes(d, extraQuest[i]); }
           D.itens.push({ tipo: 'erros', chave: 'erros', texto: 'Revisar erros', detalhe: 'Refaça as questões que você errou', min: 20 });
         });
@@ -152,13 +150,9 @@
         const porDiaFinal = Math.max(2, Math.ceil(ordemFinal.length / Math.max(1, final.length)));
         final.forEach((d, i) => {
           const D = dia(d, 'Reta final: revisão');
-          const simuladoAqui = final.length >= 4 && i === final.length - 3;
-          if (simuladoAqui) D.itens.push(simulado(minutos));
-          else {
-            ordemFinal.slice(i * porDiaFinal, (i + 1) * porDiaFinal).forEach(id => D.itens.push({ tipo: 'revfinal', chave: `rf:${id}`, m: id,
-              texto: `Revisão relâmpago: ${mat(id).nome}`, detalhe: 'Macetes e "como a FGV cobra" de todas as aulas + 10 questões', min: Math.round(minutos * 0.3) }));
-            if (i === 0) D.itens.push({ tipo: 'leitura', chave: 'lei-seca-estatuto', m: 'etica', texto: 'Lei seca: Estatuto da Advocacia (Lei 8.906/94)', detalhe: 'Leitura ativa, sublinhando prazos, quóruns e exceções', min: 60 });
-          }
+          ordemFinal.slice(i * porDiaFinal, (i + 1) * porDiaFinal).forEach(id => D.itens.push({ tipo: 'revfinal', chave: `rf:${id}`, m: id,
+            texto: `Revisão relâmpago: ${mat(id).nome}`, detalhe: 'Macetes e "como a FGV cobra" de todas as aulas + 10 questões', min: Math.round(minutos * 0.3) }));
+          if (i === 0) D.itens.push({ tipo: 'leitura', chave: 'lei-seca-estatuto', m: 'etica', texto: 'Lei seca: Estatuto da Advocacia (Lei 8.906/94)', detalhe: 'Leitura ativa, sublinhando prazos, quóruns e exceções', min: 60 });
           D.itens.push({ tipo: 'erros', chave: 'erros', texto: 'Revisar erros', detalhe: 'Refaça as questões que você errou', min: 20 });
         });
 
@@ -189,8 +183,12 @@
     if (cfg.fase2 && cfg.fase2 > ini2) {
       const vespera2 = soma(cfg.fase2, -1);
       const todos = intervalo(ini2, soma(vespera2, -1));
-      const estudo = todos.filter(estuda);
-      todos.filter(d => !estuda(d)).forEach(d => { const D = dia(d, 'Folga'); D.folga = true; });
+      const estudo = todos.filter(d => estuda(d) && !domingo(d));
+      todos.filter(d => !estuda(d) && !domingo(d)).forEach(d => { const D = dia(d, 'Folga'); D.folga = true; });
+      todos.filter(domingo).forEach(d => {
+        dia(d, 'Simulado de domingo').itens.push({ tipo: 'simulado2', chave: 'simulado2', area: cfg.area, texto: 'Simulado de domingo da 2ª fase',
+          detalhe: 'Peça + 4 questões discursivas em 5 horas (13h às 18h), consultando só o vade mecum. Corrija pelo espelho.', min: 300 });
+      });
       resumo.diasEstudo2 = estudo.length;
       const area = (ctx.areas || []).find(a => a.id === cfg.area);
       const casos = (ctx.casos || []).filter(c => c.area === cfg.area);
@@ -207,14 +205,8 @@
       let k = 0;
       corpo.forEach((d, i) => {
         const D = dia(d, '2ª fase: peças e discursivas');
-        const prox = corpo[i + 1];
-        const fimDeSemana = i > 2 && (!prox || entre(d, prox) > 1 || parse(d).getDay() === 6 || parse(d).getDay() === 0);
         if (i === 0) {
           D.itens.push({ tipo: 'peca', chave: 'estrutura', area: cfg.area, texto: 'Estrutura da peça e organização do vade mecum', detalhe: 'Monte o índice, as marcações e as remissões permitidas. Revise a estrutura padrão da peça.', min: Math.round(minutos * 0.6) });
-        } else if (fimDeSemana) {
-          D.itens.push(minutos >= 240
-            ? { tipo: 'simulado2', chave: 'simulado2', area: cfg.area, texto: 'Simulado da 2ª fase', detalhe: 'Peça + 4 questões discursivas em 5 horas, consultando só o vade mecum. Corrija pelo espelho.', min: 300 }
-            : { tipo: 'simulado2', chave: 'simulado2', area: cfg.area, texto: 'Simulado da 2ª fase (peça)', detalhe: 'Uma peça completa em 2h30, consultando só o vade mecum. Corrija pelo espelho; as 4 discursivas ficam para o dia seguinte.', min: 150 });
         } else if (k < pecasNoPlano * 2) {
           const p = pecas[Math.floor(k / 2)];
           const estudar = k % 2 === 0;
@@ -244,10 +236,9 @@
     return { dias, etapas, avisos, resumo };
   }
 
-  function simulado(minutos) {
-    return minutos >= 240
-      ? { tipo: 'simulado', chave: 'simulado80', n: 80, texto: 'Simulado completo: 80 questões', detalhe: '5 horas, sem consulta, no ritmo da prova. Depois, revise o gabarito comentado.', min: 300 }
-      : { tipo: 'simulado', chave: 'simulado40', n: 40, texto: 'Meia prova: 40 questões', detalhe: '2h30 cronometradas. Depois, revise o gabarito comentado.', min: 150 };
+  function provaDomingo(primeiro) {
+    return { tipo: 'simulado', chave: 'prova-domingo', texto: `Simulado de domingo${primeiro ? ' (diagnóstico)' : ''}: prova completa`,
+      detalhe: '80 questões oficiais de provas anteriores, na ordem do caderno da FGV, em 5 horas (13h às 18h). Depois, revise o gabarito comentado.', min: 300 };
   }
 
   root.Plano = { gerar, util: { parse, iso, soma, entre } };

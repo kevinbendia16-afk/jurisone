@@ -2,6 +2,11 @@
  * Datas oficiais (edital FGV): 48º Exame – 1ª fase 10/01/2027, 2ª fase 28/02/2027;
  * 47º Exame – 2ª fase 18/10/2026. O aluno pode editar as datas no app. */
 window.PLANO_DADOS = {
+  /* A prova é nacional e unificada: o conteúdo é o mesmo em todo o país. O estado só muda
+   * o local de prova e a Seccional onde o aprovado pede a inscrição como advogado. */
+  seccionais: {
+    RJ: 'Candidato do Rio de Janeiro: a prova é a mesma em todo o Brasil (FGV), no mesmo dia e horário. Você faz a prova na cidade escolhida na inscrição, no local indicado no cartão de informação da FGV. Depois de aprovado, a inscrição como advogado é feita na OAB/RJ.'
+  },
   exames: [
     { id: '48', nome: '48º Exame de Ordem', fase1: '2027-01-10', fase2: '2027-02-28' },
     { id: '47-2', nome: '47º Exame (já passei na 1ª fase)', fase1: null, fase2: '2026-10-18' }
@@ -42,8 +47,8 @@ window.PLANO_DADOS = {
       texto: 'Seis matérias somam quase metade da prova. Se o tempo apertar, o plano já garante que o que mais cai foi estudado antes.' },
     { titulo: 'Caderno de erros', aplica: 'Item "Revisar erros" na rotina.',
       texto: 'Cada questão errada vira revisão. Refazer os erros é o estudo mais eficiente que existe: você ataca exatamente o que ainda não sabe.' },
-    { titulo: 'Simulado semanal cronometrado', aplica: 'Agendado na fase de questões e na reta final.',
-      texto: 'Treinar 5 horas de prova cria ritmo e resistência. Use a técnica das duas passadas: primeiro as fáceis, depois as difíceis.' },
+    { titulo: 'Simulado de domingo, igual à prova', aplica: 'Todo domingo, das 13h às 18h, com questões oficiais.',
+      texto: 'A prova é num domingo à tarde: treinar no mesmo dia e horário, com 80 questões oficiais em 5 horas, cria ritmo e resistência. Use a técnica das duas passadas: primeiro as fáceis, depois as difíceis.' },
     { titulo: 'Blocos de 50 minutos (pomodoro)', aplica: 'Cada meta do dia cabe em um bloco.',
       texto: '50 minutos de foco total, sem celular, e 10 de pausa. A pausa não é perda de tempo: é quando a memória se consolida.' },
     { titulo: 'Lei seca nos temas campeões', aplica: 'Reta final: Estatuto da Advocacia e artigos-chave.',
@@ -61,6 +66,6 @@ window.PLANO_DADOS = {
     'Estude uma peça por vez, das mais cobradas para as menos cobradas na sua área, e escreva cada uma à mão no tempo da prova.',
     'Treine questões discursivas todos os dias: resposta direta, com o artigo de lei. A banca pontua o fundamento.',
     'Corrija tudo pelo espelho da FGV: cada item vale décimos. Anote as teses que você esqueceu.',
-    'Faça um simulado completo por semana: peça + 4 questões em 5 horas.'
+    'Todo domingo, das 13h às 18h, faça um simulado completo: peça + 4 questões em 5 horas, como no dia da prova.'
   ]
 };
