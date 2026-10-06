@@ -362,7 +362,7 @@
       <a class="back" href="#/questoes">← Questões</a>
       <h1>Simulado de domingo</h1>
       <div class="card hero">
-        <p style="margin-top:0">Uma prova completa <b>igual à da FGV</b>, montada com <b>questões oficiais</b> de exames anteriores, misturadas de todas as edições. Só entram questões que continuam valendo pela lei de hoje: cada uma foi revisada por dois professores, e as desatualizadas ficaram de fora.</p>
+        <p style="margin-top:0">Uma prova completa <b>igual à da FGV</b>, montada com <b>questões oficiais</b> de exames anteriores, misturadas de todas as edições. Só entram questões que continuam valendo pela lei de hoje: cada uma foi revisada e ganhou explicação de todas as alternativas, e as desatualizadas ficaram de fora.</p>
         <ul>
           <li><b>80 questões</b> na ordem e na quantidade do caderno: Ética (1 a 8), Filosofia (9 e 10), Constitucional (11 a 16)… até Processo do Trabalho (76 a 80).</li>
           <li><b>5 horas</b> de prova, como no dia (das 13h às 18h, horário de Brasília). O tempo continua correndo se você sair do app.</li>

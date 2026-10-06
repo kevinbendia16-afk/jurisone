@@ -50,7 +50,9 @@ for materia, qs in por_materia.items():
         json.dump(qs, f, ensure_ascii=False, separators=(',', ':'))
 
 def ordem_exame(nome):
-    """'47º Exame' -> 47; 'XXIV Exame' -> 24 (os exames antigos usam algarismos romanos)."""
+    """'47º Exame' -> 47; 'XXIV Exame' -> 24 (romanos); 'Exame 2010.2' -> 2 (os dois primeiros da FGV)."""
+    if nome.startswith('Exame 20'):
+        return int(nome.rsplit('.', 1)[-1])
     num = ''.join(ch for ch in nome if ch.isdigit())
     if num:
         return int(num)
