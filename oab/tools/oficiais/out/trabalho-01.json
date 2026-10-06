@@ -1,0 +1,282 @@
+[
+  { "id": "47-71", "status": "valida",
+    "explicacoes": [
+      "Correta. O banco de horas pode ser pactuado por acordo individual escrito, desde que a compensação ocorra no período máximo de seis meses (art. 59, § 5º, da CLT). As horas não compensadas no prazo devem ser pagas como extras, com o adicional de no mínimo 50% (art. 59, § 1º, da CLT).",
+      "Errada. Após a Reforma Trabalhista, a CLT autoriza o banco de horas com compensação em até seis meses por acordo individual escrito (art. 59, § 5º), e a compensação no mesmo mês admite até acordo tácito (art. 59, § 6º). A negociação coletiva só é exigida para o banco de horas com compensação em até um ano (art. 59, § 2º).",
+      "Errada. O banco de horas com compensação em até um ano exige acordo ou convenção coletiva (art. 59, § 2º, da CLT). Por acordo individual escrito, o prazo máximo é de seis meses (art. 59, § 5º), e não se trata de liberalidade do empregador.",
+      "Errada. A compensação no mesmo mês é apenas uma das modalidades, admitida até por acordo individual tácito (art. 59, § 6º, da CLT). O banco de horas por acordo individual escrito pode ter compensação em até seis meses (art. 59, § 5º)."
+    ] },
+  { "id": "47-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Joana foi promovida a Engenheira Civil Plena, com novas responsabilidades, e não exerce mais a mesma função de Paula. Sem identidade de funções, não há equiparação salarial (art. 461, caput, da CLT).",
+      "Errada. A contratação posterior não afasta a equiparação: basta que as empregadas sejam contemporâneas e exerçam idêntica função, com trabalho de igual valor, para o mesmo empregador e no mesmo estabelecimento (art. 461, caput e § 5º, da CLT).",
+      "Errada. Só afasta a equiparação o quadro de carreira ou plano de cargos e salários já adotado pelo empregador (art. 461, § 2º, da CLT). Um quadro que ainda entrará em vigor não justifica a diferença salarial atual.",
+      "Correta. Paula e Carla exercem a mesma função, com igual produtividade e perfeição técnica, para o mesmo empregador, e a diferença de tempo na função não supera dois anos (nem a de tempo de serviço supera quatro anos). Estão preenchidos os requisitos do art. 461, caput e § 1º, da CLT."
+    ] },
+  { "id": "47-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Se a garantia for reclamada durante o período de estabilidade, cabe a reintegração; a indenização substitutiva só é devida quando esse período já se exauriu (Súmula 244, II, do TST).",
+      "Correta. A estabilidade vai da confirmação da gravidez até cinco meses após o parto (art. 10, II, b, do ADCT) e basta que a gravidez seja anterior à dispensa sem justa causa (Tema 497 do STF; Súmula 244, I, do TST). Cabe reintegração durante o período estabilitário ou, depois dele, indenização substitutiva (Súmula 244, II, do TST).",
+      "Errada. Não se exige comunicação prévia nem atestado médico entregue antes da dispensa, e o desconhecimento do empregador não afasta a garantia (Súmula 244, I, do TST; Tema 497 do STF).",
+      "Errada. O direito depende apenas da gravidez anterior à dispensa sem justa causa, e não do conhecimento do empregador ou de comunicação formal (Tema 497 do STF; Súmula 244, I, do TST)."
+    ] },
+  { "id": "47-74", "status": "valida",
+    "explicacoes": [
+      "Correta. Em caso de dano causado pelo empregado, o desconto só é lícito se essa possibilidade tiver sido acordada ou se houver dolo do empregado (art. 462, § 1º, da CLT). Sem cláusula contratual e sem dolo, o desconto é ilícito.",
+      "Errada. A CLT admite descontos de adiantamentos, de dispositivos de lei ou de norma coletiva (art. 462, caput) e, em caso de dano, quando houver acordo prévio ou dolo do empregado (art. 462, § 1º).",
+      "Errada. O dolo autoriza o desconto, mas a culpa também o autoriza quando a possibilidade tiver sido acordada com o empregado, sem necessidade de autorização judicial (art. 462, § 1º, da CLT).",
+      "Errada. O empregador assume os riscos da atividade (art. 2º da CLT), e o desconto por dano exige acordo prévio ou dolo do empregado (art. 462, § 1º, da CLT)."
+    ] },
+  { "id": "47-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O poder disciplinar tem limite legal: a suspensão do empregado por mais de 30 dias consecutivos importa na rescisão injusta do contrato (art. 474 da CLT).",
+      "Errada. A suspensão disciplinar não é remunerada, mas, por superar 30 dias consecutivos, a penalidade é ilegal e importa na rescisão injusta do contrato (art. 474 da CLT).",
+      "Errada. Não existe suspensão disciplinar de até 90 dias; o limite é de 30 dias consecutivos, sob pena de rescisão injusta (art. 474 da CLT).",
+      "Correta. Pelo art. 474 da CLT, a suspensão do empregado por mais de 30 dias consecutivos importa na rescisão injusta do contrato de trabalho. A suspensão de 45 dias é, portanto, ilegal."
+    ] },
+  { "id": "46-71", "status": "valida",
+    "explicacoes": [
+      "Errada. João é trabalhador readaptado e, por isso, não serve de paradigma para equiparação salarial (art. 461, § 4º, da CLT). A equiparação de Luciana só cabe em relação a Paulo.",
+      "Errada. É vedada a diferença salarial por motivo de sexo (art. 7º, XXX, da CF; art. 461, caput e § 6º, da CLT), regra reforçada pela Lei 14.611/2023, sobre igualdade salarial entre mulheres e homens.",
+      "Errada. Paulo e Luciana têm diferença de apenas um ano na função, inferior aos dois anos do art. 461, § 1º, da CLT, de modo que a diferença salarial não se justifica. Luciana não se equipara a João porque ele é readaptado (art. 461, § 4º), e não por causa do tempo na função.",
+      "Correta. Luciana e Paulo exercem a mesma função, sem quadro de carreira e com diferença de tempo na função inferior a dois anos, o que impõe salário igual (art. 461, caput e § 1º, da CLT). João, readaptado, não serve de paradigma (art. 461, § 4º, da CLT)."
+    ] },
+  { "id": "46-72", "status": "valida",
+    "explicacoes": [
+      "Errada. É proibido o trabalho noturno ao menor de 18 anos, considerado como tal o realizado entre 22h e 5h (art. 7º, XXXIII, da CF; art. 404 da CLT).",
+      "Errada. O trabalho de frentista expõe o trabalhador a inflamáveis e é atividade perigosa, vedada ao menor de 18 anos (art. 7º, XXXIII, da CF; art. 405, I, da CLT).",
+      "Errada. É vedado ao menor o trabalho consistente na venda, a varejo, de bebidas alcoólicas, por ser prejudicial à sua moralidade (art. 405, II e § 3º, d, da CLT).",
+      "Correta. A Constituição proíbe qualquer trabalho a menores de 16 anos, salvo na condição de aprendiz, a partir de 14 anos (art. 7º, XXXIII, da CF; art. 403 da CLT)."
+    ] },
+  { "id": "46-73", "status": "valida",
+    "explicacoes": [
+      "Correta. A norma coletiva pode reduzir o intervalo intrajornada, mas deve respeitar o mínimo de 30 minutos para jornadas superiores a seis horas (art. 611-A, III, da CLT). E é objeto ilícito suprimir ou reduzir a remuneração do trabalho noturno superior à do diurno (art. 7º, IX, da CF; art. 611-B, VI, da CLT).",
+      "Errada. A remuneração do trabalho noturno superior à do diurno não pode ser suprimida nem reduzida por norma coletiva (art. 7º, IX, da CF; art. 611-B, VI, da CLT).",
+      "Errada. O intervalo de 20 minutos fica abaixo do mínimo de 30 minutos que a negociação coletiva deve respeitar nas jornadas superiores a seis horas (art. 611-A, III, da CLT).",
+      "Errada. Os dois temas têm limites legais: o intervalo não pode ser inferior a 30 minutos (art. 611-A, III) e a remuneração superior do trabalho noturno não pode ser suprimida (art. 611-B, VI, da CLT)."
+    ] },
+  { "id": "46-74", "status": "valida",
+    "explicacoes": [
+      "Correta. Não são considerados salário os vestuários e equipamentos fornecidos para a prestação do serviço, a educação (matrícula, mensalidade, livros e material didático) e o transporte para o deslocamento ao trabalho e retorno (art. 458, § 2º, I, II e III, da CLT).",
+      "Errada. Além dos uniformes (art. 458, § 2º, I), também não integram a remuneração os computadores, o transporte e o incentivo à educação (art. 458, § 2º, I, II e III, da CLT).",
+      "Errada. O incentivo à educação não integra a remuneração (art. 458, § 2º, II), mas o mesmo vale para uniformes, equipamentos e transporte (art. 458, § 2º, I e III, da CLT).",
+      "Errada. Todos os benefícios deixam de integrar a remuneração (art. 458, § 2º, da CLT), e o tempo de deslocamento, mesmo em transporte fornecido pelo empregador, não é tempo à disposição (art. 58, § 2º, da CLT)."
+    ] },
+  { "id": "46-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O direito de dispensar não autoriza a dispensa discriminatória, como a motivada por orientação sexual, que gera as reparações do art. 4º da Lei 9.029/1995, sem prejuízo de indenização por danos morais.",
+      "Errada. A reintegração com ressarcimento integral é apenas uma das opções; o empregado pode escolher entre ela e a percepção em dobro da remuneração do período de afastamento (art. 4º, I e II, da Lei 9.029/1995).",
+      "Correta. Na dispensa discriminatória, o empregado pode optar entre a reintegração, com ressarcimento integral do período de afastamento, e a percepção, em dobro, da remuneração desse período (art. 4º da Lei 9.029/1995), além da reparação por dano moral.",
+      "Errada. A lei não prevê pagamento simples limitado à data do ajuizamento, e sim a opção entre reintegração com ressarcimento integral e remuneração em dobro do período de afastamento (art. 4º da Lei 9.029/1995)."
+    ] },
+  { "id": "45-71", "status": "valida",
+    "explicacoes": [
+      "Correta. A CLT permite expressamente a adoção do regime de teletrabalho ou trabalho remoto para estagiários e aprendizes (art. 75-B, § 6º, da CLT, incluído pela Lei 14.442/2022).",
+      "Errada. Não há vedação ao teletrabalho para estagiários: o art. 75-B, § 6º, da CLT autoriza o regime tanto para aprendizes quanto para estagiários.",
+      "Errada. O caráter especial do contrato de aprendizagem não impede o teletrabalho, expressamente permitido aos aprendizes pelo art. 75-B, § 6º, da CLT.",
+      "Errada. Os contratados têm 18 anos e são plenamente capazes, e a lei não condiciona o teletrabalho de aprendizes e estagiários a autorização dos pais (art. 75-B, § 6º, da CLT)."
+    ] },
+  { "id": "45-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de dez dias do art. 477, § 6º, da CLT abrange tanto o pagamento das verbas quanto a entrega dos documentos que comprovam a comunicação da extinção; o atraso em qualquer deles gera a multa do § 8º.",
+      "Errada. A multa de 50% é a do art. 467 da CLT, aplicável às verbas rescisórias incontroversas não pagas na primeira audiência. O atraso na entrega dos documentos gera a multa do art. 477, § 8º, da CLT.",
+      "Errada. Não há previsão de pagamento em dobro das verbas rescisórias; a sanção legal é a multa equivalente a um salário do empregado (art. 477, § 8º, da CLT).",
+      "Correta. A entrega dos documentos e o pagamento das verbas devem ocorrer em até dez dias do término do contrato (art. 477, § 6º, da CLT). A inobservância sujeita o empregador a multa em favor do empregado no valor de seu salário (art. 477, § 8º, da CLT)."
+    ] },
+  { "id": "45-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Após a ADI 5938 do STF, a empregada também deve ser afastada de atividades insalubres durante a lactação, sem prejuízo da remuneração, incluído o adicional de insalubridade (art. 394-A, caput e III, da CLT).",
+      "Errada. O afastamento da gestante de atividade insalubre em grau máximo é obrigatório e ocorre sem prejuízo da remuneração, incluído o adicional de insalubridade (art. 394-A, caput e I, da CLT).",
+      "Errada. A lei garante a manutenção da remuneração, incluído o valor integral do adicional de insalubridade, e não da metade (art. 394-A, caput, da CLT).",
+      "Correta. A gestante deve ser afastada da atividade insalubre em grau máximo, sem prejuízo da remuneração, incluído o adicional de insalubridade (art. 394-A, caput e I, da CLT). A empresa paga o adicional e o compensa no recolhimento das contribuições previdenciárias sobre a folha (art. 394-A, § 2º, da CLT)."
+    ] },
+  { "id": "45-74", "status": "valida",
+    "explicacoes": [
+      "Errada. Como a jornada efetiva é de seis horas (o intervalo não se computa na duração do trabalho), o intervalo devido é de 15 minutos, já concedido (art. 71, §§ 1º e 2º, da CLT).",
+      "Correta. Das 7h às 13h15, descontados os 15 minutos de intervalo, Luana trabalha seis horas, pois o intervalo não se computa na jornada (art. 71, § 2º, da CLT). Para trabalho acima de quatro e até seis horas, o intervalo é de 15 minutos (art. 71, § 1º, da CLT).",
+      "Errada. O intervalo de uma hora só é devido quando o trabalho contínuo excede seis horas (art. 71, caput, da CLT); e, mesmo na supressão, paga-se apenas o período suprimido, com natureza indenizatória (art. 71, § 4º).",
+      "Errada. Não há intervalo suprimido, pois a jornada é de seis horas; além disso, quando devido, o pagamento do intervalo suprimido tem natureza indenizatória e não repercute nas demais parcelas (art. 71, § 4º, da CLT)."
+    ] },
+  { "id": "45-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A medida cautelar com tornozeleira não impede Reginaldo de trabalhar, e não há hipótese legal de interrupção do contrato com pagamento de 50% do salário.",
+      "Errada. A suspensão do contrato só se cogitaria se o empregado ficasse impedido de trabalhar, como na prisão; o monitoramento eletrônico permite a prestação normal dos serviços.",
+      "Errada. O fato ocorreu fora do trabalho e não há condenação; a justa causa ligada a crime exige condenação criminal transitada em julgado sem suspensão da pena (art. 482, d, da CLT), e prevalece a presunção de inocência (art. 5º, LVII, da CF).",
+      "Correta. A medida cautelar não impede a prestação de serviços e o processo penal está no início, sem condenação definitiva (art. 482, d, da CLT; art. 5º, LVII, da CF). O contrato prossegue normalmente."
+    ] },
+  { "id": "44-71", "status": "valida",
+    "explicacoes": [
+      "Errada. Não ter fracionado férias anteriores não impede o fracionamento, que depende da concordância do empregado e dos limites legais (art. 134, § 1º, da CLT). A conversão de 1/3 em abono pecuniário é direito distinto (art. 143 da CLT).",
+      "Errada. Três períodos de dez dias não são admitidos, pois um deles não pode ser inferior a 14 dias corridos (art. 134, § 1º, da CLT).",
+      "Errada. Nenhum período pode ser inferior a cinco dias corridos (art. 134, § 1º), e é vedado o início das férias nos dois dias que antecedem feriado ou dia de repouso semanal remunerado (art. 134, § 3º, da CLT).",
+      "Correta. Com a concordância do empregado, as férias podem ser usufruídas em até três períodos, um deles não inferior a 14 dias corridos e os demais não inferiores a cinco dias corridos cada (art. 134, § 1º, da CLT)."
+    ] },
+  { "id": "44-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Como Pedro ultrapassa habitualmente a jornada de seis horas, tem direito ao intervalo mínimo de uma hora (art. 71, caput, da CLT; Súmula 437, IV, do TST).",
+      "Errada. O intervalo de 15 minutos vale para trabalho acima de quatro e até seis horas; ultrapassadas habitualmente as seis horas, o intervalo é de uma hora (Súmula 437, IV, do TST).",
+      "Correta. Ultrapassada habitualmente a jornada de seis horas, é devido o intervalo de uma hora (Súmula 437, IV, do TST). Concedidos apenas 15 minutos, paga-se somente o período suprimido (45 minutos), com natureza indenizatória e acréscimo de 50% (art. 71, § 4º, da CLT).",
+      "Errada. Após a Reforma Trabalhista, paga-se apenas o período suprimido do intervalo (45 minutos), com natureza indenizatória e adicional de 50%, e não 55 minutos como horas extras (art. 71, § 4º, da CLT)."
+    ] },
+  { "id": "44-73", "status": "valida",
+    "explicacoes": [
+      "Errada. No aborto não criminoso, o repouso remunerado é de duas semanas, e não de 30 dias (art. 395 da CLT).",
+      "Correta. Em caso de aborto não criminoso, comprovado por atestado médico oficial, a mulher tem repouso remunerado de duas semanas, com direito de retornar à função que ocupava (art. 395 da CLT).",
+      "Errada. Não há equiparação com a licença-paternidade; a CLT prevê repouso remunerado de duas semanas (art. 395 da CLT).",
+      "Errada. Há previsão legal expressa de repouso remunerado de duas semanas no aborto não criminoso (art. 395 da CLT)."
+    ] },
+  { "id": "44-74", "status": "valida",
+    "explicacoes": [
+      "Correta. A suspensão do contrato pelo auxílio por incapacidade temporária não impede a fluência da prescrição quinquenal, salvo absoluta impossibilidade de acesso ao Judiciário, o que não é o caso de Giovana (OJ 375 da SDI-1 do TST). As horas extras de mais de cinco anos atrás estão prescritas (art. 7º, XXIX, da CF; art. 11 da CLT).",
+      "Errada. A prescrição bienal conta-se da extinção do contrato (art. 7º, XXIX, da CF), e o contrato de Giovana continua vigente, apenas suspenso. O que incide é a prescrição quinquenal.",
+      "Errada. Não existe prescrição trintenária para créditos trabalhistas: o prazo é de cinco anos, limitado a dois anos após a extinção do contrato (art. 7º, XXIX, da CF). Até para o FGTS o prazo trintenário foi afastado pelo STF (ARE 709.212).",
+      "Errada. Segundo a OJ 375 da SDI-1 do TST, a suspensão do contrato por benefício previdenciário não impede a fluência da prescrição quinquenal, salvo absoluta impossibilidade de acesso ao Judiciário."
+    ] },
+  { "id": "44-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O poder empregatício não autoriza discriminação: são vedados o anúncio com referência a sexo, a preterição em promoção por gravidez e a exigência de atestado de gravidez (art. 373-A, I, II e IV, da CLT).",
+      "Errada. A restrição do caso de Sílvia é legítima, pois é vedado empregar mulher em serviço que exija força muscular superior a 20 kg (trabalho contínuo) ou 25 kg (ocasional), sem meios mecânicos (art. 390 da CLT).",
+      "Correta. São ilegais o anúncio com preferência por sexo sem justificativa na natureza da atividade, a preterição em promoção por gravidez e a exigência de atestado de gravidez (art. 373-A, I, II e IV, da CLT; art. 2º da Lei 9.029/1995). Já o serviço com cargas de 30 kg sem meios mecânicos é vedado à mulher (art. 390 da CLT).",
+      "Errada. O anúncio de chefe de cozinha com preferência por homens também é ilícito, pois a natureza da atividade não exige profissional de determinado sexo (art. 373-A, I, da CLT)."
+    ] },
+  { "id": "43-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O limite de dois anos para responsabilizar o sócio retirante (art. 10-A, caput, da CLT) não se aplica quando há fraude na alteração societária, hipótese em que ele responde solidariamente (art. 10-A, parágrafo único).",
+      "Errada. Comprovada a fraude na alteração societária, a responsabilidade do sócio retirante é solidária, e não subsidiária (art. 10-A, parágrafo único, da CLT).",
+      "Correta. O sócio retirante responde solidariamente com os demais quando comprovada fraude na alteração societária decorrente da modificação do contrato (art. 10-A, parágrafo único, da CLT).",
+      "Errada. Os sócios atuais podem ser alcançados pela desconsideração da personalidade jurídica, depois da empresa devedora (art. 10-A, I e II, e art. 855-A da CLT), e Rogéria responde solidariamente em razão da fraude (art. 10-A, parágrafo único)."
+    ] },
+  { "id": "43-72", "status": "valida",
+    "explicacoes": [
+      "Errada. A anotação da CTPS integra as normas de identificação profissional, cuja supressão por norma coletiva é objeto ilícito (art. 611-B, I, da CLT).",
+      "Correta. O empregador tem o prazo de cinco dias úteis para anotar na CTPS a data de admissão, a remuneração e as condições especiais (art. 29 da CLT, com redação da Lei 13.874/2019).",
+      "Errada. A anotação é obrigatória, mas o prazo legal é de cinco dias úteis, e não de 15 dias corridos (art. 29 da CLT).",
+      "Errada. A anotação da CTPS é obrigação legal de ordem pública e não pode ser afastada pela vontade do empregado nem por negociação coletiva (arts. 9º, 29 e 611-B, I, da CLT)."
+    ] },
+  { "id": "43-73", "status": "valida",
+    "explicacoes": [
+      "Correta. O PDV previsto em acordo ou convenção coletiva enseja quitação plena e irrevogável dos direitos decorrentes da relação de emprego, salvo disposição em contrário (art. 477-B da CLT; Tema 152 do STF). É o caso de Margarida (acordo coletivo) e de Hortência (convenção coletiva).",
+      "Errada. A Reforma Trabalhista dispensou a homologação sindical da rescisão, e a quitação plena decorre da previsão do PDV em norma coletiva (art. 477-B da CLT). Só Rosa, cujo PDV estava em norma interna, pode postular diferenças.",
+      "Errada. A quitação plena também alcança o PDV previsto em acordo coletivo, como o de Margarida (art. 477-B da CLT).",
+      "Errada. Rosa aderiu a PDV previsto apenas em norma interna, que quita somente as parcelas e valores constantes do recibo (OJ 270 da SDI-1 do TST), e por isso pode pleitear outros direitos."
+    ] },
+  { "id": "43-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O banco de horas pode ser instituído por acordo coletivo, com compensação em até um ano (art. 59, § 2º, e art. 611-A, II, da CLT).",
+      "Errada. A Constituição admite a compensação de horários mediante acordo ou convenção coletiva (art. 7º, XIII, da CF), e o acréscimo de uma hora diária respeita o limite de duas horas extras por dia (art. 59 da CLT).",
+      "Errada. A norma coletiva pode reduzir o intervalo intrajornada, respeitado o mínimo de 30 minutos para jornadas superiores a seis horas (art. 611-A, III, da CLT).",
+      "Correta. A norma coletiva prevalece sobre a lei quanto a jornada, banco de horas e intervalo intrajornada de no mínimo 30 minutos (art. 611-A, I, II e III, da CLT; Tema 1046 do STF). A compensação mantém as 44 horas semanais e respeita o art. 7º, XIII, da CF."
+    ] },
+  { "id": "42-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O auxílio-educação, que abrange matrícula, mensalidade, anuidade, livros e material didático, não é considerado salário (art. 458, § 2º, II, da CLT).",
+      "Errada. Além do plano de saúde (art. 458, § 2º, IV), também não integram a remuneração o auxílio-alimentação não pago em dinheiro (art. 457, § 2º) e o auxílio-educação (art. 458, § 2º, II, da CLT).",
+      "Correta. A habitação fornecida habitualmente pelo trabalho, e não para o trabalho, é salário in natura (art. 458, caput, da CLT; Súmula 367, I, do TST). Os demais benefícios estão expressamente excluídos da remuneração (art. 457, § 2º, e art. 458, § 2º, II e IV, da CLT).",
+      "Errada. O auxílio-alimentação não pago em dinheiro (art. 457, § 2º), o plano de saúde (art. 458, § 2º, IV) e o auxílio-educação (art. 458, § 2º, II, da CLT) não integram a remuneração."
+    ] },
+  { "id": "42-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O parentesco entre os titulares não caracteriza grupo econômico; exige-se direção, controle ou administração de uma empresa sobre outra, ou interesse integrado, efetiva comunhão de interesses e atuação conjunta (art. 2º, §§ 2º e 3º, da CLT).",
+      "Errada. A mera identidade de sócios não caracteriza grupo econômico; são necessários interesse integrado, efetiva comunhão de interesses e atuação conjunta das empresas (art. 2º, § 3º, da CLT).",
+      "Correta. As empresas atuam em ramos distintos e não há direção, controle ou administração de uma sobre a outra, nem interesse integrado e atuação conjunta, de modo que não há grupo econômico (art. 2º, §§ 2º e 3º, da CLT).",
+      "Errada. O parentesco não configura grupo econômico em nenhuma fase do processo (art. 2º, §§ 2º e 3º, da CLT)."
+    ] },
+  { "id": "42-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há prazo trintenário: os créditos trabalhistas seguem o art. 7º, XXIX, da CF, mas a ação que tem por objeto anotação para fins previdenciários é imprescritível (art. 11, § 1º, da CLT).",
+      "Errada. As ações que têm por objeto anotações para fins de prova junto à Previdência Social não se sujeitam à prescrição (art. 11, § 1º, da CLT).",
+      "Errada. O biênio do art. 7º, XXIX, da CF não se aplica às ações que tenham por objeto anotações para fins de prova junto à Previdência Social (art. 11, § 1º, da CLT).",
+      "Correta. O art. 11, § 1º, da CLT afasta a prescrição das ações que tenham por objeto anotações para fins de prova junto à Previdência Social."
+    ] },
+  { "id": "42-74", "status": "valida",
+    "explicacoes": [
+      "Errada. O empregado em regime de tempo parcial tem direito a férias remuneradas, regidas pelo art. 130 da CLT (art. 58-A, § 7º, da CLT).",
+      "Correta. Após a Reforma Trabalhista, as férias do regime de tempo parcial seguem o art. 130 da CLT (art. 58-A, § 7º). Sem faltas injustificadas, Leopoldo tem 30 dias de férias, com o terço constitucional (art. 7º, XVII, da CF).",
+      "Errada. O direito a férias decorre da Constituição e da lei (art. 7º, XVII, da CF; art. 58-A, § 7º, da CLT), independentemente de previsão em norma coletiva.",
+      "Errada. A tabela de férias reduzidas para o tempo parcial (antigo art. 130-A da CLT) foi revogada pela Reforma Trabalhista; hoje aplica-se o art. 130 (art. 58-A, § 7º, da CLT)."
+    ] },
+  { "id": "42-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O tempo de deslocamento até o relógio de ponto deve ser computado porque a norma coletiva assim estipulou, condição mais benéfica que prevalece sobre a regra do art. 58, § 2º, da CLT.",
+      "Errada. O tempo dedicado a práticas religiosas, por escolha do empregado, não é considerado tempo à disposição do empregador (art. 4º, § 2º, I, da CLT).",
+      "Correta. Embora o deslocamento, mesmo em transporte do empregador, não seja computado como regra (art. 58, § 2º, da CLT), a norma coletiva pode prever condição mais favorável. O uso facultativo de recreação, biblioteca e capela não é tempo à disposição (art. 4º, § 2º, da CLT).",
+      "Errada. O estudo, por escolha própria do empregado nas dependências da empresa, não é tempo à disposição do empregador (art. 4º, § 2º, IV, da CLT)."
+    ] },
+  { "id": "41-71", "status": "valida",
+    "explicacoes": [
+      "Correta. Computam-se, na contagem de tempo de serviço para efeito de indenização e estabilidade, os períodos de afastamento para prestar serviço militar e por motivo de acidente do trabalho (art. 4º, § 1º, da CLT).",
+      "Errada. O afastamento por acidente do trabalho também é computado no tempo de serviço para efeito de indenização e estabilidade (art. 4º, § 1º, da CLT).",
+      "Errada. Os dois afastamentos são computados no tempo de serviço para efeito de indenização e estabilidade (art. 4º, § 1º, da CLT).",
+      "Errada. Quem prestou serviço militar foi Pedro, e não Vitor; e ambos os afastamentos (serviço militar e acidente do trabalho) são computados (art. 4º, § 1º, da CLT)."
+    ] },
+  { "id": "41-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O recebimento da denúncia não suspende o contrato; a suspensão só se cogita se o empregado ficar impedido de trabalhar, como na prisão.",
+      "Errada. A justa causa ligada a crime exige condenação criminal transitada em julgado, sem suspensão da execução da pena (art. 482, d, da CLT).",
+      "Correta. O recebimento da denúncia não gera efeito no contrato, pois vigora a presunção de inocência (art. 5º, LVII, da CF), e a justa causa por crime exige condenação transitada em julgado (art. 482, d, da CLT).",
+      "Errada. Não há previsão legal de interrupção ou licença do contrato durante a ação penal; o empregado continua trabalhando normalmente."
+    ] },
+  { "id": "41-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A prestação de serviços na modalidade de teletrabalho deve constar expressamente do instrumento de contrato individual de trabalho (art. 75-C da CLT).",
+      "Errada. O empregado em teletrabalho pode prestar serviços por jornada ou por produção ou tarefa (art. 75-B, § 2º, da CLT).",
+      "Errada. O comparecimento, ainda que habitual, às dependências do empregador para atividades específicas que exijam a presença do empregado não descaracteriza o teletrabalho (art. 75-B, § 1º, da CLT).",
+      "Correta. Teletrabalho é a prestação de serviços fora das dependências do empregador, de maneira preponderante ou não, com uso de tecnologias de informação e comunicação, que por sua natureza não configure trabalho externo (art. 75-B, caput, da CLT)."
+    ] },
+  { "id": "41-74", "status": "valida",
+    "explicacoes": [
+      "Errada. Equipara-se a acidente do trabalho o sofrido em viagem a serviço da empresa, inclusive para estudo financiado por ela para capacitação, ainda que fora do local e horário de trabalho (art. 21, IV, c, da Lei 8.213/1991).",
+      "Errada. A estabilidade de 12 meses pressupõe afastamento superior a 15 dias e percepção do auxílio por incapacidade temporária acidentário (art. 118 da Lei 8.213/1991; Súmula 378, II, do TST). Paulo se afastou apenas por 12 dias.",
+      "Correta. O acidente em viagem para estudo financiado pela empresa equipara-se a acidente do trabalho (art. 21, IV, c, da Lei 8.213/1991). Como o afastamento foi de 12 dias, sem benefício acidentário, não há estabilidade (art. 118 da Lei 8.213/1991; Súmula 378, II, do TST).",
+      "Errada. O evento é acidente do trabalho por equiparação (art. 21, IV, c, da Lei 8.213/1991), mas não gera estabilidade, pois o afastamento não superou 15 dias (Súmula 378, II, do TST)."
+    ] },
+  { "id": "41-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A aprendiz também tem estabilidade, pois a aprendizagem é contrato de emprego por prazo determinado (art. 428 da CLT; Súmula 244, III, do TST).",
+      "Correta. A empregada gestante tem estabilidade (art. 10, II, b, do ADCT), inclusive no contrato por prazo determinado, como a aprendizagem (Súmula 244, III, do TST; Tema 542 do STF). A estagiária não é empregada (art. 3º da Lei 11.788/2008) e não tem essa garantia.",
+      "Errada. O estágio não cria vínculo empregatício (art. 3º da Lei 11.788/2008), e a lei não assegura à estagiária a estabilidade da gestante.",
+      "Errada. A automação é decisão do empregador e não configura força maior (art. 501, § 1º, da CLT); a estabilidade da gestante impede a dispensa sem justa causa de Rogéria e Fabiane."
+    ] },
+  { "id": "41-76", "status": "valida",
+    "explicacoes": [
+      "Errada. As audiências trabalhistas devem ocorrer entre 8 e 18 horas e não podem ultrapassar cinco horas seguidas, salvo matéria urgente (art. 813 da CLT).",
+      "Errada. O horário das audiências é fixado em lei, entre 8 e 18 horas, e não livremente pelo juiz (art. 813 da CLT).",
+      "Correta. As audiências realizam-se entre 8 e 18 horas, não podendo ultrapassar cinco horas seguidas, salvo quando houver matéria urgente (art. 813 da CLT).",
+      "Errada. Não há regra de paralisação às 17h30; o limite é 18 horas, sem ultrapassar cinco horas seguidas, salvo matéria urgente (art. 813 da CLT)."
+    ] },
+  { "id": "40-71", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT veda a ultratividade das normas coletivas (art. 614, § 3º), e o STF declarou inconstitucional o entendimento que a admitia (ADPF 323). Não há direito adquirido ao adicional após o fim da vigência.",
+      "Correta. A norma coletiva não pode durar mais de dois anos, sendo vedada a ultratividade (art. 614, § 3º, da CLT; ADPF 323 do STF). Sem renovação, o adicional deixa de ser devido.",
+      "Errada. Homologação pelo Ministério do Trabalho não prorroga a vigência da norma coletiva, que perde eficácia no seu termo final (art. 614, § 3º, da CLT).",
+      "Errada. As vantagens previstas em norma coletiva não se incorporam ao contrato de trabalho, pois a ultratividade é vedada (art. 614, § 3º, da CLT; ADPF 323 do STF)."
+    ] },
+  { "id": "40-72", "status": "valida",
+    "explicacoes": [
+      "Correta. A conta vinculada pode ser movimentada na despedida sem justa causa, sem exigência de tempo mínimo de contrato (art. 20, I), na aposentadoria (art. 20, III) e quando o trabalhador tiver 70 anos ou mais (art. 20, XV, da Lei 8.036/1990).",
+      "Errada. Alexandre pode sacar por ter mais de 70 anos (art. 20, XV), e a dispensa sem justa causa permite o saque independentemente do tempo de contrato (art. 20, I, da Lei 8.036/1990).",
+      "Errada. Embora tenha pedido demissão, Alexandre pode movimentar a conta por ter idade igual ou superior a 70 anos (art. 20, XV, da Lei 8.036/1990).",
+      "Errada. Reginaldo (aposentadoria) e Alexandre (70 anos ou mais) também podem sacar o FGTS (art. 20, III e XV, da Lei 8.036/1990)."
+    ] },
+  { "id": "40-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há exigência de prestação de contas para o início da prescrição do trabalhador rural; desde a EC 28/2000, urbanos e rurais têm o mesmo regime prescricional (art. 7º, XXIX, da CF).",
+      "Errada. O prazo para ajuizar a ação é de até dois anos após a extinção do contrato, tanto para urbanos quanto para rurais (art. 7º, XXIX, da CF).",
+      "Correta. Urbanos e rurais devem ajuizar a ação em até dois anos após a extinção do contrato (art. 7º, XXIX, da CF). Dispensado em janeiro de 2021, Reinaldo ajuizou a ação em novembro de 2023, após o biênio, mesmo considerada a projeção do aviso prévio (OJ 83 da SDI-1 do TST).",
+      "Errada. Não existe prescrição bimestral nem condição de quitação no sindicato; a prescrição bienal conta-se da extinção do contrato (art. 7º, XXIX, da CF)."
+    ] },
+  { "id": "40-74", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT permite expressamente o teletrabalho para estagiários e aprendizes (art. 75-B, § 6º, da CLT).",
+      "Errada. Não se exige autorização judicial para o teletrabalho no estágio, expressamente permitido pelo art. 75-B, § 6º, da CLT.",
+      "Errada. A permissão do teletrabalho para estagiários é geral e não se restringe à cota de pessoas com deficiência (art. 75-B, § 6º, da CLT).",
+      "Correta. É permitida a adoção do regime de teletrabalho ou trabalho remoto para estagiários e aprendizes (art. 75-B, § 6º, da CLT, incluído pela Lei 14.442/2022)."
+    ] },
+  { "id": "40-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A cláusula de reserva é nula de pleno direito, ainda que aceita por ambas as partes (art. 11, parágrafo único, da Lei 6.019/1974).",
+      "Errada. A chancela sindical não valida a cláusula de reserva, que é nula de pleno direito (art. 11, parágrafo único, da Lei 6.019/1974).",
+      "Errada. Nem a previsão em acordo coletivo torna válida a cláusula de reserva, que a lei declara nula de pleno direito (art. 11, parágrafo único, da Lei 6.019/1974).",
+      "Correta. É nula de pleno direito qualquer cláusula de reserva que proíba a contratação do trabalhador pela tomadora ao fim do prazo em que esteve à sua disposição (art. 11, parágrafo único, da Lei 6.019/1974)."
+    ] }
+]

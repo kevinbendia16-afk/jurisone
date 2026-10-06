@@ -1,0 +1,397 @@
+[
+  {
+    "id": "27-69",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O sequestro cabe em qualquer fase do processo e até antes do oferecimento da denúncia, e pode ser pedido pelo próprio ofendido, não só pelo MP (art. 127 do CPP).",
+      "Errada. Para bem adquirido com os proventos da infração a medida é o sequestro (art. 125 do CPP), não o arresto; e o sequestro decretado na investigação é levantado se a ação penal não for proposta em 60 dias (art. 131, I, do CPP).",
+      "Correta. Imóvel adquirido com os proventos da infração sujeita-se a sequestro (art. 125 do CPP), que pode ser decretado em qualquer fase, inclusive antes da denúncia, a requerimento do ofendido (art. 127 do CPP).",
+      "Errada. O arresto (arts. 136 e 137 do CPP) recai sobre bens de origem lícita para garantir a reparação; o bem adquirido com o proveito do crime é objeto de sequestro, que o ofendido pode requerer (art. 127 do CPP)."
+    ]
+  },
+  {
+    "id": "26-64",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A associação criminosa (art. 288 do CP) não é crime hediondo, então a temporária dura 5 dias, prorrogáveis por mais 5 em caso de extrema e comprovada necessidade (art. 2º da Lei 7.960/89); decretá-la desde logo por 10 dias é ilegal. O prazo de 30 dias só vale para hediondos e equiparados (art. 2º, § 4º, da Lei 8.072/90).",
+      "Errada. A separação é obrigatória: os presos temporários devem ficar separados dos demais detentos (art. 3º da Lei 7.960/89).",
+      "Errada. A antiga quadrilha ou bando, hoje associação criminosa, está no rol da prisão temporária (art. 1º, III, l, da Lei 7.960/89), mesmo sem ser crime hediondo.",
+      "Errada. A prisão não foi decretada de ofício: houve representação da autoridade policial, que basta para a decretação, com oitiva prévia do MP (art. 2º, caput e § 1º, da Lei 7.960/89)."
+    ]
+  },
+  {
+    "id": "26-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Entre o roubo e a extorsão há conexão probatória (art. 76, III, do CPP), e não continência (art. 77 do CPP). Além disso, Bruno será julgado em São Gonçalo, lugar do crime de pena mais grave (art. 78, II, a, do CPP).",
+      "Errada. O vínculo é mesmo de conexão, mas Bruno não será julgado em Niterói: prevalece o lugar da infração de pena mais grave, a extorsão majorada praticada em São Gonçalo (art. 78, II, a, do CPP).",
+      "Errada. A competência de Caio é fixada pelo lugar da consumação, Niterói, e não pelo local da prisão (art. 70 do CPP); e entre roubo e extorsão há conexão, não continência.",
+      "Correta. Caio responde em Niterói, onde a lesão se consumou (art. 70 do CPP). Para Bruno, a conexão probatória (art. 76, III) atrai os crimes ao lugar da infração de pena mais grave, a extorsão majorada em São Gonçalo (art. 78, II, a, do CPP)."
+    ]
+  },
+  {
+    "id": "26-66",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A sentença que homologa a composição dos danos civis é irrecorrível e vale como título executivo no juízo cível (art. 74, caput, da Lei 9.099/95).",
+      "Correta. A lesão culposa do art. 303 do CTB, fora das hipóteses do art. 291, § 1º, do CTB, depende de representação, e o acordo de composição civil homologado acarreta renúncia ao direito de representação (art. 74, parágrafo único, da Lei 9.099/95).",
+      "Errada. Não cabe RESE nem outro recurso contra a homologação da composição civil, que é irrecorrível (art. 74 da Lei 9.099/95).",
+      "Errada. O crime é de ação pública condicionada à representação (art. 88 da Lei 9.099/95, aplicado pelo art. 291, § 1º, do CTB), e nesses casos a composição dos danos civis é cabível e extingue a punibilidade."
+    ]
+  },
+  {
+    "id": "26-67",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Até o encerramento da diligência, o acesso aos autos da ação controlada é restrito ao juiz, ao MP e ao delegado (art. 8º, § 3º, da Lei 12.850/13).",
+      "Errada. A ação controlada é meio de obtenção de prova previsto expressamente na Lei de Organização Criminosa (arts. 3º, III, e 8º da Lei 12.850/13).",
+      "Correta. O retardamento da intervenção policial deve ser previamente comunicado ao juiz competente, que, se for o caso, estabelecerá os seus limites e comunicará o MP (art. 8º, § 1º, da Lei 12.850/13). A comunicação só ao MP não supre essa exigência.",
+      "Errada. A ação controlada consiste justamente em retardar a intervenção policial, incluída a prisão em flagrante, para o momento mais eficaz à formação da prova (art. 8º da Lei 12.850/13), sem impedir cautelares posteriores."
+    ]
+  },
+  {
+    "id": "26-68",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A autoridade policial não pode mandar arquivar autos de inquérito (art. 17 do CPP).",
+      "Errada. O juiz não arquiva diretamente o inquérito a partir do relatório policial: o arquivamento depende de manifestação do MP, titular da ação penal (art. 28 do CPP, com a interpretação dada pelo STF nas ADIs 6298, 6299, 6300 e 6305).",
+      "Errada. Arquivado o inquérito, novas investigações dependem de notícia de provas novas (art. 18 do CPP e Súmula 524 do STF). E o arquivamento por atipicidade faz coisa julgada material, impedindo a reabertura.",
+      "Correta. O delegado elabora o relatório final, mas o arquivamento cabe ao MP (art. 28 do CPP, como interpretado pelo STF nas ADIs 6298, 6299, 6300 e 6305). O arquivamento fundado em atipicidade faz coisa julgada material, segundo o STF e o STJ."
+    ]
+  },
+  {
+    "id": "26-69",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão no recurso de um corréu aproveita aos demais quando fundada em motivos que não sejam de caráter exclusivamente pessoal (art. 580 do CPP), mesmo que a condenação do outro já tenha transitado em julgado.",
+      "Errada. A atenuante da menoridade relativa (art. 65, I, do CP) é circunstância pessoal de Pablo e não se estende; além disso, Leonardo tinha 21 anos na data do fato.",
+      "Correta. O reconhecimento da tentativa tem caráter objetivo e se estende ao corréu, mas a atenuante da menoridade é pessoal e não se comunica (art. 580 do CPP).",
+      "Errada. O art. 580 do CPP prevê justamente o efeito extensivo do recurso ao corréu que não recorreu, quando a decisão se basear em motivo objetivo."
+    ]
+  },
+  {
+    "id": "25-64",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A prisão em flagrante pelo roubo é ilegal, pois o crime ocorreu dois dias antes e não há nenhuma situação do art. 302 do CPP. Prisão ilegal deve ser relaxada (art. 5º, LXV, da CF e art. 310, I, do CPP), e não substituída por liberdade provisória.",
+      "Correta. O roubo ocorreu dois dias antes, e Caio não estava cometendo o crime, não acabara de cometê-lo, não foi perseguido nem encontrado logo depois (art. 302 do CPP). Sem situação de flagrante, a prisão é ilegal e deve ser relaxada (art. 5º, LXV, da CF e art. 310, I, do CPP).",
+      "Errada. Ainda não havia prisão preventiva a revogar: a audiência de custódia é o momento de o juiz analisar o flagrante e o pedido de conversão (art. 310 do CPP). Diante da ilegalidade do flagrante, o pedido técnico é o relaxamento.",
+      "Errada. A prisão domiciliar do homem exige que ele seja o único responsável pelos cuidados de filho de até 12 anos incompletos (art. 318, VI, do CPP) ou que seja imprescindível aos cuidados de menor de 6 anos ou de pessoa com deficiência (art. 318, III). Um filho de 14 anos não se enquadra."
+    ]
+  },
+  {
+    "id": "25-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há nenhuma nulidade posterior à pronúncia (art. 593, III, a, do CPP); o problema é o mérito da decisão dos jurados sobre a qualificadora, que deve ser atacado pela alínea d.",
+      "Correta. Se a decisão dos jurados for manifestamente contrária à prova dos autos, cabe apelação (art. 593, III, d, do CPP), e o tribunal, ao dar provimento, sujeita o réu a novo julgamento pelo Júri (art. 593, § 3º, do CPP).",
+      "Errada. Pela soberania dos veredictos (art. 5º, XXXVIII, c, da CF), o tribunal não pode afastar a qualificadora reconhecida pelos jurados. Só pode corrigir diretamente a pena quando o erro for do juiz presidente (art. 593, III, c, e § 2º, do CPP).",
+      "Errada. O tribunal não pode afastar ele mesmo a qualificadora reconhecida pelo Conselho de Sentença (art. 5º, XXXVIII, c, da CF); a consequência é a submissão a novo júri (art. 593, § 3º, do CPP)."
+    ]
+  },
+  {
+    "id": "25-66",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O arquivamento por falta de provas ou de justa causa não faz coisa julgada material e admite reabertura diante de provas novas (art. 18 do CPP e Súmula 524 do STF).",
+      "Correta. Surgindo prova nova, desconhecida das autoridades no momento do arquivamento, o inquérito pode ser desarquivado ou a denúncia oferecida (art. 18 do CPP e Súmula 524 do STF).",
+      "Errada. Prova nova é a que é substancialmente inovadora e não era conhecida pelas autoridades na época do arquivamento, ainda que já existisse. O vídeo, ignorado até então, é prova nova.",
+      "Errada. A ação penal privada subsidiária só cabe quando o MP fica inerte no prazo legal (art. 29 do CPP e art. 5º, LIX, da CF). Quem promove o arquivamento não está inerte."
+    ]
+  },
+  {
+    "id": "25-67",
+    "status": "desatualizada",
+    "motivo": "A questão parte da premissa de que a ameaça praticada pelo marido contra a mulher, em violência doméstica, é de ação pública condicionada e discute a retratação da representação (art. 16 da Lei 11.340/06). A Lei 14.994/24 mudou o art. 147 do CP: a ameaça contra a mulher por razões da condição do sexo feminino, o que inclui a violência doméstica e familiar (art. 121-A, § 1º, I), passou a ter pena em dobro (§ 1º) e a ser de ação pública incondicionada (§ 2º). A premissa do enunciado e a discussão sobre retratação perderam o objeto."
+  },
+  {
+    "id": "25-68",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O corréu no mesmo processo não pode intervir como assistente do Ministério Público (art. 270 do CPP).",
+      "Errada. O assistente pode ser admitido enquanto não houver trânsito em julgado, recebendo a causa no estado em que se encontra (art. 269 do CPP). A sentença ainda não havia transitado.",
+      "Correta. Vanda, ofendida, pode habilitar-se como assistente enquanto não transitar em julgado a sentença (arts. 268 e 269 do CPP). Mas recebe a causa no estado em que se acha, sem direito à repetição da instrução.",
+      "Errada. Do despacho que admitir ou não o assistente não cabe recurso (art. 273 do CPP), embora a jurisprudência aceite mandado de segurança."
+    ]
+  },
+  {
+    "id": "25-69",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A busca da verdade não se sobrepõe ao direito de não produzir prova contra si mesmo (art. 5º, LXIII, da CF e art. 8º, 2, g, da Convenção Americana de Direitos Humanos), que dispensa o acusado de colaborar com o exame grafotécnico.",
+      "Errada. O direito de não se autoincriminar vale durante todo o processo, inclusive no interrogatório. O acusado não é obrigado a fornecer padrões gráficos em nenhum momento.",
+      "Errada. O suposto in dubio pro societate não obriga o acusado a produzir prova contra si mesmo; a garantia do nemo tenetur se detegere prevalece (art. 5º, LXIII, da CF).",
+      "Correta. Pelo princípio do nemo tenetur se detegere, o acusado pode recusar-se a fornecer material para o exame grafotécnico durante todo o processo. O silêncio ou a recusa não importa confissão nem pode ser usado em seu prejuízo (art. 186, parágrafo único, do CPP)."
+    ]
+  },
+  {
+    "id": "24-64",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Ao deixar Lívia de fora de forma deliberada e dizer que nada faria contra ela, Pedro renunciou tacitamente ao direito de queixa. Pela indivisibilidade da ação privada, a renúncia em relação a um dos autores se estende a todos (arts. 48 e 49 do CPP), e a queixa contra Carla deve ser rejeitada.",
+      "Errada. A renúncia quanto a um dos autores do crime aproveita a todos (art. 49 do CPP). O querelante não pode escolher contra quem processar.",
+      "Errada. A perempção (art. 60 do CPP) pressupõe ação penal privada já em curso e desídia do querelante; aqui a ação ainda nem havia sido proposta contra Lívia.",
+      "Errada. O perdão do ofendido só é possível depois de iniciada a ação penal privada e depende de aceitação (art. 51 do CPP e art. 106 do CP). Antes da queixa, a abdicação configura renúncia."
+    ]
+  },
+  {
+    "id": "24-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A condenação foi unânime, e os embargos infringentes ficam restritos à matéria objeto de divergência (art. 609, parágrafo único, do CPP). Não é possível buscar a absolvição por essa via.",
+      "Errada. Os embargos infringentes são exclusivos da defesa, cabendo contra decisão não unânime desfavorável ao réu (art. 609, parágrafo único, do CPP). Os embargos do MP nem devem ser conhecidos.",
+      "Correta. O MP não tem legitimidade para embargos infringentes, recurso exclusivo da defesa (art. 609, parágrafo único, do CPP). A defesa pode embargar quanto ao privilégio, ponto em que houve voto vencido favorável ao réu.",
+      "Errada. Os embargos do MP não devem ser conhecidos, por falta de legitimidade. E a defesa pode opor embargos infringentes quanto ao privilégio, ponto em que a decisão não foi unânime (art. 609, parágrafo único, do CPP)."
+    ]
+  },
+  {
+    "id": "24-66",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Justiça Federal é competente, mas o foro territorial é o lugar onde o documento foi usado, o Rio de Janeiro, pois ali se consumou o crime do art. 304 do CP (art. 70 do CPP).",
+      "Correta. No uso de documento falso, a competência se define pela entidade ou órgão a quem o documento foi apresentado (Súmula 546 do STJ). Apresentado à Caixa Econômica Federal, empresa pública federal, a competência é da Justiça Federal (art. 109, IV, da CF), no Rio de Janeiro, local do uso (art. 70 do CPP).",
+      "Errada. Pouco importa que o documento tenha sido expedido por órgão estadual: o que define a competência é o ente a quem foi apresentado (Súmula 546 do STJ), no caso a Caixa, o que leva à Justiça Federal.",
+      "Errada. A Justiça Estadual é incompetente, pois o uso perante empresa pública federal atrai a competência da Justiça Federal (Súmula 546 do STJ e art. 109, IV, da CF)."
+    ]
+  },
+  {
+    "id": "24-67",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Nos crimes contra a honra de servidor público em razão de suas funções, a legitimidade é concorrente: o ofendido também pode oferecer queixa-crime (Súmula 714 do STF).",
+      "Errada. O ofendido não é obrigado a usar a queixa-crime; pode optar por representar ao MP para que este ofereça denúncia (Súmula 714 do STF e art. 145, parágrafo único, do CP).",
+      "Correta. Segundo a Súmula 714 do STF, é concorrente a legitimidade do ofendido, mediante queixa, e do MP, condicionada à representação, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções.",
+      "Errada. A ação do MP nesse caso é condicionada à representação do ofendido (art. 145, parágrafo único, c/c art. 141, II, do CP), não incondicionada."
+    ]
+  },
+  {
+    "id": "24-68",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Além da ex-esposa (art. 206 do CPP), o padre também não deve depor, pois é proibido de fazê-lo em razão do ministério que exige sigilo (art. 207 do CPP).",
+      "Errada. Os policiais que participaram das investigações não têm nenhuma dispensa legal e são obrigados a depor como qualquer testemunha (art. 202 do CPP).",
+      "Errada. Não só o padre: a ex-esposa também pode recusar-se a depor, pois o art. 206 do CPP abrange o cônjuge ainda que desquitado.",
+      "Correta. A ex-esposa pode recusar-se a depor (art. 206 do CPP: cônjuge, ainda que desquitado), e o padre é proibido de depor sobre o que soube em razão do ministério, salvo se desobrigado e quiser (art. 207 do CPP). Os policiais devem depor (art. 202 do CPP)."
+    ]
+  },
+  {
+    "id": "24-69",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Contra acórdão de Tribunal de Justiça que denega habeas corpus em única instância cabe recurso ordinário constitucional ao STJ (art. 105, II, a, da CF). Contra decisão de juiz de primeiro grau que denega habeas corpus cabe recurso em sentido estrito (art. 581, X, do CPP).",
+      "Errada. O RESE só serve contra a decisão do juiz de primeiro grau (art. 581, X, do CPP); contra a denegação de habeas corpus pelo TJ cabe recurso ordinário ao STJ (art. 105, II, a, da CF).",
+      "Errada. O recurso ordinário constitucional pressupõe decisão denegatória de tribunal (art. 105, II, a, da CF); contra a decisão do juiz de direito cabe RESE (art. 581, X, do CPP).",
+      "Errada. Não cabe recurso especial contra a denegação de habeas corpus pelo TJ, e sim recurso ordinário (art. 105, II, a, da CF); e contra decisão de juiz singular cabe RESE, não ROC."
+    ]
+  },
+  {
+    "id": "23-64",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo decadencial de 6 meses conta do dia em que o ofendido vem a saber quem é o autor do crime (art. 38 do CPP e art. 103 do CP), ou seja, de 03/07/2016, e não da data do fato.",
+      "Errada. Com a morte do ofendido, o direito de representação passa ao cônjuge, ascendente, descendente ou irmão (art. 24, § 1º, do CPP). Marta, viúva, tinha legitimidade.",
+      "Correta. A representação é retratável até o oferecimento da denúncia (art. 25 do CPP e art. 102 do CP). Marta se retratou em 06/07/2016, antes da denúncia de 07/07/2016, e a ameaça segue sendo de ação condicionada quando a vítima é homem (art. 147 do CP).",
+      "Errada. A representação não exige forma especial e pode ser feita oralmente perante o juiz, o MP ou a autoridade policial, sendo reduzida a termo (art. 39 do CPP)."
+    ]
+  },
+  {
+    "id": "23-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A FAC foi juntada com antecedência mínima de 3 dias úteis e com ciência à defesa, como exige o art. 479 do CPP. Não há nulidade por esse motivo.",
+      "Errada. O tribunal não pode afastar a qualificadora reconhecida pelos jurados (soberania dos veredictos, art. 5º, XXXVIII, c, da CF), e não houve irregularidade na juntada da FAC (art. 479 do CPP).",
+      "Errada. A tréplica depende da réplica: só há tréplica se a acusação fizer uso da réplica (art. 476, § 4º, e art. 477 do CPP).",
+      "Correta. Ao reiterar aos jurados que as provas eram claras e que o réu devia ser condenado, o promotor fez, na prática, réplica. Por isso a defesa tinha direito à tréplica (art. 476, § 4º, do CPP), e negá-la viola a plenitude de defesa (art. 5º, XXXVIII, a, da CF) e anula o julgamento."
+    ]
+  },
+  {
+    "id": "23-66",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O habeas corpus contra ato de delegado de polícia é julgado pelo juiz de primeiro grau, hoje o juiz das garantias (art. 3º-B, XII, do CPP), e não pelo Tribunal de Justiça.",
+      "Correta. Contra ato do delegado, o habeas corpus é julgado pelo juiz de primeiro grau (art. 3º-B, XII, do CPP), e a decisão que denega a ordem desafia recurso em sentido estrito (art. 581, X, do CPP).",
+      "Errada. O TJ não é competente para habeas corpus contra delegado; e o recurso ordinário constitucional cabe contra decisão denegatória de tribunal (art. 105, II, a, da CF), não de juiz singular.",
+      "Errada. O juiz de primeiro grau é de fato o competente, mas contra sua decisão cabe RESE (art. 581, X, do CPP). O ROC cabe apenas contra decisão de tribunal (arts. 102, II, a, e 105, II, a, da CF)."
+    ]
+  },
+  {
+    "id": "23-67",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quanto a Carla e Regina, a lesão leve fora do contexto doméstico depende de representação (art. 88 da Lei 9.099/95). Sem representação no prazo de 6 meses, houve decadência (art. 38 do CPP), e a denúncia deve ser rejeitada nesses dois crimes.",
+      "Errada. A lesão corporal contra Luciana, com quem Leandro manteve relação íntima de afeto, configura violência doméstica e é de ação pública incondicionada (Súmula 542 do STJ, ADI 4424 e art. 41 da Lei 11.340/06). O desinteresse dela é irrelevante.",
+      "Errada. A denúncia não pode ser rejeitada quanto a Luciana, pois a lesão em violência doméstica contra a mulher se apura por ação pública incondicionada (Súmula 542 do STJ).",
+      "Correta. A lesão contra Luciana, em violência doméstica, é de ação incondicionada (Súmula 542 do STJ). Já as lesões leves contra Carla e Regina dependiam de representação (art. 88 da Lei 9.099/95), que não veio em 6 meses: houve decadência (art. 38 do CPP e art. 107, IV, do CP) e cabe a rejeição (art. 395, II, do CPP)."
+    ]
+  },
+  {
+    "id": "23-68",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A internação provisória está prevista expressamente no rol das cautelares diversas da prisão (art. 319, VII, do CPP).",
+      "Errada. O art. 319, VII, do CPP admite a internação provisória tanto para o inimputável quanto para o semi-imputável (art. 26 do CP).",
+      "Correta. A internação provisória exige crime praticado com violência ou grave ameaça, perícia que conclua pela inimputabilidade ou semi-imputabilidade e risco de reiteração (art. 319, VII, do CPP). O furto qualificado não envolve violência ou grave ameaça à pessoa.",
+      "Errada. O juiz pode, de ofício, revogar a medida cautelar ou substituí-la quando verificar a falta de motivo para que subsista (art. 282, § 5º, do CPP, mantido após a Lei 13.964/19). Foi o que ocorreu: a preventiva foi substituída por medida menos grave. O defeito está na falta de violência ou grave ameaça."
+    ]
+  },
+  {
+    "id": "23-69",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O caráter inquisitivo do inquérito não afasta o direito do preso à assistência de advogado (art. 5º, LXIII, da CF), nem a prerrogativa do advogado de assistir o cliente investigado (art. 7º, XXI, da Lei 8.906/94).",
+      "Errada. A presença de advogado na lavratura do auto de prisão em flagrante não é obrigatória; deve-se garantir a possibilidade de assistência, mas sua ausência, por si só, não anula o procedimento.",
+      "Errada. Mesmo com sigilo decretado, o defensor tem direito de acesso aos elementos de prova já documentados no procedimento que digam respeito ao exercício da defesa (Súmula Vinculante 14 e art. 7º, XIV, da Lei 8.906/94).",
+      "Correta. Ao preso deve ser assegurada a assistência de advogado (art. 5º, LXIII, da CF e art. 7º, XXI, da Lei 8.906/94), mas a contratação para acompanhar o inquérito é uma faculdade, e não requisito de validade do procedimento policial."
+    ]
+  },
+  {
+    "id": "22-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Contra a pronúncia cabe RESE (art. 581, IV, do CPP), e não apelação, que cabe contra a impronúncia e a absolvição sumária (art. 416 do CPP). E contra a denegação do RESE cabe carta testemunhável.",
+      "Errada. A decisão que nega seguimento ao RESE é atacada por carta testemunhável (art. 639, I, do CPP), e não por novo RESE.",
+      "Correta. Da pronúncia cabe recurso em sentido estrito (art. 581, IV, do CPP). Da decisão que denega o seguimento do RESE cabe carta testemunhável (art. 639, I, do CPP).",
+      "Errada. A pronúncia não é atacada por apelação, mas por RESE (art. 581, IV, do CPP). Apelação cabe contra impronúncia e absolvição sumária (art. 416 do CPP)."
+    ]
+  },
+  {
+    "id": "22-66",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Segundo a jurisprudência pacífica do STF e do STJ, a representação não exige formalidade: basta a manifestação inequívoca de vontade do ofendido de ver o autor processado, como ocorreu na delegacia.",
+      "Correta. Quando a infração deixa vestígios, o exame de corpo de delito, direto ou indireto, é indispensável, e a confissão do acusado não pode supri-lo (art. 158 do CPP). Sem exame e sem testemunhas, não há prova da materialidade.",
+      "Errada. O CPP admite o exame de corpo de delito indireto, feito por prova testemunhal, quando os vestígios desaparecem (art. 167 do CPP).",
+      "Errada. O exame indireto depende de prova testemunhal que supra a falta dos vestígios (art. 167 do CPP). Aqui não há testemunhas, e a confissão não supre o exame (art. 158 do CPP)."
+    ]
+  },
+  {
+    "id": "22-67",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A lei processual tem aplicação imediata (art. 2º do CPP), mas não alcança o prazo recursal já iniciado sob a lei anterior, que continua regido por ela.",
+      "Correta. Pelo tempus regit actum (art. 2º do CPP), o prazo aberto com a intimação feita sob a lei antiga segue a regra antiga de 5 dias (art. 593 do CPP). Contado de 24/11, terminaria em 28/11, sábado, e prorrogou-se para segunda-feira, 30/11: o recurso é tempestivo.",
+      "Errada. Aplicado o prazo antigo de 5 dias, o recurso é tempestivo, pois o termo final caiu num sábado e se prorrogou para o primeiro dia útil, 30/11 (art. 798, § 3º, do CPP).",
+      "Errada. A irretroatividade da lei mais gravosa (art. 5º, XL, da CF) diz respeito à lei penal material, não à lei puramente processual. O fundamento correto é o tempus regit actum (art. 2º do CPP)."
+    ]
+  },
+  {
+    "id": "22-68",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A contradita serve para arguir, antes do depoimento, circunstâncias ou defeitos que tornem a testemunha suspeita ou impedida (art. 214 do CPP), e não para resolver divergência entre depoimentos.",
+      "Correta. A acareação é admitida entre testemunhas sempre que divergirem, em suas declarações, sobre fatos ou circunstâncias relevantes (art. 229 do CPP).",
+      "Errada. O incidente de falsidade se destina a documentos (art. 145 do CPP), e não a depoimentos divergentes.",
+      "Errada. Não há previsão legal de suspensão do processo para localizar a vítima e superar divergência entre testemunhas. O instrumento adequado é a acareação (art. 229 do CPP)."
+    ]
+  },
+  {
+    "id": "22-69",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Há litispendência quando o mesmo acusado responde a duas ações pelo mesmo fato. Como o primeiro processo ainda está em grau de recurso, cabe a exceção de litispendência (art. 95, III, do CPP).",
+      "Errada. Não há coisa julgada, porque a primeira condenação ainda não transitou em julgado, pois pende apelação. A exceção cabível é a de litispendência.",
+      "Errada. O problema não é a incompetência do juízo, mas a duplicidade de ações pelo mesmo fato contra o mesmo réu, o que configura litispendência (art. 95, III, do CPP).",
+      "Errada. Não há vício de legitimidade das partes (art. 95, IV, do CPP): o MP é parte legítima. O vício é a dupla persecução pelo mesmo fato, ou seja, litispendência."
+    ]
+  },
+  {
+    "id": "21-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A entrada na casa de Mário foi válida: guardar drogas é crime permanente, e havia fundadas razões de flagrante (informante identificado e fotografias), o que autoriza o ingresso sem mandado (art. 5º, XI, da CF e Tema 280 do STF).",
+      "Correta. Na casa de Roberto, a busca com mandado foi feita às 4h, sem consentimento, violando a exigência de cumprimento durante o dia (art. 5º, XI, da CF e art. 245 do CPP). Na de Mário, o crime permanente de guardar drogas, com fundadas razões justificadas, permitia a entrada sem mandado (art. 5º, XI, da CF e Tema 280 do STF).",
+      "Errada. A busca na casa de Roberto foi inválida: ordem judicial só pode ser cumprida durante o dia, salvo consentimento do morador (art. 5º, XI, da CF e art. 245 do CPP). O cumprimento antes das 5h configura ainda abuso de autoridade (art. 22, § 1º, III, da Lei 13.869/19).",
+      "Errada. É o contrário: a busca na residência de Roberto, cumprida de madrugada, foi inválida (art. 245 do CPP), e a de Mário foi válida, por haver flagrante de crime permanente amparado em fundadas razões (Tema 280 do STF)."
+    ]
+  },
+  {
+    "id": "21-66",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O réu preso deve ser citado pessoalmente (art. 360 do CPP), e é nula a citação por edital de réu preso na mesma unidade da Federação em que o juiz exerce a jurisdição (Súmula 351 do STF). As citações de Wellington, por edital, e de Vitor, com hora certa, foram válidas.",
+      "Errada. A citação de Vitor com hora certa é válida quando o réu se oculta para não ser citado (art. 362 do CPP), e o STF a declarou constitucional (Tema 613).",
+      "Errada. A citação de Vitor foi válida (art. 362 do CPP). A inválida foi a de Marlon, preso na mesma unidade da Federação e citado por edital (art. 360 do CPP e Súmula 351 do STF).",
+      "Errada. Wellington, em local incerto e não sabido, pode ser citado por edital (art. 361 do CPP), e Vitor, que se ocultava, com hora certa (art. 362 do CPP). Só a citação de Marlon foi inválida."
+    ]
+  },
+  {
+    "id": "21-68",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A arguição de suspeição precederá a qualquer outra, salvo quando fundada em motivo superveniente (art. 96 do CPP).",
+      "Errada. Em regra, as exceções são processadas em autos apartados (art. 111 do CPP), e não nos autos principais.",
+      "Errada. As exceções correm em autos apartados, mas, em regra, não suspendem o andamento da ação penal (art. 111 do CPP).",
+      "Errada. A recusa do juiz deve ser feita em petição assinada pela própria parte ou por procurador com poderes especiais (art. 98 do CPP), e não gerais."
+    ]
+  },
+  {
+    "id": "21-69",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Havendo desclassificação pelos jurados para crime de competência do juiz singular, cabe ao juiz presidente do Júri proferir a sentença e avaliar os institutos despenalizadores da Lei 9.099/95 (art. 492, § 1º, do CPP).",
+      "Errada. Com a desclassificação própria, os jurados deixam de ser competentes, e o crime residual é julgado pelo juiz presidente (art. 492, § 1º, do CPP).",
+      "Errada. Não há nova distribuição: o próprio juiz presidente do Tribunal do Júri julga o crime desclassificado (art. 492, § 1º, do CPP).",
+      "Errada. Os autos não são remetidos ao Juizado Especial: o juiz presidente aplica ele mesmo, quando cabíveis, os institutos da Lei 9.099/95 (art. 492, § 1º, do CPP). Além disso, a lesão grave não é infração de menor potencial ofensivo."
+    ]
+  },
+  {
+    "id": "20-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A receptação simples tem pena máxima de 4 anos, e a preventiva exige crime doloso com pena máxima superior a 4 anos, reincidência em crime doloso, violência doméstica ou dúvida sobre a identidade (art. 313 do CPP). Ações penais em curso não bastam.",
+      "Errada. A autoridade policial pode conceder fiança nos crimes com pena privativa de liberdade máxima não superior a 4 anos (art. 322 do CPP), o que inclui a receptação simples.",
+      "Errada. Recebido o auto de prisão em flagrante, o juiz deve, em audiência de custódia em até 24 horas, relaxar a prisão, convertê-la em preventiva ou conceder liberdade provisória (art. 310 do CPP). O flagrante não pode perdurar por 10 dias.",
+      "Correta. Ausentes as hipóteses do art. 313 do CPP (pena máxima de 4 anos, réu primário e identificado), não cabe conversão em preventiva. O juiz pode, porém, aplicar as cautelares diversas do art. 319, que não dependem dessas hipóteses (art. 282 do CPP)."
+    ]
+  },
+  {
+    "id": "20-66",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Se os peritos concluírem que o acusado era inimputável ao tempo da infração, o processo prossegue com a presença de curador (art. 151 do CPP). Se a doença mental sobreveio à infração, o processo fica suspenso (art. 152 do CPP).",
+      "Errada. A decisão que indefere o incidente de insanidade mental não está no rol do art. 581 do CPP e é irrecorrível; eventual constrangimento ilegal pode ser atacado por habeas corpus.",
+      "Errada. Na fase de inquérito, a autoridade policial só pode representar ao juiz pela instauração do incidente (art. 149, § 1º, do CPP); quem o instaura é o juiz.",
+      "Errada. O incidente é processado em autos apartados (art. 153 do CPP), mas, instaurado durante a ação penal, o processo fica suspenso (art. 149, § 2º, do CPP)."
+    ]
+  },
+  {
+    "id": "20-67",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Considera-se perempta a ação penal privada quando o querelante deixa de formular o pedido de condenação nas alegações finais (art. 60, III, do CPP). A punibilidade quanto à injúria se extingue (art. 107, IV, do CP).",
+      "Errada. O perdão do ofendido é ato que depende de aceitação do querelado (art. 51 do CPP e art. 106, III, do CP), e Rosa não aceitou nenhum benefício. A omissão do pedido de condenação configura perempção.",
+      "Errada. A renúncia é anterior à propositura da queixa (art. 104 do CP). Com a ação em curso, a omissão nas alegações finais gera perempção (art. 60, III, do CPP).",
+      "Errada. Não basta apresentar alegações finais: é preciso pedir a condenação por cada crime, sob pena de perempção quanto ao crime omitido (art. 60, III, do CPP)."
+    ]
+  },
+  {
+    "id": "20-68",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A rejeição da denúncia (art. 395 do CPP) cabe por inépcia, falta de pressuposto processual ou condição da ação, ou falta de justa causa. A existência manifesta de excludente de ilicitude leva à absolvição sumária (art. 397, I, do CPP).",
+      "Correta. Na resposta à acusação, a existência manifesta de causa excludente da ilicitude, como o estado de necessidade, impõe a absolvição sumária (art. 397, I, do CPP), decisão de mérito que faz coisa julgada material.",
+      "Errada. A absolvição imprópria aplica medida de segurança ao inimputável, e a inimputabilidade não autoriza absolvição sumária (art. 397, II, do CPP). O estado de necessidade leva à absolvição própria.",
+      "Errada. A impronúncia é decisão do procedimento do Júri (art. 414 do CPP). A lesão corporal seguida de morte é crime preterdoloso, julgado pelo juiz singular no rito comum."
+    ]
+  },
+  {
+    "id": "20-69",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A revisão criminal pode ser requerida em qualquer tempo, antes ou depois da extinção da pena (art. 622 do CPP).",
+      "Errada. Falecido o réu, a revisão pode ser pedida pelo cônjuge, ascendente, descendente ou irmão (art. 623 do CPP). Caio, filho, tem legitimidade.",
+      "Errada. O STJ só julga revisão criminal de seus próprios julgados (art. 105, I, e, da CF). A condenação foi proferida pelo TJSC.",
+      "Correta. Caio, descendente, pode ajuizar revisão criminal mesmo após a morte do pai e o cumprimento da pena (arts. 622 e 623 do CPP), com base em prova nova da inocência (art. 621, III, do CPP). A competência é do TJSC, que proferiu a condenação (art. 624, II, do CPP)."
+    ]
+  },
+  {
+    "id": "19-65",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O agravo em execução (art. 197 da Lei 7.210/84) é cabível contra decisões do juízo da execução penal, e não contra a decisão que denega apelação.",
+      "Errada. A carta testemunhável é recurso subsidiário, cabível contra a decisão que denega ou obsta o seguimento do RESE (art. 639 do CPP). Contra a denegação da apelação, há previsão específica de RESE.",
+      "Errada. O recurso ordinário constitucional cabe contra decisões de tribunais nas hipóteses dos arts. 102, II, e 105, II, da CF, e não contra decisão de juiz de primeiro grau.",
+      "Correta. Cabe recurso em sentido estrito da decisão que denegar a apelação ou a julgar deserta (art. 581, XV, do CPP)."
+    ]
+  }
+]

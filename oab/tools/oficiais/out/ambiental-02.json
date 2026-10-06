@@ -1,0 +1,392 @@
+[
+  {
+    "id": "27-34",
+    "status": "duvidosa",
+    "motivo": "A questão foi feita sobre o MBRE da Lei 12.187/09 (PNMC), que era um mercado voluntário. Depois veio a Lei 15.042/24, que criou o SBCE: um mercado regulado e obrigatório para os grandes emissores, ligado ao cumprimento da PNMC e dos compromissos assumidos sob a Convenção-Quadro do Clima. Com isso, a alternativa D (implementação 'cogente' pela União) ficou defensável, e a alternativa C pode deixar de ser a única correta."
+  },
+  {
+    "id": "26-33",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 11.445/07 não obriga a dar isenção de tarifa a quem ganha até um salário mínimo. Ela apenas permite adotar subsídios tarifários e não tarifários para usuários sem capacidade de pagamento (art. 29, §2º).",
+      "Correta. A lei admite subsídios para usuários de baixa renda (arts. 3º, VII, 29, §2º, e 31 da Lei 11.445/07). Além disso, as taxas ou tarifas de limpeza urbana e manejo de resíduos devem considerar o nível de renda da população da área atendida (art. 35, redação da Lei 14.026/20).",
+      "Errada. O peso ou o volume médio coletado é apenas um dos critérios que a cobrança pode considerar. O nível de renda da população atendida também é critério legal (art. 35 da Lei 11.445/07).",
+      "Errada. A lei não limita a diferenciação ao caráter urbano ou rural da área. A estrutura de cobrança pode considerar o nível de renda, as características dos lotes, o peso ou volume coletado, o consumo de água e a frequência de coleta (arts. 30 e 35 da Lei 11.445/07)."
+    ]
+  },
+  {
+    "id": "26-34",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A inscrição no CAR é obrigatória para todos os imóveis rurais (art. 29, caput, da Lei 12.651/12). A pequena propriedade tem apenas procedimento de inscrição simplificado (art. 55).",
+      "Errada. O Código Florestal não prevê perda da propriedade por falta de inscrição no CAR. O cadastro nem serve como título de propriedade ou posse (art. 29, §2º, da Lei 12.651/12).",
+      "Correta. A inscrição no CAR é obrigatória, mas o cadastramento não é considerado título para fins de reconhecimento do direito de propriedade ou posse (art. 29, caput e §2º, da Lei 12.651/12).",
+      "Errada. A inscrição no CAR não equivale a licença e não dá, por si só, direito a rito simplificado de licenciamento. É um registro eletrônico para controle, monitoramento e planejamento ambiental (art. 29, caput, da Lei 12.651/12)."
+    ]
+  },
+  {
+    "id": "25-33",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O TAC é uma faculdade do órgão público legitimado, e não um direito subjetivo do causador do dano (art. 5º, §6º, da Lei 7.347/85). Como o direito ambiental é indisponível, o TAC não pode dispor sobre o conteúdo da norma, apenas sobre o modo, o tempo e o lugar de seu cumprimento (Res. CNMP 179/17).",
+      "Errada. O Estado é órgão público legitimado para a ação civil pública e também pode tomar compromisso de ajustamento de conduta (art. 5º, III e §6º, da Lei 7.347/85). O TAC não é exclusivo do Ministério Público.",
+      "Errada. Não existe direito subjetivo à celebração do TAC. O princípio da isonomia não obriga o legitimado a firmar o acordo (art. 5º, §6º, da Lei 7.347/85).",
+      "Errada. Além de não haver direito subjetivo ao TAC, o termo não pode flexibilizar as normas de restauração e recuperação, porque o direito ao meio ambiente é indisponível. O TAC tem eficácia de título executivo extrajudicial, mas só se for validamente celebrado (art. 5º, §6º, da Lei 7.347/85)."
+    ]
+  },
+  {
+    "id": "25-34",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os resíduos de serviços de saúde integram a Política Nacional de Resíduos Sólidos (art. 13, I, 'g', da Lei 12.305/10) e podem ser objeto de plano intermunicipal.",
+      "Correta. Os Municípios que optam por soluções consorciadas intermunicipais, com plano intermunicipal, têm prioridade no acesso aos recursos da União, inclusive financiamentos de entidades federais de crédito ou fomento (art. 18, caput e §1º, I, e art. 45 da Lei 12.305/10).",
+      "Errada. O consórcio entre Municípios é formalizado como consórcio público, nos termos da Lei 11.107/05, como associação pública ou pessoa jurídica de direito privado sem fins econômicos. Não se exige sociedade de propósito específico na forma de sociedade anônima.",
+      "Errada. A Lei 12.305/10 não exige a aplicação de 1% da receita corrente líquida como conteúdo mínimo do plano. O conteúdo mínimo dos planos está no art. 19 e não traz esse percentual."
+    ]
+  },
+  {
+    "id": "24-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A realização do campeonato é evento futuro e incerto, ou seja, uma condição (art. 121 do CC), e não um termo, que é evento futuro e certo. Subordinado o negócio a condição suspensiva, o direito ainda não foi adquirido (art. 125 do CC).",
+      "Errada. Há de fato uma condição suspensiva, mas ela impede a aquisição do direito enquanto não se verificar (art. 125 do CC). O que existe é mera expectativa, protegida por atos conservatórios (art. 130 do CC).",
+      "Errada. A cláusula não é termo, porque o evento é incerto. Se fosse termo inicial, haveria direito adquirido, pois o termo suspende o exercício, mas não a aquisição do direito (art. 131 do CC).",
+      "Correta. O evento futuro e incerto configura condição suspensiva (art. 121 do CC). Enquanto ela não se verifica, não se adquire o direito (art. 125 do CC), e Daniela tem apenas expectativa de direito."
+    ]
+  },
+  {
+    "id": "23-33",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A lei autoriza o acesso de Municípios a recursos da União para limpeza urbana e manejo de resíduos sólidos, desde que cumprida a condição legal (art. 18 da Lei 12.305/10). Não há violação à isonomia.",
+      "Errada. A participação de cooperativas ou associações de catadores na coleta seletiva não impede o auxílio. Ao contrário, dá prioridade no acesso aos recursos da União (art. 18, §1º, II, da Lei 12.305/10).",
+      "Errada. O critério de 20 mil habitantes serve para o plano municipal ter conteúdo simplificado (art. 19, §2º, da Lei 12.305/10), e não para condicionar o acesso a recursos federais. A área de especial interesse turístico é exceção a essa simplificação (art. 19, §3º).",
+      "Correta. A elaboração do plano municipal de gestão integrada de resíduos sólidos é condição para o Município ter acesso a recursos da União, ou por ela controlados, destinados à limpeza urbana e ao manejo de resíduos sólidos (art. 18, caput, da Lei 12.305/10)."
+    ]
+  },
+  {
+    "id": "23-34",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Compete à União, aos Estados e ao DF legislar concorrentemente sobre direito urbanístico, cabendo à União as normas gerais (art. 24, I e §1º, CF) e as diretrizes do desenvolvimento urbano (art. 21, XX, CF). Ao Município cabe executar a política urbana e suplementar a legislação (arts. 30 e 182 da CF).",
+      "Errada. A política urbana não está entre as matérias de iniciativa privativa do Presidente da República (art. 61, §1º, CF). Por isso, a lei federal de iniciativa parlamentar é válida.",
+      "Errada. A União não tem competência exclusiva para legislar sobre política urbana. O Município pode, por lei específica, exigir o parcelamento compulsório de área incluída no plano diretor, nos termos da lei federal (art. 182, §4º, CF).",
+      "Correta. A lei federal de normas gerais respeita a competência concorrente (art. 24, I, CF), e a lei municipal exerce a competência local (art. 30, VIII, CF). A execução da política urbana cabe ao Poder Público municipal (art. 182, caput e §4º, CF)."
+    ]
+  },
+  {
+    "id": "22-35",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O EIA é exigido para obra ou atividade potencialmente causadora de significativa degradação do meio ambiente (art. 225, §1º, IV, CF), e, nessa hipótese, não há licenciamento sem ele. Estradas de rodagem com duas ou mais faixas de rolamento estão expressamente entre as atividades sujeitas a EIA (art. 2º, I, da Res. CONAMA 1/86).",
+      "Errada. O licenciamento é obrigatório para atividades potencialmente poluidoras (art. 10 da Lei 6.938/81). O fato de a obra abranger mais de um Estado apenas desloca a competência para a União (art. 7º, XIV, 'e', da LC 140/11).",
+      "Errada. O RIMA deve ser objetivo e redigido em linguagem acessível ao público, com ilustrações, para que se compreendam as vantagens e as consequências do projeto (art. 9º, parágrafo único, da Res. CONAMA 1/86). Linguagem técnica é própria do EIA, não do RIMA.",
+      "Errada. O EIA só é exigível para atividades potencialmente causadoras de significativa degradação ambiental (art. 225, §1º, IV, CF). As demais podem ser licenciadas com estudos mais simples."
+    ]
+  },
+  {
+    "id": "22-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A falta de finalidade comercial não afasta a responsabilidade. Produzir e usar agrotóxico sem registro viola a lei de agrotóxicos (hoje a Lei 14.785/23, que revogou a Lei 7.802/89) e o art. 56 da Lei 9.605/98, e o dano gera responsabilidade civil objetiva (art. 14, §1º, da Lei 6.938/81).",
+      "Errada. A responsabilidade não se limita à falta de equipamentos de proteção nem à esfera civil. As esferas civil, penal e administrativa são independentes e cumuláveis (art. 225, §3º, CF).",
+      "Correta. Nelson responde civilmente, de forma objetiva, pelos danos causados. Responde também penalmente por produzir e usar produto tóxico sem registro e em desacordo com as exigências legais (art. 56 da Lei 9.605/98), ainda que sem finalidade comercial, conforme a tríplice responsabilização do art. 225, §3º, da CF.",
+      "Errada. A responsabilidade administrativa não exclui a civil nem a penal, que são independentes entre si (art. 225, §3º, CF)."
+    ]
+  },
+  {
+    "id": "21-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Cada novo empreendimento ou atividade efetiva ou potencialmente poluidora depende de prévio licenciamento ambiental próprio (art. 10 da Lei 6.938/81). Ter outras unidades licenciadas não dispensa a nova licença.",
+      "Correta. A nova unidade industrial utilizadora de recursos ambientais e potencialmente poluidora depende de licença ambiental, obtida por meio do procedimento administrativo de licenciamento ambiental (art. 10 da Lei 6.938/81 e art. 2º, I, da LC 140/11).",
+      "Errada. O licenciamento é obrigatório, e o órgão licenciador definirá os estudos ambientais cabíveis. Se houver potencial de significativa degradação, como em uma metalúrgica de grande porte, será exigido EIA/RIMA (art. 225, §1º, IV, CF).",
+      "Errada. O alvará municipal de funcionamento não substitui a licença ambiental. A metalurgia é atividade potencialmente poluidora sujeita a licenciamento (art. 10 da Lei 6.938/81; Anexo I da Res. CONAMA 237/97)."
+    ]
+  },
+  {
+    "id": "21-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 11.284/06 admite expressamente a concessão florestal de florestas públicas a particulares, sem transferir a titularidade do bem nem o dever estatal de tutela ambiental (arts. 3º, VII, e 16 da Lei 11.284/06).",
+      "Correta. A concessão florestal tem por objeto o manejo florestal sustentável (e a exploração de produtos e serviços florestais). A licitação é feita na modalidade concorrência, com outorga a título oneroso (arts. 3º, VII, 13 e 20 da Lei 11.284/06).",
+      "Errada. É vedada a outorga do direito de explorar recursos minerais no âmbito da concessão florestal (art. 16, §1º, da Lei 11.284/06).",
+      "Errada. A concessão incide sobre florestas públicas federais, estaduais e municipais, cada ente sendo poder concedente das suas. Na esfera federal, a gestão das concessões cabe ao Serviço Florestal Brasileiro, não ao IBAMA (Lei 11.284/06)."
+    ]
+  },
+  {
+    "id": "20-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A existência de cobertura vegetal não dispensa o plano diretor, que é obrigatório para cidades com mais de 20 mil habitantes (art. 182, §1º, CF; art. 41, I, da Lei 10.257/01). O EIA é instrumento de licenciamento e não substitui o plano diretor.",
+      "Errada. Não existe inclusão automática em aglomeração urbana por número de habitantes. Integrar região metropolitana ou aglomeração urbana é, na verdade, mais uma hipótese de obrigatoriedade do plano diretor (art. 41, II, da Lei 10.257/01).",
+      "Correta. O Município Alfa tem mais de 20 mil habitantes, por isso deve ter plano diretor (art. 182, §1º, CF; art. 41, I, do Estatuto da Cidade). O plano é aprovado por lei municipal e deve englobar o território do Município como um todo (art. 40, caput e §2º, da Lei 10.257/01).",
+      "Errada. O plano diretor deve abranger todo o território municipal, e não só a área urbana (art. 40, §2º, da Lei 10.257/01). As áreas de cobertura vegetal também são por ele disciplinadas, sem prejuízo da legislação ambiental."
+    ]
+  },
+  {
+    "id": "20-36",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Em caso de desistência infundada ou abandono da ação por associação legitimada, o Ministério Público ou outro legitimado assume a titularidade ativa (art. 5º, §3º, da Lei 7.347/85).",
+      "Errada. Não há previsão de suspensão da ação civil pública pela existência de inquérito civil. O inquérito é procedimento facultativo do MP e não impede a atuação dos demais legitimados (arts. 5º e 8º, §1º, da Lei 7.347/85).",
+      "Errada. A legitimidade para a ação civil pública é concorrente e disjuntiva: inclui as associações constituídas há pelo menos um ano e com finalidade institucional compatível (art. 5º, V, da Lei 7.347/85). Não há exclusividade do MPF.",
+      "Errada. Se o pedido for julgado improcedente por insuficiência de provas, qualquer legitimado pode propor nova ação com idêntico fundamento, valendo-se de nova prova (art. 16 da Lei 7.347/85; art. 103, I, do CDC)."
+    ]
+  },
+  {
+    "id": "19-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O patrimônio cultural integra o conceito de meio ambiente (arts. 216 e 225 da CF) e se sujeita ao regime de responsabilidade civil ambiental, além das sanções penal e administrativa (art. 225, §3º, CF; art. 1º, III, da Lei 7.347/85).",
+      "Errada. O dano ao patrimônio cultural é dano ambiental, e há responsabilidade civil cumulada com a penal e a administrativa (art. 225, §3º, CF). A recuperação pode ser cumulada com a indenização (Súmula 629 do STJ).",
+      "Correta. Pichar e deteriorar bem tombado gera responsabilidade penal (arts. 62 e 65, §1º, da Lei 9.605/98), administrativa e civil (art. 225, §3º, CF). O MP pode ajuizar ação civil pública por dano ao patrimônio cultural (art. 1º, III, da Lei 7.347/85), cumulando obrigação de fazer e indenização (Súmula 629 do STJ).",
+      "Errada. A responsabilidade civil ambiental é objetiva e independe de dolo ou culpa (art. 14, §1º, da Lei 6.938/81). O Poder Público só responde por omissão na fiscalização, de forma solidária mas com execução subsidiária (Súmula 652 do STJ), o que não se presume no caso."
+    ]
+  },
+  {
+    "id": "19-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Parque Nacional é de posse e domínio públicos, e as áreas particulares em seus limites devem ser desapropriadas (art. 11, §1º, da Lei 9.985/00). O loteamento é incompatível com a unidade, qualquer que seja o plano de manejo.",
+      "Errada. O remédio adequado é a desapropriação, ou a desapropriação indireta se o Poder Público não a promover, com indenização do valor do imóvel. Não cabe ação autônoma por lucros cessantes de empreendimento meramente projetado e não iniciado.",
+      "Correta. Como o Parque Nacional exige posse e domínio públicos, as áreas particulares devem ser desapropriadas (art. 11, §1º, da Lei 9.985/00). Se não houver desapropriação, o proprietário pode ajuizar desapropriação indireta contra a União, ente instituidor do Parque Nacional (art. 11, §4º, da Lei 9.985/00).",
+      "Errada. A área deve passar ao domínio público, e a visitação pública fica sujeita ao plano de manejo e às normas do órgão gestor (art. 11, §§1º e 2º, da Lei 9.985/00). O particular não pode explorar o ecoturismo cobrando visitação."
+    ]
+  },
+  {
+    "id": "18-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O EIA/RIMA é o estudo ambiental mais complexo, e não um estudo simplificado. Ele abrange o meio físico, o biológico e o socioeconômico, incluindo os aspectos artificial e cultural do meio ambiente (art. 6º, I, da Res. CONAMA 1/86).",
+      "Errada. O EIA/RIMA não é exigido para toda atividade com impacto ambiental, mas apenas para as potencialmente causadoras de significativa degradação (art. 225, §1º, IV, CF).",
+      "Errada. O EIA é analisado antes da Licença Prévia, que atesta a viabilidade ambiental (art. 8º, I, da Res. CONAMA 237/97), e não entre a LP e a LI. Além disso, sua disciplina não é exclusiva do CONAMA, e o órgão licenciador não pode dispensá-lo discricionariamente e sem fundamentação quando a atividade é causadora de significativa degradação.",
+      "Correta. O EIA/RIMA é instrumento preventivo de avaliação de impactos, exigido para atividades efetiva ou potencialmente causadoras de significativa degradação. A Constituição impõe que se dê publicidade a ele (art. 225, §1º, IV, CF)."
+    ]
+  },
+  {
+    "id": "18-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Código Florestal prevê em abstrato as exceções que permitem intervir em APP: utilidade pública, interesse social e baixo impacto ambiental (arts. 3º, VIII a X, e 8º da Lei 12.651/12).",
+      "Errada. A Lei 12.651/12 manteve as APPs em âmbito federal, com suas hipóteses previstas nos arts. 4º e 6º.",
+      "Correta. As APPs são espaços territoriais especialmente protegidos (art. 225, §1º, III, CF) que admitem exceções legais de intervenção (art. 8º da Lei 12.651/12). Estados e Municípios podem ampliar a proteção (arts. 24, VI, e 30, I e II, CF). A obrigação de recompor a vegetação suprimida é propter rem e recai sobre o proprietário, possuidor ou ocupante (art. 7º, §§1º e 2º, da Lei 12.651/12; Súmula 623 do STJ).",
+      "Errada. As APPs se aplicam em zonas rurais ou urbanas (art. 4º, caput, da Lei 12.651/12), independentemente do tamanho do imóvel. Apenas a Reserva Legal é restrita a imóveis rurais (art. 12)."
+    ]
+  },
+  {
+    "id": "17-35",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A proteção do meio ambiente e o combate à poluição são competência material comum da União, dos Estados, do DF e dos Municípios (art. 23, VI e VII, CF). Leis complementares fixam normas de cooperação entre os entes (art. 23, parágrafo único, CF), o que foi feito pela LC 140/11.",
+      "Errada. A competência material comum não é residual nem depende da inércia da União e do Estado. Todos os entes atuam simultaneamente, conforme as regras de cooperação da LC 140/11 (art. 23, parágrafo único, CF).",
+      "Errada. A competência material do Município decorre diretamente da Constituição (art. 23, VI e VII, CF) e é exercida segundo a LC 140/11 (art. 9º). Ela não fica limitada às normas estaduais.",
+      "Errada. O Município tem competência material ambiental prevista no art. 23, VI e VII, da CF. Ela não depende de delegação da União ou do Estado."
+    ]
+  },
+  {
+    "id": "17-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A redução dos limites de uma unidade de conservação só pode ser feita por lei específica (art. 225, §1º, III, CF; art. 22, §7º, da Lei 9.985/00). Não basta decreto nem lei genérica que trate de vários assuntos.",
+      "Errada. A desafetação e a redução de limites exigem lei específica (art. 22, §7º, da Lei 9.985/00). A aprovação de EIA/RIMA não supre essa exigência.",
+      "Errada. A lei não condiciona a redução à aprovação do conselho gestor da unidade. O requisito é a edição de lei específica (art. 22, §7º, da Lei 9.985/00).",
+      "Correta. A desafetação ou a redução dos limites de uma unidade de conservação só pode ser feita mediante lei específica (art. 22, §7º, da Lei 9.985/00; art. 225, §1º, III, CF). A lei municipal genérica do caso não atende a esse requisito."
+    ]
+  },
+  {
+    "id": "16-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O estudo de impacto de vizinhança já está disciplinado no Estatuto da Cidade (arts. 36 a 38 da Lei 10.257/01) e não depende de lei complementar. Estar em área urbana também não dispensa EIA quando houver significativa degradação (art. 225, §1º, IV, CF).",
+      "Errada. O EIA só é exigido para atividades potencialmente causadoras de significativa degradação ambiental (art. 225, §1º, IV, CF), o que não se presume em um edifício comercial. Além disso, o EIA integra o licenciamento: não é anterior a ele.",
+      "Correta. Lei municipal define os empreendimentos e atividades em área urbana que dependem de estudo prévio de impacto de vizinhança (EIV) para obter licenças de construção, ampliação ou funcionamento (art. 36 da Lei 10.257/01).",
+      "Errada. A alternativa é contraditória: o EIA só é exigido para atividades potencialmente causadoras de significativa degradação (art. 225, §1º, IV, CF) e é elaborado dentro do licenciamento ambiental."
+    ]
+  },
+  {
+    "id": "16-36",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. As áreas de Reserva Legal são excluídas da área tributável do ITR (art. 10, §1º, II, 'a', da Lei 9.393/96). Isso revela a função extrafiscal do tributo, que estimula a conservação ambiental.",
+      "Errada. As obrigações do Código Florestal têm natureza real e se transmitem ao sucessor em caso de transferência do domínio ou da posse (arts. 2º, §2º, e 7º, §2º, da Lei 12.651/12; Súmula 623 do STJ).",
+      "Errada. A Reserva Legal admite exploração econômica mediante manejo sustentável aprovado pelo órgão competente (arts. 17, §1º, e 20 da Lei 12.651/12). Essa exploração não é crime.",
+      "Errada. A Reserva Legal não é unidade de conservação. É área localizada no interior de imóvel rural (arts. 3º, III, e 12 da Lei 12.651/12), e seu manejo é aprovado pelo órgão ambiental, sem plano de manejo de UC."
+    ]
+  },
+  {
+    "id": "15-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A APP não é necessariamente de domínio público: pode estar em imóvel público ou privado (art. 3º, II, da Lei 12.651/12). A responsabilidade civil ambiental é objetiva e independe de dolo ou culpa (art. 14, §1º, da Lei 6.938/81).",
+      "Correta. A Administração Pública, como poluidora (art. 3º, IV, da Lei 6.938/81), responde objetivamente pelos danos ambientais que causar (art. 14, §1º, da Lei 6.938/81; art. 37, §6º, CF), sem prejuízo das responsabilidades administrativa e penal (art. 225, §3º, CF).",
+      "Errada. Não há confusão que exclua a responsabilidade do ente público. Ele responde objetivamente, com direito de regresso contra o agente que agiu com dolo ou culpa (art. 37, §6º, CF).",
+      "Errada. A responsabilidade civil por dano ambiental é objetiva e solidária entre todos os que concorreram para o dano (art. 14, §1º, da Lei 6.938/81), e não subjetiva."
+    ]
+  },
+  {
+    "id": "15-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há proibição absoluta: o licenciamento de empreendimentos localizados ou desenvolvidos em terras indígenas cabe à União (art. 7º, XIV, 'c', da LC 140/11), observado o regime do art. 231 da CF.",
+      "Errada. Empreendimentos localizados ou desenvolvidos em dois ou mais Estados são licenciados pela União (art. 7º, XIV, 'e', da LC 140/11). Além disso, o licenciamento é feito por um único ente federativo (art. 13 da LC 140/11).",
+      "Errada. Em unidade de conservação, a competência é do ente que a instituiu, exceto nas APAs (arts. 7º, XIV, 'd', 8º, XV, 9º, XIV, 'b', e 12 da LC 140/11). Não é sempre do IBAMA.",
+      "Correta. Compete ao Município licenciar atividades que causem ou possam causar impacto ambiental de âmbito local, conforme tipologia definida pelo Conselho Estadual de Meio Ambiente (art. 9º, XIV, 'a', da LC 140/11)."
+    ]
+  },
+  {
+    "id": "14-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os Municípios têm competência para licenciar atividades de impacto local (art. 9º, XIV, da LC 140/11), e não apenas para analisar estudos.",
+      "Errada. A licença de instalação autoriza apenas a instalação do empreendimento. O início da operação depende da licença de operação (art. 8º, II e III, da Res. CONAMA 237/97), e a licença ambiental não gera direito adquirido absoluto, pois pode ser modificada, suspensa ou cancelada (art. 19 da mesma resolução).",
+      "Errada. Os empreendimentos são licenciados por um único ente federativo (art. 13 da LC 140/11). Os demais entes podem se manifestar de forma não vinculante, mas não expedem outra licença para o mesmo empreendimento.",
+      "Correta. No licenciamento trifásico, a operação depende da licença de operação, concedida após a verificação do efetivo cumprimento do que consta das licenças anteriores, com as medidas de controle e as condicionantes (art. 8º, III, da Res. CONAMA 237/97)."
+    ]
+  },
+  {
+    "id": "14-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Reserva Legal incide apenas sobre imóveis rurais (art. 12 da Lei 12.651/12). A área urbana não está sujeita a esse instituto.",
+      "Correta. Todo imóvel rural deve manter área com cobertura de vegetação nativa, a título de Reserva Legal, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente (art. 12, caput, da Lei 12.651/12).",
+      "Errada. A Reserva Legal não foi restringida a propriedades em unidades de conservação: é exigida de todo imóvel rural (art. 12 da Lei 12.651/12).",
+      "Errada. A Reserva Legal incide sobre imóveis rurais em geral, inclusive privados (art. 12 da Lei 12.651/12). A preservação da estabilidade geológica é função da APP (art. 3º, II), e não da Reserva Legal (art. 3º, III)."
+    ]
+  },
+  {
+    "id": "13-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O esgotamento sanitário integra o saneamento básico (art. 3º, I, 'b', da Lei 11.445/07).",
+      "Errada. A drenagem e o manejo das águas pluviais urbanas integram o saneamento básico (art. 3º, I, 'd', da Lei 11.445/07).",
+      "Errada. A limpeza urbana e o manejo de resíduos sólidos integram o saneamento básico (art. 3º, I, 'c', da Lei 11.445/07).",
+      "Correta. Os recursos hídricos não integram os serviços públicos de saneamento básico (art. 4º da Lei 11.445/07). Sua gestão segue a Política Nacional de Recursos Hídricos (Lei 9.433/97)."
+    ]
+  },
+  {
+    "id": "13-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há direito adquirido nem violação à segurança jurídica que impeça a criação da unidade de conservação. O Poder Público pode criá-la (art. 225, §1º, III, CF; art. 22 da Lei 9.985/00), desde que indenize os particulares atingidos.",
+      "Errada. A Estação Ecológica é de posse e domínio públicos, e as áreas particulares em seus limites devem ser desapropriadas (art. 9º, §1º, da Lei 9.985/00). Por isso, a pousada não pode continuar funcionando ali.",
+      "Correta. A Estação Ecológica é de posse e domínio públicos e as áreas particulares incluídas em seus limites serão desapropriadas (art. 9º, §1º, da Lei 9.985/00). A cessação da atividade exige justa indenização (art. 5º, XXIV, CF).",
+      "Errada. A supremacia do interesse público não afasta a garantia da justa e prévia indenização na desapropriação (art. 5º, XXIV, CF; art. 9º, §1º, da Lei 9.985/00)."
+    ]
+  },
+  {
+    "id": "12-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Constituição qualifica esses ecossistemas como patrimônio nacional, e não como patrimônio difuso (art. 225, §4º, CF). O EIA só é exigido para atividades causadoras de significativa degradação (art. 225, §1º, IV, CF).",
+      "Correta. A Floresta Amazônica, a Mata Atlântica, a Serra do Mar, o Pantanal Mato-Grossense e a Zona Costeira são patrimônio nacional. Sua utilização se faz, na forma da lei, em condições que assegurem a preservação do meio ambiente, inclusive quanto ao uso dos recursos naturais (art. 225, §4º, CF).",
+      "Errada. Ser patrimônio nacional não converte essas áreas em bens da União. Elas continuam podendo ser públicas ou privadas (STF, RE 134.297).",
+      "Errada. A Lei 9.985/00 não transformou automaticamente as terras devolutas desses biomas em unidades de conservação. A CF apenas declara indisponíveis as terras devolutas necessárias à proteção dos ecossistemas naturais (art. 225, §5º)."
+    ]
+  },
+  {
+    "id": "12-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A região metropolitana é instituída por lei complementar estadual, e não por lei ordinária (art. 25, §3º, CF). Ela também não suprime as competências municipais, pois a gestão das funções públicas de interesse comum é compartilhada (STF, ADI 1842).",
+      "Errada. A APP não é instrumento para fixar padrões de qualidade do ar e da água de uma região, e o plano de manejo é próprio das unidades de conservação (Lei 9.985/00), não das APPs.",
+      "Errada. A Constituição não exige lei complementar nem iniciativa privativa do Governador para fixar padrões ambientais. A fiscalização ambiental é competência comum de todos os entes (art. 23, VI, CF), não exclusiva do órgão estadual.",
+      "Correta. Lei estadual pode destinar parte da cota municipal do ICMS conforme critérios ambientais, o chamado ICMS ecológico (art. 158, IV, 'a', e §1º, II, CF). O ICMS existe até a transição da EC 132/23 terminar; depois, a cota municipal do IBS terá 5% distribuídos por indicadores de preservação ambiental (art. 158, §2º, III, CF)."
+    ]
+  },
+  {
+    "id": "11-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A significativa degradação não define a competência da União para licenciar. A LC 140/11 fixa a competência por critérios como localização, abrangência e tipologia (art. 7º, XIV), e a atividade foi validamente licenciada pelo Estado.",
+      "Errada. A fiscalização ambiental é atribuição comum: qualquer ente pode fiscalizar atividades licenciadas por outro (art. 17, §3º, da LC 140/11).",
+      "Correta. O IBAMA pode fiscalizar e lavrar auto de infração, mas prevalece o auto lavrado pelo órgão que detém a atribuição de licenciamento (art. 17, §3º, da LC 140/11). O STF, na ADI 4757, admitiu a atuação supletiva de outro ente quando comprovada omissão ou insuficiência do órgão licenciador.",
+      "Errada. Diante de iminência ou ocorrência de degradação, qualquer ente federativo que tiver conhecimento do fato deve adotar medidas para evitá-la, fazê-la cessar ou mitigá-la, comunicando o órgão competente (art. 17, §2º, da LC 140/11). Não é atribuição só da União."
+    ]
+  },
+  {
+    "id": "11-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O EIA/RIMA não é exclusivo da União: é exigido por qualquer órgão licenciador competente, inclusive estadual ou municipal (art. 225, §1º, IV, CF; LC 140/11).",
+      "Correta. A análise e a aprovação de atividade potencialmente danosa ao meio ambiente é ato de poder de polícia, próprio do Poder Executivo. Submeter o RIMA a comissão da Assembleia Legislativa viola a separação de Poderes (STF, ADI 1505).",
+      "Errada. A direção superior da Administração cabe ao Chefe do Executivo, e não ao Legislativo. Submeter o RIMA ao Legislativo é inconstitucional, seja qual for a iniciativa (STF, ADI 1505).",
+      "Errada. A emenda seria inconstitucional por violar a separação de Poderes, independentemente da iniciativa (STF, ADI 1505). Não existe iniciativa privativa do Governador para emendas em matéria ambiental."
+    ]
+  },
+  {
+    "id": "10-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O princípio da precaução se aplica quando há incerteza científica sobre o risco de dano (Princípio 15 da Declaração do Rio/92). O EIA avalia impactos conhecidos ou previsíveis, o que corresponde à prevenção.",
+      "Correta. O estudo prévio de impacto ambiental (art. 225, §1º, IV, CF) concretiza o princípio da prevenção: identifica antecipadamente impactos conhecidos ou previsíveis, para evitá-los ou mitigá-los antes da instalação da atividade.",
+      "Errada. A vedação ao retrocesso impede a redução injustificada dos níveis de proteção ambiental já alcançados. Não é o fundamento direto do EIA.",
+      "Errada. O poluidor-pagador impõe ao poluidor o dever de internalizar os custos da degradação e de recuperar ou indenizar os danos (art. 4º, VII, da Lei 6.938/81). Não é o princípio concretizado pelo EIA."
+    ]
+  },
+  {
+    "id": "10-36",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. As obrigações ambientais têm natureza propter rem e se transmitem ao sucessor (arts. 2º, §2º, e 7º, §2º, da Lei 12.651/12). Por isso, João deve recompor a APP mesmo sem ter causado a degradação (Súmula 623 do STJ).",
+      "Errada. A obrigação propter rem acompanha o imóvel e independe de boa-fé ou de conhecimento do dano pelo adquirente (Súmula 623 do STJ).",
+      "Errada. As obrigações ambientais podem ser exigidas do proprietário ou possuidor atual e/ou dos anteriores, à escolha do credor (Súmula 623 do STJ). O antigo proprietário não é o único responsável.",
+      "Errada. A eventual omissão de fiscalização do Poder Público gera responsabilidade solidária mas de execução subsidiária (Súmula 652 do STJ), sem afastar a obrigação do proprietário atual."
+    ]
+  },
+  {
+    "id": "09-35",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A competência da União para aprovar manejo e supressão de vegetação abrange florestas públicas federais, terras devolutas federais e unidades de conservação federais, exceto as APAs (art. 7º, XV, 'a', da LC 140/11). Nas APAs, segue-se o critério do art. 12.",
+      "Errada. Controlar a introdução no País de espécies exóticas potencialmente invasoras é ação administrativa da União, e não dos Estados (art. 7º, XVII, da LC 140/11).",
+      "Errada. Gerir o patrimônio genético e o acesso ao conhecimento tradicional associado compete à União (art. 7º, XXIII, da LC 140/11), e não aos Municípios.",
+      "Correta. Compete à União aprovar a liberação de exemplares de espécie exótica da fauna e da flora em ecossistemas naturais frágeis ou protegidos (art. 7º, XVIII, da LC 140/11)."
+    ]
+  },
+  {
+    "id": "09-36",
+    "status": "duvidosa",
+    "motivo": "O gabarito (A) só se sustenta na medida administrativa de demolição feita no ato da fiscalização, que não pode atingir edificações residenciais (art. 112, §3º, do Decreto 6.514/08). Já a sanção de demolição, aplicada após contraditório e ampla defesa (art. 19), pode recair sobre obras residenciais, o que torna o 'só poderá' da alternativa A discutível. Além disso, o decreto foi alterado várias vezes depois da prova (Decretos 9.760/19, 11.080/22 e 11.373/23)."
+  },
+  {
+    "id": "08-35",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A RPPN é área privada, gravada com perpetuidade, para conservar a diversidade biológica. O gravame consta de termo de compromisso assinado perante o órgão ambiental e averbado à margem da inscrição no Registro de Imóveis (art. 21, caput e §1º, da Lei 9.985/00).",
+      "Errada. A RPPN é área privada, de posse e domínio privados (art. 21 da Lei 9.985/00), e não de posse pública.",
+      "Errada. A RPPN é gravada com perpetuidade (art. 21, caput, da Lei 9.985/00). O direito de propriedade deve cumprir sua função socioambiental (arts. 5º, XXIII, e 186, II, CF).",
+      "Errada. A RPPN é área privada, e sua criação não é automática: o órgão ambiental deve verificar a existência de interesse público antes do termo de compromisso (art. 21, §1º, da Lei 9.985/00)."
+    ]
+  },
+  {
+    "id": "08-36",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O coala é animal silvestre exótico, e não doméstico. Introduzir espécime animal no País sem parecer técnico oficial favorável e licença da autoridade competente é crime (art. 31 da Lei 9.605/98).",
+      "Errada. O crime do art. 31 da Lei 9.605/98 se consuma com a própria introdução do animal no País sem parecer técnico e licença. Não depende de abandono ou maus-tratos.",
+      "Errada. A competência é da Justiça Federal, por se tratar de crime ambiental transnacional envolvendo espécime exótico (STF, Tema 648, RE 835.558). Além disso, o tipo exige licença e parecer técnico oficial favorável, e não licenciamento ambiental.",
+      "Correta. Luísa praticou o crime do art. 31 da Lei 9.605/98, ao introduzir espécime animal no País sem parecer técnico oficial favorável e sem licença. Por ser crime transnacional envolvendo espécime exótico, a competência é da Justiça Federal (STF, Tema 648)."
+    ]
+  },
+  {
+    "id": "07-57",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Embora a unidade possa ser criada por ato do Poder Executivo, a redução de seus limites só pode ser feita mediante lei específica (art. 22, §7º, da Lei 9.985/00; art. 225, §1º, III, CF). Não há simetria das formas nesse caso.",
+      "Errada. Todos os entes federativos podem criar unidades de conservação (art. 23, VI e VII, CF; art. 22 da Lei 9.985/00). O fato de a Mata Atlântica ser patrimônio nacional não torna a criação exclusiva da União.",
+      "Correta. O parque municipal é unidade de proteção integral e pode ser criado por decreto, após estudos técnicos e consulta pública (art. 22, §2º, da Lei 9.985/00). A transformação em ARIE, que é de uso sustentável, com redução de limites só pode ser feita por lei específica (art. 22, §7º; art. 225, §1º, III, CF).",
+      "Errada. A Área de Relevante Interesse Ecológico integra o grupo das unidades de uso sustentável, e não o de proteção integral (art. 14, II, da Lei 9.985/00). A redução de limites exige lei específica (art. 22, §7º)."
+    ]
+  },
+  {
+    "id": "07-58",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há prescrição da obrigação de se submeter ao licenciamento: ela acompanha a atividade enquanto ela funcionar (art. 10 da Lei 6.938/81). A pretensão de reparação do dano ambiental é imprescritível (STF, Tema 999).",
+      "Errada. A licença de operação tem prazo determinado e deve ser renovada (art. 18, III, da Res. CONAMA 237/97). O decurso do prazo não encerra as obrigações ambientais do empreendimento, e novas exigências podem ser impostas diante de riscos supervenientes.",
+      "Correta. Mediante decisão motivada, o órgão ambiental pode modificar as condicionantes e as medidas de controle, ou mesmo suspender ou cancelar a licença, quando sobrevierem graves riscos ambientais e de saúde (art. 19, III, da Res. CONAMA 237/97). A licença de operação válida não impede a imposição de medidas para dispersar o metano.",
+      "Errada. A licença não gera direito adquirido de poluir. O órgão ambiental pode exigir novas medidas a qualquer tempo diante de graves riscos ambientais e de saúde (art. 19 da Res. CONAMA 237/97), sem aguardar a renovação."
+    ]
+  }
+]

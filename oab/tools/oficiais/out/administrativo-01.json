@@ -1,0 +1,282 @@
+[
+  { "id": "47-30", "status": "valida",
+    "explicacoes": [
+      "Errada. No ato vinculado, preenchidos os requisitos legais, o particular tem direito subjetivo ao ato, e o Judiciário pode reconhecê-lo sem violar a separação de Poderes, pois não há juízo de conveniência a substituir. Só no ato discricionário o juiz se limita a determinar que a Administração decida.",
+      "Errada. Atos discricionários também se submetem ao controle jurisdicional (art. 5º, XXXV, da CF), inclusive quanto à omissão, já que a Administração tem o dever de decidir (arts. 48 e 49 da Lei 9.784/1999). O que o juiz não pode é substituir o mérito administrativo.",
+      "Correta. Diante da omissão, no ato vinculado o juiz pode reconhecer o direito subjetivo ao próprio ato, pois a lei não deixa margem de escolha; no discricionário, pode apenas impor que a autoridade se pronuncie, sem invadir o mérito administrativo, em respeito à separação de Poderes (art. 2º da CF).",
+      "Errada. A apresentação de documentos não gera direito subjetivo ao ato discricionário, cuja edição depende de juízo de conveniência e oportunidade da Administração. Nesse caso, o Judiciário apenas determina que a autoridade decida."
+    ] },
+  { "id": "47-31", "status": "valida",
+    "explicacoes": [
+      "Errada. A anuência do delegado não supre a vedação legal: a decisão de recursos administrativos não pode ser objeto de delegação (art. 13, II, da Lei 9.784/1999).",
+      "Correta. O art. 13, II, da Lei 9.784/1999 proíbe a delegação da decisão de recursos administrativos. Por isso, a delegação feita por João da Silva é ilegal, ainda que, em outras matérias, a delegação pudesse alcançar agente não subordinado (art. 12).",
+      "Errada. Avocação é o ato pelo qual o superior chama para si, em caráter excepcional e temporário, competência de órgão hierarquicamente inferior (art. 15 da Lei 9.784/1999). Não serve para transferir competência a terceiro sem relação de hierarquia.",
+      "Errada. O princípio da eficiência não autoriza afastar vedação expressa: a decisão de recursos administrativos é indelegável (art. 13, II, da Lei 9.784/1999)."
+    ] },
+  { "id": "47-32", "status": "valida",
+    "explicacoes": [
+      "Errada. As benfeitorias úteis feitas após a declaração de utilidade pública só são indenizadas se realizadas com autorização do expropriante (art. 26, § 1º, do DL 3.365/1941), o que não ocorreu.",
+      "Errada. Não há indenização de todas as benfeitorias: após a declaração, indenizam-se as necessárias e, com autorização do expropriante, as úteis; as voluptuárias não são indenizadas (art. 26, § 1º, do DL 3.365/1941).",
+      "Correta. Segundo o art. 26, § 1º, do DL 3.365/1941, serão atendidas as benfeitorias necessárias feitas após a declaração; as úteis, apenas quando autorizadas pelo expropriante. Sem autorização, João só recebe pelas necessárias, e as voluptuárias não são indenizadas.",
+      "Errada. As benfeitorias necessárias são indenizáveis mesmo quando realizadas após a declaração de utilidade pública (art. 26, § 1º, do DL 3.365/1941)."
+    ] },
+  { "id": "47-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A dispensa em razão do valor (art. 75, II, da Lei 14.133/2021) alcança apenas serviços abaixo de R$ 50.000,00, valor atualizado anualmente por decreto e muito inferior ao cachê. O caso é de inexigibilidade.",
+      "Errada. O diálogo competitivo destina-se a contratações que envolvam inovação tecnológica ou técnica e soluções que a Administração não consegue definir sozinha (art. 32 da Lei 14.133/2021). Na contratação de artista consagrado, a competição é inviável.",
+      "Correta. É inexigível a licitação para contratar profissional do setor artístico, diretamente ou por meio de empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública (art. 74, II, da Lei 14.133/2021), pois a competição é inviável.",
+      "Errada. Não se trata de dispensa, mas de inexigibilidade (art. 74, II, da Lei 14.133/2021), e a lei não exige três orçamentos de outros artistas. Exige-se a instrução do processo de contratação direta, com justificativa de preço e razão da escolha do contratado (art. 72)."
+    ] },
+  { "id": "47-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A encampação exige prévio pagamento da indenização ao concessionário (arts. 36 e 37 da Lei 8.987/1995).",
+      "Errada. A caducidade decorre da inexecução total ou parcial do contrato pela concessionária (art. 38 da Lei 8.987/1995). A retomada por interesse público, sem culpa da concessionária, é a encampação (art. 37).",
+      "Errada. O poder concedente pode retomar o serviço durante o prazo da concessão por interesse público, mesmo sem inadimplemento, por meio da encampação, observadas a lei autorizativa específica e a prévia indenização (art. 37 da Lei 8.987/1995).",
+      "Correta. Encampação é a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após prévio pagamento da indenização (art. 37 c/c art. 36 da Lei 8.987/1995)."
+    ] },
+  { "id": "46-30", "status": "valida",
+    "explicacoes": [
+      "Errada. Cabe recurso, no prazo de 3 dias úteis, contra o julgamento das propostas (art. 165, I, b, da Lei 14.133/2021).",
+      "Errada. A intenção de recorrer contra o julgamento das propostas deve ser manifestada imediatamente, sob pena de preclusão (art. 165, § 1º, I, da Lei 14.133/2021). O que fica para depois da habilitação é o início do prazo das razões recursais.",
+      "Errada. Contra o julgamento das propostas cabe recurso (art. 165, I, b), e não pedido de reconsideração, reservado a decisões que não comportam recurso (art. 165, II). Além disso, a apreciação ocorre em fase única, após a habilitação, e não antes dela (art. 165, § 1º, II).",
+      "Correta. Pelo art. 165, § 1º, da Lei 14.133/2021, a intenção de recorrer deve ser manifestada imediatamente, sob pena de preclusão; o prazo das razões começa na intimação ou na lavratura da ata de habilitação ou inabilitação; e a apreciação se dá em fase única."
+    ] },
+  { "id": "46-31", "status": "valida",
+    "explicacoes": [
+      "Correta. Quando o autor não for a União, a ação de desapropriação é proposta no foro da situação do bem (art. 11 do DL 3.365/1941). Sendo o Estado Alfa o expropriante, o foro é a Comarca do Município Sigma.",
+      "Errada. Declarada a utilidade pública, as autoridades administrativas ficam autorizadas a ingressar nos imóveis abrangidos, podendo recorrer à força policial em caso de oposição, sem necessidade de autorização judicial (art. 7º do DL 3.365/1941).",
+      "Errada. A imissão provisória exige alegação de urgência e depósito da quantia arbitrada segundo os critérios legais (art. 15 do DL 3.365/1941), e não do valor que o expropriado considerar justo.",
+      "Errada. A contestação só pode versar sobre vício do processo judicial ou impugnação do preço (art. 20 do DL 3.365/1941), e o Judiciário não pode decidir, no processo expropriatório, se há ou não utilidade pública (art. 9º). Outras questões exigem ação direta."
+    ] },
+  { "id": "46-32", "status": "valida",
+    "explicacoes": [
+      "Errada. A regra de que as reuniões deliberativas são públicas e gravadas em meio eletrônico não se aplica às deliberações que envolvam documentos classificados como sigilosos ou matéria de natureza administrativa (art. 8º da Lei 13.848/2019).",
+      "Correta. O art. 8º da Lei 13.848/2019 exige publicidade e gravação das reuniões deliberativas, mas afasta esse regime quando a deliberação envolver documentos classificados como sigilosos ou matéria de natureza administrativa, exatamente o caso narrado.",
+      "Errada. Como a reunião tratou de documentos sigilosos e de matéria administrativa, incide a exceção do art. 8º da Lei 13.848/2019, que afasta o regime de reunião pública. Não há, portanto, a irregularidade apontada.",
+      "Errada. Não há nulidade a declarar, com ou sem demonstração de prejuízo, porque a reunião se enquadra nas exceções do art. 8º da Lei 13.848/2019."
+    ] },
+  { "id": "46-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão que rejeita preliminares da contestação é interlocutória e não encerra o processo; contra ela cabe agravo de instrumento, e não apelação (art. 17, § 21, da Lei 8.429/1992).",
+      "Correta. Desde a Lei 14.230/2021, das decisões interlocutórias na ação de improbidade cabe agravo de instrumento, inclusive da que rejeita questões preliminares suscitadas pelo réu na contestação (art. 17, § 21, da Lei 8.429/1992).",
+      "Errada. A lei prevê expressamente recurso contra essa decisão: o agravo de instrumento (art. 17, § 21, da Lei 8.429/1992).",
+      "Errada. A decisão é recorrível por agravo de instrumento por expressa previsão legal (art. 17, § 21, da Lei 8.429/1992), ainda que não examine o mérito."
+    ] },
+  { "id": "46-34", "status": "valida",
+    "explicacoes": [
+      "Correta. Não pode ser objeto de delegação a decisão de recursos administrativos (art. 13, II, da Lei 9.784/1999), de modo que o órgão delegado não poderá decidir o recurso de Gyslaine.",
+      "Errada. O ato de delegação é revogável a qualquer tempo pela autoridade delegante (art. 14, § 2º, da Lei 9.784/1999); avocação é instituto diverso, pelo qual o superior chama para si competência do subordinado (art. 15).",
+      "Errada. A delegação pode ser feita a outros órgãos ou titulares, ainda que não sejam hierarquicamente subordinados, quando conveniente por razões técnicas, sociais, econômicas, jurídicas ou territoriais (art. 12 da Lei 9.784/1999).",
+      "Errada. As decisões adotadas por delegação devem mencionar essa qualidade, mas consideram-se editadas pelo delegado, e não pelo delegante (art. 14, § 3º, da Lei 9.784/1999; Súmula 510 do STF)."
+    ] },
+  { "id": "45-30", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão que invalida o ato deve indicar as condições para a regularização de modo proporcional e equânime, sem impor aos atingidos ônus ou perdas anormais ou excessivos (art. 21, parágrafo único, da LINDB).",
+      "Correta. A decisão que, na esfera administrativa, controladora ou judicial, decretar a invalidação de ato administrativo deve indicar de modo expresso suas consequências jurídicas e administrativas (art. 21, caput, da LINDB).",
+      "Errada. A invalidação não é automática: devem ser consideradas as consequências práticas da decisão e as possíveis alternativas (art. 20 da LINDB), e atos com defeitos sanáveis podem ser convalidados (art. 55 da Lei 9.784/1999).",
+      "Errada. A motivação deve demonstrar a necessidade e a adequação da invalidação, inclusive diante das alternativas (art. 20, parágrafo único, da LINDB), e a anulação de ato que beneficia particular exige contraditório e ampla defesa (art. 5º, LV, da CF)."
+    ] },
+  { "id": "45-31", "status": "valida",
+    "explicacoes": [
+      "Errada. O contratado tem direito à extinção quando a Administração suspender a execução, por ordem escrita, por prazo superior a 3 meses (art. 137, § 2º, II, da Lei 14.133/2021); não se exigem 12 meses.",
+      "Errada. A suspensão da execução por ordem escrita da Administração por mais de 3 meses é justamente causa que dá ao contratado direito à extinção do contrato (art. 137, § 2º, II, da Lei 14.133/2021).",
+      "Errada. A Lei 14.133/2021 admite a extinção consensual, inclusive por conciliação, mediação ou comitê de resolução de disputas (art. 138, II), e prevê expressamente meios alternativos de solução de controvérsias (art. 151).",
+      "Correta. Superados 3 meses de suspensão por ordem escrita, o contratado tem direito à extinção (art. 137, § 2º, II), que pode ser consensual, por acordo, conciliação, mediação ou comitê de resolução de disputas, desde que haja interesse da Administração, ou judicial (art. 138, II e III, da Lei 14.133/2021)."
+    ] },
+  { "id": "45-32", "status": "valida",
+    "explicacoes": [
+      "Correta. Na ação de improbidade cabe agravo de instrumento contra decisões interlocutórias, inclusive a que rejeita preliminares suscitadas na contestação (art. 17, § 21, da Lei 8.429/1992, incluído pela Lei 14.230/2021).",
+      "Errada. A indisponibilidade exige demonstração de perigo de dano irreparável ou de risco ao resultado útil do processo (art. 16, § 3º) e é vedada sobre o bem de família, salvo se fruto de vantagem patrimonial indevida (art. 16, § 14, da Lei 8.429/1992), o que não é o caso.",
+      "Errada. A Constituição veda a cassação de direitos políticos (art. 15 da CF); a sanção prevista para o ato que causa prejuízo ao erário é a suspensão dos direitos políticos (art. 12, II, da Lei 8.429/1992).",
+      "Errada. O acordo de não persecução civil exige, no mínimo, o integral ressarcimento do dano e a reversão da vantagem indevida (art. 17-B, I e II, da Lei 8.429/1992). Ressarcir 80% não basta, e a lei não exige confissão."
+    ] },
+  { "id": "45-33", "status": "valida",
+    "explicacoes": [
+      "Correta. Investido no mandato de Prefeito, o servidor será afastado do cargo, sendo-lhe facultado optar pela sua remuneração (art. 94, II, da Lei 8.112/1990; art. 38, II, da CF).",
+      "Errada. Servidores públicos civis podem filiar-se a partido e concorrer a cargos eletivos; a vedação de filiação atinge, por exemplo, militares da ativa, magistrados e membros do Ministério Público. O servidor tem até direito a licença para atividade política (art. 86 da Lei 8.112/1990).",
+      "Errada. A acumulação das vantagens do cargo com a remuneração do mandato, havendo compatibilidade de horários, aplica-se somente ao vereador (art. 94, III, a, da Lei 8.112/1990; art. 38, III, da CF), e não ao prefeito.",
+      "Errada. A licença é sem remuneração entre a escolha em convenção partidária e a véspera do registro da candidatura; a partir do registro e até o décimo dia seguinte ao da eleição, é remunerada, mas somente pelo período de três meses (art. 86, caput e § 2º, da Lei 8.112/1990)."
+    ] },
+  { "id": "45-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A inexigibilidade pressupõe inviabilidade de competição (art. 74 da Lei 14.133/2021), o que não ocorre em serviços de manutenção de veículos, prestados por diversas oficinas.",
+      "Errada. Há previsão legal de contratação direta: é dispensável a licitação para serviços de manutenção de veículos automotores de valor inferior a R$ 100.000,00, atualizado anualmente por decreto (art. 75, I, da Lei 14.133/2021).",
+      "Errada. A lei não condiciona a dispensa à localização do estabelecimento no território do ente contratante; basta o enquadramento no limite de valor do art. 75, I, com a instrução do processo prevista no art. 72 da Lei 14.133/2021.",
+      "Correta. É dispensável a licitação para contratação de valor inferior a R$ 100.000,00 (atualizado anualmente por decreto) no caso de serviços de manutenção de veículos automotores (art. 75, I, da Lei 14.133/2021); o contrato de R$ 60.000,00 se enquadra."
+    ] },
+  { "id": "44-30", "status": "valida",
+    "explicacoes": [
+      "Errada. Os bens da autarquia, pessoa jurídica de direito público, são públicos (art. 98 do CC) e impenhoráveis; a execução contra ela segue o regime de precatórios (art. 100 da CF).",
+      "Errada. A sociedade de economia mista é pessoa jurídica de direito privado e seus bens são privados (art. 98 do CC); atuando em regime concorrencial e sem bens afetados a serviço público, eles podem ser penhorados (art. 173, § 1º, II, da CF).",
+      "Errada. É o inverso: os bens da autarquia são públicos e impenhoráveis, e os da sociedade de economia mista exploradora de atividade econômica em regime concorrencial são privados e penhoráveis (art. 98 do CC).",
+      "Correta. Pelo art. 98 do CC, são públicos os bens das pessoas jurídicas de direito público interno, como a autarquia, e por isso impenhoráveis (execução por precatório, art. 100 da CF); os da sociedade de economia mista em regime concorrencial, não afetados a serviço público, são privados e penhoráveis."
+    ] },
+  { "id": "44-31", "status": "valida",
+    "explicacoes": [
+      "Correta. São insuscetíveis de desapropriação para fins de reforma agrária a pequena e a média propriedade rural, assim definidas em lei, desde que seu proprietário não possua outra, além da propriedade produtiva (art. 185, I e II, da CF).",
+      "Errada. A Constituição protege da desapropriação para reforma agrária a pequena e a média propriedade rural cujo proprietário não possua outra e a propriedade produtiva (art. 185, I e II, da CF).",
+      "Errada. O tamanho é relevante: além da propriedade produtiva (art. 185, II), são insuscetíveis a pequena e a média propriedade rural cujo dono não possua outra (art. 185, I, da CF).",
+      "Errada. A propriedade produtiva, ainda que grande, é insuscetível de desapropriação para reforma agrária (art. 185, II, da CF); o alvo é o imóvel rural que não cumpre sua função social (art. 184 da CF)."
+    ] },
+  { "id": "44-32", "status": "valida",
+    "explicacoes": [
+      "Correta. Os contratos podem ser aditados para permitir a adoção de meios alternativos de resolução de controvérsias (art. 153 da Lei 14.133/2021), que abrangem questões de equilíbrio econômico-financeiro (art. 151, parágrafo único).",
+      "Errada. A arbitragem é admitida (art. 151), mas a escolha dos árbitros deve observar critérios isonômicos, técnicos e transparentes (art. 154 da Lei 14.133/2021), não cabendo à contratante escolher livremente.",
+      "Errada. A Lei 14.133/2021 admite expressamente a conciliação, a mediação, o comitê de resolução de disputas e a arbitragem nas contratações públicas (art. 151).",
+      "Errada. Os meios alternativos aplicam-se a direitos patrimoniais disponíveis, incluindo expressamente o restabelecimento do equilíbrio econômico-financeiro do contrato (art. 151, parágrafo único, da Lei 14.133/2021)."
+    ] },
+  { "id": "44-33", "status": "valida",
+    "explicacoes": [
+      "Errada. É vedado declarar inválidas situações plenamente constituídas com base em mudança posterior de orientação geral; a revisão deve levar em conta as orientações gerais da época (art. 24 da LINDB).",
+      "Errada. A nova orientação não retroage para alcançar situações constituídas segundo a orientação vigente à época (art. 24 da LINDB), e a revogação, que incide sobre ato válido por conveniência e oportunidade, não é consequência necessária da mudança de entendimento.",
+      "Errada. Orientações gerais abrangem não só a jurisprudência judicial, mas também as interpretações contidas em atos públicos de caráter geral, a jurisprudência administrativa majoritária e a prática administrativa reiterada e de amplo conhecimento público (art. 24, parágrafo único, da LINDB).",
+      "Correta. A decisão administrativa que estabelecer interpretação nova sobre norma de conteúdo indeterminado, impondo novo dever ou condicionamento de direito, deverá prever regime de transição para que seja cumprido de modo proporcional, equânime e eficiente e sem prejuízo aos interesses gerais (art. 23 da LINDB)."
+    ] },
+  { "id": "44-34", "status": "valida",
+    "explicacoes": [
+      "Errada. Após a Lei 14.230/2021, não existe improbidade culposa: todas as modalidades exigem dolo (art. 1º, §§ 1º e 2º, e art. 10 da Lei 8.429/1992). A perda patrimonial efetiva não supre a falta de dolo.",
+      "Errada. Para a LIA, agente público é quem exerce, ainda que transitoriamente ou sem remuneração, mandato, cargo, emprego ou função nas entidades do art. 1º, o que inclui o empregado celetista de empresa pública (art. 2º da Lei 8.429/1992).",
+      "Correta. Desde a Lei 14.230/2021, os atos de improbidade só se configuram com dolo (art. 1º, §§ 1º a 3º, da Lei 8.429/1992; Tema 1199 do STF). Como Lucas agiu culposamente em dezembro de 2024, não responde por improbidade.",
+      "Errada. Permitir o uso de veículos da entidade em serviço particular é tipificado como ato que causa prejuízo ao erário (art. 10, XIII, da Lei 8.429/1992), e qualquer modalidade exige dolo, ausente no caso."
+    ] },
+  { "id": "43-30", "status": "valida",
+    "explicacoes": [
+      "Errada. No rito sumário da acumulação ilegal, a comissão é composta por dois servidores estáveis (art. 133, I, da Lei 8.112/1990), e não por três.",
+      "Errada. Provada a má-fé, aplica-se a pena de demissão em relação a todos os cargos, empregos ou funções acumulados ilegalmente (art. 133, § 6º, da Lei 8.112/1990), e não a apenas um deles.",
+      "Errada. A lei determina a notificação do servidor para optar por um dos cargos no prazo improrrogável de dez dias, antes da instauração do processo (art. 133, caput, da Lei 8.112/1990).",
+      "Correta. A opção pelo servidor até o último dia do prazo para defesa configura sua boa-fé, hipótese em que se converte automaticamente em pedido de exoneração do outro cargo (art. 133, § 5º, da Lei 8.112/1990)."
+    ] },
+  { "id": "43-31", "status": "valida",
+    "explicacoes": [
+      "Errada. A intervenção é feita por decreto do poder concedente, com a designação do interventor, o prazo e os objetivos e limites da medida (art. 32, parágrafo único, da Lei 8.987/1995); a lei autorizativa é exigida na encampação, não na intervenção.",
+      "Errada. A inexecução contratual pode levar à caducidade (art. 38 da Lei 8.987/1995); a encampação é a retomada por motivo de interesse público, com lei autorizativa e prévia indenização (art. 37).",
+      "Correta. Declarada a intervenção, o poder concedente deverá, no prazo de 30 dias, instaurar procedimento administrativo para comprovar as causas determinantes da medida e apurar responsabilidades, assegurado o direito de ampla defesa (art. 33 da Lei 8.987/1995).",
+      "Errada. Cessada a intervenção sem extinção da concessão, a administração do serviço volta à concessionária, precedida de prestação de contas pelo interventor, que responde pelos atos praticados durante sua gestão (art. 34 da Lei 8.987/1995)."
+    ] },
+  { "id": "43-32", "status": "valida",
+    "explicacoes": [
+      "Correta. O tombamento é provisório quando o processo é iniciado pela notificação e definitivo com a inscrição no Livro do Tombo; o provisório equipara-se ao definitivo para todos os efeitos, salvo o registro do art. 13 (art. 10 do DL 25/1937).",
+      "Errada. O tombamento produz efeitos sobre a vizinhança: sem autorização do Iphan, não se pode fazer construção que impeça ou reduza a visibilidade do bem tombado (art. 18 do DL 25/1937).",
+      "Errada. A impugnação não impede o tombamento: ela é apreciada pelo órgão competente e, se rejeitada, o tombamento compulsório prossegue (art. 9º do DL 25/1937).",
+      "Errada. Bens públicos podem ser tombados; o tombamento de bens da União, dos Estados e dos Municípios se faz de ofício, com notificação à entidade proprietária (art. 5º do DL 25/1937)."
+    ] },
+  { "id": "43-33", "status": "valida",
+    "explicacoes": [
+      "Correta. Com a Lei 14.230/2021, a improbidade passou a exigir dolo em todas as modalidades, e a forma culposa do art. 10 foi revogada (art. 1º, §§ 1º e 2º, da Lei 8.429/1992). Pelo Tema 1199 do STF, isso alcança atos anteriores sem condenação transitada em julgado.",
+      "Errada. A Lei 14.230/2021 eliminou a modalidade culposa do ato que causa prejuízo ao erário; a culpa não reduz a pena, ela afasta a improbidade (arts. 1º, § 1º, e 10 da Lei 8.429/1992).",
+      "Errada. Os atos de improbidade não admitem mais a modalidade culposa, de modo que a prova da culpa é decisiva para a defesa (art. 1º, §§ 1º a 3º, da Lei 8.429/1992).",
+      "Errada. A responsabilidade por improbidade é subjetiva e exige dolo, entendido como a vontade livre e consciente de alcançar o resultado ilícito (art. 1º, § 2º, da Lei 8.429/1992)."
+    ] },
+  { "id": "43-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A responsabilidade do Estado é objetiva com base na teoria do risco administrativo, que admite excludentes, e não do risco integral; a do agente, na ação de regresso, é subjetiva (art. 37, § 6º, da CF).",
+      "Errada. O agente só responde regressivamente nos casos de dolo ou culpa (art. 37, § 6º, da CF), de modo que a defesa pode e deve discutir o elemento subjetivo.",
+      "Correta. O Estado responde objetivamente, pela teoria do risco administrativo, e tem direito de regresso contra o agente apenas nos casos de dolo ou culpa (art. 37, § 6º, da CF). Na ação de regresso, a responsabilidade de Rodrigo é subjetiva.",
+      "Errada. A responsabilidade do Estado por ato de seu agente é objetiva (art. 37, § 6º, da CF); o elemento subjetivo só é discutido na relação de regresso com o agente, e não para romper o nexo causal."
+    ] },
+  { "id": "42-30", "status": "valida",
+    "explicacoes": [
+      "Errada. Servidão administrativa é ônus real sobre imóvel determinado em favor de obra ou serviço público. Restrição geral a proprietários indeterminados é limitação administrativa, fundada no poder de polícia, e não no poder hierárquico.",
+      "Correta. Restrição geral e abstrata, imposta por lei a proprietários indeterminados, que condiciona o uso da propriedade à função social (como o gabarito de edificações), é limitação administrativa, expressão do poder de polícia, em regra sem direito a indenização.",
+      "Errada. Requisição administrativa é o uso de bens ou serviços particulares em caso de iminente perigo público, com indenização ulterior se houver dano (art. 5º, XXV, da CF); não decorre do poder disciplinar.",
+      "Errada. Desapropriação indireta é o apossamento do bem pelo Poder Público sem o devido processo expropriatório. A fixação geral de número de pavimentos não retira a propriedade e configura limitação administrativa."
+    ] },
+  { "id": "42-31", "status": "valida",
+    "explicacoes": [
+      "Errada. Os atos que importem anulação, revogação, suspensão ou convalidação de ato administrativo devem ser motivados (art. 50, VIII, da Lei 9.784/1999).",
+      "Errada. Atos com vício de legalidade devem ser anulados (art. 53 da Lei 9.784/1999); a revogação incide sobre atos válidos, por motivo de conveniência ou oportunidade.",
+      "Correta. Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos com defeitos sanáveis, como em regra o vício de forma, podem ser convalidados pela própria Administração (art. 55 da Lei 9.784/1999).",
+      "Errada. O direito de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, salvo comprovada má-fé (art. 54 da Lei 9.784/1999); como os destinatários estão de boa-fé, há prazo decadencial."
+    ] },
+  { "id": "42-32", "status": "valida",
+    "explicacoes": [
+      "Correta. Os prazos de prescrição da lei penal aplicam-se às infrações disciplinares capituladas também como crime (art. 142, § 2º, da Lei 8.112/1990). Como o crime prescreve em oito anos e o prazo corre da data em que o fato se tornou conhecido (art. 142, § 1º), não houve prescrição.",
+      "Errada. O excesso de prazo para a conclusão do processo administrativo disciplinar só causa nulidade se houver demonstração de prejuízo à defesa (Súmula 592 do STJ).",
+      "Errada. É permitida a instauração de PAD com base em denúncia anônima, desde que devidamente motivada e amparada em investigação ou sindicância (Súmula 611 do STJ).",
+      "Errada. A prescrição começa a correr da data em que o fato se tornou conhecido pela Administração (art. 142, § 1º), e, sendo a infração também crime, aplica-se o prazo penal de oito anos (art. 142, § 2º, da Lei 8.112/1990)."
+    ] },
+  { "id": "42-33", "status": "valida",
+    "explicacoes": [
+      "Correta. O contrato de parceria público-privada deve ter prazo de vigência não inferior a 5 nem superior a 35 anos, incluindo eventual prorrogação (art. 5º, I, da Lei 11.079/2004), sendo vedada PPP com período inferior a 5 anos (art. 2º, § 4º, II).",
+      "Errada. A contraprestação pecuniária do parceiro público adicional à tarifa cobrada dos usuários caracteriza a concessão patrocinada (art. 2º, § 1º); na concessão administrativa, a Administração é a usuária direta ou indireta do serviço (art. 2º, § 2º, da Lei 11.079/2004).",
+      "Errada. Antes da celebração do contrato, deve ser constituída sociedade de propósito específico, incumbida de implantar e gerir o objeto da parceria (art. 9º da Lei 11.079/2004).",
+      "Errada. O contrato de PPP deve prever a repartição de riscos entre as partes, inclusive os referentes a caso fortuito, força maior, fato do príncipe e álea econômica extraordinária (art. 5º, III, da Lei 11.079/2004)."
+    ] },
+  { "id": "42-34", "status": "valida",
+    "explicacoes": [
+      "Errada. Somente o contratado é responsável pelos encargos (art. 121, caput); nos serviços contínuos com dedicação exclusiva de mão de obra, a Administração responde solidariamente pelos previdenciários e subsidiariamente pelos trabalhistas, se comprovada falha na fiscalização (art. 121, § 2º, da Lei 14.133/2021).",
+      "Errada. Quanto aos encargos previdenciários, a responsabilidade da Administração é solidária; a subsidiária, condicionada à falha na fiscalização, refere-se aos encargos trabalhistas (art. 121, § 2º, da Lei 14.133/2021).",
+      "Errada. A fiscalização pela Administração não exclui a responsabilidade do contratado, que é o responsável pelos encargos trabalhistas, previdenciários, fiscais e comerciais (art. 121, caput, da Lei 14.133/2021).",
+      "Correta. Para assegurar o cumprimento das obrigações trabalhistas, a Administração pode, mediante disposição em edital ou contrato, em caso de inadimplemento, pagar diretamente as verbas trabalhistas, deduzindo-as do pagamento devido ao contratado (art. 121, § 3º, IV, da Lei 14.133/2021)."
+    ] },
+  { "id": "41-30", "status": "valida",
+    "explicacoes": [
+      "Errada. O candidato aprovado dentro do número de vagas previsto no edital tem direito subjetivo à nomeação durante a validade do concurso (Tema 161 do STF), e Eulália foi aprovada em 40º lugar para 50 vagas.",
+      "Errada. O exame psicotécnico é válido quando previsto em lei, com critérios objetivos e possibilidade de recurso (Súmula Vinculante 44), e o caso informa previsão legal.",
+      "Correta. Durante o prazo de validade, o aprovado em concurso será convocado com prioridade sobre novos concursados para o mesmo cargo (art. 37, IV, da CF); nomear Carlos antes de Eulália configura preterição.",
+      "Errada. O prazo de validade do concurso é de até dois anos, prorrogável uma vez por igual período (art. 37, III, da CF); o prazo de um ano, prorrogável por mais um, é válido."
+    ] },
+  { "id": "41-31", "status": "valida",
+    "explicacoes": [
+      "Errada. A LINDB autoriza expressamente a autoridade administrativa a celebrar compromisso com os interessados para eliminar irregularidade, incerteza jurídica ou situação contenciosa, inclusive na expedição de licença (art. 26).",
+      "Errada. O compromisso não poderá conferir desoneração permanente de dever ou condicionamento de direito reconhecidos por orientação geral (art. 26, § 1º, III, da LINDB).",
+      "Errada. O compromisso só produzirá efeitos a partir de sua publicação oficial (art. 26, caput, da LINDB).",
+      "Correta. O compromisso buscará solução jurídica proporcional, equânime, eficiente e compatível com os interesses gerais (art. 26, § 1º, I, da LINDB), podendo ser precedido de consulta pública, como determinou o prefeito."
+    ] },
+  { "id": "41-32", "status": "valida",
+    "explicacoes": [
+      "Correta. É inexigível a licitação para serviços técnicos especializados, como consultorias e auditorias financeiras, com empresas de notória especialização (art. 74, III, c, da Lei 14.133/2021), cujo conceito, previsto no art. 74, § 3º, é o reproduzido na alternativa.",
+      "Errada. O concurso é a modalidade para escolha de trabalho técnico, científico ou artístico mediante prêmio ou remuneração (art. 6º, XXXIX); a situação emergencial gera dispensa (art. 75, VIII), e nada disso define notória especialização (art. 74, § 3º, da Lei 14.133/2021).",
+      "Errada. O caso é de inexigibilidade, e não de dispensa (art. 74, III, da Lei 14.133/2021); a definição dada na alternativa corresponde à de serviços contínuos (art. 6º, XV), e não à de notória especialização.",
+      "Errada. A contratação de serviço técnico especializado com empresa de notória especialização é hipótese de inexigibilidade (art. 74, III); o diálogo competitivo destina-se a objetos inovadores (art. 32), e a notória especialização não decorre de contratação anterior com contas aprovadas (art. 74, § 3º, da Lei 14.133/2021)."
+    ] },
+  { "id": "41-33", "status": "valida",
+    "explicacoes": [
+      "Errada. O Tribunal de Contas emite parecer prévio sobre as contas anuais do prefeito, mas o julgamento cabe à Câmara Municipal (art. 31, §§ 1º e 2º, da CF).",
+      "Errada. O julgamento pela Câmara depende do parecer prévio do Tribunal de Contas, que só deixa de prevalecer por decisão de dois terços dos vereadores (art. 31, § 2º, da CF).",
+      "Errada. O controle externo do Município é exercido pela Câmara Municipal, com o auxílio dos Tribunais de Contas (art. 31, § 1º, da CF), e não pela Assembleia Legislativa.",
+      "Correta. O parecer prévio emitido pelo órgão competente sobre as contas que o prefeito deve anualmente prestar só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal (art. 31, § 2º, da CF)."
+    ] },
+  { "id": "41-34", "status": "valida",
+    "explicacoes": [
+      "Errada. Há desvio de finalidade quando o agente pratica o ato visando fim diverso do interesse público, como uma vingança pessoal; trata-se de vício insanável que torna o ato nulo, ainda que o motivo formalmente declarado seja válido.",
+      "Errada. Na ação de desapropriação, a contestação só pode versar sobre vício do processo judicial ou impugnação do preço (art. 20 do DL 3.365/1941), e é vedado ao Judiciário, nesse processo, decidir se se verificam os casos de utilidade pública (art. 9º).",
+      "Correta. O uso da desapropriação para vingança pessoal configura desvio de finalidade, vício insanável; mas, como a contestação só pode versar sobre vício do processo ou impugnação do preço, a questão deve ser deduzida em ação direta (art. 20 do DL 3.365/1941).",
+      "Errada. Não havendo acordo na via administrativa, a desapropriação se efetiva judicialmente (art. 10 do DL 3.365/1941); o acordo não é condição para o ajuizamento da ação."
+    ] },
+  { "id": "40-30", "status": "valida",
+    "explicacoes": [
+      "Errada. Reintegração é a reinvestidura do servidor estável no cargo anteriormente ocupado quando invalidada sua demissão por decisão administrativa ou judicial (art. 28 da Lei 8.112/1990), e não o retorno do aposentado.",
+      "Errada. Recondução é o retorno do servidor estável ao cargo anteriormente ocupado por inabilitação em estágio probatório relativo a outro cargo ou por reintegração do anterior ocupante (art. 29 da Lei 8.112/1990).",
+      "Correta. Reversão é o retorno à atividade do aposentado por invalidez (hoje, incapacidade permanente) quando junta médica oficial declarar insubsistentes os motivos da aposentadoria; faz-se no mesmo cargo ou no resultante de sua transformação e, se provido o cargo, o servidor atua como excedente até haver vaga (art. 25, I, §§ 1º e 3º, da Lei 8.112/1990).",
+      "Errada. Readaptação é a investidura em cargo de atribuições compatíveis com limitação sofrida pelo servidor em sua capacidade física ou mental (art. 24 da Lei 8.112/1990), e não o retorno do aposentado."
+    ] },
+  { "id": "40-31", "status": "valida",
+    "explicacoes": [
+      "Errada. A dissolução compulsória é sanção expressamente prevista na Lei Anticorrupção (art. 19, III, da Lei 12.846/2013); além disso, a LIA não se aplica à pessoa jurídica quando o ato também for sancionado como ato lesivo da Lei 12.846/2013 (art. 3º, § 2º, da Lei 8.429/1992).",
+      "Errada. A dissolução compulsória é aplicada na ação judicial do art. 19 da Lei 12.846/2013, proposta pelo ente lesado ou pelo Ministério Público perante o juízo competente, sem competência originária do STF.",
+      "Errada. A dissolução compulsória existe no ordenamento como sanção judicial prevista no art. 19, III, da Lei 12.846/2013, ao lado da suspensão ou interdição parcial das atividades (inciso II).",
+      "Correta. A dissolução compulsória será determinada quando comprovado ter sido a personalidade jurídica utilizada de forma habitual para facilitar ou promover a prática de atos ilícitos, ou constituída para ocultar ou dissimular interesses ilícitos ou a identidade dos beneficiários (art. 19, § 1º, da Lei 12.846/2013)."
+    ] },
+  { "id": "40-32", "status": "valida",
+    "explicacoes": [
+      "Errada. As sanções civis, penais e administrativas podem cumular-se, sendo independentes entre si (art. 125 da Lei 8.112/1990); o PAD pode ser instaurado ainda que o fato também seja crime.",
+      "Correta. O processo disciplinar é conduzido por comissão composta de três servidores estáveis (art. 149 da Lei 8.112/1990); como Alípio ainda não alcançou a estabilidade, sua designação não é válida.",
+      "Errada. Pela independência das instâncias (art. 125 da Lei 8.112/1990), o recebimento da denúncia criminal não suspende o processo administrativo disciplinar.",
+      "Errada. A absolvição criminal só afasta a responsabilidade administrativa quando negar a existência do fato ou sua autoria (art. 126 da Lei 8.112/1990); a absolvição por falta de provas não repercute na esfera administrativa, e jamais imporia demissão."
+    ] },
+  { "id": "40-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 8.987/1995 exige licitação para a permissão (arts. 2º, IV, e 40), mas não impõe o diálogo competitivo; para a concessão, admite concorrência ou diálogo competitivo (art. 2º, II).",
+      "Errada. A prestação de serviço público sob regime de concessão ou permissão se faz sempre por meio de licitação (art. 175 da CF; art. 2º, IV, da Lei 8.987/1995).",
+      "Errada. A exigência de sociedade de propósito específico é própria das parcerias público-privadas (art. 9º da Lei 11.079/2004), e não da permissão de serviço público.",
+      "Correta. Permissão é a delegação, a título precário, mediante licitação, da prestação de serviço público à pessoa física ou jurídica que demonstre capacidade para seu desempenho, por sua conta e risco (art. 2º, IV, da Lei 8.987/1995)."
+    ] },
+  { "id": "40-34", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há direito adquirido à permanência em cargo que a lei extinga; a proteção do servidor estável, nesse caso, é a disponibilidade remunerada (art. 41, § 3º, da CF).",
+      "Errada. O aproveitamento deve ser adequado, isto é, em cargo de atribuições e vencimentos compatíveis com o anteriormente ocupado (art. 41, § 3º, da CF), e não em qualquer cargo.",
+      "Errada. Extinto o cargo, o servidor estável não pode ser exonerado: fica em disponibilidade, com remuneração proporcional ao tempo de serviço, até seu adequado aproveitamento (art. 41, § 3º, da CF).",
+      "Correta. Extinto o cargo ou declarada sua desnecessidade, o servidor estável ficará em disponibilidade, com remuneração proporcional ao tempo de serviço, até seu adequado aproveitamento em outro cargo (art. 41, § 3º, da CF)."
+    ] }
+]

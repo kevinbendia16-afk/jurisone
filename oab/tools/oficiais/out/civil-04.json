@@ -1,0 +1,278 @@
+[
+  { "id": "29-40", "status": "valida",
+    "explicacoes": [
+      "Errada. A contestação não torna a posse de má-fé desde o início: a boa-fé só cessa quando as circunstâncias indicam que o possuidor sabe que possui indevidamente (art. 1.202 do CC). Os frutos percebidos enquanto durou a boa-fé pertencem ao possuidor (art. 1.214 do CC).",
+      "Errada. O marco da cessação da boa-fé não é a sentença, mas o momento em que o possuidor toma ciência do vício, em regra a citação (art. 1.202 do CC). Além disso, o possuidor de má-fé não tem direito aos frutos: responde por todos os que colheu e percebeu (art. 1.216 do CC).",
+      "Correta. Até a citação, Aloísio era possuidor de boa-fé e faz seus os aluguéis recebidos (art. 1.214 do CC); julgada procedente a reivindicatória, a boa-fé cessa na citação (art. 1.202 do CC). Daí em diante, ele deve restituir os frutos percebidos (arts. 1.214, parágrafo único, e 1.216 do CC).",
+      "Errada. O justo título gera apenas presunção relativa de boa-fé, que admite prova em contrário (art. 1.201, parágrafo único, do CC), e não impede a perda da boa-fé a partir da citação."
+    ] },
+  { "id": "29-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora Márcia tenha agido licitamente para remover perigo iminente (art. 188, II, do CC), a dona da bicicleta, Lúcia, não causou o perigo e tem direito à indenização (art. 929 do CC).",
+      "Errada. Márcia pode ser obrigada a indenizar Lúcia (art. 929 do CC), mas tem ação regressiva contra o terceiro culpado pelo perigo, Ricardo, e contra a pessoa em defesa de quem agiu, Janaína (art. 930 e parágrafo único do CC).",
+      "Errada. Quem responde perante a vítima inocente é o autor do dano, Márcia (art. 929 do CC); Ricardo responde apenas em regresso, como terceiro culpado pelo perigo (art. 930 do CC).",
+      "Correta. O ato praticado em estado de necessidade é lícito (art. 188, II, do CC), mas Márcia deve indenizar Lúcia, que não causou o perigo (art. 929 do CC). Ela tem regresso contra o culpado pelo perigo e contra aquele em defesa de quem se causou o dano, Janaína (art. 930 e parágrafo único do CC)."
+    ] },
+  { "id": "28-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A falta de outorga conjugal gera anulabilidade (art. 1.649 do CC), que não pode ser declarada de ofício pelo juiz e só aproveita a quem a alegar (art. 177 do CC); a legitimidade é do cônjuge preterido ou de seus herdeiros (art. 1.650 do CC).",
+      "Correta. A alienação de imóvel sem vênia conjugal fora do regime de separação absoluta é anulável (arts. 1.647, I, e 1.649 do CC). Por ser anulabilidade, o vício convalesce se a ação não for proposta no prazo decadencial de dois anos após o término da sociedade conjugal.",
+      "Errada. O ato pode ser convalidado: a aprovação posterior do cônjuge torna-o válido, desde que feita por instrumento público ou particular autenticado (art. 1.649, parágrafo único, do CC).",
+      "Errada. O prazo de dois anos é decadencial, não prescricional, e é contado do término da sociedade conjugal (art. 1.649, caput, do CC)."
+    ] },
+  { "id": "28-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Como Laura construiu de boa-fé e a obra excede consideravelmente o valor do terreno, aplica-se a acessão inversa (art. 1.255, parágrafo único, do CC). A perda da construção sem indenização é sanção para quem edifica de má-fé (art. 1.255, caput, do CC).",
+      "Errada. Laura construiu por erro, sem saber que o lote era alheio, logo é possuidora de boa-fé (art. 1.201 do CC). Além disso, a mansão é acessão (construção), e não benfeitoria, regida pelo art. 1.255 do CC.",
+      "Correta. Se a construção exceder consideravelmente o valor do terreno, quem edificou de boa-fé adquire a propriedade do solo, mediante indenização fixada judicialmente, se não houver acordo (art. 1.255, parágrafo único, do CC).",
+      "Errada. A regra de que a construção adere ao solo (arts. 1.253 e 1.255, caput, do CC) cede diante da acessão inversa quando o construtor está de boa-fé e a obra vale muito mais que o terreno (art. 1.255, parágrafo único). Ademais, Eduarda é proprietária, e não possuidora de boa-fé."
+    ] },
+  { "id": "28-38", "status": "valida",
+    "explicacoes": [
+      "Correta. Para bens móveis, o prazo é de 30 dias (art. 445 do CC); se o vício, por sua natureza, só puder ser conhecido mais tarde, conta-se da ciência, desde que esta ocorra em até 180 dias da tradição (art. 445, § 1º, do CC). Viviane descobriu o vício em 120 dias e ajuizou a ação 25 dias depois.",
+      "Errada. Diante de vício redibitório, o adquirente escolhe entre redibir o contrato ou pedir abatimento do preço (art. 442 do CC); não há obrigação de preferir o abatimento.",
+      "Errada. Como Maria conhecia o vício, deve restituir o que recebeu com perdas e danos (art. 443 do CC); a restituição limitada ao preço e às despesas do contrato só vale para o alienante que ignorava o vício.",
+      "Errada. O limite para a descoberta do vício oculto em bens móveis é de 180 dias, e não de 90 dias, da tradição (art. 445, § 1º, do CC)."
+    ] },
+  { "id": "28-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A autonomia privada não prevalece sobre norma cogente: é nula a cláusula que autoriza o credor pignoratício a ficar com o objeto da garantia se a dívida não for paga (art. 1.428 do CC).",
+      "Correta. A cláusula é pacto comissório, vedado pelo art. 1.428 do CC, que a declara nula. Após o vencimento, o devedor pode dar a coisa em pagamento da dívida (art. 1.428, parágrafo único).",
+      "Errada. A cláusula que permite ao credor ficar com o bem em caso de inadimplemento é exatamente o pacto comissório, nulo independentemente do preço (art. 1.428 do CC).",
+      "Errada. O direito brasileiro proíbe expressamente o pacto comissório nas garantias reais (art. 1.428 do CC), e a disparidade entre a dívida e o valor do bem reforça o abuso."
+    ] },
+  { "id": "28-40", "status": "valida",
+    "explicacoes": [
+      "Errada. Na classe dos ascendentes, o grau mais próximo exclui o mais remoto, sem distinção de linhas (art. 1.836, § 1º, do CC); assim, o pai, Carlos, exclui a avó, Irene.",
+      "Errada. O cônjuge só recebe 1/3 quando concorre com ambos os pais do falecido; havendo um só ascendente de primeiro grau, cabe-lhe metade da herança (art. 1.837 do CC).",
+      "Errada. A restrição aos bens particulares vale apenas na concorrência com descendentes (art. 1.829, I, do CC); na concorrência com ascendentes, o cônjuge herda sobre toda a herança, qualquer que seja o regime (art. 1.829, II, do CC).",
+      "Correta. Sem descendentes, herdam os ascendentes em concorrência com o cônjuge (art. 1.829, II, do CC). Carlos exclui a avó (art. 1.836, § 1º) e, havendo um só ascendente de primeiro grau, Jane recebe metade da herança (art. 1.837 do CC)."
+    ] },
+  { "id": "28-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Marcos perdeu a meação porque Aline adquiriu o domínio integral pela usucapião familiar, após dois anos de posse exclusiva com o abandono do lar pelo ex-companheiro (art. 1.240-A do CC).",
+      "Errada. O direito real de habitação é instituto sucessório, conferido ao cônjuge ou companheiro sobrevivente (art. 1.831 do CC), e não se aplica ao abandono do lar.",
+      "Correta. Quem exerce, por dois anos ininterruptos e sem oposição, posse direta e exclusiva sobre imóvel urbano de até 250 m² que dividia com ex-cônjuge ou ex-companheiro que abandonou o lar, usando-o para moradia e sem ter outro imóvel, adquire o domínio integral (art. 1.240-A do CC).",
+      "Errada. O condomínio entre os ex-companheiros não impede a usucapião: a usucapião familiar pressupõe justamente que o imóvel seja dividido com o ex-cônjuge ou ex-companheiro (art. 1.240-A do CC)."
+    ] },
+  { "id": "27-35", "status": "duvidosa",
+    "motivo": "A questão aplica a regra geral do art. 19 do Marco Civil da Internet (provedor só responde após descumprir ordem judicial). Em junho de 2025, o STF (Temas 533 e 987, RE 1.037.396 e RE 1.057.258) declarou o art. 19 parcialmente inconstitucional e passou a admitir responsabilização após notificação extrajudicial (art. 21) para ilícitos em geral, mantendo a exigência de ordem judicial apenas para crimes contra a honra. Como o enunciado fala genericamente em 'ofensas graves' e a tese ainda pode ser ajustada (embargos), a alternativa A pode ser defendida conforme a natureza do conteúdo; melhor deixar de fora."
+  },
+  { "id": "27-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há dolo, pois Arnaldo e Zulmira combinaram a declaração falsa; houve simulação, que gera nulidade (art. 167 do CC). O dolo gera anulabilidade, com prazo decadencial de quatro anos (art. 178, II, do CC).",
+      "Errada. Não há erro: as partes sabiam que o preço declarado era falso. O que ocorreu foi simulação, causa de nulidade (art. 167, § 1º, II, do CC).",
+      "Correta. A escritura contém declaração não verdadeira sobre o preço, o que caracteriza simulação e torna o negócio nulo, subsistindo o dissimulado se válido na substância e na forma (art. 167, § 1º, II, do CC). A nulidade pode ser alegada por qualquer interessado ou pelo Ministério Público (art. 168 do CC).",
+      "Errada. A fraude contra credores pressupõe credor prejudicado por negócio que reduz o devedor à insolvência (art. 158 do CC); João é locatário com direito de preferência, não credor, e o vício é a simulação (art. 167 do CC)."
+    ] },
+  { "id": "27-37", "status": "valida",
+    "explicacoes": [
+      "Correta. Sobrevindo descendente sucessível a quem não o tinha quando testou, rompe-se o testamento em todas as suas disposições, se esse descendente sobreviver ao testador (art. 1.973 do CC). Carolina, filha e única herdeira, recebe toda a herança (art. 1.829, I, do CC).",
+      "Errada. O rompimento atinge o testamento por inteiro, e não apenas a legítima (art. 1.973 do CC); por isso, Roberta não recebe sequer a parte disponível.",
+      "Errada. O nascimento de Carolina, descendente sucessível que sobreviveu à mãe, rompe o testamento feito em favor de Roberta (art. 1.973 do CC).",
+      "Errada. A herança jacente pressupõe a inexistência de herdeiro conhecido e de testamento (art. 1.819 do CC); aqui há uma herdeira necessária, Carolina."
+    ] },
+  { "id": "27-38", "status": "valida",
+    "explicacoes": [
+      "Errada. O dever de mitigar o próprio prejuízo (duty to mitigate the loss, Enunciado 169 da CJF) impõe ao credor evitar o agravamento do seu dano, o que não é o problema descrito.",
+      "Errada. O venire contra factum proprium veda a conduta que contraria expectativa legítima criada pelo próprio agente, o que não ocorre na simples opção do banco pela resolução.",
+      "Correta. Pagas 34 de 36 parcelas, a resolução contraria a boa-fé objetiva (art. 422 do CC) pela teoria do adimplemento substancial (Enunciado 361 da CJF): o credor deve cobrar o saldo, e não desfazer o contrato. Atenção: o STJ não aplica a teoria à busca e apreensão em alienação fiduciária regida pelo DL 911/1969 (REsp 1.622.555/MG).",
+      "Errada. O dever de informar é dever anexo da boa-fé ligado à transparência entre as partes, e o enunciado não aponta nenhuma falha de informação do banco."
+    ] },
+  { "id": "27-39", "status": "valida",
+    "explicacoes": [
+      "Correta. O ECA proíbe divulgar nome, imagem ou qualquer dado que identifique criança ou adolescente a quem se atribua ato infracional (arts. 17, 143 e 247 do ECA). Ao fazê-lo, o jornal excedeu os limites do direito de informar (art. 187 do CC) e deve indenizar (art. 927 do CC).",
+      "Errada. A divulgação da identidade e da imagem de adolescente envolvido em ato infracional é vedada pelos arts. 143 e 247 do ECA, ainda que o fato seja noticiável.",
+      "Errada. Não existe excludente de 'estado de emergência' para a divulgação jornalística; configurado o ilícito pelo abuso do direito (art. 187 do CC), surge o dever de indenizar (art. 927 do CC).",
+      "Errada. A liberdade de imprensa não é absoluta: deve respeitar a intimidade, a imagem e a proteção integral da criança e do adolescente (arts. 5º, X, 220, § 1º, e 227 da CF; art. 143 do ECA)."
+    ] },
+  { "id": "27-40", "status": "valida",
+    "explicacoes": [
+      "Errada. Os pais não constituem a tutela, que só se instaura após a morte ou a perda do poder familiar (art. 1.728 do CC); eles apenas nomeiam o tutor, e a lei exige para isso testamento ou qualquer documento autêntico (art. 1.729, parágrafo único, do CC).",
+      "Correta. O direito de nomear tutor compete aos pais, e a nomeação deve constar de testamento ou de qualquer outro documento autêntico (art. 1.729 e parágrafo único do CC).",
+      "Errada. Não é necessária ação judicial em vida: a tutela pressupõe o falecimento ou a perda do poder familiar dos pais (art. 1.728 do CC), e a nomeação pelos pais é feita por testamento ou documento autêntico (art. 1.729, parágrafo único).",
+      "Errada. A diretiva antecipada de vontade trata dos cuidados e tratamentos de saúde que o paciente deseja receber se não puder se manifestar (Resolução CFM 1.995/2012), e não da nomeação de tutor."
+    ] },
+  { "id": "26-35", "status": "valida",
+    "explicacoes": [
+      "Errada. O estado de perigo exige que a pessoa assuma obrigação excessivamente onerosa premida pela necessidade de salvar-se, ou a pessoa de sua família, de grave dano conhecido pela outra parte (art. 156 do CC). O enunciado destaca a premente necessidade do serviço e a desproporção do preço, elementos da lesão.",
+      "Errada. O dolo é o artifício para induzir alguém em erro (art. 145 do CC); os moradores não foram enganados, apenas aceitaram preço desproporcional por necessidade.",
+      "Correta. Há lesão quando uma pessoa, sob premente necessidade ou por inexperiência, se obriga a prestação manifestamente desproporcional ao valor da prestação oposta (art. 157 do CC). O negócio é anulável (art. 171, II, do CC), podendo ser mantido se houver redução do proveito (art. 157, § 2º).",
+      "Errada. O erro é a falsa percepção da realidade pelo declarante (art. 138 do CC); os moradores sabiam exatamente o preço que estavam pagando."
+    ] },
+  { "id": "26-36", "status": "valida",
+    "explicacoes": [
+      "Correta. O devedor em mora responde pela impossibilidade da prestação, ainda que decorrente de caso fortuito ou força maior ocorrido durante o atraso (art. 399 do CC). O comodatário em mora responde pelos danos e ainda paga aluguel até restituir a coisa (art. 582 do CC).",
+      "Errada. O fortuito ocorreu quando Pedro já estava em mora, o que perpetua sua responsabilidade (art. 399 do CC); ele só se eximiria provando ausência de culpa ou que o dano sobreviria mesmo com a devolução no prazo, o que não se demonstrou.",
+      "Errada. A gratuidade do comodato não afasta a responsabilidade do comodatário, que deve conservar a coisa e restituí-la no prazo, respondendo pela mora (arts. 582 e 399 do CC).",
+      "Errada. Não há regra de indenização pela metade: a não devolução decorreu de conduta imputável a Pedro, que responde integralmente pelas perdas e danos (arts. 399 e 582 do CC)."
+    ] },
+  { "id": "26-37", "status": "valida",
+    "explicacoes": [
+      "Errada. Não houve servidão registrada nem posse pelo tempo exigido para a usucapião de servidão aparente (arts. 1.378 e 1.379 do CC); o direito de Abílio decorre da passagem forçada.",
+      "Errada. Não existe servidão constituída, pois esta depende de registro (art. 1.378 do CC), e a venda a José é válida; o encravamento se resolve pela passagem forçada (art. 1.285 do CC).",
+      "Correta. Se a alienação parcial do prédio fizer uma das partes perder o acesso à via pública, o proprietário da outra é obrigado a dar passagem (art. 1.285, § 2º, do CC). A passagem forçada é direito de vizinhança e independe de registro.",
+      "Errada. A passagem forçada é direito de vizinhança, de natureza real e propter rem, que acompanha o imóvel e vincula José como novo proprietário (art. 1.285 do CC)."
+    ] },
+  { "id": "26-38", "status": "valida",
+    "explicacoes": [
+      "Errada. A usucapião extingue a garantia, mas não a dívida: Eriberto continua devedor, e Jorge passa a ser credor quirografário.",
+      "Errada. Por ser modo originário de aquisição, a usucapião não recebe os ônus reais do proprietário anterior, de modo que a hipoteca não acompanha o imóvel, segundo a jurisprudência do STJ.",
+      "Errada. Jonathan não tem relação com a dívida nem praticou ilícito; não há regresso contra o usucapiente, e o credor continua podendo cobrar Eriberto.",
+      "Correta. A usucapião é modo originário de aquisição da propriedade, de modo que o usucapiente recebe o imóvel livre dos ônus constituídos pelo antigo proprietário, como a hipoteca (jurisprudência do STJ)."
+    ] },
+  { "id": "26-39", "status": "valida",
+    "explicacoes": [
+      "Errada. O credor pode renunciar à solidariedade em favor de um, de alguns ou de todos os devedores (art. 282 do CC).",
+      "Correta. Marcos continua devedor solidário e pode ser cobrado pelo total, com direito de exigir dos codevedores suas quotas (arts. 282, parágrafo único, e 283 do CC). A quota do insolvente Júlio é rateada entre todos, inclusive os exonerados da solidariedade (arts. 283 e 284 do CC).",
+      "Errada. Simone pode cobrar as quotas dos demais, mas a parte do insolvente Júlio é dividida igualmente entre todos os codevedores (art. 283 do CC).",
+      "Errada. Exonerada da solidariedade, Mirna só pode ser cobrada pela sua quota (art. 282 do CC). E Vera, também exonerada, contribui no rateio da parte do insolvente (art. 284 do CC)."
+    ] },
+  { "id": "26-40", "status": "valida",
+    "explicacoes": [
+      "Correta. É a exceção de inseguridade: se, após o contrato, sobrevier a uma das partes diminuição patrimonial capaz de comprometer sua prestação, a outra pode recusar a sua até que aquela cumpra ou dê garantia bastante (art. 477 do CC).",
+      "Errada. A resolução por onerosidade excessiva exige que a prestação de uma parte se torne excessivamente onerosa, com extrema vantagem para a outra, por fato extraordinário e imprevisível (art. 478 do CC), o que não ocorreu.",
+      "Errada. O vencimento antecipado do art. 333 do CC protege o credor de dívidas diante da insolvência do devedor, mas não permite exigir de imediato uma obra contratada para seis meses; a solução legal é a exceção do art. 477 do CC.",
+      "Errada. Ainda que houvesse relação de consumo, o direito de arrependimento só existe na contratação fora do estabelecimento comercial (art. 49 do CDC), e o contrato foi firmado no escritório de Jorge."
+    ] },
+  { "id": "26-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há direito de representação na sucessão testamentária; morto o herdeiro instituído antes do testador, a disposição caduca e a herança vai aos herdeiros legítimos (art. 1.788 do CC).",
+      "Errada. Colaterais não são herdeiros necessários (art. 1.845 do CC), então não há legítima a reservar; e Juliana nada recebe, pois a disposição em favor de seu pai caducou.",
+      "Errada. Sobrinho e tio são colaterais de terceiro grau, mas a lei dá preferência aos filhos de irmãos: só na falta deles herdam os tios (art. 1.843 do CC).",
+      "Correta. Com a caducidade da disposição testamentária, aplica-se a sucessão legítima (art. 1.788 do CC). Sem descendentes, ascendentes ou cônjuge, herdam os colaterais, e o sobrinho prefere ao tio (art. 1.843 do CC)."
+    ] },
+  { "id": "25-35", "status": "valida",
+    "explicacoes": [
+      "Errada. O empregador responde pelos atos de seus empregados no exercício do trabalho ou em razão dele (art. 932, III, do CC), ainda que não tenha praticado a conduta diretamente.",
+      "Errada. A responsabilidade do empregador por ato do empregado é objetiva e independe de culpa in vigilando ou in eligendo (art. 933 do CC).",
+      "Errada. Márcia é empregada de João, e não terceira; não há culpa concorrente de terceiro, e João responde integralmente perante a vítima, com direito de regresso contra a empregada (art. 934 do CC).",
+      "Correta. João responde objetivamente pelos danos causados por sua empregada no exercício do trabalho (arts. 932, III, e 933 do CC), não podendo alegar culpa exclusiva de terceiro."
+    ] },
+  { "id": "25-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A impossibilidade de cumular multa e obrigação principal vale para a cláusula penal compensatória (art. 410 do CC); a multa pelo atraso é moratória e pode ser cumulada (art. 411 do CC).",
+      "Correta. Sendo a cláusula penal estipulada para o caso de mora, o credor pode exigir a pena juntamente com o cumprimento da obrigação principal (art. 411 do CC).",
+      "Errada. O atraso decorreu da conveniência de Fernando, que ainda usava o computador; o fato de Ana não é caso fortuito apto a excluir a mora (arts. 393 e 396 do CC).",
+      "Errada. A execução específica é possível, pois o bem existe e está com Fernando; além disso, a multa moratória se cumula com a obrigação principal (art. 411 do CC)."
+    ] },
+  { "id": "25-37", "status": "valida",
+    "explicacoes": [
+      "Correta. Quem habita o prédio responde pelos danos causados por coisas que dele caírem ou forem lançadas em lugar indevido (art. 938 do CC). Não identificada a unidade, o condomínio pode ser responsabilizado com base na causalidade alternativa, conforme a jurisprudência do STJ.",
+      "Errada. A vítima não precisa identificar a unidade de onde caiu o objeto: o condomínio pode responder pela causalidade alternativa, com eventual regresso contra o morador responsável.",
+      "Errada. A incapacidade temporária gera indenização por danos materiais, como despesas de tratamento e lucros cessantes até o fim da convalescença (art. 949 do CC).",
+      "Errada. A responsabilidade do habitante pelas coisas caídas ou lançadas é objetiva (art. 938 do CC), e não se afasta pela alegação de ausência de culpa ou dolo."
+    ] },
+  { "id": "25-38", "status": "valida",
+    "explicacoes": [
+      "Errada. A usucapião extraordinária dispensa justo título e boa-fé (art. 1.238 do CC); a má-fé de Jonas não impede a aquisição.",
+      "Errada. O abandono pelos herdeiros não retira deles, por si só, a ação possessória; o que obsta a retomada é a consumação da usucapião em favor de Jonas.",
+      "Errada. Jonas era detentor enquanto caseiro (art. 1.198 do CC), mas, rompida a subordinação com o fim do contrato, a detenção converteu-se em posse com ânimo de dono (Enunciado 301 da CJF).",
+      "Correta. Convertida a detenção em posse após o fim do vínculo, Jonas exerceu posse com ânimo de dono por mais de dez anos, morando no imóvel, o que basta para a usucapião extraordinária (art. 1.238, parágrafo único, do CC), que independe de boa-fé."
+    ] },
+  { "id": "25-39", "status": "valida",
+    "explicacoes": [
+      "Errada. O cego pode fazer testamento público, sem assistência, bastando que seja lido em voz alta duas vezes, uma pelo tabelião e outra por testemunha designada pelo testador (art. 1.867 do CC).",
+      "Correta. Salvo justa causa declarada no testamento, o testador não pode estabelecer cláusula de inalienabilidade, impenhorabilidade ou incomunicabilidade sobre os bens da legítima (art. 1.848 do CC).",
+      "Errada. O testador com herdeiros necessários pode dispor livremente da parte disponível, inclusive em favor de um dos filhos, que não perde sua legítima (arts. 1.789 e 1.849 do CC).",
+      "Errada. Ao cego só se permite o testamento público (art. 1.867 do CC); o cerrado é vedado a quem não sabe ou não pode ler (art. 1.872 do CC)."
+    ] },
+  { "id": "25-40", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há direito de representação na linha ascendente (art. 1.852 do CC); os avós herdam por direito próprio, e a divisão é feita por linhas (art. 1.836, § 2º, do CC).",
+      "Correta. Sem descendentes, herdam os ascendentes, que excluem os colaterais (art. 1.829 do CC). Havendo igualdade de grau e diversidade de linhas, a linha paterna recebe metade e a materna a outra metade (art. 1.836, § 2º): R$ 15.000,00 para cada avô paterno e R$ 30.000,00 para a avó materna.",
+      "Errada. Os irmãos são colaterais e só herdam na falta de descendentes, ascendentes e cônjuge (arts. 1.829, IV, e 1.839 do CC); como há avós vivos, Bernardo e Carmem nada recebem.",
+      "Errada. Os ascendentes excluem os colaterais (art. 1.829 do CC), e, ainda que os irmãos herdassem, o unilateral receberia metade do que coubesse ao germano (art. 1.841 do CC)."
+    ] },
+  { "id": "25-41", "status": "valida",
+    "explicacoes": [
+      "Correta. Até a tradição, a coisa pertence ao devedor com seus melhoramentos e acrescidos, e os frutos percebidos são dele (art. 237 e parágrafo único do CC). Os bezerros nasceram antes da entrega, logo pertencem a Arlindo.",
+      "Errada. O comprador só adquire a propriedade do móvel com a tradição (art. 1.267 do CC); os frutos percebidos antes dela pertencem ao vendedor (art. 237, parágrafo único, do CC).",
+      "Errada. Não há divisão dos frutos: os percebidos antes da tradição são todos do devedor (art. 237, parágrafo único, do CC).",
+      "Errada. A lei define a titularidade dos frutos (art. 237 do CC), sem espaço para sorteio."
+    ] },
+  { "id": "24-36", "status": "valida",
+    "explicacoes": [
+      "Correta. O locatário preterido pode, depositando o preço e as despesas do ato, haver para si o imóvel, no prazo de seis meses do registro da venda, desde que o contrato esteja averbado na matrícula pelo menos 30 dias antes da alienação (art. 33 da Lei 8.245/1991).",
+      "Errada. O direito de preferência existe na locação por prazo determinado ou indeterminado, em igualdade de condições com terceiros (art. 27 da Lei 8.245/1991).",
+      "Errada. A preferência se exerce em igualdade de condições com terceiros (art. 27 da Lei 8.245/1991); não é preciso cobrir a oferta.",
+      "Errada. As perdas e danos são devidas pelo alienante, Caio, e não pelo adquirente (art. 33 da Lei 8.245/1991). A permanência até o fim do contrato contra o adquirente exige cláusula de vigência registrada na matrícula (art. 8º da Lei 8.245/1991), o que o enunciado não menciona."
+    ] },
+  { "id": "24-37", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora as servidões não aparentes não tenham, em regra, proteção possessória, há exceção quando o título provém do possuidor do prédio serviente ou daqueles de quem este o houve (art. 1.213 do CC), como no caso.",
+      "Errada. A servidão é direito real que grava o prédio serviente e não se extingue com a morte do instituidor; Lucrécio, como sucessor, deve respeitá-la (arts. 1.378 e 1.387 do CC).",
+      "Errada. A servidão de vista é não aparente por natureza, pois não se revela por obras exteriores; um aviso não a torna aparente.",
+      "Correta. A servidão não aparente admite proteção possessória quando o título provém do possuidor do prédio serviente ou de quem este o houve (art. 1.213 do CC). O título foi constituído por Laurentino, de quem Lucrécio herdou o imóvel."
+    ] },
+  { "id": "24-38", "status": "valida",
+    "explicacoes": [
+      "Errada. O princípio da prioridade registral não se opõe à usucapião, que é modo originário de aquisição: o usucapiente adquire o imóvel livre dos ônus anteriores, segundo a jurisprudência do STJ.",
+      "Errada. A existência de hipoteca não impede a usucapião; a função social prestigiada é a da posse para moradia (art. 1.238 do CC).",
+      "Correta. Como a usucapião é modo originário de aquisição da propriedade, a hipoteca constituída pelo antigo proprietário não impede sua consumação nem subsiste após ela. Os 17 anos de posse para moradia bastam para a usucapião extraordinária (art. 1.238 do CC).",
+      "Errada. O usucapiente não assume a dívida garantida pela hipoteca: ela continua sendo de Adib, e a aquisição originária se dá livre do ônus."
+    ] },
+  { "id": "24-39", "status": "valida",
+    "explicacoes": [
+      "Errada. Os tios já haviam morrido, e, mesmo que vivos, o sobrinho teria preferência sobre o tio (art. 1.843 do CC).",
+      "Errada. Na linha colateral, a representação só ocorre em favor de filhos de irmãos quando concorrem com irmãos do falecido (art. 1.853 do CC); como Lúcia não tinha irmãos vivos, o sobrinho herda por direito próprio.",
+      "Errada. Na linha colateral, o direito de representação é restrito aos filhos de irmãos (art. 1.853 do CC); os primos, de quarto grau, são excluídos pelo sobrinho, de terceiro grau (art. 1.840 do CC).",
+      "Correta. O sobrinho é o colateral mais próximo, de terceiro grau, e exclui os primos, de quarto grau (art. 1.840 do CC). Sem irmãos vivos para concorrer, não há representação, e ele herda por direito próprio (arts. 1.843 e 1.853 do CC)."
+    ] },
+  { "id": "24-40", "status": "valida",
+    "explicacoes": [
+      "Errada. O divórcio extingue o vínculo de afinidade entre Carla e os sogros, mas não o parentesco em linha reta entre os avós e as netas, que fundamenta a obrigação alimentar (arts. 1.591 e 1.696 do CC).",
+      "Correta. A obrigação alimentar dos avós é complementar e subsidiária, configurando-se quando os pais não podem arcar, total ou parcialmente, com os alimentos (arts. 1.696 e 1.698 do CC; Súmula 596 do STJ).",
+      "Errada. Não é preciso que os pais tenham falecido: basta a impossibilidade, total ou parcial, de prestarem alimentos (art. 1.698 do CC; Súmula 596 do STJ).",
+      "Errada. As filhas são as titulares do direito aos alimentos e, sendo menores impúberes, são representadas pela mãe em juízo (art. 1.634, VII, do CC); a obrigação alimentar se estende aos avós (art. 1.696 do CC)."
+    ] },
+  { "id": "24-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Pelas perdas e danos só responde o devedor culpado (art. 279 do CC).",
+      "Correta. Impossibilitada a prestação por culpa de um dos devedores solidários, subsiste para todos o encargo de pagar o equivalente, mas pelas perdas e danos só responde o culpado (art. 279 do CC).",
+      "Errada. Na solidariedade passiva, o credor pode exigir de qualquer devedor a dívida toda (art. 275 do CC), e as perdas e danos cabem apenas a Renata (art. 279 do CC).",
+      "Errada. A solidariedade permite cobrar de qualquer dos três o equivalente integral, e não apenas um terço (arts. 275 e 279 do CC)."
+    ] },
+  { "id": "24-42", "status": "valida",
+    "explicacoes": [
+      "Errada. Proibir o acesso da aluna violaria a liberdade de crença (art. 5º, VI, da CF; art. 16, III, do ECA) e o direito à educação em igualdade de condições de acesso e permanência na escola (art. 206, I, da CF; art. 53, I, do ECA).",
+      "Errada. Constranger os pais a descobrir a cabeça da filha afrontaria a liberdade de crença e de culto (art. 5º, VI, da CF; art. 16, III, do ECA; art. 23 do Estatuto da Igualdade Racial) e o direito dos pais de orientar a formação religiosa dos filhos.",
+      "Correta. O uso do lenço é manifestação de crença religiosa protegida (art. 5º, VI, da CF; art. 16, III, do ECA; art. 23 da Lei 12.288/2010), e a escola nem exige uniforme. A aluna deve ter acesso regular, em respeito ao direito à educação (art. 53, I, do ECA).",
+      "Errada. Não há fundamento para impedir o acesso de nenhuma das alunas; a medida violaria o direito à educação (arts. 205 e 206, I, da CF; art. 53, I, do ECA)."
+    ] },
+  { "id": "23-35", "status": "valida",
+    "explicacoes": [
+      "Correta. O mútuo transfere a propriedade da coisa ao mutuário, que suporta todos os riscos desde a tradição (art. 587 do CC). A perda do dinheiro por furto não o exonera de restituir coisa do mesmo gênero, qualidade e quantidade (art. 586 do CC).",
+      "Errada. O mútuo foi celebrado como gratuito; os juros só se presumem no mútuo destinado a fins econômicos (art. 591 do CC).",
+      "Errada. Não há divisão do prejuízo: os riscos correm integralmente por conta do mutuário desde a tradição (art. 587 do CC).",
+      "Errada. Como dono do dinheiro desde a tradição, Felipe suporta a perda, ainda que sem culpa (res perit domino), e deve restituir o valor (arts. 586 e 587 do CC)."
+    ] },
+  { "id": "23-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A violência não é elemento indispensável do esbulho, que pode decorrer de qualquer apossamento indevido de coisa alheia; além disso, quem sofreu o esbulho narrado ao final foi Joventino, expulso à força por Clodoaldo.",
+      "Errada. O desforço imediato exige reação logo após a turbação ou o esbulho e proporcional (art. 1.210, § 1º, do CC); a expressão 'logo' deve ser interpretada restritivamente (Enunciado 495 da CJF), e após dois anos de posse o proprietário deveria recorrer ao Judiciário.",
+      "Correta. Clodoaldo, ao expulsar Joventino com grupo armado depois de dois anos de posse mansa, praticou esbulho, e Joventino pode buscar a reintegração (art. 1.210 do CC; art. 560 do CPC). Na ação possessória, não se admite a exceção de domínio (art. 1.210, § 2º, do CC; art. 557 do CPC).",
+      "Errada. Joventino sabia que o terreno era de terceiros, logo é possuidor de má-fé (art. 1.201 do CC): responde pelos frutos (art. 1.216) e só tem direito ao ressarcimento das benfeitorias necessárias, sem retenção (art. 1.220 do CC)."
+    ] },
+  { "id": "23-37", "status": "valida",
+    "explicacoes": [
+      "Correta. O pacto foi feito por escritura pública e com os requisitos legais, por isso é válido, mas é ineficaz se não lhe seguir o casamento (art. 1.653 do CC). Sem contrato escrito próprio, a união estável segue a comunhão parcial (art. 1.725 do CC).",
+      "Errada. O pacto antenupcial só produz efeitos se houver casamento (art. 1.653 do CC); sem ele, não regula os bens da união estável.",
+      "Errada. O pacto é válido, pois foi lavrado por escritura pública com todos os requisitos legais; a nulidade só ocorreria sem escritura pública (art. 1.653 do CC).",
+      "Errada. O pacto é válido, mas não eficaz, pois o casamento não se realizou (art. 1.653 do CC)."
+    ] },
+  { "id": "23-38", "status": "valida",
+    "explicacoes": [
+      "Errada. O vício oculto existia ao tempo da tradição, e a responsabilidade do alienante subsiste ainda que a coisa pereça em poder do adquirente por esse vício (art. 444 do CC); o funcionamento aparente não o exime.",
+      "Errada. Ricardo sabia que não havia feito a revisão e omitiu o fato; por isso responde não só pelo valor das pastilhas, mas por todo o dano, com perdas e danos (arts. 443 e 444 do CC).",
+      "Correta. O perecimento decorreu de vício oculto já existente na tradição, o que mantém a responsabilidade do alienante (art. 444 do CC). Como Ricardo conhecia a omissão, restitui o que recebeu com perdas e danos (art. 443 do CC).",
+      "Errada. A responsabilidade não se limita ao valor da revisão: a falha causou a perda total do bem, e o alienante que conhecia o vício responde por perdas e danos (arts. 443 e 444 do CC)."
+    ] },
+  { "id": "23-39", "status": "valida",
+    "explicacoes": [
+      "Correta. Não pode ser objeto de contrato a herança de pessoa viva (art. 426 do CC); a cessão feita por Mário antes da morte do pai é nula. Os filhos herdam em partes iguais (R$ 1.500.000,00 cada), e Francisco só pode buscar de Mário a devolução do que pagou.",
+      "Errada. A cessão de herança de pessoa viva é nula (art. 426 do CC) e não produz efeitos na partilha; a cessão válida só é possível depois da abertura da sucessão, por escritura pública (art. 1.793 do CC).",
+      "Errada. Mário não perde sua quota: a cessão de herança de pessoa viva é nula (art. 426 do CC), e ele herda metade da herança (art. 1.829, I, do CC).",
+      "Errada. A cessão nula não confere direito a Francisco (art. 426 do CC), e Roberta recebe apenas sua metade (R$ 1.500.000,00), e não R$ 2.000.000,00."
+    ] }
+]

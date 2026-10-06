@@ -1,0 +1,282 @@
+[
+  { "id": "41-41", "status": "valida",
+    "explicacoes": [
+      "Errada. A fiança pode ser estipulada sem o consentimento do devedor ou até contra a sua vontade (art. 820 do CC).",
+      "Errada. A fiança pode ser de valor inferior ao da dívida, mas, se exceder o valor ou for mais onerosa, só vale até o limite da obrigação afiançada (art. 823 do CC).",
+      "Errada. A fiança exige forma escrita e não admite interpretação extensiva (art. 819 do CC), qualquer que seja a forma do contrato principal.",
+      "Correta. O fiador que renuncia expressamente ao benefício de ordem não pode exigir que primeiro sejam executados os bens do devedor (arts. 827 e 828, I, do CC)."
+    ] },
+  { "id": "41-42", "status": "valida",
+    "explicacoes": [
+      "Errada. O proprietário pode alienar o imóvel durante a superfície; apenas deve respeitar o direito real registrado e a preferência do superficiário (art. 1.373 do CC).",
+      "Errada. Se Paula oferece as mesmas condições, prevalece o seu direito de preferência; vender a Fábio nessa situação viola o art. 1.373 do CC.",
+      "Errada. A preferência é exercida em igualdade de condições, sem exigir que a oferta do superficiário seja melhor que a do terceiro (art. 1.373 do CC).",
+      "Correta. Na alienação do imóvel, o superficiário tem direito de preferência, em igualdade de condições (art. 1.373 do CC; art. 22 do Estatuto da Cidade)."
+    ] },
+  { "id": "40-37", "status": "valida",
+    "explicacoes": [
+      "Errada. A infidelidade não dá direito a parte dos bens do outro cônjuge; a partilha segue o regime de bens, e eventual dano moral só é admitido em situações excepcionais, sem relação com a meação.",
+      "Correta. Desde a EC 66/2010 (art. 226, § 6º, da CF), o divórcio dispensa discussão de culpa, e a partilha segue as regras do regime escolhido, no caso a comunhão parcial (arts. 1.658 e 1.660 do CC).",
+      "Errada. Não existe perda da meação por adultério; os bens comuns são divididos conforme o regime da comunhão parcial (art. 1.658 do CC).",
+      "Errada. A infidelidade conjugal não afeta a convivência com os filhos, que é direito deles e independe da relação entre os cônjuges (arts. 1.579, 1.589 e 1.632 do CC)."
+    ] },
+  { "id": "40-38", "status": "valida",
+    "explicacoes": [
+      "Errada. Não houve dolo (indução a erro por artifício), e o prazo decadencial para anular por dolo é de quatro anos, não seis meses (art. 178, II, do CC).",
+      "Errada. A lesão decorre de premente necessidade ou inexperiência (art. 157 do CC); assumir obrigação excessiva para salvar pessoa da família de grave dano conhecido pela outra parte é estado de perigo. Além disso, o prazo seria de quatro anos (art. 178, II).",
+      "Correta. Joaquim assumiu obrigação excessivamente onerosa para salvar a filha de grave dano conhecido pelo médico, o que configura estado de perigo (art. 156 do CC); o prazo decadencial para anular é de quatro anos (art. 178, II, do CC).",
+      "Errada. Estado de necessidade é excludente de ilicitude na responsabilidade civil (art. 188, II, do CC), não defeito do negócio jurídico."
+    ] },
+  { "id": "40-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A garantia contra vícios redibitórios decorre da lei nos contratos comutativos e independe de cláusula expressa (art. 441 do CC).",
+      "Errada. Se o alienante desconhecia o vício, só restitui o valor recebido mais as despesas do contrato, sem perdas e danos (art. 443 do CC).",
+      "Correta. Para obter perdas e danos, o adquirente deve provar que o vício oculto já existia ao tempo da tradição e que o alienante o conhecia (arts. 443 e 444 do CC).",
+      "Errada. A cláusula de garantia é desnecessária, pois a responsabilidade por vícios ocultos é legal (art. 441 do CC); bastam a preexistência e o conhecimento do vício (art. 443)."
+    ] },
+  { "id": "40-40", "status": "valida",
+    "explicacoes": [
+      "Errada. A impenhorabilidade do bem de família abrange também os móveis que guarnecem a casa, desde que quitados (art. 1º, parágrafo único, da Lei 8.009/90).",
+      "Correta. O único imóvel residencial é bem de família impenhorável, assim como os móveis que o guarnecem, excluídos veículos, obras de arte e adornos suntuosos (arts. 1º e 2º da Lei 8.009/90). A antiga exceção para créditos de empregados da residência foi revogada pela LC 150/2015.",
+      "Errada. A exceção do art. 3º, I, da Lei 8.009/90, que permitia a penhora por créditos de trabalhadores da própria residência, foi revogada pela LC 150/2015 (art. 46), e nenhuma outra exceção se aplica ao caso.",
+      "Errada. A má-fé só afasta a proteção na hipótese do art. 4º da Lei 8.009/90 (quem, sabendo-se insolvente, adquire imóvel mais valioso), o que não ocorreu, pois o imóvel foi herdado."
+    ] },
+  { "id": "40-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Benfeitorias podem ser feitas pelo possuidor, como o locatário, que tem inclusive regras próprias de indenização (art. 1.219 do CC e art. 35 da Lei 8.245/91).",
+      "Errada. Nem todas as obras são úteis: o reparo da infiltração é benfeitoria necessária, e os armários sofisticados e o aquário são voluptuários (art. 96 do CC).",
+      "Correta. São necessárias as benfeitorias que conservam o bem ou evitam que se deteriore, e voluptuárias as de mero deleite ou recreio, que não aumentam o uso habitual (art. 96, §§ 1º e 3º, do CC).",
+      "Errada. Os armários estavam em perfeito estado e foram trocados só por sofisticação, assim como o aquário foi incluído por deleite; são benfeitorias voluptuárias, não úteis (art. 96, §§ 1º e 2º, do CC)."
+    ] },
+  { "id": "40-42", "status": "valida",
+    "explicacoes": [
+      "Correta. Compete a ambos os pais, qualquer que seja a sua situação conjugal, o pleno exercício do poder familiar, que inclui dirigir a criação e a educação dos filhos (arts. 1.632 e 1.634, I, do CC).",
+      "Errada. O divórcio não altera o poder familiar, e a distância física não exclui o dever de educação da mãe (art. 1.632 do CC).",
+      "Errada. Na guarda compartilhada, os pais exercem conjuntamente os direitos e deveres; a residência com o pai não afasta o dever da mãe (arts. 1.583, § 1º, e 1.634 do CC).",
+      "Errada. A guarda e a convivência não definem quem deve educar; o dever decorre do poder familiar, que pertence a ambos os pais (arts. 1.632 e 1.634 do CC)."
+    ] },
+  { "id": "39-37", "status": "valida",
+    "explicacoes": [
+      "Errada. A mãe não pode suspender por conta própria a convivência para cobrar alimentos; dificultar o contato com o genitor caracteriza alienação parental (art. 2º, parágrafo único, III e IV, da Lei 12.318/2010).",
+      "Errada. Após a separação, o poder familiar continua a ser exercido por ambos os pais (arts. 1.632 e 1.634 do CC).",
+      "Correta. Alimentos e convivência são independentes: a convivência familiar é direito fundamental dos filhos e não pode ser condicionada ao pagamento da pensão (art. 227 da CF, art. 19 do ECA e art. 1.589 do CC).",
+      "Errada. A falta de regularização judicial não é o fundamento; mesmo com acordo homologado, a convivência não poderia ser suspensa por inadimplemento dos alimentos."
+    ] },
+  { "id": "39-38", "status": "valida",
+    "explicacoes": [
+      "Errada. O devedor em mora responde pela impossibilidade da prestação, ainda que decorrente de caso fortuito ocorrido durante o atraso (art. 399 do CC).",
+      "Errada. O aluguel do outro jóquei não é dano hipotético, pois o cavalo já estava reservado: é lucro cessante (arts. 395 e 402 do CC); e o fortuito durante a mora não libera o devedor (art. 399).",
+      "Errada. O aluguel perdido é lucro cessante certo e indenizável (arts. 395 e 402 do CC), não dano hipotético.",
+      "Correta. Marcelo responde pelos prejuízos da mora, incluindo o que o haras razoavelmente deixou de lucrar (arts. 395 e 402 do CC), e pela perda do cavalo, pois o fortuito ocorreu durante o atraso (art. 399 do CC)."
+    ] },
+  { "id": "39-39", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo da pretensão de reparação civil extracontratual é de três anos (art. 206, § 3º, V, do CC), e começa a correr aos 16 anos, quando cessa a incapacidade absoluta (arts. 3º e 198, I).",
+      "Correta. Não corre prescrição contra os absolutamente incapazes, isto é, os menores de 16 anos (arts. 3º e 198, I, do CC); o prazo trienal (art. 206, § 3º, V) começou aos 16 anos, e a ação aos 18 é tempestiva.",
+      "Errada. Os prazos de prescrição não podem ser alterados por acordo das partes (art. 192 do CC).",
+      "Errada. A renúncia à prescrição é admitida, expressa ou tácita, depois de consumada e sem prejuízo de terceiro (art. 191 do CC)."
+    ] },
+  { "id": "39-40", "status": "valida",
+    "explicacoes": [
+      "Errada. Não houve intenção de doar; houve pagamento indevido por erro, que gera dever de restituição (arts. 876 e 877 do CC), sem necessidade de ação anulatória.",
+      "Errada. Quem recebe o indevido e, ciente do erro, se recusa a devolver responde também pelos acréscimos da mora e pelos frutos percebidos, não apenas pelo valor nominal (arts. 878 e 1.216 do CC).",
+      "Errada. Avisado imediatamente do erro, José Miguel passa a ser possuidor de má-fé e não pode reter os rendimentos, que devem ser restituídos (arts. 878, 1.202 e 1.216 do CC).",
+      "Correta. Provado o erro (art. 877 do CC), o recebedor deve restituir o indevido (art. 876); avisado de imediato e notificado, é tratado como possuidor de má-fé e responde pela mora e pelos rendimentos percebidos (arts. 878 e 1.216 do CC)."
+    ] },
+  { "id": "39-41", "status": "valida",
+    "explicacoes": [
+      "Errada. O ébrio habitual é relativamente incapaz (art. 4º, II, do CC) e pode ser submetido a curatela sem prova de prodigalidade (art. 1.767, III, do CC).",
+      "Errada. O cônjuge não separado judicialmente ou de fato é, de direito, curador do outro; os pais só são chamados na sua falta (art. 1.775 do CC).",
+      "Correta. A autoridade do curador estende-se à pessoa e aos bens dos filhos do curatelado, observado o art. 5º, isto é, até a maioridade ou emancipação (art. 1.778 do CC).",
+      "Errada. A restrição a emprestar, transigir, dar quitação, alienar e hipotecar é própria do pródigo (art. 1.782 do CC); para o ébrio habitual, o juiz fixa os limites da curatela no caso concreto (art. 755, I, do CPC e art. 85 da Lei 13.146/2015)."
+    ] },
+  { "id": "39-42", "status": "valida",
+    "explicacoes": [
+      "Errada. É nula a cláusula que proíbe o proprietário de alienar o imóvel hipotecado (art. 1.475 do CC).",
+      "Errada. O vencimento antecipado do crédito pela alienação só ocorre se for convencionado (art. 1.475, parágrafo único, do CC).",
+      "Errada. A lei permite a alienação do imóvel hipotecado, e a hipoteca acompanha o bem (arts. 1.419 e 1.475 do CC); não há ofensa à boa-fé.",
+      "Correta. A hipoteca abrange todas as acessões, melhoramentos ou construções do imóvel (art. 1.474 do CC)."
+    ] },
+  { "id": "38-37", "status": "valida",
+    "explicacoes": [
+      "Errada. O sustento dos filhos é dever de ambos os pais, na proporção de seus recursos (art. 1.703 do CC e art. 22 do ECA); a existência da mãe não exclui a obrigação do pai.",
+      "Errada. A prisão não suspende automaticamente os alimentos; eventual redução depende de ação revisional que comprove a mudança na capacidade financeira (art. 1.699 do CC).",
+      "Errada. O cancelamento da pensão do filho que atinge a maioridade depende de decisão judicial, com contraditório (Súmula 358 do STJ).",
+      "Correta. A prisão do alimentante não afasta o dever de sustento do filho (art. 1.566, IV, do CC e art. 22 do ECA); a mudança na situação financeira só pode ser discutida em revisional (art. 1.699 do CC)."
+    ] },
+  { "id": "38-38", "status": "valida",
+    "explicacoes": [
+      "Correta. Ao cônjuge sobrevivente, qualquer que seja o regime de bens, é assegurado o direito real de habitação sobre o imóvel residencial da família, desde que seja o único dessa natureza a inventariar, sem prejuízo da sua participação na herança (art. 1.831 do CC). O outro imóvel é comercial.",
+      "Errada. A lei exige que o imóvel seja o único de natureza residencial a inventariar; a existência de imóvel comercial e de investimentos não afasta o direito (art. 1.831 do CC).",
+      "Errada. O direito real de habitação decorre da lei e não depende de autorização dos herdeiros (art. 1.831 do CC).",
+      "Errada. O direito real de habitação é assegurado qualquer que seja o regime de bens, inclusive a separação convencional (art. 1.831 do CC)."
+    ] },
+  { "id": "38-39", "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a Lei 14.382/2022, a alteração imotivada do prenome após a maioridade é feita diretamente no Registro Civil, sem sentença judicial (art. 56 da Lei 6.015/73).",
+      "Errada. O nome não é imutável: a lei admite a alteração do prenome após a maioridade (art. 56 da Lei 6.015/73).",
+      "Correta. Após a maioridade, a pessoa pode requerer pessoal e imotivadamente a alteração do prenome no cartório, independentemente de decisão judicial (art. 56 da Lei 6.015/73, com redação da Lei 14.382/2022).",
+      "Errada. Joana pode alterar o próprio prenome, e não apenas incluir apelido (art. 56 da Lei 6.015/73); a substituição por apelido público notório também é admitida (art. 58)."
+    ] },
+  { "id": "38-40", "status": "valida",
+    "explicacoes": [
+      "Errada. A escolha não é livre: sofre o constrangimento o vizinho cujo imóvel mais natural e facilmente se prestar à passagem (art. 1.285, § 1º, do CC), e a indenização cabal é sempre devida.",
+      "Errada. A passagem não fica a critério de Antônio; deve recair sobre o imóvel que mais natural e facilmente se presta a ela, o de Ricardo (art. 1.285, § 1º, do CC).",
+      "Errada. A passagem forçada exige o pagamento de indenização cabal ao vizinho (art. 1.285, caput, do CC).",
+      "Correta. O dono do prédio sem acesso pode constranger o vizinho a dar passagem mediante indenização cabal, recaindo o ônus sobre o imóvel que mais natural e facilmente se presta a ela, o de Ricardo (art. 1.285, caput e § 1º, do CC)."
+    ] },
+  { "id": "38-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Sem solidariedade ativa, a obrigação divisível se reparte entre os credores, e Eduardo só pode cobrar a sua metade, R$ 300.000,00 (art. 257 do CC).",
+      "Correta. Sem solidariedade ativa, cada credor só pode exigir a sua quota (art. 257 do CC); como os devedores são solidários, Letícia pode cobrar a sua metade inteira de qualquer deles, como Pedro (art. 275 do CC).",
+      "Errada. A solidariedade passiva permite cobrar de um só devedor toda a quota do credor (art. 275 do CC), e não apenas um quarto.",
+      "Errada. A obrigação de pagar dinheiro é divisível, e cada credor pode cobrar sozinho a sua parte (art. 257 do CC)."
+    ] },
+  { "id": "38-42", "status": "valida",
+    "explicacoes": [
+      "Correta. Não sendo limitada, a fiança compreende todos os acessórios da dívida, inclusive as despesas judiciais desde a citação do fiador (art. 822 do CC); e os cofiadores são solidários se não reservarem o benefício de divisão, podendo-se cobrar de um só (art. 829 do CC).",
+      "Errada. O benefício de ordem é a regra: o fiador demandado pode exigir que primeiro sejam executados os bens do devedor, salvo renúncia, solidariedade ou insolvência (arts. 827 e 828 do CC).",
+      "Errada. A fiança prestada por várias pessoas a um só débito importa solidariedade entre elas, salvo reserva expressa do benefício de divisão (art. 829 do CC).",
+      "Errada. A fiança é contrato formal, que exige forma escrita e não admite interpretação extensiva (art. 819 do CC), embora possa ser prestada contra a vontade do devedor (art. 820)."
+    ] },
+  { "id": "37-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A doação verbal só vale para bens móveis de pequeno valor, seguida incontinenti da tradição (art. 541, parágrafo único, do CC); doação de imóvel exige forma escrita.",
+      "Errada. A escritura pública só é essencial para imóveis de valor superior a trinta vezes o maior salário mínimo (art. 108 do CC); abaixo disso, basta instrumento particular (art. 541).",
+      "Correta. A doação se faz por escritura pública ou instrumento particular (art. 541 do CC), e a escritura pública só é essencial se o imóvel valer mais de trinta salários mínimos (art. 108 do CC).",
+      "Errada. A doação de dinheiro só pode ser verbal se for de pequeno valor e seguida de imediata tradição (art. 541, parágrafo único, do CC)."
+    ] },
+  { "id": "37-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Havendo redução da capacidade de trabalho, a indenização inclui lucros cessantes até o fim da convalescença e pensão pela depreciação sofrida, ainda que a vítima possa auferir alguma renda (art. 950 do CC).",
+      "Correta. É o que prevê o art. 950 do CC: despesas do tratamento, lucros cessantes até o fim da convalescença e pensão correspondente à importância do trabalho para que se inabilitou ou da depreciação sofrida.",
+      "Errada. É lícita a cumulação das indenizações de dano estético e dano moral (Súmula 387 do STJ).",
+      "Errada. O prejudicado pode exigir que a indenização seja arbitrada e paga de uma só vez (art. 950, parágrafo único, do CC)."
+    ] },
+  { "id": "37-37", "status": "valida",
+    "explicacoes": [
+      "Errada. As ações herdadas e o apartamento recebido por doação são bens particulares, excluídos da comunhão (art. 1.659, I, do CC).",
+      "Correta. Entram na comunhão os bens adquiridos onerosamente durante o casamento, como o carro, e os adquiridos por fato eventual, como o prêmio de loteria (art. 1.660, I e II, do CC).",
+      "Errada. O carro se comunica, mas o apartamento recebido por doação é bem particular de Joana (art. 1.659, I, do CC).",
+      "Errada. O prêmio de loteria se comunica, mas as ações herdadas são bem particular de Pedro (art. 1.659, I, do CC)."
+    ] },
+  { "id": "37-38", "status": "valida",
+    "explicacoes": [
+      "Errada. A parte inocente pode pedir indenização suplementar se provar maior prejuízo, valendo as arras como taxa mínima (art. 419 do CC).",
+      "Errada. A indenização suplementar depende da prova de maior prejuízo (art. 419 do CC), e quem deu as arras tem direito à devolução mais o equivalente (art. 418).",
+      "Correta. Se a inexecução é de quem recebeu as arras, quem as deu pode exigir a devolução mais o equivalente, com atualização monetária, juros e honorários (art. 418 do CC), e indenização suplementar se provar maior prejuízo (art. 419 do CC).",
+      "Errada. Além da devolução, Joana tem direito ao equivalente (art. 418 do CC) e, provando maior prejuízo, à indenização suplementar (art. 419)."
+    ] },
+  { "id": "37-39", "status": "valida",
+    "explicacoes": [
+      "Correta. Sob pena de nulidade, servidores e auxiliares da justiça não podem comprar, ainda que em hasta pública, os bens litigiosos no lugar onde servem (art. 497, III, do CC; art. 890, III, do CPC).",
+      "Errada. A publicidade da hasta não convalida o vício: o art. 497, III, do CC proíbe a compra ainda que em hasta pública, sob pena de nulidade.",
+      "Errada. A sanção é a nulidade, e não a anulabilidade (art. 497, caput, do CC).",
+      "Errada. A alienação em hasta pública recai justamente sobre bens objeto de processo; a nulidade decorre da condição de servidor de Nicolas, não da natureza do bem (art. 497, III, do CC)."
+    ] },
+  { "id": "37-40", "status": "valida",
+    "explicacoes": [
+      "Errada. As pessoas jurídicas de direito privado podem realizar assembleias gerais por meio eletrônico (art. 48-A do CC, incluído pela Lei 14.382/2022).",
+      "Errada. O art. 48-A do CC admite a assembleia eletrônica inclusive para os fins do art. 59, que abrange a alteração do estatuto.",
+      "Correta. A assembleia geral por meio eletrônico é válida, inclusive para alterar o estatuto (art. 59), desde que respeitados os direitos de participação e de manifestação e os atos constitutivos (art. 48-A do CC).",
+      "Errada. Há previsão legal expressa da assembleia eletrônica (art. 48-A do CC), de modo que ela não é anulável por esse motivo."
+    ] },
+  { "id": "37-41", "status": "valida",
+    "explicacoes": [
+      "Errada. A solidariedade não se presume; resulta da lei ou da vontade das partes (art. 265 do CC), e nenhuma lei impõe solidariedade ativa nesse caso.",
+      "Correta. Havendo perda parcial por culpa da devedora, os credores podem aceitar a coisa no estado em que se acha, com abatimento, ou resolver a obrigação, com perdas e danos em ambos os casos (arts. 236 e 475 do CC).",
+      "Errada. Convertida a prestação em perdas e danos, subsiste, para todos os efeitos, a solidariedade ativa (art. 271 do CC).",
+      "Errada. O credor não é obrigado a receber por partes se assim não se ajustou, e o contrato previu entrega única (art. 314 do CC)."
+    ] },
+  { "id": "36-35", "status": "valida",
+    "explicacoes": [
+      "Errada. Ser proprietário de unidade autônoma não impede a sanção ao condômino que descumpre reiteradamente seus deveres (art. 1.337 do CC).",
+      "Errada. A multa de até cinco contribuições depende de deliberação de três quartos dos condôminos restantes e não pode ser imposta pelo síndico sozinho (art. 1.337, caput, do CC).",
+      "Errada. A multa é imposta por deliberação da assembleia, sem necessidade de prévia ação judicial (art. 1.337 do CC).",
+      "Correta. O condômino que descumpre reiteradamente seus deveres pode ser multado em até cinco contribuições por deliberação de três quartos dos condôminos restantes; persistindo o comportamento antissocial, a multa pode chegar a dez contribuições (art. 1.337, caput e parágrafo único, do CC)."
+    ] },
+  { "id": "36-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Imóveis não se transferem pela tradição, mas pelo registro do título no Registro de Imóveis (art. 1.245 do CC).",
+      "Errada. A escritura pública é apenas o título; a propriedade do imóvel só se transfere com o registro no Registro de Imóveis (art. 1.245, § 1º, do CC).",
+      "Correta. A propriedade dos móveis se transfere pela tradição (art. 1.267 do CC), e a dos imóveis pelo registro do título translativo no Registro de Imóveis (art. 1.245 do CC).",
+      "Errada. A posse não transfere a propriedade imobiliária, que exige registro (art. 1.245 do CC); para o piano, o modo de aquisição é a tradição (art. 1.267)."
+    ] },
+  { "id": "36-37", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei não impõe guarda alternada; sem acordo e estando ambos aptos, aplica-se a guarda compartilhada (art. 1.584, § 2º, do CC).",
+      "Correta. Sem acordo e estando ambos os genitores aptos ao poder familiar, o juiz aplica a guarda compartilhada, salvo se um deles declarar que não a deseja ou houver risco de violência doméstica (art. 1.584, § 2º, do CC).",
+      "Errada. A guarda compartilhada é a regra mesmo com divergência entre os pais (art. 1.584, § 2º, do CC); a guarda a terceiro só cabe se o filho não deve permanecer com nenhum dos genitores (art. 1.584, § 5º).",
+      "Errada. A guarda compartilhada está prevista no Código Civil (arts. 1.583 e 1.584) e é a regra quando ambos os pais estão aptos."
+    ] },
+  { "id": "36-38", "status": "valida",
+    "explicacoes": [
+      "Errada. João agiu em estado de necessidade, que exclui a ilicitude do ato (art. 188, II, do CC).",
+      "Correta. O ato praticado para remover perigo iminente é lícito (art. 188, II, do CC); como os donos do carro, pais da criança, respondem pelo perigo criado pelo filho (art. 932, I), não têm direito à indenização (arts. 929 e 930 do CC).",
+      "Errada. No estado de necessidade, só há dever de indenizar se o lesado não for culpado do perigo (art. 929 do CC); aqui o perigo foi criado pelo filho dos próprios lesados, contra quem João teria inclusive regresso (art. 930).",
+      "Errada. A conduta de João não é ilícita, pois praticada em estado de necessidade (art. 188, II, do CC)."
+    ] },
+  { "id": "36-39", "status": "valida",
+    "explicacoes": [
+      "Errada. O pagamento feito a um dos credores solidários extingue a dívida até o montante pago (art. 269 do CC).",
+      "Correta. Cada credor solidário pode exigir a prestação por inteiro (art. 267 do CC), e o credor pode exigir e receber de qualquer devedor solidário, parcial ou totalmente, a dívida comum (art. 275 do CC).",
+      "Errada. Impossibilitada a prestação por culpa de um devedor solidário, subsiste para todos o encargo de pagar o equivalente; só pelas perdas e danos responde o culpado (art. 279 do CC).",
+      "Errada. Enquanto nenhum credor demandar, o devedor pode pagar a qualquer dos credores solidários (art. 268 do CC)."
+    ] },
+  { "id": "36-40", "status": "valida",
+    "explicacoes": [
+      "Errada. A associação pode se custear por outras fontes, como doações e receitas de atividade econômica, desde que sem finalidade lucrativa (art. 53 do CC e Enunciado 534 da Jornada de Direito Civil).",
+      "Correta. A associação é a união de pessoas para fins não econômicos (art. 53 do CC), o que não a impede de exercer atividade econômica, desde que os resultados revertam às suas finalidades, sem partilha entre associados (Enunciado 534 da Jornada de Direito Civil).",
+      "Errada. A fundação é um patrimônio destinado a um fim pelo instituidor (art. 62 do CC), administrado conforme o estatuto e fiscalizado pelo Ministério Público (art. 66); a reunião de pessoas que querem atuar juntas é a associação.",
+      "Errada. A fundação não é custeada pelos participantes, mas pela dotação de bens livres feita pelo instituidor (art. 62 do CC), e pode receber recursos de terceiros."
+    ] },
+  { "id": "36-41", "status": "valida",
+    "explicacoes": [
+      "Errada. A responsabilidade do empregador pelos atos do preposto é objetiva, sem perquirir culpa in eligendo (arts. 932, III, e 933 do CC).",
+      "Errada. A responsabilidade da oficina é direta e solidária com o autor do dano, não subsidiária (arts. 932, III, e 942, parágrafo único, do CC).",
+      "Errada. Quem ressarce o dano causado por outrem pode reaver o que pagou daquele por quem pagou (art. 934 do CC).",
+      "Correta. O empregador responde objetivamente pelos danos causados por seus prepostos no trabalho (arts. 932, III, e 933 do CC; art. 14 do CDC), com direito de regresso contra o causador (art. 934 do CC)."
+    ] },
+  { "id": "35-35", "status": "valida",
+    "explicacoes": [
+      "Errada. Mesmo com consentimento, o tratamento deve respeitar os princípios da LGPD, especialmente o da necessidade (art. 6º, III); além disso, Raquel não consentiu.",
+      "Errada. Dados pessoais comuns também são protegidos pela LGPD, e seu tratamento deve observar os princípios do art. 6º, inclusive o da necessidade.",
+      "Errada. A política da empresa não se sobrepõe à LGPD; o titular tem direito a informações claras sobre o tratamento, que deve se limitar ao necessário (arts. 6º, III e VI, e 9º da LGPD).",
+      "Correta. O princípio da necessidade limita o tratamento ao mínimo necessário à finalidade, com dados pertinentes, proporcionais e não excessivos (art. 6º, III, da LGPD); a lista exigida é desproporcional para consumir em um bar."
+    ] },
+  { "id": "35-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A deficiência não afeta a plena capacidade civil (arts. 6º e 84 da Lei 13.146/2015); a Síndrome de Down, por si só, não gera incapacidade.",
+      "Errada. A capacidade não decorre do apoio: a tomada de decisão apoiada é instrumento facultativo de quem já é capaz (art. 1.783-A do CC).",
+      "Correta. Maurício e Fernanda são plenamente capazes, e o terceiro com quem mantenham relação negocial pode solicitar que os apoiadores contra-assinem o contrato (art. 1.783-A, § 5º, do CC).",
+      "Errada. A lei permite expressamente que o terceiro solicite a contra-assinatura dos apoiadores (art. 1.783-A, § 5º, do CC)."
+    ] },
+  { "id": "35-37", "status": "valida",
+    "explicacoes": [
+      "Errada. O direito real de laje abrange a superfície superior ou inferior da construção-base, inclusive o subsolo (art. 1.510-A, caput, do CC).",
+      "Errada. Trata-se de direito real de laje (arts. 1.510-A a 1.510-E do CC), e não de direito de superfície.",
+      "Errada. A lei não limita o número de lajes; admite lajes sucessivas com autorização dos titulares da construção-base e das demais lajes (art. 1.510-A, § 6º, do CC).",
+      "Correta. A laje sucessiva depende de autorização expressa dos titulares da construção-base e das demais lajes, respeitadas as posturas edilícias e urbanísticas vigentes (art. 1.510-A, § 6º, do CC)."
+    ] },
+  { "id": "35-38", "status": "valida",
+    "explicacoes": [
+      "Errada. Na comunhão parcial, o cônjuge é meeiro dos bens comuns e herda, em concorrência com os descendentes, justamente sobre os bens particulares (art. 1.829, I, do CC).",
+      "Errada. Não há direito de preferência para alugar o imóvel; a lei assegura ao cônjuge o direito real de habitação (art. 1.831 do CC).",
+      "Errada. O direito real de habitação vale qualquer que seja o regime de bens e não depende da inexistência de descendentes (art. 1.831 do CC).",
+      "Correta. Ao cônjuge sobrevivente, qualquer que seja o regime de bens, é assegurado o direito real de habitação sobre o imóvel residencial da família, desde que seja o único dessa natureza a inventariar, sem prejuízo da sua participação na herança (art. 1.831 do CC)."
+    ] },
+  { "id": "35-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A autonomia patrimonial não é absoluta: admite-se a desconsideração, inclusive inversa, em caso de abuso da personalidade jurídica (art. 50 do CC).",
+      "Errada. A desconsideração, direta ou inversa, exige abuso da personalidade jurídica, por desvio de finalidade ou confusão patrimonial (art. 50, caput e § 3º, do CC).",
+      "Errada. A desconsideração inversa está expressamente prevista em lei (art. 50, § 3º, do CC, incluído pela Lei 13.874/2019; art. 133, § 2º, do CPC).",
+      "Correta. A desconsideração inversa permite atingir bens da sociedade por dívidas do sócio, desde que comprovado abuso por desvio de finalidade ou confusão patrimonial (art. 50, § 3º, do CC; art. 133, § 2º, do CPC)."
+    ] },
+  { "id": "35-40", "status": "valida",
+    "explicacoes": [
+      "Errada. A locação não impede a venda do imóvel; o locatário tem apenas direito de preferência (art. 27 da Lei 8.245/91).",
+      "Correta. O adquirente pode denunciar a locação com 90 dias para desocupação, salvo se a locação for por prazo determinado e tiver cláusula de vigência em caso de alienação averbada na matrícula (art. 8º da Lei 8.245/91).",
+      "Errada. A locação não se desfaz automaticamente; o adquirente pode denunciá-la, com 90 dias para desocupação, se não houver cláusula de vigência averbada (art. 8º da Lei 8.245/91).",
+      "Errada. O adquirente só fica obrigado a respeitar o prazo se houver cláusula de vigência averbada na matrícula (art. 8º da Lei 8.245/91)."
+    ] }
+]

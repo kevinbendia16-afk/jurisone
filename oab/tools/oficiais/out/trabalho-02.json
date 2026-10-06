@@ -1,0 +1,282 @@
+[
+  { "id": "39-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O juiz só fixa as férias por sentença quando o empregador deixa vencer o período concessivo sem concedê-las (art. 137, § 1º, da CLT); além disso, o direito dos pais de gozar férias junto com a filha depende de não haver prejuízo ao serviço (art. 136, § 1º).",
+      "Errada. A época das férias é fixada pelo empregador, segundo o que melhor atenda aos seus interesses (art. 136, caput, da CLT), ressalvadas as exceções legais.",
+      "Errada. O empregado estudante menor de 18 anos tem direito a fazer coincidir suas férias com as férias escolares (art. 136, § 2º, da CLT).",
+      "Correta. A estudante menor de 18 anos pode fazer coincidir as férias com as escolares (art. 136, § 2º, da CLT), e membros da mesma família que trabalham na mesma empresa podem gozá-las no mesmo período, desde que isso não prejudique o serviço (art. 136, § 1º)."
+    ] },
+  { "id": "39-72", "status": "valida",
+    "explicacoes": [
+      "Errada. A falta por falecimento (até 2 dias consecutivos) só alcança cônjuge, ascendente, descendente, irmão ou dependente econômico declarado na CTPS (art. 473, I, da CLT); primo não está no rol.",
+      "Correta. O empregado pode faltar um dia, a cada 12 meses de trabalho, para doação voluntária de sangue devidamente comprovada, sem prejuízo do salário (art. 473, IV, da CLT).",
+      "Errada. Durante o auxílio por incapacidade temporária o contrato fica suspenso e o empregado é considerado em licença não remunerada (art. 476 da CLT); não há dever legal de complementar o salário, salvo previsão em norma coletiva ou regulamento.",
+      "Errada. A falta para comparecer a juízo é abonada pelo tempo necessário (art. 473, VIII, da CLT), e a testemunha não pode sofrer desconto pelas faltas decorrentes do depoimento (art. 822 da CLT)."
+    ] },
+  { "id": "39-73", "status": "valida",
+    "explicacoes": [
+      "Errada. As durações são diferentes: a da gestante vai até 5 meses após o parto, enquanto a do cipeiro eleito e a do dirigente sindical vão até 1 ano após o fim do mandato.",
+      "Correta. A gestante tem garantia da confirmação da gravidez até 5 meses após o parto (art. 10, II, b, do ADCT); o cipeiro eleito pelos empregados e o dirigente sindical, do registro da candidatura até 1 ano após o fim do mandato (art. 10, II, a, do ADCT; art. 8º, VIII, da CF; art. 543, § 3º, da CLT).",
+      "Errada. Só o representante dos empregados eleito para a CIPA tem garantia de emprego (art. 10, II, a, do ADCT, art. 165 da CLT e Súmula 339 do TST); o indicado pelo empregador não tem.",
+      "Errada. O desconhecimento da gravidez pelo empregador não afasta a estabilidade (Súmula 244, I, do TST); basta que a gravidez seja anterior à dispensa (STF, Tema 497)."
+    ] },
+  { "id": "39-74", "status": "valida",
+    "explicacoes": [
+      "Correta. No afastamento por acidente do trabalho ou doença ocupacional o FGTS continua a ser depositado (art. 15, § 5º, da Lei 8.036/90), e o empregado tem direito, na volta, às vantagens concedidas na sua ausência (art. 471 da CLT); as férias, porém, se perdem, porque recebeu benefício por mais de 6 meses (art. 133, IV, da CLT).",
+      "Errada. Quem recebe da Previdência benefício acidentário ou por incapacidade por mais de 6 meses, ainda que descontínuos, no curso do período aquisitivo perde o direito às férias, e novo período aquisitivo começa no retorno (art. 133, IV e § 2º, da CLT).",
+      "Errada. Ao empregado afastado são asseguradas, na volta, todas as vantagens atribuídas à categoria durante sua ausência, inclusive aumentos concedidos pelo empregador (art. 471 da CLT).",
+      "Errada. O depósito do FGTS é obrigatório durante a licença por acidente do trabalho (art. 15, § 5º, da Lei 8.036/90), e esse período conta como tempo de serviço para indenização e estabilidade (art. 4º, § 1º, da CLT)."
+    ] },
+  { "id": "39-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O teletrabalhador que presta serviço por produção ou tarefa não se submete ao capítulo da duração do trabalho nem tem direito a horas extras (arts. 62, III, e 75-B, § 3º, da CLT).",
+      "Correta. Os três estão excluídos do controle de jornada: José, teletrabalhador por produção (art. 62, III); Vanilda, externa sem possibilidade de controle e com anotação na CTPS e no registro (art. 62, I); e Regina, gerente com gratificação de 50%, acima dos 40% exigidos (art. 62, II e parágrafo único, da CLT).",
+      "Errada. Vanilda se enquadra no art. 62, I, e Regina, gerente com gratificação superior a 40% do salário efetivo, no art. 62, II e parágrafo único, da CLT; nenhuma delas tem direito a horas extras.",
+      "Errada. José (art. 62, III) e Regina (art. 62, II e parágrafo único, da CLT) estão excluídos do regime de horas extras."
+    ] },
+  { "id": "38-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O intermitente alterna períodos de prestação de serviços e de inatividade (art. 443, § 3º, da CLT); Francisco trabalha de forma contínua, de segunda a sábado.",
+      "Errada. Doméstico é quem presta serviços à pessoa ou família, no âmbito residencial e sem finalidade lucrativa (art. 1º da LC 150/15); a chácara é explorada economicamente com locações por temporada.",
+      "Errada. Rural é quem trabalha em propriedade rural ou prédio rústico para empregador que explora atividade agroeconômica (arts. 2º e 3º da Lei 5.889/73); a chácara fica em área urbana e é usada para locação.",
+      "Correta. Como os serviços atendem a uma atividade lucrativa (locação por temporada), não há trabalho doméstico nem rural; Francisco é empregado comum, regido pela CLT (arts. 2º e 3º)."
+    ] },
+  { "id": "38-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O retorno ao cargo efetivo após deixar a função interina é alteração lícita (arts. 450 e 468, § 1º, da CLT) e não autoriza dispensa por justa causa.",
+      "Errada. Vago o cargo em definitivo, o empregado que passa a ocupá-lo não tem direito a salário igual ao do antecessor (Súmula 159, II, do TST).",
+      "Errada. Enquanto durar a substituição que não seja meramente eventual, inclusive nas férias do titular, o substituto faz jus ao salário contratual do substituído (Súmula 159, I, do TST).",
+      "Correta. Ao empregado chamado a ocupar cargo interinamente são garantidas a contagem do tempo nesse serviço e a volta ao cargo anterior (art. 450 da CLT)."
+    ] },
+  { "id": "38-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei permite expressamente que as empresas equiparem seus diretores não empregados aos demais trabalhadores para fins de FGTS (art. 16 da Lei 8.036/90).",
+      "Correta. As empresas sujeitas à legislação trabalhista podem equiparar seus diretores não empregados aos demais trabalhadores sujeitos ao regime do FGTS (art. 16 da Lei 8.036/90).",
+      "Errada. Feita a equiparação, o depósito segue a alíquota geral de 8% (art. 15 da Lei 8.036/90); não há previsão de metade do percentual.",
+      "Errada. Não é preciso renunciar ao cargo nem virar diretora empregada: basta a empresa optar pela equiparação do art. 16 da Lei 8.036/90."
+    ] },
+  { "id": "38-74", "status": "valida",
+    "explicacoes": [
+      "Errada. O enunciado não traz elemento que caracterize acidente do trabalho com responsabilidade do empregador, e a morte não impede o pagamento das verbas devidas, que são entregues aos dependentes ou sucessores (art. 1º da Lei 6.858/80).",
+      "Correta. Os valores devidos pelo empregador e não recebidos em vida pelo empregado são pagos, em quotas iguais, aos dependentes habilitados perante a Previdência Social e, na falta deles, aos sucessores previstos na lei civil, independentemente de inventário (art. 1º da Lei 6.858/80).",
+      "Errada. Não existe regra legal que imponha consignação em pagamento em caso de morte suspeita; o pagamento segue a Lei 6.858/80, e a consignação só cabe em situações como a dúvida sobre quem deve receber (art. 335 do CC).",
+      "Errada. Não há previsão legal de pagamento pela metade em razão da morte do empregado; a redução à metade ocorre na culpa recíproca (art. 484 da CLT e Súmula 14 do TST) e, em parte, na extinção por acordo (art. 484-A da CLT)."
+    ] },
+  { "id": "38-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O tempo de troca de uniforme só integra a jornada quando a troca for obrigatória na empresa (art. 4º, § 2º, VIII, da CLT); estar nas dependências do empregador não basta.",
+      "Correta. Sem obrigatoriedade de troca na empresa, o tempo gasto não é tempo à disposição (art. 4º, § 2º, VIII, da CLT), e a higienização do uniforme de uso comum é responsabilidade do trabalhador (art. 456-A, parágrafo único, da CLT).",
+      "Errada. A troca não obrigatória na empresa não é computada (art. 4º, § 2º, VIII), e a higienização de uniforme de uso comum cabe ao empregado, fora da jornada (art. 456-A, parágrafo único, da CLT).",
+      "Errada. A higienização de uniforme comum é responsabilidade do trabalhador e não integra a jornada nem afeta o intervalo entre jornadas (art. 456-A, parágrafo único, da CLT); a troca, por sua vez, não é computada porque não é obrigatória na empresa."
+    ] },
+  { "id": "37-70", "status": "valida",
+    "explicacoes": [
+      "Correta. Se a norma coletiva reduzir salário ou jornada, deve prever a proteção dos empregados contra dispensa imotivada durante sua vigência (art. 611-A, § 3º, da CLT).",
+      "Errada. Acordo e convenção coletiva não podem ter duração superior a 2 anos (art. 614, § 3º, da CLT); não existe prazo mínimo de 2 anos.",
+      "Errada. A Constituição admite a redução salarial mediante convenção ou acordo coletivo (art. 7º, VI, da CF).",
+      "Errada. A redução de salário e jornada pode ser feita tanto por convenção quanto por acordo coletivo (art. 7º, VI, da CF e art. 611-A, § 3º, da CLT)."
+    ] },
+  { "id": "37-71", "status": "valida",
+    "explicacoes": [
+      "Correta. É o texto da Súmula 269 do TST: o contrato do empregado eleito diretor fica suspenso, sem cômputo do tempo de serviço, salvo se permanecer a subordinação jurídica.",
+      "Errada. A eleição para diretor não extingue o contrato de trabalho; ele fica suspenso (Súmula 269 do TST).",
+      "Errada. A eleição para diretor não é mera promoção: o contrato fica suspenso durante o mandato (Súmula 269 do TST).",
+      "Errada. Não há interrupção: o contrato fica suspenso, sem cômputo do tempo de serviço, salvo se mantida a subordinação (Súmula 269 do TST)."
+    ] },
+  { "id": "37-72", "status": "valida",
+    "explicacoes": [
+      "Correta. A CLT não prevê licença remunerada nem interrupção do contrato para o empregado da iniciativa privada se dedicar a campanha eleitoral (a hipótese não está no rol do art. 473), e a norma coletiva é omissa.",
+      "Errada. Não há distinção legal entre cargos federais, estaduais ou municipais; em nenhum caso a CLT assegura licença remunerada para campanha.",
+      "Errada. Não existe suspensão automática do contrato pelo lançamento de candidatura; a lei não prevê essa hipótese.",
+      "Errada. Concorrer a eleições é exercício de direito político e não está entre as hipóteses de justa causa do art. 482 da CLT."
+    ] },
+  { "id": "37-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A troca de uniforme sem obrigatoriedade de fazê-la na empresa não é tempo à disposição (art. 4º, § 2º, VIII, da CLT), e variações de até 5 minutos, no máximo de 10 diários, não são computadas (art. 58, § 1º).",
+      "Errada. Não há previsão de pagamento de metade do período; variações de registro de até 10 minutos diários não são computadas como jornada extraordinária (art. 58, § 1º, da CLT).",
+      "Errada. Os 10 minutos não são devidos, porque a troca era facultativa (art. 4º, § 2º, VIII) e estava dentro da tolerância do art. 58, § 1º, da CLT.",
+      "Correta. As variações de até 5 minutos, no limite de 10 diários, não são descontadas nem computadas como extras (art. 58, § 1º, da CLT), e a troca de uniforme não obrigatória na empresa não é tempo à disposição (art. 4º, § 2º, VIII)."
+    ] },
+  { "id": "37-74", "status": "valida",
+    "explicacoes": [
+      "Errada. A Reforma Trabalhista extinguiu as horas in itinere: o tempo de deslocamento, mesmo em transporte fornecido pelo empregador, não integra a jornada (art. 58, § 2º, da CLT).",
+      "Correta. O tempo gasto da residência até o posto de trabalho e no retorno, por qualquer meio, inclusive transporte fornecido pelo empregador, não é computado na jornada (art. 58, § 2º, da CLT, na redação da Lei 13.467/17); o contrato de Rachel é de 2019.",
+      "Errada. Esse tempo não é computado na jornada e, portanto, não é remunerado como tempo de trabalho (art. 58, § 2º, da CLT).",
+      "Errada. A lei afasta o cômputo de forma objetiva, sem margem para o juiz avaliar a geografia do local (art. 58, § 2º, da CLT); o critério da Súmula 90 do TST não se aplica a contratos posteriores à Lei 13.467/17."
+    ] },
+  { "id": "37-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A norma coletiva só é exigida para banco de horas com compensação em até 1 ano (art. 59, § 2º, da CLT); com compensação em até 6 meses basta acordo individual escrito (§ 5º).",
+      "Correta. O banco de horas pode ser pactuado por acordo individual escrito quando a compensação ocorrer em, no máximo, 6 meses (art. 59, § 5º, da CLT).",
+      "Errada. O banco de horas é expressamente permitido pela CLT (art. 59, §§ 2º e 5º).",
+      "Errada. O prazo importa: até 6 meses, acordo individual escrito (art. 59, § 5º); até 1 ano, somente acordo ou convenção coletiva (art. 59, § 2º, da CLT)."
+    ] },
+  { "id": "36-70", "status": "valida",
+    "explicacoes": [
+      "Errada. Quando o contrato prevê a transferência e há real necessidade de serviço, a anuência do empregado é dispensada (art. 469, § 1º, da CLT).",
+      "Correta. Só se considera transferência a mudança de local que acarrete necessariamente a mudança de domicílio do empregado (art. 469, caput, da CLT).",
+      "Errada. Na transferência provisória por necessidade de serviço é devido adicional de, no mínimo, 25% do salário enquanto durar a situação (art. 469, § 3º, da CLT), além do custeio das despesas da transferência (art. 470).",
+      "Errada. As despesas resultantes da transferência correm por conta do empregador (art. 470 da CLT), independentemente do pagamento do adicional."
+    ] },
+  { "id": "36-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O banco de horas com compensação em até 6 meses pode ser instituído por acordo individual escrito (art. 59, § 5º, da CLT); a norma coletiva só é exigida para compensação em até 1 ano (§ 2º).",
+      "Errada. O acordo individual escrito vale para compensação em até 6 meses (art. 59, § 5º); para até 12 meses exige-se acordo ou convenção coletiva (art. 59, § 2º, da CLT).",
+      "Correta. A compensação em até 5 meses está dentro do limite de 6 meses que permite pactuar o banco de horas por acordo individual escrito (art. 59, § 5º, da CLT).",
+      "Errada. Não é necessário acordo coletivo para compensação em até 6 meses; basta acordo individual escrito (art. 59, § 5º, da CLT)."
+    ] },
+  { "id": "36-72", "status": "valida",
+    "explicacoes": [
+      "Errada. A promessa de contratação gerou legítima expectativa e levou João a recusar outros processos seletivos; a quebra da boa-fé objetiva na fase pré-contratual gera dever de indenizar (arts. 186, 422 e 927 do CC).",
+      "Errada. A promessa frustrada não obriga o banco a contratar; a consequência é a reparação dos danos causados (arts. 186 e 927 do CC).",
+      "Correta. O dano sofrido na fase pré-contratual decorre da relação de trabalho que se formava e é da competência da Justiça do Trabalho (art. 114, I e VI, da CF).",
+      "Errada. Ainda que o contrato não tenha sido formalizado, o dano pré-contratual entre candidato e empregador privado é julgado pela Justiça do Trabalho (art. 114, VI, da CF)."
+    ] },
+  { "id": "36-73", "status": "valida",
+    "explicacoes": [
+      "Correta. Na subempreitada, o subempreiteiro responde pelas obrigações trabalhistas, mas os empregados podem reclamar também contra o empreiteiro principal pelo inadimplemento (art. 455 da CLT).",
+      "Errada. Empreiteiro e subempreiteiro não formam grupo econômico só por contratarem entre si (art. 2º, §§ 2º e 3º, da CLT); a responsabilidade do empreiteiro principal decorre do art. 455 da CLT.",
+      "Errada. O art. 455 da CLT assegura ao empregado o direito de reclamar também contra o empreiteiro principal.",
+      "Errada. A subempreitada é lícita e prevista no art. 455 da CLT; além disso, o STF admite a terceirização de qualquer atividade (ADPF 324 e Tema 725), e não há sucessão de empregadores."
+    ] },
+  { "id": "36-74", "status": "valida",
+    "explicacoes": [
+      "Correta. A mudança na propriedade ou na estrutura jurídica não afeta os contratos de trabalho (arts. 10 e 448 da CLT), e o sucessor responde pelas obrigações trabalhistas, inclusive as anteriores à sucessão (art. 448-A da CLT).",
+      "Errada. Pelo art. 448-A da CLT, o sucessor responde também pelas obrigações contraídas à época em que os empregados trabalhavam para a empresa sucedida.",
+      "Errada. Comprovada fraude na transferência, a sucedida responde solidariamente com a sucessora (art. 448-A, parágrafo único, da CLT), e não de forma subsidiária.",
+      "Errada. A sucessão não gera novação: os contratos continuam os mesmos, com todas as suas condições (arts. 10, 448 e 468 da CLT)."
+    ] },
+  { "id": "36-75", "status": "valida",
+    "explicacoes": [
+      "Correta. Assistência médica, hospitalar e odontológica, prestada diretamente ou por seguro-saúde, não é salário-utilidade (art. 458, § 2º, IV, da CLT), e seu valor não integra o salário para nenhum efeito (art. 458, § 5º).",
+      "Errada. O plano de saúde é utilidade expressamente excluída do conceito de salário (art. 458, § 2º, IV, e § 5º, da CLT).",
+      "Errada. Não há integração, nem parcial, do plano de saúde ao salário (art. 458, § 2º, IV, e § 5º, da CLT).",
+      "Errada. A exclusão vale para o benefício como um todo, em quaisquer modalidades de planos e coberturas; a lei não manda integrar a parte dos dependentes (art. 458, § 2º, IV, e § 5º, da CLT)."
+    ] },
+  { "id": "35-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A gestante tem garantia de emprego desde a confirmação da gravidez (art. 10, II, b, do ADCT), inclusive no contrato por prazo determinado (Súmula 244, III, do TST).",
+      "Errada. A estabilidade alcança também o contrato a termo, como o de experiência (Súmula 244, III, do TST); além disso, Sheila seria desligada antes do termo final, o que equivale a dispensa sem justa causa.",
+      "Correta. As duas engravidaram antes da dispensa e têm garantia de emprego até 5 meses após o parto (art. 10, II, b, do ADCT; STF, Tema 497), inclusive Sheila, contratada por experiência (Súmula 244, III, do TST).",
+      "Errada. A estabilidade da gestante impede a dispensa sem justa causa, e não há previsão de autorização judicial para afastá-la; Irene só poderia ser dispensada por justa causa."
+    ] },
+  { "id": "35-71", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei exige exame toxicológico do motorista profissional na admissão e no desligamento (art. 168, § 6º, da CLT), de modo que o exame não é proibido em qualquer hipótese.",
+      "Errada. Não há exigência de autorização judicial: para o motorista o exame decorre da lei (art. 168, § 6º, da CLT) e para a despachante não há base legal.",
+      "Correta. O exame toxicológico é exigido por lei do motorista profissional (arts. 168, § 6º, e 235-B, VII, da CLT); para a despachante não há previsão legal, e a exigência viola sua intimidade (art. 5º, X, da CF).",
+      "Errada. A situação é inversa: para Sérgio, motorista, o exame é obrigatório por lei (art. 168, § 6º, da CLT); para Bárbara, mera desconfiança não autoriza a exigência."
+    ] },
+  { "id": "35-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Sobreaviso ocorre quando o empregado permanece em sua própria casa aguardando chamado, remunerado à razão de 1/3 do salário normal (art. 244, § 2º, da CLT); Rogéria fica nas dependências da empresa.",
+      "Correta. O empregado que permanece nas dependências do empregador aguardando ordens está de prontidão, com escala de até 12 horas, remunerada à razão de 2/3 do salário-hora normal (art. 244, § 3º, da CLT, aplicado por analogia).",
+      "Errada. O tempo em que apenas aguarda chamado não é hora extra; é prontidão, paga a 2/3 do salário-hora (art. 244, § 3º, da CLT). Se houver trabalho efetivo, ele será remunerado normalmente.",
+      "Errada. Não existe essa figura com adicional de 100% para o tempo de espera; a hipótese é de prontidão (art. 244, § 3º, da CLT)."
+    ] },
+  { "id": "35-73", "status": "valida",
+    "explicacoes": [
+      "Errada. O contrato especial de trabalho desportivo é sempre por prazo determinado (art. 30 da Lei 9.615/98).",
+      "Correta. A entidade formadora pode assinar com o atleta, a partir dos 16 anos, o primeiro contrato especial de trabalho desportivo, com prazo não superior a 5 anos (art. 29 da Lei 9.615/98), limite mantido pela Lei Geral do Esporte (Lei 14.597/23).",
+      "Errada. O prazo máximo do primeiro contrato é de 5 anos; o limite de 3 anos refere-se à primeira renovação pelo direito de preferência do clube formador (art. 29, caput e § 7º, da Lei 9.615/98).",
+      "Errada. A lei fixa prazo máximo de 5 anos para o primeiro contrato profissional com o clube formador (art. 29 da Lei 9.615/98)."
+    ] },
+  { "id": "35-74", "status": "valida",
+    "explicacoes": [
+      "Errada. Pela CLT, a invenção decorrente da contribuição pessoal do empregado e de equipamentos do empregador é de propriedade comum, em partes iguais, salvo se o contrato tiver por objeto pesquisa científica (art. 454 da CLT; no mesmo sentido, art. 91 da Lei 9.279/96).",
+      "Correta. É a regra do art. 454 da CLT: as invenções do empregado resultantes de sua contribuição pessoal e de equipamentos do empregador são de propriedade comum, em partes iguais, salvo se o contrato tiver por objeto pesquisa científica (no mesmo sentido, art. 91 da Lei 9.279/96).",
+      "Errada. O empregador deve promover a exploração do invento em até 1 ano da concessão da patente, sob pena de a plena propriedade reverter ao empregado (art. 454, parágrafo único, da CLT; art. 91, § 3º, da Lei 9.279/96).",
+      "Errada. A lei fixa a divisão em partes iguais, e não proporcional à contribuição de cada um (art. 454 da CLT e art. 91 da Lei 9.279/96)."
+    ] },
+  { "id": "35-75", "status": "valida",
+    "explicacoes": [
+      "Correta. Recebida a convocação, o intermitente tem um dia útil para responder, e o silêncio presume recusa (art. 452-A, § 2º, da CLT).",
+      "Errada. A convocação deve ser feita com pelo menos 3 dias corridos de antecedência (art. 452-A, § 1º, da CLT).",
+      "Errada. Não há limite de recusas: a recusa da oferta não descaracteriza a subordinação nem rompe o contrato (art. 452-A, § 3º, da CLT).",
+      "Errada. O contrato intermitente deve ser celebrado por escrito (art. 452-A, caput, da CLT)."
+    ] },
+  { "id": "34-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A transferência do turno noturno para o diurno é lícita e benéfica à saúde do trabalhador, ainda que implique a perda do adicional (Súmula 265 do TST).",
+      "Correta. A transferência para o período diurno é lícita e implica a perda do direito ao adicional noturno (Súmula 265 do TST).",
+      "Errada. Com a mudança para o turno diurno, o adicional noturno deixa de ser devido (Súmula 265 do TST).",
+      "Errada. O adicional noturno é salário-condição e não se incorpora ao salário quando cessa o trabalho noturno (Súmula 265 do TST)."
+    ] },
+  { "id": "34-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O teletrabalho é a prestação de serviços fora das dependências do empregador, de maneira preponderante ou não, e o comparecimento à empresa, mesmo habitual, não o descaracteriza (art. 75-B, caput e § 1º, da CLT).",
+      "Errada. O teletrabalho deve constar expressamente do contrato individual de trabalho (art. 75-C da CLT), e a mudança do presencial para o remoto exige mútuo acordo registrado em aditivo (art. 75-C, § 1º).",
+      "Correta. Os equipamentos e a infraestrutura fornecidos para o trabalho remoto não integram a remuneração do empregado (art. 75-D, parágrafo único, da CLT).",
+      "Errada. A passagem para o teletrabalho exige mútuo acordo, mas o retorno ao presencial pode ser determinado pelo empregador, com transição mínima de 15 dias (art. 75-C, §§ 1º e 2º, da CLT)."
+    ] },
+  { "id": "34-72", "status": "valida",
+    "explicacoes": [
+      "Errada. O ponto por exceção pode ser instituído também por acordo individual escrito, além de convenção ou acordo coletivo (art. 74, § 4º, da CLT).",
+      "Correta. A CLT permite o registro de ponto por exceção à jornada regular mediante acordo individual escrito, convenção coletiva ou acordo coletivo (art. 74, § 4º, incluído pela Lei 13.874/19).",
+      "Errada. Não se exige homologação judicial; o acordo individual escrito é suficiente (art. 74, § 4º, da CLT).",
+      "Errada. A lei não exige comissão de empregados nem contrapartida para o ponto por exceção (art. 74, § 4º, da CLT)."
+    ] },
+  { "id": "34-73", "status": "valida",
+    "explicacoes": [
+      "Correta. Regime de tempo parcial é o de até 30 horas semanais sem horas extras ou o de até 26 horas semanais com até 6 horas extras (art. 58-A da CLT); as duas propostas se enquadram.",
+      "Errada. O contrato de até 26 horas semanais admite até 6 horas suplementares e continua sendo de tempo parcial (art. 58-A da CLT).",
+      "Errada. Nenhuma das propostas excede os limites legais, e a lei admite horas extras no regime de até 26 horas semanais (art. 58-A da CLT).",
+      "Errada. Os limites de 30 e 26 horas são máximos (a lei fala em duração que não exceda), de modo que jornadas inferiores também caracterizam tempo parcial (art. 58-A da CLT)."
+    ] },
+  { "id": "34-74", "status": "valida",
+    "explicacoes": [
+      "Errada. A transferência é lícita quando o contrato a prevê e há real necessidade de serviço (art. 469, § 1º, da CLT), e a transferência provisória também é permitida (§ 3º).",
+      "Errada. O adicional de transferência é de, no mínimo, 25% e só é devido enquanto durar a transferência, sem incorporação ao salário (art. 469, § 3º, da CLT).",
+      "Errada. Não há exigência de autorização judicial, e o adicional mínimo é de 25% (art. 469, § 3º, da CLT).",
+      "Correta. Na transferência provisória por necessidade de serviço, o empregado recebe adicional nunca inferior a 25% do salário enquanto durar essa situação (art. 469, § 3º, da CLT; OJ 113 da SDI-1 do TST)."
+    ] },
+  { "id": "34-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A natureza da parcela não muda por ela ser deferida em juízo; comissões têm natureza salarial (art. 457, § 1º, da CLT).",
+      "Correta. As comissões pagas pelo empregador integram o salário (art. 457, § 1º, da CLT) e, por isso, repercutem em 13º salário, férias e FGTS.",
+      "Errada. As partes não podem alterar a natureza jurídica fixada em lei para afastar direitos (art. 9º da CLT); comissões são salário (art. 457, § 1º).",
+      "Errada. Não há regra que atribua natureza salarial a apenas metade das comissões; elas integram o salário por inteiro (art. 457, § 1º, da CLT)."
+    ] },
+  { "id": "33-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 13.467/17 revogou a exigência de homologação da rescisão pelo sindicato ou pelo Ministério do Trabalho para contratos com mais de 1 ano (revogação do art. 477, § 1º, da CLT).",
+      "Correta. Desde a Reforma Trabalhista não há homologação obrigatória da rescisão; o empregador anota a CTPS, comunica os órgãos competentes e paga as verbas em até 10 dias (art. 477, caput e § 6º, da CLT).",
+      "Errada. O acordo extrajudicial do art. 855-B da CLT é facultativo e exige que cada parte tenha seu próprio advogado, sendo vedado o advogado comum (art. 855-B, § 1º).",
+      "Errada. O pagamento pode ser feito em dinheiro, depósito bancário ou cheque visado, conforme acordem as partes (art. 477, § 4º, da CLT); o depósito não é obrigatório."
+    ] },
+  { "id": "33-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O estagiário não tem férias celetistas, mas a Lei do Estágio assegura recesso de 30 dias para estágio de 1 ano ou mais (art. 13 da Lei 11.788/08).",
+      "Errada. O estagiário não é empregado e não tem férias com terço constitucional; tem direito a recesso, remunerado se receber bolsa (art. 13 da Lei 11.788/08).",
+      "Errada. A lei não é omissa: assegura recesso de 30 dias quando o estágio durar 1 ano ou mais (art. 13 da Lei 11.788/08).",
+      "Correta. Com estágio de duração igual ou superior a 1 ano, o estagiário tem recesso de 30 dias, preferencialmente nas férias escolares, remunerado quando recebe bolsa, sem previsão de acréscimo de 1/3 (art. 13, caput e § 1º, da Lei 11.788/08)."
+    ] },
+  { "id": "33-72", "status": "valida",
+    "explicacoes": [
+      "Correta. Pelo texto da CLT, o adicional de insalubridade é de 10%, 20% ou 40% do salário mínimo, conforme o grau mínimo, médio ou máximo (art. 192), e o de periculosidade é de 30% sobre o salário sem acréscimos de gratificações, prêmios ou participação nos lucros (art. 193, § 1º).",
+      "Errada. Só a insalubridade tem graus, com percentuais de 10%, 20% e 40% do salário mínimo (art. 192 da CLT); a periculosidade é fixa em 30% do salário básico (art. 193, § 1º).",
+      "Errada. O adicional de periculosidade é de 30% sobre o salário básico para todas as atividades perigosas (art. 193, § 1º, da CLT).",
+      "Errada. O direito aos adicionais cessa com a eliminação do risco à saúde ou à integridade física, nos termos da lei e das normas do Ministério do Trabalho (art. 194 da CLT)."
+    ] },
+  { "id": "33-73", "status": "valida",
+    "explicacoes": [
+      "Correta. As cláusulas regulamentares que revoguem ou alterem vantagens só atingem os trabalhadores admitidos após a alteração (Súmula 51, I, do TST), pois a alteração lesiva para quem já está contratado é nula (art. 468 da CLT).",
+      "Errada. A redução do plano de saúde é alteração prejudicial e não alcança quem já era empregado (art. 468 da CLT e Súmula 51, I, do TST).",
+      "Errada. É o contrário: a alteração prejudicial só vale para os admitidos após a mudança (Súmula 51, I, do TST).",
+      "Errada. Não há exigência de homologação judicial para que a alteração do regulamento valha para os novos empregados (Súmula 51, I, do TST)."
+    ] },
+  { "id": "33-74", "status": "valida",
+    "explicacoes": [
+      "Errada. A compensação no pagamento das verbas rescisórias não pode exceder o equivalente a um mês de remuneração do empregado (art. 477, § 5º, da CLT).",
+      "Correta. Qualquer compensação no acerto rescisório limita-se a um mês de remuneração do empregado (art. 477, § 5º, da CLT), aqui R$ 1.500,00; o saldo deve ser cobrado por outra via.",
+      "Errada. O desconto de adiantamentos é permitido (art. 462 da CLT), observado no TRCT o limite de um mês de remuneração (art. 477, § 5º).",
+      "Errada. O limite legal é de um mês de remuneração, e não o dobro (art. 477, § 5º, da CLT)."
+    ] },
+  { "id": "33-75", "status": "valida",
+    "explicacoes": [
+      "Correta. Só os representantes dos empregados na CIPA têm garantia contra despedida arbitrária (art. 165 da CLT e art. 10, II, a, do ADCT); o representante indicado pelo empregador não tem (Súmula 339 do TST).",
+      "Errada. O aviso prévio indenizado não afasta a garantia de emprego do cipeiro eleito pelos empregados (art. 165 da CLT e art. 10, II, a, do ADCT).",
+      "Errada. O representante do empregador na CIPA não tem garantia de emprego; a proteção é só do representante eleito pelos empregados (art. 165 da CLT e Súmula 339 do TST).",
+      "Errada. A garantia, do registro da candidatura até 1 ano após o fim do mandato, é apenas do representante eleito pelos empregados (art. 10, II, a, do ADCT)."
+    ] }
+]

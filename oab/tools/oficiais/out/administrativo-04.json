@@ -1,0 +1,377 @@
+[
+  {
+    "id": "26-32",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quando a demissão do servidor estável é invalidada por sentença, ele é reintegrado mesmo que o cargo esteja ocupado; quem deixa a vaga é o ocupante (art. 41, § 2º, da CF e art. 28, § 2º, da Lei 8.112/90).",
+      "Errada. O reintegrado só fica em disponibilidade se o cargo tiver sido extinto (art. 28, § 1º, da Lei 8.112/90). Como o cargo existe, cabe a reintegração.",
+      "Errada. Readaptação é a investidura em cargo compatível com limitação física ou mental superveniente (art. 24 da Lei 8.112/90), e não uma compensação por demissão ilegal. Anulada a demissão, a forma de retorno é a reintegração.",
+      "Correta. Anulada a demissão, Maria é reintegrada ao cargo anterior e Alfredo, que é estável, é reconduzido ao cargo de origem sem direito a indenização (art. 41, § 2º, da CF e arts. 28, § 2º, e 29, II, da Lei 8.112/90)."
+    ]
+  },
+  {
+    "id": "25-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A sindicância pode resultar em arquivamento, advertência ou suspensão de até 30 dias (art. 145, II, da Lei 8.112/90). O PAD só é obrigatório para suspensão superior a 30 dias, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão (art. 146).",
+      "Errada. A reincidência em falta punida com advertência autoriza a pena de suspensão (art. 130 da Lei 8.112/90).",
+      "Correta. A sindicância pode resultar em suspensão de até 30 dias (art. 145, II, da Lei 8.112/90), e a reincidência na falta já punida com advertência justifica a suspensão (art. 130).",
+      "Errada. A demissão exige processo administrativo disciplinar, com contraditório e ampla defesa (art. 146 da Lei 8.112/90 e art. 5º, LV, da CF)."
+    ]
+  },
+  {
+    "id": "25-28",
+    "status": "desatualizada",
+    "motivo": "A questão aplica a redação original do art. 23, I, da Lei 8.429/92: 5 anos contados do término do mandato. A Lei 14.230/21 trocou essa regra por um prazo único de 8 anos contados do fato (ou do dia em que cessou a permanência). O prazo passou a ser interrompido pelo ajuizamento, há prescrição intercorrente de 4 anos e a fase de defesa preliminar e recebimento da inicial foi extinta. O STF (Tema 1199) declarou o novo regime prescricional irretroativo, mas o aluno do 48º Exame será cobrado pelo art. 23 atual. A alternativa C, apresentada como a regra da LIA, já não corresponde à lei."
+  },
+  {
+    "id": "25-29",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O servidor reprovado no estágio probatório é exonerado (art. 20, § 2º, da Lei 8.112/90). A exoneração não tem caráter punitivo, mas exige procedimento prévio que assegure defesa ao servidor (Súmula 21 do STF).",
+      "Errada. Demissão é penalidade disciplinar, aplicada nas hipóteses do art. 132 da Lei 8.112/90. A inaptidão no estágio probatório gera exoneração (art. 20, § 2º).",
+      "Errada. Redistribuição é o deslocamento do cargo, ocupado ou vago, para outro órgão ou entidade do mesmo Poder no interesse da Administração (art. 37 da Lei 8.112/90). Não é solução para a reprovação no estágio.",
+      "Errada. A readaptação pressupõe limitação da capacidade física ou mental verificada em inspeção médica (art. 24 da Lei 8.112/90), o que não ocorre no caso de baixa produtividade."
+    ]
+  },
+  {
+    "id": "25-30",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Lei 8.987/95 prevê expressamente a concessão de serviço público precedida da execução de obra pública (art. 2º, III).",
+      "Correta. A inexecução total ou parcial do contrato autoriza o poder concedente a declarar a caducidade, inclusive quando o serviço é prestado de forma inadequada ou há descumprimento de cláusulas contratuais (art. 38, caput e § 1º, da Lei 8.987/95).",
+      "Errada. O poder concedente escolhe entre declarar a caducidade e aplicar as sanções contratuais (art. 38, caput, da Lei 8.987/95). Não é obrigado a esgotar as sanções antes.",
+      "Errada. A caducidade deve ser precedida de processo administrativo de inadimplência que assegure à concessionária o direito de ampla defesa (art. 38, § 2º, da Lei 8.987/95 e art. 5º, LV, da CF)."
+    ]
+  },
+  {
+    "id": "25-31",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Organizações religiosas que se dedicam a atividades de interesse público e de cunho social, distintas das exclusivamente religiosas, são organizações da sociedade civil e podem firmar parcerias com recursos públicos (art. 2º, I, c, da Lei 13.019/14).",
+      "Errada. Parcerias com organizações da sociedade civil seguem o regime próprio da Lei 13.019/14: termo de colaboração, termo de fomento ou acordo de cooperação, precedidos, em regra, de chamamento público. Não se usa contrato administrativo precedido de concorrência.",
+      "Errada. A qualificação como OS ou OSCIP não é requisito para as parcerias da Lei 13.019/14 (MROSC), que valem para as organizações da sociedade civil em geral.",
+      "Correta. Selecionada por chamamento público (art. 24 da Lei 13.019/14), a entidade pode celebrar termo de colaboração, que é o instrumento usado quando o plano de trabalho é proposto pela Administração Pública (art. 2º, VII)."
+    ]
+  },
+  {
+    "id": "25-32",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O bem incorporado à Fazenda Pública não pode ser objeto de reivindicação (art. 35 do DL 3.365/41). Uma vez afetado a uma finalidade pública, resta ao proprietário pedir indenização, e não a retomada da posse.",
+      "Errada. Não houve prescrição. A pretensão indenizatória por desapropriação indireta prescreve em 10 anos quando o Poder Público realiza obras no imóvel (Tema 1019 do STJ; art. 1.238, parágrafo único, do CC), prazo que não se consumou entre 2015 e o retorno de Josué.",
+      "Errada. Não é preciso esperar desvio de finalidade: a ocupação com afetação a um fim público já configura desapropriação indireta e autoriza desde logo a ação indenizatória. A destinação alheia ao interesse público é tema da retrocessão (art. 519 do CC).",
+      "Correta. Ocupar o imóvel e nele construir uma estação de tratamento sem processo expropriatório configura desapropriação indireta. Como o bem incorporado ao patrimônio público não pode ser reivindicado (art. 35 do DL 3.365/41), cabe ação de indenização."
+    ]
+  },
+  {
+    "id": "24-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O princípio da eficiência não afasta o poder hierárquico nem o dever de obediência. O servidor deve cumprir as ordens superiores, salvo as manifestamente ilegais (no plano federal, art. 116, IV, da Lei 8.112/90).",
+      "Errada. A Administração tem escalonamento de competências. O poder hierárquico organiza a coordenação e a subordinação entre órgãos e agentes, com poderes de dar ordens, fiscalizar, avocar e delegar.",
+      "Correta. O poder hierárquico gera subordinação e, com ela, o dever de cumprir as ordens legais dos superiores, que só pode ser recusado diante de ordem manifestamente ilegal (regra dos estatutos estaduais; no plano federal, art. 116, IV, da Lei 8.112/90).",
+      "Errada. O controle finalístico (tutela ou supervisão) decorre da vinculação entre a Administração direta e as entidades da Administração indireta. Entre o servidor e sua chefia, dentro do mesmo órgão, a relação é de hierarquia."
+    ]
+  },
+  {
+    "id": "24-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 42, § 3º, da CF (EC 101/2019) estende aos militares dos Estados as hipóteses de acumulação do art. 37, XVI, com prevalência da atividade militar. Assim, o médico militar pode acumular outro cargo privativo de profissional de saúde.",
+      "Errada. A regra é a proibição de acumular remuneradamente cargos, empregos e funções públicas, inclusive na Administração indireta. As exceções estão no art. 37, XVI e XVII, da CF.",
+      "Errada. A acumulação lícita não depende de os cargos pertencerem ao mesmo ente federativo. A vedação e as suas exceções valem em todas as esferas (art. 37, XVI e XVII, da CF).",
+      "Correta. Podem ser acumulados dois cargos ou empregos privativos de profissionais de saúde com profissão regulamentada, desde que haja compatibilidade de horários (art. 37, XVI, c, da CF). A regra vale para o militar estadual (art. 42, § 3º, da CF)."
+    ]
+  },
+  {
+    "id": "24-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A indisponibilidade não alcança todo o patrimônio do réu. Ela se limita ao necessário para assegurar o integral ressarcimento do dano e não incide sobre a multa civil (art. 16, § 10, da Lei 8.429/92, com redação da Lei 14.230/21).",
+      "Errada. A lei não restringe a indisponibilidade aos bens adquiridos depois do ato. Ela pode recair sobre bens do réu suficientes para garantir o ressarcimento, observada a ordem de prioridade do art. 16, § 11, da Lei 8.429/92.",
+      "Errada. A indisponibilidade de bens tem previsão expressa no art. 37, § 4º, da CF e no art. 16 da Lei 8.429/92.",
+      "Correta. A constrição deve atingir apenas os bens suficientes para garantir as consequências patrimoniais da condenação. Hoje a lei limita o bloqueio ao valor do integral ressarcimento do dano, excluída a multa civil (art. 16, § 10, da Lei 8.429/92). Como o patrimônio de José supera esse valor, a decisão deve ser reformada."
+    ]
+  },
+  {
+    "id": "24-30",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os bens públicos não estão sujeitos a usucapião, inclusive os dominicais, que não são afetados (arts. 183, § 3º, e 191, parágrafo único, da CF; art. 102 do CC; Súmula 340 do STF).",
+      "Correta. O imóvel municipal sem afetação é bem dominical, mas continua sendo bem público e, por isso, não pode ser adquirido por usucapião (art. 183, § 3º, da CF e art. 102 do CC).",
+      "Errada. Os bens dominicais podem ser alienados, observadas as exigências legais (art. 101 do CC). A inalienabilidade atinge os bens de uso comum e de uso especial enquanto mantiverem essa qualificação (art. 100 do CC).",
+      "Errada. Praça é bem de uso comum do povo, e não de uso especial (art. 99, I e II, do CC)."
+    ]
+  },
+  {
+    "id": "24-31",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A atuação do fiscal é exercício do poder de polícia, cujos atos em regra são autoexecutórios e dispensam decisão judicial prévia. Não há desvio de poder quando a medida persegue o fim previsto em lei.",
+      "Errada. A autoexecutoriedade admite contraditório diferido quando a situação exige atuação imediata. Além disso, a empresa foi autuada duas vezes e não recorreu, ou seja, teve oportunidade de defesa.",
+      "Correta. A autoexecutoriedade é atributo do poder de polícia: quando prevista em lei ou diante de urgência, a Administração executa suas decisões sem recorrer ao Judiciário, dentro dos limites da razoabilidade e da proporcionalidade.",
+      "Errada. A autoexecutoriedade é justamente a dispensa de autorização judicial prévia. O controle judicial é sempre possível, mas vem depois do ato (art. 5º, XXXV, da CF)."
+    ]
+  },
+  {
+    "id": "24-32",
+    "status": "desatualizada",
+    "motivo": "O gabarito (A) põe como condição da PPP um contrato de valor igual ou superior a R$ 20 milhões. A Lei 13.529/17 alterou o art. 2º, § 4º, I, da Lei 11.079/04 e reduziu esse mínimo para R$ 10 milhões, de modo que a alternativa, como condição, ficou errada. Nenhuma outra alternativa é correta: a SPE deve ser constituída antes da celebração do contrato (art. 9º), a remuneração pode ser variável conforme o desempenho (art. 6º, § 1º) e é possível pagar a parcela fruível do serviço (art. 7º, § 1º)."
+  },
+  {
+    "id": "24-33",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O IPTU progressivo no tempo tem alíquota máxima de 15% e a majoração dura no máximo 5 anos; depois disso, mantém-se a alíquota máxima (art. 7º, §§ 1º e 2º, da Lei 10.257/01). O imposto não pode crescer indefinidamente até o valor do bem.",
+      "Correta. A transmissão do imóvel, por ato inter vivos ou causa mortis, posterior à notificação transfere ao adquirente as obrigações de parcelamento, edificação ou utilização, sem interrupção de prazos (art. 6º da Lei 10.257/01).",
+      "Errada. A desapropriação-sanção é paga em títulos da dívida pública resgatáveis em até 10 anos, e não em dinheiro (art. 182, § 4º, III, da CF e art. 8º da Lei 10.257/01).",
+      "Errada. O descumprimento gera consequências previstas em lei: IPTU progressivo no tempo e, depois, desapropriação com pagamento em títulos (arts. 7º e 8º da Lei 10.257/01). Nada disso depende de intervenção judicial prévia."
+    ]
+  },
+  {
+    "id": "24-34",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os pneus estão sujeitos à logística reversa, que fica a cargo de fabricantes, importadores, distribuidores e comerciantes e independe do serviço público de limpeza urbana (art. 33, III, da Lei 12.305/10).",
+      "Correta. Os distribuidores de pneus devem estruturar e implementar a logística reversa, com o retorno dos produtos após o uso pelo consumidor, de forma independente do serviço público de limpeza urbana e de manejo de resíduos sólidos (art. 33, III, da Lei 12.305/10).",
+      "Errada. A destinação dos pneus não passa pelo serviço público de limpeza urbana. O consumidor deve devolvê-los, e a logística reversa é responsabilidade da cadeia empresarial (art. 33, III e §§ 4º e 5º, da Lei 12.305/10).",
+      "Errada. A lei não exige convênio prévio com o produtor. A logística reversa é implementada por regulamento, acordos setoriais ou termos de compromisso com o poder público (art. 33, § 1º, da Lei 12.305/10)."
+    ]
+  },
+  {
+    "id": "23-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As empresas estatais, mesmo quando exploram atividade econômica, só podem admitir pessoal por concurso público (art. 37, II, da CF).",
+      "Errada. O concurso é obrigatório, mas os empregados de sociedade de economia mista são celetistas e não adquirem a estabilidade do art. 41 da CF, que é própria dos cargos efetivos (Súmula 390, II, do TST). O STF exige apenas que a dispensa seja motivada (Tema 1022).",
+      "Correta. O concurso é obrigatório (art. 37, II, da CF), e o teto remuneratório alcança as empresas públicas e sociedades de economia mista que recebem recursos do ente para pagar despesas de pessoal ou de custeio em geral (art. 37, § 9º, da CF).",
+      "Errada. A sociedade de economia mista que explora atividade econômica segue o regime próprio das empresas privadas quanto às obrigações trabalhistas (art. 173, § 1º, II, da CF). Adota o regime de emprego e não pode optar pelo estatutário."
+    ]
+  },
+  {
+    "id": "23-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A sindicância não é etapa obrigatória. Se já houver elementos suficientes de autoria e materialidade, o PAD pode ser instaurado diretamente (arts. 143 e 148 da Lei 8.112/90; jurisprudência do STJ).",
+      "Errada. As instâncias penal, civil e administrativa são independentes (art. 125 da Lei 8.112/90). O recebimento da denúncia não suspende o PAD.",
+      "Errada. A prova emprestada do processo penal é admitida no PAD, desde que autorizada pelo juízo competente e respeitados o contraditório e a ampla defesa (Súmula 591 do STJ).",
+      "Correta. É válido instaurar o PAD diretamente, sem sindicância. As esferas penal e administrativa são independentes (art. 125 da Lei 8.112/90) e a prova emprestada é admitida (Súmula 591 do STJ)."
+    ]
+  },
+  {
+    "id": "23-29",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Os Estados podem instituir regiões metropolitanas por lei complementar, agrupando municípios limítrofes para integrar a organização, o planejamento e a execução de funções públicas de interesse comum (art. 25, § 3º, da CF; Lei 13.089/15).",
+      "Errada. O consórcio público (Lei 11.107/05) é só uma das formas de gestão associada. A prestação regionalizada do saneamento pode ser estruturada em região metropolitana (art. 3º, VI, a, da Lei 11.445/07, com redação da Lei 14.026/20).",
+      "Errada. Instituir regiões metropolitanas é competência dos Estados, por lei complementar (art. 25, § 3º, da CF).",
+      "Errada. A criação de regiões metropolitanas está prevista no art. 25, § 3º, da CF e no Estatuto da Metrópole (Lei 13.089/15)."
+    ]
+  },
+  {
+    "id": "23-30",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Com exceção do Presidente da República, os agentes políticos respondem tanto na esfera político-administrativa quanto pela Lei de Improbidade (Tema 576 do STF). O prefeito, portanto, responde por improbidade.",
+      "Errada. O foro por prerrogativa de função vale para ações penais. A ação de improbidade contra prefeito tramita no primeiro grau (STF, ADI 2797 e Pet 3240 AgR).",
+      "Errada. A perda da função pública só se efetiva com o trânsito em julgado (art. 20, caput, da Lei 8.429/92). Isso não impede o afastamento cautelar, que é provisório e não prejudica a remuneração (art. 20, § 1º).",
+      "Correta. O juiz pode afastar cautelarmente o agente, sem prejuízo da remuneração, quando a medida for necessária à instrução processual ou para evitar a iminente prática de novos ilícitos. O afastamento dura até 90 dias, prorrogáveis uma vez (art. 20, §§ 1º e 2º, da Lei 8.429/92, com redação da Lei 14.230/21)."
+    ]
+  },
+  {
+    "id": "23-31",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A desapropriação de bens públicos segue a ordem federativa: a União pode desapropriar bens dos Estados, do DF e dos Municípios, e os Estados podem desapropriar bens dos Municípios, em regra com autorização legislativa. O caminho inverso não é admitido (art. 2º, § 2º, do DL 3.365/41).",
+      "Errada. O Estado não pode desapropriar bem da União. Além disso, a declaração de utilidade pública é ato do Poder Executivo (art. 6º do DL 3.365/41), e na ação expropriatória o Judiciário não decide se há utilidade pública (art. 9º).",
+      "Errada. Nenhuma autorização legislativa permite que o Estado desaproprie bem da União. A lei só admite a desapropriação de bens públicos pelo ente maior em relação ao menor (art. 2º, § 2º, do DL 3.365/41).",
+      "Errada. A autorização legislativa do art. 2º, § 2º, do DL 3.365/41 se refere à desapropriação feita pelo ente maior. A lei não prevê que o Estado desaproprie bem da União, nem mesmo com autorização do Congresso Nacional."
+    ]
+  },
+  {
+    "id": "23-32",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O direito de anular atos que favorecem destinatário de boa-fé decai em 5 anos (art. 54 da Lei 9.784/99). Qualquer medida da autoridade que impugne a validade do ato conta como exercício desse direito (art. 54, § 2º), e o processo foi instaurado em 2016, dentro do prazo.",
+      "Errada. O caso é de autotutela, e não de poder de polícia. Aplica-se o prazo decadencial do art. 54 da Lei 9.784/99, e não o prescricional da Lei 9.873/99.",
+      "Errada. A anulação de atos com efeitos favoráveis ao administrado de boa-fé está sujeita ao prazo decadencial de 5 anos (art. 54 da Lei 9.784/99). A Súmula 473 do STF deve ser lida com esse limite.",
+      "Errada. Instaurar o processo administrativo dentro dos 5 anos já é exercício do direito de anular (art. 54, § 2º, da Lei 9.784/99), o que afasta a decadência ainda que a decisão final saia depois."
+    ]
+  },
+  {
+    "id": "22-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A irredutibilidade de subsídios e vencimentos (art. 37, XV, da CF) impede reduzir o valor nominal da remuneração, mesmo em crise fiscal. Para o ajuste, o art. 169 da CF prevê outras medidas.",
+      "Errada. Os cargos em comissão são de livre nomeação e exoneração (art. 37, II, da CF). Reduzir em pelo menos 20% as despesas com eles é justamente uma das medidas do art. 169, § 3º, I, da CF.",
+      "Correta. Reduzir o valor nominal de subsídios e vencimentos viola a irredutibilidade (art. 37, XV, da CF). Pelo mesmo motivo, o STF declarou inconstitucional a redução de vencimentos prevista na LRF (ADI 2238).",
+      "Errada. Para o STF, não há direito adquirido a regime jurídico, desde que se respeite a irredutibilidade de vencimentos. Só é inconstitucional o projeto que reduz a remuneração."
+    ]
+  },
+  {
+    "id": "22-30",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Em caso de iminente perigo público, a autoridade competente pode usar a propriedade particular, com indenização posterior se houver dano (art. 5º, XXV, da CF). Essa é a requisição administrativa, que alcança também bens móveis como o maquinário.",
+      "Errada. O tombamento serve para proteger o patrimônio histórico, artístico e cultural (art. 216, § 1º, da CF e DL 25/37), e não para o uso emergencial de bens.",
+      "Errada. A desapropriação transfere a propriedade de forma definitiva, mediante indenização prévia (art. 5º, XXIV, da CF), o que não combina com o uso temporário e urgente do maquinário.",
+      "Errada. A servidão administrativa é direito real público e permanente que onera um imóvel em favor de serviço ou obra pública (art. 40 do DL 3.365/41). Não tem caráter emergencial."
+    ]
+  },
+  {
+    "id": "22-31",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O RDC (Lei 12.462/11) foi revogado pela Lei 14.133/21 (art. 193, II), com efeitos desde 30/12/2023. Mesmo quando vigorava, servia a hipóteses específicas, e não a compras rotineiras de papelaria.",
+      "Errada. O leilão é a modalidade usada para alienar imóveis e móveis inservíveis ou apreendidos (art. 6º, XL, da Lei 14.133/21), e não para comprar bens.",
+      "Correta. Para compras frequentes de bens comuns, a Administração pode usar o sistema de registro de preços, feito por pregão ou concorrência (arts. 6º, XLV, e 82 da Lei 14.133/21). O pregão é a modalidade obrigatória para bens e serviços comuns (art. 6º, XLI).",
+      "Errada. O convite foi extinto. As modalidades atuais são pregão, concorrência, concurso, leilão e diálogo competitivo (art. 28 da Lei 14.133/21), e, mesmo na Lei 8.666/93, o cabimento do convite dependia do valor."
+    ]
+  },
+  {
+    "id": "22-32",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A promoção do voluntariado está expressamente entre as finalidades que permitem a qualificação como OSCIP (art. 3º, VII, da Lei 9.790/99).",
+      "Errada. A qualificação como OSCIP é ato vinculado: se os requisitos legais forem preenchidos, ela deve ser concedida (art. 1º, § 2º, da Lei 9.790/99).",
+      "Errada. O instrumento próprio da OSCIP é o termo de parceria (art. 9º da Lei 9.790/99). O contrato de gestão é firmado com as Organizações Sociais (Lei 9.637/98).",
+      "Correta. O imóvel adquirido com recursos do termo de parceria fica gravado com cláusula de inalienabilidade (art. 15 da Lei 9.790/99), por isso a entidade não pode aliená-lo livremente."
+    ]
+  },
+  {
+    "id": "22-33",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É inconstitucional qualquer forma de provimento que permita ao servidor ocupar, sem concurso destinado ao respectivo provimento, cargo que não integra a carreira em que foi investido (Súmula Vinculante 43 e art. 37, II, da CF).",
+      "Errada. O reenquadramento em cargo de outra carreira é provimento derivado vedado, e não mera transformação de cargos (Súmula Vinculante 43).",
+      "Errada. Nem todo cargo exige concurso: os cargos em comissão são de livre nomeação e exoneração (art. 37, II e V, da CF). A medida é inválida por outra razão: provimento derivado em carreira diversa.",
+      "Errada. O fato de os servidores serem concursados e de não haver aumento de despesa não dispensa o concurso específico para a nova carreira (art. 37, II, da CF e Súmula Vinculante 43)."
+    ]
+  },
+  {
+    "id": "22-34",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo para executar a multa conta da constituição definitiva do crédito, após o término do processo administrativo, e não da autuação (art. 1º-A da Lei 9.873/99).",
+      "Errada. O crédito de multa administrativa prescreve: a execução deve ser ajuizada em até 5 anos da constituição definitiva (art. 1º-A da Lei 9.873/99).",
+      "Errada. O prazo para executar a multa é de 5 anos, e não de 3 (art. 1º-A da Lei 9.873/99). O prazo de 3 anos da lei é o da prescrição intercorrente do processo administrativo paralisado (art. 1º, § 1º).",
+      "Correta. Constituído o crédito em 19/01/2011, a Administração federal tinha 5 anos para executá-lo (art. 1º-A da Lei 9.873/99; no mesmo sentido, Súmula 467 do STJ). A execução ajuizada em 15/10/2015 foi tempestiva."
+    ]
+  },
+  {
+    "id": "21-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A improbidade pressupõe ato de agente público ou de terceiro que induza ou concorra dolosamente com ele (arts. 1º a 3º da Lei 8.429/92). Acordo entre empresas privadas sem participação de agente público não é improbidade.",
+      "Correta. O acordo entre concorrentes para fixar preços (cartel) é infração à ordem econômica (art. 36, I e § 3º, I, a, da Lei 12.529/11), reprimida por lei conforme o art. 173, § 4º, da CF.",
+      "Errada. A conquista de mercado por maior eficiência não é ilícita (art. 36, § 1º, da Lei 12.529/11). Aqui, porém, o domínio vem de um acordo de preços, e não de um processo natural.",
+      "Errada. A conduta é vedada pela Lei 12.529/11 (art. 36, § 3º, I, a) e ainda configura crime contra a ordem econômica (art. 4º, II, a, da Lei 8.137/90)."
+    ]
+  },
+  {
+    "id": "21-30",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Na concessão administrativa, a Administração é a usuária direta ou indireta do serviço e não se cobra tarifa dos usuários (art. 2º, § 2º, da Lei 11.079/04). No caso há pedágio.",
+      "Errada. Consórcio público é ajuste entre entes federativos (Lei 11.107/05), e não entre uma autarquia e uma pessoa jurídica de direito privado.",
+      "Correta. Concessão patrocinada é a concessão de serviço ou obra pública em que o parceiro público paga contraprestação pecuniária ao privado, além da tarifa cobrada dos usuários (art. 2º, § 1º, da Lei 11.079/04).",
+      "Errada. O consórcio público, com personalidade de direito público ou privado, só é formado por entes da Federação (arts. 1º e 6º da Lei 11.107/05). A relação descrita é contratual, uma PPP."
+    ]
+  },
+  {
+    "id": "21-31",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Estado tem o dever específico de proteger o preso (art. 5º, XLIX, da CF). O homicídio cometido por outro detento só rompe o nexo causal se ficar demonstrado que a morte não podia ser evitada (Tema 592 do STF).",
+      "Errada. Quando o Estado descumpre o dever específico de custódia, responde objetivamente (art. 37, § 6º, da CF; Tema 592 do STF).",
+      "Errada. O Brasil adota a teoria do risco administrativo (art. 37, § 6º, da CF), que admite excludentes. O risco integral é excepcional, aplicado, por exemplo, a dano nuclear e a dano ambiental.",
+      "Correta. O Estado responde objetivamente pela morte do detento quando descumpre o dever específico de proteger quem está sob sua custódia (arts. 5º, XLIX, e 37, § 6º, da CF; Tema 592 do STF)."
+    ]
+  },
+  {
+    "id": "21-32",
+    "status": "duvidosa",
+    "motivo": "Depois da prova (2016), o STF firmou que estatais prestadoras de serviço público próprio do Estado, em regime não concorrencial e sem intuito lucrativo, se submetem ao regime de precatórios e têm bens impenhoráveis (ADPF 387/2017, ADPF 556/2020 e outras; Tema 253 só exclui as que atuam em concorrência). O enunciado descreve uma empresa pública estadual prestadora de serviço público e não diz se ela atua em regime concorrencial, de modo que a alternativa D também pode ser sustentada. A questão já não tem resposta única segura."
+  },
+  {
+    "id": "21-33",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Constituição autoriza contratar por tempo determinado para atender necessidade temporária de excepcional interesse público, nos casos previstos em lei (art. 37, IX, da CF).",
+      "Errada. Direção, chefia e assessoramento são atribuições de cargos em comissão e funções de confiança (art. 37, V, da CF), e não de contratação temporária.",
+      "Correta. Se a lei especifica os casos, substituir temporariamente professores afastados por licença é necessidade temporária de excepcional interesse público (art. 37, IX, da CF; Tema 612 do STF).",
+      "Errada. A contratação temporária depende de lei que estabeleça os casos (art. 37, IX, da CF), e essa lei não pode trazer hipóteses genéricas (Tema 612 do STF)."
+    ]
+  },
+  {
+    "id": "21-34",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A garantia do salário mínimo se aplica aos servidores públicos (art. 39, § 3º, combinado com o art. 7º, IV, da CF).",
+      "Errada. A garantia do salário mínimo se refere ao total da remuneração do servidor, e não ao vencimento-base (Súmula Vinculante 16).",
+      "Correta. Os arts. 7º, IV, e 39, § 3º, da CF se referem ao total da remuneração recebida pelo servidor público (Súmula Vinculante 16).",
+      "Errada. O subsídio em parcela única só é obrigatório para determinados agentes (art. 39, § 4º, e art. 144, § 9º, da CF). Para os demais servidores organizados em carreira, é facultativo (art. 39, § 8º)."
+    ]
+  },
+  {
+    "id": "20-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Desconcentração é a distribuição interna de competências entre órgãos da mesma pessoa jurídica e não tem relação com os bens reversíveis.",
+      "Errada. Imperatividade é o atributo que permite ao ato administrativo impor obrigações a terceiros sem a sua concordância. Não justifica a reversão de bens.",
+      "Correta. A reversão dos bens ligados ao serviço ao fim da concessão garante a continuidade do serviço público (arts. 35, § 1º, e 36 da Lei 8.987/95). Os bens já amortizados retornam sem indenização, sem enriquecimento sem causa.",
+      "Errada. A subsidiariedade orienta o Estado a atuar apenas quando a iniciativa privada não consegue atender a demanda. Não fundamenta a reversão de bens."
+    ]
+  },
+  {
+    "id": "20-30",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Nos Municípios, o teto remuneratório é o subsídio do Prefeito, inclusive para os servidores da Câmara Municipal (art. 37, XI, da CF).",
+      "Errada. O subsídio dos vereadores não é teto para os servidores municipais. O art. 37, XI, da CF fixa como teto municipal o subsídio do Prefeito.",
+      "Errada. O teto alcança as vantagens pessoais ou de qualquer outra natureza (art. 37, XI, da CF). Ficam de fora apenas as parcelas indenizatórias (art. 37, § 11).",
+      "Errada. O teto do art. 37, XI, da CF, na redação da EC 41/2003, é autoaplicável e não depende de lei complementar."
+    ]
+  },
+  {
+    "id": "20-31",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O particular que induz ou concorre dolosamente para o ato de improbidade também responde (art. 3º da Lei 8.429/92).",
+      "Errada. O gerente de empresa pública é agente público para fins da LIA, porque exerce emprego em entidade da Administração indireta (arts. 1º e 2º da Lei 8.429/92).",
+      "Errada. Para a LIA, agente público inclui quem exerce cargo, emprego ou função nas entidades do art. 1º, inclusive os empregados de empresa pública (art. 2º da Lei 8.429/92).",
+      "Correta. O gerente é agente público (art. 2º da Lei 8.429/92), e o diretor-presidente, que concorreu dolosamente e se beneficiou do esquema, responde como terceiro (art. 3º, caput e § 1º)."
+    ]
+  },
+  {
+    "id": "20-32",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Punir com base na verdade sabida, sem ouvir o servidor, viola o contraditório e a ampla defesa (art. 5º, LV, da CF; arts. 143 e 153 da Lei 8.112/90). Esse critério não foi recepcionado pela Constituição de 1988.",
+      "Errada. A reincidência em falta punida com advertência autoriza a suspensão (art. 130 da Lei 8.112/90). O vício está na falta de defesa.",
+      "Errada. Mesmo que a falta seja conhecida por outros servidores, a penalidade exige processo com contraditório e ampla defesa (art. 5º, LV, da CF).",
+      "Errada. Suprimir o direito de defesa é vício insanável, que não se convalida por ratificação, pois só se convalidam defeitos sanáveis (art. 55 da Lei 9.784/99). A sanção deve ser anulada."
+    ]
+  },
+  {
+    "id": "20-33",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As pretensões contra a Fazenda Pública prescrevem em 5 anos (art. 1º do Decreto 20.910/32), e não em 3.",
+      "Correta. A pretensão contra a Fazenda prescreve em 5 anos (art. 1º do Decreto 20.910/32), e o requerimento administrativo suspende o prazo enquanto a Administração o examina (art. 4º). Após a decisão, o prazo volta a correr pelo saldo restante.",
+      "Errada. Aplica-se o prazo especial de 5 anos do Decreto 20.910/32, e não o prazo geral de 10 anos do art. 205 do CC. Além disso, a lei prevê suspensão (art. 4º).",
+      "Errada. O prazo é de 5 anos, mas o pedido administrativo suspende a prescrição enquanto é examinado (art. 4º do Decreto 20.910/32). Por isso, o prazo ainda não se esgotou."
+    ]
+  },
+  {
+    "id": "20-34",
+    "status": "duvidosa",
+    "motivo": "A questão (tema licitações e contratos) partia do art. 70 da Lei 8.666/93, que previa responsabilidade subjetiva do contratado por culpa ou dolo. Esse artigo foi substituído pelo art. 120 da Lei 14.133/21, que retirou a menção a culpa ou dolo. Discute-se hoje se a empreiteira de obra pública responde objetivamente e se o Município responde de forma solidária ou apenas subsidiária pelos danos decorrentes da má execução da obra. Com isso, a afirmação do gabarito (C) de que contratada e Município respondem juntos, apenas atenuados pela culpa concorrente, não é segura como única resposta correta, e a alternativa D ganha defensores."
+  },
+  {
+    "id": "19-29",
+    "status": "desatualizada",
+    "motivo": "O gabarito (B) diz que a PPP só pode ser contratada com valor igual ou superior a R$ 20 milhões. Desde a Lei 13.529/17, o art. 2º, § 4º, I, da Lei 11.079/04 fixa o mínimo em R$ 10 milhões, então a alternativa deixou de ser correta. As demais continuam erradas: a concessão administrativa não tem tarifa (art. 2º, § 2º), o prazo é de 5 a 35 anos (art. 5º, I) e a PPP pode envolver obra pública (art. 2º, § 2º)."
+  }
+]

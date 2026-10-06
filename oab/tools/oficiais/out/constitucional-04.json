@@ -1,0 +1,402 @@
+[
+  {
+    "id": "29-16",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há hierarquia entre lei complementar e lei ordinária: as espécies diferem pela matéria reservada e pelo quórum de aprovação (art. 69 da CF). Por isso a Lei Ordinária Y não é formalmente inconstitucional.",
+      "Errada. Como a matéria não é reservada à lei complementar, os dispositivos da Lei Complementar X são materialmente ordinários e podem ser revogados por lei ordinária (STF, RE 377.457 e ADC 1).",
+      "Errada. Não há vício formal na lei complementar que trata de matéria não reservada: ela é válida, apenas tem natureza de lei materialmente ordinária. Inconstitucional seria o inverso, a lei ordinária invadindo matéria reservada à lei complementar.",
+      "Correta. Segundo o STF, a lei complementar que disciplina matéria não reservada a essa espécie é formalmente complementar, mas materialmente ordinária, e pode ser alterada ou revogada por lei ordinária posterior (RE 377.457)."
+    ]
+  },
+  {
+    "id": "29-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A ação popular serve para anular ato lesivo ao meio ambiente, inclusive de forma preventiva, antes do início das obras (art. 5º, LXXIII, da CF e art. 1º da Lei 4.717/65).",
+      "Errada. A legitimidade do cidadão para a ação popular é autônoma e não depende de inércia do Ministério Público, que atua como fiscal da ordem jurídica (art. 6º, § 4º, da Lei 4.717/65).",
+      "Errada. A ação popular é adequada à proteção do meio ambiente, mas o cidadão precisa de advogado: a CF o isenta de custas e de ônus da sucumbência, salvo má-fé, e não da capacidade postulatória (art. 5º, LXXIII, da CF; art. 103 do CPC).",
+      "Correta. Se o autor desistir da ação popular, qualquer cidadão ou o Ministério Público pode promover o seu prosseguimento, no prazo de 90 dias da última publicação dos editais (art. 9º da Lei 4.717/65)."
+    ]
+  },
+  {
+    "id": "28-11",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A forma federativa de Estado é cláusula pétrea, e nem emenda constitucional pode tender a aboli-la (art. 60, § 4º, I, da CF); o plebiscito estadual não legitima a separação.",
+      "Errada. A alternativa reproduz requisitos da criação de Municípios (art. 18, § 4º, da CF), que não se aplicam à secessão. A união dos Estados, Municípios e DF é indissolúvel (art. 1º da CF).",
+      "Errada. A autonomia dos entes não inclui direito de secessão, pois o vínculo federativo é indissolúvel (art. 1º da CF). O plebiscito e a lei complementar do art. 18, § 3º, tratam só da reorganização interna dos Estados (incorporação, subdivisão e desmembramento).",
+      "Correta. A indissolubilidade do vínculo federativo (art. 1º) e a cláusula pétrea da forma federativa (art. 60, § 4º, I) vedam a secessão, e a tentativa pode ensejar intervenção federal para manter a integridade nacional (art. 34, I, da CF)."
+    ]
+  },
+  {
+    "id": "28-12",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O objeto da ADPF é amplo e abrange qualquer ato do Poder Público, inclusive decisões judiciais, atos municipais e normas pré-constitucionais (art. 1º da Lei 9.882/99). O STF conheceu justamente a ADPF 101, contra decisões que autorizavam a importação de pneus usados.",
+      "Correta. A ADPF busca evitar ou reparar lesão a preceito fundamental resultante de ato do Poder Público (art. 1º da Lei 9.882/99), o que inclui decisões judiciais, desde que não haja outro meio eficaz de sanar a lesividade (subsidiariedade, art. 4º, § 1º).",
+      "Errada. A Lei 9.882/99 não traz rol de preceitos fundamentais; cabe ao STF identificá-los, e a saúde e o meio ambiente ecologicamente equilibrado (arts. 196 e 225 da CF) foram reconhecidos como tais na ADPF 101.",
+      "Errada. O Presidente da República é legitimado universal para a ADPF (art. 2º, I, da Lei 9.882/99 c/c art. 103, I, da CF), e o controle de atos judiciais pelo STF não ofende a separação dos poderes."
+    ]
+  },
+  {
+    "id": "28-13",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal é assegurada a todos, independentemente do pagamento de taxas (art. 5º, XXXIV, b, da CF), e o direito à informação só cede diante do sigilo imprescindível à segurança da sociedade e do Estado (art. 5º, XXXIII).",
+      "Errada. A gratuidade da certidão decorre diretamente do art. 5º, XXXIV, da CF e não depende de prova de hipossuficiência econômica.",
+      "Errada. A CF veda a cobrança de taxas para a emissão dessas certidões (art. 5º, XXXIV, b). Além disso, o habeas data protege o acesso a informações pessoais em registros ou bancos de dados (art. 5º, LXXII), não a obtenção de certidão ou vista de processo administrativo, amparada por mandado de segurança.",
+      "Errada. Não existe sigilo genérico dos processos administrativos tributários perante o próprio contribuinte interessado; a regra é a publicidade e o acesso à informação (arts. 5º, XXXIII, e 37 da CF; Lei 12.527/11)."
+    ]
+  },
+  {
+    "id": "28-14",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 243 da CF (redação da EC 81/2014) autoriza expressamente a expropriação, sem indenização, das propriedades rurais e urbanas onde for localizada exploração de trabalho escravo.",
+      "Errada. A expropriação do art. 243 da CF ocorre sem qualquer indenização e não depende da prévia aplicação de alíquotas progressivas do ITR.",
+      "Errada. Não se trata de desapropriação-sanção por descumprimento da função social, com indenização em títulos da dívida agrária (art. 184), mas de expropriação confiscatória, sem indenização (art. 243 da CF).",
+      "Correta. A exploração de trabalho escravo autoriza a expropriação sem indenização, sem prejuízo de outras sanções, e todo bem de valor econômico apreendido em decorrência dessa exploração será confiscado e revertido a fundo especial (art. 243, caput e parágrafo único, da CF)."
+    ]
+  },
+  {
+    "id": "28-15",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 5º, caput, menciona brasileiros e estrangeiros residentes, e o STF estende os direitos fundamentais também aos estrangeiros não residentes; além disso, a saúde é direito de todos (art. 196 da CF).",
+      "Errada. A saúde independe de contribuição; apenas a previdência social tem caráter contributivo (arts. 196 e 201 da CF).",
+      "Correta. A saúde é direito de todos e dever do Estado, garantido mediante acesso universal e igualitário às ações e serviços (art. 196 da CF; art. 7º, I, da Lei 8.080/90), o que alcança o turista estrangeiro em situação de urgência.",
+      "Errada. O atendimento pelo SUS é universal e gratuito, sem exigência de custeio pelo paciente nem de prova de hipossuficiência (art. 196 da CF)."
+    ]
+  },
+  {
+    "id": "28-16",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As Mesas da Câmara e do Senado podem encaminhar pedidos escritos de informação a Ministros de Estado, que são obrigados a responder (art. 50, § 2º, da CF).",
+      "Errada. A recusa ou o não atendimento no prazo de 30 dias, bem como a prestação de informações falsas, importa crime de responsabilidade (art. 50, § 2º, da CF); é mecanismo de controle legislativo compatível com a separação dos poderes.",
+      "Errada. A omissão configura crime de responsabilidade, e não crime comum, e o julgamento de Ministro de Estado por crime de responsabilidade não conexo com o do Presidente cabe ao STF, não ao STJ (art. 102, I, c, da CF).",
+      "Correta. O Ministro deve responder ao pedido escrito da Mesa em 30 dias; a recusa ou o não atendimento importa crime de responsabilidade, sem margem de discricionariedade (art. 50, § 2º, da CF)."
+    ]
+  },
+  {
+    "id": "28-17",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É vedada a edição de medida provisória sobre matéria que vise a detenção ou sequestro de bens, de poupança popular ou qualquer outro ativo financeiro (art. 62, § 1º, II, da CF).",
+      "Errada. O vício não decorre de a matéria já estar regulada por lei ordinária, mas da vedação material expressa do art. 62, § 1º, II, da CF.",
+      "Errada. A regra de só produzir efeitos no exercício financeiro seguinte aplica-se à MP que institui ou majora impostos (art. 62, § 2º, da CF), não à hipótese narrada.",
+      "Errada. Ainda que presentes relevância e urgência, a MP é inconstitucional pela vedação material do art. 62, § 1º, II; o prazo de 60 dias prorrogável por igual período (art. 62, §§ 3º e 7º) não supre esse vício."
+    ]
+  },
+  {
+    "id": "27-11",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os Estados têm capacidade de auto-organização e se organizam pelas Constituições e leis que adotarem (art. 25 da CF; art. 11 do ADCT).",
+      "Errada. A Constituição estadual deve observar os princípios da Constituição Federal (art. 25 da CF), inclusive as normas de reprodução obrigatória, à luz do princípio da simetria.",
+      "Correta. Como ente autônomo, o Estado se auto-organiza por meio de sua Constituição, que deve observar os princípios e padrões fixados na Constituição Federal (art. 25 da CF e princípio da simetria).",
+      "Errada. A Constituição estadual não precisa reproduzir literalmente a Federal; pode inovar, desde que respeite os princípios constitucionais sensíveis, extensíveis e estabelecidos."
+    ]
+  },
+  {
+    "id": "27-12",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Pesca e proteção do meio ambiente são de competência legislativa concorrente (art. 24, VI, da CF), ao passo que navegação marítima e transporte são privativos da União (art. 22, X e XI), que pode autorizar os Estados, por lei complementar, a legislar sobre questões específicas (art. 22, parágrafo único).",
+      "Errada. A competência comum do art. 23 da CF é material (administrativa), não legislativa; e transporte e navegação marítima são de competência legislativa privativa da União (art. 22, X e XI).",
+      "Errada. Proteção do meio ambiente e controle da poluição são de competência legislativa concorrente da União, dos Estados e do DF (art. 24, VI, da CF), não privativa da União.",
+      "Errada. A pesca é de competência legislativa concorrente (art. 24, VI), e não exclusiva da União; e o Estado não tem competência privativa sobre meio ambiente, que também é concorrente."
+    ]
+  },
+  {
+    "id": "27-13",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Ninguém pode ser compelido a associar-se ou a permanecer associado (art. 5º, XX, da CF), e a criação de associações independe de autorização estatal, vedada a interferência do Estado em seu funcionamento (art. 5º, XVIII).",
+      "Errada. A proteção não é absoluta: as associações podem ser compulsoriamente dissolvidas ou ter as atividades suspensas por decisão judicial, exigindo-se o trânsito em julgado apenas para a dissolução (art. 5º, XIX, da CF).",
+      "Errada. Além das de caráter paramilitar, são vedadas as associações para fins ilícitos, e a CF proíbe a associação compulsória (art. 5º, XVII e XX).",
+      "Errada. Nenhuma lesão ou ameaça a direito pode ser excluída da apreciação do Poder Judiciário (art. 5º, XXXV), e a própria CF prevê a suspensão e a dissolução de associações por decisão judicial (art. 5º, XIX)."
+    ]
+  },
+  {
+    "id": "27-14",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Compete aos Municípios promover o adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano (art. 30, VIII, da CF).",
+      "Correta. O zoneamento urbano é competência municipal (art. 30, VIII, da CF), mas a lei municipal que impede a instalação de estabelecimentos comerciais do mesmo ramo em determinada área ofende a livre concorrência (Súmula Vinculante 49; art. 170, IV, da CF).",
+      "Errada. O ordenamento territorial urbano, com controle do uso e da ocupação do solo, é competência municipal (art. 30, VIII, da CF), não estadual.",
+      "Errada. O zoneamento urbano não é competência privativa da União; cabe aos Municípios legislar sobre assuntos de interesse local e sobre o ordenamento do solo urbano (art. 30, I e VIII, da CF)."
+    ]
+  },
+  {
+    "id": "27-15",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A extinção de funções ou cargos públicos, quando vagos, pode ser feita por decreto do Presidente (art. 84, VI, b, da CF, incluído pela EC 32/2001); a lei só é exigida para criar cargos e extinguir cargos ocupados (art. 48, X).",
+      "Errada. A competência do art. 84, VI, pode ser delegada aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União (art. 84, parágrafo único, da CF).",
+      "Correta. O Presidente pode dispor, mediante decreto, sobre a extinção de funções ou cargos públicos vagos (art. 84, VI, b, da CF) e delegar essa atribuição aos Ministros de Estado (art. 84, parágrafo único).",
+      "Errada. A CF admite a extinção de cargos vagos por decreto (art. 84, VI, b), independentemente de excesso de despesa com pessoal; as medidas por excesso de gastos (art. 169, §§ 3º e 4º) tratam de outra situação."
+    ]
+  },
+  {
+    "id": "27-16",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A eficácia erga omnes e o efeito vinculante da decisão em ADI atingem o Judiciário e a Administração Pública, mas não o Legislativo em sua função típica (art. 102, § 2º, da CF; art. 28, parágrafo único, da Lei 9.868/99); por isso o STF não admite reclamação contra nova lei de igual teor.",
+      "Errada. A nova lei goza de presunção de constitucionalidade e produz efeitos até ser declarada inconstitucional; ela não nasce nula pela simples existência de decisão anterior sobre lei de outro ente.",
+      "Errada. As decisões definitivas de mérito em ADI têm eficácia contra todos e efeito vinculante (art. 102, § 2º, da CF). A nova lei pode ser editada porque esse efeito não alcança o Legislativo, e não por falta de efeito vinculante.",
+      "Correta. O efeito vinculante não atinge o Poder Legislativo na função de legislar, para evitar a fossilização da Constituição (art. 102, § 2º, da CF); a nova lei estadual deve ser impugnada por nova ADI."
+    ]
+  },
+  {
+    "id": "27-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Quando se trata de assegurar princípios indicados na Constituição Estadual, a intervenção depende de provimento de representação pelo Tribunal de Justiça (art. 35, IV, da CF); o Governador não pode decretá-la de ofício.",
+      "Correta. O Estado pode intervir no Município quando o Tribunal de Justiça der provimento a representação para assegurar a observância de princípios indicados na Constituição Estadual (art. 35, IV, da CF), cabendo ao Governador decretar a medida.",
+      "Errada. O art. 35, IV, da CF prevê expressamente a intervenção para assegurar a observância de princípios indicados na Constituição Estadual.",
+      "Errada. Na intervenção do art. 35, IV, dispensa-se a apreciação pela Assembleia Legislativa se o decreto se limitar a suspender a execução do ato impugnado, quando isso bastar ao restabelecimento da normalidade (art. 36, § 3º, da CF)."
+    ]
+  },
+  {
+    "id": "26-11",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A conversão das normas da Constituição anterior em normas infraconstitucionais (desconstitucionalização) não ocorre automaticamente no Brasil; dependeria de previsão expressa na nova Constituição.",
+      "Errada. A recepção se aplica às normas infraconstitucionais materialmente compatíveis com a nova Constituição, e não às normas da Constituição anterior.",
+      "Errada. Não há atribuição de status supralegal às normas da Constituição pretérita; status supralegal é o que o STF reconhece aos tratados de direitos humanos não aprovados pelo rito do art. 5º, § 3º, da CF.",
+      "Correta. Em regra, a nova Constituição revoga integralmente a anterior, ainda que não trate de todas as suas matérias; a desconstitucionalização só ocorreria com previsão expressa do poder constituinte originário."
+    ]
+  },
+  {
+    "id": "26-12",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. No estado de defesa podem ser restringidos o direito de reunião e o sigilo de correspondência e de comunicação telegráfica e telefônica (art. 136, § 1º, I, da CF), mas o decreto deve fixar sua duração, que não pode superar 30 dias, prorrogável uma vez por igual período (art. 136, §§ 1º e 2º).",
+      "Errada. As restrições ao sigilo de correspondência e de comunicação telegráfica e telefônica estão expressamente autorizadas no estado de defesa (art. 136, § 1º, I, b e c, da CF).",
+      "Errada. O estado de defesa é decretado pelo Presidente, ouvidos o Conselho da República e o Conselho de Defesa Nacional, com submissão posterior ao Congresso em 24 horas (art. 136, caput e § 4º); a autorização prévia do Congresso é exigida para o estado de sítio (art. 137).",
+      "Errada. O estado de defesa não pode ser decretado por prazo indeterminado: o máximo é de 30 dias, prorrogável uma vez por igual período (art. 136, § 2º, da CF)."
+    ]
+  },
+  {
+    "id": "26-13",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Presidente só pode solicitar urgência para projetos de sua própria iniciativa (art. 64, § 1º, da CF), e não para todos os projetos em tramitação.",
+      "Errada. A urgência constitucional é prerrogativa do Presidente da República nos projetos de sua iniciativa (art. 64, § 1º); a urgência regimental, requerida no âmbito das Casas, é outro instituto.",
+      "Correta. O Presidente da República pode solicitar urgência apenas para a apreciação de projetos de sua iniciativa (art. 64, § 1º, da CF); o projeto apresentado pelo deputado Alberto não admite esse regime.",
+      "Errada. Não há exigência de que matérias urgentes sejam veiculadas por medida provisória; o Presidente pode usar a urgência constitucional nos projetos de sua iniciativa (art. 64, §§ 1º a 4º, da CF)."
+    ]
+  },
+  {
+    "id": "26-14",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de 15 anos de residência ininterrupta é da naturalização extraordinária (art. 12, II, b, da CF); dos originários de países de língua portuguesa exigem-se apenas residência por um ano ininterrupto e idoneidade moral (art. 12, II, a).",
+      "Correta. Para originários de países de língua portuguesa, a naturalização exige apenas residência por um ano ininterrupto e idoneidade moral (art. 12, II, a, da CF), e o cargo de prefeito não é privativo de brasileiro nato (art. 12, § 3º), bastando a nacionalidade brasileira e a idade mínima de 21 anos (art. 14, § 3º).",
+      "Errada. O brasileiro naturalizado pode alistar-se como eleitor e exercer os direitos políticos, inclusive candidatar-se, ressalvados apenas os cargos privativos de brasileiro nato (art. 12, §§ 2º e 3º, da CF).",
+      "Errada. A nacionalidade originária decorre só das hipóteses do art. 12, I, da CF; o português que cumpre os requisitos do art. 12, II, a, torna-se brasileiro naturalizado, e não nato."
+    ]
+  },
+  {
+    "id": "26-15",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O poder constituinte derivado reformador altera formalmente o texto, por emenda (art. 60 da CF); a mutação constitucional é processo informal.",
+      "Errada. A mudança de significado por meio de emenda é reforma constitucional (alteração formal do texto), e não mutação.",
+      "Correta. Mutação constitucional é a alteração informal do sentido da norma constitucional, geralmente pela via interpretativa, sem qualquer mudança no texto da Constituição.",
+      "Errada. A substituição do texto constitucional por outro, por meio de Assembleia Nacional Constituinte, é manifestação do poder constituinte originário, e não mutação."
+    ]
+  },
+  {
+    "id": "26-16",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Letícia tem a idade mínima de 21 anos para deputada estadual (art. 14, § 3º, VI, c, da CF), mas, como enteada (afim em 1º grau) do Governador Juliano, é inelegível no território do Estado X durante o mandato dele (art. 14, § 7º).",
+      "Errada. A inelegibilidade reflexa alcança o cônjuge e os parentes consanguíneos ou afins até o segundo grau ou por adoção (art. 14, § 7º, da CF); a enteada é parente por afinidade em 1º grau do Governador.",
+      "Errada. A idade mínima para deputado estadual é de 21 anos (art. 14, § 3º, VI, c, da CF), aferida na data da posse (art. 11, § 2º, da Lei 9.504/97), e Letícia terá 23.",
+      "Errada. A inelegibilidade reflexa do art. 14, § 7º, da CF decorre apenas do vínculo com chefes do Executivo (Presidente, Governador e Prefeito); o mandato de deputada federal de Mariana não impede a candidatura no Estado Y."
+    ]
+  },
+  {
+    "id": "26-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A liberdade de reunião não é ilimitada: exige reunião pacífica, sem armas, com prévio aviso à autoridade, e que não frustre outra reunião anteriormente convocada para o mesmo local (art. 5º, XVI, da CF).",
+      "Errada. O direito de reunião independe de autorização; exige-se apenas prévio aviso à autoridade competente (art. 5º, XVI, da CF).",
+      "Correta. A reunião em local aberto ao público não pode frustrar outra anteriormente convocada para o mesmo local (art. 5º, XVI, da CF), e Marina marcou a sua justamente para impedir a de Antônio, já comunicada às autoridades.",
+      "Errada. Mesmo fora dos estados de defesa e de sítio, o direito de reunião está sujeito aos limites do art. 5º, XVI, da CF, entre eles o de não frustrar reunião anteriormente convocada para o mesmo local."
+    ]
+  },
+  {
+    "id": "25-11",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A norma pré-constitucional materialmente incompatível com a nova Constituição não é recepcionada, o que, segundo o STF, equivale à sua revogação (ADI 2).",
+      "Errada. O STF não adota a tese da inconstitucionalidade superveniente: o conflito entre lei anterior e Constituição nova resolve-se pela revogação (não recepção), e não por declaração de inconstitucionalidade com efeitos ex tunc.",
+      "Errada. Desconstitucionalização é a permanência de normas da Constituição anterior como leis ordinárias, e exige previsão expressa; o conceito não se aplica a uma lei ordinária de 1985.",
+      "Errada. A compatibilidade formal com a nova Constituição é irrelevante para a recepção (quanto à forma, vale o tempus regit actum), e a incompatibilidade narrada é material; além disso, o Brasil não adota a inconstitucionalidade superveniente."
+    ]
+  },
+  {
+    "id": "25-12",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A ADI perante o STF tem por objeto lei ou ato normativo federal ou estadual (art. 102, I, a, da CF) e não serve para impugnar decisão administrativa concreta de prefeito.",
+      "Errada. O mandado de injunção supre a falta de norma regulamentadora que inviabilize direitos (art. 5º, LXXI, da CF); no caso não há omissão, mas ato que contraria súmula vinculante.",
+      "Correta. Contra ato administrativo que contrariar súmula vinculante cabe reclamação ao STF (art. 103-A, § 3º, da CF; art. 7º da Lei 11.417/06; art. 988, III, do CPC), após o esgotamento das vias administrativas (art. 7º, § 1º, da Lei 11.417/06).",
+      "Errada. O habeas data assegura o conhecimento ou a retificação de informações pessoais do impetrante em bancos de dados públicos (art. 5º, LXXII, da CF) e não se presta a controlar ato contrário a súmula vinculante."
+    ]
+  },
+  {
+    "id": "25-13",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O voto obrigatório não é cláusula pétrea; a CF protege o voto direto, secreto, universal e periódico (art. 60, § 4º, II).",
+      "Correta. A obrigatoriedade do voto tem previsão constitucional (art. 14, § 1º, I, da CF), mas não integra as cláusulas pétreas do art. 60, § 4º, II, e pode ser alterada por emenda.",
+      "Errada. A proposta pode ser apresentada por um terço dos membros da Câmara dos Deputados ou do Senado Federal (art. 60, I, da CF), não sendo necessária a manifestação de ambas as Casas.",
+      "Errada. A emenda constitucional não se sujeita a sanção ou veto; é promulgada pelas Mesas da Câmara e do Senado (art. 60, § 3º, da CF)."
+    ]
+  },
+  {
+    "id": "25-14",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A assistência social é prestada a quem dela necessitar, independentemente de contribuição à seguridade social (art. 203, caput, da CF).",
+      "Errada. O benefício de um salário mínimo é garantido à pessoa com deficiência ou ao idoso que não possua meios de prover a própria manutenção; os requisitos são alternativos, e não cumulativos (art. 203, V, da CF).",
+      "Errada. A condição de idoso sem meios de subsistência já basta para o benefício assistencial, sem necessidade de comprovar deficiência (art. 203, V, da CF; art. 20 da Lei 8.742/93).",
+      "Correta. A CF garante um salário mínimo mensal ao idoso que comprove não possuir meios de prover a própria manutenção nem de tê-la provida pela família, independentemente de contribuição (art. 203, V, da CF; benefício de prestação continuada da Lei 8.742/93)."
+    ]
+  },
+  {
+    "id": "25-15",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF distingue o nato do naturalizado: o nato nunca é extraditado, e o naturalizado pode sê-lo nas hipóteses do art. 5º, LI.",
+      "Errada. O naturalizado pode ser extraditado por crime comum praticado antes da naturalização ou, a qualquer tempo, por comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins (art. 5º, LI, da CF).",
+      "Correta. O brasileiro naturalizado pode ser extraditado em caso de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, ainda que posterior à naturalização (art. 5º, LI, da CF).",
+      "Errada. O brasileiro nato jamais é extraditado, e a CF não prevê exceção genérica para crimes hediondos; as exceções valem só para o naturalizado (art. 5º, LI, da CF)."
+    ]
+  },
+  {
+    "id": "25-16",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. No descumprimento do mínimo constitucional em educação (art. 34, VII, e), a decretação depende de provimento, pelo STF, de representação do Procurador-Geral da República (art. 36, III, da CF), e não de ato de ofício do Presidente.",
+      "Errada. O rol do art. 34 é taxativo, mas contempla expressamente a falta de aplicação do mínimo exigido da receita de impostos na manutenção e desenvolvimento do ensino (art. 34, VII, e, da CF).",
+      "Correta. A não aplicação do mínimo em educação viola princípio constitucional sensível (art. 34, VII, e, da CF), e a intervenção depende de provimento, pelo STF, de representação do Procurador-Geral da República (art. 36, III).",
+      "Errada. O percentual mínimo está na própria CF, que exige dos Estados a aplicação de ao menos 25% da receita de impostos, incluídas as transferências, na manutenção e desenvolvimento do ensino (art. 212)."
+    ]
+  },
+  {
+    "id": "25-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF proíbe a greve e a sindicalização aos militares (art. 142, § 3º, IV), vedação estendida aos militares dos Estados (art. 42, § 1º).",
+      "Errada. A proibição de greve alcança todos os militares, estáveis ou não (arts. 42, § 1º, e 142, § 3º, IV, da CF).",
+      "Correta. Aos militares são proibidas a sindicalização e a greve (art. 142, § 3º, IV, da CF), regra aplicável aos policiais militares (art. 42, § 1º); o STF estende a vedação a todas as carreiras de segurança pública (Tema 541).",
+      "Errada. A vedação aos policiais militares é expressa na CF (arts. 42, § 1º, e 142, § 3º, IV) e não decorre da falta de lei; quanto aos servidores civis, o STF manda aplicar a Lei 7.783/89 enquanto não editada a lei específica (MI 670, 708 e 712)."
+    ]
+  },
+  {
+    "id": "24-11",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Cabe ADI contra decreto legislativo, por ser ato normativo primário (art. 59, VI, da CF), o que afasta a ADPF em razão da subsidiariedade (art. 4º, § 1º, da Lei 9.882/99).",
+      "Errada. O decreto legislativo já foi editado, e o controle agora é repressivo; o mandado de segurança preventivo no STF é instrumento do parlamentar contra a tramitação de proposição legislativa.",
+      "Errada. Não existe representação de inconstitucionalidade como forma de controle repressivo político à disposição do Presidente; o caminho é o controle concentrado no STF.",
+      "Correta. O decreto legislativo que susta ato normativo do Executivo (art. 49, V, da CF) é ato normativo primário e pode ser impugnado por ADI no STF, para a qual o Presidente é legitimado (art. 103, I, da CF)."
+    ]
+  },
+  {
+    "id": "24-12",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A norma não é programática nem dirigida aos cidadãos; é regra de inelegibilidade que produz efeitos imediatos.",
+      "Correta. O art. 14, § 4º, da CF é norma de eficácia plena, com aplicabilidade direta, imediata e integral: desde a promulgação produz todos os seus efeitos, sem depender de lei.",
+      "Errada. Normas programáticas traçam fins a serem perseguidos pelo Estado e dependem de atuação posterior; o art. 14, § 4º, independe de regulamentação.",
+      "Errada. Aplicabilidade indireta e efeitos limitados caracterizam as normas de eficácia limitada, o que não é o caso do art. 14, § 4º, da CF."
+    ]
+  },
+  {
+    "id": "24-13",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O apoio popular não legitima atuação estatal contrária à Constituição, que veda juízo ou tribunal de exceção (art. 5º, XXXVII).",
+      "Correta. A CF proíbe expressamente juízo ou tribunal de exceção (art. 5º, XXXVII) e assegura o juiz natural (art. 5º, LIII).",
+      "Errada. Nem mesmo lei pode criar juízo de exceção para julgar fatos específicos, pois a vedação é constitucional (art. 5º, XXXVII).",
+      "Errada. A vedação integra os direitos e garantias individuais, que são cláusula pétrea, e não pode ser suprimida por emenda (art. 60, § 4º, IV, da CF)."
+    ]
+  },
+  {
+    "id": "24-14",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É livre a criação, fusão, incorporação e extinção de partidos políticos (art. 17, caput, da CF), que adquirem personalidade jurídica na forma da lei civil, como pessoas jurídicas de direito privado (art. 17, § 2º, da CF; art. 44, V, do CC).",
+      "Errada. A fusão é expressamente permitida (art. 17, caput), e os partidos são pessoas jurídicas de direito privado criados na forma da lei civil, sem necessidade de lei específica (art. 17, § 2º).",
+      "Errada. A CF não proíbe a fusão e não deixa a natureza jurídica à escolha do partido: são pessoas jurídicas de direito privado (art. 17, § 2º, da CF; art. 44, V, do CC).",
+      "Errada. A CF não exige lei para a criação ou a fusão de partidos; adquirida a personalidade jurídica na forma da lei civil, os estatutos são registrados no TSE (art. 17, § 2º)."
+    ]
+  },
+  {
+    "id": "24-15",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A fiscalização do Município cabe à Câmara Municipal, com auxílio dos Tribunais de Contas (art. 31, caput e § 1º, da CF), e a CF admite o controle popular das contas (art. 31, § 3º).",
+      "Correta. As contas dos Municípios ficam, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei (art. 31, § 3º, da CF).",
+      "Errada. Qualquer contribuinte, isoladamente, pode questionar a legitimidade das contas (art. 31, § 3º, da CF); não há exigência de adesão de um terço dos eleitores.",
+      "Errada. A CF prevê participação popular no controle das contas (art. 31, § 3º) e permite a qualquer cidadão denunciar irregularidades ao Tribunal de Contas (art. 74, § 2º), além de propor ação popular (art. 5º, LXXIII)."
+    ]
+  },
+  {
+    "id": "24-16",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os Municípios atuam prioritariamente no ensino fundamental e na educação infantil (art. 211, § 2º, da CF), de modo que devem oferecer vaga a uma criança de 8 anos.",
+      "Correta. O Município atua prioritariamente no ensino fundamental (art. 211, § 2º, da CF), e o não oferecimento do ensino obrigatório pelo Poder Público, ou sua oferta irregular, importa responsabilidade da autoridade competente (art. 208, § 2º).",
+      "Errada. O atendimento educacional especializado à pessoa com deficiência deve ser prestado preferencialmente na rede regular de ensino (art. 208, III, da CF; arts. 27 e 28 da Lei 13.146/15), o que garante a inclusão de Lucas.",
+      "Errada. A educação básica obrigatória dos 4 aos 17 anos (art. 208, I, da CF) é dever dos entes em regime de colaboração (art. 211), e não competência privativa da União."
+    ]
+  },
+  {
+    "id": "24-17",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O direito de propriedade não é absoluto: a propriedade deve atender à sua função social (arts. 5º, XXIII, e 186 da CF), sob pena de desapropriação.",
+      "Errada. A expropriação sem indenização limita-se às propriedades com cultura ilegal de plantas psicotrópicas ou exploração de trabalho escravo (art. 243 da CF); o descumprimento da função social gera desapropriação indenizada.",
+      "Correta. O imóvel rural que não cumpre sua função social pode ser desapropriado por interesse social, para fins de reforma agrária, mediante prévia e justa indenização em títulos da dívida agrária (art. 184 da CF).",
+      "Errada. A desapropriação cabe por necessidade ou utilidade pública e por interesse social (arts. 5º, XXIV, e 184 da CF); a cultura ilegal de psicotrópicos enseja expropriação sem indenização (art. 243), instituto distinto."
+    ]
+  },
+  {
+    "id": "23-11",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A remoção de grupos indígenas de suas terras exige referendo do Congresso Nacional (art. 231, § 5º, da CF); não é decisão exclusiva do Chefe do Executivo estadual.",
+      "Errada. A irremovibilidade não é absoluta: admite-se a remoção, ad referendum do Congresso Nacional, em caso de catástrofe ou epidemia que ponha em risco a população, garantido o retorno imediato quando cessar o risco (art. 231, § 5º, da CF).",
+      "Errada. O referendo exigido é do Congresso Nacional, e não da Assembleia Legislativa (art. 231, § 5º, da CF); a questão indígena é de competência federal (arts. 22, XIV, e 231).",
+      "Correta. Em caso de epidemia, a remoção só é admitida ad referendum do Congresso Nacional (art. 231, § 5º, da CF), de modo que as autoridades estaduais não poderiam decidi-la de forma conclusiva."
+    ]
+  },
+  {
+    "id": "23-12",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O abuso do poder econômico é fundamento expresso da ação de impugnação de mandato eletivo, ao lado da corrupção e da fraude (art. 14, § 10, da CF).",
+      "Correta. O mandato pode ser impugnado na Justiça Eleitoral no prazo de quinze dias contados da diplomação, com provas de abuso do poder econômico, corrupção ou fraude (art. 14, § 10, da CF); a ação proposta dez dias após a diplomação é tempestiva.",
+      "Errada. A diplomação é justamente o termo inicial do prazo de quinze dias para a ação de impugnação de mandato eletivo (art. 14, § 10, da CF).",
+      "Errada. A impugnação de mandato eletivo é proposta depois da diplomação, no prazo de quinze dias (art. 14, § 10, da CF), sem qualquer ofensa ao regime democrático."
+    ]
+  },
+  {
+    "id": "23-13",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O preâmbulo não tem força normativa, segundo o STF (ADI 2.076), e não autoriza privilegiar o ensino de viés cristão.",
+      "Correta. O ensino religioso nas escolas públicas de ensino fundamental tem matrícula facultativa (art. 210, § 1º, da CF), e a laicidade (art. 19, I) impede que o Estado imponha ou privilegie uma crença; o STF admite o ensino confessional apenas se facultativo e oferecido em igualdade de condições (ADI 4.439).",
+      "Errada. O ensino religioso é disciplina dos horários normais das escolas públicas de ensino fundamental, mas de matrícula facultativa (art. 210, § 1º, da CF).",
+      "Errada. A laicidade não proíbe toda orientação religiosa nas instituições públicas: a própria CF prevê o ensino religioso facultativo (art. 210, § 1º), e o STF admite inclusive o de natureza confessional (ADI 4.439)."
+    ]
+  }
+]

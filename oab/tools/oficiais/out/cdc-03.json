@@ -1,0 +1,62 @@
+[
+  {
+    "id": "05-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de reflexão para desistir não é de 30 dias: o art. 49 do CDC fixa 7 dias, contados da assinatura do contrato ou do recebimento do produto ou serviço.",
+      "Errada. O direito de arrependimento não depende de vício do produto. Na compra fora do estabelecimento, o consumidor pode desistir sem justificar nada (art. 49 do CDC); o vício é tratado em outra regra, a do art. 18.",
+      "Errada. É o contrário: o direito de arrependimento existe justamente para as contratações feitas fora do estabelecimento comercial, como as feitas pela internet ou por telefone (art. 49 do CDC; Decreto 7.962/2013). Na loja física ele não é garantido por lei.",
+      "Correta. O art. 49 do CDC permite desistir no prazo de 7 dias quando a contratação ocorre fora do estabelecimento comercial, sem precisar dar motivo. Os valores pagos são devolvidos de imediato e com correção monetária (parágrafo único)."
+    ]
+  },
+  {
+    "id": "05-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A substituição imediata só cabe se o vício não for sanado em 30 dias (art. 18, § 1º, I, do CDC). Antes disso, ela só é possível se o vício comprometer a qualidade ou as características do produto, ou se o produto for essencial (art. 18, § 3º), o que não é o caso de uma tecla de volume defeituosa.",
+      "Errada. A restituição da quantia paga também é uma alternativa que o consumidor só pode exigir depois de passado o prazo de 30 dias sem que o vício seja sanado (art. 18, § 1º, II, do CDC). A exceção é a do § 3º.",
+      "Correta. No vício de qualidade do produto, o fornecedor, inclusive o comerciante, que responde solidariamente, tem até 30 dias para sanar o defeito (art. 18, caput e § 1º, do CDC). Só depois disso o consumidor escolhe entre substituição, restituição do valor ou abatimento do preço.",
+      "Errada. O CDC não obriga o fornecedor a emprestar um produto idêntico enquanto durar o conserto. As opções previstas no art. 18, § 1º, são substituição, restituição da quantia paga e abatimento proporcional do preço."
+    ]
+  },
+  {
+    "id": "04-46",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A boa-fé objetiva não se limita às relações de consumo (art. 4º, III, do CDC). Ela também é cláusula geral de todos os contratos civis e empresariais (arts. 113, 187 e 422 do CC).",
+      "Errada. A boa-fé objetiva é um padrão de conduta leal, medido de forma objetiva. Para reconhecer que ela foi violada, não é preciso examinar a intenção (o caráter volitivo) das partes; essa análise é própria da boa-fé subjetiva.",
+      "Errada. A boa-fé objetiva vale em todas as fases da relação: antes do contrato, durante a execução e depois dela (Enunciados 25 e 170 das Jornadas de Direito Civil do CJF). Na fase pré-contratual, ela gera deveres de informação e de lealdade nas tratativas.",
+      "Correta. A boa-fé objetiva cria deveres de cooperação para as duas partes, inclusive para o credor, que não pode criar obstáculos ao pagamento. Por isso o devedor (titular passivo) tem direito de cumprir a prestação e de se liberar da obrigação, por exemplo pela consignação em pagamento (art. 4º, III, do CDC; arts. 335 e 422 do CC)."
+    ]
+  },
+  {
+    "id": "04-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 6º, V, do CDC relativiza sim a autonomia da vontade e o pacta sunt servanda, porque permite que o juiz modifique ou revise cláusulas que as partes pactuaram.",
+      "Errada. O objetivo principal da norma é preservar o contrato por meio da revisão, e não desfazê-lo. Isso decorre do princípio da conservação dos contratos (art. 6º, V, e art. 51, § 2º, do CDC).",
+      "Correta. Ao permitir a revisão por fatos supervenientes que tornem as prestações excessivamente onerosas, o art. 6º, V, do CDC acolhe a ideia da cláusula rebus sic stantibus. O contrato pode ser ajustado quando as circunstâncias da contratação mudam.",
+      "Errada. Ao contrário do Código Civil (arts. 317 e 478), o CDC não exige que o fato superveniente seja imprevisível. Basta a onerosidade excessiva causada por fato posterior, conforme a teoria da base objetiva do negócio adotada pelo STJ."
+    ]
+  },
+  {
+    "id": "2010.2-99",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Toda informação ou publicidade suficientemente precisa obriga o fornecedor e integra o contrato, seja ela verdadeira ou falsa (art. 30 do CDC). Se o fornecedor se recusar a cumprir, o consumidor pode exigir o cumprimento forçado (art. 35).",
+      "Errada. Só há publicidade enganosa por omissão quando se deixa de informar um dado essencial do produto ou serviço (art. 37, § 3º, do CDC). A falta de um dado que não é essencial não basta.",
+      "Errada. Quem tem o ônus de provar que a informação ou a comunicação publicitária é verdadeira e correta é o fornecedor que a patrocina (art. 38 do CDC), e não o veículo de comunicação.",
+      "Correta. O art. 37, § 2º, do CDC considera abusiva, entre outras, a publicidade que desrespeita valores ambientais."
+    ]
+  },
+  {
+    "id": "2010.2-100",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Nos direitos individuais homogêneos, a sentença de procedência faz coisa julgada erga omnes para beneficiar todas as vítimas e seus sucessores (art. 103, III, do CDC). Não é preciso ter se habilitado até o trânsito em julgado: a liquidação e a execução individuais podem ser promovidas depois (arts. 97 e 98).",
+      "Errada. Em caso de improcedência, os interessados que não intervieram no processo como litisconsortes podem propor ação de indenização a título individual (art. 103, § 2º, do CDC).",
+      "Correta. Nos direitos difusos, a coisa julgada é erga omnes, salvo se o pedido for julgado improcedente por insuficiência de provas. Nesse caso, qualquer legitimado pode propor nova ação com o mesmo fundamento, valendo-se de nova prova (art. 103, I, do CDC).",
+      "Errada. Nos direitos coletivos, a coisa julgada é ultra partes, limitada ao grupo, categoria ou classe (art. 103, II, do CDC). Mas ela não prejudica os interesses e direitos individuais dos integrantes, que continuam podendo propor ações individuais (art. 103, § 1º)."
+    ]
+  }
+]

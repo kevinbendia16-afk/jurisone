@@ -1,0 +1,262 @@
+[
+  { "id": "32-70", "status": "valida",
+    "explicacoes": [
+      "Correta. Se a empresa de trabalho temporário falir, a tomadora responde solidariamente pela remuneração e pela indenização do período em que o trabalhador esteve sob suas ordens, além das contribuições previdenciárias (art. 16 da Lei 6.019/74).",
+      "Errada. Mesmo no trabalho temporário regular, a tomadora responde subsidiariamente pelas obrigações trabalhistas do período (art. 10, § 7º, da Lei 6.019/74). Se a empresa de trabalho temporário falir, essa responsabilidade passa a ser solidária (art. 16).",
+      "Errada. Não se forma vínculo de emprego entre a tomadora e o trabalhador temporário (art. 10, caput, da Lei 6.019/74). A falência gera apenas a responsabilidade solidária da tomadora (art. 16).",
+      "Errada. A responsabilidade da tomadora decorre da lei, e não do contrato: em regra é subsidiária (art. 10, § 7º) e, na falência da empresa de trabalho temporário, é solidária (art. 16 da Lei 6.019/74)."
+    ] },
+  { "id": "32-71", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT não impõe a divisão das despesas do teletrabalho: a responsabilidade pelos equipamentos, pela infraestrutura e pelo reembolso de despesas deve ser prevista em contrato escrito (art. 75-D da CLT).",
+      "Errada. O risco do negócio é do empregador (art. 2º da CLT), mas, no teletrabalho, a CLT manda definir essas despesas em contrato escrito (art. 75-D).",
+      "Correta. Pelo art. 75-D da CLT, a responsabilidade pela aquisição, manutenção ou fornecimento dos equipamentos e da infraestrutura e pelo reembolso de despesas do trabalho remoto será prevista em contrato escrito. Essas utilidades não integram a remuneração (parágrafo único).",
+      "Errada. A CLT não põe o gasto a cargo do empregado pela dificuldade de fiscalizar o uso. A matéria deve ser regulada em contrato escrito (art. 75-D da CLT)."
+    ] },
+  { "id": "32-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Os abonos, ainda que habituais, não integram a remuneração e não constituem base de incidência de encargo trabalhista e previdenciário (art. 457, § 2º, da CLT).",
+      "Errada. Os prêmios, ainda que habituais, não integram a remuneração nem servem de base para encargos (art. 457, §§ 2º e 4º, da CLT).",
+      "Correta. Integram o salário a importância fixa estipulada, as gratificações legais e as comissões pagas pelo empregador (art. 457, § 1º, da CLT). Por isso as comissões são base de incidência dos encargos trabalhistas.",
+      "Errada. As diárias para viagem, qualquer que seja o valor, não integram a remuneração (art. 457, § 2º, da CLT)."
+    ] },
+  { "id": "32-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Só o desconto do INSS decorre de lei. O de previdência privada depende da adesão do empregado e é contratual (art. 462 da CLT e Súmula 342 do TST).",
+      "Correta. A contribuição previdenciária oficial é descontada por imposição legal (art. 462 da CLT; art. 30, I, a, da Lei 8.212/91). Já o desconto de previdência privada decorre da adesão voluntária do empregado, autorizada por escrito (Súmula 342 do TST).",
+      "Errada. O desconto do INSS é legal, porque decorre de dispositivo de lei (art. 462 da CLT; art. 30, I, a, da Lei 8.212/91).",
+      "Errada. A alternativa inverte as naturezas: o INSS é desconto legal, e a previdência privada é desconto contratual (art. 462 da CLT e Súmula 342 do TST)."
+    ] },
+  { "id": "32-75", "status": "valida",
+    "explicacoes": [
+      "Correta. A suspensão do empregado por mais de 30 dias consecutivos importa na rescisão injusta do contrato de trabalho (art. 474 da CLT).",
+      "Errada. A suspensão disciplinar está limitada a 30 dias consecutivos. Acima disso, configura rescisão injusta (art. 474 da CLT).",
+      "Errada. A empresa puniu Bruno logo em seguida, então não houve perdão tácito. O vício está no excesso da suspensão, que passa do limite do art. 474 da CLT.",
+      "Errada. A CLT não exige gradação das penas, como a advertência antes da suspensão. O problema é a suspensão superior a 30 dias (art. 474 da CLT)."
+    ] },
+  { "id": "31-70", "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a Reforma Trabalhista, cabe cláusula compromissória de arbitragem em contrato individual de trabalho, desde que atendidos os requisitos do art. 507-A da CLT.",
+      "Correta. A cláusula compromissória só cabe quando a remuneração for superior a duas vezes o teto dos benefícios do RGPS e houver iniciativa ou concordância expressa do empregado (art. 507-A da CLT). Quem recebe um salário mínimo não atinge esse patamar.",
+      "Errada. A arbitragem não é livre para qualquer contrato de trabalho: exige remuneração superior a duas vezes o teto do RGPS (art. 507-A da CLT).",
+      "Errada. A cláusula não cabe em todos os contratos e não pode ser tácita. Exige remuneração superior a duas vezes o teto do RGPS e iniciativa ou concordância expressa do empregado (art. 507-A da CLT)."
+    ] },
+  { "id": "31-71", "status": "valida",
+    "explicacoes": [
+      "Correta. Quando uma empresa está sob a direção, o controle ou a administração de outra, há grupo econômico, e as empresas respondem solidariamente pelas obrigações trabalhistas (art. 2º, § 2º, da CLT). Por isso a controladora pode figurar no polo passivo.",
+      "Errada. A responsabilidade das empresas do grupo econômico é solidária, e não subsidiária (art. 2º, § 2º, da CLT).",
+      "Errada. O fato de cada empresa ter personalidade jurídica própria não afasta o grupo econômico, como diz expressamente o art. 2º, § 2º, da CLT.",
+      "Errada. Não se trata de mera identidade de sócios (art. 2º, § 3º, da CLT), mas de controle e direção de uma empresa sobre a outra, o que caracteriza grupo econômico (art. 2º, § 2º)."
+    ] },
+  { "id": "31-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Em regra, o empregado pode faltar até 3 dias consecutivos por casamento (art. 473, II, da CLT), mas o professor tem regra própria de 9 dias (art. 320, § 3º, da CLT).",
+      "Errada. Não existe licença especial de 5 dias para advogada empregada: Carla tem 3 dias consecutivos (art. 473, II, da CLT). Enzo, professor, tem 9 dias (art. 320, § 3º, da CLT).",
+      "Correta. O professor não sofre desconto pelas faltas por motivo de gala no decurso de 9 dias (art. 320, § 3º, da CLT). Os demais empregados podem faltar até 3 dias consecutivos em virtude de casamento (art. 473, II, da CLT).",
+      "Errada. Há previsão legal expressa: 3 dias consecutivos para os empregados em geral (art. 473, II) e 9 dias para o professor (art. 320, § 3º, da CLT)."
+    ] },
+  { "id": "31-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A alternativa está incompleta. Além da recusa de promoção por motivo de sexo (art. 373-A, II, da CLT), houve exigência de atestado de gravidez e redução salarial, ambas ilícitas.",
+      "Correta. Foram violações a recusa de promoção por motivo de sexo e a exigência de atestado de gravidez (art. 373-A, II e IV, da CLT; art. 2º, I, da Lei 9.029/95), além da redução salarial, pois a adaptação por motivo de saúde da gestante não pode prejudicar o salário (art. 392, § 4º, da CLT; art. 7º, VI, da CF). A dispensa sete meses após o parto é lícita, porque a estabilidade termina cinco meses após o parto (art. 10, II, b, do ADCT).",
+      "Errada. A dispensa ocorreu sete meses após o parto, quando já tinha acabado a estabilidade da gestante, que vai até cinco meses após o parto (art. 10, II, b, do ADCT).",
+      "Errada. A dispensa não violou a estabilidade, que terminou cinco meses após o parto (art. 10, II, b, do ADCT). As violações foram a recusa da promoção, a exigência de atestado de gravidez e a redução salarial."
+    ] },
+  { "id": "31-74", "status": "valida",
+    "explicacoes": [
+      "Correta. Se quem deu o aviso o reconsiderar antes do fim do prazo, a outra parte pode aceitar ou não a reconsideração (art. 489 da CLT). Se ela não aceitar, o contrato termina ao fim do aviso.",
+      "Errada. A retratação feita durante o aviso não obriga a outra parte, que pode recusá-la (art. 489 da CLT).",
+      "Errada. A CLT não distingue aviso trabalhado de indenizado: nos dois casos, a reconsideração depende da aceitação da outra parte (art. 489 da CLT).",
+      "Errada. A CLT prevê expressamente a reconsideração do aviso prévio antes do fim do prazo, que depende da aceitação da outra parte (art. 489 da CLT)."
+    ] },
+  { "id": "30-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A Reforma Trabalhista não mudou a forma de pagamento do 13º salário, que continua sendo feito em duas parcelas (arts. 1º e 2º da Lei 4.749/65).",
+      "Correta. A primeira parcela, como adiantamento, é paga entre fevereiro e novembro, e a segunda até 20 de dezembro de cada ano (arts. 1º e 2º da Lei 4.749/65).",
+      "Errada. A supressão ou redução do 13º salário é objeto ilícito de convenção ou acordo coletivo (art. 611-B, V, da CLT; art. 7º, VIII, da CF).",
+      "Errada. Para receber a primeira parcela junto com as férias, o empregado deve pedir no mês de janeiro, e não em março (art. 2º, § 2º, da Lei 4.749/65)."
+    ] },
+  { "id": "30-71", "status": "valida",
+    "explicacoes": [
+      "Correta. A aposentadoria concedida pela Previdência Social, inclusive a por invalidez (hoje chamada aposentadoria por incapacidade permanente), permite o saque (art. 20, III, da Lei 8.036/90). A extinção por acordo permite movimentar até 80% dos depósitos (art. 484-A, § 1º, da CLT; art. 20, I-A, da Lei 8.036/90), e o pedido de demissão e a justa causa não autorizam o saque.",
+      "Errada. O pedido de demissão e a dispensa por justa causa não estão entre as hipóteses de saque do art. 20 da Lei 8.036/90.",
+      "Errada. Davi também pode sacar, porque a aposentadoria concedida pela Previdência Social é hipótese de movimentação da conta (art. 20, III, da Lei 8.036/90).",
+      "Errada. Heitor (pedido de demissão) e Lorenzo (justa causa) não podem sacar. Já Laura pode movimentar até 80% dos depósitos (art. 484-A, § 1º, da CLT)."
+    ] },
+  { "id": "30-72", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei não proíbe a transferência por ela separar o casal. O empregado de confiança pode ser transferido quando houver real necessidade de serviço (art. 469, § 1º, da CLT).",
+      "Errada. A CLT não fixa prazo máximo de 1 ano para a transferência do empregado de confiança por necessidade de serviço (art. 469, § 1º).",
+      "Errada. A CLT não dá ao cônjuge empregado o direito de ser transferido para o mesmo local. A transferência de Maria não obriga a empresa a transferir João (art. 469 da CLT).",
+      "Correta. O empregado que exerce cargo de confiança pode ser transferido quando houver real necessidade de serviço (art. 469, § 1º, da CLT; Súmula 43 do TST). A empresa não é obrigada a transferir também o cônjuge."
+    ] },
+  { "id": "30-73", "status": "valida",
+    "explicacoes": [
+      "Correta. O trabalho das 19h às 7h abrange o horário noturno (das 22h às 5h), vedado ao menor de 18 anos (art. 7º, XXXIII, da CF e art. 404 da CLT). Isso caracteriza trabalho proibido, que produz efeitos mas deve cessar.",
+      "Errada. O contrato tem vício, porque a menor trabalha em horário noturno, o que é vedado (art. 7º, XXXIII, da CF e art. 404 da CLT). A previsão em acordo coletivo não afasta a proibição.",
+      "Errada. Trabalho ilícito é o que tem objeto criminoso. Atender clientes e operar o caixa é atividade lícita, e a irregularidade vem de uma norma de proteção ao menor (trabalho proibido).",
+      "Errada. O vício principal não é a escala, e sim o trabalho em horário noturno, vedado ao menor de 18 anos (art. 404 da CLT). A hipótese é de trabalho proibido."
+    ] },
+  { "id": "30-74", "status": "valida",
+    "explicacoes": [
+      "Errada. A participação nos lucros ou resultados pode ser negociada em norma coletiva, que nesse tema prevalece sobre a lei (art. 611-A, XV, da CLT).",
+      "Correta. A norma coletiva pode reduzir o intervalo intrajornada, mas deve respeitar o mínimo de 30 minutos para jornadas superiores a 6 horas (art. 611-A, III, da CLT). Por isso a cláusula de 20 minutos é nula.",
+      "Errada. A modalidade de registro da jornada pode ser definida em norma coletiva, com prevalência sobre a lei (art. 611-A, X, da CLT).",
+      "Errada. O banco de horas previsto em norma coletiva admite compensação em até 1 ano (art. 59, § 2º, da CLT). O limite de 6 meses vale para o banco de horas por acordo individual escrito (art. 59, § 5º)."
+    ] },
+  { "id": "30-75", "status": "valida",
+    "explicacoes": [
+      "Correta. São perigosas as atividades de segurança pessoal ou patrimonial expostas a roubos ou violência física, como a do vigilante armado (art. 193, II, da CLT), e as atividades de trabalhador em motocicleta (art. 193, § 4º). O vigia de condomínio não é vigilante de segurança privada e não se enquadra no inciso II.",
+      "Errada. Além de inflamáveis, explosivos e energia elétrica, a CLT considera perigosas a exposição a roubos ou violência física na segurança pessoal ou patrimonial e o trabalho em motocicleta (art. 193, II e § 4º, da CLT).",
+      "Errada. O vigia não exerce a atividade de segurança pessoal ou patrimonial prevista no art. 193, II, da CLT e, por isso, não recebe adicional de periculosidade.",
+      "Errada. O vigia não tem direito ao adicional, e a motociclista Letícia tem (art. 193, § 4º, da CLT)."
+    ] },
+  { "id": "29-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A adesão a PDV ou PDI previsto em convenção ou acordo coletivo gera quitação plena e irrevogável dos direitos decorrentes da relação de emprego, salvo disposição em contrário (art. 477-B da CLT).",
+      "Errada. O art. 477-B da CLT admite que o plano esteja previsto em convenção coletiva ou em acordo coletivo.",
+      "Correta. O PDI previsto em norma coletiva gera quitação plena e irrevogável dos direitos decorrentes da relação de emprego, salvo disposição em contrário ajustada entre as partes (art. 477-B da CLT; STF, Tema 152).",
+      "Errada. A lei não exige a devolução do valor como condição da ação. A adesão ao PDI, com quitação plena, impede o sucesso da demanda (art. 477-B da CLT)."
+    ] },
+  { "id": "29-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O comparecimento às dependências do empregador para atividades específicas, ainda que habitual, não descaracteriza o teletrabalho (art. 75-B, § 1º, da CLT).",
+      "Errada. O enunciado não traz nenhum fato sobre jornada excessiva ou falta de intervalos que justifique um pedido de horas extras. Além disso, desde a Lei 14.442/22, o teletrabalhador contratado por jornada está sujeito às regras de duração do trabalho (art. 62, III, e art. 75-B, §§ 2º e 3º, da CLT).",
+      "Correta. O teletrabalho constava expressamente do contrato (art. 75-C da CLT), os equipamentos fornecidos não integram a remuneração (art. 75-D, parágrafo único) e o retorno ao presencial teve mais de 15 dias de transição, registrado em aditivo contratual (art. 75-C, § 2º). Não há irregularidade.",
+      "Errada. Os equipamentos fornecidos para o trabalho remoto não integram a remuneração do empregado (art. 75-D, parágrafo único, da CLT)."
+    ] },
+  { "id": "29-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a Reforma Trabalhista, o tempo de deslocamento entre a residência e o trabalho não entra na jornada, mesmo em transporte fornecido pelo empregador (art. 58, § 2º, da CLT).",
+      "Errada. O fundamento não é a gratuidade. O tempo de deslocamento não entra na jornada porque não é tempo à disposição do empregador (art. 58, § 2º, da CLT).",
+      "Errada. A insuficiência do transporte público deixou de gerar horas in itinere com a Lei 13.467/17, que se aplica ao contrato de Fábio, firmado em dezembro de 2017 (art. 58, § 2º, da CLT).",
+      "Correta. O tempo gasto da residência até o posto de trabalho e na volta, por qualquer meio de transporte, inclusive o fornecido pelo empregador, não entra na jornada, por não ser tempo à disposição (art. 58, § 2º, da CLT)."
+    ] },
+  { "id": "29-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Larissa foi indicada pelo empregador para a CIPA e não tem garantia, que é só dos representantes eleitos pelos empregados (art. 10, II, a, do ADCT e art. 165 da CLT). Já Alice e Maria Eduarda têm garantia.",
+      "Errada. Sofia também tem garantia: o empregado com contrato por prazo determinado que sofre acidente do trabalho tem a garantia do art. 118 da Lei 8.213/91 (Súmula 378, III, do TST).",
+      "Correta. Alice tem estabilidade de gestante mesmo em contrato por prazo determinado (Súmula 244, III, do TST), e Sofia tem a garantia acidentária mesmo em contrato a termo (Súmula 378, III, do TST). Maria Eduarda, da comissão de representantes, tem garantia até um ano após o fim do mandato (art. 510-D, § 3º, da CLT), e Larissa, indicada pelo empregador para a CIPA, não tem.",
+      "Errada. Larissa não tem garantia, porque foi indicada pelo empregador. A estabilidade na CIPA vale só para os representantes eleitos pelos empregados (art. 10, II, a, do ADCT e art. 165 da CLT)."
+    ] },
+  { "id": "29-74", "status": "valida",
+    "explicacoes": [
+      "Errada. O cargo era de confiança: gerente com poderes de gestão, dispensado do controle de horário e com gratificação de 50%, acima dos 40% exigidos (art. 62, II e parágrafo único, da CLT).",
+      "Errada. A volta do ocupante de cargo de confiança ao cargo efetivo não é alteração ilícita (art. 468, § 1º, da CLT) e não garante a manutenção da gratificação (art. 468, § 2º).",
+      "Errada. A perda da gratificação na reversão é lícita, com ou sem justo motivo e qualquer que seja o tempo na função (art. 468, § 2º, da CLT). Não há redução salarial vedada.",
+      "Correta. A volta ao cargo efetivo, com a saída da função de confiança, não é alteração unilateral ilícita (art. 468, § 1º, da CLT) e não garante a manutenção nem a incorporação da gratificação (art. 468, § 2º)."
+    ] },
+  { "id": "29-75", "status": "valida",
+    "explicacoes": [
+      "Errada. O acordo coletivo é válido, pois a Constituição admite outra jornada nos turnos ininterruptos mediante negociação coletiva (art. 7º, XIV, da CF; Súmula 423 do TST). Além disso, a ação de cumprimento serve para exigir a norma coletiva, e não para anulá-la.",
+      "Errada. A validade da norma coletiva não depende de homologação judicial, e a falta de contrapartida expressa não gera nulidade (art. 611-A, § 2º, da CLT).",
+      "Errada. A garantia de emprego só é contrapartida obrigatória quando a norma coletiva reduz salário ou jornada (art. 611-A, § 3º, da CLT), o que não aconteceu.",
+      "Correta. A falta de indicação expressa de contrapartidas recíprocas não anula a norma coletiva (art. 611-A, § 2º, da CLT). A jornada de até 8 horas em turnos ininterruptos pode ser fixada por negociação coletiva (art. 7º, XIV, da CF; Súmula 423 do TST)."
+    ] },
+  { "id": "28-70", "status": "desatualizada",
+    "motivo": "O gabarito (D) se baseia na equiparação total da dispensa coletiva à individual feita pelo art. 477-A da CLT. Em 2022, o STF (RE 999.435, Tema 638) decidiu que a intervenção sindical prévia é exigência procedimental imprescindível para a dispensa em massa, embora não se confunda com autorização do sindicato nem com norma coletiva, com efeitos para as dispensas posteriores ao julgamento. Hoje, dispensar 450 de 500 empregados sem diálogo prévio com o sindicato é irregular, e a frase 'a dispensa coletiva é equiparada à dispensa individual' ensina uma regra superada." },
+  { "id": "28-71", "status": "valida",
+    "explicacoes": [
+      "Errada. O sócio retirante só responde solidariamente se houver fraude na alteração societária (art. 10-A, parágrafo único, da CLT) e, em qualquer caso, apenas em ações ajuizadas até 2 anos após a averbação. Aqui se passaram 36 meses.",
+      "Errada. A responsabilidade subsidiária do sócio retirante só vale para ações ajuizadas até 2 anos depois de averbada a alteração do contrato social (art. 10-A da CLT), prazo já ultrapassado.",
+      "Correta. O sócio retirante responde subsidiariamente apenas nas ações ajuizadas até 2 anos depois de averbada a alteração contratual (art. 10-A da CLT). Como a ação veio 36 meses depois, Alaor não responde.",
+      "Errada. A ordem de cobrança (empresa devedora, sócios atuais e sócios retirantes) está no art. 10-A da CLT, mas só se aplica às ações ajuizadas até 2 anos após a averbação da retirada, o que não é o caso."
+    ] },
+  { "id": "28-72", "status": "valida",
+    "explicacoes": [
+      "Errada. A perda da habilitação por conduta dolosa não é caso de suspensão do contrato, e sim de justa causa (art. 482, m, da CLT).",
+      "Errada. Não é caso de interrupção do contrato: a perda da habilitação por dolo autoriza a dispensa por justa causa (art. 482, m, da CLT).",
+      "Correta. Constitui justa causa a perda da habilitação ou dos requisitos legais para o exercício da profissão em decorrência de conduta dolosa do empregado (art. 482, m, da CLT). É também a solução mais econômica para o empregador.",
+      "Errada. A dispensa sem justa causa seria mais cara e desnecessária, pois a conduta dolosa que causou a perda da habilitação configura justa causa (art. 482, m, da CLT)."
+    ] },
+  { "id": "28-73", "status": "valida",
+    "explicacoes": [
+      "Errada. Na escala 12x36, a remuneração mensal já inclui o descanso em feriados, que são considerados compensados (art. 59-A, parágrafo único, da CLT).",
+      "Correta. Na jornada 12x36, a remuneração mensal abrange o descanso semanal remunerado e os feriados, que são considerados compensados (art. 59-A, parágrafo único, da CLT, validado pelo STF na ADI 5994).",
+      "Errada. O trabalho aos domingos já é compensado pelas 36 horas de descanso, e o descanso semanal remunerado está incluído na remuneração mensal (art. 59-A, parágrafo único, da CLT).",
+      "Errada. Pela CLT, nem os domingos nem os feriados trabalhados na escala 12x36 são pagos em dobro, pois são considerados compensados (art. 59-A, parágrafo único)."
+    ] },
+  { "id": "28-74", "status": "valida",
+    "explicacoes": [
+      "Correta. A troca de uniforme é tempo à disposição quando precisa ser feita na empresa, como no setor de contaminação radioativa (art. 4º, § 2º, VIII, da CLT). Já ficar na empresa por escolha própria, por insegurança, por chuva ou para prática religiosa, não é tempo à disposição.",
+      "Errada. Não é tempo à disposição ficar na empresa por escolha própria para se proteger da insegurança nas vias públicas ou de más condições climáticas, nem para práticas religiosas (art. 4º, § 2º, caput e inciso I, da CLT).",
+      "Errada. A troca de uniforme que precisa ser feita na empresa é tempo à disposição e pode gerar horas extras (art. 4º, § 2º, VIII, da CLT, a contrario sensu).",
+      "Errada. Além do culto voluntário, a permanência por causa de tiroteios e chuvas, por escolha própria, também não é tempo à disposição (art. 4º, § 2º, da CLT). Só a troca obrigatória de uniforme é."
+    ] },
+  { "id": "28-75", "status": "duvidosa",
+    "motivo": "O gabarito (20 dias: 5 dias do art. 10, § 1º, do ADCT mais 15 dias do Programa Empresa Cidadã, Lei 11.770/08) depende do prazo básico da licença-paternidade, que está em mudança. O STF (ADO 20, 2023) reconheceu a omissão do Congresso e deu prazo para que a lei fosse editada, e em 2025 a Câmara aprovou projeto de ampliação escalonada da licença a partir de 2027, cuja situação final não foi confirmada. Não há segurança de que o total de 20 dias continuará correto para a prova de janeiro de 2027." },
+  { "id": "27-70", "status": "valida",
+    "explicacoes": [
+      "Errada. Diarista é quem trabalha até 2 dias por semana. Quem presta serviços no âmbito residencial por mais de 2 dias por semana é empregado doméstico (art. 1º da LC 150/15).",
+      "Errada. Há pessoalidade, onerosidade, continuidade e subordinação (Sílvia exige aviso prévio das ausências), o que afasta o trabalho autônomo (art. 1º da LC 150/15).",
+      "Errada. O trabalho doméstico por mais de 2 dias por semana é contínuo, e não eventual (art. 1º da LC 150/15).",
+      "Correta. É empregado doméstico quem presta serviços de forma contínua, subordinada, onerosa e pessoal, sem finalidade lucrativa, à pessoa ou à família, no âmbito residencial, por mais de 2 dias por semana (art. 1º da LC 150/15)."
+    ] },
+  { "id": "27-71", "status": "duvidosa",
+    "motivo": "Depois da Lei 13.467/17, o art. 477, § 6º, da CLT fixou prazo único de 10 dias contados do término do contrato. No aviso prévio indenizado (caso de Gilda), há controvérsia relevante sobre o início desse prazo: parte importante da doutrina e da jurisprudência conta os 10 dias da data da comunicação da dispensa, e não do fim do aviso projetado, como diz o gabarito A. Ensinar que o pagamento pode esperar o fim da projeção expõe o aluno ao risco da multa do art. 477, § 8º." },
+  { "id": "27-72", "status": "valida",
+    "explicacoes": [
+      "Errada. Pela CLT, as condições do acordo coletivo sempre prevalecem sobre as da convenção coletiva, mesmo que a convenção seja mais benéfica (art. 620 da CLT).",
+      "Errada. O conflito não leva ao mínimo constitucional: a CLT o resolve em favor do acordo coletivo (art. 620), e os 60% superam o mínimo de 50% (art. 7º, XVI, da CF).",
+      "Errada. Não existe critério de média entre normas coletivas. Prevalece o acordo coletivo (art. 620 da CLT).",
+      "Correta. As condições do acordo coletivo sempre prevalecem sobre as da convenção coletiva (art. 620 da CLT, com a redação da Lei 13.467/17)."
+    ] },
+  { "id": "27-73", "status": "valida",
+    "explicacoes": [
+      "Correta. Renato trabalha 8 horas por dia e 44 por semana, dentro dos limites do art. 7º, XIII, da CF. Participar de culto facultativo, por escolha própria, não é tempo à disposição (art. 4º, § 2º, I, da CLT).",
+      "Errada. Por ser facultativo, o culto é prática religiosa por escolha própria e não é tempo à disposição, ainda que a empresa o tenha instituído (art. 4º, § 2º, I, da CLT).",
+      "Errada. Das 8h às 17h, com uma hora de intervalo, há 8 horas de trabalho, dentro do limite diário (art. 7º, XIII, da CF). O intervalo não conta na jornada (art. 71, § 2º, da CLT).",
+      "Errada. A jornada soma 40 horas de segunda a sexta e 4 horas aos sábados, total de 44 horas semanais, dentro do limite constitucional (art. 7º, XIII, da CF)."
+    ] },
+  { "id": "27-74", "status": "desatualizada",
+    "motivo": "A Lei 14.442/22 alterou os arts. 62, III, e 75-B da CLT. Agora só o teletrabalhador por produção ou tarefa fica fora do controle de jornada, e o que trabalha por jornada tem direito a horas extras. Assim, a alternativa C (jornada excedente paga como hora extra), que estava errada em 2018, passou a ser correta pelo menos para o teletrabalho por jornada, e a questão deixou de ter uma única resposta." },
+  { "id": "27-75", "status": "valida",
+    "explicacoes": [
+      "Errada. A negociação coletiva não pode suprimir nem reduzir o valor dos depósitos do FGTS, que é objeto ilícito (art. 611-B, III, da CLT).",
+      "Errada. Nenhuma homologação judicial valida a cláusula, porque a redução do FGTS é objeto ilícito de negociação coletiva (art. 611-B, III, da CLT).",
+      "Correta. A supressão ou redução do valor dos depósitos mensais e da indenização rescisória do FGTS é objeto ilícito de convenção ou acordo coletivo (art. 611-B, III, da CLT).",
+      "Errada. A lei não admite nenhuma redução do percentual do FGTS por norma coletiva, nem mesmo até a metade (art. 611-B, III, da CLT)."
+    ] },
+  { "id": "27-76", "status": "valida",
+    "explicacoes": [
+      "Errada. A defesa escrita deveria ter sido apresentada pelo sistema do processo eletrônico até a audiência (art. 847, parágrafo único, da CLT). Sem isso, a CLT prevê a defesa oral.",
+      "Correta. Não havendo acordo, o reclamado tem 20 minutos para apresentar sua defesa oralmente em audiência (art. 847, caput, da CLT).",
+      "Errada. A CLT não prevê adiamento da audiência para entrega posterior da defesa. A solução legal é a defesa oral em 20 minutos (art. 847 da CLT).",
+      "Errada. A CLT não prevê digitalização da defesa durante a audiência: a defesa escrita deve ser enviada pelo processo eletrônico até a audiência ou, se não for, apresentada oralmente em 20 minutos (art. 847 da CLT)."
+    ] },
+  { "id": "26-70", "status": "valida",
+    "explicacoes": [
+      "Errada. As comissões não são liberalidade: integram a remuneração (art. 457, § 1º, da CLT e Súmula 93 do TST).",
+      "Errada. Integra a remuneração do bancário o que ele recebe pela venda de produtos de empresa do mesmo grupo econômico, no horário e no local de trabalho e com o consentimento do banco (Súmula 93 do TST).",
+      "Correta. As vantagens recebidas pelo bancário pela venda de produtos de empresa do mesmo grupo econômico, no horário e no local de trabalho e com o consentimento do banco, integram sua remuneração (Súmula 93 do TST). As comissões integram o salário (art. 457, § 1º, da CLT).",
+      "Errada. Vender no horário e no local de trabalho é justamente um dos requisitos para que as comissões integrem a remuneração (Súmula 93 do TST)."
+    ] },
+  { "id": "26-71", "status": "valida",
+    "explicacoes": [
+      "Correta. Presentes os requisitos do art. 3º da CLT, é legítimo reconhecer vínculo de emprego entre policial militar e empresa privada, independentemente de eventual penalidade disciplinar prevista no Estatuto do Policial Militar (Súmula 386 do TST).",
+      "Errada. A eventual punição disciplinar não impede o reconhecimento do vínculo de emprego (Súmula 386 do TST).",
+      "Errada. Estão presentes pessoalidade, onerosidade, subordinação e não eventualidade (art. 3º da CLT). A possibilidade de ser convocado pela corporação não afasta o vínculo (Súmula 386 do TST).",
+      "Errada. A exigência de dedicação exclusiva da função pública não impede o vínculo com a empresa privada e gera, no máximo, consequências administrativas (Súmula 386 do TST)."
+    ] },
+  { "id": "26-72", "status": "valida",
+    "explicacoes": [
+      "Errada. A suspensão do contrato para qualificação profissional exige previsão em convenção ou acordo coletivo e concordância formal do empregado, e dura de 2 a 5 meses (art. 476-A da CLT). Não pode ser feita por acordo individual, por 30 dias.",
+      "Correta. As férias coletivas podem ser concedidas a todos os empregados ou a setores da empresa (art. 139 da CLT), com pagamento do salário acrescido de 1/3 (art. 7º, XVII, da CF). É a solução mais vantajosa para os trabalhadores.",
+      "Errada. O lockout, paralisação por iniciativa do empregador, é proibido (art. 17 da Lei 7.783/89), e os empregados continuam com direito aos salários do período.",
+      "Errada. A suspensão do art. 476-A da CLT dura de 2 a 5 meses, depende de curso de qualificação e não garante o salário, sendo menos favorável que as férias coletivas."
+    ] },
+  { "id": "26-73", "status": "valida",
+    "explicacoes": [
+      "Errada. A compensação de jornada pode ser ajustada por acordo individual, inclusive a compensação semanal (art. 59, § 6º, da CLT e Súmula 85, I, do TST).",
+      "Errada. As partes devem respeitar os limites de 8 horas diárias e 44 semanais, salvo compensação válida (art. 7º, XIII, da CF e art. 58 da CLT).",
+      "Errada. A lei regula a compensação de jornada (art. 59, §§ 2º, 5º e 6º, da CLT), então não há lacuna para o juiz decidir por equidade.",
+      "Correta. É lícita a compensação ajustada por acordo individual, tácito ou escrito, quando feita no mesmo mês (art. 59, § 6º, da CLT). As 8h48 de segunda a sexta somam 44 horas semanais, sem horas extras."
+    ] },
+  { "id": "26-74", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT não exige contrapartida de qualquer natureza. Para a redução salarial, exige especificamente proteção contra dispensa imotivada durante a vigência do instrumento (art. 611-A, § 3º, da CLT).",
+      "Correta. Se a norma coletiva reduzir salário ou jornada, deve prever a proteção dos empregados contra dispensa imotivada durante sua vigência (art. 611-A, § 3º, da CLT).",
+      "Errada. Em regra, a falta de contrapartidas não anula a norma coletiva (art. 611-A, § 2º), mas a redução salarial exige garantia contra dispensa imotivada (art. 611-A, § 3º, da CLT).",
+      "Errada. A redução salarial pode ser ajustada tanto por convenção coletiva quanto por acordo coletivo (art. 7º, VI, da CF)."
+    ] }
+]

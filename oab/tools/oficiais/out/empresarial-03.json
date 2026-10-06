@@ -1,0 +1,262 @@
+[
+  { "id": "29-49", "status": "valida",
+    "explicacoes": [
+      "Errada. A assistência do relativamente incapaz é necessária, mas não basta: o art. 974, § 3º, do CC também exige capital totalmente integralizado e que o incapaz não exerça a administração da sociedade.",
+      "Errada. O Código Civil admite a participação de incapaz em sociedade limitada (e em outros tipos), desde que observados os requisitos do art. 974, § 3º, do CC.",
+      "Errada. O ingresso do incapaz não depende de sucessão causa mortis: o art. 974, § 3º, do CC o permite por ato entre vivos, com representação ou assistência, capital integralizado e vedação à administração.",
+      "Correta. Pelo art. 974, § 3º, do CC, o registro de alteração contratual com sócio incapaz exige que ele não administre a sociedade, que o capital esteja totalmente integralizado e que o relativamente incapaz seja assistido. No caso, o capital já está integralizado."
+    ] },
+  { "id": "29-50", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há prazo de 30 dias que desonere o endossante, que continua garantindo o pagamento (art. 15 da LUG); o desapossado pode obter novo título em juízo e impedir o pagamento a terceiro (art. 909 do CC).",
+      "Correta. O proprietário injustamente desapossado do título pode obter novo título em juízo e impedir que o valor seja pago a outrem (art. 909 do CC). Hoje a ação segue o procedimento comum, com edital para os interessados (art. 259, II, do CPC/2015).",
+      "Errada. O endossante pode opor ao portador as exceções fundadas em suas relações pessoais com ele e as relativas à nulidade da própria obrigação, como falsidade da assinatura ou defeito de capacidade (art. 915 do CC; art. 17 da LUG).",
+      "Errada. O desapossamento involuntário não desonera o subscritor perante o portador de boa-fé (art. 16 da LUG; art. 896 do CC); o remédio do desapossado é a ação do art. 909 do CC."
+    ] },
+  { "id": "28-46", "status": "valida",
+    "explicacoes": [
+      "Correta. Súmula 370 do STJ: caracteriza dano moral a apresentação antecipada de cheque pré-datado (pós-datado). O dano decorre do descumprimento do pacto e da devolução do cheque.",
+      "Errada. A apresentação antecipada viola o acordo de pós-datação e gera dever de indenizar, inclusive por dano moral (Súmula 370 do STJ).",
+      "Errada. Além de eventual dano material, a jurisprudência pacificada reconhece o dano moral pela apresentação antecipada (Súmula 370 do STJ).",
+      "Errada. O cruzamento apenas restringe o pagamento a banco ou cliente do banco (arts. 44 e 45 da Lei 7.357/85) e não afasta a indenização pela apresentação antecipada (Súmula 370 do STJ)."
+    ] },
+  { "id": "28-47", "status": "valida",
+    "explicacoes": [
+      "Errada. Atingir o quórum não basta: nos créditos em moeda estrangeira, a variação cambial só pode ser afastada com aprovação expressa do credor titular (art. 163, § 5º, da Lei 11.101/05). Desde a Lei 14.112/20, o quórum geral é de mais da metade dos créditos de cada espécie.",
+      "Correta. Nos créditos em moeda estrangeira, a variação cambial só pode ser afastada se o credor titular aprovar expressamente essa previsão (art. 163, § 5º, da Lei 11.101/05), qualquer que seja o quórum. Sem a assinatura de Licínio, o plano não pode ser homologado.",
+      "Errada. A anuência expressa não se limita aos créditos com garantia real (art. 163, § 4º); para créditos em moeda estrangeira, inclusive quirografários, aplica-se o art. 163, § 5º, da Lei 11.101/05.",
+      "Errada. O quórum foi atingido: mais de três quintos supera o exigido (hoje, mais da metade dos créditos de cada espécie, art. 163, caput, com redação da Lei 14.112/20). O obstáculo é a falta de anuência do credor quanto à variação cambial."
+    ] },
+  { "id": "28-48", "status": "valida",
+    "explicacoes": [
+      "Errada. O endossatário-mandatário exerce os direitos do título, mas não se torna seu proprietário e só pode endossá-lo como procurador (art. 18 da LUG; art. 917, § 1º, do CC).",
+      "Errada. Não sendo titular do crédito, o endossatário-mandatário não pode dar o título em garantia (endosso pignoratício); só pode endossá-lo novamente como procurador, com os mesmos poderes recebidos (art. 917, § 1º, do CC).",
+      "Correta. No endosso-mandato, o endossatário pode exercer todos os direitos emergentes do título, mas só pode endossá-lo novamente na qualidade de procurador, com os mesmos poderes que recebeu (art. 18 da LUG; art. 917, § 1º, do CC).",
+      "Errada. Novo endosso é possível, desde que na qualidade de procurador (art. 917, § 1º, do CC); endosso parcial é o limitado a parte do valor (art. 12 da LUG), o que não é o caso."
+    ] },
+  { "id": "28-49", "status": "valida",
+    "explicacoes": [
+      "Errada. O diretor não precisa ser acionista; o art. 146 da Lei 6.404/76 exige apenas que os administradores sejam pessoas naturais.",
+      "Correta. Basta que o administrador seja pessoa natural (art. 146 da Lei 6.404/76, com redação da LC 182/21); não se exige que seja acionista nem que resida no Estado da sede. Hoje nem a residência no País é requisito: o residente no exterior só precisa constituir representante no Brasil (art. 146, § 2º).",
+      "Errada. A lei não exige nacionalidade brasileira para o diretor de companhia, de modo que a nacionalidade portuguesa não impede a eleição (art. 146 da Lei 6.404/76).",
+      "Errada. A regularidade não depende da existência de Conselho de Administração: com ou sem conselho, o diretor não precisa ser acionista. A ausência do conselho apenas faz com que a diretoria seja eleita pela assembleia geral (art. 143 da Lei 6.404/76)."
+    ] },
+  { "id": "28-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A venda do bem pela massa não extingue o direito do proprietário: ele recebe o preço obtido, atualizado (art. 86, I, da Lei 11.101/05).",
+      "Errada. Não se trata de crédito quirografário: cabe restituição em dinheiro, paga antes dos credores concursais (arts. 86, I, e 149 da Lei 11.101/05).",
+      "Correta. Se a coisa não mais existir ao tempo do pedido de restituição, o requerente recebe o valor da avaliação ou, se houve venda, o respectivo preço, em ambos os casos atualizado (art. 86, I, da Lei 11.101/05).",
+      "Errada. A ação revocatória serve para atacar atos praticados pelo devedor antes da falência (arts. 129 e 130 da Lei 11.101/05); para bem de terceiro arrecadado, o caminho é o pedido de restituição (arts. 85 e 86)."
+    ] },
+  { "id": "27-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Roberto exerce atividade econômica organizada com profissionalismo (habitualidade e dedicação exclusiva), e a empresa abrange a prestação de serviços, não só a produção de bens (art. 966 do CC).",
+      "Errada. É empresário quem exerce atividade econômica organizada para a produção ou a circulação de bens ou de serviços (art. 966 do CC).",
+      "Errada. O registro na Junta Comercial é obrigatório (art. 967 do CC), mas tem natureza declaratória, e não constitutiva da condição de empresário (Enunciado 199 da CJF); sem ele, há empresário irregular.",
+      "Correta. Há atividade econômica organizada (capital, mão de obra, tecnologia e marketing), exercida profissionalmente na prestação de serviços de hospedagem, o que caracteriza empresa (art. 966 do CC). O registro é obrigatório (art. 967), mas não é requisito para a caracterização do empresário (Enunciado 199 da CJF)."
+    ] },
+  { "id": "27-47", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há aprovação prévia do estatuto por órgão público (art. 5º, XVIII, da CF), e os atos da cooperativa são arquivados na Junta Comercial (art. 18 da Lei 5.764/71; Enunciado 69 da CJF), não no Registro Civil de Pessoas Jurídicas.",
+      "Correta. Na cooperativa, cada sócio tem direito a um só voto nas deliberações, tenha ou não capital a sociedade, e qualquer que seja o valor de sua participação (art. 1.094, VI, do CC).",
+      "Errada. A responsabilidade dos sócios da cooperativa pode ser limitada ou ilimitada (art. 1.095 do CC); a solidariedade pela integralização do capital é regra da sociedade limitada (art. 1.052 do CC).",
+      "Errada. A cooperativa admite a variabilidade ou mesmo a dispensa do capital social (art. 1.094, I, do CC); não há capital mínimo de 100 salários mínimos."
+    ] },
+  { "id": "27-48", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de protesto da duplicata para preservar o regresso contra endossantes e avalistas é de 30 dias contados do vencimento (art. 13, § 4º, da Lei 5.474/68), e não de 1 dia útil.",
+      "Errada. O aceitante é o devedor principal e pode ser executado independentemente de protesto (art. 15, I, da Lei 5.474/68).",
+      "Errada. O protesto foi tirado 17 dias após o vencimento, dentro do prazo de 30 dias do art. 13, § 4º, da Lei 5.474/68, preservando o direito de ação contra o avalista do sacador.",
+      "Correta. O protesto ocorreu dentro de 30 dias do vencimento (art. 13, § 4º, da Lei 5.474/68), o que preserva a execução contra o sacador-endossante e seu avalista; o aceitante responde independentemente de protesto (art. 15, I, da mesma lei)."
+    ] },
+  { "id": "27-49", "status": "desatualizada",
+    "motivo": "A questão foi elaborada com base na Lei 8.955/94, revogada pela Lei 13.966/19 (vigente desde março de 2020). O gabarito (A) reproduz o antigo conceito de franquia, em que o uso de tecnologia de implantação e administração de negócio era apenas 'eventual'; o art. 1º da Lei 13.966/19 passou a associar a licença de marca também ao direito de uso de métodos e sistemas de implantação e administração de negócio, sem o 'eventualmente'. As demais alternativas foram construídas sobre dispositivos da lei revogada (prazo da COF, forma do contrato, sanções)." },
+  { "id": "27-50", "status": "valida",
+    "explicacoes": [
+      "Errada. O deferimento do processamento da recuperação judicial não suspende as execuções fiscais (art. 6º, § 7º-B, da Lei 11.101/05, incluído pela Lei 14.112/20).",
+      "Correta. As execuções fiscais não são suspensas pelo processamento da recuperação judicial (art. 6º, § 7º-B, da Lei 11.101/05). O juízo da recuperação pode apenas determinar a substituição de constrições sobre bens de capital essenciais à atividade.",
+      "Errada. O prazo de 180 dias de suspensão (art. 6º, § 4º, da Lei 11.101/05) não alcança as execuções fiscais, que prosseguem (art. 6º, § 7º-B).",
+      "Errada. A execução fiscal não é extinta; ela prossegue normalmente (art. 6º, § 7º-B, da Lei 11.101/05; art. 187 do CTN)."
+    ] },
+  { "id": "26-46", "status": "valida",
+    "explicacoes": [
+      "Errada. O direito brasileiro admite o aval póstumo: o aval posterior ao vencimento produz os mesmos efeitos do anteriormente dado (art. 900 do CC, aplicável supletivamente à nota promissória, art. 903 do CC).",
+      "Errada. O aval póstumo não se converte em fiança; mantém natureza cambial, com responsabilidade solidária e autônoma do avalista (art. 900 do CC; arts. 32 e 47 da LUG).",
+      "Correta. O aval posterior ao vencimento produz os mesmos efeitos do anteriormente dado (art. 900 do CC). Os avalistas simultâneos respondem solidária e autonomamente perante o portador (arts. 32 e 47 da LUG).",
+      "Errada. O aval póstumo é válido e eficaz (art. 900 do CC), não havendo nulidade a ser isolada pelo princípio da autonomia."
+    ] },
+  { "id": "26-47", "status": "valida",
+    "explicacoes": [
+      "Correta. Transporte multimodal é o regido por um único contrato, com duas ou mais modalidades de transporte da origem ao destino, executado sob a responsabilidade única de um Operador de Transporte Multimodal (art. 2º da Lei 9.611/98).",
+      "Errada. A figura legal para várias modalidades sob contrato único e responsabilidade de um só operador é o transporte multimodal (art. 2º da Lei 9.611/98), e não o chamado transporte combinado.",
+      "Errada. No transporte cumulativo, vários transportadores se obrigam e cada um responde pelo seu percurso (art. 733 do CC), diferentemente da responsabilidade única do operador descrita no enunciado.",
+      "Errada. Transporte de fato não é modalidade contratual prevista em lei; o caso descreve o transporte multimodal (art. 2º da Lei 9.611/98)."
+    ] },
+  { "id": "26-48", "status": "valida",
+    "explicacoes": [
+      "Correta. Na companhia, a responsabilidade dos acionistas é limitada ao preço de emissão das ações subscritas ou adquiridas (art. 1º da Lei 6.404/76).",
+      "Errada. Responder até o valor das quotas, com solidariedade pela integralização, é regra da sociedade limitada (art. 1.052 do CC), não da sociedade anônima.",
+      "Errada. Responsabilidade ilimitada, solidária e subsidiária é própria da sociedade em nome coletivo (art. 1.039 do CC); na S.A., ela é limitada ao preço de emissão das ações (art. 1º da Lei 6.404/76).",
+      "Errada. Inácio responde como acionista até o preço de emissão de suas ações; como administrador, só responde pelos prejuízos que causar com culpa ou dolo, ou com violação da lei ou do estatuto (art. 158 da Lei 6.404/76), e não ilimitadamente pelas obrigações sociais."
+    ] },
+  { "id": "26-49", "status": "valida",
+    "explicacoes": [
+      "Errada. O porte da credora não afasta a suspensão: a decretação da falência suspende as execuções contra o devedor (arts. 6º, II, e 99, V, da Lei 11.101/05).",
+      "Errada. O prazo de 180 dias (art. 6º, § 4º, da Lei 11.101/05) refere-se à recuperação judicial; na falência, a execução individual fica suspensa e o crédito é satisfeito no concurso de credores.",
+      "Errada. A suspensão alcança justamente as execuções já ajuizadas contra o devedor (arts. 6º, II, e 99, V, da Lei 11.101/05).",
+      "Correta. A decretação da falência suspende as execuções contra o falido (arts. 6º, II, e 99, V, da Lei 11.101/05), e o credor deve submeter seu crédito à verificação e classificação no juízo falimentar (arts. 7º e 76 da Lei 11.101/05)."
+    ] },
+  { "id": "26-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A firma do empresário individual não é de livre escolha: deve ser formada por seu nome civil, completo ou abreviado (art. 1.156 do CC).",
+      "Errada. A denominação é espécie de nome empresarial própria de sociedades; o empresário individual opera sob firma (art. 1.156 do CC).",
+      "Correta. O empresário individual opera sob firma constituída por seu nome, completo ou abreviado, podendo apenas aditar designação mais precisa de sua pessoa ou do gênero de atividade (art. 1.156 do CC). Um apelido, sozinho, não pode formar a firma.",
+      "Errada. A designação mais precisa da pessoa pode ser aditada ao nome civil, mas nunca substituí-lo (art. 1.156 do CC)."
+    ] },
+  { "id": "25-46", "status": "valida",
+    "explicacoes": [
+      "Correta. Ao final do arrendamento mercantil, o arrendatário tem a tríplice opção: devolver o bem, renovar o contrato ou exercer a opção de compra pelo valor residual (art. 5º, alínea c, da Lei 6.099/74).",
+      "Errada. Subarrendar não é faculdade de fim de contrato, e a alternativa omite a devolução e a renovação; as opções finais são devolver o bem, renovar o contrato ou comprá-lo (art. 5º, alínea c, da Lei 6.099/74).",
+      "Errada. O subarrendamento não está entre as opções do arrendatário ao término do contrato, que são devolver o bem, renovar o contrato ou exercer a opção de compra (art. 5º, alínea c, da Lei 6.099/74).",
+      "Errada. A alternativa omite a opção de compra, elemento essencial do arrendamento mercantil (art. 5º, alínea c, da Lei 6.099/74)."
+    ] },
+  { "id": "25-47", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei não exige quitação prévia de créditos trabalhistas e fiscais; sem bens suficientes, a eficácia depende do pagamento ou do consentimento de todos os credores (art. 1.145 do CC).",
+      "Correta. Se ao alienante não restarem bens suficientes para solver o passivo, a eficácia do trespasse depende do pagamento de todos os credores ou do consentimento destes, expresso ou tácito, em 30 dias da notificação (art. 1.145 do CC).",
+      "Errada. O art. 1.145 do CC não distingue credores com garantia real nem prevê notificação com 60 dias de antecedência; exige pagamento ou consentimento, expresso ou tácito em 30 dias, de todos os credores.",
+      "Errada. A exigência alcança todos os credores, e não só os quirografários, e o consentimento pode ser tácito, em 30 dias da notificação (art. 1.145 do CC)."
+    ] },
+  { "id": "25-48", "status": "valida",
+    "explicacoes": [
+      "Errada. A nota promissória é transmissível por endosso mesmo sem a cláusula à ordem expressa (arts. 11 e 77 da LUG); só a cláusula 'não à ordem' impõe a forma e os efeitos de cessão de crédito.",
+      "Correta. A cláusula à ordem permite a transferência por endosso, e o endossante garante o pagamento, salvo cláusula em contrário, como a 'sem garantia' (arts. 11, 15 e 77 da LUG).",
+      "Errada. A circulação por endosso decorre da natureza à ordem do título, e não da modalidade de vencimento à vista (art. 11 da LUG).",
+      "Errada. A cláusula à ordem leva à transferência por endosso, com garantia do endossante; a transferência por cessão de crédito é efeito da cláusula 'não à ordem' (art. 11 da LUG)."
+    ] },
+  { "id": "25-49", "status": "valida",
+    "explicacoes": [
+      "Correta. O contrato de abertura de crédito, ainda que acompanhado de extrato da conta-corrente, não é título executivo (Súmula 233 do STJ), e a nota promissória a ele vinculada não goza de autonomia em razão da iliquidez do título que a originou (Súmula 258 do STJ).",
+      "Errada. Nem com extrato e duas testemunhas o contrato de abertura de crédito é título executivo (Súmula 233 do STJ); e a falta de autonomia da nota promissória decorre da iliquidez do contrato (Súmula 258 do STJ), não da cláusula-mandato.",
+      "Errada. A nota promissória vinculada a contrato de abertura de crédito não goza de autonomia, em razão da iliquidez do título que a originou (Súmula 258 do STJ).",
+      "Errada. O contrato de abertura de crédito não é título executivo (Súmula 233 do STJ), e a nota promissória vinculada não tem executividade autônoma (Súmula 258 do STJ). Não confundir com a cédula de crédito bancário, que é título executivo (art. 28 da Lei 10.931/04)."
+    ] },
+  { "id": "25-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A alienação de bens do ativo não circulante não prevista no plano não gera convolação em falência; depende de autorização do juiz, podendo os credores requerer assembleia para deliberar sobre a venda (art. 66 da Lei 11.101/05, com redação da Lei 14.112/20).",
+      "Correta. A sociedade credora que tenha sócio com participação superior a 10% do capital da devedora pode participar da assembleia, mas sem direito a voto, e não é considerada para o quórum de instalação e de deliberação (art. 43 da Lei 11.101/05).",
+      "Errada. A credora pode participar da assembleia; apenas não tem direito a voto nem é computada nos quóruns de instalação e deliberação (art. 43 da Lei 11.101/05).",
+      "Errada. A alienação de bens do ativo não circulante não é prerrogativa do administrador judicial: depende de autorização do juiz, ouvido o Comitê de Credores, se houver (art. 66 da Lei 11.101/05)."
+    ] },
+  { "id": "24-46", "status": "valida",
+    "explicacoes": [
+      "Correta. Na limitada, a responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização do capital social (art. 1.052 do CC).",
+      "Errada. Há solidariedade entre os sócios pela integralização do capital social (art. 1.052 do CC).",
+      "Errada. O prazo de cinco anos refere-se à responsabilidade solidária pela exata estimação dos bens conferidos ao capital (art. 1.055, § 1º, do CC), e não ao limite da responsabilidade dos sócios.",
+      "Errada. Os sócios da limitada não respondem solidariamente pelas obrigações sociais; respondem até o valor das quotas, com solidariedade apenas pela integralização do capital (art. 1.052 do CC)."
+    ] },
+  { "id": "24-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O aval pode ser lançado no verso, desde que expresso pelas palavras 'por aval' ou fórmula equivalente; a simples assinatura só vale como aval se aposta no anverso (art. 30 da Lei 7.357/85).",
+      "Errada. Na falta de indicação do avalizado, a lei considera avalizado o emitente (art. 30, parágrafo único, da Lei 7.357/85).",
+      "Correta. O aval sem indicação do avalizado é em branco e considera-se dado em favor do emitente (art. 30, parágrafo único, da Lei 7.357/85).",
+      "Errada. O pagamento do cheque pode ser garantido por aval, inclusive no cheque à ordem (art. 29 da Lei 7.357/85)."
+    ] },
+  { "id": "24-48", "status": "valida",
+    "explicacoes": [
+      "Errada. A locação não confere ao locatário opção de compra ao final do contrato, que é traço essencial do arrendamento mercantil.",
+      "Errada. A cessão de uso onerosa não envolve a aquisição do bem indicado pelo usuário nem a opção de compra ao término do contrato.",
+      "Errada. Na compra e venda a prazo, a transferência da propriedade é o próprio objeto do contrato, e não uma faculdade a ser exercida ao final.",
+      "Correta. No arrendamento mercantil, a arrendadora adquire os bens segundo especificações da arrendatária e lhe cede o uso mediante contraprestações; ao final, a arrendatária pode devolver os bens, renovar o contrato ou exercer a opção de compra (arts. 1º, parágrafo único, e 5º, alínea c, da Lei 6.099/74)."
+    ] },
+  { "id": "24-49", "status": "valida",
+    "explicacoes": [
+      "Correta. Não pode requerer recuperação judicial o devedor que, há menos de 5 anos, tenha obtido concessão de recuperação judicial (art. 48, II, da Lei 11.101/05).",
+      "Errada. A relação entre ativo e passivo quirografário era requisito da antiga concordata (Decreto-lei 7.661/45) e não consta do art. 48 da Lei 11.101/05.",
+      "Errada. Não há exigência de pedir autofalência em 30 dias como requisito ou impedimento da recuperação judicial; os requisitos estão no art. 48 da Lei 11.101/05.",
+      "Errada. O impedimento é a condenação do devedor, ou de seu administrador ou sócio controlador, por crime previsto na própria Lei 11.101/05 (art. 48, IV), e não por crime contra o patrimônio ou a fé pública."
+    ] },
+  { "id": "24-50", "status": "valida",
+    "explicacoes": [
+      "Errada. O empresário individual não tem personalidade jurídica distinta da sua, de modo que não há o que desconsiderar; atos fraudulentos praticados em conluio com terceiros são atacados pela ação revocatória (art. 130 da Lei 11.101/05).",
+      "Correta. São revogáveis os atos praticados com a intenção de prejudicar credores, provados o conluio fraudulento e o prejuízo à massa (art. 130 da Lei 11.101/05). A revocatória pode ser proposta pelo administrador judicial, que representa a massa, em até 3 anos da falência, perante o juízo falimentar (arts. 132 e 134).",
+      "Errada. Na falência, o instrumento próprio é a ação revocatória, que tramita no juízo da falência (arts. 130 e 134 da Lei 11.101/05), e não a ação pauliana no juízo cível.",
+      "Errada. O sequestro de bens em poder de terceiros é medida preventiva da própria ação revocatória (art. 137 da Lei 11.101/05), e não antecedente de ação de responsabilidade civil."
+    ] },
+  { "id": "23-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Em caso de morte, os herdeiros não respondem pelas obrigações posteriores, e o prazo de dois anos conta-se da averbação da resolução, não do falecimento (art. 1.032 do CC).",
+      "Correta. A morte do sócio não exime seus herdeiros da responsabilidade pelas obrigações sociais anteriores, até dois anos após averbada a resolução da sociedade (art. 1.032 do CC), isto é, a partir de 22/10/2016.",
+      "Errada. O termo inicial dos dois anos é a averbação da resolução (22/10/2016), e não a data do falecimento (art. 1.032 do CC).",
+      "Errada. A responsabilidade pelas obrigações posteriores, enquanto não averbada a saída, aplica-se apenas à retirada e à exclusão, não à morte (art. 1.032 do CC)."
+    ] },
+  { "id": "23-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo determinado não é o fundamento; a comissão não é devida porque o negócio foi iniciado e concluído diretamente entre as partes, sem exclusividade ajustada por escrito (art. 726 do CC).",
+      "Errada. A exclusividade só garante a comissão quando ajustada por escrito (art. 726 do CC); o ajuste verbal, ainda que presenciado por testemunhas, não basta.",
+      "Correta. Iniciado e concluído o negócio diretamente entre as partes, nenhuma remuneração é devida ao corretor, salvo exclusividade ajustada por escrito (art. 726 do CC), o que não ocorreu.",
+      "Errada. A corretagem é obrigação de resultado: a remuneração é devida quando obtido o resultado previsto na mediação (art. 725 do CC), e não pelo mero esforço do corretor."
+    ] },
+  { "id": "23-48", "status": "desatualizada",
+    "motivo": "O gabarito (D) aplicava o antigo art. 110, § 2º, da Lei 6.404/76, que vedava atribuir voto plural a qualquer classe de ações. A Lei 14.195/21 alterou esse dispositivo e incluiu o art. 110-A, que admite o voto plural para uma ou mais classes de ações ordinárias (até 10 votos por ação), em companhias fechadas e em abertas antes da negociação de suas ações em mercado. A alternativa D deixou de ser correta." },
+  { "id": "23-49", "status": "valida",
+    "explicacoes": [
+      "Errada. O cheque emitido e pagável na mesma praça deve ser apresentado em 30 dias da emissão (art. 33 da Lei 7.357/85); o endosso de 20/05/2017 ocorreu depois de expirado esse prazo.",
+      "Errada. Nenhuma modalidade de endosso dispensa a apresentação tempestiva do cheque; o endosso em preto apenas identifica o endossatário.",
+      "Correta. O endosso posterior à expiração do prazo de apresentação (30 dias, por ser cheque da mesma praça, art. 33) produz apenas os efeitos de cessão de crédito (art. 27 da Lei 7.357/85).",
+      "Errada. Pedrinho, que também é o emitente, continua obrigado: a responsabilidade do emitente subsiste após o prazo de apresentação (art. 47, I, da Lei 7.357/85); o endosso póstumo apenas tem efeito de cessão."
+    ] },
+  { "id": "23-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A competência é do juízo do local do principal estabelecimento do devedor, que pode não coincidir com a sede estatutária (art. 3º da Lei 11.101/05).",
+      "Correta. É competente para homologar o plano de recuperação extrajudicial o juízo do local do principal estabelecimento do devedor (art. 3º da Lei 11.101/05).",
+      "Errada. A filial só define a competência no caso de empresa com sede fora do Brasil (art. 3º da Lei 11.101/05).",
+      "Errada. A lei não dá opção entre sede e principal estabelecimento: a competência é do juízo do principal estabelecimento (art. 3º da Lei 11.101/05)."
+    ] },
+  { "id": "22-48", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei exige o arquivamento e a averbação no Registro Público de Empresas Mercantis e no Registro Civil, sem previsão de publicação na imprensa oficial (art. 979 do CC).",
+      "Correta. Além de no Registro Civil, os pactos e declarações antenupciais do empresário serão arquivados e averbados no Registro Público de Empresas Mercantis (art. 979 do CC).",
+      "Errada. Falta o arquivamento no Registro Público de Empresas Mercantis, exigido pelo art. 979 do CC, e a publicação na imprensa oficial não é requisito.",
+      "Errada. O art. 979 do CC prevê, além da Junta Comercial, o Registro Civil, e não o Registro de Títulos e Documentos."
+    ] },
+  { "id": "22-49", "status": "valida",
+    "explicacoes": [
+      "Errada. Nessa hipótese, a liminar para desocupação em 15 dias é concedida independentemente da audiência da parte contrária e mediante caução equivalente a três meses de aluguel (art. 59, § 1º, VIII, da Lei 8.245/91).",
+      "Correta. Na locação sob encomenda (built to suit), pode ser convencionada a renúncia ao direito de revisão do valor dos aluguéis durante o prazo de vigência do contrato (art. 54-A, § 1º, da Lei 8.245/91).",
+      "Errada. Nas locações de espaço em shopping center, o locador não pode recusar a renovação com fundamento no uso próprio do imóvel (art. 52, § 2º, da Lei 8.245/91).",
+      "Errada. Nas locações para estabelecimentos de ensino autorizados e fiscalizados pelo Poder Público, o contrato só pode ser rescindido nas hipóteses do art. 53 da Lei 8.245/91, e não por denúncia livre do locador."
+    ] },
+  { "id": "22-50", "status": "valida",
+    "explicacoes": [
+      "Errada. O fato de o bem não ter sido encontrado não afasta o direito do credor fiduciário, que recebe em dinheiro o valor da avaliação atualizado (art. 86, I, da Lei 11.101/05).",
+      "Errada. Não há habilitação como quirografário: trata-se de restituição em dinheiro, paga antes dos credores concursais (arts. 86, I, e 149 da Lei 11.101/05).",
+      "Correta. O credor fiduciário tem direito à restituição (art. 7º do Decreto-lei 911/69; art. 85 da Lei 11.101/05); se o bem, que estava com o falido na data da quebra, não existir mais ou não for arrecadado, recebe em dinheiro o valor da avaliação atualizado (art. 86, I, da Lei 11.101/05).",
+      "Errada. A propriedade fiduciária, ainda que resolúvel, legitima o pedido de restituição do bem ou de seu valor (art. 7º do Decreto-lei 911/69; arts. 85 e 86, I, da Lei 11.101/05)."
+    ] },
+  { "id": "22-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A desconsideração exige abuso da personalidade, por desvio de finalidade ou confusão patrimonial (art. 50 do CC), e pode ser decretada em incidente, sem ação de conhecimento autônoma contra o sócio (arts. 133 a 137 do CPC).",
+      "Errada. Os pressupostos legais são demonstrados no próprio incidente, com citação do sócio e contraditório (arts. 134, § 4º, e 135 do CPC), sem necessidade de ação autônoma.",
+      "Errada. O incidente é cabível também em todas as fases do processo de conhecimento, podendo até ser requerido na petição inicial (art. 134, caput e § 2º, do CPC).",
+      "Correta. O incidente de desconsideração da personalidade jurídica é cabível em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução fundada em título executivo extrajudicial (art. 134 do CPC)."
+    ] },
+  { "id": "22-52", "status": "valida",
+    "explicacoes": [
+      "Errada. A falta do lugar de pagamento não gera nulidade: supre-se pelo lugar da emissão, considerado também domicílio do subscritor (art. 76 da LUG); o vício do caso é o preenchimento abusivo do valor.",
+      "Errada. O endossatário-mandatário age em nome do endossante, e o devedor pode opor-lhe as exceções que teria contra o beneficiário Jerônimo (art. 18 da LUG); não há terceiro de boa-fé protegido pela autonomia.",
+      "Correta. O título emitido em branco pode ser completado pelo credor de boa-fé (Súmula 387 do STF), mas o preenchimento contrário ao ajustado pode ser oposto a quem o fez (art. 10 da LUG). Como o portador é mero mandatário de Jerônimo, o subscritor pode opor-lhe as exceções pessoais que tem contra Jerônimo (art. 18 da LUG).",
+      "Errada. A equiparação do subscritor ao aceitante (art. 78 da LUG) não impede a oposição de exceções pessoais ao beneficiário direto ou a seu mandatário (arts. 17 e 18 da LUG)."
+    ] },
+  { "id": "21-48", "status": "desatualizada",
+    "motivo": "A EIRELI foi extinta: a Lei 14.195/21 (art. 41) transformou as EIRELIs existentes em sociedades limitadas unipessoais, e a Lei 14.382/22 revogou o art. 980-A do CC. A questão, que trata das regras de constituição de EIRELI, perdeu o objeto." },
+  { "id": "21-49", "status": "valida",
+    "explicacoes": [
+      "Errada. O plano de recuperação extrajudicial pode adotar diversos meios de recuperação, inclusive os do art. 50 da Lei 11.101/05, como o trespasse de filiais; não há limitação a parcelamento com juros de 12% ao ano.",
+      "Correta. O plano de recuperação extrajudicial não pode contemplar o pagamento antecipado de dívidas nem tratamento desfavorável aos credores que a ele não estejam sujeitos (art. 161, § 2º, da Lei 11.101/05). Por isso, o pagamento antecipado aos credores com privilégio especial justifica a impugnação.",
+      "Errada. É lícito o plano prever efeitos anteriores à homologação, desde que exclusivamente quanto à modificação do valor ou da forma de pagamento dos credores signatários (art. 165, § 1º, da Lei 11.101/05).",
+      "Errada. Créditos de microempresas e empresas de pequeno porte podem ser abrangidos; ficam de fora apenas os tributários e os dos arts. 49, § 3º, e 86, II, e os trabalhistas exigem negociação coletiva (art. 161, § 1º, da Lei 11.101/05, com redação da Lei 14.112/20)."
+    ] },
+  { "id": "21-50", "status": "desatualizada",
+    "motivo": "O gabarito (A) aplicava a redação antiga do art. 1.061 do CC, que exigia unanimidade para designar administrador não sócio enquanto o capital não estivesse integralizado. A Lei 14.451/22 alterou o dispositivo: hoje bastam 2/3 dos sócios enquanto o capital não estiver integralizado e titulares de mais da metade do capital social após a integralização. A alternativa A deixou de ser correta." }
+]
