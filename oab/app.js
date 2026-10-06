@@ -9,8 +9,9 @@
   const KEY = 'aprova-oab-v1';
   const state = load();
   function load() {
-    try { return Object.assign({ resp: {}, aulas: {}, videos: {} }, JSON.parse(localStorage.getItem(KEY)) || {}); }
-    catch (e) { return { resp: {}, aulas: {}, videos: {} }; }
+    const vazio = () => ({ resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {} });
+    try { return Object.assign(vazio(), JSON.parse(localStorage.getItem(KEY)) || {}); }
+    catch (e) { return vazio(); }
   }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* modo privado */ } }
 
@@ -44,6 +45,7 @@
     [/^\/simulado$/, simulado],
     [/^\/segunda$/, segunda],
     [/^\/segunda\/([\w-]+)$/, segundaArea],
+    [/^\/caso\/([\w-]+)$/, caso],
     [/^\/estrategias$/, estrategias]
   ];
   function render() {
@@ -54,7 +56,7 @@
       if (m) { fn(...m.slice(1)); break; }
     }
     const sec = path.split('/')[1] || 'home';
-    const ativo = { materia: 'materias', aula: 'materias', quiz: 'questoes', simulado: 'questoes' }[sec] || sec;
+    const ativo = { materia: 'materias', aula: 'materias', quiz: 'questoes', simulado: 'questoes', caso: 'segunda' }[sec] || sec;
     document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('active', a.dataset.nav === ativo));
     window.scrollTo(0, 0);
   }
@@ -273,15 +275,41 @@
       <a class="back" href="#/questoes">← Questões</a>
       <h1>Simulado cronometrado</h1>
       <div class="card">
-        <p>Questões de todas as matérias, misturadas e sem mostrar o gabarito durante a prova, no ritmo real do Exame (3 min e 45 s por questão: 5 horas ÷ 80). O resultado e o gabarito comentado aparecem no final.</p>
-        <label class="muted">Quantidade de questões</label>
-        <select id="qtd">${[10, 20, 30, Q.length].filter((v, i, a) => v <= Q.length && a.indexOf(v) === i).map(n => `<option value="${n}">${n} questões (${Math.round(n * 3.75)} min)</option>`).join('')}</select>
+        <p>Prova montada como a da FGV: cada matéria entra com a quantidade proporcional ao seu peso, na ordem do caderno, priorizando questões que você ainda não resolveu. Sem gabarito durante a prova, no ritmo real do Exame (3 min e 45 s por questão: 5 horas ÷ 80). O resultado e o gabarito comentado aparecem no final.</p>
+        <label class="muted">Tamanho da prova</label>
+        <select id="qtd">${[[80, 'Prova completa · 80 questões'], [40, 'Meia prova · 40 questões'], [20, 'Treino rápido · 20 questões']]
+          .filter(([n]) => n <= Q.length).map(([n, t]) => `<option value="${n}">${t} (${Math.round(n * 3.75)} min)</option>`).join('')}</select>
         <div class="row" style="margin-top:14px"><button class="btn" id="go">Iniciar simulado</button></div>
       </div>`;
     document.getElementById('go').onclick = () => {
       const n = +document.getElementById('qtd').value;
-      rodar(shuffle(Q).slice(0, n), { segundos: Math.round(n * 225), semGabarito: true, voltar: '#/simulado' });
+      rodar(montarProva(n), { segundos: Math.round(n * 225), semGabarito: true, voltar: '#/simulado' });
     };
+  }
+
+  /* distribui n questões pelas matérias conforme o peso na prova; inéditas para o aluno vêm primeiro */
+  function montarProva(n) {
+    const pesoTotal = M.reduce((s, m) => s + m.qtd, 0);
+    const porMateria = M.map(m => {
+      const qs = shuffle(Q.filter(q => q.materia === m.id));
+      const ordenadas = qs.filter(q => !state.resp[q.id]).concat(qs.filter(q => state.resp[q.id]));
+      return { m, fila: ordenadas, cota: Math.max(1, Math.round(n * m.qtd / pesoTotal)), escolhidas: [] };
+    });
+    porMateria.forEach(p => { p.escolhidas = p.fila.splice(0, p.cota); });
+    let total = porMateria.reduce((s, p) => s + p.escolhidas.length, 0);
+    // completa pela matéria mais "atrasada" em relação ao peso; corta da mais "adiantada"
+    const razao = p => p.escolhidas.length / p.m.qtd;
+    while (total < n) {
+      const p = porMateria.filter(x => x.fila.length).sort((a, b) => razao(a) - razao(b))[0];
+      if (!p) break;
+      p.escolhidas.push(p.fila.shift()); total++;
+    }
+    while (total > n) {
+      const p = porMateria.filter(x => x.escolhidas.length > 1).sort((a, b) => razao(b) - razao(a))[0];
+      if (!p) break;
+      p.escolhidas.pop(); total--;
+    }
+    return porMateria.flatMap(p => p.escolhidas);
   }
 
   function segunda() {
@@ -291,7 +319,10 @@
       <h2>Estrutura de qualquer peça</h2>
       <div class="card"><ol class="steps">${S2.estrutura.map(e => `<li><b>${esc(e[0])}</b><br><span class="muted">${esc(e[1])}</span></li>`).join('')}</ol></div>
       <h2>Escolha sua área</h2>
-      <div class="grid">${S2.areas.map(a => `<a class="card subj" href="#/segunda/${a.id}"><span class="ico" style="background:#f5b94222">${a.icone}</span><h3>${esc(a.nome)}</h3><span class="muted">${a.pecas.length} peças principais</span></a>`).join('')}</div>`;
+      <div class="grid">${S2.areas.map(a => {
+        const n = casosDe(a.id).length;
+        return `<a class="card subj" href="#/segunda/${a.id}"><span class="ico" style="background:#f5b94222">${a.icone}</span><h3>${esc(a.nome)}</h3><span class="muted">${a.pecas.length} peças principais${n ? ` · ${n} treinos com espelho` : ''}</span></a>`;
+      }).join('')}</div>`;
   }
 
   function segundaArea(id) {
@@ -305,8 +336,61 @@
         ${a.pecas.map(p => `<tr><td><b>${esc(p[0])}</b></td><td>${esc(p[1])}</td><td class="muted">${esc(p[2])}</td></tr>`).join('')}
       </table></div>
       <div class="box macete"><h3>💡 Dicas de quem já passou</h3><ul>${a.dicas.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>
+      ${casosDe(id).length ? `<h2>✍️ Treine com correção pelo espelho</h2>
+      <div class="list">${casosDe(id).map(c => {
+        const n = state.casos[c.id];
+        return `<a class="card" href="#/caso/${c.id}"><div><span class="pill">${c.tipo === 'peca' ? 'Peça · 5,00' : 'Questão · 1,25'}</span><h3 style="margin-top:6px">${esc(c.titulo)}</h3></div>
+          ${n != null ? `<span class="check">${fmtNota(n)}</span>` : '<span class="muted">→</span>'}</a>`;
+      }).join('')}</div>` : ''}
       <h2>🎬 Videoaulas</h2>
       <div class="row">${a.pecas.map(p => `<a class="btn ghost sm" target="_blank" rel="noopener" href="${ytBusca('OAB 2ª fase ' + a.nome + ' como fazer ' + p[0])}">▶ ${esc(p[0])}</a>`).join('')}</div>`;
+  }
+
+  /* treino da 2ª fase: o aluno escreve a resposta e depois se corrige pelo espelho da banca */
+  const casosDe = area => (window.CASOS_2FASE || []).filter(c => c.area === area);
+  const fmtNota = n => n.toFixed(2).replace('.', ',');
+
+  function caso(id) {
+    const c = (window.CASOS_2FASE || []).find(x => x.id === id);
+    if (!c) return notFound();
+    const area = S2.areas.find(a => a.id === c.area);
+    const total = c.tipo === 'peca' ? 5 : 1.25;
+    app.innerHTML = `
+      <a class="back" href="#/segunda/${c.area}">← ${esc(area ? area.nome : '2ª Fase')}</a>
+      <h1>${esc(c.titulo)}</h1>
+      <span class="pill">${c.tipo === 'peca' ? 'Peça profissional · vale 5,00' : 'Questão discursiva · vale 1,25'}</span>
+      <div class="card lesson" style="margin-top:16px">${c.enunciado.split(/\n+/).map(p => `<p>${esc(p)}</p>`).join('')}</div>
+      <h2>Sua resposta</h2>
+      <div class="card">
+        <p class="muted" style="margin-top:0">${c.tipo === 'peca' ? 'Identifique a peça, o endereçamento, as teses com artigos e os pedidos. Escreva como na prova.' : 'Responda cada item com o fundamento legal (artigo).'} O texto fica salvo neste aparelho.</p>
+        <textarea id="resp" rows="${c.tipo === 'peca' ? 16 : 7}" placeholder="Escreva aqui...">${esc(state.rascunhos[id] || '')}</textarea>
+        <div class="row" style="margin-top:12px"><button class="btn" id="ver">Ver gabarito e corrigir</button></div>
+      </div>
+      <div id="correcao" hidden>
+        <h2>Gabarito comentado</h2>
+        <div class="card lesson">${c.gabarito.split(/\n+/).map(p => `<p>${esc(p)}</p>`).join('')}</div>
+        <h2>Espelho de correção</h2>
+        <div class="card">
+          <p class="muted" style="margin-top:0">Marque cada item que a sua resposta contém. É assim que o examinador da FGV corrige.</p>
+          <div class="list">${c.espelho.map((e, i) => `<label class="espelho"><input type="checkbox" data-i="${i}"><span>${esc(e[0])}</span><b>${fmtNota(e[1])}</b></label>`).join('')}</div>
+          <div class="row between" style="margin-top:14px"><span class="muted">Sua nota</span><span class="stat" id="nota">0,00 / ${fmtNota(total)}</span></div>
+          <div class="row" style="margin-top:12px"><button class="btn" id="salvar">Salvar nota</button></div>
+        </div>
+      </div>`;
+    const resp = document.getElementById('resp');
+    resp.oninput = () => { state.rascunhos[id] = resp.value; save(); };
+    const nota = () => [...document.querySelectorAll('.espelho input:checked')].reduce((s, el) => s + c.espelho[+el.dataset.i][1], 0);
+    document.querySelectorAll('.espelho input').forEach(el => el.onchange = () => {
+      document.getElementById('nota').textContent = `${fmtNota(nota())} / ${fmtNota(total)}`;
+    });
+    document.getElementById('ver').onclick = () => {
+      document.getElementById('correcao').hidden = false;
+      document.getElementById('correcao').scrollIntoView({ behavior: 'smooth' });
+    };
+    document.getElementById('salvar').onclick = () => {
+      state.casos[id] = Math.round(nota() * 100) / 100; save();
+      location.hash = '#/segunda/' + c.area;
+    };
   }
 
   function estrategias() {
@@ -315,10 +399,10 @@
       <p class="muted">O método usado pelos cursinhos com mais aprovados, resumido.</p>
       <div class="grid two">${EST.map((e, i) => `<div class="card"><span class="pill">#${i + 1}</span><h3 style="margin-top:8px">${esc(e.titulo)}</h3><p class="muted" style="margin:0">${esc(e.texto)}</p></div>`).join('')}</div>
       <h2>Zerar progresso</h2>
-      <div class="card row between"><span class="muted">Apaga aulas concluídas, respostas e vídeos salvos neste aparelho.</span><button class="btn ghost sm" id="reset">Zerar</button></div>`;
+      <div class="card row between"><span class="muted">Apaga aulas concluídas, respostas, treinos da 2ª fase e vídeos salvos neste aparelho.</span><button class="btn ghost sm" id="reset">Zerar</button></div>`;
     document.getElementById('reset').onclick = () => {
       if (!confirm('Apagar todo o seu progresso?')) return;
-      state.resp = {}; state.aulas = {}; state.videos = {}; save(); render();
+      Object.assign(state, { resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {} }); save(); render();
     };
   }
 
