@@ -1,7 +1,7 @@
 /* Questões – lote e (Direito Penal e Direito Processual Penal). */
 window.QUESTOES.push(
 // PENAL
-{ id: 'pe101', materia: 'penal', topico: 'teoriacrime',
+{ id: 'pe101', materia: 'penal', topico: 'erro',
   enunciado: 'Ao sair de uma confraternização, Fábio pegou no cabideiro um guarda-chuva idêntico ao seu e foi para casa. Dias depois, descobriu que o objeto pertencia a outro convidado, que já havia registrado ocorrência de furto. Ficou provado que Fábio acreditava sinceramente que o guarda-chuva era o seu. Sobre a situação, assinale a afirmativa correta.',
   alt: [
     ['Fábio praticou furto, mas, por erro de proibição evitável, terá a pena diminuída de 1/6 a 1/3.', false, 'Errada. Fábio não se enganou sobre a proibição de subtrair coisa alheia (ele sabe que isso é crime); enganou-se sobre um elemento do tipo, a natureza "alheia" da coisa. É erro de tipo (art. 20 do CP), e não erro de proibição (art. 21).'],
@@ -9,7 +9,7 @@ window.QUESTOES.push(
     ['Fábio não responde por crime, pois o erro sobre a elementar "coisa alheia" exclui o dolo e não existe furto culposo.', true, 'Correta. O erro sobre elemento constitutivo do tipo exclui o dolo (art. 20, caput, do CP). Como o furto só é punido na forma dolosa, o fato é atípico, seja o erro evitável ou não.'],
     ['Fábio responde por furto, pois o desconhecimento da lei é inescusável.', false, 'Errada. A regra do desconhecimento da lei (art. 21 do CP) não se aplica: Fábio conhecia a lei. Seu engano recaiu sobre um dado da realidade (de quem era o objeto), o que caracteriza erro de tipo.']
   ] },
-{ id: 'pe102', materia: 'penal', topico: 'teoriacrime',
+{ id: 'pe102', materia: 'penal', topico: 'erro',
   enunciado: 'Joana encontrou na calçada uma carteira com documentos e R$ 800,00. Convencida pelo ditado popular de que "achado não é roubado", ficou com o dinheiro por meses, sem procurar o dono nem entregar o valor à autoridade. Denunciada por apropriação de coisa achada (art. 169, parágrafo único, II, do CP), ficou demonstrado que Joana realmente acreditava agir de forma lícita, mas que poderia, com um mínimo de diligência, ter percebido a ilicitude da conduta. Nesse caso, Joana',
   alt: [
     ['responde pelo crime, com a pena diminuída de 1/6 a 1/3, por erro de proibição evitável.', true, 'Correta. Joana sabia exatamente o que fazia (ficar com coisa alheia achada), mas acreditava que a conduta era permitida: é erro sobre a ilicitude do fato. Sendo evitável, a pena é diminuída de 1/6 a 1/3 (art. 21, caput, parte final, e parágrafo único, do CP).'],
@@ -17,7 +17,7 @@ window.QUESTOES.push(
     ['responde por crime culposo, pois o erro de tipo evitável exclui apenas o dolo.', false, 'Errada. Não há erro de tipo: Joana conhecia todos os elementos do fato. Além disso, não existe apropriação de coisa achada culposa. A consequência "exclui o dolo e permite a punição por culpa" é própria do erro de tipo evitável (art. 20 do CP).'],
     ['responde pelo crime sem qualquer redução, pois o desconhecimento da lei é inescusável.', false, 'Errada. O art. 21 do CP afirma que o desconhecimento da lei é inescusável, mas, no mesmo dispositivo, dá efeito ao erro sobre a ilicitude do fato: isenção de pena, se inevitável, ou diminuição de 1/6 a 1/3, se evitável.']
   ] },
-{ id: 'pe103', materia: 'penal', topico: 'teoriacrime',
+{ id: 'pe103', materia: 'penal', topico: 'concursopessoas',
   enunciado: 'Caio e Lauro combinaram furtar uma casa que acreditavam estar vazia, pois os moradores viajavam. Caio ficou no carro vigiando a rua, enquanto Lauro entrou no imóvel. Lá dentro, Lauro foi surpreendido pelo caseiro e, sem que Caio soubesse, ameaçou-o com uma faca que levara escondida, subtraindo em seguida diversos objetos. Considerando que Caio quis participar apenas do furto, assinale a afirmativa correta.',
   alt: [
     ['Caio e Lauro respondem por roubo, pois o Código Penal adota a teoria monista, sem exceções.', false, 'Errada. O CP adota a teoria monista (art. 29, caput), mas com temperamentos: o próprio art. 29, §2º, prevê a cooperação dolosamente distinta, aplicando ao concorrente a pena do crime de que quis participar.'],
@@ -57,7 +57,7 @@ window.QUESTOES.push(
     ['o livramento condicional, após cumprir 1/3 da pena.', false, 'Errada. O livramento condicional é benefício da execução e exige pena igual ou superior a 2 anos (art. 83, caput, do CP). A pena de Wesley é inferior a esse patamar.'],
     ['o sursis etário, com período de prova de 4 a 6 anos.', false, 'Errada. O sursis etário ou humanitário (art. 77, §2º, do CP) exige condenado maior de 70 anos ou razões de saúde que justifiquem a suspensão; nada disso consta do caso.']
   ] },
-{ id: 'pe108', materia: 'penal', topico: 'patrimonio',
+{ id: 'pe108', materia: 'penal', topico: 'crimespatrimonio',
   enunciado: 'Diogo, de 30 anos, aproveitou a ausência do pai, Sérgio, de 55 anos, e, com a ajuda do amigo Henrique, subtraiu R$ 3.000,00 que estavam guardados no cofre da casa paterna, sem violência ou grave ameaça. Descoberto o fato, é correto afirmar que',
   alt: [
     ['Diogo e Henrique são isentos de pena, pois a imunidade se comunica a todos os concorrentes do crime.', false, 'Errada. A imunidade é de caráter pessoal e não se estende ao estranho que participa do crime (art. 183, II, do CP).'],
@@ -65,7 +65,7 @@ window.QUESTOES.push(
     ['ambos respondem pelo furto, mas a ação penal, quanto a Diogo, depende de representação do pai.', false, 'Errada. A ação condicionada à representação (imunidade relativa, art. 182 do CP) vale para cônjuge separado, irmão e tio ou sobrinho com quem o agente coabita. Em relação ao descendente, a imunidade é absoluta (art. 181, II).'],
     ['ambos respondem pelo furto, pois as imunidades penais só beneficiam o cônjuge na constância da sociedade conjugal.', false, 'Errada. O art. 181 do CP também isenta de pena quem pratica o crime contra ascendente ou descendente (inciso II), e não apenas contra o cônjuge (inciso I).']
   ] },
-{ id: 'pe109', materia: 'penal', topico: 'patrimonio',
+{ id: 'pe109', materia: 'penal', topico: 'crimespatrimonio',
   enunciado: 'Gael e Ícaro, ambos armados, anunciaram um assalto a um motorista de aplicativo. Diante da reação da vítima, Gael efetuou um disparo que a matou. Assustados com a chegada de outras pessoas, os dois fugiram sem levar nenhum bem. Sobre o caso, assinale a afirmativa correta.',
   alt: [
     ['Houve tentativa de latrocínio, já que a subtração não se consumou, com julgamento pelo Tribunal do Júri.', false, 'Errada. A consumação do latrocínio se define pela morte, e não pela subtração (Súmula 610 do STF). E o latrocínio é crime contra o patrimônio, julgado pelo juiz singular (Súmula 603 do STF).'],
@@ -73,7 +73,7 @@ window.QUESTOES.push(
     ['Houve latrocínio consumado, com julgamento pelo juiz singular.', true, 'Correta. "Há crime de latrocínio, quando o homicídio se consuma, ainda que não realize o agente a subtração de bens da vítima" (Súmula 610 do STF). A competência é do juiz singular, e não do júri (Súmula 603 do STF).'],
     ['Houve latrocínio consumado apenas para Gael, autor do disparo; Ícaro responde somente por tentativa de roubo.', false, 'Errada. Quem participa de roubo praticado com armas assume o risco do resultado morte, que lhe era previsível; por isso, a jurisprudência atribui o latrocínio também ao coautor que não efetuou o disparo (art. 29 do CP).']
   ] },
-{ id: 'pe110', materia: 'penal', topico: 'patrimonio',
+{ id: 'pe110', materia: 'penal', topico: 'crimespatrimonio',
   enunciado: 'Lúcio, empresário de 45 anos, sem qualquer deficiência, foi vítima de um golpe: em reunião presencial, um falso fornecedor apresentou-lhe catálogos de mercadorias inexistentes, e Lúcio transferiu-lhe R$ 10.000,00. Lúcio registrou boletim de ocorrência apenas para documentar o prejuízo e declarou expressamente que não deseja ver o autor processado. Concluído o inquérito, que identificou o autor, é correto afirmar que',
   alt: [
     ['o Ministério Público não pode oferecer denúncia por estelionato sem a representação de Lúcio.', true, 'Correta. Desde a Lei 13.964/19, no estelionato somente se procede mediante representação (art. 171, §5º, do CP), salvo se a vítima for a Administração Pública, criança ou adolescente, pessoa com deficiência mental, maior de 70 anos ou incapaz, o que não é o caso.'],
@@ -179,7 +179,7 @@ window.QUESTOES.push(
     ['a autoridade policial poderá proceder a novas pesquisas, e o Ministério Público poderá oferecer denúncia com base na prova nova.', true, 'Correta. Arquivado o inquérito por falta de base para a denúncia, a autoridade policial pode proceder a novas pesquisas se tiver notícia de outras provas (art. 18 do CPP), e a ação penal pode ser iniciada com base em provas novas (Súmula 524 do STF).'],
     ['o Ministério Público só poderá oferecer denúncia após o ajuizamento de revisão criminal contra o arquivamento.', false, 'Errada. A revisão criminal é ação exclusiva da defesa contra condenação transitada em julgado (arts. 621 e 623 do CPP); não existe revisão em favor da acusação.']
   ] },
-{ id: 'pp105', materia: 'processopenal', topico: 'provas',
+{ id: 'pp105', materia: 'processopenal', topico: 'provaspp',
   enunciado: 'Policiais, sem autorização judicial, interceptaram conversas telefônicas de Samuel e descobriram onde ele guardava cargas roubadas. Ficou comprovado, porém, que, dias antes, uma testemunha já havia indicado espontaneamente à polícia o mesmo depósito, e foi com base exclusivamente nesse depoimento, anterior e autônomo, que o juiz expediu o mandado de busca que resultou na apreensão das cargas. Sobre as provas, assinale a afirmativa correta.',
   alt: [
     ['A apreensão das cargas é ilícita, pois toda prova relacionada, de qualquer modo, a uma prova ilícita deve ser desentranhada.', false, 'Errada. O CPP prevê exceções à ilicitude por derivação: quando não houver nexo de causalidade com a prova ilícita ou quando a prova puder ser obtida por fonte independente (art. 157, §1º).'],
@@ -187,7 +187,7 @@ window.QUESTOES.push(
     ['Tanto a interceptação quanto a apreensão são lícitas, pois os crimes patrimoniais envolvendo cargas roubadas são graves.', false, 'Errada. A gravidade do crime não afasta a exigência constitucional de autorização judicial para a interceptação, que permanece ilícita (art. 5º, XII e LVI, da CF).'],
     ['A interceptação é ilícita, mas a apreensão das cargas é válida, pois decorreu de fonte independente.', true, 'Correta. A interceptação sem ordem judicial é prova ilícita e deve ser desentranhada (art. 157, caput, do CPP). Já a apreensão decorreu de mandado baseado em depoimento anterior e autônomo, isto é, de fonte independente, o que afasta a contaminação (art. 157, §§1º e 2º).']
   ] },
-{ id: 'pp106', materia: 'processopenal', topico: 'provas',
+{ id: 'pp106', materia: 'processopenal', topico: 'provaspp',
   enunciado: 'Em processo por tráfico de drogas, o Ministério Público arrolou como testemunha Zélia, mãe do acusado, por ter presenciado a abordagem policial em sua residência. Na audiência, Zélia disse que não queria depor contra o filho. Havia outras testemunhas presenciais dos fatos, também arroladas. A respeito da situação, é correto afirmar que Zélia',
   alt: [
     ['está obrigada a depor, sob compromisso de dizer a verdade, como qualquer testemunha.', false, 'Errada. A regra de que a testemunha não pode se eximir de depor tem exceção para os parentes próximos do acusado, entre eles a mãe (art. 206 do CPP).'],
@@ -195,7 +195,7 @@ window.QUESTOES.push(
     ['é proibida de depor, em razão do vínculo familiar com o acusado.', false, 'Errada. A proibição de depor (art. 207 do CPP) alcança quem deve guardar segredo em razão de função, ministério, ofício ou profissão. O parente não é proibido: tem a faculdade de recusar-se (art. 206).'],
     ['pode recusar-se a depor em qualquer hipótese, ainda que seu depoimento seja a única prova possível do fato.', false, 'Errada. A faculdade de recusa cede quando não for possível, por outro modo, obter-se ou integrar-se a prova do fato e de suas circunstâncias (art. 206, parte final, do CPP). No caso, porém, havia outras testemunhas.']
   ] },
-{ id: 'pp107', materia: 'processopenal', topico: 'provas',
+{ id: 'pp107', materia: 'processopenal', topico: 'provaspp',
   enunciado: 'No interrogatório, realizado ao final da instrução, Felipe, acusado de estelionato, exerceu o direito de permanecer calado. Na sentença, o juiz afirmou que "o silêncio do réu, que não apresentou sua versão dos fatos, reforça a convicção de que é culpado" e o condenou. A fundamentação da sentença é',
   alt: [
     ['válida, pois quem cala consente, e o silêncio pode ser valorado como confissão ficta.', false, 'Errada. Não existe confissão ficta no processo penal: o silêncio não importa confissão (art. 186, parágrafo único, do CPP).'],
