@@ -1,0 +1,131 @@
+/* Aulas adicionais – lote constitucional-06 (Remédios constitucionais). */
+(function () {
+  const add = (id, topicos) => window.MATERIAS.find(m => m.id === id).topicos.push(...topicos);
+
+  add('constitucional', [
+    { id: 'co-hc', titulo: 'Habeas corpus', incidencia: 'alta',
+      aula: [
+        'Em uma frase: o habeas corpus é a ação rápida e gratuita que protege a liberdade de ir, vir e ficar contra prisão ou ameaça de prisão ilegal.',
+        'Conceito: habeas corpus (do latim, "que tenhas o corpo") cabe sempre que alguém sofre ou está ameaçado de sofrer violência ou coação na sua liberdade de locomoção, por ilegalidade ou abuso de poder (art. 5º, LXVIII, da CF).',
+        'Quem pede e quem é protegido: impetrante é quem entra com a ação; paciente é quem sofre a coação. Qualquer pessoa pode impetrar, sem advogado, até um estrangeiro ou uma pessoa jurídica em favor de alguém (art. 654 do CPP; art. 1º, §1º, da Lei 8.906/94). Mas o paciente é sempre pessoa física, porque só gente tem corpo para ser preso.',
+        'Preventivo e repressivo: o HC preventivo combate a ameaça e gera um salvo-conduto, isto é, uma ordem que impede a prisão. O HC repressivo (ou liberatório) serve para soltar quem já está preso ilegalmente.',
+        'Gratuidade e de ofício: o HC é gratuito (art. 5º, LXXVII). O juiz ou tribunal pode concedê-lo de ofício, ou seja, sem pedido, quando percebe uma ilegalidade no processo (art. 654, §2º, do CPP).',
+        'Punição disciplinar militar: a CF diz que não cabe HC contra punições disciplinares militares (art. 142, §2º). O STF entende que o juiz não pode rever o mérito (se a punição foi justa), mas pode analisar a legalidade: competência, previsão legal e pena cabível.',
+        'Quando não cabe (súmulas do STF): não cabe HC contra decisão que só aplica pena de multa (Súmula 693); contra a perda de patente ou exclusão de militar (Súmula 694); quando a pena privativa de liberdade já foi extinta (Súmula 695). Em todos esses casos não há liberdade em risco.',
+        'HC contra liminar: em regra, o STF não conhece HC contra decisão de relator que nega liminar em outro HC em tribunal superior (Súmula 691). O próprio STF afasta a súmula em casos de ilegalidade evidente, ou seja, flagrante.',
+        'HC coletivo: o STF admite HC em favor de um grupo de pessoas. O caso famoso é o HC 143.641, que substituiu a prisão preventiva por domiciliar para gestantes e mães de crianças pequenas.',
+        'Exemplo: Bruno está preso há meses sem denúncia e sem justificativa. Sua irmã, Carla, que não é advogada, escreve um pedido de HC ao tribunal. Carla é a impetrante, Bruno é o paciente, e o pedido é válido.',
+        'Cuidado (pegadinha): HC não serve para discutir multa, processo administrativo sem risco de prisão ou bens. Para direito líquido e certo que não envolva locomoção, o caminho é o mandado de segurança.',
+        'Como a FGV cobra: casos em que um leigo impetra HC, em que a pena é só de multa ou em que se pede HC contra punição disciplinar militar.',
+        'Resumo para revisar: protege a liberdade de locomoção; qualquer pessoa impetra, sem advogado e sem custas; paciente é sempre pessoa física; não cabe contra pena só de multa (Súmula 693); na punição militar, só se analisa a legalidade.'
+      ],
+      cai: ['Se o leigo ou a pessoa jurídica podem impetrar HC (sim) e se a pessoa jurídica pode ser paciente (não).', 'Hipóteses de não cabimento: multa (Súmula 693), pena extinta (Súmula 695), perda de patente (Súmula 694).', 'Punição disciplinar militar: só controle de legalidade (art. 142, §2º).', 'Diferença entre HC preventivo (salvo-conduto) e repressivo.'],
+      macetes: ['HC = Corpo: se não há corpo que possa ir para a cadeia, não há HC.', 'Impetrante pede, paciente sofre.', 'Grátis e sem advogado: os dois remédios gratuitos são os "H": HC e HD (art. 5º, LXXVII).', 'Militar: legalidade sim, mérito não.'],
+      video: 'habeas corpus OAB aula remédios constitucionais' },
+
+    { id: 'co-ms', titulo: 'Mandado de segurança individual', incidencia: 'alta',
+      aula: [
+        'Em uma frase: o mandado de segurança protege um direito claro, provado por documentos, contra ato ilegal de autoridade, quando não cabe HC nem HD.',
+        'Conceito: o MS protege direito líquido e certo, não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder de autoridade pública ou de agente de pessoa jurídica no exercício de atribuições públicas (art. 5º, LXIX; Lei 12.016/09).',
+        'Direito líquido e certo: é o direito que se prova de cara, com documentos juntados na petição. Não há fase para ouvir testemunhas ou fazer perícia. Por isso se diz que a prova é pré-constituída, ou seja, pronta antes da ação.',
+        'Caráter residual: o MS só entra quando não cabe HC (liberdade de locomoção) nem HD (informações sobre a própria pessoa). Ele é o remédio "que sobra".',
+        'Prazo: a pessoa tem 120 dias, contados da ciência do ato, para impetrar (art. 23 da Lei 12.016/09). É prazo decadencial, isto é, não se suspende nem se interrompe. O STF diz que esse prazo é constitucional (Súmula 632).',
+        'Autoridade coatora: é quem praticou o ato ou deu a ordem (art. 6º, §3º). Se o ato foi praticado por delegação, o MS vai contra a autoridade que recebeu a delegação (Súmula 510 do STF). Agentes de empresas privadas que exercem função pública delegada também podem ser autoridade.',
+        'Quando não cabe (art. 5º da Lei 12.016/09): contra ato que admite recurso administrativo com efeito suspensivo, sem exigir caução; contra decisão judicial que admite recurso com efeito suspensivo; contra decisão judicial transitada em julgado (também Súmula 268). Não cabe contra atos de gestão comercial de estatais (art. 1º, §2º).',
+        'Lei em tese e cobrança: não cabe MS contra lei em tese, ou seja, lei genérica que ainda não atingiu ninguém (Súmula 266). O MS não substitui ação de cobrança (Súmula 269) e só gera pagamento de valores a partir da impetração; os atrasados antes disso são cobrados em ação própria (Súmula 271).',
+        'Honorários: no MS não há condenação em honorários de sucumbência (art. 25 da Lei 12.016/09; Súmula 512 do STF). Também não cabem embargos infringentes.',
+        'Liminar: o juiz pode suspender o ato se houver fundamento relevante e risco de a medida ficar inútil no fim (art. 7º, III). O STF, na ADI 4296 (2021), declarou inconstitucional a lista de proibições de liminar do art. 7º, §2º.',
+        'Exemplo: Rafael passou em concurso, foi nomeado, mas a autoridade se recusa a dar posse sem motivo legal. Com os documentos em mãos, ele impetra MS em até 120 dias contra o secretário que negou a posse.',
+        'Cuidado (pegadinha): se a prova depende de perícia, não cabe MS. E o prazo de 120 dias não é prescrição: não se interrompe por pedido de reconsideração administrativa (Súmula 430 do STF).',
+        'Como a FGV cobra: prazo de 120 dias, honorários, MS contra lei em tese, cabimento contra decisão transitada em julgado e efeitos patrimoniais.',
+        'Resumo para revisar: direito líquido e certo com prova documental; residual; 120 dias decadenciais; sem honorários (Súmula 512); não cabe contra lei em tese (Súmula 266) nem como ação de cobrança (Súmula 269).'
+      ],
+      cai: ['Prazo decadencial de 120 dias e Súmula 632.', 'Hipóteses de não cabimento do art. 5º da Lei 12.016/09 e Súmulas 266, 268 e 269.', 'Ausência de honorários de sucumbência.', 'Identificação da autoridade coatora, inclusive em caso de delegação (Súmula 510).'],
+      macetes: ['MS = 120 dias = "quatro meses de segurança".', 'Líquido e certo = provado no papel, na hora.', 'Lei em tese não machuca ninguém: sem dano concreto, sem MS.', 'MS não é caixa eletrônico: não cobra atrasados (Súmulas 269 e 271).'],
+      video: 'mandado de segurança individual OAB Lei 12.016' },
+
+    { id: 'co-ms-coletivo', titulo: 'Mandado de segurança coletivo', incidencia: 'alta',
+      aula: [
+        'Em uma frase: o MS coletivo é o mesmo mandado de segurança, mas proposto por uma entidade em nome de um grupo, para proteger muita gente de uma vez.',
+        'Para que serve: evitar milhares de ações iguais. Uma entidade defende, em nome próprio, direitos de seus membros. É a chamada substituição processual.',
+        'Quem pode impetrar: partido político com representação no Congresso Nacional; organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos membros ou associados (art. 5º, LXX; art. 21 da Lei 12.016/09).',
+        'O requisito de um ano: o STF entende que a exigência de funcionamento há um ano vale só para as associações. Sindicatos e entidades de classe não precisam cumprir esse prazo.',
+        'Partido político: basta ter ao menos um parlamentar na Câmara ou no Senado. Ele atua na defesa dos interesses legítimos de seus integrantes ou ligados à sua finalidade partidária (art. 21 da Lei 12.016/09).',
+        'Autorização dos associados: não é preciso autorização expressa dos associados para o MS coletivo (Súmula 629 do STF). Isso o diferencia da ação ordinária proposta por associação, que exige autorização.',
+        'Parte da categoria: a entidade pode impetrar MS coletivo mesmo que o direito interesse só a uma parte dos seus membros (Súmula 630 do STF).',
+        'Direitos protegidos: coletivos (de um grupo ligado por relação jurídica básica) e individuais homogêneos (de origem comum) (art. 21, parágrafo único, da Lei 12.016/09).',
+        'Coisa julgada e ações individuais: a sentença faz coisa julgada só para os membros do grupo representado. O MS coletivo não impede ações individuais, mas o autor individual só aproveita o coletivo se desistir do seu MS em 30 dias depois de saber do coletivo (art. 22, caput e §1º).',
+        'Demais regras: valem as mesmas do MS individual, como prazo de 120 dias, prova documental e ausência de honorários.',
+        'Exemplo: a Associação dos Fiscais de Delta, criada há três anos, impetra MS coletivo contra corte ilegal de uma gratificação. Ela não precisa de autorização de cada fiscal, e a decisão beneficia os associados.',
+        'Cuidado (pegadinha): partido sem nenhum parlamentar não pode impetrar MS coletivo. E o MP não aparece no rol do art. 5º, LXX.',
+        'Como a FGV cobra: legitimidade (quem pode e quem não pode), Súmulas 629 e 630, requisito de um ano e relação com o MS individual.',
+        'Resumo para revisar: partido com representação no Congresso; sindicato, entidade de classe ou associação com um ano (o ano só para associação); sem autorização (Súmula 629); vale para parte da categoria (Súmula 630); desistência do individual em 30 dias.'
+      ],
+      cai: ['Rol de legitimados do art. 5º, LXX, e a quem se aplica o requisito de um ano.', 'Desnecessidade de autorização dos associados (Súmula 629).', 'Defesa de interesse de apenas parte da categoria (Súmula 630).', 'Relação com MS individual: desistência em 30 dias (art. 22, §1º).'],
+      macetes: ['"PSEA": Partido, Sindicato, Entidade de classe, Associação.', 'Um ano de vida só para a Associação (a mais "nova" da lista).', 'Coletivo dispensa procuração de cada um: 629 "sem pedir licença".', 'Partido precisa de cadeira no Congresso: nem que seja uma.'],
+      video: 'mandado de segurança coletivo legitimidade OAB' },
+
+    { id: 'co-mi', titulo: 'Mandado de injunção (Lei 13.300/16)', incidencia: 'media',
+      aula: [
+        'Em uma frase: o mandado de injunção é usado quando a Constituição dá um direito, mas ninguém fez a lei que permite usá-lo.',
+        'Conceito: cabe MI sempre que a falta de norma regulamentadora torne inviável o exercício de direitos e liberdades constitucionais e das prerrogativas ligadas à nacionalidade, à soberania e à cidadania (art. 5º, LXXI; Lei 13.300/16).',
+        'Norma regulamentadora: é a lei ou ato que detalha um direito previsto na CF de forma incompleta (norma de eficácia limitada). Se o direito já pode ser usado sem lei, não cabe MI.',
+        'Omissão total ou parcial: cabe MI tanto quando não existe norma quanto quando a norma existe mas é insuficiente (art. 2º, parágrafo único, da Lei 13.300/16).',
+        'MI individual: pode ser impetrado por qualquer pessoa, física ou jurídica, que se diga titular do direito impedido (art. 3º).',
+        'MI coletivo: legitimados são o Ministério Público, partido político com representação no Congresso, organização sindical, entidade de classe ou associação em funcionamento há pelo menos um ano, e a Defensoria Pública (art. 12).',
+        'O que o juiz decide: reconhecida a omissão, o tribunal dá prazo razoável para o órgão omisso editar a norma. Se não houver edição no prazo, o tribunal fixa as condições para a pessoa exercer o direito (art. 8º). O prazo é dispensado se o órgão já descumpriu prazo antes (art. 8º, parágrafo único).',
+        'Efeitos da decisão: em regra, valem só para as partes e até a norma ser editada (art. 9º). Mas a decisão pode ganhar eficácia ultra partes ou erga omnes, isto é, para além das partes ou para todos, quando isso for necessário (art. 9º, §1º).',
+        'Norma editada depois: a norma superveniente produz efeitos dali para frente (ex nunc) para quem já tinha decisão, salvo se for mais favorável (art. 11). Se a norma sair antes da decisão, o MI perde o objeto e é extinto sem resolução de mérito (art. 11, parágrafo único).',
+        'Exemplo histórico: nos MIs 670, 708 e 712, o STF mandou aplicar a lei de greve da iniciativa privada aos servidores públicos, porque faltava a lei do art. 37, VII.',
+        'Exemplo: Joana, servidora com deficiência, quer aposentadoria especial, mas a lei não existe. Ela impetra MI no STF, se a omissão for do Congresso ou do Presidente (art. 102, I, q).',
+        'Cuidado (pegadinha): MI não serve para pedir uma lei melhor quando a atual já permite exercer o direito. Também não confunda com a ADO, que é controle abstrato e não tem titular de direito no caso concreto.',
+        'Como a FGV cobra: legitimados do MI coletivo (inclusive Defensoria), efeitos da decisão, norma superveniente e diferença entre MI e ADO.',
+        'Resumo para revisar: falta de norma que inviabiliza direito; cabe por omissão total ou parcial; decisão dá prazo e depois fixa condições; efeito entre as partes, podendo ser ampliado; norma posterior vale ex nunc, salvo se mais benéfica.'
+      ],
+      cai: ['Legitimados do MI coletivo (art. 12), incluindo MP e Defensoria.', 'Conteúdo da decisão: prazo razoável e depois condições de exercício (art. 8º).', 'Eficácia subjetiva e possibilidade de ampliação (art. 9º).', 'Efeitos da norma superveniente (art. 11).'],
+      macetes: ['Injunção = "injeção" de norma onde falta lei.', 'MI coletivo = legitimados do MS coletivo + MP + Defensoria.', 'Decisão em dois tempos: primeiro prazo, depois regra.', 'Lei nova: para frente, salvo se melhorar a vida.'],
+      video: 'mandado de injunção Lei 13.300 OAB' },
+
+    { id: 'co-hd', titulo: 'Habeas data', incidencia: 'media',
+      aula: [
+        'Em uma frase: o habeas data é a ação para a pessoa saber, corrigir ou explicar informações sobre ela mesma guardadas em bancos de dados públicos.',
+        'Conceito: cabe HD para conhecer informações sobre a pessoa do impetrante em registros ou bancos de dados de entidades governamentais ou de caráter público, e para retificar dados, quando a pessoa não prefere fazê-lo por processo sigiloso (art. 5º, LXXII; Lei 9.507/97).',
+        'Três finalidades: conhecer os dados; retificar, isto é, corrigir dados errados; e anotar uma contestação ou explicação sobre dado verdadeiro que está sendo discutido (art. 7º da Lei 9.507/97).',
+        'Caráter público: não é só banco de órgão estatal. Também alcança cadastros privados que são passados a terceiros, como serviços de proteção ao crédito (art. 1º, parágrafo único, da Lei 9.507/97).',
+        'Recusa prévia: antes do HD é preciso pedir na via administrativa. Sem recusa ou demora, falta interesse de agir (Súmula 2 do STJ). A petição deve provar a recusa ou o silêncio por mais de 10 dias no pedido de acesso, ou por mais de 15 dias no pedido de retificação ou anotação (art. 8º, parágrafo único).',
+        'Informação própria: o HD só protege dados da própria pessoa. Para informações de interesse geral ou de terceiros, o caminho é o direito de informação e o mandado de segurança (art. 5º, XXXIII).',
+        'Gratuidade: o HD e o pedido administrativo prévio são gratuitos (art. 5º, LXXVII; art. 21 da Lei 9.507/97). Mas, diferente do HC, exige advogado.',
+        'Prioridade: os processos de HD têm prioridade sobre os demais, salvo HC e MS (art. 19 da Lei 9.507/97).',
+        'Herdeiros: a jurisprudência admite que herdeiros ou cônjuge impetrem HD para obter dados da pessoa falecida.',
+        'Fisco: o STF decidiu que cabe HD para o contribuinte obter os dados sobre ele constantes nos sistemas de arrecadação da Receita (Tema 582, RE 673.707).',
+        'Exemplo: Lucas descobre que consta como devedor no cadastro de um órgão público. Ele pede a correção e, após 15 dias sem resposta, impetra HD com advogado e sem pagar custas.',
+        'Cuidado (pegadinha): pedir certidão para defender direito não é caso de HD; a recusa de certidão se combate por MS. E o HD não dispensa advogado.',
+        'Como a FGV cobra: necessidade de recusa prévia, diferença entre HD e MS em pedidos de informação, gratuidade e alcance de bancos de caráter público.',
+        'Resumo para revisar: dados da própria pessoa; conhecer, retificar ou anotar; exige recusa prévia (Súmula 2 do STJ; 10 ou 15 dias); gratuito, mas com advogado; alcança cadastros de crédito.'
+      ],
+      cai: ['Necessidade de prévio requerimento administrativo e recusa (Súmula 2 do STJ).', 'Diferença entre HD (dado próprio) e MS (certidão, dado de terceiro ou de interesse geral).', 'Gratuidade e exigência de advogado.', 'Bancos de dados de caráter público, como cadastros de crédito.'],
+      macetes: ['HD = Habeas "Dados meus".', 'Prazos administrativos: 10 para ver, 15 para mexer (corrigir ou anotar).', 'HC dispensa advogado; HD não dispensa.', 'Certidão negada = MS, não HD.'],
+      video: 'habeas data Lei 9.507 OAB' },
+
+    { id: 'co-acao-popular', titulo: 'Ação popular', incidencia: 'alta',
+      aula: [
+        'Em uma frase: a ação popular é a ferramenta do eleitor para anular atos que causam prejuízo ao patrimônio público, à moralidade, ao meio ambiente ou à cultura.',
+        'Conceito: qualquer cidadão pode propor ação popular para anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural (art. 5º, LXXIII; Lei 4.717/65).',
+        'Quem pode propor: só o cidadão, ou seja, o brasileiro em dia com os direitos políticos. Prova-se com o título de eleitor ou documento equivalente (art. 1º, §3º, da Lei 4.717/65). Pessoa jurídica não pode (Súmula 365 do STF). O Ministério Público também não propõe.',
+        'Custas: o autor fica isento de custas e honorários de sucumbência, salvo comprovada má-fé (art. 5º, LXXIII). Mesmo assim, ele precisa de advogado.',
+        'Quem é réu: a entidade lesada, as autoridades e servidores que praticaram ou autorizaram o ato, e os beneficiários diretos (art. 6º). A pessoa jurídica de direito público pode deixar de contestar e passar a atuar ao lado do autor, se isso for útil ao interesse público (art. 6º, §3º).',
+        'Papel do MP: acompanha a ação como fiscal da lei. Se o autor desistir, o MP ou qualquer cidadão pode assumir a ação (art. 9º).',
+        'Lesividade: para defender a moralidade, não é preciso provar prejuízo financeiro. O STF fixou que basta a lesão à moralidade (Tema 836).',
+        'Competência: a ação é julgada pelo juiz de primeiro grau, mesmo que o réu seja o Presidente ou um ministro. Não há foro especial em ação popular.',
+        'Prazo: a ação prescreve em 5 anos (art. 21 da Lei 4.717/65).',
+        'Sentença: se a ação for julgada improcedente por falta de provas, não faz coisa julgada para todos, e outra ação pode ser proposta com prova nova (art. 18). A sentença de carência ou de improcedência fica sujeita ao reexame necessário, ou seja, o tribunal revisa obrigatoriamente (art. 19).',
+        'Exemplo: Tereza, eleitora, vê que a prefeitura contratou, sem licitação, uma empresa do filho do prefeito por preço acima do mercado. Ela propõe ação popular na vara competente, com advogado e sem custas.',
+        'Cuidado (pegadinha): associação ou partido não propõem ação popular; para eles existe a ação civil pública. E a isenção de custas cai se houver má-fé.',
+        'Como a FGV cobra: legitimidade (Súmula 365), isenção de custas, foro de primeiro grau, papel do MP e lesão à moralidade sem dano material.',
+        'Resumo para revisar: só cidadão-eleitor; pessoa jurídica não (Súmula 365); isento de custas salvo má-fé; MP pode assumir se o autor desistir; prescreve em 5 anos; sem foro privilegiado.'
+      ],
+      cai: ['Legitimidade ativa exclusiva do cidadão e Súmula 365.', 'Isenção de custas e sucumbência, salvo má-fé.', 'Competência do juízo de primeiro grau mesmo contra altas autoridades.', 'Atuação do MP e sucessão em caso de desistência (art. 9º).', 'Lesão à moralidade sem prejuízo material (Tema 836).'],
+      macetes: ['Ação POPULAR = do POVO que vota: precisa de título de eleitor.', 'Má-fé é a única coisa que faz o cidadão pagar.', 'Cinco anos para agir (art. 21).', 'Sem foro: até o Presidente responde no primeiro grau.'],
+      video: 'ação popular Lei 4.717 OAB' }
+  ]);
+})();
