@@ -96,4 +96,53 @@ window.QUESTOES.push(
     ['A alegação procede, pois atos de nomeação só podem ser atacados por ação civil pública.', false, 'Errada. A ação popular cabe contra qualquer ato lesivo aos bens do art. 5º, LXXIII, inclusive à moralidade, e não há essa exclusividade.'],
     ['A alegação não procede, mas a ação deveria ter sido proposta pelo Ministério Público, que é o único legitimado para defender a moralidade.', false, 'Errada. A ação popular é proposta pelo cidadão (art. 5º, LXXIII). O MP atua como fiscal da lei e pode assumir a ação em caso de desistência.']
   ] }
+,
+{ id: 'co433', materia: 'constitucional', topico: 'co-hc',
+  enunciado: 'A sociedade empresária Rio Limpo Ltda. foi denunciada por crime ambiental. Seu advogado impetrou habeas corpus, indicando a própria sociedade como paciente, para trancar a ação penal por falta de justa causa. Com base na jurisprudência do STF, assinale a afirmativa correta.',
+  alt: [
+    ['O habeas corpus é cabível, pois a pessoa jurídica pode ser ré em ação penal ambiental.', false, 'Errada. Ser ré não basta: o HC protege a liberdade de locomoção (art. 5º, LXVIII, da CF), e a pessoa jurídica não pode ser presa.'],
+    ['O habeas corpus não é cabível, pois a pessoa jurídica não pode figurar como paciente, já que não tem liberdade de locomoção a proteger.', true, 'Correta. O STF não admite pessoa jurídica como paciente de HC. A sociedade pode buscar o trancamento por mandado de segurança; já seus diretores, pessoas físicas, podem ser pacientes.'],
+    ['O habeas corpus não é cabível, pois só pode ser impetrado por pessoa física.', false, 'Errada. Qualquer pessoa, até a jurídica, pode impetrar HC em favor de alguém (art. 654 do CPP). O problema é ser paciente, não impetrante.'],
+    ['O habeas corpus é cabível, desde que a pena prevista seja exclusivamente de multa.', false, 'Errada. Ao contrário: pena só de multa afasta o HC (Súmula 693 do STF).']
+  ] },
+{ id: 'co434', materia: 'constitucional', topico: 'co-ms',
+  enunciado: 'Teresa, servidora municipal, foi cientificada em 10 de fevereiro do indeferimento ilegal de sua licença. Em vez de recorrer, apresentou pedido de reconsideração à mesma autoridade, que o rejeitou em 20 de junho. Em 25 de junho, Teresa impetrou mandado de segurança. Assinale a afirmativa correta.',
+  alt: [
+    ['O mandado de segurança é tempestivo, pois o prazo de 120 dias foi interrompido pelo pedido de reconsideração.', false, 'Errada. O pedido de reconsideração na via administrativa não interrompe o prazo do MS (Súmula 430 do STF).'],
+    ['O mandado de segurança é tempestivo, pois o prazo é de 180 dias contados da ciência do ato.', false, 'Errada. O prazo é de 120 dias (art. 23 da Lei 12.016/09).'],
+    ['Houve decadência do direito de impetrar, pois o prazo de 120 dias, contado da ciência do ato, não foi interrompido pela reconsideração; Teresa ainda pode usar as vias ordinárias.', true, 'Correta. O prazo decadencial de 120 dias conta da ciência do ato (art. 23) e não se interrompe por reconsideração (Súmula 430). A decadência atinge só a via do MS, e não o direito, que pode ser buscado por ação comum (art. 19).'],
+    ['Houve decadência, e Teresa perdeu definitivamente o direito à licença.', false, 'Errada. A decadência do MS não extingue o direito material; Teresa pode recorrer às ações próprias (art. 19 da Lei 12.016/09).']
+  ] },
+{ id: 'co435', materia: 'constitucional', topico: 'co-ms-coletivo',
+  enunciado: 'O Partido da Renovação possui diversos vereadores e deputados estaduais, mas nenhum deputado federal ou senador. Ele pretende impetrar mandado de segurança coletivo em defesa de interesses relacionados à sua finalidade partidária. Assinale a afirmativa correta.',
+  alt: [
+    ['O partido tem legitimidade, pois basta ter representação em qualquer casa legislativa do país.', false, 'Errada. A CF exige representação no Congresso Nacional (art. 5º, LXX, a); vereadores e deputados estaduais não contam.'],
+    ['O partido não tem legitimidade, pois a CF exige que o partido político tenha representação no Congresso Nacional.', true, 'Correta. Art. 5º, LXX, a, da CF e art. 21 da Lei 12.016/09: só o partido com representação no Congresso Nacional pode impetrar MS coletivo; basta um deputado federal ou senador.'],
+    ['O partido tem legitimidade, desde que esteja registrado no TSE há pelo menos um ano.', false, 'Errada. O requisito de um ano é das associações (art. 5º, LXX, b). Para o partido, o requisito é a representação no Congresso.'],
+    ['O partido só teria legitimidade se obtivesse autorização expressa de seus filiados.', false, 'Errada. O MS coletivo dispensa autorização especial (art. 21 da Lei 12.016/09; Súmula 629 do STF). O obstáculo é a falta de representação no Congresso.']
+  ] },
+{ id: 'co436', materia: 'constitucional', topico: 'co-mi',
+  enunciado: 'Ulisses impetrou mandado de injunção individual, e o tribunal reconheceu a mora legislativa. Sobre a eficácia subjetiva da decisão, segundo a Lei 13.300/16, assinale a afirmativa correta.',
+  alt: [
+    ['A decisão terá, obrigatoriamente, eficácia erga omnes, pois a omissão atinge toda a sociedade.', false, 'Errada. A regra é a eficácia limitada às partes (art. 9º, caput); a eficácia erga omnes é excepcional.'],
+    ['A decisão apenas declarará a mora do legislador, sem viabilizar o exercício do direito.', false, 'Errada. Essa era a antiga posição não concretista. A lei manda fixar prazo e estabelecer as condições de exercício do direito (art. 8º).'],
+    ['A decisão terá eficácia limitada às partes, até o advento da norma, mas poderá ter eficácia ultra partes ou erga omnes quando isso for inerente ou indispensável ao exercício do direito.', true, 'Correta. É o texto do art. 9º, caput e §1º, da Lei 13.300/16. Após o trânsito em julgado, o relator ainda pode estender os efeitos a casos análogos (art. 9º, §2º).'],
+    ['A decisão produzirá efeitos permanentes, mesmo após a edição da norma regulamentadora.', false, 'Errada. Os efeitos duram até o advento da norma (art. 9º, caput); editada a norma, ela vale para frente, salvo se a decisão for mais favorável ao beneficiado (art. 11).']
+  ] },
+{ id: 'co437', materia: 'constitucional', topico: 'co-hd',
+  enunciado: 'Valéria requereu a um órgão federal acesso às informações sobre ela constantes de seu banco de dados. Passados doze dias, o órgão não respondeu. Valéria quer ajuizar habeas data. Segundo a Lei 9.507/97, assinale a afirmativa correta.',
+  alt: [
+    ['Valéria ainda não pode ajuizar o habeas data, pois deve aguardar 30 dias sem resposta.', false, 'Errada. Para o acesso, basta o decurso de mais de 10 dias sem decisão (art. 8º, parágrafo único, I).'],
+    ['Valéria pode ajuizar o habeas data, instruindo a inicial com a prova do decurso de mais de 10 dias sem decisão, o que equivale à recusa.', true, 'Correta. Art. 8º, parágrafo único, I, da Lei 9.507/97: a inicial deve provar a recusa ao acesso ou o decurso de mais de 10 dias sem decisão. Isso atende à Súmula 2 do STJ.'],
+    ['Valéria não precisava ter feito pedido administrativo, pois o habeas data dispensa qualquer requerimento prévio.', false, 'Errada. Sem recusa (ou silêncio pelo prazo legal) não há interesse de agir (Súmula 2 do STJ).'],
+    ['Valéria pode ajuizar o habeas data sem advogado, já que a ação é gratuita.', false, 'Errada. O HD é gratuito (art. 5º, LXXVII, da CF; art. 21 da lei), mas exige advogado. Só o HC dispensa advogado.']
+  ] },
+{ id: 'co438', materia: 'constitucional', topico: 'co-acao-popular',
+  enunciado: 'Wagner, eleitor, propôs ação popular para anular contrato firmado pelo Estado Sigma. O juiz julgou o pedido improcedente, e nenhuma das partes recorreu. Segundo a Lei 4.717/65, assinale a afirmativa correta.',
+  alt: [
+    ['A sentença transita em julgado imediatamente, pois não houve recurso.', false, 'Errada. A sentença de improcedência ou carência da ação popular está sujeita ao duplo grau obrigatório (art. 19).'],
+    ['A sentença só estaria sujeita ao reexame necessário se tivesse julgado o pedido procedente, condenando o Estado.', false, 'Errada. Essa lógica é a do MS (art. 14, §1º, da Lei 12.016/09). Na ação popular, o reexame ocorre na improcedência ou carência (art. 19 da Lei 4.717/65).'],
+    ['Wagner será condenado ao pagamento de custas e honorários, pois perdeu a ação.', false, 'Errada. O autor é isento de custas e sucumbência, salvo comprovada má-fé (art. 5º, LXXIII, da CF).'],
+    ['A sentença está sujeita ao duplo grau de jurisdição e só produzirá efeito depois de confirmada pelo tribunal.', true, 'Correta. Art. 19 da Lei 4.717/65: a sentença que concluir pela carência ou improcedência da ação está sujeita ao duplo grau de jurisdição, não produzindo efeito senão depois de confirmada pelo tribunal.']
+  ] }
 );

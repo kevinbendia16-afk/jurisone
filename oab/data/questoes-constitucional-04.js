@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Há nulidade, mas apenas se Pedro tiver curso superior em outra área.', false, 'Errada. A formação de Pedro é irrelevante; a SV 5 vale para qualquer servidor.'],
     ['Há nulidade, pois a Constituição exige advogado em todos os processos administrativos.', false, 'Errada. A Constituição garante contraditório e ampla defesa (art. 5º, LV), mas não exige advogado no PAD.'],
     ['Não há nulidade, pois a falta de defesa técnica por advogado no PAD não ofende a Constituição.', true, 'Correta. É o teor da Súmula Vinculante 5 do STF, respeitados o contraditório e a ampla defesa.']
+  ] },
+{ id: 'co393', materia: 'constitucional', topico: 'co-teoria-df',
+  enunciado: 'Pierre, turista francês em viagem de férias pelo Brasil, foi detido por agentes policiais em Fortaleza sem situação de flagrante e sem ordem judicial. Seu advogado impetrou habeas corpus, e a autoridade alegou que Pierre, por não residir no país, não é titular dos direitos previstos no art. 5º da Constituição. Assinale a afirmativa correta.',
+  alt: [
+    ['A autoridade tem razão, pois o art. 5º protege apenas brasileiros e estrangeiros residentes no País.', false, 'Errada. Essa é a leitura literal do caput do art. 5º, superada pelo STF: os direitos fundamentais decorrem da dignidade humana, e não do domicílio.'],
+    ['Pierre pode impetrar habeas corpus, mas apenas por meio da representação diplomática da França.', false, 'Errada. Qualquer pessoa pode impetrar habeas corpus, em favor próprio ou de outrem, sem intermediação diplomática (art. 5º, LXVIII).'],
+    ['Pierre é titular dos direitos fundamentais, e o habeas corpus deve ser conhecido, pois o STF estende essa proteção ao estrangeiro não residente.', true, 'Correta. O STF interpreta o caput do art. 5º de forma ampla, alcançando o estrangeiro de passagem; e a prisão sem flagrante nem ordem judicial é ilegal (art. 5º, LXI).'],
+    ['Pierre só teria direitos fundamentais se houvesse tratado de reciprocidade entre Brasil e França.', false, 'Errada. A titularidade dos direitos fundamentais não depende de reciprocidade; ela deriva da dignidade da pessoa humana (art. 1º, III).']
+  ] },
+{ id: 'co394', materia: 'constitucional', topico: 'direitos2',
+  enunciado: 'Lei do Estado Alfa, ao regular a proteção dos animais, ressalvou expressamente o sacrifício ritual de animais em cultos de religiões de matriz africana. O Ministério Público questiona a ressalva, sustentando que ela viola a laicidade e a isonomia. Segundo o entendimento do STF, assinale a afirmativa correta.',
+  alt: [
+    ['A ressalva é inconstitucional, pois o Estado laico não pode editar normas que mencionem religiões.', false, 'Errada. Laicidade não é hostilidade à religião; o Estado pode proteger o livre exercício dos cultos (art. 5º, VI).'],
+    ['A ressalva é constitucional, pois protege a liberdade de culto, desde que o sacrifício ocorra sem excessos ou crueldade.', true, 'Correta. No RE 494.601, o STF validou a proteção ao sacrifício ritual em cultos de matriz africana, com base na liberdade religiosa (art. 5º, VI), vedados maus-tratos e crueldade (art. 225, §1º, VII).'],
+    ['A ressalva é constitucional, e a liberdade de culto, por ser absoluta, afasta qualquer limite de proteção aos animais.', false, 'Errada. Nenhum direito fundamental é absoluto; a prática não pode envolver crueldade.'],
+    ['A ressalva é inconstitucional, pois apenas a União pode legislar sobre liberdade religiosa e proteção da fauna.', false, 'Errada. A proteção da fauna é matéria de competência legislativa concorrente (art. 24, VI); o fundamento do STF não foi vício de competência.']
+  ] },
+{ id: 'co395', materia: 'constitucional', topico: 'co-privacidade',
+  enunciado: 'Policiais civis, munidos de mandado judicial de busca e apreensão, chegaram à residência de Gustavo às 23h e, diante da recusa do morador em abrir a porta, ingressaram à força. Não havia situação de flagrante delito, desastre ou necessidade de socorro. Sobre a diligência, assinale a afirmativa correta.',
+  alt: [
+    ['É válida, pois havia ordem judicial, que autoriza a entrada a qualquer hora.', false, 'Errada. A ordem judicial só autoriza a entrada durante o dia (art. 5º, XI); a qualquer hora, só em flagrante, desastre ou socorro.'],
+    ['É inválida, pois a entrada por ordem judicial só pode ocorrer durante o dia.', true, 'Correta. O art. 5º, XI, só admite o cumprimento de ordem judicial durante o dia; a Lei 13.869/2019 (art. 22, §1º, III) ainda tipifica como abuso o cumprimento de mandado de busca domiciliar após as 21h ou antes das 5h.'],
+    ['É válida, desde que os policiais tenham sido acompanhados por duas testemunhas.', false, 'Errada. A presença de testemunhas não supre a restrição de horário imposta pela Constituição.'],
+    ['É inválida, pois a busca domiciliar só pode ser determinada por CPI ou pelo Ministério Público.', false, 'Errada. A busca domiciliar está sob reserva de jurisdição: só o juiz pode determiná-la; CPI e Ministério Público não podem.']
+  ] },
+{ id: 'co396', materia: 'constitucional', topico: 'co-reuniao',
+  enunciado: 'O Coletivo Bairro Vivo divulgou amplamente nas redes sociais e comunicou por ofício à Prefeitura do Município Beta que realizaria passeata pacífica, sem armas, na praça central, no sábado seguinte. Não havia outra reunião marcada para o local. O Prefeito respondeu que o ato "não estava autorizado". Assinale a afirmativa correta.',
+  alt: [
+    ['O ato depende de autorização do Prefeito, que pode negá-la por conveniência administrativa.', false, 'Errada. A Constituição dispensa expressamente autorização para reuniões pacíficas em locais abertos ao público (art. 5º, XVI).'],
+    ['O ato depende de autorização judicial, por ocorrer em local público.', false, 'Errada. Não há exigência de autorização judicial para o direito de reunião (art. 5º, XVI).'],
+    ['O ato só poderia ocorrer se o Coletivo estivesse registrado como associação há mais de um ano.', false, 'Errada. O direito de reunião pertence a todos, independentemente de constituição formal; o prazo de um ano é requisito da associação para o mandado de segurança coletivo (art. 5º, LXX, b).'],
+    ['O ato pode ser realizado, pois a Constituição exige apenas prévio aviso à autoridade competente, já cumprido.', true, 'Correta. O art. 5º, XVI, exige apenas aviso prévio, e não autorização; o STF considera cumprido o aviso quando há ciência inequívoca da autoridade (Tema 855).']
+  ] },
+{ id: 'co397', materia: 'constitucional', topico: 'co-propriedade',
+  enunciado: 'José, pequeno agricultor, cultiva com a esposa e os filhos uma pequena propriedade rural, assim definida em lei. Para comprar sementes e adubo, tomou empréstimo bancário e não conseguiu pagá-lo. Na execução, o banco requereu a penhora do imóvel. Assinale a afirmativa correta.',
+  alt: [
+    ['A penhora é possível, pois o direito de propriedade não é absoluto e cede ao direito do credor.', false, 'Errada. A Constituição criou proteção específica para essa situação (art. 5º, XXVI).'],
+    ['A penhora é vedada, pois a pequena propriedade rural trabalhada pela família não pode ser penhorada para pagamento de débitos decorrentes de sua atividade produtiva.', true, 'Correta. É a garantia do art. 5º, XXVI, que protege a subsistência da família agricultora; o STF reforçou essa proteção no Tema 961.'],
+    ['A penhora é vedada para qualquer tipo de dívida, inclusive as que nada têm a ver com a produção.', false, 'Errada. A proteção constitucional do art. 5º, XXVI, refere-se aos débitos decorrentes da atividade produtiva.'],
+    ['A penhora é possível, mas o imóvel deve ser destinado à reforma agrária, com indenização em títulos.', false, 'Errada. Penhora para pagar dívida não se confunde com desapropriação para reforma agrária, que, aliás, não alcança a pequena propriedade cujo dono não possua outra (art. 185, I).']
+  ] },
+{ id: 'co398', materia: 'constitucional', topico: 'co-garantias-proc',
+  enunciado: 'Em investigação de roubo, policiais obtiveram, mediante tortura, a confissão de Mateus, que indicou o local onde havia escondido o dinheiro roubado. Os policiais foram até lá e apreenderam o dinheiro. Não havia nenhuma outra linha de investigação que levasse ao local. Sobre as provas, assinale a afirmativa correta.',
+  alt: [
+    ['A confissão é ilícita, mas a apreensão do dinheiro é válida, pois ocorreu em local público.', false, 'Errada. A apreensão deriva diretamente da confissão sob tortura; sem fonte independente, a prova derivada também é contaminada (art. 157, §1º, do CPP).'],
+    ['Ambas as provas são válidas, pois o interesse público na apuração do crime prevalece.', false, 'Errada. São inadmissíveis no processo as provas obtidas por meios ilícitos (art. 5º, LVI), e a tortura é vedada (art. 5º, III).'],
+    ['A confissão e a apreensão são inadmissíveis, pois a prova derivada de prova ilícita também é contaminada, salvo fonte independente ou descoberta inevitável, ausentes no caso.', true, 'Correta. Aplica-se a teoria dos frutos da árvore envenenada, acolhida pelo STF e pelo art. 157, §§1º e 2º, do CPP, com base no art. 5º, LVI.'],
+    ['Ambas as provas são válidas se o juiz as considerar indispensáveis para a condenação.', false, 'Errada. A necessidade da prova para condenar não afasta sua ilicitude; prova ilícita deve ser desentranhada (art. 157 do CPP).']
   ] }
 );

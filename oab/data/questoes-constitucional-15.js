@@ -15,5 +15,13 @@ window.QUESTOES.push(
     ['Renata não pode ser nomeada, pois o cargo é privativo de membros da carreira da Advocacia-Geral da União.', false, 'Errada. A CF não exige que o Advogado-Geral seja da carreira; basta ser maior de 35 anos, com notável saber jurídico e reputação ilibada (art. 131, §1º).'],
     ['A nomeação é possível, e na execução da dívida ativa tributária a União é representada pela Procuradoria-Geral da Fazenda Nacional.', true, 'Correta. O Advogado-Geral da União é de livre nomeação entre cidadãos maiores de 35 anos, com notável saber jurídico e reputação ilibada (art. 131, §1º), e a dívida ativa tributária é executada pela PGFN (art. 131, §3º).'],
     ['A nomeação é possível, mas a execução da dívida ativa tributária cabe ao Ministério Público Federal.', false, 'Errada. O Ministério Público não representa judicialmente entes públicos (art. 129, IX, veda isso); a representação cabe à Procuradoria-Geral da Fazenda Nacional (art. 131, §3º).']
+  ] },
+{ id: 'co603', materia: 'constitucional', topico: 'co-defensoria',
+  enunciado: 'O Estado Gama publicou lei que (i) cria, na Secretaria de Saúde, cargos em comissão de "consultor jurídico", de livre nomeação, para representar o Estado em juízo nas causas da pasta; e (ii) prevê que o concurso para Procurador do Estado terá participação da OAB apenas na prova oral. Sobre essa lei, assinale a afirmativa correta.',
+  alt: [
+    ['As duas previsões são válidas, pois cada Estado organiza livremente sua advocacia pública.', false, 'Errada. A autonomia estadual deve respeitar o art. 132 da CF, que impõe carreira própria, concurso com participação da OAB em todas as fases e exclusividade da representação pelos procuradores.'],
+    ['Só a previsão sobre o concurso é inconstitucional; os cargos em comissão são válidos por serem de confiança da Secretaria.', false, 'Errada. O STF entende que a representação judicial e a consultoria do Estado são exclusivas dos procuradores de carreira (unicidade da representação, art. 132); cargos comissionados paralelos para isso são inconstitucionais.'],
+    ['Só os cargos em comissão são inconstitucionais; a participação da OAB pode ser limitada a uma fase.', false, 'Errada. O art. 132 exige a participação da OAB em todas as fases do concurso de Procurador do Estado.'],
+    ['As duas previsões são inconstitucionais, pois a representação judicial cabe aos procuradores de carreira e a OAB deve participar de todas as fases do concurso.', true, 'Correta. O art. 132 da CF atribui aos procuradores, organizados em carreira e aprovados em concurso com participação da OAB em todas as fases, a representação judicial e a consultoria jurídica do Estado, o que impede cargos paralelos de livre nomeação.']
   ] }
 );

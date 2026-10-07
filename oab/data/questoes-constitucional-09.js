@@ -15,5 +15,13 @@ window.QUESTOES.push(
     ['Apenas os planos I e III são válidos.', false, 'Errada. O plano III é válido pela autonomia partidária, mas o plano I não, porque a coligação é proibida nas eleições proporcionais (art. 17, §1º).'],
     ['Todos os planos são válidos, em razão da autonomia partidária.', false, 'Errada. A autonomia não afasta os preceitos do art. 17: é proibido receber recursos de entidade ou governo estrangeiro (art. 17, II) e coligar em eleição proporcional (art. 17, §1º).'],
     ['Apenas o plano III é válido.', true, 'Correta. O partido tem autonomia para definir sua estrutura interna e a duração dos mandatos de seus órgãos (art. 17, §1º). Mas não pode receber recursos de entidade ou governo estrangeiro (art. 17, II) nem coligar para eleição proporcional (art. 17, §1º).']
+  ] },
+{ id: 'co483', materia: 'constitucional', topico: 'co-partidos',
+  enunciado: 'Nas eleições para a Câmara dos Deputados, o Partido Sol elegeu a deputada federal Paula, mas não alcançou a votação mínima exigida pela cláusula de desempenho prevista na Constituição. Paula deseja filiar-se ao Partido Lua, que atingiu a cláusula. Sobre a situação, assinale a afirmativa correta.',
+  alt: [
+    ['Paula perde o mandato se trocar de partido, pois a desfiliação sem anuência do partido pelo qual foi eleita é sempre causa de perda do cargo.', false, 'Errada. A Constituição garante o mandato de quem foi eleito por partido que não atingiu a cláusula de desempenho e permite sua filiação a partido que a atingiu, sem perda do cargo (art. 17, §5º).'],
+    ['O Partido Sol é extinto por não ter atingido a cláusula de desempenho, e Paula assume o mandato como deputada sem partido.', false, 'Errada. A cláusula de desempenho não extingue o partido nem o impede de disputar eleições; ela só condiciona o acesso ao Fundo Partidário e ao tempo gratuito de rádio e TV (art. 17, §3º).'],
+    ['Paula pode filiar-se ao Partido Lua sem perder o mandato, mas sua migração não será considerada para a distribuição do Fundo Partidário e do tempo de rádio e TV.', true, 'Correta. É exatamente a regra do art. 17, §5º, da CF, incluído pela EC 97/17: mandato assegurado, filiação facultada a partido que atingiu a cláusula e migração desconsiderada para a divisão de recursos e de tempo.'],
+    ['Paula pode filiar-se ao Partido Lua sem perder o mandato, e o Partido Lua passa a receber a parcela do Fundo Partidário correspondente aos votos dela.', false, 'Errada. A mudança é permitida, mas a própria Constituição diz que ela não conta para a distribuição do Fundo Partidário e do tempo de rádio e TV (art. 17, §5º), justamente para evitar a "compra" de benefícios com a migração.']
   ] }
 );

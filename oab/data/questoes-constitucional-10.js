@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Está correta a primeira proposta, pois a lei orgânica tem natureza de lei complementar municipal.', false, 'Errada. A Constituição fixa rito próprio para a lei orgânica: dois turnos, dez dias de interstício e 2/3 dos membros (art. 29, caput). Maioria absoluta é o quórum típico de lei complementar, daí a confusão.'],
     ['Está correta a segunda proposta, mas a lei orgânica depende de sanção do prefeito.', false, 'Errada. A lei orgânica é promulgada pela Câmara Municipal, sem sanção do prefeito (art. 29, caput).'],
     ['Nenhuma proposta está correta, pois a lei orgânica municipal é aprovada pela Assembleia Legislativa do Estado.', false, 'Errada. A lei orgânica é obra da própria Câmara Municipal, expressão da auto-organização do Município (art. 29, caput).']
+  ] },
+{ id: 'co513', materia: 'constitucional', topico: 'co-entes',
+  enunciado: 'O Governador do Distrito Federal envia à Câmara Legislativa projeto de lei que divide o território distrital em três Municípios, cada um com Prefeito e Câmara de Vereadores próprios, para aproximar a gestão da população. Sobre o projeto, assinale a afirmativa correta.',
+  alt: [
+    ['É válido, desde que precedido de plebiscito com a população do Distrito Federal.', false, 'Errada. O plebiscito é requisito para criar Municípios nos Estados (art. 18, §4º), mas não resolve o problema aqui: a Constituição proíbe dividir o DF em Municípios (art. 32, caput).'],
+    ['É válido, pois o DF acumula as competências legislativas dos Estados, entre elas a de criar Municípios.', false, 'Errada. O DF acumula competências legislativas estaduais e municipais (art. 32, §1º), mas a própria Constituição veda sua divisão em Municípios (art. 32, caput).'],
+    ['É inconstitucional, pois o Distrito Federal não pode ser dividido em Municípios.', true, 'Correta. O art. 32, caput, veda expressamente a divisão do DF em Municípios. O DF pode apenas criar regiões administrativas, sem autonomia política.'],
+    ['Depende de lei complementar federal, pois o DF é organizado e mantido pela União.', false, 'Errada. Não há lei capaz de autorizar a divisão, vedada pela Constituição (art. 32, caput). O que a União organiza e mantém no DF são o Judiciário, o MP e as polícias (art. 21, XIII e XIV).']
+  ] },
+{ id: 'co514', materia: 'constitucional', topico: 'co-comp-materiais',
+  enunciado: 'O Município de Vale Claro, no Estado Alfa, abriu licitação para conceder a uma empresa privada a exploração de linha de ônibus que liga seu centro ao centro do Município vizinho de Serra Bonita, também no Estado Alfa. Sobre a competência para explorar esse serviço, assinale a afirmativa correta.',
+  alt: [
+    ['Cabe ao Município de Vale Claro, pois o transporte coletivo é serviço público de interesse local.', false, 'Errada. O interesse local (art. 30, V) abrange o transporte coletivo dentro do Município. A linha ultrapassa seus limites e passa a interessar a mais de uma cidade.'],
+    ['Cabe à União, pois compete a ela explorar os serviços de transporte rodoviário de passageiros.', false, 'Errada. A União explora o transporte rodoviário interestadual e internacional de passageiros (art. 21, XII, e). A linha não cruza divisa de Estado.'],
+    ['Cabe aos dois Municípios em conjunto, por se tratar de competência comum.', false, 'Errada. O transporte de passageiros não está no rol da competência comum (art. 23). O serviço intermunicipal pertence ao Estado.'],
+    ['Cabe ao Estado Alfa, por sua competência remanescente, pois o transporte é intermunicipal.', true, 'Correta. O transporte intermunicipal não foi atribuído à União (art. 21, XII, e) nem ao Município (art. 30, V). Por isso fica com o Estado, pela competência residual (art. 25, §1º).']
+  ] },
+{ id: 'co515', materia: 'constitucional', topico: 'co-comp-legislativas',
+  enunciado: 'A Assembleia Legislativa do Estado Beta aprovou emenda à Constituição estadual que define como crime de responsabilidade do Governador deixar de publicar o relatório de gestão fiscal no prazo e prevê que o julgamento será feito por um tribunal especial composto apenas por deputados estaduais. Sobre a emenda, assinale a afirmativa correta.',
+  alt: [
+    ['É válida, pois cada Estado tem autonomia para definir os crimes de responsabilidade de seu Governador.', false, 'Errada. A autonomia estadual não alcança esse tema. A definição dos crimes de responsabilidade e as normas de processo e julgamento são de competência legislativa privativa da União (Súmula Vinculante 46).'],
+    ['É inconstitucional, pois a definição dos crimes de responsabilidade e as normas de processo e julgamento são de competência legislativa privativa da União.', true, 'Correta. É o que diz a Súmula Vinculante 46. O Estado não pode criar crimes de responsabilidade nem mudar o rito de julgamento previsto em lei federal.'],
+    ['É válida quanto à definição do crime, mas inconstitucional quanto ao órgão de julgamento.', false, 'Errada. As duas partes violam a Súmula Vinculante 46: tanto a definição do crime quanto as normas de processo e julgamento são de competência privativa da União.'],
+    ['É válida, pois se trata de matéria de direito financeiro, de competência concorrente.', false, 'Errada. Embora o direito financeiro seja concorrente (art. 24, I), a emenda trata de crime de responsabilidade e de seu processo, que são da União (Súmula Vinculante 46).']
+  ] },
+{ id: 'co516', materia: 'constitucional', topico: 'co-intervencao-federal',
+  enunciado: 'O Estado Sigma suspendeu o pagamento de sua dívida fundada há três anos consecutivos, sem qualquer motivo de força maior. O Presidente da República, depois de ouvir o Conselho da República e o Conselho de Defesa Nacional, que opinaram contra a medida, decide decretar a intervenção federal. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A intervenção é inválida, pois o parecer contrário dos Conselhos impede a decretação.', false, 'Errada. Os Conselhos são apenas ouvidos; seus pareceres não vinculam o Presidente (arts. 90, I, e 91, §1º, II).'],
+    ['A intervenção depende de requisição do Superior Tribunal de Justiça.', false, 'Errada. Requisição do STJ, do STF ou do TSE é exigida em caso de desobediência a ordem ou decisão judicial (art. 36, II). A suspensão da dívida fundada autoriza intervenção espontânea.'],
+    ['O Presidente pode decretar a intervenção de ofício, e o decreto deve ser submetido ao Congresso Nacional em 24 horas.', true, 'Correta. A suspensão da dívida fundada por mais de dois anos consecutivos, sem força maior, autoriza intervenção para reorganizar as finanças (art. 34, V, a), decretada de ofício pelo Presidente e submetida ao Congresso em 24 horas (art. 36, §1º).'],
+    ['O decreto dispensa apreciação do Congresso, pois a medida visa apenas reorganizar as finanças.', false, 'Errada. A dispensa do art. 36, §3º, vale só para os casos do art. 34, VI e VII, e do art. 35, IV. No caso do art. 34, V, há apreciação pelo Congresso em 24 horas (art. 36, §1º).']
+  ] },
+{ id: 'co517', materia: 'constitucional', topico: 'co-intervencao-estadual',
+  enunciado: 'O Tribunal de Justiça do Estado Ômega deu provimento a representação do Procurador-Geral de Justiça para prover a execução de decisão judicial descumprida pelo Município de Pedra Alta. Em seguida, o Governador editou decreto que apenas suspende a execução do ato municipal impugnado, o que bastou para restabelecer a normalidade. Sobre o decreto, assinale a afirmativa correta.',
+  alt: [
+    ['Deve ser submetido à Câmara Municipal de Pedra Alta em 24 horas.', false, 'Errada. A Câmara Municipal não aprecia decreto de intervenção estadual. Quando há apreciação, ela é feita pela Assembleia Legislativa (art. 36, §1º).'],
+    ['Dispensa a apreciação pela Assembleia Legislativa, pois limita-se a suspender a execução do ato impugnado.', true, 'Correta. No caso do art. 35, IV, dispensa-se a apreciação legislativa, e o decreto limita-se a suspender a execução do ato impugnado, se isso bastar ao restabelecimento da normalidade (art. 36, §3º).'],
+    ['Deve ser submetido à Assembleia Legislativa em 24 horas, como em toda intervenção estadual.', false, 'Errada. A apreciação em 24 horas (art. 36, §1º) é a regra, mas o §3º do art. 36 a dispensa nos casos do art. 35, IV, em que já houve decisão do TJ.'],
+    ['É nulo, pois o Governador deveria ter nomeado interventor para assumir a Prefeitura.', false, 'Errada. O decreto nomeia interventor apenas se couber (art. 36, §1º). Se suspender o ato basta, não há necessidade de afastar o Prefeito (art. 36, §3º).']
+  ] },
+{ id: 'co518', materia: 'constitucional', topico: 'co-municipios',
+  enunciado: 'Gustavo, Prefeito do Município de Campo Largo, é denunciado por desviar recursos de convênio firmado com o Ministério da Educação, sujeitos a prestação de contas perante órgão federal. Sobre o órgão competente para processá-lo e julgá-lo originariamente, assinale a afirmativa correta.',
+  alt: [
+    ['O Tribunal Regional Federal, pois a competência do TJ alcança apenas os crimes da Justiça comum estadual.', true, 'Correta. A competência do TJ para julgar Prefeitos (art. 29, X) restringe-se aos crimes da Justiça comum estadual; nos demais casos, cabe ao tribunal de segundo grau respectivo (Súmula 702 do STF). O desvio de verba sujeita a contas perante órgão federal é da Justiça Federal (Súmula 208 do STJ).'],
+    ['O Tribunal de Justiça do Estado, pois a Constituição garante ao Prefeito julgamento perante o TJ em qualquer crime.', false, 'Errada. O art. 29, X, deve ser lido com a Súmula 702 do STF: a competência do TJ vale só para crimes da Justiça comum estadual. Crime federal vai ao TRF.'],
+    ['Um juiz federal de primeiro grau, pois o Prefeito não tem foro por prerrogativa de função em crimes federais.', false, 'Errada. O Prefeito tem foro no tribunal de segundo grau (art. 29, X). Em crime federal, esse tribunal é o TRF, e não o juiz de primeiro grau (Súmula 702 do STF).'],
+    ['A Câmara Municipal, pois o desvio de verbas é crime de responsabilidade julgado pelo Legislativo.', false, 'Errada. Os crimes do art. 1º do DL 201/67 são crimes comuns quanto ao julgamento, de competência do Judiciário. A Câmara julga as infrações político-administrativas do art. 4º do mesmo decreto.']
   ] }
 );

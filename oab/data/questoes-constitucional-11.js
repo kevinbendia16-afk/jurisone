@@ -31,5 +31,21 @@ window.QUESTOES.push(
     ['Cargo de agente de trânsito, por se tratar de função de fiscalização.', false, 'Errada. Fiscalização de trânsito, por si só, não é cargo técnico ou científico nem está entre as hipóteses do art. 37, XVI.'],
     ['Qualquer segundo cargo, desde que a soma das remunerações respeite o teto.', false, 'Errada. A acumulação é exceção e só vale nas hipóteses do art. 37, XVI. Além disso, havendo acumulação lícita, o teto é aplicado a cada cargo isoladamente (Temas 377 e 384 do STF).'],
     ['Outro cargo de professor, na rede municipal.', true, 'Correta. A CF permite acumular dois cargos de professor, com compatibilidade de horários (art. 37, XVI, "a").']
+  ] },
+{ id: 'co525', materia: 'constitucional', topico: 'administracaocf',
+  enunciado: 'Os policiais civis do Estado Delta, insatisfeitos com a falta de reajuste, aprovaram em assembleia uma greve por tempo indeterminado. No mesmo mês, os servidores administrativos da Secretaria de Educação do mesmo Estado também paralisaram suas atividades. Considerando a Constituição e a jurisprudência do STF, assinale a afirmativa correta.',
+  alt: [
+    ['As duas greves são lícitas, pois o direito de greve do servidor público civil é amplo e aplica-se a todas as carreiras.', false, 'Errada. O STF decidiu que policiais civis e servidores que atuam diretamente na segurança pública não podem exercer o direito de greve (Tema 541 do STF).'],
+    ['A greve dos policiais civis é vedada, enquanto a dos servidores da educação é possível, aplicando-se por analogia a lei de greve do setor privado.', true, 'Correta. O servidor civil pode fazer greve nos termos de lei específica (art. 37, VII); na falta dela, aplica-se a Lei 7.783/89 (MI 670, 708 e 712). Mas o exercício da greve é proibido aos policiais civis e aos que atuam diretamente na segurança pública (Tema 541).'],
+    ['As duas greves são ilícitas, pois, sem a lei específica exigida pelo art. 37, VII, nenhum servidor pode fazer greve.', false, 'Errada. O STF supriu a omissão nos mandados de injunção 670, 708 e 712, mandando aplicar a lei do setor privado até a edição da lei específica.'],
+    ['A greve dos servidores da educação é lícita e impede qualquer desconto dos dias parados.', false, 'Errada. Segundo o STF, a administração deve descontar os dias de paralisação, salvo acordo de compensação ou greve provocada por conduta ilícita do Poder Público (Tema 531).']
+  ] },
+{ id: 'co526', materia: 'constitucional', topico: 'co-servidores',
+  enunciado: 'Cláudio, servidor público estável do Município Ômega, ocupa cargo de técnico em contabilidade e foi eleito vereador do mesmo Município. As sessões da Câmara ocorrem à noite, e o expediente do cargo é pela manhã, havendo compatibilidade de horários. Sobre a situação de Cláudio, assinale a afirmativa correta.',
+  alt: [
+    ['Cláudio deverá se afastar do cargo, podendo apenas optar entre a remuneração do cargo e o subsídio de vereador.', false, 'Errada. Essa é a regra para o caso de não haver compatibilidade de horários, ou a regra do Prefeito (art. 38, II e III). Havendo compatibilidade, o vereador exerce os dois.'],
+    ['Cláudio deverá pedir exoneração do cargo efetivo para tomar posse como vereador.', false, 'Errada. A Constituição não exige exoneração; regula apenas o afastamento ou a acumulação do servidor eleito (art. 38).'],
+    ['Cláudio perceberá as vantagens de seu cargo sem prejuízo da remuneração do cargo eletivo, exercendo ambos.', true, 'Correta. Investido no mandato de vereador e havendo compatibilidade de horários, o servidor acumula o cargo e o mandato e recebe as duas remunerações (art. 38, III).'],
+    ['Cláudio ficará afastado do cargo, e o tempo de mandato não será contado para nenhum efeito.', false, 'Errada. Mesmo quando há afastamento, o tempo de serviço conta para todos os efeitos legais, exceto para promoção por merecimento (art. 38, IV). E, no caso, sequer há afastamento.']
   ] }
 );

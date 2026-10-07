@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['A pessoa com deficiência submetida a curatela tem seus direitos políticos suspensos, por ser absolutamente incapaz.', false, 'Errada. Após a Lei 13.146/15, só os menores de 16 anos são absolutamente incapazes (art. 3º do CC), e a pessoa com deficiência mantém o direito ao voto.'],
     ['A condenação por improbidade administrativa suspende os direitos políticos desde a decisão de primeira instância.', false, 'Errada. A suspensão dos direitos políticos por improbidade só se efetiva com o trânsito em julgado da condenação (art. 20 da Lei 8.429/92).'],
     ['A lei pode criar novas hipóteses de cassação de direitos políticos para combater a corrupção.', false, 'Errada. A CF veda a cassação de direitos políticos e só admite perda ou suspensão nos casos do art. 15.']
+  ] },
+{ id: 'co473', materia: 'constitucional', topico: 'sociais',
+  enunciado: 'Renata não conseguiu vaga em creche pública para seu filho de 2 anos. O Município de Lagoa Clara respondeu que a oferta de creche é escolha política discricionária do Executivo, que não pode ser imposta pelo Poder Judiciário. Renata procura a Defensoria Pública. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A educação infantil em creche é dever do Estado e direito que pode ser exigido judicialmente, de forma individual ou coletiva.', true, 'Correta. O STF, no Tema 548, afirmou que a educação básica em todas as fases, incluindo creche e pré-escola para crianças de até 5 anos, é direito fundamental exigível em juízo (art. 208, IV, da CF).'],
+    ['O pedido deve ser rejeitado, pois a educação só é obrigatória a partir dos 6 anos de idade.', false, 'Errada. A educação básica obrigatória e gratuita vai dos 4 aos 17 anos (art. 208, I), e a creche, embora não obrigatória para a família, é dever do Estado (art. 208, IV).'],
+    ['A ação só é possível se proposta pelo Ministério Público, por meio de ação civil pública, vedada a ação individual.', false, 'Errada. O Tema 548 admite a exigência do direito tanto individual quanto coletivamente.'],
+    ['O Judiciário pode determinar a vaga apenas se o Município tiver previsão orçamentária específica para aquela criança.', false, 'Errada. A reserva do possível não pode ser alegada de forma genérica nem oposta ao núcleo essencial do direito à educação; não se exige dotação orçamentária individualizada.']
+  ] },
+{ id: 'co474', materia: 'constitucional', topico: 'co-trabalhadores',
+  enunciado: 'Os policiais civis do Estado Sigma, insatisfeitos com a falta de reajuste salarial, aprovaram em assembleia a deflagração de greve por tempo indeterminado, com manutenção de 30% do efetivo. Considerando a Constituição e a jurisprudência do STF, assinale a afirmativa correta.',
+  alt: [
+    ['A greve é válida, pois a manutenção de percentual mínimo do efetivo atende às necessidades inadiáveis da comunidade.', false, 'Errada. A regra de manutenção de serviços essenciais vale para quem pode fazer greve. O STF proibiu a greve dos policiais civis em qualquer forma (Tema 541).'],
+    ['A greve é proibida, pois o STF entende que o exercício do direito de greve, sob qualquer forma, é vedado aos policiais civis e aos servidores que atuam diretamente na segurança pública.', true, 'Correta. Tese do Tema 541 do STF (ARE 654.432), que também impõe ao poder público a participação em mediação com os representantes da categoria.'],
+    ['A greve é válida, pois a proibição constitucional de greve atinge apenas os militares das Forças Armadas.', false, 'Errada. O art. 142, §3º, IV, proíbe a greve dos militares, e o STF estendeu a vedação aos policiais civis pela natureza essencial da segurança pública (Tema 541).'],
+    ['A greve depende apenas de autorização da Assembleia Legislativa, por se tratar de servidores estaduais.', false, 'Errada. Não existe autorização legislativa para greve; a vedação decorre da jurisprudência do STF sobre a segurança pública (Tema 541).']
+  ] },
+{ id: 'co475', materia: 'constitucional', topico: 'co-naturalizacao',
+  enunciado: 'Igor nasceu na Rússia, naturalizou-se brasileiro e foi eleito Senador. Já no exercício do mandato, recebeu convites de seus colegas. À luz da Constituição, assinale a opção que indica a função que Igor PODE exercer.',
+  alt: [
+    ['Presidente do Senado Federal.', false, 'Errada. A presidência do Senado é privativa de brasileiro nato, por integrar a linha sucessória da Presidência da República (art. 12, §3º, III).'],
+    ['Ministro de Estado da Defesa, licenciando-se do mandato.', false, 'Errada. O Ministro de Estado da Defesa deve ser brasileiro nato (art. 12, §3º, VII).'],
+    ['Presidente de comissão permanente do Senado Federal.', true, 'Correta. O naturalizado pode exercer o mandato de Senador e as funções internas da Casa, salvo a presidência, que é privativa de nato (art. 12, §§2º e 3º).'],
+    ['Ministro do Supremo Tribunal Federal, se indicado pelo Presidente e aprovado pelo Senado.', false, 'Errada. O cargo de Ministro do STF é privativo de brasileiro nato (art. 12, §3º, IV).']
+  ] },
+{ id: 'co476', materia: 'constitucional', topico: 'politicos',
+  enunciado: 'Gabriela completará 21 anos em dezembro do ano da eleição, que ocorrerá em outubro. A posse dos eleitos ao cargo pretendido será em fevereiro do ano seguinte. Ela preenche as demais condições de elegibilidade e deseja concorrer a Deputada Estadual. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Gabriela não pode concorrer, pois deve ter 21 anos na data do pedido de registro da candidatura.', false, 'Errada. A verificação na data-limite do registro vale apenas para a idade de 18 anos (Vereador). Para as demais idades, considera-se a data da posse (art. 11, §2º, da Lei 9.504/97).'],
+    ['Gabriela pode concorrer, pois a idade mínima de 21 anos é verificada tendo por referência a data da posse.', true, 'Correta. A idade mínima para Deputado Estadual é de 21 anos (art. 14, §3º, VI, c) e, nesse caso, é aferida na data da posse (art. 11, §2º, da Lei 9.504/97).'],
+    ['Gabriela não pode concorrer, pois a idade mínima para Deputado Estadual é de 25 anos.', false, 'Errada. A Constituição exige 21 anos para Deputado Federal, Estadual ou Distrital (art. 14, §3º, VI, c).'],
+    ['Gabriela pode concorrer, pois a Constituição não exige idade mínima para cargos do Legislativo estadual.', false, 'Errada. A idade mínima é condição de elegibilidade para todos os cargos eletivos (art. 14, §3º, VI).']
+  ] },
+{ id: 'co477', materia: 'constitucional', topico: 'co-inelegibilidades',
+  enunciado: 'Otávio é Governador do Estado Ômega, em primeiro mandato, e pretende disputar uma vaga no Senado Federal na próxima eleição. Sua aliada, Vera, é Deputada Federal e pretende disputar o governo do mesmo Estado. Sobre a necessidade de afastamento dos cargos, assinale a afirmativa correta.',
+  alt: [
+    ['Ambos devem renunciar aos mandatos até seis meses antes do pleito.', false, 'Errada. A desincompatibilização do art. 14, §6º, só é exigida dos chefes do Executivo; Vera, parlamentar, não precisa renunciar.'],
+    ['Nenhum deles precisa renunciar, pois a desincompatibilização só é exigida para a reeleição.', false, 'Errada. É o contrário: para a reeleição não se exige renúncia; para concorrer a outro cargo, os chefes do Executivo devem renunciar (art. 14, §6º).'],
+    ['Otávio precisa apenas licenciar-se do cargo três meses antes do pleito, e Vera deve renunciar.', false, 'Errada. O Governador deve renunciar, e não apenas licenciar-se, até seis meses antes da eleição; a parlamentar não precisa se afastar (art. 14, §6º).'],
+    ['Otávio deve renunciar ao mandato até seis meses antes do pleito, e Vera pode concorrer sem deixar o mandato de Deputada.', true, 'Correta. Presidente, Governadores e Prefeitos que concorrem a outros cargos devem renunciar até seis meses antes do pleito (art. 14, §6º); a regra não alcança parlamentares.']
+  ] },
+{ id: 'co478', materia: 'constitucional', topico: 'co-perda-suspensao',
+  enunciado: 'Augusto foi condenado definitivamente por crime de apropriação indébita. Cumpriu integralmente a pena em março, mas ainda não ressarciu a vítima e não requereu a reabilitação criminal. Em junho, quer saber se pode votar. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Augusto só recupera os direitos políticos após a reabilitação criminal.', false, 'Errada. A Súmula 9 do TSE dispensa a reabilitação para o fim da suspensão dos direitos políticos.'],
+    ['Augusto recuperou os direitos políticos com o cumprimento da pena, independentemente de reabilitação ou de reparação do dano.', true, 'Correta. A suspensão do art. 15, III, dura enquanto durarem os efeitos da condenação e cessa com o cumprimento ou a extinção da pena (Súmula 9 do TSE).'],
+    ['Augusto teve seus direitos políticos perdidos, de forma definitiva, por crime contra o patrimônio.', false, 'Errada. A condenação criminal gera suspensão, e não perda, e dura apenas enquanto duram os efeitos da condenação (art. 15, III).'],
+    ['Augusto só recupera os direitos políticos após provar a reparação do dano à vítima.', false, 'Errada. A Súmula 9 do TSE dispensa a prova de reparação dos danos.']
   ] }
 );

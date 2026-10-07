@@ -47,5 +47,29 @@ window.QUESTOES.push(
     ['Cabe recurso especial ao STJ, por se tratar de interpretação de lei municipal.', false, 'Errada. O recurso especial trata de lei federal; a discussão constitucional vai ao STF por recurso extraordinário (art. 102, III, e art. 105, III, da CF).'],
     ['Cabe recurso extraordinário ao STF, porque o parâmetro é norma de reprodução obrigatória da Constituição Federal.', true, 'Correta. O STF admite RE contra acórdão do TJ em controle abstrato quando o parâmetro estadual reproduz norma obrigatória da CF (art. 102, III, da CF; Tema 484).'],
     ['Cabe ADI no STF contra a lei municipal, substituindo o recurso.', false, 'Errada. Lei municipal não é objeto de ADI no STF (art. 102, I, "a", da CF).']
+  ] },
+{ id: 'co647', materia: 'constitucional', topico: 'co-adpf',
+  enunciado: 'O Conselho Federal da OAB entende que um decreto-lei editado em 1969, ainda aplicado por órgãos públicos, viola a liberdade de expressão. Pretende obter no STF uma decisão com eficácia contra todos que afaste a aplicação dessa norma. Assinale a medida adequada.',
+  alt: [
+    ['Ação direta de inconstitucionalidade, pois o decreto-lei tem força de lei federal.', false, 'Errada. Norma anterior a 1988 não é julgada inconstitucional, e sim recepcionada ou não; por isso não cabe ADI contra direito pré-constitucional (art. 102, I, "a", da CF).'],
+    ['Ação declaratória de constitucionalidade, para que o STF fixe o sentido da norma.', false, 'Errada. A ADC serve para confirmar a validade de lei federal, não para afastá-la, e também não alcança norma anterior a 1988 (art. 102, I, "a", da CF).'],
+    ['Arguição de descumprimento de preceito fundamental, cabível contra direito anterior à Constituição.', true, 'Correta. A ADPF alcança lei ou ato normativo anterior à Constituição, e o Conselho Federal da OAB é legitimado universal (art. 1º, parágrafo único, I, e art. 2º, I, da Lei 9.882/99; art. 103, VII, da CF).'],
+    ['Nenhuma ação concentrada, pois norma anterior a 1988 só pode ser afastada no controle difuso.', false, 'Errada. O controle difuso é possível, mas a ADPF permite o exame concentrado da recepção no STF (art. 1º, parágrafo único, I, da Lei 9.882/99).']
+  ] },
+{ id: 'co648', materia: 'constitucional', topico: 'co-efeitos',
+  enunciado: 'A Lei federal B revogou expressamente a Lei federal A. Posteriormente, o STF julgou procedente ADI e declarou B inconstitucional, sem qualquer ressalva sobre a lei anterior e sem modular efeitos. Sobre a situação da Lei A, assinale a afirmativa correta.',
+  alt: [
+    ['A Lei A continua revogada, pois a repristinação depende de previsão expressa em lei.', false, 'Errada. A regra do art. 2º, §3º, da LINDB trata da revogação da lei revogadora; aqui a lei revogadora é nula e nunca teve força para revogar, o que gera o efeito repristinatório.'],
+    ['A Lei A volta a produzir efeitos, em razão do efeito repristinatório da declaração de inconstitucionalidade.', true, 'Correta. Como a lei inconstitucional é nula desde a origem (efeito ex tunc), ela não revogou validamente a anterior, que volta a ser aplicada, salvo decisão em contrário do STF (art. 11, §2º, da Lei 9.868/99, aplicado por analogia ao mérito).'],
+    ['A Lei A só volta a valer se o Senado editar resolução suspendendo a Lei B.', false, 'Errada. A resolução do Senado do art. 52, X, da CF se relaciona ao controle difuso; a decisão em ADI já tem eficácia contra todos (art. 102, §2º, da CF).'],
+    ['A Lei A só volta a valer a partir de nova lei do Congresso que a restaure.', false, 'Errada. Não é preciso lei nova; a volta da lei anterior decorre da nulidade da lei revogadora.']
+  ] },
+{ id: 'co649', materia: 'constitucional', topico: 'co-controle-estadual',
+  enunciado: 'A Câmara Legislativa do Distrito Federal aprovou lei sobre o horário de funcionamento de estabelecimentos comerciais locais, matéria de interesse local. Partido político com representação no Congresso Nacional propôs ADI no STF contra essa lei, alegando ofensa à Constituição Federal. Assinale a afirmativa correta.',
+  alt: [
+    ['A ADI deve ser conhecida, pois toda lei do Distrito Federal equivale a lei estadual.', false, 'Errada. O DF acumula competências estaduais e municipais (art. 32, §1º, da CF); só a lei editada no exercício de competência estadual pode ser objeto de ADI no STF.'],
+    ['A ADI não deve ser conhecida, pois a lei foi editada no exercício de competência municipal do Distrito Federal.', true, 'Correta. Segundo a Súmula 642 do STF, não cabe ADI contra lei do DF derivada de sua competência legislativa municipal.'],
+    ['A ADI não deve ser conhecida, pois partido político não pode questionar lei distrital.', false, 'Errada. Partido com representação no Congresso é legitimado universal (art. 103, VIII, da CF); o problema é o objeto da ação, não o autor.'],
+    ['A ADI deve ser conhecida, mas apenas o Tribunal de Justiça do Distrito Federal pode julgá-la.', false, 'Errada. O TJDFT julga ação direta de lei distrital em face da Lei Orgânica do DF, não ADI em face da Constituição Federal.']
   ] }
 );

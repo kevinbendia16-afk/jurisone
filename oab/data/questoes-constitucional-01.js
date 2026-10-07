@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Está correta quanto à classificação e quanto aos efeitos, pois só a lei dá eficácia à norma programática.', false, 'Errada. Mesmo antes da lei, a norma limitada já produz efeitos mínimos, como revogar leis anteriores contrárias.'],
     ['Está parcialmente correta: a norma é programática, mas já tem eficácia negativa, impedindo leis contrárias e orientando a interpretação.', true, 'Correta. As normas de eficácia limitada, inclusive as programáticas, têm eficácia mínima: revogam o direito anterior incompatível, impedem a edição de normas contrárias e servem de parâmetro de interpretação.'],
     ['Está errada, pois o art. 196 é norma de eficácia plena e dispensa qualquer atuação estatal.', false, 'Errada. O art. 196 é exemplo clássico de norma programática, que fixa um programa a ser cumprido por políticas públicas.']
+  ] },
+{ id: 'co333', materia: 'constitucional', topico: 'teoria',
+  enunciado: 'A Lei Municipal X, de 1982, regulava de forma exclusiva matéria que a Constituição de 1988 passou a atribuir à competência legislativa privativa da União. A associação de moradores Alfa pretende obter do STF, em controle concentrado, decisão com efeitos gerais reconhecendo que a Lei X não vale mais. Assinale a afirmativa correta.',
+  alt: [
+    ['A associação deve propor ADI, pois a Lei X tornou-se inconstitucional com a promulgação da CF/88.', false, 'Errada. O STF não admite inconstitucionalidade superveniente: norma anterior incompatível com a nova Constituição é revogada, não inconstitucional (ADI 2). Por isso não cabe ADI contra lei anterior a 1988.'],
+    ['A Lei X foi recepcionada como lei federal, pois o conteúdo é compatível com a CF/88.', false, 'Errada. Na recepção também se verifica a competência: lei municipal não se transforma em lei federal, pois isso fragmentaria a legislação nacional.'],
+    ['A Lei X não foi recepcionada, e o instrumento de controle concentrado adequado é a ADPF, que deve ser proposta por um dos legitimados do art. 103 da CF, entre os quais não está a associação Alfa.', true, 'Correta. Contra direito municipal pré-constitucional, o meio de controle concentrado é a ADPF (Lei 9.882/99, art. 1º, parágrafo único, I). Os legitimados são os mesmos da ADI (art. 2º, I, da Lei 9.882/99 e art. 103 da CF), e associação de moradores não está entre eles.'],
+    ['A Lei X continua válida até que o Senado Federal suspenda sua execução.', false, 'Errada. A suspensão pelo Senado (art. 52, X) se liga à declaração incidental de inconstitucionalidade pelo STF. A lei anterior incompatível já foi revogada com a nova Constituição.']
+  ] },
+{ id: 'co334', materia: 'constitucional', topico: 'co-conceito',
+  enunciado: 'Em um seminário, o professor Caio defendeu que a Constituição não se limita a refletir a realidade política: ela tem força própria e é capaz de ordenar e transformar a realidade, desde que exista, nos governantes e na sociedade, "vontade de Constituição". A ideia exposta por Caio corresponde à concepção de',
+  alt: [
+    ['Ferdinand Lassalle, para quem a Constituição real é a soma dos fatores reais de poder.', false, 'Errada. Lassalle defende o contrário: se o texto não reflete os fatores reais de poder, é mera "folha de papel". A tese de Caio é justamente uma resposta a Lassalle.'],
+    ['Carl Schmitt, para quem a Constituição é a decisão política fundamental.', false, 'Errada. Schmitt vê a Constituição como decisão política do titular do poder constituinte e distingue Constituição e leis constitucionais; não trata da força normativa.'],
+    ['Hans Kelsen, para quem a Constituição é a norma fundamental hipotética.', false, 'Errada. Kelsen concebe a Constituição como norma pura, no topo do ordenamento, sem discutir a relação com a realidade social.'],
+    ['Konrad Hesse, defensor da força normativa da Constituição.', true, 'Correta. Hesse sustenta que a Constituição tem força normativa própria e pode conformar a realidade, dependendo da "vontade de Constituição".']
+  ] },
+{ id: 'co335', materia: 'constitucional', topico: 'co-constitucionalismo',
+  enunciado: 'Ao julgar ação proposta por Helena, excluída dos quadros de uma associação civil privada sem que lhe fosse dada oportunidade de defesa, o juiz aplicou diretamente as garantias constitucionais do contraditório e da ampla defesa à relação entre Helena e a associação. A decisão expressa a',
+  alt: [
+    ['eficácia vertical dos direitos fundamentais, que só se aplica nas relações entre particulares.', false, 'Errada. Eficácia vertical é a aplicação dos direitos fundamentais na relação entre o Estado e o particular.'],
+    ['eficácia horizontal dos direitos fundamentais, reconhecida pelo STF nas relações privadas.', true, 'Correta. A aplicação dos direitos fundamentais entre particulares é a eficácia horizontal, característica do constitucionalismo contemporâneo, admitida pelo STF em caso de exclusão de associado sem defesa (RE 201.819).'],
+    ['impossibilidade de controle judicial de atos de associações, que gozam de autonomia absoluta.', false, 'Errada. A autonomia associativa (art. 5º, XVII a XX) não é absoluta e não afasta o respeito aos direitos fundamentais dos associados.'],
+    ['aplicação exclusiva do Código Civil, pois direitos fundamentais só vinculam o poder público.', false, 'Errada. Essa visão foi superada: os direitos fundamentais também vinculam particulares, e o Direito Civil deve ser lido à luz da Constituição.']
+  ] },
+{ id: 'co336', materia: 'constitucional', topico: 'co-poder-originario',
+  enunciado: 'Diógenes recebia vantagem pecuniária mensal com base em lei anterior a 1988. Norma originária da CF/88, sem qualquer ressalva, passou a proibir aquele tipo de vantagem. Diógenes alega direito adquirido à continuidade dos pagamentos. Segundo o entendimento do STF, assinale a afirmativa correta.',
+  alt: [
+    ['Diógenes tem direito adquirido, pois o art. 5º, XXXVI, protege o direito adquirido inclusive contra a Constituição originária.', false, 'Errada. O art. 5º, XXXVI, se dirige à lei. Não há direito adquirido contra a Constituição originária, que é juridicamente ilimitada.'],
+    ['A norma originária alcança as parcelas que vencerem após a promulgação da CF/88, ainda que decorrentes de situação anterior, pois tem, em regra, retroatividade mínima.', true, 'Correta. O STF entende que as normas constitucionais originárias têm retroatividade mínima automática: atingem os efeitos futuros de fatos passados. Retroatividade média ou máxima depende de previsão expressa.'],
+    ['Diógenes deve devolver tudo o que recebeu antes de 1988, pois a norma originária tem retroatividade máxima automática.', false, 'Errada. A retroatividade máxima, que desfaz efeitos já consumados, só existiria por previsão expressa do constituinte.'],
+    ['A norma originária só se aplica a quem ingressou no serviço após 1988, pois deve respeitar as situações jurídicas consolidadas.', false, 'Errada. Sem ressalva expressa, a norma originária alcança desde logo os efeitos futuros de situações anteriores (retroatividade mínima).']
+  ] },
+{ id: 'co337', materia: 'constitucional', topico: 'co-poder-derivado',
+  enunciado: 'Tramita no Congresso Nacional proposta de emenda constitucional que torna o voto facultativo nas eleições, mantendo-o direto, secreto, universal e periódico. O Deputado Federal Rogério, contrário à medida, sustenta que a proposta não pode sequer ser deliberada, por violar cláusula pétrea. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Rogério tem razão, pois o voto obrigatório integra o núcleo protegido pelo art. 60, §4º, II, da CF.', false, 'Errada. O art. 60, §4º, II, protege o voto direto, secreto, universal e periódico; a obrigatoriedade não está na lista.'],
+    ['Rogério não tem razão, pois a obrigatoriedade do voto não está entre as características protegidas como cláusula pétrea.', true, 'Correta. A cláusula pétrea do art. 60, §4º, II, alcança o voto direto, secreto, universal e periódico. A obrigatoriedade (art. 14, §1º, I) pode ser alterada por emenda.'],
+    ['A proposta só poderia ser aprovada por meio de nova revisão constitucional, por maioria absoluta em sessão unicameral.', false, 'Errada. A revisão do art. 3º do ADCT foi única e já se esgotou. Alterações hoje seguem o art. 60: dois turnos, três quintos, em cada Casa.'],
+    ['Por tratar de direitos políticos, a proposta depende de sanção do Presidente da República após a aprovação.', false, 'Errada. Emenda constitucional não se submete a sanção ou veto; é promulgada pelas Mesas da Câmara e do Senado (art. 60, §3º).']
+  ] },
+{ id: 'co338', materia: 'constitucional', topico: 'co-eficacia',
+  enunciado: 'Servidores públicos estaduais deflagraram greve. O Estado sustentou que o movimento é ilegal porque, até hoje, não foi editada a lei específica referida no art. 37, VII, da CF. Considerando a classificação das normas constitucionais e a jurisprudência do STF, assinale a afirmativa correta.',
+  alt: [
+    ['O art. 37, VII, é norma de eficácia plena, de modo que a greve dos servidores não pode sofrer qualquer limitação.', false, 'Errada. O próprio dispositivo remete à lei específica para definir termos e limites, o que afasta a eficácia plena.'],
+    ['O art. 37, VII, é norma de eficácia contida, cabendo mandado de injunção para que o Judiciário restrinja o direito de greve.', false, 'Errada. Mandado de injunção supre a falta de norma que impede o exercício de direito; ele não se destina a restringir direito de norma contida, que já pode ser exercido por inteiro.'],
+    ['O art. 37, VII, é norma de eficácia limitada, mas o STF, em mandados de injunção, determinou a aplicação, no que couber, da lei de greve do setor privado aos servidores públicos.', true, 'Correta. A norma é de eficácia limitada, e o STF, nos MI 670, 708 e 712, supriu a omissão mandando aplicar a Lei 7.783/89, no que couber, aos servidores.'],
+    ['Por ser norma programática, o art. 37, VII, não produz efeito algum enquanto não editada a lei.', false, 'Errada. Mesmo as normas de eficácia limitada produzem efeitos mínimos, e a omissão pode ser suprida por mandado de injunção (art. 5º, LXXI).']
   ] }
 );

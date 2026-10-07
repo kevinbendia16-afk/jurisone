@@ -31,5 +31,21 @@ window.QUESTOES.push(
     ['A Lei A só volta a valer se o Congresso Nacional editar nova lei restaurando-a.', false, 'Errada. Não é preciso nova lei: a volta decorre da própria decisão do STF.'],
     ['A Lei A volta a valer, pelo efeito repristinatório da declaração de inconstitucionalidade, já que a Lei B é nula desde a origem.', true, 'Correta. A lei inconstitucional é nula e não podia revogar validamente a anterior; por isso a legislação anterior volta a ser aplicável, salvo modulação (Lei 9.868/99, art. 11, §2º, e art. 27).'],
     ['A Lei A volta a valer apenas a partir da publicação da decisão, sem efeito retroativo, por imposição legal.', false, 'Errada. A regra é a nulidade desde a origem (efeito retroativo); a limitação temporal só ocorre se o STF modular os efeitos, por 2/3 dos membros (Lei 9.868/99, art. 27).']
+  ] },
+{ id: 'co345', materia: 'constitucional', topico: 'co-hermeneutica',
+  enunciado: 'Em artigo acadêmico, a professora Helena sustenta que a norma constitucional não se confunde com o texto escrito: ela resulta da combinação entre o programa normativo, extraído do texto, e o âmbito normativo, formado pela parcela da realidade social que o texto regula. A tese de Helena corresponde ao método de interpretação constitucional',
+  alt: [
+    ['tópico-problemático, que parte do problema concreto e usa a Constituição como conjunto de argumentos.', false, 'Errada. O método tópico-problemático (Viehweg) parte do problema e trabalha com topoi (lugares comuns); não usa a divisão entre programa e âmbito normativo.'],
+    ['jurídico ou clássico, que trata a Constituição como lei comum e tem o texto como limite.', false, 'Errada. O método clássico (Forsthoff) aplica os critérios tradicionais de Savigny e identifica a norma com o texto, o oposto da tese de Helena.'],
+    ['normativo-estruturante, segundo o qual a norma é formada pelo texto e pela realidade que ele regula.', true, 'Correta. Para Friedrich Müller, a norma não se confunde com o texto: é composta pelo programa normativo (texto) e pelo âmbito normativo (realidade social), que o intérprete concretiza juntos.'],
+    ['científico-espiritual, que vê a Constituição sobretudo como instrumento de integração dos valores da comunidade.', false, 'Errada. O método científico-espiritual (Smend) enfatiza valores e integração social, mas não trabalha com a dupla programa normativo e âmbito normativo.']
+  ] },
+{ id: 'co346', materia: 'constitucional', topico: 'co-direito-intertemporal',
+  enunciado: 'Durante uma aula, o estudante Rafael afirma que, ao longo dos anos, o STF passou a atribuir a um dispositivo da Constituição sentido diferente do que lhe dava originalmente, embora nenhuma palavra do texto tenha sido alterada por emenda. Sobre o fenômeno descrito por Rafael, assinale a afirmativa correta.',
+  alt: [
+    ['Trata-se de mutação constitucional, processo informal de mudança que altera o sentido da norma sem alterar o texto, devendo respeitar os limites do próprio texto e os princípios constitucionais.', true, 'Correta. A mutação constitucional (poder constituinte difuso) muda o sentido da norma por interpretação ou costume, sem mudança textual; se contrariar o texto ou os princípios, será mutação inconstitucional.'],
+    ['Trata-se de reforma constitucional, que depende de aprovação em dois turnos, em cada Casa do Congresso, por três quintos dos votos.', false, 'Errada. Esse é o procedimento da emenda (art. 60, §2º), processo formal que altera o texto; no caso, o texto não mudou.'],
+    ['Trata-se de desconstitucionalização, pois o dispositivo perdeu a hierarquia constitucional e passou a valer como lei ordinária.', false, 'Errada. Desconstitucionalização é a permanência de normas da Constituição anterior como leis comuns diante de nova Constituição, o que não é regra no Brasil; nada disso ocorreu no caso.'],
+    ['Trata-se de repristinação, pois o sentido original do dispositivo voltou a vigorar automaticamente.', false, 'Errada. Repristinação é a volta de lei revogada quando a revogadora deixa de existir e depende de previsão expressa (LINDB, art. 2º, §3º); não se refere a mudança de interpretação.']
   ] }
 );

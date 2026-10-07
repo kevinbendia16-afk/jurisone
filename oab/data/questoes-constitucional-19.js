@@ -15,5 +15,13 @@ window.QUESTOES.push(
     ['A defesa tem razão quanto ao bis in idem, pois aplicada a multa administrativa fica afastada a reparação civil.', false, 'Errada. As esferas são independentes; a sanção administrativa não exclui a obrigação de reparar o dano (art. 225, §3º).'],
     ['A empresa pode responder simultaneamente nas esferas penal, administrativa e civil, sem que isso configure bis in idem.', true, 'Correta. O art. 225, §3º, prevê sanções penais e administrativas, independentemente da obrigação de reparar os danos, alcançando pessoas físicas e jurídicas.'],
     ['A ação penal contra a pessoa jurídica só pode prosseguir se o diretor responsável também for denunciado.', false, 'Errada. O STF afastou a teoria da dupla imputação obrigatória: a pessoa jurídica pode ser processada sem a pessoa física (RE 548.181).']
+  ] },
+{ id: 'co683', materia: 'constitucional', topico: 'co-meio-ambiente',
+  enunciado: 'O Presidente da República editou medida provisória que reduziu os limites de uma floresta nacional, unidade de conservação federal criada por decreto, para viabilizar a passagem de uma ferrovia. Um partido político com representação no Congresso Nacional questiona a medida no STF. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A medida provisória é válida, pois tem força de lei e a Constituição exige apenas lei para alterar espaços territoriais especialmente protegidos.', false, 'Errada. O STF entendeu que a exigência de lei do art. 225, §1º, III, é de lei em sentido formal, aprovada pelo Congresso; medida provisória não pode reduzir unidade de conservação (ADI 4717).'],
+    ['A medida provisória é válida, pois a unidade foi criada por decreto e poderia ser reduzida até mesmo por novo decreto.', false, 'Errada. A CF quebra o paralelismo das formas: criar pode ser por qualquer ato, mas alterar ou suprimir só por lei (art. 225, §1º, III).'],
+    ['A medida provisória é inconstitucional, pois a redução de espaço territorial especialmente protegido exige lei em sentido formal, debatida pelo Poder Legislativo.', true, 'Correta. Na ADI 4717, o STF declarou inconstitucional a redução de unidades de conservação por medida provisória, por exigir o art. 225, §1º, III, lei formal e pela incompatibilidade da urgência com a proteção ambiental.'],
+    ['A medida provisória é inconstitucional apenas porque a Floresta Amazônica é bem da União e não pode ter sua área reduzida em nenhuma hipótese.', false, 'Errada. A Floresta Amazônica é patrimônio nacional, não bem da União (art. 225, §4º), e a CF admite a alteração de espaços protegidos, desde que por lei.']
   ] }
 );

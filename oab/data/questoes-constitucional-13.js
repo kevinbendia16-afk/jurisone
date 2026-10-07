@@ -47,5 +47,29 @@ window.QUESTOES.push(
     ['válida apenas quanto à imunidade à prisão.', false, 'Errada. Nenhuma das duas proteções do art. 86, §§3º e 4º, pode ser estendida ao Governador pela constituição estadual.'],
     ['inconstitucional, pois essas prerrogativas são exclusivas do Presidente da República.', true, 'Correta. Para o STF, as imunidades do art. 86, §§3º e 4º, são próprias do Presidente como chefe de Estado. O Estado-membro não pode estendê-las ao Governador.'],
     ['válida, desde que a Assembleia Legislativa autorize a prisão por 2/3.', false, 'Errada. Além de as imunidades serem exclusivas do Presidente, o STF também considera inconstitucional exigir autorização da Assembleia para o STJ processar o Governador.']
+  ] },
+{ id: 'co567', materia: 'constitucional', topico: 'executivo',
+  enunciado: 'O Presidente da República Hugo planeja uma série de visitas oficiais à Ásia, que o manterá fora do Brasil por 20 dias seguidos. Sua assessoria pergunta se é preciso alguma providência prévia. Assinale a afirmativa correta.',
+  alt: [
+    ['Hugo precisa de licença do Congresso Nacional, sob pena de perda do cargo, pois a ausência supera 15 dias.', true, 'Correta. O Presidente não pode se ausentar do país por mais de 15 dias sem licença do Congresso, sob pena de perda do cargo (art. 83). A autorização é competência exclusiva do Congresso (art. 49, III).'],
+    ['Nenhuma providência é necessária, pois viagens oficiais estão dispensadas de autorização.', false, 'Errada. A Constituição não distingue viagem oficial de particular. O que importa é o prazo: acima de 15 dias, exige-se licença do Congresso (art. 83).'],
+    ['Hugo precisa apenas comunicar a viagem ao Senado Federal, que poderá vetá-la por maioria absoluta.', false, 'Errada. Não basta comunicar, e o órgão competente é o Congresso Nacional, não só o Senado (arts. 49, III, e 83).'],
+    ['Hugo precisa de autorização do STF, e a falta dela configura crime comum.', false, 'Errada. O STF não participa desse ato. A licença é do Congresso, e a consequência da ausência sem licença é a perda do cargo (art. 83).']
+  ] },
+{ id: 'co568', materia: 'constitucional', topico: 'co-crime-resp',
+  enunciado: 'Um Ministro de Estado é acusado de ter praticado atos que, em tese, configuram crime de responsabilidade e também ato de improbidade administrativa. Sua defesa sustenta que ele só pode responder pelo regime dos crimes de responsabilidade. Segundo a jurisprudência do STF, assinale a afirmativa correta.',
+  alt: [
+    ['A defesa tem razão, pois agentes políticos submetidos à Lei 1.079/50 não respondem por improbidade.', false, 'Errada. Esse entendimento antigo foi superado. Hoje o STF admite o duplo regime para os agentes políticos, salvo o Presidente (Tema 576).'],
+    ['O Ministro pode responder pelos dois regimes, pois apenas o Presidente da República fica excluído da ação de improbidade.', true, 'Correta. O STF fixou que os agentes políticos, com exceção do Presidente da República, se sujeitam a duplo regime: responsabilização por crime de responsabilidade e por improbidade administrativa (Tema 576 da repercussão geral).'],
+    ['O Ministro só responde por improbidade, pois crime de responsabilidade é exclusivo do Presidente.', false, 'Errada. Ministros também praticam crimes de responsabilidade, julgados pelo STF ou, se conexos com os do Presidente, pelo Senado (arts. 52, I, e 102, I, c).'],
+    ['O Ministro responde pelos dois regimes, mas a ação de improbidade deve tramitar originariamente no STF.', false, 'Errada. O STF não tem competência originária para ação de improbidade, que tem natureza civil e tramita na primeira instância. O foro do art. 102, I, c, vale para crimes comuns e de responsabilidade.']
+  ] },
+{ id: 'co569', materia: 'constitucional', topico: 'co-imunidades-presidente',
+  enunciado: 'O Procurador-Geral da República oferece denúncia contra o Governador do Estado Delta por crime comum. A Constituição estadual exige autorização prévia da Assembleia Legislativa, por 2/3, para o processo, e prevê o afastamento automático do Governador com o recebimento da denúncia. Segundo o STF, assinale a afirmativa correta.',
+  alt: [
+    ['As duas regras são válidas, por simetria com o art. 86 da CF.', false, 'Errada. O STF afastou a simetria nesse ponto: a autorização prévia da Assembleia é inconstitucional, e o afastamento não é automático.'],
+    ['A denúncia será julgada pelo Tribunal de Justiça, após autorização da Assembleia.', false, 'Errada. Nos crimes comuns, o Governador é julgado pelo STJ (art. 105, I, a), sem necessidade de autorização da Assembleia.'],
+    ['A autorização prévia é válida, mas o afastamento automático é inconstitucional.', false, 'Errada. O STF também declarou inconstitucional a exigência de autorização prévia da Assembleia para o STJ processar o Governador.'],
+    ['O STJ pode receber a denúncia sem autorização da Assembleia, e cabe a ele decidir, fundamentadamente, sobre eventual afastamento do Governador.', true, 'Correta. O STF entende inconstitucional exigir autorização da Assembleia para o processo do Governador no STJ (art. 105, I, a), e o afastamento do cargo não é automático: depende de decisão fundamentada do STJ.']
   ] }
 );

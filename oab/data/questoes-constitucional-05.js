@@ -47,5 +47,29 @@ window.QUESTOES.push(
     ['em cada Casa do Congresso, em dois turnos, por dois terços dos votos dos membros.', false, 'Errada. O quórum é de três quintos, não dois terços (art. 5º, §3º).'],
     ['em cada Casa do Congresso, em dois turnos, por três quintos dos votos dos respectivos membros.', true, 'Correta. É o rito do art. 5º, §3º, incluído pela EC 45/04, igual ao das emendas (art. 60, §2º).'],
     ['pelo Senado Federal, em dois turnos, por três quintos, dispensada a Câmara.', false, 'Errada. As duas Casas precisam aprovar (art. 5º, §3º).']
+  ] },
+{ id: 'co407', materia: 'constitucional', topico: 'co-garantias-penais',
+  enunciado: 'Ícaro manteve a vítima em cativeiro de janeiro a junho. Em março, entrou em vigor lei que aumentou a pena do crime de extorsão mediante sequestro. Condenado, Ícaro alega que deve ser aplicada a lei anterior, mais branda, porque o sequestro começou antes da lei nova. Assinale a afirmativa correta.',
+  alt: [
+    ['Ícaro tem razão, pois a lei penal mais grave nunca alcança fatos iniciados antes de sua vigência.', false, 'Errada. No crime permanente, a conduta se prolonga até cessar a permanência; se a lei mais grave entrou em vigor antes disso, ela se aplica (Súmula 711 do STF).'],
+    ['Aplica-se a lei mais grave, porque o crime permanente ainda estava sendo praticado quando ela entrou em vigor, o que não configura retroatividade.', true, 'Correta. A Súmula 711 do STF manda aplicar a lei mais grave ao crime permanente ou continuado se sua vigência é anterior à cessação da permanência ou da continuidade; não há ofensa ao art. 5º, XL.'],
+    ['O juiz deve combinar a parte mais benéfica de cada lei, aplicando a pena mínima da lei antiga e o regime da lei nova.', false, 'Errada. É vedada a combinação de leis, pois o juiz criaria uma terceira norma (Súmula 501 do STJ); de todo modo, aqui incide a lei nova por inteiro.'],
+    ['Aplica-se a lei anterior, pois o art. 5º, XL, determina a ultratividade da lei penal em qualquer hipótese.', false, 'Errada. A ultratividade só protege fatos inteiramente praticados sob a lei antiga; o sequestro continuou após a lei nova (Súmula 711 do STF).']
+  ] },
+{ id: 'co408', materia: 'constitucional', topico: 'co-prisao',
+  enunciado: 'Teodoro foi preso em flagrante por roubo. Na delegacia, foi conduzido algemado para o interrogatório, sem que houvesse resistência, risco de fuga ou perigo, e sem qualquer justificativa escrita. Como advogado(a) de Teodoro, assinale a afirmativa correta.',
+  alt: [
+    ['O uso de algemas é sempre permitido após a prisão em flagrante, por se tratar de pessoa já detida.', false, 'Errada. A SV 11 só admite algemas em caso de resistência, fundado receio de fuga ou perigo à integridade física, com justificativa por escrito.'],
+    ['O uso das algemas foi ilícito, podendo gerar responsabilidade do agente e nulidade da prisão ou do ato processual, conforme a Súmula Vinculante 11.', true, 'Correta. Sem as hipóteses excepcionais e sem justificativa escrita, o uso de algemas é ilícito, sob pena de responsabilidade disciplinar, civil e penal do agente e nulidade do ato (SV 11).'],
+    ['O uso das algemas é irregular, mas só gera consequência se Teodoro for absolvido ao final do processo.', false, 'Errada. A SV 11 não condiciona as consequências ao resultado do processo; a ilicitude existe desde o uso indevido.'],
+    ['A questão só pode ser discutida após o trânsito em julgado, por meio de revisão criminal.', false, 'Errada. A ilicitude pode ser alegada de imediato, inclusive por habeas corpus ou na audiência de custódia; revisão criminal é para condenação transitada em julgado.']
+  ] },
+{ id: 'co409', materia: 'constitucional', topico: 'co-tratados-df',
+  enunciado: 'Em determinado Estado, uma chacina atribuída a agentes públicos ficou anos sem investigação efetiva, e organismos internacionais passaram a cobrar o Brasil pelo descumprimento de tratados de direitos humanos. A associação de familiares das vítimas pergunta como o caso poderia ser levado à Justiça Federal. Assinale a resposta correta.',
+  alt: [
+    ['A própria associação pode pedir ao STF o deslocamento da competência para a Justiça Federal.', false, 'Errada. O incidente só pode ser suscitado pelo Procurador-Geral da República, e perante o STJ, não o STF (art. 109, §5º).'],
+    ['O governador do Estado pode determinar a remessa do inquérito à Polícia Federal e à Justiça Federal.', false, 'Errada. O governador não tem essa legitimidade; o deslocamento depende de incidente suscitado pelo PGR e decidido pelo STJ (art. 109, §5º).'],
+    ['O Procurador-Geral da República pode suscitar, perante o STJ, em qualquer fase do inquérito ou do processo, o incidente de deslocamento de competência para a Justiça Federal.', true, 'Correta. Nas graves violações de direitos humanos, para assegurar o cumprimento de obrigações de tratados, o PGR pode suscitar o IDC no STJ, em qualquer fase (art. 109, V-A e §5º, incluídos pela EC 45/04).'],
+    ['O deslocamento só é possível antes do oferecimento da denúncia, pelo Ministério Público estadual.', false, 'Errada. O IDC cabe em qualquer fase do inquérito ou processo e é atribuição exclusiva do PGR (art. 109, §5º).']
   ] }
 );

@@ -47,5 +47,29 @@ window.QUESTOES.push(
     ['apenas econômica dos países do Mercosul, visando à formação de um mercado comum.', false, 'Errada. O texto não cita o Mercosul e não se limita ao aspecto econômico.'],
     ['econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações.', true, 'Correta. É exatamente o conteúdo do art. 4º, parágrafo único, da CF.'],
     ['cultural dos povos de língua portuguesa, visando à formação de uma comunidade lusófona.', false, 'Errada. A CF não menciona os países de língua portuguesa nesse dispositivo; o foco é a América Latina.']
+  ] },
+{ id: 'co367', materia: 'constitucional', topico: 'principiosfund',
+  enunciado: 'Em sessão do Senado Federal, o senador Otávio afirmou que o julgamento do Presidente da República por crime de responsabilidade, feito pelo próprio Senado, ofenderia a separação dos Poderes, pois julgar seria tarefa exclusiva do Poder Judiciário. Sobre a afirmação, assinale a afirmativa correta.',
+  alt: [
+    ['Está correta, pois a Constituição atribui a função jurisdicional exclusivamente ao Poder Judiciário, sem exceções.', false, 'Errada. A CF adota a separação de funções com funções típicas e atípicas; o próprio texto constitucional atribui ao Senado esse julgamento (art. 52, I).'],
+    ['Está incorreta, pois a Constituição prevê que o Senado julgue o Presidente nos crimes de responsabilidade, exemplo de função atípica de julgar exercida pelo Legislativo.', true, 'Correta. Os Poderes são independentes e harmônicos (art. 2º), cada um exerce funções típicas e, de forma secundária, atípicas; julgar o Presidente por crime de responsabilidade é competência privativa do Senado (art. 52, I).'],
+    ['Está incorreta, pois a separação dos Poderes não é cláusula pétrea e pode ser afastada pelo Senado em casos graves.', false, 'Errada. A separação dos Poderes é cláusula pétrea (art. 60, §4º, III); o julgamento pelo Senado é válido porque a própria CF o prevê, e não porque a separação possa ser afastada.'],
+    ['Está correta, pois o julgamento do Presidente por crime de responsabilidade compete ao Supremo Tribunal Federal.', false, 'Errada. O STF julga o Presidente nas infrações penais comuns (art. 102, I, b); nos crimes de responsabilidade, o julgamento é do Senado (art. 52, I; art. 86).']
+  ] },
+{ id: 'co368', materia: 'constitucional', topico: 'co-federacao',
+  enunciado: 'Diante de dificuldades de administração em área de fronteira, o Congresso Nacional discute a criação de um Território Federal. O deputado Wagner sustenta que o novo Território seria ente federativo autônomo, com Governador eleito e três senadores. Sobre o tema, assinale a afirmativa correta.',
+  alt: [
+    ['O Território seria ente federativo, com autonomia equivalente à dos Estados, e elegeria três senadores.', false, 'Errada. Territórios não são entes federativos; integram a União (art. 18, §2º). Não elegem senadores, pois o Senado representa Estados e DF (art. 46).'],
+    ['Os Territórios Federais integram a União, sua criação depende de lei complementar e seu Governador é nomeado pelo Presidente da República após aprovação do Senado.', true, 'Correta. É o que dispõem o art. 18, §2º (Territórios integram a União; criação por lei complementar), o art. 84, XIV, e o art. 52, III, c (nomeação do Governador com aprovação do Senado).'],
+    ['O Território poderia ser criado por medida provisória, desde que convertida em lei pelo Congresso Nacional.', false, 'Errada. A criação de Território exige lei complementar (art. 18, §2º), e medida provisória não pode tratar de matéria reservada a lei complementar (art. 62, §1º, III).'],
+    ['O Território não poderia ser dividido em Municípios, a exemplo do que ocorre com o Distrito Federal.', false, 'Errada. A vedação de divisão em Municípios é do Distrito Federal (art. 32, caput); os Territórios podem ser divididos em Municípios (art. 33, §1º).']
+  ] },
+{ id: 'co369', materia: 'constitucional', topico: 'co-relacoes-int',
+  enunciado: 'Ao preparar a defesa da posição brasileira em uma conferência internacional, a diplomata Renata precisa citar apenas princípios que, segundo o art. 4º da Constituição Federal, regem a República Federativa do Brasil em suas relações internacionais. Assinale a opção que contém somente princípios desse tipo.',
+  alt: [
+    ['Soberania, cidadania e pluralismo político.', false, 'Errada. Esses três são fundamentos da República (art. 1º, I, II e V), e não princípios das relações internacionais.'],
+    ['Independência nacional, autodeterminação dos povos e solução pacífica dos conflitos.', true, 'Correta. Todos estão no art. 4º da CF (incisos I, III e VII).'],
+    ['Prevalência dos direitos humanos, dignidade da pessoa humana e defesa da paz.', false, 'Errada. Prevalência dos direitos humanos e defesa da paz estão no art. 4º (II e VI), mas a dignidade da pessoa humana é fundamento da República (art. 1º, III).'],
+    ['Não intervenção, garantia do desenvolvimento nacional e concessão de asilo político.', false, 'Errada. Não intervenção e asilo político estão no art. 4º (IV e X), mas garantir o desenvolvimento nacional é objetivo fundamental (art. 3º, II).']
   ] }
 );
