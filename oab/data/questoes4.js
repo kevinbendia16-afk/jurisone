@@ -24,7 +24,7 @@ window.QUESTOES.push(
     ['20 salários mínimos.', false, 'Errada. O valor mínimo é de 40 salários mínimos.'],
     ['40 salários mínimos.', true, 'Correta. Art. 94, I, da Lei 11.101/05.'],
     ['100 salários mínimos.', false, 'Errada. Não é o patamar legal.'],
-    ['qualquer valor.', false, 'Errada. Há valor mínimo para a impontualidade.']
+    ['qualquer valor.', false, 'Errada. Na impontualidade (art. 94, I), exige-se soma superior a 40 salários mínimos, admitido o litisconsórcio de credores para atingi-la (§1º). Já a execução frustrada (art. 94, II) e os atos de falência (art. 94, III) dispensam valor mínimo.']
   ] },
 { id: 'em6', materia: 'empresarial', topico: 'titulos',
   enunciado: 'Sobre o aval, é correto afirmar:',
@@ -32,7 +32,7 @@ window.QUESTOES.push(
     ['o avalista tem benefício de ordem.', false, 'Errada. O avalista é devedor solidário, sem benefício de ordem.'],
     ['é garantia cambial autônoma: a obrigação do avalista se mantém mesmo que a obrigação garantida seja nula, salvo vício de forma.', true, 'Correta. Art. 899, §2º, do CC e art. 32 da LUG.'],
     ['o aval parcial é sempre vedado.', false, 'Errada. O CC veda (art. 897, parágrafo único), mas a LUG o admite para letra de câmbio e nota promissória.'],
-    ['o aval prestado por pessoa casada nunca exige outorga do cônjuge.', false, 'Errada. O art. 1.647, III, do CC exige outorga, salvo na separação absoluta.']
+    ['o aval prestado por pessoa casada nunca exige outorga do cônjuge.', false, 'Errada. O art. 1.647, III, do CC exige outorga para o aval, salvo no regime da separação absoluta, sob pena de anulabilidade (art. 1.649). Atenção: o STJ entende que essa exigência não se aplica aos títulos regidos por lei especial, como nota promissória e letra de câmbio.']
   ] },
 // ECA
 { id: 'ec2', materia: 'eca', topico: 'medidas',
@@ -46,7 +46,7 @@ window.QUESTOES.push(
 { id: 'ec3', materia: 'eca', topico: 'medidas',
   enunciado: 'Sobre a adoção no ECA, é correto afirmar:',
   alt: [
-    ['os avós podem adotar o neto.', false, 'Errada. O art. 42, §1º, veda a adoção por ascendentes e irmãos do adotando.'],
+    ['os avós podem adotar o neto.', false, 'Errada. O art. 42, §1º, veda a adoção por ascendentes e irmãos do adotando. O STJ já admitiu, em situações excepcionalíssimas, a adoção avoenga, mas a regra legal, cobrada pela FGV, é a vedação.'],
     ['o adotante deve ter no mínimo 18 anos e ser pelo menos 16 anos mais velho que o adotando.', true, 'Correta. Art. 42, caput e §3º, do ECA.'],
     ['a adoção é revogável.', false, 'Errada. A adoção é irrevogável (art. 39, §1º).'],
     ['é necessário que o adotante seja casado.', false, 'Errada. Podem adotar os maiores de 18 anos, independentemente do estado civil.']
@@ -56,14 +56,14 @@ window.QUESTOES.push(
   enunciado: 'João comprou um curso pela internet e se arrependeu 5 dias depois. Ele:',
   alt: [
     ['não pode desistir, pois não há vício.', false, 'Errada. O direito de arrependimento independe de vício.'],
-    ['pode desistir, com devolução imediata dos valores pagos, monetariamente atualizados.', true, 'Correta. Art. 49 do CDC: 7 dias, compras fora do estabelecimento.'],
+    ['pode desistir, com devolução imediata dos valores pagos, monetariamente atualizados.', true, 'Correta. Art. 49 do CDC: 7 dias, contados da assinatura ou do recebimento, nas contratações fora do estabelecimento comercial; os valores pagos são devolvidos de imediato, monetariamente atualizados (art. 49, parágrafo único).'],
     ['pode desistir, mas paga multa de 10%.', false, 'Errada. O CDC não prevê multa.'],
     ['só pode desistir em 30 dias.', false, 'Errada. O prazo é de 7 dias.']
   ] },
 { id: 'cd4', materia: 'cdc', topico: 'respcdc',
   enunciado: 'Segundo o CDC, a inversão do ônus da prova a favor do consumidor:',
   alt: [
-    ['é automática em toda ação de consumo.', false, 'Errada. A inversão do art. 6º, VIII, é ope judicis, a critério do juiz.'],
+    ['é automática em toda ação de consumo.', false, 'Errada. A inversão do art. 6º, VIII, é ope judicis: depende de decisão do juiz, diante da verossimilhança ou da hipossuficiência. Há inversões ope legis pontuais (arts. 12, §3º, 14, §3º, e 38 do CDC), mas não em toda ação de consumo.'],
     ['pode ser determinada pelo juiz quando for verossímil a alegação ou quando o consumidor for hipossuficiente.', true, 'Correta. Art. 6º, VIII, do CDC.'],
     ['nunca é possível.', false, 'Errada. É direito básico do consumidor.'],
     ['depende de concordância do fornecedor.', false, 'Errada. É decisão judicial.']
@@ -83,7 +83,7 @@ window.QUESTOES.push(
     ['fica afastada pela força maior.', false, 'Errada. O STJ adota a teoria do risco integral.'],
     ['é devida, pois a responsabilidade civil ambiental se funda no risco integral, que não admite excludentes.', true, 'Correta. Art. 14, §1º, da Lei 6.938/81 e jurisprudência do STJ (Tema 681).'],
     ['depende de prova de culpa.', false, 'Errada. É objetiva.'],
-    ['está prescrita em 3 anos.', false, 'Errada. A reparação do dano ambiental é imprescritível.']
+    ['está prescrita em 3 anos.', false, 'Errada. A pretensão de reparação civil do dano ambiental é imprescritível (STF, Tema 999).']
   ] },
 { id: 'am3', materia: 'ambiental', topico: 'respamb',
   enunciado: 'O estudo prévio de impacto ambiental (EIA), segundo a Constituição, é exigido para:',
@@ -157,16 +157,16 @@ window.QUESTOES.push(
   enunciado: 'O cônjuge do Prefeito em exercício pretende concorrer a vereador no mesmo Município. Ele é:',
   alt: [
     ['elegível, por ser cargo diferente.', false, 'Errada. A inelegibilidade reflexa atinge qualquer cargo no território de jurisdição do titular.'],
-    ['inelegível no território de jurisdição do titular, salvo se já titular de mandato eletivo e candidato à reeleição.', true, 'Correta. Art. 14, §7º, da CF.'],
-    ['elegível, se renunciar ao casamento.', false, 'Errada. Nem a dissolução no curso do mandato afasta a inelegibilidade (Súmula Vinculante 18).'],
-    ['elegível apenas para deputado estadual no mesmo Estado.', false, 'Errada. Não é o critério do enunciado; a vedação é ao território do Município.']
+    ['inelegível no território de jurisdição do titular, salvo se já titular de mandato eletivo e candidato à reeleição.', true, 'Correta. Art. 14, §7º, da CF. Se o Prefeito tivesse renunciado ao mandato até 6 meses antes do pleito, o cônjuge poderia concorrer a vereador (jurisprudência do TSE).'],
+    ['elegível, desde que o casal se divorcie no curso do mandato do Prefeito.', false, 'Errada. Nem a dissolução no curso do mandato afasta a inelegibilidade (Súmula Vinculante 18).'],
+    ['elegível apenas para deputado estadual no mesmo Estado.', false, 'Errada. A inelegibilidade reflexa alcança só os cargos disputados no território de jurisdição do titular (prefeito, vice e vereador no Município). Para cargos de circunscrição mais ampla ou de outro Município, o cônjuge do Prefeito pode concorrer: deputado estadual, mas também deputado federal, senador ou governador. Por isso o apenas torna a alternativa errada.']
   ] },
 // PREVIDENCIÁRIO
 { id: 'pr2', materia: 'previdenciario', topico: 'assistencia',
   enunciado: 'A pensão por morte no RGPS:',
   alt: [
     ['exige carência de 12 contribuições.', false, 'Errada. A pensão por morte independe de carência (art. 26, I, da Lei 8.213/91).'],
-    ['independe de carência, mas exige qualidade de segurado do instituidor na data do óbito.', true, 'Correta. Arts. 26, I, e 74 da Lei 8.213/91.'],
+    ['independe de carência, mas exige qualidade de segurado do instituidor na data do óbito.', true, 'Correta. Arts. 26, I, e 74 da Lei 8.213/91. Exceção: se o falecido já havia perdido a qualidade de segurado, mas preenchia os requisitos para alguma aposentadoria, a pensão é devida (art. 102, §2º, da Lei 8.213/91 e Súmula 416 do STJ).'],
     ['é sempre vitalícia para o cônjuge.', false, 'Errada. Sua duração depende da idade do cônjuge e do tempo de casamento/contribuição.'],
     ['não é devida ao companheiro.', false, 'Errada. O companheiro é dependente de 1ª classe.']
   ] },

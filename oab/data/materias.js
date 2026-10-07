@@ -11,17 +11,21 @@ window.MATERIAS = [
       aula: [
         'Para se inscrever como advogado (art. 8º do Estatuto) é preciso: capacidade civil, diploma de bacharel em Direito, título de eleitor e quitação militar (se brasileiro), aprovação no Exame de Ordem, não exercer atividade incompatível, idoneidade moral e prestar compromisso perante o Conselho.',
         'INCOMPATIBILIDADE (art. 28) = proibição TOTAL de advogar, mesmo em causa própria. Atinge, por exemplo: chefes do Executivo e membros das Mesas do Legislativo, magistrados, membros do MP, policiais de qualquer natureza, militares na ativa, ocupantes de cargos ligados à arrecadação de tributos e servidores do Judiciário.',
-        'IMPEDIMENTO (art. 30) = proibição PARCIAL. Servidores públicos não podem advogar contra a Fazenda que os remunera; membros do Poder Legislativo não podem advogar contra ou a favor das pessoas jurídicas de direito público e concessionárias de serviço público. Docentes de cursos jurídicos NÃO são impedidos.'
+        'Outras incompatibilidades do art. 28 que a FGV cobra: cargos de direção na Administração direta ou indireta (III), titulares de serviços notariais e de registro (IV) e funções de direção e gerência em instituições financeiras, inclusive privadas (VIII). A incompatibilidade permanece mesmo com afastamento temporário do cargo (§1º); no inciso III, não atinge quem não tem poder de decisão relevante sobre interesses de terceiros nem a administração acadêmica ligada ao magistério jurídico (§2º). Já procuradores-gerais, advogados-gerais, defensores-gerais e dirigentes de órgãos jurídicos públicos só podem exercer a advocacia vinculada à função, durante a investidura (art. 29).',
+        'IMPEDIMENTO (art. 30) = proibição PARCIAL. Servidores públicos não podem advogar contra a Fazenda que os remunera; membros do Poder Legislativo, em todos os níveis, não podem advogar contra ou a favor das pessoas jurídicas de direito público, empresas públicas, sociedades de economia mista, fundações públicas, entidades paraestatais ou concessionárias e permissionárias de serviço público. Docentes de cursos jurídicos NÃO são impedidos (art. 30, parágrafo único: a exceção vale só para o inciso I, o dos servidores).'
       ],
       cai: ['Diferenciar incompatibilidade (total) de impedimento (parcial)', 'Quem pode advogar em causa própria', 'Exceções: professores de Direito e cargos sem poder de decisão'],
-      macetes: ['INcompatível = INteiramente proibido. IMpedido = IMpedido só em parte.', 'Policial e militar da ativa? Incompatibilidade, nem em causa própria.', 'Servidor comum? Só não pode advogar contra quem paga o salário dele.'],
+      macetes: ['INcompatível = INteiramente proibido. IMpedido = IMpedido só em parte.', 'Policial e militar da ativa? Incompatibilidade, nem em causa própria.',
+        'A Lei 14.365/22 incluiu os §§3º e 4º no art. 28 para deixar policial e militar advogar em causa própria, mas o STF os declarou inconstitucionais (ADI 7227): a incompatibilidade continua total.', 'Servidor comum? Só não pode advogar contra quem paga o salário dele.'],
       video: 'OAB ética incompatibilidade e impedimento estatuto art 28 art 30' },
     { id: 'honorarios', titulo: 'Honorários advocatícios', incidencia: 'alta',
       aula: [
         'Existem três espécies: CONTRATUAIS (combinados com o cliente), SUCUMBENCIAIS (pagos pela parte vencida) e ARBITRADOS judicialmente (quando não há contrato).',
-        'Os honorários de sucumbência PERTENCEM AO ADVOGADO (art. 23), têm natureza alimentar e o advogado pode executá-los em nome próprio. O contrato de honorários escrito é título executivo extrajudicial (art. 24).',
+        'Sem estipulação em contrário, 1/3 dos honorários é devido no início do serviço, 1/3 até a decisão de primeira instância e o restante ao final (art. 22, §3º). Se o contrato for juntado aos autos antes do mandado de levantamento ou do precatório, o juiz manda pagar os honorários direto ao advogado, deduzindo-os do que o cliente vai receber, salvo se o cliente provar que já os pagou (§4º). O advogado nomeado pelo juiz por impossibilidade da Defensoria Pública no local tem honorários fixados pelo juiz segundo a tabela da Seccional, pagos pelo Estado (§1º).',
+        'Os honorários de sucumbência PERTENCEM AO ADVOGADO (art. 23), têm natureza alimentar (art. 85, §14, CPC; Súmula Vinculante 47) e o advogado tem direito autônomo de executá-los em nome próprio. A decisão judicial que fixa ou arbitra honorários e o contrato escrito são títulos executivos e constituem crédito privilegiado na falência e na insolvência (art. 24); o contrato escrito é título executivo extrajudicial.',
         'Prescreve em 5 ANOS a ação de cobrança de honorários (art. 25), contados do vencimento do contrato, do trânsito em julgado, da ultimação do serviço extrajudicial, da desistência/transação ou da renúncia/revogação do mandato.',
-        'O Código de Ética proíbe o aviltamento: honorários fixados em valor vil ou abaixo da tabela da Seccional, salvo motivo plenamente justificável. Na advocacia pro bono não pode haver cobrança.'
+        'Quota litis (art. 50, CED): os honorários devem ser em dinheiro e, somados aos de sucumbência, não podem superar as vantagens obtidas pelo cliente; receber bens do cliente só excepcionalmente, se ele comprovadamente não tiver condições de pagar em dinheiro, e por contrato escrito. O crédito de honorários NÃO autoriza saque de duplicata nem de outro título de crédito mercantil: só se emite fatura, quando o cliente quiser, e ela não pode ser protestada; cheque ou nota promissória emitidos pelo cliente podem ser protestados depois de frustrada a cobrança amigável (art. 52, CED).',
+        'O Código de Ética proíbe o aviltamento: o advogado deve observar o valor mínimo da Tabela de Honorários da Seccional onde o serviço for prestado, inclusive diligências (art. 48, §6º, CED), e fixar os honorários com moderação (art. 49, CED). Na advocacia pro bono não pode haver cobrança.'
       ],
       cai: ['Titularidade da sucumbência', 'Prazo prescricional de 5 anos e termo inicial', 'Cláusula quota litis (permitida, mas os honorários não podem superar as vantagens do cliente)'],
       macetes: ['Sucumbência é do ADVOGADO, nunca do cliente.', 'Honorários = 5 anos (pense: 5 dedos para contar o dinheiro).'],
@@ -29,19 +33,22 @@ window.MATERIAS = [
     { id: 'disciplina', titulo: 'Infrações, sanções e processo disciplinar', incidencia: 'alta',
       aula: [
         'Sanções (art. 35): CENSURA, SUSPENSÃO, EXCLUSÃO e MULTA. A censura pode ser convertida em advertência, em ofício reservado, se houver atenuante.',
-        'Suspensão: de 30 dias a 12 meses. No caso de não pagamento de valores ao cliente ou de inépcia profissional, a suspensão perdura até a quitação ou a aprovação em novas provas.',
+        'Qual sanção para qual conduta: CENSURA para os incisos I a XVI e XXIX do art. 34 e para violação do Código de Ética (art. 36); SUSPENSÃO para os incisos XVII a XXV e XXX (assédio moral, assédio sexual ou discriminação, incluído pela Lei 14.612/23) e para a reincidência em infração disciplinar (art. 37); EXCLUSÃO para os incisos XXVI a XXVIII (falsa prova de requisito de inscrição, inidoneidade moral, crime infamante) ou após 3 suspensões (art. 38). MULTA: de 1 a 10 anuidades, sempre cumulada com censura ou suspensão, quando houver agravantes (art. 39).',
+        'Suspensão: de 30 dias a 12 meses. Se o advogado se recusa injustificadamente a prestar contas ao cliente (art. 34, XXI), a suspensão perdura até a satisfação integral da dívida, com correção monetária; na inépcia profissional (XXIV), até a aprovação em novas provas de habilitação (art. 37, §§2º e 3º). A suspensão por falta de pagamento de anuidade (art. 34, XXIII) foi declarada inconstitucional pelo STF (RE 647.885, Tema 732).',
         'Exclusão: aplicada após 3 suspensões, ou em casos como falsa prova de requisito de inscrição, tornar-se moralmente inidôneo e crime infamante. Exige manifestação favorável de 2/3 dos membros do Conselho Seccional.',
         'O poder de punir prescreve em 5 ANOS a contar da data da constatação oficial do fato (art. 43). Processo paralisado por mais de 3 anos aguardando despacho gera prescrição intercorrente.',
-        'O processo disciplinar é sigiloso até o término e tramita no Conselho Seccional onde ocorreu a infração (o TED julga). Prazo de recursos: 15 dias.'
+        'Suspensão preventiva: o TED do Conselho onde o advogado tem inscrição principal pode suspendê-lo preventivamente, em caso de repercussão prejudicial à dignidade da advocacia, depois de ouvi-lo em sessão especial; o processo deve então terminar em até 90 dias (art. 70, §3º). Reabilitação: pode ser pedida 1 ano após o cumprimento da sanção, com provas efetivas de bom comportamento; se a falta resultou de crime, depende também da reabilitação criminal (art. 41).',
+        'O processo disciplinar tramita em sigilo até o término (art. 72, §2º). O poder de punir é do Conselho Seccional em cuja base territorial ocorreu a infração, salvo falta cometida perante o Conselho Federal (art. 70); quem julga é o TED do Seccional (art. 70, §1º). Prazo de recursos: 15 dias.'
       ],
       cai: ['Qual sanção para qual conduta', 'Quórum de 2/3 para exclusão', 'Prescrição de 5 anos e intercorrente de 3 anos', 'Competência territorial do lugar da infração'],
       macetes: ['Ordem das sanções: "C-S-E" (Censura, Suspensão, Exclusão) + multa acessória.', '3 suspensões = exclusão. Exclusão = 2/3 do Conselho.', 'Na OAB quase todo prazo é 15 dias.'],
       video: 'OAB ética sanções disciplinares censura suspensão exclusão processo disciplinar' },
     { id: 'publicidade', titulo: 'Sigilo e publicidade', incidencia: 'media',
       aula: [
-        'O sigilo profissional é dever e direito do advogado. Ele só pode ser quebrado em situações excepcionais: grave ameaça à vida, à honra, ou quando o advogado é afrontado pelo próprio cliente e precisa se defender, sempre restrito ao necessário.',
-        'O advogado deve recusar-se a depor como testemunha sobre fato relacionado a quem foi ou é seu cliente, mesmo que autorizado por ele.',
-        'A publicidade é permitida com caráter meramente informativo, discrição e sobriedade (Provimento 205/2021). É proibido: mercantilização, captação de clientela, oferta de serviços em conjunto com outra atividade, informar valores de honorários e usar outdoors e meios de massa para captar clientes. Patrocinar postagens (impulsionamento) é permitido, com conteúdo informativo.'
+        'O sigilo profissional é dever e direito do advogado. É de ordem pública e independe de pedido de reserva do cliente; presumem-se confidenciais as comunicações entre advogado e cliente (art. 36, CED). Só cede em circunstâncias excepcionais que configurem justa causa, como grave ameaça ao direito à vida e à honra ou defesa própria, por exemplo quando o advogado é afrontado pelo próprio cliente (art. 37, CED); ainda assim, revela-se apenas o necessário.',
+        'O advogado tem o direito de recusar-se a depor como testemunha em processo no qual funcionou ou deva funcionar, ou sobre fato relacionado a quem foi ou é seu cliente, mesmo quando autorizado ou solicitado por ele (art. 7º, XIX, do Estatuto); e não é obrigado a depor sobre fatos cobertos pelo sigilo (art. 38, CED).',
+        'A publicidade é permitida com caráter meramente informativo, discrição e sobriedade (Provimento 205/2021). É proibido: mercantilização, captação de clientela, oferta de serviços em conjunto com outra atividade, informar valores de honorários e usar outdoors e meios de massa para captar clientes. Patrocinar postagens (impulsionamento) é permitido, com conteúdo informativo.',
+        'Meios vedados (art. 40, CED): publicidade em rádio, cinema e televisão; outdoors, painéis luminosos e assemelhados; inscrições em muros, paredes, veículos, elevadores ou espaços públicos; mala direta e panfletos para captar clientela; divulgação conjunta com outra atividade; telefone ou endereço em artigos e entrevistas (só o e-mail é permitido). Na fachada do escritório, placas, painéis luminosos e inscrições são permitidos só para identificação. O Prov. 205/21 também veda prometer resultados, usar casos concretos para oferecer serviços e ostentar bens (art. 6º).'
       ],
       cai: ['Recusa a depor mesmo autorizado pelo cliente', 'O que é permitido nas redes sociais (Provimento 205/2021)'],
       macetes: ['Sigilo: o advogado se cala até quando o cliente libera.', 'Publicidade OK = informar. Proibido = vender (preço, promoção, captação).'],
@@ -54,11 +61,13 @@ window.MATERIAS = [
   topicos: [
     { id: 'remedios', titulo: 'Remédios constitucionais', incidencia: 'alta',
       aula: [
-        'HABEAS CORPUS: protege a liberdade de locomoção. Qualquer pessoa pode impetrar, sem advogado e gratuitamente.',
+        'HABEAS CORPUS: protege a liberdade de locomoção contra ilegalidade ou abuso de poder, inclusive de forma preventiva (art. 5º, LXVIII). Qualquer pessoa pode impetrar, sem advogado e gratuitamente (art. 5º, LXXVII). Não cabe HC quanto ao mérito de punições disciplinares militares (art. 142, §2º), só quanto à legalidade.',
         'MANDADO DE SEGURANÇA: protege direito líquido e certo não amparado por HC ou HD, contra ato de autoridade. Prazo decadencial de 120 dias da ciência do ato (Lei 12.016/09). Não cabe condenação em honorários.',
-        'HABEAS DATA: para conhecer ou retificar informações sobre a PRÓPRIA pessoa em bancos de dados públicos ou de caráter público. Exige prova da recusa administrativa.',
+        'MS COLETIVO (art. 5º, LXX): partido político com representação no Congresso; organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos 1 ano (requisito que, para o STF, vale só para a associação). Não depende de autorização dos associados (Súmula 629 STF) e pode defender interesse de só parte da categoria (Súmula 630 STF). Súmulas clássicas: não cabe MS contra lei em tese (266), contra decisão judicial transitada em julgado (268) nem como substituto de ação de cobrança (269).',
+        'HABEAS DATA: para conhecer ou retificar informações sobre a PRÓPRIA pessoa em bancos de dados públicos ou de caráter público. Exige prova da recusa administrativa ou do decurso do prazo sem decisão: mais de 10 dias para o acesso e mais de 15 para a retificação ou anotação (Súmula 2 do STJ; art. 8º, parágrafo único, da Lei 9.507/97). É gratuito (art. 5º, LXXVII).',
         'MANDADO DE INJUNÇÃO: quando a falta de norma regulamentadora torna inviável o exercício de direitos constitucionais (Lei 13.300/16).',
-        'AÇÃO POPULAR: proposta por qualquer CIDADÃO (eleitor) para anular ato lesivo ao patrimônio público, à moralidade, ao meio ambiente ou ao patrimônio histórico. O autor é isento de custas, salvo comprovada má-fé.'
+        'Reconhecida a mora, o tribunal fixa prazo razoável para o órgão omisso editar a norma e, se ela não vier, estabelece as condições para o exercício do direito (art. 8º, Lei 13.300/16). Em regra a decisão vale só entre as partes, mas pode ter eficácia ultra partes ou erga omnes (art. 9º). MI coletivo: MP, partido com representação no Congresso, organização sindical, entidade de classe ou associação há pelo menos 1 ano e Defensoria Pública (art. 12).',
+        'AÇÃO POPULAR: proposta por qualquer CIDADÃO (eleitor) para anular ato lesivo ao patrimônio público, à moralidade, ao meio ambiente ou ao patrimônio histórico. O autor é isento de custas judiciais e do ônus da sucumbência, salvo comprovada má-fé (art. 5º, LXXIII). A cidadania se prova com o título de eleitor (art. 1º, §3º, Lei 4.717/65).'
       ],
       cai: ['Escolher o remédio correto a partir do caso concreto', 'Prazo de 120 dias do MS', 'Legitimidade da ação popular (só cidadão; pessoa jurídica não – Súmula 365 STF)'],
       macetes: ['Liberdade de ir e vir → HC. Informação sobre MIM → HD. Falta lei → MI. Resto (direito líquido e certo) → MS.', 'Ação POPULAR = povo = cidadão eleitor.'],
@@ -66,9 +75,12 @@ window.MATERIAS = [
     { id: 'controle', titulo: 'Controle de constitucionalidade', incidencia: 'alta',
       aula: [
         'Controle DIFUSO: qualquer juiz ou tribunal, no caso concreto, com efeitos entre as partes. Nos tribunais, observa a cláusula de reserva de plenário (art. 97 e Súmula Vinculante 10).',
+        'Reserva de plenário (art. 97): nos tribunais, a inconstitucionalidade só é declarada pela maioria absoluta dos membros do tribunal ou do órgão especial. O órgão fracionário não precisa submeter a questão se já houver pronunciamento do plenário ou do órgão especial do próprio tribunal ou do plenário do STF sobre ela (art. 949, parágrafo único, CPC). A regra não vale para juiz singular nem para turma recursal. No difuso, o Senado pode suspender a execução de lei declarada inconstitucional pelo STF (art. 52, X).',
         'Controle CONCENTRADO: feito pelo STF via ADI, ADC, ADO e ADPF, com efeitos erga omnes e vinculantes.',
+        'ADPF (Lei 9.882/99) é SUBSIDIÁRIA: só cabe se não houver outro meio eficaz de sanar a lesividade (art. 4º, §1º). Por isso é o caminho para lei MUNICIPAL em face da Constituição Federal e para norma ANTERIOR a 1988, que não podem ser objeto de ADI. Na ADI e na ADC, a modulação dos efeitos exige 2/3 dos ministros (art. 27, Lei 9.868/99). Nos Estados, o TJ julga a representação de inconstitucionalidade de lei estadual ou municipal em face da Constituição Estadual (art. 125, §2º).',
         'Legitimados (art. 103): Presidente da República; Mesas do Senado, da Câmara, das Assembleias e da Câmara Legislativa do DF; Governadores; PGR; Conselho Federal da OAB; partido político com representação no Congresso; confederação sindical ou entidade de classe de âmbito nacional.',
-        'Legitimados ESPECIAIS (precisam demonstrar pertinência temática): Mesas das Assembleias, Governadores e confederações/entidades de classe. Os demais são universais.'
+        'Legitimados ESPECIAIS (precisam demonstrar pertinência temática): Mesas das Assembleias, Governadores e confederações/entidades de classe. Os demais são universais.',
+        'Partido político: basta ter um parlamentar no Congresso na data da propositura; a perda superveniente da representação não prejudica a ação. Partido e confederação sindical ou entidade de classe precisam de advogado; os demais legitimados têm capacidade postulatória própria. Sindicatos e federações NÃO são legitimados (só a confederação sindical). O Advogado-Geral da União é citado para defender a norma impugnada (art. 103, §3º), mas, segundo o STF, não é obrigado a defendê-la se o STF já a tiver julgado inconstitucional.'
       ],
       cai: ['Rol do art. 103 e pertinência temática', 'ADPF é subsidiária', 'Reserva de plenário'],
       macetes: ['Universais: "3 P + OAB + Mesas federais" (Presidente, PGR, Partido, Conselho Federal da OAB, Mesa da Câmara e do Senado).', 'Seccional da OAB NÃO é legitimada; só o Conselho FEDERAL.'],
@@ -76,9 +88,11 @@ window.MATERIAS = [
     { id: 'emendas', titulo: 'Processo legislativo e emendas', incidencia: 'media',
       aula: [
         'A Constituição pode ser emendada por proposta de 1/3 da Câmara ou do Senado, do Presidente da República ou de mais da metade das Assembleias Legislativas (cada uma por maioria relativa).',
-        'Aprovação: dois turnos em cada Casa, com 3/5 dos votos. Não há sanção ou veto: a promulgação é feita pelas Mesas da Câmara e do Senado.',
+        'Aprovação: dois turnos em cada Casa, com 3/5 dos votos dos respectivos MEMBROS em ambos os turnos, ou seja, 308 deputados e 49 senadores (art. 60, §2º). Não há sanção ou veto: a promulgação é feita pelas Mesas da Câmara e do Senado, com o respectivo número de ordem (art. 60, §3º).',
         'Cláusulas pétreas (art. 60, §4º): forma federativa de Estado; voto direto, secreto, universal e periódico; separação dos Poderes; direitos e garantias individuais. Não pode haver emenda TENDENTE A ABOLIR.',
-        'Limites circunstanciais: não se emenda na vigência de intervenção federal, estado de defesa ou estado de sítio.'
+        'Direitos e garantias individuais pétreos não estão só no art. 5º: o STF reconheceu a anterioridade tributária como cláusula pétrea (ADI 939). O voto OBRIGATÓRIO não é cláusula pétrea (pétreo é o voto direto, secreto, universal e periódico). Há limites implícitos: não se pode emendar o próprio art. 60 para suprimir suas limitações. Emenda pode sofrer controle de constitucionalidade, e o parlamentar pode impetrar MS contra a tramitação de PEC tendente a abolir cláusula pétrea.',
+        'Limites circunstanciais: não se emenda na vigência de intervenção federal, estado de defesa ou estado de sítio.',
+        'Art. 60, §5º: a matéria de PEC rejeitada ou havida por prejudicada NÃO pode ser objeto de nova proposta na mesma sessão legislativa, sem exceção. Compare com o projeto de lei rejeitado, que pode ser reapresentado na mesma sessão por proposta da maioria absoluta dos membros de qualquer das Casas (art. 67).'
       ],
       cai: ['Quórum de 3/5 em 2 turnos', 'Cláusulas pétreas', 'Matéria rejeitada só pode ser reapresentada na sessão legislativa seguinte'],
       macetes: ['Pétreas: "FO-VO-SE-DI" (FOrma federativa, VOto, SEparação, DIreitos individuais).', 'Emenda: 3-2-3/5 → 3 iniciativas principais, 2 turnos, 3/5 dos votos.'],
@@ -458,11 +472,14 @@ window.MATERIAS = [
       aula: [
         'Leis orçamentárias (art. 165): PPA (plano plurianual – 4 anos), LDO (metas e prioridades) e LOA (orçamento anual). A iniciativa é privativa do chefe do Executivo.',
         'LRF – limites de despesa com pessoal sobre a receita corrente líquida: União 50%; Estados e Municípios 60%.',
-        'Precatórios (art. 100): pagos em ordem cronológica. Débitos de natureza alimentícia têm preferência; e titulares com 60 anos ou mais, portadores de doença grave ou pessoas com deficiência têm superpreferência até o triplo do valor da RPV.',
-        'Princípio da exclusividade: a LOA não pode conter dispositivo estranho à previsão da receita e à fixação da despesa, salvo autorização para créditos suplementares e operações de crédito.'
+        'LRF – controle da despesa com pessoal: ao atingir 95% do limite (limite prudencial), ficam vedados, entre outros, aumentos e reajustes (salvo revisão geral ou decisão judicial), criação de cargos e horas extras (art. 22, parágrafo único). Excedido o limite, o excesso deve ser eliminado nos dois quadrimestres seguintes, pelo menos 1/3 no primeiro (art. 23). É nulo o ato que aumente despesa com pessoal nos 180 dias anteriores ao fim do mandato (art. 21). Nos dois últimos quadrimestres do mandato, é vedado contrair obrigação que não possa ser paga integralmente no mandato ou que deixe parcelas para o exercício seguinte sem disponibilidade de caixa (art. 42).',
+        'Precatórios (art. 100): pagos na ordem cronológica de apresentação. Os débitos de natureza alimentícia (salários, vencimentos, pensões, benefícios previdenciários, indenizações por morte ou invalidez – §1º) têm preferência sobre os demais. DENTRO dos alimentícios, os titulares com 60 anos ou mais, portadores de doença grave ou pessoas com deficiência têm superpreferência até o triplo do valor da RPV, admitido o fracionamento; o restante segue a ordem cronológica (§2º). Débitos de pequeno valor (RPV) não se submetem ao regime de precatórios (§3º).',
+        'Princípio da exclusividade: a LOA não pode conter dispositivo estranho à previsão da receita e à fixação da despesa, salvo autorização para créditos suplementares e operações de crédito.',
+        'Créditos adicionais (Lei 4.320/64, art. 41): suplementares (reforçam dotação existente), especiais (despesa sem dotação específica) e extraordinários (despesas imprevisíveis e urgentes, como guerra, comoção interna ou calamidade pública). Suplementares e especiais dependem de prévia autorização legislativa e de indicação dos recursos (art. 167, V, CF); só os extraordinários podem ser abertos por medida provisória (art. 167, §3º, e art. 62, §1º, I, d). Também é vedada a vinculação de receita de impostos a órgão, fundo ou despesa, salvo as exceções do art. 167, IV.'
       ],
-      cai: ['PPA/LDO/LOA', 'Limites da LRF', 'Ordem de pagamento dos precatórios'],
-      macetes: ['Pessoal (LRF): União 50, Estados e Municípios 60.'],
+      cai: ['PPA/LDO/LOA', 'Limites da LRF', 'Ordem de pagamento dos precatórios',
+        'Créditos adicionais, vedações do art. 167, limite prudencial e LRF em fim de mandato (arts. 21 e 42)'],
+      macetes: ['Pessoal (LRF): União 50, Estados e Municípios 60; 95% do limite = prudencial; excesso eliminado em 2 quadrimestres (1/3 no primeiro). Crédito extraordinário é o único que pode vir por MP.'],
       video: 'direito financeiro PPA LDO LOA lei de responsabilidade fiscal precatórios OAB' }
   ]
 },
@@ -474,11 +491,13 @@ window.MATERIAS = [
       aula: [
         'Idade mínima (art. 14, §3º): 35 anos para Presidente, Vice e Senador; 30 para Governador e Vice; 21 para Deputado, Prefeito, Vice-Prefeito e Juiz de Paz; 18 para Vereador.',
         'A idade mínima é verificada na data da POSSE, exceto para vereador (18 anos), verificada na data-limite do pedido de registro (Lei 9.504/97, art. 11, §2º).',
-        'Inalistáveis e analfabetos são inelegíveis. Os inelegíveis da Lei da Ficha Limpa (LC 135/10) ficam impedidos por 8 anos.',
-        'Para concorrer a outros cargos, Presidente, Governadores e Prefeitos devem renunciar aos mandatos até 6 meses antes do pleito (desincompatibilização).'
+        'Demais condições de elegibilidade (art. 14, §3º): nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição e filiação partidária (não há candidatura avulsa). Domicílio e filiação deferida devem existir pelo menos 6 meses antes da eleição (Lei 9.504/97, art. 9º). O militar alistável é elegível: com menos de 10 anos de serviço, afasta-se da atividade; com mais de 10, é agregado e, se eleito, passa à inatividade no ato da diplomação (art. 14, §8º).',
+        'Inalistáveis (estrangeiros e, durante o serviço militar obrigatório, os conscritos) e analfabetos são inelegíveis (art. 14, §§2º e 4º); o analfabeto pode votar (voto facultativo), mas não pode ser votado. Outros casos de inelegibilidade só podem ser criados por lei complementar (art. 14, §9º): a LC 64/90, alterada pela Lei da Ficha Limpa (LC 135/10), fixa, em regra, o prazo de 8 anos, e em várias hipóteses basta decisão de órgão judicial colegiado, sem trânsito em julgado.',
+        'Para concorrer a outros cargos, Presidente, Governadores e Prefeitos devem renunciar aos mandatos até 6 meses antes do pleito (desincompatibilização).',
+        'Reeleição (art. 14, §5º): Presidente, Governadores e Prefeitos (e quem os suceder ou substituir) podem ser reeleitos para UM único período subsequente, sem renunciar. Inelegibilidade reflexa (art. 14, §7º): no território de jurisdição do titular, são inelegíveis o cônjuge e os parentes consanguíneos ou afins até o 2º grau ou por adoção do chefe do Executivo (ou de quem o substituiu nos 6 meses anteriores ao pleito), salvo se já titular de mandato eletivo e candidato à reeleição. A dissolução do vínculo conjugal no curso do mandato não afasta essa inelegibilidade (Súmula Vinculante 18), salvo se o vínculo se extinguir pela morte do titular (STF, Tema 678).'
       ],
-      cai: ['Idades mínimas', 'Prazo de 8 anos da Ficha Limpa', 'Desincompatibilização em 6 meses'],
-      macetes: ['Idades: 35-30-21-18 (P/Sen – Gov – Dep/Pref – Ver).'],
+      cai: ['Idades mínimas', 'Prazo de 8 anos da Ficha Limpa', 'Desincompatibilização em 6 meses; reeleição e inelegibilidade reflexa (art. 14, §§5º a 7º, e SV 18)'],
+      macetes: ['Idades: 35-30-21-18 (P/Sen – Gov – Dep/Pref – Ver). Idade conferida na POSSE (salvo 18 anos: no registro). Reflexa: cônjuge e parentes até 2º grau, só no território do titular.'],
       video: 'condições de elegibilidade idade mínima ficha limpa inelegibilidade OAB eleitoral' }
   ]
 },
@@ -488,13 +507,13 @@ window.MATERIAS = [
   topicos: [
     { id: 'beneficios', titulo: 'Benefícios e carência', incidencia: 'alta',
       aula: [
-        'Aposentadoria programada (EC 103/19) no RGPS urbano: 65 anos (homem) e 62 anos (mulher), com tempo mínimo de contribuição.',
-        'Carência: aposentadorias por idade e especial = 180 contribuições; auxílio por incapacidade temporária e aposentadoria por incapacidade permanente = 12 contribuições; salário-maternidade da contribuinte individual, facultativa e segurada especial = 10 contribuições.',
-        'Independem de carência: pensão por morte, auxílio-reclusão (exige 24 contribuições após 2019), salário-família, auxílio-acidente, e benefícios por incapacidade decorrentes de acidente de qualquer natureza ou doença grave da lista oficial.',
-        'Qualidade de segurado: mantida no período de graça (ex.: até 12 meses após cessar as contribuições, prorrogáveis).'
+        'Aposentadoria programada (EC 103/19, arts. 18 e 19) no RGPS urbano: 65 anos (homem) e 62 anos (mulher). Tempo mínimo de contribuição: 20 anos (homem) e 15 anos (mulher) para quem se filiou após a EC 103/19; para quem já era filiado, 15 anos para ambos, pela regra de transição. Trabalhador rural e segurado especial: 60 anos (homem) e 55 anos (mulher) (art. 201, §7º, II, CF). Valor: 60% da média de todos os salários de contribuição desde julho de 1994 + 2% por ano que exceder 20 anos de contribuição (homem) ou 15 anos (mulher) (EC 103/19, art. 26).',
+        'Carência: aposentadorias por idade e especial = 180 contribuições; auxílio por incapacidade temporária e aposentadoria por incapacidade permanente = 12 contribuições; auxílio-reclusão = 24 contribuições (art. 25, IV, incluído pela Lei 13.846/19). O art. 25, III, ainda prevê 10 contribuições para o salário-maternidade da contribuinte individual, facultativa e segurada especial, mas o STF declarou essa exigência inconstitucional (ADIs 2110 e 2111, julgadas em 2024): o salário-maternidade não exige mais carência. Perdida a qualidade de segurado, a nova filiação exige METADE da carência para os benefícios por incapacidade e para o auxílio-reclusão (art. 27-A).',
+        'Independem de carência: pensão por morte, salário-família, auxílio-acidente (indenizatório, de 50% do salário de benefício, devido ao empregado, doméstico, avulso e segurado especial quando a sequela de acidente reduz a capacidade para o trabalho habitual – arts. 18, §1º, e 86), os benefícios por incapacidade decorrentes de acidente de qualquer natureza, de doença profissional ou do trabalho ou de doença grave da lista oficial surgida após a filiação (art. 26, Lei 8.213/91) e o salário-maternidade (art. 26, VI, e ADIs 2110 e 2111). ATENÇÃO: desde a Lei 13.846/19, o auxílio-reclusão SAIU dessa lista e exige 24 contribuições.',
+        'Qualidade de segurado (art. 15, Lei 8.213/91): mantida, sem limite de prazo, por quem está em gozo de benefício (salvo auxílio-acidente). No período de graça, dura até 12 meses após cessarem as contribuições, prazo que passa a 24 meses se o segurado já pagou mais de 120 contribuições sem perder a qualidade e ganha mais 12 meses se ele comprovar desemprego (até 36 meses); o facultativo mantém a qualidade por 6 meses. A perda da qualidade não impede a aposentadoria de quem já cumpriu a carência (Lei 10.666/03, art. 3º).'
       ],
-      cai: ['Carências', 'Idades da EC 103/19'],
-      macetes: ['Carência: 180 (aposentadoria) / 12 (incapacidade) / 10 (maternidade de algumas seguradas).'],
+      cai: ['Carências', 'Idades e tempo de contribuição da EC 103/19; período de graça; auxílio-reclusão com carência de 24 contribuições'],
+      macetes: ['Carência: 180 (aposentadoria) / 24 (auxílio-reclusão) / 12 (incapacidade, salvo acidente, doença do trabalho ou doença grave). Sem carência: pensão por morte, salário-família, auxílio-acidente e salário-maternidade (ADIs 2110 e 2111).'],
       video: 'direito previdenciário carência benefícios RGPS reforma EC 103 OAB' }
   ]
 },
@@ -504,15 +523,16 @@ window.MATERIAS = [
   topicos: [
     { id: 'autores', titulo: 'Principais autores', incidencia: 'alta',
       aula: [
-        'ARISTÓTELES: justiça DISTRIBUTIVA (proporcional ao mérito, igualdade geométrica) e justiça CORRETIVA/comutativa (igualdade aritmética nas trocas). Equidade corrige a lei em sua generalidade.',
+        'ARISTÓTELES: justiça DISTRIBUTIVA (proporcional ao mérito, igualdade geométrica) e justiça CORRETIVA (igualdade aritmética nas relações entre particulares, voluntárias, como os contratos, ou involuntárias, como os delitos e danos; a tradição escolástica a chama de comutativa). A EQUIDADE corrige a lei onde ela falha por ser geral (a régua de Lesbos, que se molda à pedra).',
         'KELSEN (Teoria Pura do Direito): o Direito é um sistema escalonado de normas; a validade decorre da norma superior, até a NORMA FUNDAMENTAL (pressuposta). Separa Direito de moral.',
         'HART (O Conceito de Direito): regras primárias (de conduta) e secundárias (de reconhecimento, alteração e julgamento). A REGRA DE RECONHECIMENTO identifica o que é Direito.',
         'DWORKIN: o Direito é composto por regras E PRINCÍPIOS; nos casos difíceis, há uma resposta correta (juiz Hércules, Direito como integridade).',
-        'BOBBIO: teoria do ordenamento jurídico – critérios de solução de antinomias: hierárquico, cronológico e da especialidade.',
-        'RAWLS (Uma Teoria da Justiça): posição original e véu da ignorância; princípio da liberdade e princípio da diferença.'
+        'BOBBIO (Teoria do Ordenamento Jurídico): o ordenamento tem unidade, coerência e completude. Antinomias aparentes resolvem-se pelos critérios hierárquico, cronológico e da especialidade. No conflito entre critérios (antinomia de segundo grau), o hierárquico e o da especialidade prevalecem sobre o cronológico; entre hierárquico e especialidade não há regra segura. Lacunas são supridas por autointegração (analogia, princípios gerais) ou heterointegração. Em A Era dos Direitos: o problema dos direitos humanos hoje não é fundamentá-los, mas protegê-los.',
+        'RAWLS (Uma Teoria da Justiça): justiça como EQUIDADE. Na posição original, sob o véu da ignorância, as partes escolheriam dois princípios: 1º) iguais liberdades básicas para todos; 2º) desigualdades sociais e econômicas só são justas se ligadas a cargos abertos a todos em igualdade equitativa de oportunidades e se trouxerem o maior benefício aos menos favorecidos (princípio da diferença). O 1º princípio tem prioridade sobre o 2º.'
       ],
-      cai: ['Associar autor ↔ conceito', 'Justiça distributiva x corretiva'],
-      macetes: ['Kelsen = norma fundamental. Hart = regra de reconhecimento. Dworkin = princípios/Hércules. Rawls = véu da ignorância.'],
+      cai: ['Associar autor ↔ conceito', 'Justiça distributiva x corretiva',
+        'Critérios de Bobbio para antinomias (inclusive conflito entre critérios) e os dois princípios de justiça de Rawls'],
+      macetes: ['Kelsen = norma fundamental. Hart = regra de reconhecimento. Dworkin = princípios/Hércules. Rawls = véu da ignorância. Bobbio = antinomias (hierarquia, cronologia, especialidade). Aristóteles = distributiva (geométrica) x corretiva (aritmética).'],
       video: 'filosofia do direito OAB Kelsen Hart Dworkin Aristóteles Rawls resumo' }
   ]
 }

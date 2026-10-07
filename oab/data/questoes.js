@@ -15,11 +15,11 @@ window.QUESTOES = [
   alt: [
     ['A cliente tem razão, pois a sucumbência serve para ressarcir a parte vencedora.', false, 'Errada. Essa era a lógica antiga; o art. 23 do Estatuto atribui a sucumbência ao advogado.'],
     ['Os honorários devem ser divididos igualmente entre a cliente e a advogada.', false, 'Errada. Não há divisão legal; pertencem integralmente ao advogado, salvo estipulação diversa em contrato.'],
-    ['Os honorários de sucumbência pertencem à advogada, que pode executá-los autonomamente.', true, 'Correta. Art. 23 do Estatuto: a sucumbência pertence ao advogado, que tem direito autônomo de executá-la.'],
+    ['Os honorários de sucumbência pertencem à advogada, que pode executá-los autonomamente.', true, 'Correta. Art. 23 do Estatuto: a sucumbência pertence ao advogado, que tem direito autônomo de executá-la. O art. 85, §14, do CPC confirma: os honorários são do advogado, têm natureza alimentar e não podem ser compensados na sucumbência parcial.'],
     ['Os honorários pertencem ao Estado, como custas processuais.', false, 'Errada. Honorários não se confundem com custas processuais.']
   ] },
 { id: 'et3', materia: 'etica', topico: 'honorarios',
-  enunciado: 'O advogado Paulo concluiu um serviço extrajudicial e não recebeu os honorários contratados. Qual o prazo prescricional para a ação de cobrança?',
+  enunciado: 'O advogado Paulo prestou assessoria extrajudicial a uma empresa, com honorários ajustados verbalmente e sem data de vencimento. Concluído o serviço, a cliente não pagou. Sobre a prescrição da pretensão de cobrança desses honorários, assinale a afirmativa correta.',
   alt: [
     ['3 anos, contados da celebração do contrato.', false, 'Errada. O prazo de 3 anos é o da reparação civil no Código Civil; o Estatuto tem regra própria.'],
     ['10 anos, por se tratar do prazo geral do Código Civil.', false, 'Errada. O prazo geral só se aplica sem regra especial, e o Estatuto a tem (art. 25).'],
@@ -37,8 +37,8 @@ window.QUESTOES = [
 { id: 'et5', materia: 'etica', topico: 'publicidade',
   enunciado: 'A advogada Júlia foi intimada a depor como testemunha sobre fatos que conheceu ao atender um ex-cliente, que expressamente a autorizou a falar. Júlia deve:',
   alt: [
-    ['depor, pois a autorização do cliente afasta o sigilo profissional.', false, 'Errada. O Código de Ética determina a recusa a depor mesmo com autorização do cliente.'],
-    ['recusar-se a depor, mesmo autorizada pelo ex-cliente.', true, 'Correta. Art. 7º, XIX, do Estatuto e art. 38 do Código de Ética: o advogado recusa-se a depor sobre fato de quem foi ou é cliente, mesmo autorizado.'],
+    ['depor, pois a autorização do cliente afasta o sigilo profissional.', false, 'Errada. O art. 7º, XIX, do Estatuto assegura a recusa a depor sobre fato relacionado a pessoa de quem seja ou foi advogado, mesmo quando autorizado ou solicitado pelo constituinte; e o sigilo é de ordem pública (art. 36 do CED).'],
+    ['recusar-se a depor, mesmo autorizada pelo ex-cliente.', true, 'Correta. Art. 7º, XIX, do Estatuto: o advogado recusa-se a depor sobre fato relacionado a pessoa de quem seja ou foi advogado, mesmo quando autorizado ou solicitado pelo constituinte. O CED reforça: o sigilo é de ordem pública e o advogado não é obrigado a depor sobre fatos sigilosos (arts. 36 e 38).'],
     ['depor, porque o sigilo cessa com o fim do mandato.', false, 'Errada. O sigilo permanece após o fim da relação profissional.'],
     ['depor apenas sobre fatos favoráveis ao ex-cliente.', false, 'Errada. Não existe essa ressalva; a recusa abrange os fatos ligados ao patrocínio.']
   ] },
@@ -90,7 +90,7 @@ window.QUESTOES = [
     ['a esposa concorre com os filhos em partes iguais.', false, 'Errada. Na comunhão universal o cônjuge não concorre com os descendentes (art. 1.829, I).'],
     ['a esposa recebe metade da herança e os filhos dividem a outra metade.', false, 'Errada. Confunde meação com herança: a meação não integra a herança.'],
     ['a esposa herda tudo, por ser herdeira necessária.', false, 'Errada. Os descendentes estão na 1ª classe da ordem de vocação.'],
-    ['os filhos herdam a totalidade da herança, cabendo à esposa sua meação.', true, 'Correta. Na comunhão universal, a viúva é meeira e não concorre com os descendentes na herança.']
+    ['os filhos herdam a totalidade da herança, cabendo à esposa sua meação.', true, 'Correta. Na comunhão universal, a viúva é meeira e não concorre com os descendentes na herança (art. 1.829, I). Meação não é herança; e, qualquer que seja o regime, a viúva tem direito real de habitação sobre o imóvel residencial da família, desde que seja o único dessa natureza a inventariar (art. 1.831).']
   ] },
 // PROCESSO CIVIL
 { id: 'pc1', materia: 'processocivil', topico: 'prazos',
@@ -110,7 +110,7 @@ window.QUESTOES = [
     ['nenhum recurso imediato; a matéria deve ser alegada em preliminar de apelação.', false, 'Errada. Essa regra vale para as interlocutórias FORA do rol do art. 1.015.']
   ] },
 { id: 'pc3', materia: 'processocivil', topico: 'tutelas',
-  enunciado: 'Concedida tutela antecipada em caráter antecedente, o réu não interpôs recurso. Nesse caso:',
+  enunciado: 'Concedida tutela antecipada em caráter antecedente, o réu, citado e intimado, não interpôs agravo de instrumento nem apresentou qualquer outra forma de impugnação. Nesse caso:',
   alt: [
     ['a decisão faz coisa julgada material imediatamente.', false, 'Errada. O art. 304, §6º, diz expressamente que a estabilização não faz coisa julgada.'],
     ['a tutela torna-se estável e o processo é extinto; qualquer das partes pode, em 2 anos, ajuizar ação para revê-la.', true, 'Correta. Art. 304, caput, §1º, §2º e §5º do CPC.'],
