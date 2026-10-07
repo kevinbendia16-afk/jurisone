@@ -229,7 +229,7 @@ window.QUESTOES = [
 { id: 'ad3', materia: 'administrativo', topico: 'improbidade',
   enunciado: 'Um servidor, por negligência, causou prejuízo ao erário. Segundo a Lei 8.429/92, com a redação da Lei 14.230/21:',
   alt: [
-    ['responde por improbidade culposa por lesão ao erário.', false, 'Errada. A modalidade culposa foi extinta.'],
+    ['responde por improbidade culposa por lesão ao erário.', false, 'Errada. A modalidade culposa foi extinta: o art. 10, caput, agora exige ação ou omissão dolosa. Pelo Tema 1199 do STF, essa revogação não alcança condenações transitadas em julgado, mas se aplica aos processos ainda sem trânsito em julgado.'],
     ['não responde por improbidade, que exige dolo, sem prejuízo de outras responsabilizações.', true, 'Correta. Art. 1º, §§1º e 2º: só condutas dolosas configuram improbidade. Pode haver responsabilidade civil e administrativa.'],
     ['responde por violação aos princípios.', false, 'Errada. Também exige dolo e o rol do art. 11 é taxativo.'],
     ['responde por enriquecimento ilícito.', false, 'Errada. Não houve enriquecimento, e também exigiria dolo.']
@@ -247,9 +247,9 @@ window.QUESTOES = [
   enunciado: 'O parcelamento do débito tributário é hipótese de:',
   alt: [
     ['extinção do crédito tributário.', false, 'Errada. O parcelamento não extingue; o débito só se extingue com o pagamento integral.'],
-    ['exclusão do crédito tributário.', false, 'Errada. Exclusão são apenas isenção e anistia (art. 175).'],
+    ['exclusão do crédito tributário.', false, 'Errada. As únicas hipóteses de exclusão do crédito tributário são a isenção e a anistia (art. 175 do CTN).'],
     ['suspensão da exigibilidade do crédito tributário.', true, 'Correta. Art. 151, VI, do CTN.'],
-    ['constituição do crédito tributário.', false, 'Errada. A constituição ocorre pelo lançamento.']
+    ['constituição do crédito tributário.', false, 'Errada. O parcelamento não é forma de constituição do crédito, que se dá pelo lançamento (art. 142 do CTN) ou pela declaração do contribuinte que reconhece o débito (Súmula 436 do STJ).']
   ] },
 // EMPRESARIAL
 { id: 'em1', materia: 'empresarial', topico: 'titulos',
@@ -279,20 +279,20 @@ window.QUESTOES = [
   ] },
 // CDC
 { id: 'cd1', materia: 'cdc', topico: 'respcdc',
-  enunciado: 'Maria comprou uma geladeira que, após 20 dias, parou de funcionar (vício aparente). O prazo para reclamar é de:',
+  enunciado: 'Maria comprou uma geladeira nova que, após 20 dias de uso normal, parou de funcionar por defeito de fabricação, sem causar nenhum outro dano. O prazo decadencial para Maria reclamar do vício é de:',
   alt: [
-    ['30 dias.', false, 'Errada. 30 dias é para produtos NÃO duráveis.'],
-    ['90 dias.', true, 'Correta. Art. 26, II, do CDC: 90 dias para produtos duráveis.'],
+    ['30 dias.', false, 'Errada. 30 dias é o prazo para produtos NÃO duráveis (art. 26, I) e também o prazo que o fornecedor tem para sanar o vício (art. 18, §1º), não o prazo para reclamar de produto durável.'],
+    ['90 dias.', true, 'Correta. Art. 26, II, do CDC: 90 dias para produtos duráveis. Como o defeito só apareceu com o uso (vício oculto), o prazo corre de quando ele ficou evidenciado (art. 26, §3º); no vício aparente, corre da entrega (art. 26, §1º).'],
     ['5 anos.', false, 'Errada. 5 anos é a prescrição da reparação por FATO do produto (art. 27).'],
     ['7 dias.', false, 'Errada. 7 dias é o direito de arrependimento nas compras fora do estabelecimento.']
   ] },
 { id: 'cd2', materia: 'cdc', topico: 'respcdc',
   enunciado: 'Um celular explodiu e causou queimaduras no consumidor. O fabricante é identificado. Quanto ao comerciante que vendeu o aparelho:',
   alt: [
-    ['responde solidariamente, sempre.', false, 'Errada. No FATO do produto, o comerciante responde subsidiariamente (art. 13).'],
-    ['responde apenas se o fabricante não puder ser identificado, ou se não conservar adequadamente produtos perecíveis.', true, 'Correta. Art. 13 do CDC.'],
+    ['responde solidariamente, sempre.', false, 'Errada. No FATO do produto, o comerciante não está no rol do art. 12 e só responde nas hipóteses do art. 13 (responsabilidade que a doutrina costuma chamar de subsidiária). A solidariedade de toda a cadeia é a regra no VÍCIO do produto (art. 18).'],
+    ['responde apenas nas hipóteses do art. 13: fabricante não identificado, produto sem identificação clara do fabricante ou má conservação de produtos perecíveis.', true, 'Correta. Art. 13, I a III, do CDC. Como o fabricante foi identificado e celular não é produto perecível, o comerciante não responde pelo fato do produto; a ação deve ser proposta contra o fabricante (art. 12).'],
     ['nunca responde.', false, 'Errada. Responde nas hipóteses do art. 13.'],
-    ['responde só se houver culpa.', false, 'Errada. A responsabilidade no CDC é objetiva.']
+    ['responde só se houver culpa.', false, 'Errada. Pelo fato do produto, a responsabilidade é objetiva, inclusive a do comerciante nas hipóteses do art. 13 (arts. 12 e 13). A exceção do CDC são os profissionais liberais, que respondem mediante verificação de culpa (art. 14, §4º).']
   ] },
 // AMBIENTAL
 { id: 'am1', materia: 'ambiental', topico: 'respamb',
@@ -337,7 +337,7 @@ window.QUESTOES = [
     ['30 anos.', false, 'Errada. 30 anos é para Governador.'],
     ['21 anos.', false, 'Errada. 21 anos é para Deputado e Prefeito.'],
     ['18 anos.', false, 'Errada. 18 anos é para Vereador.'],
-    ['35 anos.', true, 'Correta. Art. 14, §3º, VI, a, da Constituição.']
+    ['35 anos.', true, 'Correta. Art. 14, §3º, VI, a, da Constituição. Atenção: a idade mínima é verificada na data da posse, salvo a de 18 anos (vereador), aferida na data-limite para o pedido de registro (art. 11, §2º, da Lei 9.504/97).']
   ] },
 // PREVIDENCIÁRIO
 { id: 'pr1', materia: 'previdenciario', topico: 'beneficios',

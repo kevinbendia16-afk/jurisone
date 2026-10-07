@@ -101,12 +101,14 @@
     { id: 'concursopessoas', titulo: 'Concurso de pessoas', incidencia: 'alta',
       aula: [
         'Teoria monista (art. 29): quem concorre para o crime incide nas penas a ele cominadas, na medida de sua culpabilidade. Todos respondem pelo mesmo crime.',
+        'Exceções pluralistas: às vezes a lei separa os concorrentes em crimes diferentes. Exemplos: a gestante que consente no aborto (art. 124) e o terceiro que o provoca (art. 126); o funcionário que recebe a vantagem (corrupção passiva, art. 317) e quem a oferece (corrupção ativa, art. 333); a testemunha que mente (art. 342) e quem a suborna (art. 343).',
         'Requisitos: pluralidade de agentes e de condutas, relevância causal de cada conduta, liame subjetivo (vontade de participar do mesmo fato, não precisa de acordo prévio) e identidade de infração.',
         'Autor e partícipe: autor executa o núcleo do tipo ou tem o domínio do fato; partícipe induz, instiga ou auxilia sem praticar o núcleo. A participação é acessória: só é punível se o autor ao menos iniciar a execução (art. 31).',
         'Participação de menor importância (art. 29, §1º): redução de 1/6 a 1/3.',
         'Cooperação dolosamente distinta (art. 29, §2º): quem quis participar de crime menos grave responde por ele; a pena é aumentada até a metade se o resultado mais grave era previsível.',
         'Comunicabilidade (art. 30): circunstâncias e condições de caráter pessoal não se comunicam, salvo quando elementares do crime. Por isso o particular que ajuda o funcionário público a desviar verba, sabendo dessa condição, responde por peculato.',
-        'Autoria mediata: o autor usa como instrumento alguém que age sem culpabilidade (um inimputável, alguém em erro). Só o autor mediato responde.'
+        'Autoria mediata: o autor usa como instrumento alguém que age sem culpabilidade (um inimputável, alguém em erro). Só o autor mediato responde.',
+        'Autoria colateral: duas pessoas, sem liame subjetivo, agem contra a mesma vítima. Não há concurso de pessoas, e cada uma responde pelo que causou (quem matou responde por homicídio consumado; o outro, por tentativa). Na autoria incerta não se descobre qual conduta causou o resultado, e ambos respondem por tentativa. O crime culposo admite coautoria, mas não participação (posição majoritária).'
       ],
       cai: ['Elementares se comunicam (peculato do particular)', 'Cooperação dolosamente distinta', 'Art. 31: ajuste sem início de execução não é punível'],
       macetes: ['Requisitos: "PRLI" – Pluralidade, Relevância causal, Liame subjetivo, Identidade de infração.', 'Elementar se comunica se o comparsa sabia dela.'],
@@ -118,22 +120,23 @@
         'Regime inicial (art. 33, §2º): pena superior a 8 anos, fechado; superior a 4 e até 8 anos, semiaberto, se não reincidente; até 4 anos, aberto, se não reincidente. A detenção começa no semiaberto ou no aberto (pode haver regressão ao fechado).',
         'Reincidente: o regime inicial é o mais grave, mas a Súmula 269 do STJ admite o semiaberto para o reincidente condenado a até 4 anos, se as circunstâncias judiciais forem favoráveis.',
         'Gravidade abstrata não basta: o juiz não pode impor regime mais severo que o permitido pela pena só com base na gravidade abstrata do crime (Súmulas 718 e 719 do STF; Súmula 440 do STJ). Precisa de fundamentação concreta.',
-        'Progressão (art. 112 da LEP, após o Pacote Anticrime): exige percentuais de cumprimento da pena que variam conforme primariedade, violência e hediondez (de 16% a 70%) e boa conduta carcerária. Ex.: 16% para primário em crime sem violência; 40% para primário em crime hediondo.',
+        'Progressão (art. 112 da LEP, após o Pacote Anticrime): exige percentuais de cumprimento da pena que variam conforme primariedade, violência e hediondez (de 16% a 70%) e boa conduta carcerária, além do resultado do exame criminológico, exigido em todos os casos desde a Lei 14.843/24 (art. 112, §1º, da LEP). Ex.: 16% para primário em crime sem violência; 40% para primário em crime hediondo; 55% para primário em feminicídio, vedado o livramento condicional (art. 112, VI-A, incluído pela Lei 14.994/24).',
         'Limite de cumprimento (art. 75): o tempo de cumprimento das penas privativas de liberdade não pode ser superior a 40 anos.',
         'Detração (art. 42): computa-se na pena e na medida de segurança o tempo de prisão provisória e de internação. O juiz da sentença já considera a detração para fixar o regime inicial (art. 387, §2º, do CPP).'
       ],
       cai: ['Tabela do art. 33', 'Súmulas 269, 440, 718 e 719', 'Limite de 40 anos'],
-      macetes: ['Regimes: mais de 8 = fechado; 4 a 8 = semiaberto; até 4 = aberto (se não reincidente).', 'Gravidade abstrata não fundamenta regime: precisa de motivo concreto.'],
+      macetes: ['Regimes: mais de 8 = fechado; mais de 4 até 8 = semiaberto; até 4 (inclusive) = aberto (os dois últimos só se não reincidente).', 'Gravidade abstrata não fundamenta regime: precisa de motivo concreto.'],
       video: 'regimes de cumprimento de pena art 33 súmula 269 718 719 progressão OAB penal' },
 
     { id: 'dosimetria', titulo: 'Dosimetria: o cálculo da pena em três fases', incidencia: 'alta',
       aula: [
         'Critério trifásico (art. 68): 1ª fase, pena-base; 2ª fase, atenuantes e agravantes; 3ª fase, causas de diminuição e de aumento.',
         '1ª fase: o juiz analisa as 8 circunstâncias judiciais do art. 59: culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias, consequências do crime e comportamento da vítima. Inquéritos e ações penais em curso não podem agravar a pena-base (Súmula 444 do STJ).',
-        '2ª fase: agravantes (arts. 61 e 62, como reincidência e motivo fútil) e atenuantes (art. 65, como menoridade relativa e confissão espontânea). Nesta fase a pena não pode ficar abaixo do mínimo nem acima do máximo legal (Súmula 231 do STJ).',
-        'Confissão espontânea: atenua a pena sempre que for utilizada pelo juiz para formar seu convencimento, mesmo que parcial ou qualificada (Súmula 545 do STJ). O STJ admite compensar a confissão com a reincidência.',
+        '2ª fase: agravantes (arts. 61 e 62, como reincidência e motivo fútil) e atenuantes (art. 65, como menoridade relativa e confissão espontânea). Nesta fase a pena não pode ficar abaixo do mínimo (Súmula 231 do STJ) nem acima do máximo legal.',
+        'Confissão espontânea: atenua a pena sempre que for utilizada pelo juiz para formar seu convencimento, mesmo que parcial ou qualificada (Súmula 545 do STJ). O STJ admite compensar integralmente a confissão com a reincidência, específica ou não; se o réu for multirreincidente, a compensação é só proporcional (Tema 585 do STJ).',
         'Reincidência (arts. 63 e 64): novo crime após o trânsito em julgado de condenação anterior. Após 5 anos do cumprimento ou da extinção da pena anterior, não gera mais reincidência (período depurador), mas pode valer como mau antecedente.',
         '3ª fase: causas de aumento e diminuição, em frações (1/3, 2/3, metade). Aqui a pena pode ultrapassar o máximo ou ficar abaixo do mínimo. Qualificadoras não entram nas fases: elas mudam os próprios limites da pena (pena-base já parte do patamar qualificado).',
+        'Pegadinhas da dosimetria: com duas causas de aumento ou duas de diminuição da Parte Especial, o juiz pode aplicar só uma, a que mais aumente ou diminua (art. 68, parágrafo único). No roubo, o aumento da 3ª fase exige fundamentação concreta, e o número de majorantes não basta (Súmula 443 do STJ). Se houver mais de uma qualificadora, uma qualifica e as outras valem como agravante (se previstas) ou circunstância judicial. A reincidência não pode ser usada ao mesmo tempo como agravante e como circunstância judicial (Súmula 241 do STJ).',
         'Pena de multa: dias-multa de 10 a 360, cada um de 1/30 a 5 vezes o salário mínimo (art. 49), considerando principalmente a situação econômica do réu.'
       ],
       cai: ['Súmula 231 do STJ (atenuante não leva abaixo do mínimo)', 'Súmula 444 do STJ', 'Diferença entre qualificadora e causa de aumento'],
@@ -143,10 +146,11 @@
     { id: 'substituicao', titulo: 'Penas alternativas, sursis e livramento condicional', incidencia: 'alta',
       aula: [
         'Substituição por restritivas de direitos (art. 44): pena não superior a 4 anos e crime sem violência ou grave ameaça, ou crime culposo com qualquer pena; réu não reincidente em crime doloso (admite-se reincidente se a medida for socialmente recomendável e não houver reincidência específica); circunstâncias judiciais favoráveis.',
+        'Tráfico de drogas: o STF declarou inconstitucional a proibição de converter a pena em restritiva de direitos prevista na Lei 11.343/06 (HC 97.256), e o Senado suspendeu essa expressão do art. 33, §4º (Resolução 5/2012). Preenchidos os requisitos do art. 44 do CP, a substituição é possível, sobretudo no tráfico privilegiado, em que a redução pode deixar a pena em até 4 anos (a pena mínima do tráfico simples é de 5).',
         'Como substituir (art. 44, §2º): pena de até 1 ano, por multa ou uma restritiva; superior a 1 ano, por uma restritiva e multa ou por duas restritivas.',
         'Restritivas de direitos (art. 43): prestação pecuniária, perda de bens e valores, prestação de serviços à comunidade (só para penas superiores a 6 meses), interdição temporária de direitos e limitação de fim de semana. O descumprimento injustificado converte em privativa de liberdade.',
         'Sursis (art. 77): suspensão da pena de até 2 anos, por período de prova de 2 a 4 anos, para não reincidente em crime doloso, com circunstâncias favoráveis, quando não couber a substituição. Sursis etário ou humanitário: pena de até 4 anos, para maior de 70 anos ou por razões de saúde, com período de prova de 4 a 6 anos.',
-        'Livramento condicional (art. 83): pena igual ou superior a 2 anos; cumprimento de mais de 1/3 (não reincidente em crime doloso e com bons antecedentes), mais da metade (reincidente em crime doloso) ou mais de 2/3 (crimes hediondos e equiparados, se não reincidente específico); bom comportamento, ausência de falta grave nos últimos 12 meses e reparação do dano, salvo impossibilidade.',
+        'Livramento condicional (art. 83): pena igual ou superior a 2 anos; cumprimento de mais de 1/3 (não reincidente em crime doloso e com bons antecedentes), mais da metade (reincidente em crime doloso) ou mais de 2/3 (crimes hediondos, tortura, tráfico de drogas, tráfico de pessoas e terrorismo, se não reincidente específico em crimes dessa natureza; art. 83, V); bom comportamento, ausência de falta grave nos últimos 12 meses e reparação do dano, salvo impossibilidade.',
         'Violência doméstica: é vedada a substituição por restritiva de direitos em crime ou contravenção praticados contra a mulher com violência ou grave ameaça no ambiente doméstico (Súmula 588 do STJ).'
       ],
       cai: ['Requisitos do art. 44', 'Sursis comum x etário', 'Frações do livramento condicional'],
@@ -158,8 +162,9 @@
         'Medida de segurança: aplicada ao inimputável (absolvição imprópria) e, em substituição à pena, ao semi-imputável que precise de tratamento (sistema vicariante: pena ou medida, nunca as duas).',
         'Espécies (art. 96): internação em hospital de custódia e tratamento ambulatorial. Pela lei, crime punido com reclusão leva à internação; com detenção, pode haver tratamento ambulatorial. O STJ admite tratamento ambulatorial mesmo em crime punido com reclusão, conforme a periculosidade.',
         'Prazo: mínimo de 1 a 3 anos, com perícia médica ao fim desse prazo e depois anualmente. O máximo não pode ultrapassar o limite máximo da pena abstratamente cominada ao crime (Súmula 527 do STJ).',
-        'Efeitos genéricos e automáticos da condenação (art. 91): tornar certa a obrigação de indenizar o dano e a perda, em favor da União, dos instrumentos e do produto do crime.',
+        'Efeitos genéricos e automáticos da condenação (art. 91): tornar certa a obrigação de indenizar o dano e a perda, em favor da União (ressalvado o direito do lesado ou do terceiro de boa-fé), dos instrumentos do crime cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito e do produto ou proveito do crime (art. 91, II).',
         'Efeitos específicos, que precisam ser motivados na sentença (art. 92): perda do cargo ou mandato (pena de 1 ano ou mais em crime com abuso de poder ou violação de dever com a Administração; ou superior a 4 anos nos demais casos); incapacidade para o poder familiar, tutela ou curatela em crimes dolosos com reclusão contra filho, tutelado ou curatelado, ou contra o outro titular do poder familiar; e inabilitação para dirigir quando o veículo foi usado como meio para crime doloso.',
+        'Exceção da Lei 14.994/24: no crime praticado contra a mulher por razões da condição do sexo feminino (art. 121-A, §1º), a perda do cargo, função ou mandato e a incapacidade para o poder familiar, tutela ou curatela são automáticas. Além disso, fica vedada a nomeação, designação ou diplomação do condenado em cargo, função pública ou mandato eletivo desde o trânsito em julgado até o efetivo cumprimento da pena (art. 92, §2º).',
         'Reabilitação (art. 93): pode ser requerida 2 anos após a extinção da pena. Assegura o sigilo dos registros da condenação.'
       ],
       cai: ['Súmula 527 do STJ', 'Efeitos automáticos x efeitos que exigem motivação', 'Sistema vicariante'],

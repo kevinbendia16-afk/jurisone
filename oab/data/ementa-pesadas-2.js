@@ -171,7 +171,7 @@ Object.assign(window.EMENTA, {
     { unidade: 'Penas', aulas: [
       ['penas', 'Panorama: espécies de pena e regimes'],
       ['pe-ppl', 'Penas privativas de liberdade: reclusão e detenção'],
-      ['pe-progressao', 'Progressão e regressão de regime (art. 112 da LEP)'],
+      ['pe-progressao', 'Progressão e regressão de regime (arts. 112 e 118 da LEP)'],
       ['pe-remicao', 'Remição, detração e faltas disciplinares'],
       ['dosimetria', 'Dosimetria: o cálculo da pena em três fases'],
       ['pe-art59', 'Circunstâncias judiciais (art. 59)'],
@@ -203,7 +203,7 @@ Object.assign(window.EMENTA, {
       ['pe-homicidio', 'Homicídio: simples, privilegiado e qualificado'],
       ['pe-feminicidio', 'Feminicídio (art. 121-A)'],
       ['pe-homicidio-culposo', 'Homicídio culposo e perdão judicial'],
-      ['pe-vida-outros', 'Induzimento ao suicídio, infanticídio e aborto'],
+      ['pe-vida-outros', 'Induzimento, instigação ou auxílio a suicídio ou a automutilação, infanticídio e aborto'],
       ['pe-lesao', 'Lesão corporal'],
       ['pe-periclitacao', 'Periclitação da vida e da saúde e rixa'],
       ['pe-honra', 'Crimes contra a honra'],
@@ -238,7 +238,7 @@ Object.assign(window.EMENTA, {
       ['pe-lavagem', 'Lavagem de dinheiro (Lei 9.613/98)'],
       ['pe-tributarios', 'Crimes contra a ordem tributária (Lei 8.137/90)'],
       ['pe-ambientais', 'Crimes ambientais (Lei 9.605/98)'],
-      ['pe-eca-idoso', 'Crimes do ECA e do Estatuto do Idoso'],
+      ['pe-eca-idoso', 'Crimes do ECA e do Estatuto da Pessoa Idosa'],
       ['pe-contravencoes', 'Contravenções penais'] ] }
   ],
 
@@ -310,7 +310,7 @@ Object.assign(window.EMENTA, {
       ['pp-teoria-recursos', 'Teoria geral dos recursos e efeitos'],
       ['pp-apelacao', 'Apelação'],
       ['pp-rese', 'Recurso em sentido estrito'],
-      ['pp-embargos', 'Embargos de declaração e embargos infringentes'],
+      ['pp-embargos', 'Embargos de declaração e embargos infringentes e de nulidade'],
       ['pp-recursos-superiores', 'Recurso especial, extraordinário e ordinário constitucional'],
       ['hcrevisao', 'Habeas corpus, revisão criminal e execução penal'],
       ['pp-hc', 'Habeas corpus em detalhe'],
