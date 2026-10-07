@@ -108,29 +108,37 @@ window.MATERIAS = [
         'Após o Estatuto da Pessoa com Deficiência (Lei 13.146/15), são ABSOLUTAMENTE incapazes apenas os menores de 16 anos (art. 3º).',
         'RELATIVAMENTE incapazes (art. 4º): maiores de 16 e menores de 18; ébrios habituais e viciados em tóxico; quem, por causa transitória ou permanente, não puder exprimir sua vontade; e os pródigos.',
         'A deficiência, por si só, NÃO afeta a plena capacidade civil. A pessoa com deficiência pode adotar a tomada de decisão apoiada.',
-        'Emancipação (art. 5º, parágrafo único): voluntária (pais, por instrumento público, a partir de 16 anos, sem homologação judicial), judicial (tutor, ouvido o tutor), ou legal (casamento, emprego público efetivo, colação de grau, estabelecimento com economia própria).'
+        'Curatela da pessoa com deficiência: é medida extraordinária, proporcional e pelo menor tempo possível, e afeta apenas atos de natureza patrimonial e negocial. Não alcança o direito ao próprio corpo, à sexualidade, ao matrimônio, à privacidade, à educação, à saúde, ao trabalho e ao voto (arts. 84 e 85 da Lei 13.146/15). A deficiência também não impede casar, constituir união estável nem adotar (art. 6º). Tomada de decisão apoiada (art. 1.783-A do CC): o pedido é feito pela própria pessoa, que escolhe pelo menos 2 apoiadores de sua confiança.',
+        'Emancipação (art. 5º, parágrafo único): voluntária (concedida pelos pais, ou por um deles na falta do outro, por instrumento público, ao menor com 16 anos completos, sem homologação judicial), judicial (por sentença do juiz, ouvido o tutor, quando o menor com 16 anos completos estiver sob tutela) ou legal (casamento; exercício de emprego público efetivo; colação de grau em curso de ensino superior; estabelecimento civil ou comercial ou relação de emprego que dê ao menor com 16 anos completos economia própria).'
       ],
-      cai: ['Quem é absolutamente incapaz hoje', 'Formas de emancipação'],
-      macetes: ['Absolutamente incapaz hoje = só o menor de 16. Ponto.', 'Emancipação voluntária: cartório, sem juiz.'],
+      cai: ['Quem é absolutamente incapaz hoje', 'Formas de emancipação',
+        'Curatela só para atos patrimoniais e negociais x tomada de decisão apoiada'],
+      macetes: ['Absolutamente incapaz hoje = só o menor de 16. Ponto.', 'Emancipação voluntária: cartório, sem juiz.',
+        'Emancipação voluntária não livra os pais: para o STJ, eles continuam respondendo pelos danos causados pelo filho emancipado. A emancipação legal (ex.: casamento) afasta essa responsabilidade.'],
       video: 'capacidade civil absolutamente incapaz estatuto pessoa com deficiência OAB' },
     { id: 'prescricao', titulo: 'Prescrição e decadência', incidencia: 'alta',
       aula: [
         'PRESCRIÇÃO extingue a PRETENSÃO (direito de exigir); DECADÊNCIA extingue o próprio DIREITO potestativo.',
-        'Prazo geral de prescrição: 10 anos (art. 205). Principais prazos especiais (art. 206): reparação civil – 3 anos; cobrança de dívidas líquidas em instrumento público ou particular – 5 anos; aluguéis – 3 anos; enriquecimento sem causa – 3 anos.',
-        'Não corre prescrição entre cônjuges na constância da sociedade conjugal, entre ascendentes e descendentes durante o poder familiar, e contra os absolutamente incapazes (art. 197 e 198).',
-        'A interrupção da prescrição só pode ocorrer UMA vez (art. 202). O juiz pode reconhecer a prescrição de ofício.'
+        'Decadência: a LEGAL deve ser reconhecida de ofício pelo juiz, e a renúncia a ela é nula (arts. 209 e 210). A CONVENCIONAL não pode ser suprida de ofício, mas quem dela se beneficia pode alegá-la em qualquer grau de jurisdição (art. 211). Em regra, os prazos decadenciais não se impedem, suspendem nem interrompem (art. 207), salvo contra os absolutamente incapazes (art. 208 c/c art. 198, I).',
+        'Prazo geral de prescrição: 10 anos (art. 205). Principais prazos especiais (art. 206): reparação civil – 3 anos; cobrança de dívidas líquidas em instrumento público ou particular – 5 anos; aluguéis – 3 anos; enriquecimento sem causa – 3 anos; prestações alimentares – 2 anos. Atenção: os 3 anos da reparação civil valem para a responsabilidade EXTRACONTRATUAL; no inadimplemento contratual, o STJ aplica o prazo geral de 10 anos (EREsp 1.281.594, Corte Especial).',
+        'Não corre prescrição entre cônjuges na constância da sociedade conjugal, entre ascendentes e descendentes durante o poder familiar, e contra os absolutamente incapazes (arts. 197 e 198). Também não corre entre tutelados ou curatelados e seus tutores ou curadores, durante a tutela ou a curatela (art. 197, III).',
+        'A interrupção da prescrição só pode ocorrer UMA vez (art. 202). O juiz pode reconhecer a prescrição de ofício (art. 487, II, do CPC), mas antes deve ouvir as partes, salvo na improcedência liminar (art. 487, parágrafo único). A renúncia à prescrição só vale depois de consumada (art. 191), e os prazos prescricionais não podem ser alterados por acordo das partes (art. 192).'
       ],
-      cai: ['Prazo de 3 anos da reparação civil', 'Causas impeditivas/suspensivas', 'Interrupção uma única vez'],
-      macetes: ['Prescrição → pretensão (P com P). Decadência → direito.', 'Reparação civil = 3 anos. Regra geral = 10 anos.'],
+      cai: ['Prazo de 3 anos da reparação civil', 'Causas impeditivas/suspensivas', 'Interrupção uma única vez',
+        'Decadência legal (de ofício) x convencional (só se alegada)'],
+      macetes: ['Prescrição → pretensão (P com P). Decadência → direito.', 'Reparação civil extracontratual = 3 anos; inadimplemento contratual = 10 anos (STJ). Regra geral = 10 anos.'],
       video: 'prescrição e decadência código civil OAB prazos art 205 206' },
     { id: 'sucessoes', titulo: 'Sucessões', incidencia: 'alta',
       aula: [
         'Ordem de vocação hereditária (art. 1.829): 1º descendentes, em concorrência com o cônjuge (dependendo do regime); 2º ascendentes, em concorrência com o cônjuge; 3º cônjuge sobrevivente; 4º colaterais até o 4º grau.',
         'O cônjuge NÃO concorre com descendentes se casado na comunhão universal, na separação obrigatória ou na comunhão parcial sem bens particulares do falecido.',
-        'O STF (RE 878.694) equiparou o companheiro ao cônjuge para fins sucessórios, declarando inconstitucional o art. 1.790.',
-        'Herdeiros necessários: descendentes, ascendentes e cônjuge. Eles têm direito à legítima (metade da herança). O testador só pode dispor livremente da outra metade.'
+        'Na comunhão parcial, o cônjuge concorre com os descendentes apenas sobre os bens PARTICULARES do falecido (STJ, REsp 1.368.123). Na separação CONVENCIONAL, concorre (STJ, REsp 1.382.170). Quota com descendentes: igual à dos que herdam por cabeça, garantido no mínimo 1/4 se o cônjuge for ascendente dos herdeiros com quem concorrer (art. 1.832). Com ascendentes, concorre em qualquer regime: 1/3 se concorrer com pai e mãe; 1/2 se com um só deles ou com avós (art. 1.837).',
+        'O STF (RE 878.694, Tema 809) equiparou o companheiro ao cônjuge para fins sucessórios, declarando inconstitucional o art. 1.790.',
+        'Herdeiros necessários: descendentes, ascendentes e cônjuge. Eles têm direito à legítima (metade da herança). O testador só pode dispor livremente da outra metade.',
+        'Direito real de habitação (art. 1.831): qualquer que seja o regime de bens, o cônjuge sobrevivente (e também o companheiro) pode continuar morando no imóvel destinado à residência da família, desde que seja o único dessa natureza a inventariar, sem prejuízo de sua participação na herança. O cônjuge só herda se, na data da morte, não estava separado judicialmente nem separado de fato havia mais de 2 anos, salvo prova, neste caso, de que a convivência se tornara impossível sem culpa do sobrevivente (art. 1.830).'
       ],
-      cai: ['Concorrência do cônjuge com descendentes conforme o regime', 'Equiparação do companheiro', 'Legítima de 50%'],
+      cai: ['Concorrência do cônjuge com descendentes conforme o regime', 'Equiparação do companheiro', 'Legítima de 50%',
+        'Direito real de habitação do cônjuge ou companheiro'],
       macetes: ['Ordem: "DACC" – Descendentes, Ascendentes, Cônjuge, Colaterais.', 'Comunhão universal: o cônjuge já é meeiro, então não é herdeiro em concorrência com descendentes.'],
       video: 'direito das sucessões ordem de vocação hereditária concorrência cônjuge OAB' }
   ]
@@ -141,32 +149,39 @@ window.MATERIAS = [
   topicos: [
     { id: 'prazos', titulo: 'Prazos processuais', incidencia: 'alta',
       aula: [
-        'Os prazos processuais em dias são contados apenas em DIAS ÚTEIS (art. 219). Exclui-se o dia do começo e inclui-se o do vencimento.',
+        'Os prazos processuais em dias são contados apenas em DIAS ÚTEIS (art. 219). Exclui-se o dia do começo e inclui-se o do vencimento (art. 224). A contagem em dias úteis vale só para prazos processuais (art. 219, parágrafo único).',
         'Prazo geral para recursos: 15 dias úteis (art. 1.003, §5º), exceto embargos de declaração, que têm 5 dias.',
         'Fazenda Pública, Ministério Público e Defensoria Pública têm prazo em DOBRO para todas as manifestações (arts. 180, 183 e 186). Litisconsortes com advogados diferentes, de escritórios distintos, em autos FÍSICOS, também têm prazo em dobro (art. 229).',
-        'Contestação: 15 dias, contados da audiência de conciliação/mediação (ou do último ato previsto no art. 335).'
+        'Suspensão de fim de ano: o curso dos prazos fica suspenso de 20 de dezembro a 20 de janeiro, inclusive, e nesse período não há audiências nem sessões de julgamento (art. 220). O ato praticado antes do início do prazo é tempestivo (art. 218, §4º). O dobro de Fazenda, MP e Defensoria não se aplica quando a lei fixar prazo próprio para o ente (arts. 180, §2º, 183, §2º, e 186, §4º). O dobro dos litisconsortes cessa se, havendo só 2 réus, apenas um apresentar defesa (art. 229, §1º).',
+        'Contestação: 15 dias, contados: da audiência de conciliação ou mediação (ou da última sessão) em que não houver acordo; do protocolo do pedido de cancelamento da audiência pelo réu, quando ambas as partes manifestarem desinteresse; ou, nos demais casos, do termo previsto no art. 231 (art. 335).'
       ],
-      cai: ['Dias úteis', 'Embargos de declaração em 5 dias', 'Prazo em dobro e exceção para autos eletrônicos'],
-      macetes: ['CPC: tudo é 15, menos embargos de declaração (5).', 'Autos eletrônicos = sem prazo em dobro para litisconsortes.'],
+      cai: ['Dias úteis', 'Embargos de declaração em 5 dias', 'Prazo em dobro e exceção para autos eletrônicos',
+        'Suspensão dos prazos de 20/12 a 20/01 (art. 220)'],
+      macetes: ['Recursos no CPC: todos em 15 dias úteis, menos embargos de declaração (5). Sem prazo na lei nem fixado pelo juiz: 5 dias (art. 218, §3º).', 'Autos eletrônicos = sem prazo em dobro para litisconsortes.'],
       video: 'prazos processuais CPC dias úteis prazo em dobro OAB' },
     { id: 'recursos', titulo: 'Recursos', incidencia: 'alta',
       aula: [
         'Apelação: contra sentença. Em regra, tem efeito suspensivo (art. 1.012).',
-        'Agravo de instrumento: contra decisões interlocutórias previstas no rol do art. 1.015 (ex.: tutelas provisórias, mérito do processo, rejeição da alegação de convenção de arbitragem, exclusão de litisconsorte, gratuidade de justiça). O STJ entende que o rol é de TAXATIVIDADE MITIGADA: cabe quando houver urgência decorrente da inutilidade do julgamento na apelação.',
+        'Sem efeito suspensivo (art. 1.012, §1º), a sentença produz efeitos logo quando: homologa divisão ou demarcação de terras; condena a pagar alimentos; extingue sem resolução do mérito ou julga improcedentes os embargos do executado; julga procedente o pedido de instituição de arbitragem; confirma, concede ou revoga tutela provisória; ou decreta a interdição. O juízo de admissibilidade da apelação é feito só pelo tribunal (art. 1.010, §3º).',
+        'Agravo de instrumento: contra decisões interlocutórias previstas no rol do art. 1.015 (ex.: tutelas provisórias, mérito do processo, rejeição da alegação de convenção de arbitragem, exclusão de litisconsorte, rejeição do pedido de gratuidade ou acolhimento do pedido de sua revogação). Também cabe agravo contra QUALQUER interlocutória proferida na liquidação, no cumprimento de sentença, na execução e no inventário (art. 1.015, parágrafo único). O STJ entende que o rol é de TAXATIVIDADE MITIGADA: cabe quando houver urgência decorrente da inutilidade do julgamento na apelação.',
         'Interlocutórias que não admitem agravo não precluem: devem ser impugnadas em preliminar de apelação ou nas contrarrazões (art. 1.009, §1º).',
-        'Embargos de declaração: obscuridade, contradição, omissão ou erro material. Interrompem o prazo para outros recursos.'
+        'Embargos de declaração: obscuridade, contradição, omissão ou erro material. Interrompem o prazo para outros recursos.',
+        'Preparo (art. 1.007): deve ser comprovado no ato de interposição. Se insuficiente, o recorrente é intimado para complementar em 5 dias (§2º). Se não comprovado, é intimado para recolher em DOBRO, sob pena de deserção (§4º). Embargos de declaração não têm preparo (art. 1.023).'
       ],
-      cai: ['Cabimento do agravo de instrumento', 'Taxatividade mitigada (Tema 988 STJ)', 'Efeitos da apelação'],
+      cai: ['Cabimento do agravo de instrumento', 'Taxatividade mitigada (Tema 988 STJ)', 'Efeitos da apelação',
+        'Agravo contra qualquer interlocutória na liquidação, no cumprimento, na execução e no inventário'],
       macetes: ['Sentença → apelação. Interlocutória do rol → agravo. Fora do rol → preliminar de apelação.', 'Embargos de declaração INTERROMPEM (o prazo recomeça do zero).'],
       video: 'recursos CPC agravo de instrumento rol art 1015 taxatividade mitigada apelação OAB' },
     { id: 'tutelas', titulo: 'Tutelas provisórias', incidencia: 'media',
       aula: [
         'A tutela provisória pode ser de URGÊNCIA (cautelar ou antecipada) ou de EVIDÊNCIA (art. 294).',
         'Urgência exige probabilidade do direito e perigo de dano ou risco ao resultado útil do processo (art. 300).',
-        'Evidência dispensa o perigo de dano (art. 311): abuso do direito de defesa, tese firmada em casos repetitivos ou súmula vinculante com prova documental, pedido reipersecutório com contrato de depósito, e petição inicial com prova documental suficiente a que o réu não oponha dúvida razoável.',
-        'Tutela antecipada antecedente pode se ESTABILIZAR se o réu não interpuser recurso (art. 304). Ação para rever a decisão estabilizada: 2 anos.'
+        'Na urgência, o juiz pode exigir caução (art. 300, §1º) e conceder a medida liminarmente ou após justificação prévia (§2º). A ANTECIPADA não é concedida se houver perigo de irreversibilidade dos efeitos (§3º). Nas antecedentes: concedida a tutela antecipada, o autor adita a inicial em 15 dias ou em prazo maior fixado pelo juiz (art. 303, §1º, I); efetivada a cautelar, o pedido principal deve ser formulado em 30 dias, nos mesmos autos (art. 308).',
+        'Evidência dispensa o perigo de dano (art. 311): (I) abuso do direito de defesa ou manifesto propósito protelatório; (II) fatos comprovados só por documentos e tese firmada em casos repetitivos ou em súmula vinculante; (III) pedido reipersecutório fundado em prova documental do contrato de depósito; (IV) petição inicial com prova documental suficiente a que o réu não oponha prova capaz de gerar dúvida razoável. Só II e III admitem liminar, sem ouvir o réu (art. 311, parágrafo único).',
+        'Tutela antecipada antecedente pode se ESTABILIZAR se o réu não interpuser recurso (art. 304). A estabilização NÃO faz coisa julgada: qualquer das partes pode propor ação para rever, reformar ou invalidar a decisão em 2 anos, contados da ciência da decisão que extinguiu o processo (art. 304, §§ 2º, 5º e 6º).'
       ],
-      cai: ['Requisitos de urgência x evidência', 'Estabilização da tutela antecipada'],
+      cai: ['Requisitos de urgência x evidência', 'Estabilização da tutela antecipada',
+        'Liminar na evidência só nos incisos II e III do art. 311'],
       macetes: ['Evidência = "o direito é tão óbvio que não precisa de pressa".', 'Estabilização: réu não recorreu → decisão fica valendo; 2 anos para rever.'],
       video: 'tutela provisória de urgência e evidência estabilização CPC OAB' }
   ]
@@ -179,11 +194,13 @@ window.MATERIAS = [
       aula: [
         'Tempo do crime (art. 4º): considera-se praticado o crime no momento da AÇÃO ou OMISSÃO, ainda que outro seja o momento do resultado (teoria da atividade).',
         'Lugar do crime (art. 6º): onde ocorreu a ação/omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado (teoria da ubiquidade).',
-        'A lei penal mais benéfica retroage, inclusive após o trânsito em julgado (art. 2º). A lei mais grave não retroage.',
-        'Nos crimes permanentes e continuados, aplica-se a lei mais grave se sua vigência for anterior à cessação da permanência ou da continuidade (Súmula 711 STF).'
+        'A lei penal mais benéfica retroage, inclusive após o trânsito em julgado (art. 2º, parágrafo único, do CP; art. 5º, XL, da CF); depois do trânsito, quem a aplica é o juízo da execução (Súmula 611 do STF). A lei mais grave não retroage. Na abolitio criminis (art. 2º, caput), cessam a execução e os efeitos PENAIS da sentença, mas os efeitos civis permanecem.',
+        'Nos crimes permanentes e continuados, aplica-se a lei mais grave se sua vigência for anterior à cessação da permanência ou da continuidade (Súmula 711 STF).',
+        'Leis excepcionais e temporárias são ultra-ativas: aplicam-se aos fatos praticados durante sua vigência, mesmo depois de encerrado o período (art. 3º). É vedada a combinação de leis (lex tertia): aplica-se, por inteiro, a lei que for mais favorável ao réu (Súmula 501 do STJ, sobre a Lei de Drogas).'
       ],
       cai: ['LUTA (Lugar–Ubiquidade, Tempo–Atividade)', 'Retroatividade da lei benéfica', 'Súmula 711 do STF'],
-      macetes: ['L-U-T-A: Lugar = Ubiquidade; Tempo = Atividade.'],
+      macetes: ['L-U-T-A: Lugar = Ubiquidade; Tempo = Atividade.',
+        'Não confunda: a ubiquidade do art. 6º do CP define se a lei brasileira se aplica a crimes à distância; a competência territorial no CPP segue, em regra, o lugar da consumação (art. 70 do CPP).'],
       video: 'tempo e lugar do crime teoria da atividade ubiquidade LUTA OAB direito penal' },
     { id: 'excludentes', titulo: 'Excludentes e tentativa', incidencia: 'alta',
       aula: [

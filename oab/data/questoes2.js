@@ -12,7 +12,7 @@ window.QUESTOES.push(
 { id: 'et7', materia: 'etica', topico: 'inscricao',
   enunciado: 'Um professor de Direito Penal de universidade pública federal, aprovado na OAB, deseja advogar. Segundo o Estatuto:',
   alt: [
-    ['é incompatível, por ser servidor público federal.', false, 'Errada. O art. 30, parágrafo único, exclui expressamente os docentes de cursos jurídicos do impedimento.'],
+    ['é incompatível, por ser servidor público federal.', false, 'Errada. A docência em universidade pública não está entre as incompatibilidades do art. 28; geraria, no máximo, impedimento contra a Fazenda que o remunera (art. 30, I), do qual os docentes de cursos jurídicos são expressamente excluídos (art. 30, parágrafo único).'],
     ['é impedido de advogar contra a União.', false, 'Errada. A regra geral do impedimento (art. 30, I) não se aplica aos docentes de cursos jurídicos.'],
     ['pode advogar livremente, pois os docentes de cursos jurídicos não se incluem no impedimento.', true, 'Correta. Art. 30, parágrafo único, do Estatuto.'],
     ['só pode advogar em causa própria.', false, 'Errada. Não há essa limitação para docentes.']
@@ -37,12 +37,12 @@ window.QUESTOES.push(
   enunciado: 'Não havendo contrato escrito, os honorários do advogado serão:',
   alt: [
     ['indevidos, pois só o contrato escrito gera obrigação.', false, 'Errada. O serviço prestado gera direito a honorários, mesmo sem contrato.'],
-    ['fixados por arbitramento judicial, em remuneração compatível com o trabalho e o valor econômico da questão, não podendo ser inferiores aos da tabela da Seccional.', true, 'Correta. Art. 22, §2º, do Estatuto.'],
+    ['fixados por arbitramento judicial, em remuneração compatível com o trabalho e o valor econômico da questão, observados obrigatoriamente os parâmetros do art. 85 do CPC.', true, 'Correta. Art. 22, §2º, do Estatuto, com a redação da Lei 14.365/2022: o arbitramento judicial observa obrigatoriamente os §§ 2º a 6º-A e 8º a 10 do art. 85 do CPC (a antiga menção ao piso da tabela da Seccional saiu do dispositivo).'],
     ['fixados unilateralmente pelo advogado.', false, 'Errada. Na falta de acordo, cabe arbitramento judicial.'],
     ['sempre de 20% sobre o valor da causa.', false, 'Errada. Não há percentual fixo legal para o arbitramento.']
   ] },
 { id: 'et11', materia: 'etica', topico: 'disciplina',
-  enunciado: 'Um advogado reteve indevidamente valores recebidos em nome do cliente. A sanção prevista e sua duração são:',
+  enunciado: 'O advogado Caio levantou alvará judicial de R$ 50 mil em favor de sua cliente e, cobrado por ela, recusou-se injustificadamente a prestar contas e a repassar a quantia. Instaurado processo disciplinar, a sanção cabível e sua duração são:',
   alt: [
     ['censura.', false, 'Errada. A retenção de valores do cliente é punida com suspensão (art. 37, I, c/c art. 34, XXI).'],
     ['suspensão, que perdura até que satisfaça integralmente a dívida, inclusive com correção monetária.', true, 'Correta. Art. 37, §2º, do Estatuto.'],
@@ -69,7 +69,7 @@ window.QUESTOES.push(
   enunciado: 'A advogada Bia quer anunciar em seu perfil profissional no Instagram os valores de suas consultas, com "promoção de lançamento". Segundo o Provimento 205/2021:',
   alt: [
     ['é permitido, desde que o perfil seja profissional.', false, 'Errada. A divulgação de valores e promoções caracteriza mercantilização.'],
-    ['é vedado, pois a publicidade não pode divulgar valores de honorários nem conter promoções, o que caracteriza captação e mercantilização.', true, 'Correta. Provimento 205/2021 e art. 40 do Código de Ética.'],
+    ['é vedado, pois a publicidade não pode divulgar valores de honorários nem conter promoções, o que caracteriza captação e mercantilização.', true, 'Correta. Provimento 205/2021 e art. 39 do Código de Ética (publicidade meramente informativa, sem captação de clientela nem mercantilização).'],
     ['é permitido apenas em anúncios patrocinados.', false, 'Errada. O impulsionamento é permitido só para conteúdo informativo, nunca para preços.'],
     ['depende de autorização prévia da Seccional.', false, 'Errada. Não existe autorização prévia; a conduta é vedada.']
   ] },
@@ -87,7 +87,7 @@ window.QUESTOES.push(
     ['comunicar-se com seus clientes presos, pessoal e reservadamente, mesmo sem procuração.', false, 'Errada como resposta: é direito expresso (art. 7º, III).'],
     ['examinar autos de flagrante e de inquérito em qualquer instituição, mesmo sem procuração, salvo os sigilosos.', false, 'Errada como resposta: é direito (art. 7º, XIV). Nos sigilosos, precisa de procuração.'],
     ['ter a presença de representante da OAB quando preso em flagrante por motivo ligado ao exercício da advocacia.', false, 'Errada como resposta: é direito (art. 7º, IV).'],
-    ['ser preso preventivamente apenas em quartel militar, mesmo após o trânsito em julgado da condenação.', true, 'Correta (é a exceção). O direito à sala de Estado-Maior vale ANTES do trânsito em julgado (art. 7º, V).']
+    ['não ser recolhido preso, mesmo após o trânsito em julgado da condenação, senão em sala de Estado-Maior.', true, 'Correta (é a exceção). O direito à sala de Estado-Maior (ou, na falta dela, à prisão domiciliar) vale só ANTES do trânsito em julgado (art. 7º, V); depois dele, a pena é cumprida no sistema comum.']
   ] },
 { id: 'et17', materia: 'etica', topico: 'prerrogativas',
   enunciado: 'O estagiário de advocacia regularmente inscrito pode:',
@@ -95,12 +95,12 @@ window.QUESTOES.push(
     ['praticar todos os atos privativos de advogado sozinho.', false, 'Errada. O estagiário atua em conjunto com o advogado e sob sua responsabilidade.'],
     ['praticar isoladamente atos como retirar e devolver autos em cartório e obter certidões, e os demais atos em conjunto com advogado.', true, 'Correta. Art. 3º, §2º, do Estatuto e art. 29 do Regulamento Geral.'],
     ['assinar sozinho petições iniciais.', false, 'Errada. Depende da assinatura conjunta do advogado.'],
-    ['manter a inscrição de estagiário por tempo indeterminado.', false, 'Errada. A inscrição de estagiário tem prazo (2 anos, prorrogável por mais 1).']
+    ['manter a inscrição de estagiário por tempo indeterminado.', false, 'Errada. O estágio dura 2 anos (art. 9º, §1º, do Estatuto) e a identidade de estagiário tem validade máxima de 3 anos, sem prorrogação (art. 35, parágrafo único, do Regulamento Geral).']
   ] },
 { id: 'et18', materia: 'etica', topico: 'prerrogativas',
   enunciado: 'Sobre a sociedade de advogados, é correto afirmar:',
   alt: [
-    ['pode registrar-se na Junta Comercial.', false, 'Errada. O registro é feito no Conselho Seccional da OAB, sendo vedado o registro em Junta Comercial (art. 15 e 16).'],
+    ['pode registrar-se na Junta Comercial.', false, 'Errada. O registro é feito no Conselho Seccional da OAB, sendo vedado o registro em Junta Comercial (arts. 15, §1º, e 16, §3º).'],
     ['pode ter sócio não inscrito como advogado.', false, 'Errada. É vedado (art. 16).'],
     ['o advogado não pode integrar mais de uma sociedade de advogados com sede ou filial na mesma área territorial do Conselho Seccional.', true, 'Correta. Art. 15, §4º, do Estatuto.'],
     ['os advogados de uma mesma sociedade podem representar clientes com interesses opostos.', false, 'Errada. É vedado (art. 15, §6º).']
@@ -199,7 +199,7 @@ window.QUESTOES.push(
   enunciado: 'Pedro, com 16 anos, foi emancipado pelos pais por instrumento público. Essa emancipação:',
   alt: [
     ['depende de homologação judicial.', false, 'Errada. A emancipação voluntária dispensa homologação (art. 5º, parágrafo único, I).'],
-    ['é válida, independentemente de homologação judicial.', true, 'Correta. Art. 5º, parágrafo único, I, do CC.'],
+    ['é válida, independentemente de homologação judicial.', true, 'Correta. Art. 5º, parágrafo único, I, do CC: basta instrumento público, sem homologação judicial; a emancipação deve ser registrada no Registro Civil (art. 9º, II, do CC) e só produz efeitos após o registro (art. 91, parágrafo único, da Lei 6.015/73).'],
     ['é nula, pois só é possível aos 17 anos.', false, 'Errada. A idade mínima é 16 anos.'],
     ['exime os pais de qualquer responsabilidade civil pelos atos do filho.', false, 'Errada. O STJ entende que a emancipação voluntária não afasta a responsabilidade dos pais.']
   ] },
