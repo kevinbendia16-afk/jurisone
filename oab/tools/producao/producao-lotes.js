@@ -13,6 +13,7 @@ PRECISÃO JURÍDICA (o mais importante — um gabarito errado prejudica o aluno)
 - Use a legislação, as súmulas e a jurisprudência vigentes em outubro de 2026. Pelo edital do 48º Exame, só é cobrada a legislação em vigor até 21/09/2026 (data de publicação do edital). Cite artigo, súmula ou tema nas explicações.
 - Atenção às reformas que a FGV cobra: Lei 14.365/22 (alterou o Estatuto da Advocacia), Provimento 205/21 (publicidade), Lei 13.964/19 (Pacote Anticrime; inclusive as decisões do STF nas ADIs 6298/6299/6300/6305 sobre juiz das garantias e arquivamento do inquérito), Lei 13.467/17 (Reforma Trabalhista) e ADI 5766, EC 103/19, Lei 14.133/21, Lei 14.230/21 (e o Tema 1199 do STF), Lei 14.195/21, Lei 14.112/20, Lei 13.146/15.
 - Reforma Tributária (EC 132/23, LC 214/25): só faça questão sobre ela se a resposta for certa e não depender de regra de transição; prefira os temas clássicos do CTN e da CF que continuam válidos.
+- Ética, pontos que já derrubaram redatores: o STF declarou inconstitucionais os §§3º e 4º do art. 28 do Estatuto, incluídos pela Lei 14.365/22 (ADI 7227, 2023): policial e militar da ativa continuam totalmente incompatíveis, nem em causa própria. Tema 732 do STF: é inconstitucional suspender advogado por anuidade em atraso. Art. 20 do Estatuto (Lei 14.365/22): jornada do advogado empregado de até 8h diárias e 40h semanais. A ressalva "salvo motivo plenamente justificável" no aviltamento de honorários é do CED de 1995, não do CED de 2015 (art. 48, §6º).
 - Nunca trate projeto de lei como lei (ex.: a reforma do Código Civil, PL 4/2025, NÃO está em vigor).
 - Se você não tiver certeza absoluta de um ponto (número de artigo, prazo, quórum, entendimento atual), NÃO faça a questão sobre ele.`
 const REGRAS_FORMATO = `
@@ -78,10 +79,23 @@ const RELATORIO = {
 }
 
 const ESTILO = `
-ESTILO DAS AULAS (pedido do dono do app: "tudo destrinchado, explicado de um jeito que não se esquece, bem explicado em poucas palavras"):
-- É uma aula de curso completo sobre UM tópico específico da grade: cubra o tópico por inteiro (conceito, requisitos, regras, prazos, exceções, súmulas e entendimentos atuais, pegadinhas da FGV), sem enrolação.
-- 8 a 12 parágrafos curtos, cada um com uma ideia clara e começando com um título curto seguido de dois-pontos ('Conceito: ...', 'Requisitos (art. X): ...', 'Exceção: ...', 'Exemplo: ...', 'Como a FGV cobra: ...'). Use exemplos concretos com personagens quando ajudarem a fixar.
-- 'cai': 3 a 5 itens dizendo exatamente como a FGV cobra o tema. 'macetes': 3 a 5 mnemônicos ou atalhos de memória úteis de verdade.
+ESTILO DAS AULAS (pedido do dono do app: "bem detalhado, mas bem explicado; nada complicado; de um jeito que a pessoa entenda bem fácil"):
+- Público: quem estuda para a OAB e pode nunca ter visto o tema. Explique como um bom professor explicaria a um amigo: DETALHADO no conteúdo, SIMPLES na forma.
+- DETALHE: cubra o tópico inteiro (conceito, requisitos, regras, prazos, exceções, súmulas e entendimentos atuais, pegadinhas da FGV). Nada que cai na prova pode ficar de fora.
+- SIMPLICIDADE:
+  - Frases curtas (de preferência até 25 palavras), uma ideia por frase, voz ativa. Nada de juridiquês: troque "estado gravídico" por "gravidez", "ínsito" por "próprio", e assim por diante. Latim só com tradução.
+  - Todo termo técnico é explicado com palavras simples na primeira vez que aparece (ex.: "lactante, ou seja, a advogada que está amamentando").
+  - Primeiro a regra em palavras simples; o fundamento (artigo, súmula, tema) vem no fim, entre parênteses.
+  - Use exemplos concretos do dia a dia, com personagens, e comparações que ajudem a guardar.
+- ESTRUTURA: 10 a 14 parágrafos curtos, cada um começando com um título curto seguido de dois-pontos, nesta linha:
+  'Em uma frase: ...' (a ideia central em linguagem do dia a dia);
+  'Conceito: ...' ou 'Para que serve: ...';
+  um parágrafo para cada regra, requisito, prazo ou exceção (um assunto por parágrafo);
+  'Exemplo: ...' (pelo menos um, com personagem);
+  'Cuidado (pegadinha): ...';
+  'Como a FGV cobra: ...';
+  'Resumo para revisar: ...' (3 a 5 pontos separados por ponto e vírgula).
+- 'cai': 3 a 5 itens dizendo exatamente como a FGV cobra o tema. 'macetes': 3 a 5 macetes ou atalhos de memória úteis de verdade.
 - A unidade já tem uma aula-panorama: não repita o panorama; aprofunde o tópico desta aula.`
 
 // args: { lotes: [ {materia, nome, prefixo, lote, unidade, aulas: [[id, titulo], ...], base}, ... ] }
@@ -122,9 +136,10 @@ function revisar(L, red, t = 1) {
   return agent(`Você é professor de cursinho para a OAB, especialista em ${L.nome}, e revisor de provas da FGV. Revise com rigor máximo o lote ${L.lote} (unidade "${L.unidade}") ANTES de ele chegar aos alunos. Hoje é outubro de 2026. Parta do princípio de que há erros.
 Arquivos: ${arqA} (aulas) e ${arqQ} (questões). Resumo do redator: ${JSON.stringify(red || {})}
 
-1. AULAS: cada afirmação está correta e atualizada (lei, número do artigo, prazo, quórum, súmula, tema)? Falta algum ponto importante do tópico que a FGV cobra? Está claro, didático e "explicado em poucas palavras"? Corrija, complete e melhore diretamente no arquivo.
+1. AULAS: cada afirmação está correta e atualizada (lei, número do artigo, prazo, quórum, súmula, tema)? Falta algum ponto importante do tópico que a FGV cobra? Está detalhado E fácil de entender (frases curtas, termos técnicos explicados na primeira vez, exemplos do dia a dia, estrutura do ESTILO abaixo)? Corrija, complete e simplifique diretamente no arquivo, sem perder nenhum conteúdo que cai na prova.
 2. QUESTÕES: resolva cada uma às cegas (sem olhar o booleano nem as explicações) e só depois compare. Se o gabarito estiver errado, se duas alternativas forem defensáveis, se houver pista involuntária (a correta sempre a mais longa) ou explicação errada, reescreva — ou apague se não houver conserto seguro e escreva outra no lugar (mesmo tópico, próximo ID livre do prefixo '${L.prefixo}').
 3. Cada aula precisa terminar com pelo menos 2 questões.
+${ESTILO}
 ${REGRAS_JURIDICAS}
 ${REGRAS_FORMATO}
 
