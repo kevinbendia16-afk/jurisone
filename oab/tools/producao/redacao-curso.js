@@ -49,31 +49,27 @@ FORMATO DAS AULAS NOVAS (padrão de ${BASE}/data/materias2.js):
   ]);
 })();`
 const ESTILO = `
-ESTILO DAS AULAS (pedido do dono do app: "bem detalhado, mas bem explicado; nada complicado; de um jeito que a pessoa entenda bem fácil"):
-- Público: quem estuda para a OAB e pode nunca ter visto o tema. Explique como um bom professor explicaria a um amigo: DETALHADO no conteúdo, SIMPLES na forma.
-- DETALHE: cubra o tópico inteiro (conceito, requisitos, regras, prazos, exceções, súmulas e entendimentos atuais, pegadinhas da FGV). Nada que cai na prova pode ficar de fora.
-- SIMPLICIDADE:
-  - Frases curtas (de preferência até 25 palavras), uma ideia por frase, voz ativa. Nada de juridiquês: troque "estado gravídico" por "gravidez", "ínsito" por "próprio", e assim por diante. Latim só com tradução.
-  - Todo termo técnico é explicado com palavras simples na primeira vez que aparece (ex.: "lactante, ou seja, a advogada que está amamentando").
-  - Primeiro a regra em palavras simples; o fundamento (artigo, súmula, tema) vem no fim, entre parênteses.
-  - Use exemplos concretos do dia a dia, com personagens, e comparações que ajudem a guardar.
-- ESTRUTURA: 10 a 14 parágrafos curtos, cada um começando com um título curto seguido de dois-pontos, nesta linha:
-  'Em uma frase: ...' (a ideia central em linguagem do dia a dia);
-  'Conceito: ...' ou 'Para que serve: ...';
-  um parágrafo para cada regra, requisito, prazo ou exceção (um assunto por parágrafo);
-  'Exemplo: ...' (pelo menos um, com personagem);
-  'Cuidado (pegadinha): ...';
-  'Como a FGV cobra: ...';
-  'Resumo para revisar: ...' (3 a 5 pontos separados por ponto e vírgula).
-- 'cai': 3 a 5 itens dizendo exatamente como a FGV cobra o tema. 'macetes': 3 a 5 macetes ou atalhos de memória úteis de verdade.
-- A unidade já tem uma aula-panorama: não repita o panorama; aprofunde o tópico desta aula.`
+ESTILO DAS AULAS (pedido do dono do app: "dez vezes mais conteúdo; como uma faculdade; como um professor explicando de forma simples; bem rica em conteúdo"):
+- Cada aula é uma AULA DE FACULDADE COMPLETA sobre o tópico, escrita como um professor conversando com o aluno: "Imagine que...", "Repare que...", "Por que a lei faz isso? Porque...". Detalhada no conteúdo, simples na forma.
+- TAMANHO: 30 a 45 parágrafos por aula (cada um com 2 a 5 frases). Uma aula curta é um erro. Cubra TUDO do tópico: conceito, origem e finalidade da regra, cada requisito separadamente, cada inciso/hipótese relevante explicado um por um, prazos, quóruns, exceções, súmulas e teses do STF/STJ/TST explicadas (o que decidiram e por quê), doutrina majoritária quando a FGV cobra, diferenças com institutos parecidos, pegadinhas, e vários exemplos.
+- SIMPLICIDADE: frases curtas, voz ativa, nada de juridiquês; todo termo técnico é explicado na primeira vez que aparece; latim sempre traduzido; o fundamento (artigo, súmula, tema) vem no fim, entre parênteses.
+- ESTRUTURA (cada parágrafo começa com um título curto seguido de dois-pontos):
+  'Em uma frase: ...'; 'Por que isso existe: ...'; 'Conceito: ...';
+  vários parágrafos de explicação, um assunto por parágrafo (ex.: 'Requisito 1 – ...', 'Inciso XI – casa: ...', 'Exceção: ...', 'O que o STF decidiu: ...');
+  'Comparando: ...' (quadro em texto entre institutos parecidos);
+  pelo menos 3 parágrafos 'Exemplo: ...' com personagens e situações do dia a dia, resolvidos passo a passo;
+  'Cuidado (pegadinha): ...' (pelo menos 2);
+  'Como a FGV cobra: ...' (como o tema aparece nas provas e como raciocinar);
+  'Resumo para revisar: ...' (5 a 10 pontos separados por ponto e vírgula).
+- 'cai': 5 a 8 itens. 'macetes': 4 a 6 macetes úteis de verdade.
+- A unidade já tem uma aula-panorama: não repita; aprofunde.`
 const OK = { type: 'object', properties: { lote: { type: 'string' }, aulas: { type: 'number' }, questoes: { type: 'number' }, observacoes: { type: 'string' } }, required: ['lote', 'aulas', 'questoes', 'observacoes'] }
 function redigir(lote) {
   return agent(`Você escreve o curso completo da 1ª fase do Exame de Ordem (FGV) no app "Aprova OAB" (${BASE}). Hoje é outubro de 2026.
 Seu lote é '${lote}'. Abra ${BASE}/tools/producao/jobs.json e pegue o objeto com lote '${lote}': ele traz a matéria (id e nome), o prefixo das questões, a unidade, a lista de aulas [id, título] e o número base.
 1. Leia ${BASE}/data/materias2.js (formato) e as aulas já existentes da matéria (procure add('<materia>' em ${BASE}/data/*.js), em especial a aula-panorama da unidade, para não repetir.
-2. Escreva TODAS as aulas do lote, com exatamente os ids e títulos da lista, em ${BASE}/data/aulas-${lote}.js (formato add('<materia>', [...]) dentro de (function () { ... })()). Se o arquivo já existir com conteúdo de uma tentativa anterior, complete o que faltar em vez de recomeçar.
-3. Escreva 2 questões inéditas por aula em ${BASE}/data/questoes-${lote}.js (window.QUESTOES.push(...)), topico = id da aula, ids = prefixo + (base+1), (base+2), ...
+2. Escreva TODAS as aulas do lote, com exatamente os ids e títulos da lista, em ${BASE}/data/aulas-${lote}.js (formato add('<materia>', [...]) dentro de (function () { ... })()). Se o arquivo já existir (versão antiga, curta), REESCREVA cada aula no novo tamanho e estilo abaixo, aproveitando o que estiver certo; idem para as questões (passe a 3 por aula, mantendo os ids existentes e acrescentando os novos em sequência).
+3. Escreva 3 questões inéditas por aula em ${BASE}/data/questoes-${lote}.js (window.QUESTOES.push(...)), topico = id da aula, ids = prefixo + (base+1), (base+2), ...
 4. Rode node ${BASE}/tools/validar.js e corrija problemas nos SEUS dois arquivos (ignore os dos outros). Escreva só nos seus dois arquivos.
 Não transcreva trechos longos de leis ou de livros: explique com suas palavras, citando o número do artigo.
 ${ESTILO}
