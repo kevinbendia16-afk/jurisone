@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['O pedido deve ser negado, pois a prescrição intercorrente exige paralisação por mais de 5 anos.', false, 'Errada. Cinco anos é a prescrição geral; a intercorrente ocorre com mais de 3 anos de paralisação (art. 43, §1º).'],
     ['O pedido deve ser negado, pois a instauração do processo afasta qualquer prescrição posterior.', false, 'Errada. A instauração interrompe a prescrição, mas o prazo volta a correr, e a paralisação gera a intercorrente (art. 43, §§1º e 2º).'],
     ['O arquivamento só pode ser feito a requerimento, nunca de ofício.', false, 'Errada. O arquivamento é feito de ofício ou a requerimento do interessado (art. 43, §1º).']
+  ] },
+{ id: 'et593', materia: 'etica', topico: 'processodisc',
+  enunciado: 'A advogada Tânia responde a processo disciplinar na OAB por ter se apropriado de valores recebidos em nome de um cliente. Ao mesmo tempo, o Ministério Público a denunciou por apropriação indébita pelo mesmo fato. A defesa de Tânia alega que a OAB deve aguardar o fim da ação penal. Assinale a afirmativa correta.',
+  alt: [
+    ['A OAB deve suspender o processo disciplinar até o trânsito em julgado da ação penal, para evitar decisões contraditórias.', false, 'Errada. Não existe essa dependência: a jurisdição disciplinar não exclui a comum, e as esferas são independentes (art. 71 do Estatuto).'],
+    ['O processo disciplinar segue normalmente, pois a jurisdição disciplinar não exclui a comum, e a OAB deve comunicar às autoridades os fatos que constituam crime.', true, 'Correta. Art. 71 do Estatuto: a jurisdição disciplinar não exclui a comum e, quando o fato constituir crime ou contravenção, deve ser comunicado às autoridades competentes.'],
+    ['A existência da ação penal impede a punição disciplinar, sob pena de dupla punição pelo mesmo fato.', false, 'Errada. A punição nas esferas penal e disciplinar pelo mesmo fato é admitida, justamente porque as esferas são independentes (art. 71).'],
+    ['O processo disciplinar deve ser remetido ao juízo criminal, que passa a ser competente para aplicar também a sanção ética.', false, 'Errada. O poder de aplicar sanções disciplinares a advogados é exclusivo da OAB (art. 70); o juiz criminal não aplica censura, suspensão ou exclusão.']
+  ] },
+{ id: 'et594', materia: 'etica', topico: 'et-ted',
+  enunciado: 'O advogado Paulo, recém-inscrito, tem dúvida sobre se pode participar de programa de rádio respondendo perguntas jurídicas genéricas dos ouvintes. Não há nenhum processo disciplinar envolvendo esse tema contra ele. Sobre a possibilidade de buscar orientação no Tribunal de Ética e Disciplina, assinale a afirmativa correta.',
+  alt: [
+    ['Paulo não pode consultar o TED, que tem competência exclusivamente para julgar processos disciplinares.', false, 'Errada. Além de julgar, o TED responde consultas sobre ética profissional formuladas em tese (art. 71, II, do CED).'],
+    ['Paulo só pode consultar o TED depois de praticar a conduta, para que o órgão analise o caso concreto.', false, 'Errada. É o contrário: a consulta é respondida em tese, em abstrato, e não sobre caso concreto já ocorrido ou em discussão.'],
+    ['Paulo pode formular consulta em tese ao TED, órgão do Conselho Seccional que tem entre suas competências responder consultas sobre ética profissional.', true, 'Correta. O TED, órgão do Conselho Seccional, responde a consultas formuladas em tese sobre matéria ético-disciplinar (art. 71, II, do CED).'],
+    ['Paulo deve dirigir a consulta ao Conselho Federal, único órgão da OAB competente para interpretar o Código de Ética.', false, 'Errada. O TED da Seccional tem competência para responder consultas em tese; não é atribuição exclusiva do Conselho Federal.']
+  ] },
+{ id: 'et595', materia: 'etica', topico: 'et-instauracao',
+  enunciado: 'Em processo disciplinar instaurado contra o advogado Mauro, após a apresentação da defesa prévia, o relator concluiu que a representação era manifestamente improcedente e se manifestou pelo seu indeferimento liminar. Segundo o Estatuto da Advocacia, a quem cabe decidir sobre o arquivamento?',
+  alt: [
+    ['Ao próprio relator, que conduz a instrução e pode arquivar o processo por decisão monocrática.', false, 'Errada. O relator apenas se manifesta pelo indeferimento liminar; a decisão não é dele (art. 73, §2º).'],
+    ['Ao Tribunal de Ética e Disciplina, em sessão de julgamento com defesa oral.', false, 'Errada. O indeferimento liminar é decidido antes do julgamento pelo TED, por autoridade indicada na lei (art. 73, §2º).'],
+    ['Ao Presidente da Subseção onde o processo foi instaurado.', false, 'Errada. O Presidente da Subseção pode designar defensor dativo (art. 73, §4º), mas o arquivamento liminar é decidido pelo Presidente do Conselho Seccional.'],
+    ['Ao Presidente do Conselho Seccional, que decide pelo arquivamento.', true, 'Correta. Art. 73, §2º, do Estatuto: se, após a defesa prévia, o relator se manifestar pelo indeferimento liminar, a decisão cabe ao Presidente do Conselho Seccional, para determinar o arquivamento.']
+  ] },
+{ id: 'et596', materia: 'etica', topico: 'et-suspensao-preventiva',
+  enunciado: 'Diante de grave denúncia com ampla repercussão na imprensa, prejudicial à dignidade da advocacia, o Tribunal de Ética e Disciplina competente pretende suspender preventivamente a advogada Vera. Sobre o procedimento, assinale a afirmativa correta.',
+  alt: [
+    ['Vera deve ser notificada para ser ouvida em sessão especial, salvo se não atender à notificação, e, aplicada a suspensão, o processo deve ser concluído em até 90 dias.', true, 'Correta. Art. 70, §3º, do Estatuto: a suspensão preventiva exige oitiva em sessão especial, salvo se o advogado não atender à notificação, e o processo deve ser concluído no prazo máximo de 90 dias.'],
+    ['Pela urgência, a suspensão pode ser decretada sem a oitiva de Vera, que se manifestará apenas no recurso.', false, 'Errada. A lei exige a notificação para a sessão especial; só se decide sem ouvi-la se ela não atender à notificação (art. 70, §3º).'],
+    ['Aplicada a suspensão preventiva, o processo deve ser concluído em até 180 dias, prorrogáveis.', false, 'Errada. O prazo máximo para concluir o processo é de 90 dias (art. 70, §3º).'],
+    ['Eventual recurso de Vera contra a suspensão preventiva terá efeito suspensivo, permitindo que ela advogue até o julgamento.', false, 'Errada. O recurso contra a suspensão preventiva decidida pelo TED é exceção ao efeito suspensivo (art. 77).']
+  ] },
+{ id: 'et597', materia: 'etica', topico: 'et-recursos-oab',
+  enunciado: 'Marina foi condenada pelo Tribunal de Ética e Disciplina da OAB/PE à sanção de suspensão por 30 dias. No décimo dia após a notificação, ela interpôs recurso ao Conselho Seccional. No dia seguinte, foi convidada a fazer uma audiência para um cliente. Assinale a afirmativa correta.',
+  alt: [
+    ['Marina não pode fazer a audiência, pois a suspensão produz efeitos imediatos desde a decisão do TED.', false, 'Errada. Em regra, todos os recursos na OAB têm efeito suspensivo; a sanção aplicada pelo TED não se executa enquanto pende o recurso (art. 77).'],
+    ['Marina pode fazer a audiência, pois o recurso tempestivo tem efeito suspensivo, e a sanção de suspensão aplicada ao final do processo não está entre as exceções legais.', true, 'Correta. O recurso foi interposto dentro de 15 dias (art. 69) e tem efeito suspensivo; as exceções do art. 77 são apenas eleições, suspensão preventiva e cancelamento de inscrição obtida com falsa prova.'],
+    ['O recurso de Marina é intempestivo, pois o prazo para recorrer na OAB é de 8 dias.', false, 'Errada. Todos os prazos nos processos da OAB, inclusive para recorrer, são de 15 dias (art. 69).'],
+    ['Marina deveria ter recorrido diretamente ao Conselho Federal, competente para rever decisões do TED.', false, 'Errada. Da decisão do TED cabe recurso ao Conselho Seccional (art. 76); o Conselho Federal só é acionado contra decisões definitivas do Seccional (art. 75).']
+  ] },
+{ id: 'et598', materia: 'etica', topico: 'et-prescricao-disc',
+  enunciado: 'Em processo disciplinar contra a advogada Lívia, discute-se a ocorrência de prescrição. Segundo o Estatuto da Advocacia, qual dos eventos abaixo interrompe a prescrição da pretensão à punibilidade?',
+  alt: [
+    ['A apresentação da defesa prévia pela representada.', false, 'Errada. A defesa prévia não está entre as causas de interrupção; o que interrompe é a instauração do processo ou a notificação válida feita diretamente ao representado (art. 43, §2º, I).'],
+    ['A decisão do TED que absolve a representada, ainda sujeita a recurso.', false, 'Errada. Só a decisão condenatória recorrível interrompe a prescrição; a absolvição não (art. 43, §2º, II).'],
+    ['A decisão condenatória recorrível proferida por qualquer órgão julgador da OAB.', true, 'Correta. Art. 43, §2º, II, do Estatuto: a prescrição interrompe-se pela decisão condenatória recorrível de qualquer órgão julgador da OAB.'],
+    ['O simples conhecimento informal do fato por um conselheiro, sem registro no processo.', false, 'Errada. Isso nem sequer marca o início formal do prazo, que conta da constatação oficial do fato (art. 43, caput), e não é causa de interrupção (art. 43, §2º).']
   ] }
 );

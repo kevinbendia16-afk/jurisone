@@ -92,8 +92,56 @@ window.QUESTOES.push(
   enunciado: 'Sandra, advogada há 7 anos, de reputação ilibada e notório saber jurídico, pretende concorrer à vaga do quinto em um Tribunal Regional Federal. Ao mesmo tempo, o TJ local abriu concurso para juiz sem prever participação da OAB nas fases da prova oral. Assinale a afirmativa correta.',
   alt: [
     ['Sandra pode concorrer, e o concurso é válido, pois a OAB só participa da fase de títulos.', false, 'Errada. Sandra não tem mais de 10 anos de atividade, e a OAB deve participar de todas as fases do concurso (art. 93, I, da Constituição).'],
-    ['Sandra não pode concorrer, pois faltam mais de 10 anos de efetiva atividade, e o concurso deve ter participação da OAB em todas as fases.', true, 'Correta. O art. 94 da Constituição exige mais de 10 anos de efetiva atividade profissional, e o art. 93, I, exige participação da OAB em todas as fases do concurso da magistratura.'],
+    ['Sandra não pode concorrer, pois não tem mais de 10 anos de efetiva atividade, e o concurso deve ter participação da OAB em todas as fases.', true, 'Correta. O art. 94 da Constituição exige mais de 10 anos de efetiva atividade profissional, e o art. 93, I, exige participação da OAB em todas as fases do concurso da magistratura.'],
     ['Sandra pode concorrer, pois a exigência de 10 anos vale apenas para os Tribunais de Justiça.', false, 'Errada. O requisito de mais de 10 anos vale para todos os tribunais do quinto, inclusive os TRFs (art. 94 da Constituição).'],
     ['Sandra não pode concorrer, mas o concurso é válido, pois a participação da OAB é facultativa.', false, 'Errada. A participação da OAB em todas as fases do concurso para juiz é obrigatória (art. 93, I, da Constituição).']
+  ] },
+{ id: 'et553', materia: 'etica', topico: 'et-natureza',
+  enunciado: 'Otávio, advogado, foi eleito conselheiro do Conselho Seccional da OAB do seu Estado. Ele pergunta se receberá remuneração pelo cargo e se o tempo de exercício terá algum efeito na sua futura aposentadoria. Segundo o Estatuto da Advocacia, assinale a afirmativa correta.',
+  alt: [
+    ['O cargo é remunerado com verba das anuidades e não produz efeitos para aposentadoria, por não ser serviço público.', false, 'Errada. O cargo de conselheiro é de exercício gratuito e considerado serviço público relevante, inclusive para fins de aposentadoria (art. 48).'],
+    ['O cargo é de exercício facultativo e gratuito, e o tempo não tem efeito previdenciário.', false, 'Errada. O exercício é obrigatório, e não facultativo, e a lei o considera serviço público relevante, inclusive para disponibilidade e aposentadoria (art. 48).'],
+    ['O cargo é de exercício gratuito e obrigatório, considerado serviço público relevante, inclusive para fins de disponibilidade e aposentadoria.', true, 'Correta. É exatamente o que dispõe o art. 48 do Estatuto da Advocacia.'],
+    ['O cargo é remunerado apenas quando o conselheiro integra a Diretoria, e o tempo conta para aposentadoria somente se houver contribuição específica à Caixa de Assistência.', false, 'Errada. Nenhum cargo de conselheiro ou diretor da OAB é remunerado, e a lei não faz essa distinção nem exige contribuição à Caixa (art. 48).']
+  ] },
+{ id: 'et554', materia: 'etica', topico: 'et-conselho-federal',
+  enunciado: 'O Conselho Federal da OAB vai julgar, em sessão do Conselho Pleno, recurso contra ato do Conselho Seccional do Estado Alfa. A delegação do Estado Alfa pretende votar, e o Presidente do Conselho Federal anuncia que votará em todas as matérias da pauta. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A delegação do Estado Alfa vota normalmente, e o Presidente tem voto comum em todas as deliberações.', false, 'Errada. A delegação não pode votar nas matérias de interesse da unidade que representa, e o Presidente tem apenas o voto de qualidade (art. 53, §§1º e 2º).'],
+    ['A delegação do Estado Alfa não vota nessa matéria, e o Presidente do Conselho Federal tem apenas o voto de qualidade.', true, 'Correta. O voto é tomado por delegação e não pode ser exercido nas matérias de interesse da unidade que represente (art. 53, §2º); o Presidente só vota para desempatar (art. 53, §1º).'],
+    ['Cada um dos três conselheiros do Estado Alfa vota individualmente, pois o voto por delegação só existe na eleição da Diretoria.', false, 'Errada. É o contrário: nas deliberações o voto é por delegação (art. 53, §2º); na eleição da Diretoria é que cada membro da delegação vota individualmente (art. 53, §3º).'],
+    ['A delegação do Estado Alfa vota, mas o seu voto tem peso proporcional ao número de inscritos na Seccional.', false, 'Errada. Cada delegação tem um voto, sem peso proporcional ao número de advogados, e no caso ela está impedida de votar por se tratar de matéria de interesse da sua unidade (art. 53, §2º).']
+  ] },
+{ id: 'et555', materia: 'etica', topico: 'et-seccional',
+  enunciado: 'A Subseção da OAB do Município Beta, com 180 advogados, possui Conselho próprio. Esse Conselho recebeu representação contra a advogada Helena por suposta infração ética. Sobre a atuação do Conselho da Subseção, assinale a afirmativa correta.',
+  alt: [
+    ['O Conselho da Subseção pode instaurar e julgar o processo disciplinar, cabendo recurso ao Conselho Federal.', false, 'Errada. O Conselho da Subseção não julga: ele instaura e instrui o processo, e o julgamento cabe ao Tribunal de Ética e Disciplina (art. 61, parágrafo único, c).'],
+    ['O Conselho da Subseção deve remeter a representação ao Conselho Federal, único competente para processos disciplinares.', false, 'Errada. O poder de punir disciplinarmente cabe, em regra, ao Conselho Seccional em cuja base territorial ocorreu a infração (art. 70), por meio do seu Tribunal de Ética e Disciplina.'],
+    ['O Conselho da Subseção não tem nenhuma atribuição disciplinar, devendo arquivar a representação.', false, 'Errada. O Estatuto atribui ao Conselho da Subseção competência para instaurar e instruir processos disciplinares (art. 61, parágrafo único, c).'],
+    ['O Conselho da Subseção pode instaurar e instruir o processo disciplinar, mas o julgamento cabe ao Tribunal de Ética e Disciplina.', true, 'Correta. É a regra do art. 61, parágrafo único, c, do Estatuto: o Conselho da Subseção instaura e instrui; o TED julga.']
+  ] },
+{ id: 'et556', materia: 'etica', topico: 'et-eleicoes',
+  enunciado: 'Eduardo, conselheiro seccional eleito, faltou sem motivo justificado a três reuniões ordinárias consecutivas do Conselho. A Diretoria da Seccional entende que, para afastá-lo, é necessário instaurar processo disciplinar. Considerando o Estatuto da Advocacia, assinale a afirmativa correta.',
+  alt: [
+    ['O mandato de Eduardo extinguiu-se automaticamente, e ele não pode ser reconduzido no mesmo período de mandato.', true, 'Correta. A falta injustificada a três reuniões ordinárias consecutivas extingue o mandato automaticamente, vedada a recondução no mesmo período (art. 66, III).'],
+    ['O afastamento de Eduardo depende de processo disciplinar e de condenação pelo Tribunal de Ética e Disciplina.', false, 'Errada. A extinção do mandato nessa hipótese é automática e não depende de processo disciplinar (art. 66, caput e III).'],
+    ['Eduardo perde o mandato, mas pode ser reconduzido ao cargo pelo próprio Conselho na sessão seguinte.', false, 'Errada. O art. 66, III, proíbe a recondução no mesmo período de mandato.'],
+    ['A extinção do mandato só ocorreria com cinco faltas, consecutivas ou não, a reuniões ordinárias ou extraordinárias.', false, 'Errada. A lei fala em três faltas, consecutivas, a reuniões ordinárias, sem motivo justificado (art. 66, III).']
+  ] },
+{ id: 'et557', materia: 'etica', topico: 'et-anuidade',
+  enunciado: 'A OAB do Estado Sigma pretende cobrar judicialmente anuidades em atraso do advogado Caio. A assessoria jurídica sugere ajuizar execução fiscal, com base na Lei 6.830/80, perante a Justiça Estadual. Considerando a jurisprudência dos tribunais superiores, assinale a afirmativa correta.',
+  alt: [
+    ['A sugestão está correta, pois a anuidade da OAB tem natureza tributária e a OAB é autarquia estadual.', false, 'Errada. A OAB não é autarquia (ADI 3026) e, para o STJ, sua anuidade não tem natureza tributária, o que afasta a execução fiscal.'],
+    ['A cobrança deve ser feita por execução fiscal, mas perante a Justiça Federal.', false, 'Errada. A Justiça Federal é a competente (Tema 258 do STF), mas a anuidade da OAB não é tributo, de modo que não se aplica a Lei 6.830/80.'],
+    ['A cobrança deve ser feita por execução de título extrajudicial, com base no CPC, perante a Justiça Federal.', true, 'Correta. A certidão da diretoria é título executivo extrajudicial (art. 46, parágrafo único); a anuidade da OAB não é tributo (STJ), e a execução corre na Justiça Federal (Tema 258 do STF).'],
+    ['A OAB não pode cobrar judicialmente a anuidade, devendo limitar-se a suspender o advogado até o pagamento.', false, 'Errada. A suspensão por inadimplência é inconstitucional (Tema 732 do STF); o caminho legítimo é justamente a cobrança judicial (art. 46, parágrafo único).']
+  ] },
+{ id: 'et558', materia: 'etica', topico: 'et-quinto',
+  enunciado: 'Abriu-se vaga do quinto constitucional destinada à advocacia no Tribunal de Justiça do Estado Lambda. Vítor, advogado há 14 anos, de notório saber e reputação ilibada, é atualmente diretor de uma Subseção da OAB e deseja ser incluído na lista. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Vítor pode ser incluído na lista sêxtupla elaborada pelo Conselho Federal, pois preenche os requisitos constitucionais.', false, 'Errada. Para o Tribunal de Justiça, a lista é elaborada pelo Conselho Seccional (art. 58, XIV), e o Estatuto proíbe incluir membros de qualquer órgão da OAB.'],
+    ['Vítor não pode ser incluído na lista enquanto for membro de órgão da OAB, que é elaborada pelo Conselho Seccional.', true, 'Correta. Cabe ao Conselho Seccional eleger a lista para o TJ, vedada a inclusão de membros do próprio Conselho e de qualquer órgão da OAB (art. 58, XIV).'],
+    ['Vítor pode ser incluído, pois a proibição atinge apenas os conselheiros seccionais, e não os diretores de Subseção.', false, 'Errada. A vedação do art. 58, XIV, alcança membros de qualquer órgão da OAB, o que inclui a Subseção (art. 45, III).'],
+    ['Vítor não pode ser incluído, pois o quinto constitucional exige mais de 15 anos de efetiva atividade profissional.', false, 'Errada. O art. 94 da Constituição exige mais de 10 anos de efetiva atividade, requisito que Vítor cumpre; o impedimento decorre de ele integrar órgão da OAB.']
   ] }
 );
