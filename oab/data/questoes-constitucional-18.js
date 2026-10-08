@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['É constitucional, pois a gratuidade depende de regulamentação de cada ente e pode ser graduada por faixa etária.', false, 'Errada. A gratuidade do art. 230, §2º, é garantida diretamente pela CF aos maiores de 65 anos e não pode ser reduzida por lei municipal.'],
     ['É inconstitucional, pois a Constituição garante aos maiores de 65 anos a gratuidade dos transportes coletivos urbanos.', true, 'Correta. O art. 230, §2º, assegura a gratuidade aos maiores de 65 anos nos transportes coletivos urbanos.'],
     ['É inconstitucional, pois a Constituição garante gratuidade a partir dos 60 anos.', false, 'Errada. A idade prevista na CF é de 65 anos (art. 230, §2º). Os 60 anos marcam a definição de pessoa idosa no Estatuto da Pessoa Idosa, o que costuma gerar confusão.']
+  ] },
+{ id: 'co673', materia: 'constitucional', topico: 'defesa',
+  enunciado: 'Diante de comoção grave de repercussão nacional, o Presidente da República, após ouvir o Conselho da República e o Conselho de Defesa Nacional, obteve autorização do Congresso Nacional e decretou estado de sítio. Durante a medida, o executor proibiu a divulgação, pela imprensa, de discurso proferido por deputado federal na tribuna da Câmara, cuja difusão havia sido liberada pela Mesa. Sobre a situação, assinale a afirmativa correta.',
+  alt: [
+    ['A proibição é válida, pois no estado de sítio por comoção grave é possível restringir a liberdade de imprensa sem qualquer exceção.', false, 'Errada. Embora o art. 139, III, admita restrições à imprensa, o parágrafo único exclui delas a difusão de pronunciamentos parlamentares liberada pela Mesa.'],
+    ['A proibição é inválida, pois não se incluem nas restrições do estado de sítio os pronunciamentos de parlamentares em suas Casas, liberados pela respectiva Mesa.', true, 'Correta. É o que dispõe o art. 139, parágrafo único, da CF, que protege a palavra parlamentar mesmo durante o estado de sítio.'],
+    ['A proibição é inválida, pois o estado de sítio por comoção grave não admite nenhuma restrição à liberdade de imprensa.', false, 'Errada. O art. 139, III, permite restrições à liberdade de imprensa, radiodifusão e televisão, na forma da lei; a ilegalidade decorre apenas da proteção ao discurso parlamentar.'],
+    ['A proibição é válida, desde que a medida dure no máximo 30 dias e não seja prorrogada.', false, 'Errada. O prazo do sítio (art. 138, §1º) não autoriza censura a pronunciamento parlamentar liberado pela Mesa, vedada pelo art. 139, parágrafo único.']
+  ] },
+{ id: 'co674', materia: 'constitucional', topico: 'co-forcas-armadas',
+  enunciado: 'Lei do Estado Alfa criou a Polícia de Fronteiras Estadual, órgão autônomo de segurança pública, ao lado da polícia civil e da polícia militar, e autorizou seus integrantes a exercer o direito de greve, desde que mantido 30% do efetivo. Sobre a lei, assinale a afirmativa correta.',
+  alt: [
+    ['É constitucional, pois os Estados têm autonomia para organizar livremente seus órgãos de segurança pública.', false, 'Errada. O rol do art. 144 da CF é taxativo e de observância obrigatória pelos Estados, que não podem criar órgãos de segurança pública nele não previstos.'],
+    ['É constitucional quanto à criação do órgão, mas inconstitucional quanto à greve, que é vedada a todos os servidores públicos.', false, 'Errada. A criação do órgão também é inconstitucional, e a greve não é vedada a todos os servidores, mas aos que atuam diretamente na segurança pública (Tema 541 do STF).'],
+    ['É inconstitucional, pois o rol de órgãos do art. 144 é taxativo e o STF veda o exercício de greve por servidores que atuem diretamente na segurança pública.', true, 'Correta. Os Estados devem seguir o rol do art. 144, e o STF fixou no Tema 541 que a greve é vedada aos policiais e servidores da área de segurança pública.'],
+    ['É inconstitucional apenas porque a polícia de fronteiras é função exclusiva das Forças Armadas.', false, 'Errada. A polícia de fronteiras é atribuição da Polícia Federal (art. 144, §1º, III), e a lei também viola a vedação de greve na segurança pública.']
+  ] },
+{ id: 'co675', materia: 'constitucional', topico: 'co-ordem-economica',
+  enunciado: 'O Município Beta identificou, em área incluída no plano diretor, terreno urbano não edificado de grande extensão. A Prefeitura pretende, de imediato, desapropriar o imóvel mediante pagamento em títulos da dívida pública, como sanção pelo não aproveitamento. Sobre a pretensão, assinale a afirmativa correta.',
+  alt: [
+    ['É válida, pois a desapropriação-sanção pode ser aplicada a qualquer momento ao imóvel urbano que não cumpre sua função social.', false, 'Errada. O art. 182, §4º, prevê sanções sucessivas, e a desapropriação com títulos é a última delas.'],
+    ['É inválida, pois exige lei municipal específica e deve ser precedida, sucessivamente, de parcelamento ou edificação compulsórios e de IPTU progressivo no tempo.', true, 'Correta. O art. 182, §4º, exige lei específica para área incluída no plano diretor e impõe a ordem: parcelamento ou edificação compulsórios, IPTU progressivo no tempo e, por fim, desapropriação com títulos da dívida pública.'],
+    ['É inválida, pois a desapropriação de imóvel urbano só pode ser paga em dinheiro, prévia e justa.', false, 'Errada. A desapropriação-sanção urbana é paga com títulos da dívida pública de emissão aprovada pelo Senado, resgatáveis em até 10 anos (art. 182, §4º, III).'],
+    ['É válida, desde que o imóvel tenha mais de 250 metros quadrados.', false, 'Errada. A metragem de 250 metros quadrados refere-se à usucapião especial urbana (art. 183), não à desapropriação-sanção.']
+  ] },
+{ id: 'co676', materia: 'constitucional', topico: 'ordemsocial',
+  enunciado: 'Lei federal publicada em 1º de dezembro criou novo benefício previdenciário para trabalhadores de determinado setor, sem indicar a correspondente fonte de custeio, e majorou a alíquota de contribuição social do empregador, determinando sua cobrança a partir de 1º de janeiro do ano seguinte. Sobre a lei, assinale a afirmativa correta.',
+  alt: [
+    ['É integralmente constitucional, pois as contribuições sociais observam apenas a anterioridade do exercício financeiro.', false, 'Errada. As contribuições da seguridade observam a anterioridade nonagesimal (art. 195, §6º), e a criação do benefício sem fonte de custeio viola o art. 195, §5º.'],
+    ['É inconstitucional quanto ao benefício, criado sem fonte de custeio total, e quanto à data de cobrança, pois a majoração só pode ser exigida após 90 dias da publicação.', true, 'Correta. Nenhum benefício pode ser criado sem a correspondente fonte de custeio total (art. 195, §5º), e as contribuições sociais só podem ser exigidas após 90 dias da publicação da lei (art. 195, §6º).'],
+    ['É inconstitucional apenas quanto ao benefício, pois a cobrança no exercício seguinte atende à anterioridade exigida.', false, 'Errada. Entre 1º de dezembro e 1º de janeiro não se passaram 90 dias, exigidos pelo art. 195, §6º.'],
+    ['É constitucional quanto ao benefício, pois a regra da contrapartida aplica-se apenas à assistência social.', false, 'Errada. A regra do art. 195, §5º, alcança qualquer benefício ou serviço da seguridade social, inclusive os previdenciários.']
+  ] },
+{ id: 'co677', materia: 'constitucional', topico: 'co-educacao-cultura',
+  enunciado: 'O Clube Gama foi punido pelo tribunal de justiça desportiva com a perda de pontos em campeonato. Interpôs recurso perante a instância desportiva superior, que, passados 75 dias da instauração do processo, ainda não havia proferido decisão final. O clube pretende ajuizar ação perante o Poder Judiciário. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A ação não pode ser ajuizada, pois a Justiça Desportiva tem competência exclusiva sobre disciplina e competições desportivas.', false, 'Errada. A Constituição apenas condiciona o acesso ao Judiciário ao esgotamento das instâncias desportivas, sem excluir o controle judicial (art. 217, §1º).'],
+    ['A ação só pode ser ajuizada depois do julgamento final do recurso pela instância desportiva, qualquer que seja a demora.', false, 'Errada. A Justiça Desportiva tem prazo máximo de 60 dias, contados da instauração do processo, para proferir decisão final (art. 217, §2º).'],
+    ['A ação pode ser ajuizada, pois transcorreu o prazo máximo de 60 dias para a decisão final da Justiça Desportiva.', true, 'Correta. Esgotado o prazo de 60 dias do art. 217, §2º, sem decisão final, fica afastada a exigência de esgotamento e o clube pode recorrer ao Judiciário.'],
+    ['A ação deve ser proposta diretamente no STF, pois a Justiça Desportiva é órgão do Poder Judiciário.', false, 'Errada. A Justiça Desportiva tem natureza administrativa e não integra o Poder Judiciário (art. 92), e não há competência originária do STF para o caso.']
+  ] },
+{ id: 'co678', materia: 'constitucional', topico: 'co-familia-indios',
+  enunciado: 'A empresa Delta obteve, por ato exclusivo do Ministério de Minas e Energia, autorização para pesquisa e lavra de ouro em terra tradicionalmente ocupada por povo indígena. A comunidade não foi ouvida, e a associação que a representa pretende questionar a autorização em juízo. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A autorização é válida, pois os recursos minerais pertencem à União, que pode explorá-los livremente por ato do Poder Executivo.', false, 'Errada. Em terras indígenas, a pesquisa e lavra de riquezas minerais exige autorização do Congresso Nacional, ouvidas as comunidades afetadas (arts. 49, XVI, e 231, §3º).'],
+    ['A autorização é inválida, pois depende do Congresso Nacional, ouvidas as comunidades afetadas, e a ação da associação deve ser julgada pela Justiça Federal, com intervenção do Ministério Público.', true, 'Correta. A autorização é competência exclusiva do Congresso (arts. 49, XVI, e 231, §3º); as organizações indígenas são partes legítimas, com intervenção do MP (art. 232), e a disputa sobre direitos indígenas é da Justiça Federal (art. 109, XI).'],
+    ['A autorização é inválida, mas a associação não tem legitimidade, pois somente a FUNAI pode defender em juízo os direitos indígenas.', false, 'Errada. Os índios, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos (art. 232).'],
+    ['A autorização é inválida, e a ação deve ser julgada pela Justiça Estadual, conforme a Súmula 140 do STJ.', false, 'Errada. A Súmula 140 do STJ trata de crimes em que indígena figure como autor ou vítima; a disputa sobre direitos indígenas é da Justiça Federal (art. 109, XI).']
   ] }
 );
