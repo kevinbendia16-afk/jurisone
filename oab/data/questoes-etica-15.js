@@ -15,5 +15,13 @@ window.QUESTOES.push(
     ['Marta pode requerer a reabilitação um ano após o cumprimento da sanção, com provas efetivas de bom comportamento.', true, 'Correta. Art. 41 do Estatuto: é permitido requerer a reabilitação um ano após o cumprimento da sanção disciplinar, mediante provas efetivas de bom comportamento. Como a falta não é crime, não se exige reabilitação criminal.'],
     ['Marta só pode requerer a reabilitação após cinco anos do cumprimento da sanção, prazo igual ao da prescrição.', false, 'Errada. O prazo da reabilitação é de 1 ano (art. 41). Os 5 anos são o prazo da prescrição da pretensão punitiva (art. 43), assunto diferente.'],
     ['Marta depende de prévia reabilitação criminal para pedir a reabilitação na OAB.', false, 'Errada. A reabilitação criminal só é exigida quando a infração disciplinar também constitui crime (art. 41, parágrafo único), o que não ocorre no caso.']
+  ] },
+{ id: 'et603', materia: 'etica', topico: 'et-revisao',
+  enunciado: 'O advogado Teodoro foi condenado à suspensão pelo Tribunal de Ética e Disciplina do Conselho Seccional. Ele recorreu, e a condenação foi mantida em última instância pelo Conselho Federal da OAB, tornando-se definitiva. Anos depois, Teodoro comprovou que o depoimento decisivo para a condenação era falso. Segundo o Código de Ética e Disciplina, o pedido de revisão deve ser processado:',
+  alt: [
+    ['pelo Tribunal de Ética e Disciplina do Conselho Seccional, por ter sido o órgão que instruiu o processo.', false, 'Errada. O critério não é o órgão que instruiu o processo, e sim o órgão de que emanou a condenação final (art. 68, §1º, do CED). Como a última palavra foi do Conselho Federal, é lá que se processa a revisão.'],
+    ['pelo Conselho Federal da OAB, órgão de que emanou a condenação final.', true, 'Correta. É competente para processar o pedido de revisão o órgão de que emanou a condenação final (art. 68, §1º, do CED). A revisão cabe porque a condenação se baseou em falsa prova (art. 73, §5º, do Estatuto).'],
+    ['pela Subseção onde Teodoro tem domicílio profissional, por ser o órgão mais próximo do advogado.', false, 'Errada. A Subseção não julga processo disciplinar nem revisão; ela pode, no máximo, instruir processos quando tiver Conselho (art. 61, parágrafo único, do Estatuto). A revisão vai ao órgão da condenação final (art. 68, §1º, do CED).'],
+    ['por nenhum órgão da OAB, pois a revisão deveria ter sido pedida em 15 dias contados da decisão final.', false, 'Errada. Os 15 dias são o prazo dos recursos (art. 69 do Estatuto). A revisão pressupõe decisão definitiva e o Estatuto não fixa prazo para ela (art. 73, §5º).']
   ] }
 );

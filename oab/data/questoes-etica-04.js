@@ -1,4 +1,4 @@
-/* Questões – lote etica-04: direitos e prerrogativas. */
+/* Questões – lote etica-04: direitos e prerrogativas (3 por aula). */
 window.QUESTOES.push(
 { id: 'et381', materia: 'etica', topico: 'et-inviolabilidade',
   enunciado: 'Em investigação sobre fraude fiscal atribuída exclusivamente a Fernando, cliente da advogada Juliana, o Ministério Público requereu ao juiz a busca e apreensão no escritório dela, para localizar documentos que Fernando teria entregado. Não há qualquer indício de participação de Juliana no crime. Sobre o pedido, assinale a afirmativa correta.',
@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['A conduta é mera falta administrativa, pois a lei não prevê crime para negativa de acesso a autos.', false, 'Errada. O art. 32 da Lei 13.869/19 tipifica a negativa de acesso aos autos de investigação.'],
     ['Não há crime, pois o inquérito é sigiloso por natureza.', false, 'Errada. Elementos já documentados devem ser acessíveis ao defensor (Súmula Vinculante 14; art. 7º, XIV e §10, do Estatuto).'],
     ['Só haveria crime se a advogada não tivesse procuração.', false, 'Errada. A situação é inversa: com procuração, o acesso é garantido até em autos sigilosos (art. 7º, §10).'],
+  ] },
+{ id: 'et393', materia: 'etica', topico: 'et-inviolabilidade',
+  enunciado: 'O advogado Bruno, investigado em operação sobre desvio de verbas públicas, procurou o Ministério Público e ofereceu-se para firmar acordo de colaboração premiada, entregando informações que obteve ao defender, anos antes, o empresário Vítor, seu ex-cliente. Sobre a proposta, assinale a afirmativa correta.',
+  alt: [
+    ['A colaboração é válida, pois Vítor já não é cliente de Bruno e o mandato foi extinto.', false, 'Errada. A vedação alcança quem seja ou tenha sido cliente do advogado; o fim do mandato não libera Bruno (art. 7º, §6º-I, do Estatuto, incluído pela Lei 14.365/22).'],
+    ['A colaboração é válida, desde que homologada judicialmente e acompanhada por representante da OAB.', false, 'Errada. A homologação judicial não afasta a proibição legal; a presença da OAB é requisito da busca no escritório (art. 7º, §6º), não autorização para delatar cliente.'],
+    ['É vedado ao advogado fazer colaboração premiada contra quem seja ou tenha sido seu cliente, sob pena de processo disciplinar, sem prejuízo da responsabilização penal.', true, 'Correta. A Lei 14.365/22 proibiu a colaboração do advogado contra cliente ou ex-cliente; a violação gera processo disciplinar, podendo levar à exclusão, sem prejuízo das penas do art. 154 do Código Penal (art. 7º, §6º-I, do Estatuto).'],
+    ['A colaboração depende apenas de autorização prévia do Conselho Seccional da OAB.', false, 'Errada. Não existe autorização da OAB que torne lícita a delação contra cliente; a vedação é absoluta (art. 7º, §6º-I, do Estatuto).']
+  ] },
+{ id: 'et394', materia: 'etica', topico: 'et-preso',
+  enunciado: 'Durante audiência, o advogado Caetano discutiu com o juiz e foi acusado de praticar, naquele momento, crime de desobediência, que é afiançável, em razão de manifestação feita na defesa do cliente. O juiz determinou sua prisão em flagrante. Assinale a afirmativa correta.',
+  alt: [
+    ['A prisão é válida, desde que a Seccional da OAB seja comunicada em até 24 horas.', false, 'Errada. A comunicação à Seccional é a regra para as prisões sem relação com a advocacia (art. 7º, IV). No caso de fato ligado à profissão, o problema é anterior: não cabe flagrante por crime afiançável (art. 7º, §3º).'],
+    ['A prisão é válida se houver representante da OAB na lavratura do auto.', false, 'Errada. A presença da OAB é exigida quando o flagrante é possível, isto é, por crime inafiançável ligado à profissão (art. 7º, IV e §3º). Aqui o crime é afiançável, e o flagrante não cabe.'],
+    ['A prisão só seria ilegal se o fato não tivesse relação com o exercício da advocacia.', false, 'Errada. É o contrário: a limitação ao flagrante existe justamente para fatos ligados ao exercício da advocacia (art. 7º, §3º, do Estatuto).'],
+    ['A prisão em flagrante é indevida, pois, por motivo ligado ao exercício da profissão, o advogado só pode ser preso em flagrante por crime inafiançável.', true, 'Correta. É a regra do art. 7º, §3º, do Estatuto. O fato pode ser apurado depois, mas não autoriza o flagrante.']
+  ] },
+{ id: 'et395', materia: 'etica', topico: 'et-acesso-autos',
+  enunciado: 'O advogado Fábio, sem procuração, pediu para retirar do cartório os autos físicos de um processo já findo, sem segredo de justiça, a fim de estudar a tese neles discutida. O escrivão negou, afirmando que só o advogado de uma das partes poderia retirar autos. Assinale a afirmativa correta.',
+  alt: [
+    ['A recusa é correta, pois a retirada de autos sempre exige procuração.', false, 'Errada. O art. 7º, XVI, do Estatuto permite retirar autos de processos findos mesmo sem procuração.'],
+    ['Fábio pode retirar os autos findos, mesmo sem procuração, pelo prazo de 10 dias.', true, 'Correta. É o direito previsto no art. 7º, XVI, do Estatuto, ressalvadas as hipóteses do §1º (segredo de justiça, documentos originais de difícil restauração reconhecidos em despacho motivado e advogado que atrasou a devolução de autos).'],
+    ['Fábio pode retirar os autos sem procuração, pelo prazo de 30 dias.', false, 'Errada. O prazo legal para a retirada de autos findos sem procuração é de 10 dias (art. 7º, XVI, do Estatuto).'],
+    ['Fábio só pode examinar os autos no balcão, sendo vedada a retirada de processos findos em qualquer caso.', false, 'Errada. A retirada de autos findos é direito do advogado; só não se aplica nas hipóteses do art. 7º, §1º, do Estatuto, que não aparecem no caso.']
+  ] },
+{ id: 'et396', materia: 'etica', topico: 'et-imunidade',
+  enunciado: 'Ao ler a contestação apresentada pela advogada Lorena, que continha expressões ásperas contra a parte autora, o juiz da causa aplicou a ela, na própria sentença, a pena de censura, por violação ao dever de urbanidade. Sobre a decisão, assinale a afirmativa correta.',
+  alt: [
+    ['A decisão é válida, pois o juiz pode aplicar sanções disciplinares aos advogados que atuam no processo.', false, 'Errada. O poder de punir disciplinarmente o advogado é exclusivo da OAB (art. 70 do Estatuto). O juiz pode mandar riscar expressões ofensivas (CPC, art. 78, §2º), mas não aplicar censura.'],
+    ['A decisão é inválida, pois a imunidade profissional impede qualquer responsabilização de Lorena, inclusive na OAB.', false, 'Errada. O art. 7º, §2º, ressalva as sanções disciplinares perante a OAB pelos excessos cometidos; a imunidade não é absoluta.'],
+    ['A decisão é inválida, pois só a OAB pode aplicar sanção disciplinar ao advogado; o juiz pode mandar riscar as expressões ofensivas e oficiar à OAB.', true, 'Correta. Os excessos podem gerar sanção disciplinar, mas aplicada pela OAB (arts. 7º, §2º, e 70 do Estatuto). O juiz dispõe das medidas do art. 78 do CPC.'],
+    ['A decisão é válida apenas se houver também condenação de Lorena por injúria.', false, 'Errada. Em regra, a injúria praticada no exercício da advocacia está coberta pela imunidade (art. 7º, §2º); e, de todo modo, o juiz não tem poder disciplinar sobre o advogado.']
+  ] },
+{ id: 'et397', materia: 'etica', topico: 'et-desagravo',
+  enunciado: 'Em artigo publicado em revista acadêmica, a professora Celina criticou duramente a tese jurídica defendida pelo advogado Otávio em um processo de repercussão, chamando-a de "ultrapassada e sem base constitucional". Otávio requereu desagravo público ao Conselho Seccional. Assinale a afirmativa correta.',
+  alt: [
+    ['O desagravo deve ser concedido, pois qualquer crítica pública ao trabalho de advogado ofende as prerrogativas.', false, 'Errada. O Regulamento Geral prevê o arquivamento do pedido quando se tratar de crítica de caráter doutrinário, político ou religioso (Regulamento Geral, art. 18).'],
+    ['O relator pode propor o arquivamento, pois se trata de crítica de caráter doutrinário.', true, 'Correta. A crítica à tese jurídica, em artigo acadêmico, tem caráter doutrinário, hipótese em que o Regulamento Geral autoriza o arquivamento do pedido de desagravo (art. 18).'],
+    ['O desagravo é de competência do Conselho Federal, pois o processo teve repercussão.', false, 'Errada. O Conselho Federal atua quando o ofendido é conselheiro federal ou presidente de Seccional, ou em caso de grave violação às prerrogativas com repercussão nacional (Regulamento Geral, art. 19); aqui nem sequer há ofensa às prerrogativas.'],
+    ['O pedido não pode ser conhecido, pois apenas a OAB, de ofício, pode instaurar o desagravo.', false, 'Errada. O desagravo pode ser promovido de ofício, a pedido do ofendido ou de qualquer pessoa (Regulamento Geral, art. 18). O problema do caso é o conteúdo da crítica.']
+  ] },
+{ id: 'et398', materia: 'etica', topico: 'et-crime-prerrog',
+  enunciado: 'Em audiência presencial de instrução, a juíza Marta, sem qualquer justificativa e com o propósito de dificultar a defesa, proibiu o réu Caio, que responde ao processo em liberdade, de sentar-se ao lado de sua advogada e de com ela se comunicar durante a oitiva das testemunhas. Considerando a Lei 13.869/19, assinale a afirmativa correta.',
+  alt: [
+    ['A conduta pode configurar crime de abuso de autoridade, pois a lei pune quem impede o réu, preso ou solto, de sentar-se ao lado do advogado e com ele comunicar-se durante a audiência, salvo no interrogatório ou em videoconferência.', true, 'Correta. É a conduta do art. 20, parágrafo único, da Lei 13.869/19, desde que presente a finalidade específica do art. 1º, §1º.'],
+    ['Não há crime, pois a proteção da Lei 13.869/19 só alcança o réu preso.', false, 'Errada. O parágrafo único do art. 20 da Lei 13.869/19 alcança expressamente o preso, o réu solto e o investigado.'],
+    ['A conduta configura o crime do art. 7º-B do Estatuto, pois este protege todas as prerrogativas do art. 7º.', false, 'Errada. O art. 7º-B protege apenas os incisos II, III, IV e V do art. 7º do Estatuto; o caso se enquadra na Lei 13.869/19.'],
+    ['Não há crime, pois a condução da audiência é ato jurisdicional imune à Lei de Abuso de Autoridade.', false, 'Errada. Juízes são agentes públicos sujeitos à Lei 13.869/19 (art. 2º). O que a lei afasta é a divergência de interpretação (art. 1º, §2º), não a conduta dolosa para prejudicar a defesa.']
   ] }
 );

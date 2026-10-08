@@ -44,8 +44,8 @@ window.QUESTOES.push(
   enunciado: 'A advogada Patrícia, contratada por Rogério para uma ação de cobrança, precisou se afastar por alguns meses e substabeleceu o mandato, com reserva de poderes, ao advogado Sérgio, sem consultar Rogério. Sérgio, depois de atuar no processo, quer cobrar seus honorários diretamente de Rogério, embora nada tenha ajustado previamente com Patrícia. À luz do CED, assinale a afirmativa correta.',
   alt: [
     ['O substabelecimento é inválido, pois depende de prévio e inequívoco conhecimento do cliente.', false, 'Errada. Essa exigência vale para o substabelecimento SEM reserva (art. 26, §1º). Com reserva, é ato pessoal do advogado da causa.'],
-    ['Sérgio pode cobrar livremente de Rogério, pois quem se beneficiou do serviço foi o cliente.', false, 'Errada. O substabelecido com reserva não pode cobrar honorários sem a intervenção de quem lhe conferiu o substabelecimento (art. 26, §2º, do CED).'],
-    ['O substabelecimento com reserva é válido sem consulta ao cliente, mas Sérgio deveria ter ajustado antes seus honorários com Patrícia e não pode cobrá-los sem a intervenção dela.', true, 'Correta. Art. 26, caput e §2º, do CED: o substabelecido com reserva ajusta antecipadamente os honorários com o substabelecente e não cobra sem a intervenção deste.'],
+    ['Sérgio pode cobrar livremente de Rogério, pois quem se beneficiou do serviço foi o cliente.', false, 'Errada. O substabelecido com reserva não pode cobrar honorários sem a intervenção de quem lhe conferiu o substabelecimento (art. 26 do Estatuto).'],
+    ['O substabelecimento com reserva é válido sem consulta ao cliente, mas Sérgio deveria ter ajustado antes seus honorários com Patrícia e não pode cobrá-los sem a intervenção dela.', true, 'Correta. Art. 26, caput e §2º, do CED: o substabelecido com reserva ajusta antecipadamente os honorários com o substabelecente; e, pelo art. 26 do Estatuto, não cobra sem a intervenção deste.'],
     ['Com o substabelecimento, Patrícia deixou de ter qualquer vínculo com a causa e perdeu o direito aos honorários contratados.', false, 'Errada. No substabelecimento com reserva, o substabelecente continua no mandato; quem sai é quem substabelece sem reserva.']
   ] },
 { id: 'et467', materia: 'etica', topico: 'et-devolucao',
@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Helena pode fazê-lo, pois a advocacia pro bono pode ser exercida em favor de pessoas naturais que não disponham de recursos para contratar advogado sem prejuízo do próprio sustento.', true, 'Correta. Art. 30, §2º, do CED, com os requisitos de gratuidade, eventualidade e voluntariedade do §1º.'],
     ['Helena pode fazê-lo, desde que cobre honorários simbólicos para não caracterizar aviltamento.', false, 'Errada. Pro bono é gratuito por definição (art. 30, §1º, do CED); cobrar descaracteriza o instituto.'],
     ['Helena pode fazê-lo, mas deve divulgar o atendimento em suas redes sociais como forma de prestação de contas à OAB.', false, 'Errada. O pro bono não pode ser usado como instrumento de publicidade para captação de clientela (art. 30, §3º), e não há tal dever de divulgação.']
+  ] },
+{ id: 'et473', materia: 'etica', topico: 'et-aceite',
+  enunciado: 'O advogado Marcos, servidor estadual aposentado, foi procurado por uma associação de contribuintes para elaborar parecer sustentando a ilegalidade de uma gratificação paga aos servidores estaduais aposentados, da qual ele próprio é beneficiário. Marcos não deseja assumir o trabalho. Segundo o Código de Ética e Disciplina da OAB, assinale a afirmativa correta.',
+  alt: [
+    ['Marcos não pode recusar, pois o advogado só pode negar patrocínio quando houver impedimento previsto no Estatuto.', false, 'Errada. Na advocacia privada a aceitação é livre, e o CED prevê expressamente hipóteses de recusa legítima (art. 4º, parágrafo único, do CED).'],
+    ['Marcos pode recusar, mas deve comunicar o motivo à Seccional da OAB no prazo de 10 dias.', false, 'Errada. Não existe dever de comunicar a recusa à OAB. O prazo de 10 dias é o da responsabilidade após a renúncia (art. 5º, §3º, do Estatuto), situação diferente.'],
+    ['É legítima a recusa, pois o parecer trata de direito que também se aplica ao próprio Marcos.', true, 'Correta. É legítima a recusa do patrocínio de causa e de manifestação consultiva sobre direito que também seja aplicável ao advogado ou que contrarie orientação que ele já manifestou (art. 4º, parágrafo único, do CED).'],
+    ['Marcos pode recusar apenas se demonstrar que já defendeu publicamente tese oposta, pois o interesse pessoal não é motivo legítimo.', false, 'Errada. O CED traz duas hipóteses autônomas de recusa legítima: direito que também se aplica ao advogado ou contrariedade a orientação anterior. Basta uma delas (art. 4º, parágrafo único, do CED).']
+  ] },
+{ id: 'et474', materia: 'etica', topico: 'et-conflito',
+  enunciado: 'Fábio trabalhou por cinco anos como advogado empregado da Construtora Alfa, cuidando de demandas trabalhistas. Após pedir demissão, foi procurado por Rita, compradora de um apartamento, para ajuizar ação contra a Alfa por atraso na entrega da obra, assunto no qual Fábio nunca atuou. Segundo o Código de Ética e Disciplina da OAB, Fábio',
+  alt: [
+    ['está proibido de atuar contra a Alfa, por ser ela sua ex-empregadora.', false, 'Errada. O CED não proíbe a atuação contra ex-cliente ou ex-empregador; exige apenas o resguardo do sigilo profissional (art. 21 do CED).'],
+    ['pode atuar contra a Alfa somente após dois anos do desligamento, em quarentena ética.', false, 'Errada. Não existe essa quarentena no CED para atuar contra ex-empregador privado. A regra é o dever de sigilo (art. 21 do CED).'],
+    ['pode atuar contra a Alfa, desde que obtenha autorização expressa da antiga empregadora.', false, 'Errada. O CED não exige autorização do ex-empregador; exige o resguardo do sigilo profissional (art. 21 do CED).'],
+    ['pode atuar contra a Alfa, devendo resguardar o sigilo profissional sobre o que soube durante o vínculo.', true, 'Correta. O advogado, ao postular em nome de terceiros contra ex-cliente ou ex-empregador, deve resguardar o sigilo profissional (art. 21 do CED). Como Fábio não atuou no assunto nem colaborou no ato discutido, não incide o art. 22.']
+  ] },
+{ id: 'et475', materia: 'etica', topico: 'et-renuncia',
+  enunciado: 'Mateus outorgou procuração conjunta às advogadas Ana e Beatriz para atuar em ação de cobrança. Ana renunciou ao mandato, e Beatriz continua atuando normalmente no processo em favor de Mateus. Considerando o Código de Processo Civil e o Estatuto da Advocacia, assinale a afirmativa correta.',
+  alt: [
+    ['Ana permanece obrigada a representar Mateus pelos 10 dias seguintes, sob pena de cometer infração de abandono de causa.', false, 'Errada. A comunicação da renúncia e o prazo de 10 dias são dispensados quando a procuração foi outorgada a vários advogados e a parte continua representada por outro (art. 112, §2º, do CPC).'],
+    ['A renúncia de Ana é dispensada da comunicação ao cliente e do prazo de 10 dias, pois Mateus continua representado por Beatriz.', true, 'Correta. Art. 112, §2º, do CPC. A regra geral dos 10 dias (art. 5º, §3º, do Estatuto; art. 112, §1º, do CPC) existe para evitar o desamparo do cliente, que aqui não ocorre.'],
+    ['A renúncia de Ana só produz efeitos depois de homologada pelo juiz e aceita pelo cliente.', false, 'Errada. A renúncia é ato unilateral do advogado e não depende de aceitação do cliente nem de homologação judicial (art. 16 do CED; art. 112 do CPC).'],
+    ['A renúncia de Ana extingue automaticamente também o mandato de Beatriz, por se tratar de procuração conjunta.', false, 'Errada. A renúncia de um dos advogados não atinge os poderes dos demais constituídos; tanto que o CPC dispensa o prazo porque a parte continua representada (art. 112, §2º, do CPC).']
+  ] },
+{ id: 'et476', materia: 'etica', topico: 'et-devolucao',
+  enunciado: 'Joana descobriu que seu antigo advogado, Rui, recebeu da parte contrária, por conta dela, valores de uma indenização e não lhe repassou parte da quantia. Joana pretende ajuizar ação de prestação de contas contra Rui. Segundo o Estatuto da Advocacia, essa ação',
+  alt: [
+    ['é imprescritível, por envolver dinheiro de cliente.', false, 'Errada. O Estatuto fixa prazo prescricional específico para essa ação (art. 25-A do Estatuto).'],
+    ['prescreve em três anos, como as pretensões de reparação civil em geral.', false, 'Errada. Há regra específica no Estatuto: cinco anos (art. 25-A). O prazo de três anos é o da reparação civil no Código Civil (art. 206, §3º, V), que não se aplica aqui.'],
+    ['prescreve em cinco anos.', true, 'Correta. Prescreve em cinco anos a ação de prestação de contas pelas quantias recebidas pelo advogado de seu cliente, ou de terceiros por conta dele (art. 25-A do Estatuto).'],
+    ['só pode ser proposta depois de concluído o processo disciplinar na OAB.', false, 'Errada. As esferas civil e disciplinar são independentes; a ação de prestação de contas não depende do processo na OAB (art. 25-A do Estatuto; art. 550 do CPC).']
+  ] },
+{ id: 'et477', materia: 'etica', topico: 'et-colega',
+  enunciado: 'A advogada Olga aguardava, no fórum, o pregão de uma audiência marcada para as 14h. Às 14h40, o juiz que deveria presidir o ato ainda não havia comparecido, sem qualquer justificativa. Olga deseja ir embora para atender outro compromisso. Segundo o Estatuto da Advocacia, Olga',
+  alt: [
+    ['não pode retirar-se, pois o advogado deve aguardar o magistrado enquanto durar o expediente forense.', false, 'Errada. O Estatuto garante o direito de retirar-se após 30 minutos do horário designado, se a autoridade não tiver comparecido (art. 7º, XX, do Estatuto).'],
+    ['pode retirar-se livremente, sem qualquer formalidade, pois já se passaram mais de 15 minutos do horário marcado.', false, 'Errada. O prazo é de 30 minutos, e a retirada exige comunicação protocolizada em juízo (art. 7º, XX, do Estatuto).'],
+    ['pode retirar-se apenas se a parte contrária e seu advogado concordarem expressamente.', false, 'Errada. O direito do art. 7º, XX, do Estatuto não depende da concordância da parte contrária, mas de comunicação protocolizada em juízo.'],
+    ['pode retirar-se, pois já se passaram mais de 30 minutos do horário designado sem a presença da autoridade, mediante comunicação protocolizada em juízo.', true, 'Correta. É direito do advogado retirar-se do recinto onde aguarda pregão após 30 minutos do horário designado, ausente a autoridade que deva presidir o ato, mediante comunicação protocolizada em juízo (art. 7º, XX, do Estatuto).']
+  ] },
+{ id: 'et478', materia: 'etica', topico: 'probono',
+  enunciado: 'O advogado Sérgio atua pro bono, de forma eventual, em favor de uma organização social sem fins econômicos que acolhe pessoas em situação de rua. Por não receber honorários, ele passou a dar menos atenção aos processos dos assistidos, perdendo prazos e deixando de comparecer a audiências. Segundo o Código de Ética e Disciplina da OAB, assinale a afirmativa correta.',
+  alt: [
+    ['Sérgio deve empregar no pro bono o mesmo zelo e a mesma dedicação habituais, de forma que o assistido se sinta amparado e confie no patrocínio.', true, 'Correta. No exercício da advocacia pro bono, e ao atuar como defensor nomeado, conveniado ou dativo, o advogado deve empregar o zelo e a dedicação habituais (art. 30, caput, do CED).'],
+    ['A conduta de Sérgio é aceitável, pois a gratuidade reduz o dever de diligência do advogado.', false, 'Errada. A gratuidade não reduz os deveres profissionais; o CED exige o mesmo zelo e dedicação habituais (art. 30, caput, do CED).'],
+    ['Sérgio só teria dever de zelo se houvesse contrato escrito com a organização social.', false, 'Errada. O dever de zelo decorre do próprio patrocínio aceito, e o art. 30, caput, do CED o impõe expressamente ao pro bono, sem exigir contrato escrito.'],
+    ['Como o pro bono é voluntário, Sérgio pode deixar os processos a qualquer momento, sem renunciar formalmente.', false, 'Errada. A voluntariedade está em aceitar a causa. Uma vez aceita, o advogado não pode abandoná-la; deve renunciar formalmente (art. 15 do CED), sob pena da infração do art. 34, XI, do Estatuto.']
   ] }
 );

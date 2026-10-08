@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['pode pedir nova inscrição, que deve vir acompanhada de provas de reabilitação, e não restaura o número de inscrição anterior.', true, 'Correta. Art. 11 do Estatuto (novo pedido de inscrição não restaura o número anterior e exige provas de reabilitação), combinado com o art. 8º, §4º.'],
     ['pode pedir a restauração da inscrição antiga, com o mesmo número, bastando a reabilitação criminal.', false, 'Errada. O novo pedido de inscrição não restaura o número anterior, e o interessado deve provar novamente requisitos do art. 8º (art. 11).'],
     ['poderá voltar a advogar automaticamente, pois a reabilitação criminal produz efeitos imediatos na OAB.', false, 'Errada. Não há retorno automático: é preciso novo pedido de inscrição, com prova dos requisitos e da reabilitação (art. 11).']
+  ] },
+{ id: 'et573', materia: 'etica', topico: 'infracoes',
+  enunciado: 'O advogado Leandro, em ação de indenização, apresentou petição imputando ao representante da empresa ré a prática de crime de estelionato, em nome de seu cliente, sem que este lhe tivesse dado autorização escrita para tanto. Sobre a conduta de Leandro, assinale a afirmativa correta.',
+  alt: [
+    ['Não há infração, pois o advogado é inviolável por seus atos e manifestações no exercício da profissão.', false, 'Errada. A inviolabilidade (art. 2º, §3º, e art. 7º, §2º) tem limites e não afasta a infração expressa do art. 34, XV, que exige autorização escrita do cliente para imputar crime a terceiro.'],
+    ['Há infração disciplinar punível com suspensão, por se tratar de conduta desonesta.', false, 'Errada. O inciso XV está no grupo dos incisos I a XVI, punidos com censura (art. 36, I). A suspensão vale para os incisos XVII a XXV e XXX.'],
+    ['Há infração disciplinar punível com censura, pois imputar a terceiro fato definido como crime, em nome do constituinte, exige autorização escrita deste.', true, 'Correta. A conduta está no art. 34, XV, e as infrações dos incisos I a XVI são punidas com censura (art. 36, I).'],
+    ['Há infração apenas se o cliente for condenado por denunciação caluniosa.', false, 'Errada. A infração disciplinar independe do resultado na esfera penal; basta a imputação sem autorização escrita (art. 34, XV).']
+  ] },
+{ id: 'et574', materia: 'etica', topico: 'et-censura',
+  enunciado: 'A advogada Patrícia, que nunca havia respondido a processo disciplinar, foi condenada por violar norma de publicidade prevista no Código de Ética e Disciplina. O relator propôs converter a sanção em advertência. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A violação ao Código de Ética é punida com suspensão, que não admite conversão.', false, 'Errada. A violação a preceito do Código de Ética é punida com censura (art. 36, II), e não com suspensão.'],
+    ['A conversão é possível, pois a ausência de punição anterior é atenuante, e a advertência será aplicada em ofício reservado, sem registro nos assentamentos.', true, 'Correta. A censura cabe pela violação ao CED (art. 36, II); a primariedade é atenuante (art. 40, II), o que permite a conversão em advertência em ofício reservado, sem registro (art. 36, parágrafo único).'],
+    ['A conversão é possível, mas a advertência deve ser registrada nos assentamentos e publicada no Diário Eletrônico da OAB.', false, 'Errada. A advertência é feita em ofício reservado e sem registro nos assentamentos (art. 36, parágrafo único).'],
+    ['A conversão é impossível, pois só a falta cometida na defesa de prerrogativa permite a advertência.', false, 'Errada. Qualquer circunstância atenuante permite a conversão (art. 36, parágrafo único), e o art. 40 lista quatro, entre elas a ausência de punição anterior.']
+  ] },
+{ id: 'et575', materia: 'etica', topico: 'et-suspensao',
+  enunciado: 'O advogado Fernando foi condenado, em processo disciplinar, por incidir em erros reiterados que evidenciam inépcia profissional. Sobre a sanção e sua duração, assinale a afirmativa correta.',
+  alt: [
+    ['Fernando será censurado, pois o erro técnico não configura desonestidade.', false, 'Errada. A inépcia está no art. 34, XXIV, punida com suspensão (art. 37, I).'],
+    ['Fernando será suspenso pelo prazo fixo de 12 meses, sem possibilidade de prorrogação.', false, 'Errada. Na inépcia, a suspensão perdura até que o advogado preste novas provas de habilitação (art. 37, §3º); não há prazo fixo.'],
+    ['Fernando será excluído, pois a inépcia demonstra inidoneidade moral.', false, 'Errada. Inépcia é falta de preparo técnico, não inidoneidade moral (inciso XXVII). A sanção é suspensão (art. 37, I).'],
+    ['Fernando será suspenso, e a suspensão perdurará até que ele preste novas provas de habilitação.', true, 'Correta. Art. 34, XXIV, combinado com art. 37, I e §3º, do Estatuto.']
+  ] },
+{ id: 'et576', materia: 'etica', topico: 'et-exclusao',
+  enunciado: 'Tramita na Seccional processo disciplinar contra a advogada Rosana, acusada de ter se tornado moralmente inidônea para o exercício da advocacia. Concluída a instrução, discute-se como deve ser tomada a decisão de exclusão. Assinale a afirmativa correta.',
+  alt: [
+    ['A exclusão depende de manifestação favorável de dois terços dos membros do Conselho Seccional competente.', true, 'Correta. A inidoneidade moral (art. 34, XXVII) leva à exclusão (art. 38, II), que exige manifestação favorável de 2/3 dos membros do Conselho Seccional (art. 38, parágrafo único).'],
+    ['A exclusão pode ser decidida pela maioria simples dos membros do Tribunal de Ética e Disciplina presentes à sessão.', false, 'Errada. Para a exclusão, a lei exige quórum qualificado de 2/3 dos membros do Conselho Seccional (art. 38, parágrafo único).'],
+    ['A exclusão depende de decisão do Conselho Federal, por maioria absoluta.', false, 'Errada. O quórum é de 2/3 dos membros do Conselho Seccional competente, e não do Conselho Federal (art. 38, parágrafo único).'],
+    ['A inidoneidade moral leva apenas à suspensão, de 30 dias a 12 meses.', false, 'Errada. A suspensão é para conduta incompatível (inciso XXV). Tornar-se moralmente inidôneo (inciso XXVII) leva à exclusão (art. 38, II).']
+  ] },
+{ id: 'et577', materia: 'etica', topico: 'et-multa',
+  enunciado: 'O advogado Ícaro foi condenado à suspensão por ter retido abusivamente autos de processo por vários meses, causando graves prejuízos às partes. O Tribunal de Ética, considerando as circunstâncias e as consequências da infração, avalia a aplicação de multa. Assinale a afirmativa correta.',
+  alt: [
+    ['A multa não pode ser aplicada, pois só é cumulável com a censura.', false, 'Errada. A multa é cumulável com a censura ou com a suspensão (art. 39).'],
+    ['A multa pode ser aplicada cumulativamente com a suspensão, variando entre uma e dez anuidades, e as circunstâncias e consequências da infração orientam a decisão sobre sua conveniência e valor.', true, 'Correta. Art. 39 (multa de uma a dez anuidades, cumulável com censura ou suspensão, havendo agravantes) e art. 40, parágrafo único (critérios para decidir a cumulação e o valor).'],
+    ['A multa substituirá a suspensão, devendo ser fixada em até cinco anuidades.', false, 'Errada. A multa não substitui a sanção principal; ela é cumulativa, e o limite máximo é de dez anuidades (art. 39).'],
+    ['A multa será fixa, no valor de dez anuidades, sempre que houver suspensão.', false, 'Errada. O valor é variável, entre uma e dez anuidades, e sua aplicação depende de agravantes e dos critérios do art. 40, parágrafo único.']
+  ] },
+{ id: 'et578', materia: 'etica', topico: 'et-reabilitacao',
+  enunciado: 'O advogado Alberto foi punido com suspensão porque a infração disciplinar também configurava crime, pelo qual foi condenado. Cumpriu integralmente a suspensão há dois anos, apresenta provas efetivas de bom comportamento, mas ainda não obteve a reabilitação criminal. Ele requer a reabilitação disciplinar. O pedido deve ser:',
+  alt: [
+    ['deferido, pois já transcorreu mais de um ano do cumprimento da sanção e há provas de bom comportamento.', false, 'Errada. Quando a sanção resulta da prática de crime, o pedido depende também da correspondente reabilitação criminal (art. 41, parágrafo único).'],
+    ['indeferido, pois a reabilitação disciplinar só pode ser pedida cinco anos após o cumprimento da sanção.', false, 'Errada. O prazo é de um ano após o cumprimento (art. 41). Cinco anos é o prazo de prescrição da pretensão punitiva (art. 43).'],
+    ['indeferido por ora, pois, tratando-se de sanção resultante da prática de crime, a reabilitação disciplinar depende também da reabilitação criminal.', true, 'Correta. Art. 41, parágrafo único, do Estatuto.'],
+    ['deferido, pois a reabilitação disciplinar e a criminal são totalmente independentes.', false, 'Errada. O Estatuto vincula expressamente a reabilitação disciplinar à criminal quando a sanção resultou de crime (art. 41, parágrafo único).']
   ] }
 );

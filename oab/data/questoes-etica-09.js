@@ -25,12 +25,12 @@ window.QUESTOES.push(
     ['vedada, pois só sociedades de grande porte podem ter placa na fachada.', false, 'Errada. Não existe tal distinção; a regra vale para qualquer advogado ou sociedade (art. 40, parágrafo único, do CED).']
   ] },
 { id: 'et484', materia: 'etica', topico: 'et-pub-regras',
-  enunciado: 'O advogado Otávio, ex-juiz de direito aposentado, mandou imprimir cartões de visita com seu nome, número de inscrição na OAB, título de doutor em Direito, endereço, e-mail e a frase "atendimento com parcelamento em até 10 vezes". De acordo com o Código de Ética e Disciplina, é vedado constar no cartão:',
+  enunciado: 'O advogado Otávio mandou imprimir cartões de visita com seu nome, número de inscrição na OAB, título de mestre em Direito, endereço do escritório, e-mail e uma fotografia pessoal sua, de terno, ao lado do nome. De acordo com o Código de Ética e Disciplina, é vedado constar no cartão:',
   alt: [
-    ['o título de doutor em Direito.', false, 'Errada. Títulos acadêmicos podem constar do cartão (art. 44 do CED).'],
-    ['o endereço eletrônico do advogado.', false, 'Errada. O e-mail é informação permitida (art. 44 do CED).'],
-    ['o número de inscrição na OAB.', false, 'Errada. O número de inscrição é, aliás, elemento que deve constar (art. 44 do CED).'],
-    ['a referência à forma de pagamento dos honorários.', true, 'Correta. É vedada referência a valores, gratuidade ou forma de pagamento (art. 44, §1º, do CED). Também seria vedado mencionar o cargo de juiz exercido.']
+    ['o título de mestre em Direito.', false, 'Errada. Títulos acadêmicos podem constar do cartão (art. 44, §1º, do CED).'],
+    ['o endereço eletrônico do advogado.', false, 'Errada. O e-mail está entre as informações permitidas (art. 44, §1º, do CED).'],
+    ['o número de inscrição na OAB.', false, 'Errada. O número de inscrição não só pode como deve constar do cartão (art. 44, caput, do CED).'],
+    ['a fotografia pessoal do advogado.', true, 'Correta. O CED veda fotografias pessoais ou de terceiros nos cartões de visita (art. 44, §2º, do CED). Atenção: no meio digital, o Provimento 205/2021 admite fotos do advogado, mas a regra do cartão continua valendo.']
   ] },
 { id: 'et485', materia: 'etica', topico: 'et-prov205',
   enunciado: 'A advogada Sabrina publica no Instagram vídeos curtos explicando direitos do consumidor e paga à plataforma para que os vídeos alcancem mais pessoas. Os vídeos não mencionam valores nem prometem resultados. Segundo o Provimento 205/2021 do Conselho Federal da OAB, a conduta é:',
@@ -79,5 +79,45 @@ window.QUESTOES.push(
     ['apenas o endereço do escritório.', false, 'Errada. O endereço também é vedado nesse contexto (art. 40, V, do CED).'],
     ['apenas o telefone celular.', false, 'Errada. O telefone é dado de contato vedado em artigos (art. 40, V, do CED).'],
     ['apenas o endereço eletrônico (e-mail).', true, 'Correta. O art. 40, V, do CED permite somente a referência ao e-mail.']
+  ] },
+{ id: 'et491', materia: 'etica', topico: 'et-sigilo',
+  enunciado: 'A advogada Tânia representou a empresa Delta por cinco anos, até ter a procuração revogada. Agora, um ex-empregado da Delta quer contratá-la para ajuizar reclamação trabalhista contra a empresa, em causa sem relação com os casos que ela conduziu. Segundo o Código de Ética e Disciplina, Tânia:',
+  alt: [
+    ['está proibida de atuar contra ex-cliente, em qualquer hipótese.', false, 'Errada. Não há proibição absoluta de atuar contra ex-cliente; o CED exige que o advogado resguarde o sigilo profissional (art. 21 do CED).'],
+    ['pode aceitar a causa, devendo resguardar o sigilo profissional sobre o que soube como advogada da Delta.', true, 'Correta. Ao postular contra ex-cliente, o advogado deve resguardar o sigilo profissional (art. 21 do CED), que é de ordem pública e não tem prazo (art. 36 do CED).'],
+    ['pode aceitar a causa e usar livremente as informações da Delta, pois a revogação do mandato extinguiu o sigilo.', false, 'Errada. O sigilo não termina com a revogação do mandato nem com o fim do processo (arts. 21 e 36 do CED).'],
+    ['só pode aceitar a causa após dois anos da revogação da procuração.', false, 'Errada. O CED não fixa quarentena para atuar contra ex-cliente; o dever é resguardar o sigilo (art. 21 do CED). Prazos de quarentena aparecem em outras situações, como a de magistrados aposentados.']
+  ] },
+{ id: 'et492', materia: 'etica', topico: 'et-pub-regras',
+  enunciado: 'A advogada Débora comprou uma lista com milhares de números de celular de moradores de sua cidade e pretende enviar a todos uma mensagem por aplicativo oferecendo seus serviços de revisão de contratos bancários. Segundo o Código de Ética e Disciplina, a iniciativa é:',
+  alt: [
+    ['permitida, pois a internet e o telefone são meios lícitos de publicidade.', false, 'Errada. Esses meios podem ser usados, mas sem implicar oferecimento de serviços ou captação de clientela (art. 46, parágrafo único, do CED).'],
+    ['permitida, desde que a mensagem não mencione o valor dos honorários.', false, 'Errada. Mesmo sem preço, o envio em massa oferecendo serviços configura captação (arts. 40, VI, e 46, parágrafo único, do CED).'],
+    ['vedada, pois o envio de mensagens a destinatários certos é sempre proibido.', false, 'Errada. O CED admite mensagens a destinatários certos, desde que não ofereçam serviços nem captem clientela (art. 46, parágrafo único, do CED).'],
+    ['vedada, pois as mensagens oferecem serviços e configuram forma de captação de clientela.', true, 'Correta. Telefone e internet só podem ser usados para publicidade sem oferta de serviços e sem captação (art. 46, parágrafo único, do CED); o envio em massa equivale à mala direta vedada (art. 40, VI).']
+  ] },
+{ id: 'et493', materia: 'etica', topico: 'et-prov205',
+  enunciado: 'A advogada Renata recebeu proposta de uma revista: mediante pagamento de R$ 3.000,00, seu nome seria publicado em uma lista de "Advogados do Ano", com direito a troféu em evento. À luz do Provimento 205/2021 do Conselho Federal da OAB, assinale a afirmativa correta.',
+  alt: [
+    ['Renata pode aceitar, pois a premiação é concedida por terceiro e não pela própria advogada.', false, 'Errada. O Provimento veda pagar ou custear qualquer despesa para aparecer em rankings ou prêmios, ainda que organizados por terceiros (Prov. 205/21, art. 5º).'],
+    ['Renata não pode aceitar, pois é vedado o pagamento para viabilizar aparição em rankings ou premiações.', true, 'Correta. É vedado pagar, patrocinar ou fazer despesa para aparecer em rankings, prêmios ou honrarias que destaquem profissionais (Prov. 205/21, art. 5º).'],
+    ['Renata pode aceitar, desde que não divulgue o prêmio em redes sociais.', false, 'Errada. A vedação recai sobre o pagamento para obter a aparição, independentemente da divulgação posterior (Prov. 205/21, art. 5º).'],
+    ['Renata pode aceitar, desde que obtenha autorização prévia do Conselho Seccional.', false, 'Errada. Não há autorização prévia que torne lícita a compra de premiação (Prov. 205/21, art. 5º).']
+  ] },
+{ id: 'et494', materia: 'etica', topico: 'et-pub-vedacoes',
+  enunciado: 'O advogado Rui colou no vidro traseiro de seu automóvel particular um adesivo discreto com os dizeres "Rui Lima – Advocacia Trabalhista" e o número de seu telefone. Representado na OAB, alegou que o carro é seu e que o adesivo é sóbrio. Considerando o Código de Ética e Disciplina e o Estatuto da Advocacia, assinale a afirmativa correta.',
+  alt: [
+    ['A conduta é lícita, pois o veículo é de propriedade do próprio advogado.', false, 'Errada. O CED veda inscrições em veículos, sem distinguir de quem é o carro (art. 40, III, do CED).'],
+    ['A conduta é lícita, pois a publicidade observa a discrição e a sobriedade.', false, 'Errada. A discrição não torna lícito um meio expressamente vedado; a exceção de sobriedade só vale para a fachada do escritório (art. 40, parágrafo único, do CED).'],
+    ['A conduta é vedada e configura infração disciplinar punível com censura.', true, 'Correta. Inscrição em veículo é meio vedado (art. 40, III, do CED), e violar preceito do CED é punido com censura (art. 36, II, do Estatuto).'],
+    ['A conduta é vedada e configura infração disciplinar punível com suspensão.', false, 'Errada. A sanção para violação ao CED é a censura (art. 36, II, do Estatuto); a suspensão exigiria, por exemplo, reincidência (art. 37, II).']
+  ] },
+{ id: 'et495', materia: 'etica', topico: 'et-imprensa',
+  enunciado: 'O advogado Gilson foi convidado por uma rádio local para apresentar o quadro semanal "Doutor Responde", no qual leria cartas de ouvintes e diria a cada um como agir em seu problema jurídico. Segundo o Código de Ética e Disciplina, a participação de Gilson é:',
+  alt: [
+    ['permitida, pois o advogado pode participar de programas de rádio com finalidade educativa.', false, 'Errada. A participação educativa é permitida (art. 43 do CED), mas responder com habitualidade a consultas jurídicas na mídia é vedado (art. 42, I, do CED).'],
+    ['vedada, pois o advogado não pode participar de programas de rádio.', false, 'Errada. O rádio é vedado como meio de publicidade (art. 40, I), não para participação educativa (art. 43 do CED).'],
+    ['permitida, desde que Gilson não informe seu telefone e endereço.', false, 'Errada. Omitir contatos não afasta a vedação de responder consultas com habitualidade (art. 42, I, do CED).'],
+    ['vedada, pois é proibido responder com habitualidade a consultas sobre matéria jurídica nos meios de comunicação social.', true, 'Correta. O quadro semanal configura habitualidade na resposta a consultas, vedada pelo art. 42, I, do CED.']
   ] }
 );
