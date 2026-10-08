@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Fábio pode recusar a orientação, com base na independência funcional, mas não pode exercer atividade político-partidária nem prestar consultoria jurídica ao Município.', true, 'Correta. A independência funcional protege a convicção do membro (art. 127, §1º). É vedada a atividade político-partidária (art. 128, §5º, II, e) e é proibido ao MP prestar consultoria jurídica a entidades públicas (art. 129, IX).'],
     ['Fábio pode recusar a orientação e prestar consultoria ao Município, pois a ausência de procuradoria autoriza a atuação do MP.', false, 'Errada. O art. 129, IX, proíbe expressamente a representação judicial e a consultoria jurídica de entidades públicas pelo MP, sem exceção.'],
     ['Fábio pode filiar-se a partido político, desde que se afaste das funções durante a campanha.', false, 'Errada. A Constituição veda ao membro do MP a atividade político-partidária (art. 128, §5º, II, e).']
+  ] },
+{ id: 'co593', materia: 'constitucional', topico: 'co-garantias-juizes',
+  enunciado: 'O juiz de direito Álvaro, vitalício, titular de uma vara criminal, foi removido para outra comarca por decisão do Presidente do Tribunal de Justiça, que alegou interesse público, sem ouvir o magistrado e sem levar o caso ao órgão colegiado. Seu advogado questiona a validade do ato. Assinale a afirmativa correta.',
+  alt: [
+    ['A remoção é válida, pois a inamovibilidade cede sempre que o Presidente do Tribunal invocar interesse público.', false, 'Errada. O interesse público permite a remoção, mas a decisão não é do Presidente sozinho: exige voto da maioria absoluta do tribunal ou do CNJ, com ampla defesa (art. 93, VIII, e art. 95, II).'],
+    ['A remoção é inválida, pois a inamovibilidade só admite exceção por interesse público decidido pela maioria absoluta do tribunal ou do CNJ, assegurada ampla defesa.', true, 'Correta. A inamovibilidade protege o juiz contra remoções arbitrárias; a exceção do interesse público depende de decisão colegiada por maioria absoluta do tribunal ou do CNJ, com ampla defesa (art. 93, VIII, e art. 95, II, da CF).'],
+    ['A remoção é inválida, pois a inamovibilidade é absoluta e o juiz vitalício nunca pode ser removido contra a sua vontade.', false, 'Errada. A garantia não é absoluta: a própria Constituição admite remoção por interesse público, na forma do art. 93, VIII (art. 95, II).'],
+    ['A remoção é válida, desde que mantido o subsídio, porque a única garantia em jogo seria a irredutibilidade.', false, 'Errada. A irredutibilidade de subsídio (art. 95, III) é outra garantia; a remoção envolve a inamovibilidade (art. 95, II), que exige decisão colegiada e ampla defesa.']
+  ] },
+{ id: 'co594', materia: 'constitucional', topico: 'co-stf',
+  enunciado: 'O Presidente da República pretende indicar para o Supremo Tribunal Federal a jurista Helena, brasileira nata, de 68 anos, de notável saber jurídico e reputação ilibada, que nunca foi magistrada. Sobre a nomeação, assinale a afirmativa correta.',
+  alt: [
+    ['Helena não pode ser nomeada, pois a idade máxima para ingresso no STF é de 65 anos.', false, 'Errada. A EC 122/22 elevou o limite de idade para ingresso no STF de 65 para 70 anos (art. 101 da CF).'],
+    ['Helena não pode ser nomeada, porque o STF exige que o indicado tenha sido juiz de carreira por pelo menos dez anos.', false, 'Errada. A Constituição não exige carreira na magistratura para o STF: bastam cidadania, idade entre 35 e 70 anos, notável saber jurídico e reputação ilibada (art. 101).'],
+    ['Helena pode ser nomeada pelo Presidente da República depois de aprovada a escolha pela maioria absoluta do Senado Federal.', true, 'Correta. Helena tem mais de 35 e menos de 70 anos (limite da EC 122/22), é brasileira nata (art. 12, §3º, IV) e cumpre os demais requisitos; a nomeação depende de aprovação pela maioria absoluta do Senado (art. 101, parágrafo único).'],
+    ['Helena pode ser nomeada após aprovação por maioria simples da Câmara dos Deputados.', false, 'Errada. Quem aprova a indicação é o Senado Federal, por maioria absoluta, após sabatina; a Câmara não participa (art. 101, parágrafo único, e art. 52, III, a).']
+  ] },
+{ id: 'co595', materia: 'constitucional', topico: 'co-stj',
+  enunciado: 'A empresária Joana obteve, na Justiça da Itália, sentença definitiva condenando uma empresa brasileira ao pagamento de valores. Ela contratou o advogado Rui para fazer essa sentença produzir efeitos no Brasil. Qual órgão é competente para homologar a sentença estrangeira?',
+  alt: [
+    ['O Supremo Tribunal Federal, por se tratar de relação com Estado estrangeiro.', false, 'Errada. Até a EC 45/04 a competência era do STF; desde então passou ao STJ (art. 105, I, i, da CF).'],
+    ['O juiz federal de primeira instância, que também executa a sentença.', false, 'Errada. O juiz federal executa a sentença estrangeira depois de homologada (art. 109, X), mas não a homologa.'],
+    ['O Tribunal de Justiça do Estado onde está sediada a empresa condenada.', false, 'Errada. A Justiça Estadual não tem competência para homologar sentença estrangeira; ela é originária do STJ (art. 105, I, i).'],
+    ['O Superior Tribunal de Justiça, cabendo depois aos juízes federais a execução.', true, 'Correta. Compete ao STJ processar e julgar originariamente a homologação de sentenças estrangeiras e a concessão de exequatur às cartas rogatórias (art. 105, I, i); a execução cabe aos juízes federais (art. 109, X).']
+  ] },
+{ id: 'co596', materia: 'constitucional', topico: 'co-cnj',
+  enunciado: 'Em sessão plenária do STF, com os onze ministros presentes, foi proposta a edição de súmula vinculante sobre matéria constitucional que gera grave insegurança jurídica e multiplicação de processos. Sete ministros votaram a favor e quatro contra. Assinale a afirmativa correta.',
+  alt: [
+    ['A súmula vinculante foi aprovada, pois bastaria a maioria absoluta dos membros do STF.', false, 'Errada. Maioria absoluta (seis votos) é o quórum de declaração de inconstitucionalidade (art. 97), não o da súmula vinculante, que exige dois terços (art. 103-A).'],
+    ['A súmula vinculante não foi aprovada, pois sua edição exige a decisão de dois terços dos membros do STF, ou seja, oito ministros.', true, 'Correta. O art. 103-A da CF exige decisão de dois terços dos membros do STF para aprovar, revisar ou cancelar súmula vinculante; dois terços de onze são oito votos, e houve só sete.'],
+    ['A súmula vinculante foi aprovada, mas só terá efeito depois de referendada pelo Senado Federal.', false, 'Errada. Não há referendo do Senado; a súmula produz efeito vinculante a partir da publicação na imprensa oficial (art. 103-A). A suspensão pelo Senado do art. 52, X, é instituto diferente, do controle difuso.'],
+    ['A súmula vinculante não foi aprovada, pois a Constituição exige unanimidade dos ministros.', false, 'Errada. Não se exige unanimidade, e sim dois terços dos membros (art. 103-A).']
+  ] },
+{ id: 'co597', materia: 'constitucional', topico: 'funcoesessenciais',
+  enunciado: 'O Governador do Estado Ômega editou decreto subordinando a Defensoria Pública estadual à Secretaria de Justiça, que passaria a elaborar a proposta orçamentária da instituição e a definir em quais processos os defensores atuariam. A Defensora Pública-Geral consultou a advogada Paula. Assinale a orientação correta.',
+  alt: [
+    ['O decreto é válido, pois a Defensoria Pública integra a estrutura do Poder Executivo e se submete à hierarquia do Governador.', false, 'Errada. Desde a EC 45/04 as Defensorias Públicas estaduais têm autonomia funcional e administrativa, e não se subordinam a secretaria do Executivo (art. 134, §2º).'],
+    ['O decreto é válido quanto ao orçamento, mas inválido quanto à atuação dos defensores, protegida apenas pela independência funcional.', false, 'Errada. A Defensoria também tem a iniciativa de sua proposta orçamentária, dentro dos limites da lei de diretrizes orçamentárias (art. 134, §2º).'],
+    ['O decreto é inconstitucional, pois a Defensoria Pública estadual tem autonomia funcional e administrativa e a iniciativa de sua proposta orçamentária.', true, 'Correta. O art. 134, §2º, da CF garante às Defensorias Públicas estaduais autonomia funcional e administrativa e a iniciativa da proposta orçamentária; a subordinação a uma secretaria viola essa autonomia (o STF já declarou inconstitucionais normas desse tipo).'],
+    ['O decreto é inconstitucional apenas porque a matéria exigiria lei complementar estadual, que poderia prever a mesma subordinação.', false, 'Errada. Nem lei poderia subordinar a Defensoria ao Executivo, pois a autonomia vem da própria Constituição (art. 134, §2º).']
+  ] },
+{ id: 'co598', materia: 'constitucional', topico: 'co-mp',
+  enunciado: 'Uma associação de moradores, assistida pelo advogado Tiago, quer representar contra a conduta funcional de um promotor de justiça e se pergunta qual órgão de controle externo pode receber a reclamação. Sobre o Conselho Nacional do Ministério Público, assinale a afirmativa correta.',
+  alt: [
+    ['O CNMP é presidido pelo Procurador-Geral da República e pode receber reclamações contra membros do Ministério Público da União e dos Estados.', true, 'Correta. O CNMP compõe-se de quatorze membros, é presidido pelo Procurador-Geral da República e tem competência para receber e conhecer reclamações contra membros ou órgãos do MP da União e dos Estados (art. 130-A, I, e §2º, III).'],
+    ['O CNMP só fiscaliza o Ministério Público da União; promotores estaduais respondem apenas à Corregedoria local.', false, 'Errada. O controle do CNMP alcança também os Ministérios Públicos dos Estados, sem prejuízo da competência disciplinar das corregedorias (art. 130-A, §2º).'],
+    ['O CNMP é presidido pelo Presidente do STF, assim como o CNJ.', false, 'Errada. Quem preside o CNJ é o Presidente do STF (art. 103-B, §1º); o CNMP é presidido pelo Procurador-Geral da República (art. 130-A, I).'],
+    ['O CNMP pode rever o mérito das manifestações processuais do promotor, como a denúncia oferecida.', false, 'Errada. O CNMP faz controle administrativo, financeiro e disciplinar; não interfere na atividade-fim, protegida pela independência funcional (art. 127, §1º, e art. 130-A, §2º).']
   ] }
 );

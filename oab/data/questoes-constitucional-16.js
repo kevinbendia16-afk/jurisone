@@ -96,4 +96,53 @@ window.QUESTOES.push(
     ['Habeas data.', false, 'Errada. O habeas data serve para conhecer ou corrigir informações pessoais em bancos de dados (art. 5º, LXXII).'],
     ['Arguição de descumprimento de preceito fundamental.', false, 'Errada. A ADPF também é controle abstrato, e o cidadão comum não é legitimado para propô-la (art. 2º da Lei 9.882/99).']
   ] }
+,
+{ id: 'co633', materia: 'constitucional', topico: 'co-controle-teoria',
+  enunciado: 'Uma lei estadual de 2015 passou a contrariar a Constituição depois que uma emenda constitucional de 2022 alterou o parâmetro sobre o tema. O advogado Rui quer saber como o STF trata essa situação. Assinale a afirmativa correta.',
+  alt: [
+    ['O STF não admite a inconstitucionalidade superveniente: a incompatibilidade com norma constitucional posterior resolve-se como não recepção (revogação).', true, 'Correta. Para o STF, a validade da lei se afere pela Constituição vigente quando ela foi editada; a emenda posterior incompatível gera revogação (não recepção), e não inconstitucionalidade superveniente. O tema pode ser levado ao STF por ADPF (art. 1º, parágrafo único, I, da Lei 9.882/99).'],
+    ['A lei torna-se inconstitucional desde 2015, com efeitos retroativos à sua edição.', false, 'Errada. A lei era válida quando editada; não há como ser inconstitucional antes do novo parâmetro existir.'],
+    ['A lei continua válida, pois emenda constitucional não pode afetar leis anteriores.', false, 'Errada. A emenda passa a integrar a Constituição, e as normas anteriores incompatíveis deixam de valer (são revogadas).'],
+    ['A situação só pode ser examinada por ADI, que é a via própria para leis estaduais.', false, 'Errada. A ADI exige lei posterior ao parâmetro invocado; para direito anterior ao parâmetro, a via abstrata no STF é a ADPF.']
+  ] },
+{ id: 'co634', materia: 'constitucional', topico: 'co-difuso',
+  enunciado: 'A 3ª Turma de um Tribunal de Justiça, ao julgar apelação, quer afastar a aplicação de uma lei estadual por considerá-la inconstitucional. Sobre o tema, o STF já declarou essa mesma lei inconstitucional em decisão plenária. Assinale a afirmativa correta.',
+  alt: [
+    ['A Turma deve obrigatoriamente remeter a questão ao Órgão Especial, sob pena de violar a Súmula Vinculante 10.', false, 'Errada. A Súmula Vinculante 10 proíbe o órgão fracionário de afastar a lei por conta própria, mas o próprio CPC dispensa a remessa quando já houver pronunciamento do plenário do STF sobre a questão (art. 949, parágrafo único, do CPC).'],
+    ['A Turma pode deixar de aplicar a lei sem remeter a questão ao plenário ou ao Órgão Especial, porque já há pronunciamento do plenário do STF.', true, 'Correta. A cláusula de reserva de plenário (art. 97 da CF) é dispensada quando já existe pronunciamento do plenário do STF ou do próprio tribunal sobre a questão (art. 949, parágrafo único, do CPC).'],
+    ['A Turma só pode afastar a lei se o Senado já tiver suspendido sua execução.', false, 'Errada. A resolução do Senado (art. 52, X, da CF) não é condição para o tribunal deixar de aplicar a lei no caso concreto.'],
+    ['Órgão fracionário de tribunal nunca pode deixar de aplicar lei por inconstitucionalidade.', false, 'Errada. Ele pode, nas hipóteses de dispensa previstas no art. 949, parágrafo único, do CPC.']
+  ] },
+{ id: 'co635', materia: 'constitucional', topico: 'controle2',
+  enunciado: 'Uma lei distrital editada no exercício da competência municipal do Distrito Federal contraria a Constituição Federal. O Governador de um estado pretende ajuizar ADI no STF contra ela. Assinale a afirmativa correta.',
+  alt: [
+    ['Cabe ADI, pois toda lei do Distrito Federal é equiparada a lei estadual.', false, 'Errada. Só a lei distrital editada no exercício de competência estadual pode ser objeto de ADI (art. 102, I, a, da CF).'],
+    ['Cabe ADC, já que o objetivo é confirmar a validade da lei.', false, 'Errada. A ADC só tem por objeto lei ou ato normativo federal (art. 102, I, a, da CF) e serve para confirmar a constitucionalidade, não para impugná-la.'],
+    ['Não cabe ADI, pois lei distrital de natureza municipal não pode ser objeto dessa ação (Súmula 642 do STF); a via abstrata possível no STF é a ADPF.', true, 'Correta. A Súmula 642 do STF afasta a ADI contra lei distrital derivada de competência municipal. Como não há outro meio eficaz no controle abstrato, admite-se a ADPF (art. 4º, §1º, da Lei 9.882/99).'],
+    ['Não cabe nenhuma ação no STF, apenas o controle difuso.', false, 'Errada. A ADPF, subsidiária, alcança atos municipais e equiparados (art. 1º da Lei 9.882/99).']
+  ] },
+{ id: 'co636', materia: 'constitucional', topico: 'co-adi',
+  enunciado: 'O Procurador-Geral da República ajuizou ADI contra lei federal. Semanas depois, convencido da validade da lei, pediu a desistência da ação. Assinale a afirmativa correta.',
+  alt: [
+    ['A desistência deve ser homologada, pois o autor é o titular da ação.', false, 'Errada. No processo objetivo não há interesse subjetivo do autor; a lei proíbe a desistência.'],
+    ['A desistência só é possível com a concordância do Advogado-Geral da União.', false, 'Errada. Nem com concordância de ninguém: a vedação é absoluta (art. 5º da Lei 9.868/99).'],
+    ['A desistência é possível apenas antes da manifestação do Advogado-Geral da União.', false, 'Errada. A lei não traz esse marco temporal; proíbe a desistência em qualquer momento.'],
+    ['Não se admite desistência em ADI, e o STF prosseguirá no julgamento.', true, 'Correta. Proposta a ação direta, não se admite desistência (art. 5º da Lei 9.868/99), pois o processo é objetivo e visa à defesa da ordem constitucional.']
+  ] },
+{ id: 'co637', materia: 'constitucional', topico: 'co-adc',
+  enunciado: 'A Confederação Nacional Alfa ajuizou ADC sobre uma lei federal recém-publicada, juntando apenas o texto da lei e pareceres doutrinários favoráveis. Não há nenhuma decisão judicial discutindo a norma. Assinale a afirmativa correta.',
+  alt: [
+    ['A petição inicial deve indicar a existência de controvérsia judicial relevante sobre a aplicação da lei, requisito ausente no caso.', true, 'Correta. A ADC exige demonstrar controvérsia judicial relevante sobre a norma (art. 14, III, da Lei 9.868/99); sem ela, o STF estaria emitindo parecer abstrato sobre lei que goza de presunção de constitucionalidade.'],
+    ['A ADC é cabível, pois toda lei federal pode ter sua constitucionalidade confirmada a qualquer tempo.', false, 'Errada. Sem controvérsia judicial relevante, falta requisito de admissibilidade (art. 14, III, da Lei 9.868/99).'],
+    ['Confederação sindical não tem legitimidade para propor ADC.', false, 'Errada. Os legitimados da ADC são os mesmos da ADI (art. 103, IX, da CF), incluindo confederação sindical, observada a pertinência temática.'],
+    ['Basta a divergência doutrinária para que a ADC seja admitida.', false, 'Errada. A controvérsia exigida é judicial, não meramente doutrinária.']
+  ] },
+{ id: 'co638', materia: 'constitucional', topico: 'co-ado',
+  enunciado: 'O STF julgou procedente ADO e reconheceu a omissão de um órgão administrativo em editar ato normativo exigido pela Constituição. Qual a consequência prevista na Constituição?',
+  alt: [
+    ['O STF edita ele mesmo o ato faltante, com força de lei.', false, 'Errada. A Constituição não prevê que o STF edite o ato; prevê ciência ao órgão omisso (art. 103, §2º).'],
+    ['Dá-se ciência ao Poder competente, sem prazo fixado.', false, 'Errada. A ciência sem prazo é a regra para o Poder competente (Legislativo); para órgão administrativo há o prazo de trinta dias (art. 103, §2º).'],
+    ['O órgão administrativo é cientificado para adotar as providências em trinta dias.', true, 'Correta. Declarada a omissão, tratando-se de órgão administrativo, ele deve agir em trinta dias (art. 103, §2º, da CF). A Lei 9.868/99 permite fixar prazo razoável diverso, conforme o interesse público (art. 12-H, §1º).'],
+    ['O dirigente do órgão é automaticamente afastado do cargo.', false, 'Errada. Não há essa sanção na Constituição ou na Lei 9.868/99.']
+  ] }
 );
