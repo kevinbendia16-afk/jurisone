@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['O tesouro pertence inteiramente a Zeca, que o encontrou.', false, 'Errada. O CC manda dividir o tesouro achado casualmente (art. 1.264).'],
     ['O tesouro deve ser entregue ao Município, por se tratar de coisa sem dono.', false, 'Errada. O destino ao Município é regra da descoberta de coisa perdida não reclamada (art. 1.237), e não do tesouro.'],
     ['O tesouro será dividido por igual entre Ivone, proprietária do prédio, e Zeca, que o achou casualmente.', true, 'Correta. Art. 1.264 do CC.']
+  ] },
+{ id: 'ci553', materia: 'civil', topico: 'ci-posse',
+  enunciado: 'Marcos alugou um apartamento a Nádia por dois anos. Durante a locação, um terceiro, Orlando, tenta invadir o imóvel. Sobre a posse nessa situação, assinale a afirmativa correta.',
+  alt: [
+    ['Apenas Marcos, como proprietário, tem posse e pode defendê-la contra Orlando.', false, 'Errada. A locatária também tem posse (direta), e não mera detenção (art. 1.197 do CC).'],
+    ['Nádia é possuidora direta e Marcos é possuidor indireto; ambos podem defender a posse contra Orlando.', true, 'Correta. O desdobramento da posse não anula a posse indireta, e o possuidor direto pode defendê-la contra terceiros e até contra o indireto (art. 1.197 do CC).'],
+    ['Nádia é mera detentora, pois ocupa o bem em nome de Marcos.', false, 'Errada. Detentor é quem conserva a posse em nome de outro numa relação de dependência, como o caseiro (art. 1.198). O locatário exerce posse própria, direta.'],
+    ['Marcos perdeu a posse ao entregar o imóvel, restando-lhe apenas a propriedade.', false, 'Errada. Ele conserva a posse indireta (art. 1.197).']
+  ] },
+{ id: 'ci554', materia: 'civil', topico: 'ci-protecao-possessoria',
+  enunciado: 'Paula teve seu terreno invadido por Quirino. Logo em seguida, sem demora, Paula, usando apenas a força necessária, retomou o imóvel por conta própria. Sobre a conduta de Paula, assinale a afirmativa correta.',
+  alt: [
+    ['É ilícita, pois a retomada da posse exige sempre ordem judicial.', false, 'Errada. O CC admite o desforço imediato, desde que logo e com moderação (art. 1.210, §1º).'],
+    ['É lícita apenas se Paula provar que é proprietária do terreno.', false, 'Errada. A defesa da posse independe da propriedade; nem a alegação de domínio obsta a proteção possessória (art. 1.210, §2º).'],
+    ['É lícita, pois o esbulhado pode restituir-se por sua própria força, desde que o faça logo e sem ir além do indispensável.', true, 'Correta. É o desforço imediato do art. 1.210, §1º, do CC.'],
+    ['É lícita, mesmo que realizada meses depois, pois a posse nunca se perde.', false, 'Errada. A lei exige que a reação seja imediata ("contanto que o faça logo"); depois disso, só pela via judicial (art. 1.210, §1º).']
+  ] },
+{ id: 'ci555', materia: 'civil', topico: 'propriedade',
+  enunciado: 'Renan é dono de um terreno urbano. Uma empresa de telefonia instala cabos a 40 metros de altura sobre o imóvel, sem causar qualquer incômodo ao uso do terreno. Renan quer impedir a passagem. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Renan pode impedir qualquer atividade no espaço aéreo, pois a propriedade do solo é ilimitada em altura.', false, 'Errada. A propriedade abrange o espaço aéreo e o subsolo apenas em altura e profundidade úteis ao seu exercício (art. 1.229).'],
+    ['Renan não pode se opor, porque não tem legítimo interesse em impedir atividade realizada a uma altura que não o prejudica.', true, 'Correta. O proprietário não pode se opor a atividades a altura ou profundidade tais que não tenha interesse legítimo em impedi-las (art. 1.229 do CC).'],
+    ['Renan só pode se opor se comprovar que pretende construir até essa altura no próximo ano.', false, 'Errada. O critério é o interesse legítimo, não um prazo de construção previsto em lei (art. 1.229).'],
+    ['O espaço aéreo pertence sempre à União, por isso Renan não tem qualquer direito sobre ele.', false, 'Errada. O espaço aéreo útil integra a propriedade do solo (art. 1.229); o que pertence à União são, por exemplo, os recursos minerais (art. 1.230 do CC; art. 176 da CF).']
+  ] },
+{ id: 'ci556', materia: 'civil', topico: 'ci-aquisicao-imovel',
+  enunciado: 'Sandro, de boa-fé, construiu uma casa em terreno que acreditava ser seu, mas que pertencia a Tânia. O valor da construção excede consideravelmente o valor do terreno. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Tânia adquire a casa sem pagar nada, pois tudo o que se constrói adere ao solo.', false, 'Errada. Mesmo na regra geral (art. 1.255, caput), o construtor de boa-fé tem direito a indenização.'],
+    ['Sandro deve demolir a casa e devolver o terreno no estado anterior.', false, 'Errada. Demolição é consequência para o construtor de má-fé (art. 1.255), não para o de boa-fé.'],
+    ['Sandro adquire a propriedade do solo, mediante pagamento da indenização fixada judicialmente, se não houver acordo.', true, 'Correta. É a acessão inversa do art. 1.255, parágrafo único, do CC.'],
+    ['Sandro e Tânia passam a ser condôminos obrigatórios do imóvel, em partes iguais.', false, 'Errada. A lei não cria condomínio nessa hipótese; prevê a aquisição do solo por Sandro com indenização (art. 1.255, parágrafo único).']
+  ] },
+{ id: 'ci557', materia: 'civil', topico: 'ci-usucapiao',
+  enunciado: 'Ubirajara possui, como seu, há onze anos, de forma contínua e sem oposição, um imóvel rural, sem justo título nem boa-fé. Nele estabeleceu sua moradia habitual. Sobre a usucapião, assinale a afirmativa correta.',
+  alt: [
+    ['Ele não pode usucapir, porque a usucapião extraordinária exige sempre 15 anos.', false, 'Errada. O prazo de 15 anos cai para 10 se o possuidor tiver estabelecido no imóvel sua moradia habitual ou nele realizado obras ou serviços produtivos (art. 1.238, parágrafo único).'],
+    ['Ele pode usucapir, pois cumpriu o prazo reduzido de 10 anos da usucapião extraordinária, aplicável a quem estabelece moradia habitual no imóvel.', true, 'Correta. Art. 1.238, parágrafo único, do CC; a extraordinária dispensa justo título e boa-fé.'],
+    ['Ele não pode usucapir, porque sem justo título e boa-fé nenhuma usucapião é possível.', false, 'Errada. Justo título e boa-fé são exigidos na ordinária (art. 1.242), não na extraordinária (art. 1.238).'],
+    ['Ele só pode usucapir se a área não ultrapassar 50 hectares.', false, 'Errada. O limite de 50 hectares é da usucapião especial rural (art. 1.239 do CC; art. 191 da CF), que exige 5 anos; a extraordinária não tem limite de área.']
+  ] },
+{ id: 'ci558', materia: 'civil', topico: 'ci-aquisicao-movel',
+  enunciado: 'Vera vendeu e entregou a Wilson um notebook. Depois, alegando que a venda era por procuração e que o verdadeiro dono era Xavier, surgiu dúvida sobre o momento da transferência. Em regra, sobre a aquisição de bens móveis por negócio jurídico, assinale a afirmativa correta.',
+  alt: [
+    ['A propriedade de bem móvel se transfere com a simples celebração do contrato, independentemente da entrega.', false, 'Errada. No direito brasileiro, o contrato só gera obrigação; a propriedade móvel se transfere pela tradição (art. 1.267).'],
+    ['A propriedade de bem móvel se transfere pelo registro do contrato em cartório de títulos e documentos.', false, 'Errada. Registro é o modo de aquisição dos imóveis (art. 1.245); para móveis, a regra é a tradição (art. 1.267).'],
+    ['A tradição feita por quem não é dono não transfere a propriedade, salvo se o bem for oferecido ao público em leilão ou estabelecimento comercial e transferido em circunstâncias que façam o adquirente de boa-fé crer que o alienante era dono.', true, 'Correta. Art. 1.268 do CC; e, se o alienante adquirir depois a propriedade, a transferência se considera eficaz desde a tradição (art. 1.268, §1º).'],
+    ['A tradição feita por quem não é dono sempre transfere a propriedade ao adquirente de boa-fé, sem exceções.', false, 'Errada. A regra é a ineficácia da tradição a non domino (por quem não é dono), com as exceções do art. 1.268.']
   ] }
 );

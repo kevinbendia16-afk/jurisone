@@ -1,6 +1,6 @@
 # Estado (atualizado 07/10 ~00:05 UTC)
 Limite de uso estourou 2x (reset 17:10 e 23:50 UTC). Prioridade: auditoria primeiro, depois produção e contestação.
-Feito e publicado: Constitucional, Ética, Penal. AGORA CIVIL: wcyhzp26e (wf_63e8787f-1b9, ímpares), w9n9dipy2 (wf_c10dd4d8-e47, pares), panoramas wi7fgdjge. Args com extra (todos os artigos do CC). Depois integrar civil-01..17 e publicar; seguir Processo Civil.
+Feito e publicado: Constitucional, Ética, Penal, Civil. AGORA PROCESSO CIVIL (processocivil-01..20 + panoramas prazos,recursos,tutelas em materias.js e procedimento em materias2.js). Depois: Processo Penal, Trabalho, Proc. Trabalho, Administrativo, Tributário, Empresarial, leves.
 - Auditoria item por item (scratchpad/auditoria-total.js): woa1kfgqc (wf_15830aa6-b84, onda1), wjne5xn4u (wf_0b8829da-a27, onda2), wgvrl616b (wf_7cd26171-01b, onda3), wrziaf7wt (wf_78d06d25-959, onda4), wyyyd14oh (wf_33688c1b-ed6, onda5). Args: scratchpad/auditoria-onda{1..5}.json
   -> ao terminar: python3 oab/tools/auditoria/aplicar.py tasks/<id>.output ; depois relatório.
 - Auditoria geral: wd4px06eo (wf_bf8edef4-571, scratchpad/auditoria-geral.js)
