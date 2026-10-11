@@ -31,5 +31,21 @@ window.QUESTOES.push(
     ['Henrique só responde se tiver agido com dolo ou culpa grave, o que não ocorreu no caso.', true, 'Correta. No transporte desinteressado, de simples cortesia, o transportador só responde por danos ao passageiro quando houver dolo ou culpa grave (Súmula 145 do STJ; art. 736 do CC). Distração leve não basta.'],
     ['Henrique responde por qualquer grau de culpa, pois a carona é contrato de transporte gratuito.', false, 'Errada. A carona por amizade não é regida pelas regras do contrato de transporte (art. 736 do CC), e a Súmula 145 do STJ exige dolo ou culpa grave.'],
     ['Henrique nunca responde, pois quem aceita carona assume todos os riscos da viagem.', false, 'Errada. Há responsabilidade se houver dolo ou culpa grave (Súmula 145 do STJ). Não existe exclusão total.']
+  ] },
+{ id: 'ci505', materia: 'civil', topico: 'ci-seguro',
+  enunciado: 'Diego pagava em parcelas mensais o prêmio do seguro de seu automóvel. Deixou de pagar a quarta parcela e, quinze dias depois, o carro foi roubado. A seguradora recusou a indenização, afirmando que o contrato estava automaticamente cancelado pelo atraso. Diego nunca recebeu qualquer aviso da seguradora. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A recusa é válida, pois o atraso no pagamento de qualquer parcela do prêmio extingue de pleno direito a cobertura.', false, 'Errada. O simples atraso não cancela nem suspende o seguro automaticamente; é preciso notificar previamente o segurado para constituí-lo em mora (Súmula 616 do STJ).'],
+    ['A recusa é válida, mas Diego pode pedir a devolução das parcelas já pagas.', false, 'Errada. A recusa em si é indevida, porque não houve notificação prévia (Súmula 616 do STJ). Não se trata de devolver prêmios, e sim de pagar a indenização.'],
+    ['A recusa é indevida, pois a suspensão ou o cancelamento por atraso exigem prévia notificação do segurado, podendo a seguradora descontar a parcela em aberto.', true, 'Correta. Pela Súmula 616 do STJ, a indenização é devida quando ocorre o sinistro antes da comunicação prévia ao segurado para constituí-lo em mora. A seguradora pode compensar a parcela não paga. A Lei 15.040/2024 seguiu a mesma linha de exigir aviso antes da suspensão.'],
+    ['A recusa só seria indevida se Diego já tivesse pago mais da metade das parcelas do prêmio.', false, 'Errada. A exigência de aviso prévio não depende de quantas parcelas foram pagas (Súmula 616 do STJ). O adimplemento substancial é outro argumento, que não é requisito para a proteção da súmula.']
+  ] },
+{ id: 'ci506', materia: 'civil', topico: 'ci-outros-contratos',
+  enunciado: 'Lívia viajava em ônibus intermunicipal da Viação Sol quando um caminhão, em alta velocidade e na contramão, atingiu o coletivo. Lívia sofreu fraturas e pediu indenização à Viação Sol, que alegou não ter culpa, pois o acidente foi causado exclusivamente pelo motorista do caminhão. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A Viação Sol não responde, pois a culpa exclusiva de terceiro rompe o nexo causal e afasta a responsabilidade do transportador.', false, 'Errada. No contrato de transporte, a culpa de terceiro não elide a responsabilidade do transportador pelo acidente com o passageiro (art. 735 do CC; Súmula 187 do STF). A excludente de culpa de terceiro vale em outras situações, não aqui.'],
+    ['A Viação Sol responde, mas só se Lívia provar que o motorista do ônibus também agiu com culpa.', false, 'Errada. A responsabilidade do transportador é objetiva; o passageiro não precisa provar culpa (art. 734 do CC).'],
+    ['A Viação Sol responde perante Lívia e pode, depois, cobrar em ação regressiva o que pagou do causador do acidente.', true, 'Correta. A responsabilidade contratual do transportador não é afastada por culpa de terceiro, contra quem ele tem ação regressiva (art. 735 do CC; Súmula 187 do STF). O acidente de trânsito é risco próprio da atividade, um fortuito interno.'],
+    ['Lívia só pode cobrar do proprietário do caminhão, pois a Viação Sol cumpriu o contrato ao conduzir o ônibus com cuidado.', false, 'Errada. O transportador assume obrigação de resultado: levar o passageiro são e salvo ao destino. Ele responde mesmo sem culpa e mesmo diante de culpa de terceiro (arts. 734 e 735 do CC).']
   ] }
 );

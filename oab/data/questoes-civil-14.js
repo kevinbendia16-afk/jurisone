@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Vítor pode obter o reconhecimento de Álvaro, mas perderá o vínculo com Sérgio, pois ninguém pode ter dois pais.', false, 'Errada. O STF admitiu a multiparentalidade, ou seja, a coexistência dos vínculos socioafetivo e biológico (Tema 622).'],
     ['A ação de investigação prescreveu, pois Vítor já completou 18 anos há mais de 4 anos.', false, 'Errada. A investigação de paternidade é imprescritível; prescreve apenas a petição de herança (Súmula 149 do STF). O prazo de 4 anos após a maioridade é para o filho impugnar o reconhecimento voluntário (art. 1.614).'],
     ['É possível o reconhecimento da paternidade biológica de Álvaro, mantendo-se o vínculo com Sérgio, com efeitos jurídicos próprios de ambos.', true, 'Correta. Pelo Tema 622 do STF, a paternidade socioafetiva não impede o reconhecimento do vínculo biológico, com os efeitos jurídicos próprios, como alimentos e herança. A investigação é imprescritível (Súmula 149 do STF).']
+  ] },
+{ id: 'ci593', materia: 'civil', topico: 'casamento',
+  enunciado: 'Durante um acampamento, Rui sofre grave acidente e fica em iminente risco de vida. Sem tempo de chamar o juiz de paz, ele manifesta o desejo de casar com sua companheira, Glória, que concorda. Sobre esse casamento, assinale a afirmativa correta.',
+  alt: [
+    ['O casamento é impossível sem a presença da autoridade celebrante, devendo os noivos aguardar a recuperação de Rui.', false, 'Errada. O Código Civil admite o casamento nuncupativo, celebrado pelos próprios nubentes sem a autoridade, quando há iminente risco de vida (art. 1.540).'],
+    ['Basta a presença de duas testemunhas quaisquer, como em todo casamento celebrado em cartório.', false, 'Errada. Duas testemunhas é a regra da celebração comum (art. 1.534). No nuncupativo, exigem-se seis testemunhas que não sejam parentes dos noivos em linha reta nem colaterais até o segundo grau (art. 1.540).'],
+    ['O casamento pode ser celebrado perante seis testemunhas sem parentesco com os nubentes em linha reta ou na colateral até o segundo grau, as quais deverão comparecer perante a autoridade judicial em dez dias para confirmar o ato.', true, 'Correta. É o casamento nuncupativo: seis testemunhas sem esse parentesco (art. 1.540), que comparecem em até dez dias perante a autoridade judicial mais próxima (art. 1.541).'],
+    ['O casamento é válido de imediato e dispensa qualquer providência posterior, pois a vontade dos noivos basta.', false, 'Errada. O nuncupativo exige a declaração das testemunhas em dez dias, a verificação pelo juiz e o registro (art. 1.541). Se Rui convalescer, poderá ratificar o casamento perante a autoridade e o oficial (art. 1.541, §5º).']
+  ] },
+{ id: 'ci594', materia: 'civil', topico: 'ci-invalidade-casamento',
+  enunciado: 'Bruna casou-se com Alex e, um ano depois, descobriu que ele havia praticado, antes do casamento, um crime grave que tornou a vida em comum insuportável para ela. Bruna procura você, como advogado(a), para saber se ainda pode agir, já que o casamento foi celebrado há dois anos e meio. Assinale a orientação correta.',
+  alt: [
+    ['O casamento é nulo e a ação pode ser proposta a qualquer tempo, inclusive pelo Ministério Público.', false, 'Errada. Erro essencial sobre a pessoa não gera nulidade, e sim anulabilidade (art. 1.550, III, e art. 1.556). A ação de nulidade imprescritível vale para os impedimentos (arts. 1.548 e 1.549).'],
+    ['O casamento é anulável por erro essencial e Bruna ainda está dentro do prazo de três anos contados da celebração.', true, 'Correta. A ignorância de crime anterior ao casamento que torne insuportável a vida em comum é erro essencial (art. 1.557, II). O prazo para anular é de três anos a partir da celebração (art. 1.560, III), e só o cônjuge enganado pode propor a ação (art. 1.559).'],
+    ['O prazo já se esgotou, pois a anulação por erro deve ser pedida em 180 dias.', false, 'Errada. O prazo de 180 dias é o do incapaz de consentir (art. 1.560, I). Para erro essencial o prazo é de três anos (art. 1.560, III).'],
+    ['O pai de Bruna também pode propor a ação, já que o erro afeta toda a família.', false, 'Errada. A anulação por erro ou coação só pode ser pedida pelo cônjuge que errou ou sofreu a coação (art. 1.559).']
+  ] },
+{ id: 'ci595', materia: 'civil', topico: 'ci-uniao-estavel',
+  enunciado: 'Joaquim, com 72 anos, e Marta, com 60, vão iniciar uma união estável e querem adotar o regime da comunhão parcial de bens, e não o da separação obrigatória. Consultam um advogado sobre a possibilidade, à luz do entendimento atual do STF. Assinale a afirmativa correta.',
+  alt: [
+    ['Não é possível, pois a separação obrigatória do maior de 70 anos é norma de ordem pública que não admite afastamento.', false, 'Errada. O STF, no Tema 1.236, fixou que a separação obrigatória do maior de 70 anos (art. 1.641, II) pode ser afastada por expressa manifestação de vontade das partes, mediante escritura pública.'],
+    ['É possível, mas apenas por sentença judicial, após perícia que comprove a plena lucidez de Joaquim.', false, 'Errada. Não se exige processo judicial nem perícia: basta a manifestação de vontade por escritura pública (Tema 1.236 do STF).'],
+    ['É possível afastar a separação obrigatória por escritura pública, e esse entendimento se aplica tanto ao casamento quanto à união estável.', true, 'Correta. Pelo Tema 1.236 do STF, o regime do art. 1.641, II, pode ser afastado por escritura pública, tanto no casamento quanto na união estável.'],
+    ['A regra da separação obrigatória não se aplica à união estável, de modo que Joaquim e Marta nem precisam fazer qualquer documento.', false, 'Errada. O STJ aplica a separação obrigatória do septuagenário também à união estável (Súmula 655 do STJ), e o STF confirmou que ela vale para as duas entidades, podendo ser afastada por escritura pública (Tema 1.236). Sem escritura, prevalece a separação obrigatória.']
+  ] },
+{ id: 'ci596', materia: 'civil', topico: 'ci-regimes-detalhe',
+  enunciado: 'Heitor e Clara casaram-se pelo regime da comunhão universal de bens. Durante o casamento, o avô de Heitor doou a ele um apartamento com cláusula de incomunicabilidade, que passou a ser alugado. No divórcio, Clara pede metade do apartamento e metade dos aluguéis recebidos durante o casamento. Assinale a afirmativa correta.',
+  alt: [
+    ['Clara tem direito à metade do apartamento e dos aluguéis, pois na comunhão universal todos os bens se comunicam.', false, 'Errada. Mesmo na comunhão universal, ficam fora da comunhão os bens doados com cláusula de incomunicabilidade (art. 1.668, I).'],
+    ['Clara não tem direito ao apartamento, mas tem direito à metade dos aluguéis percebidos ou vencidos durante o casamento.', true, 'Correta. O imóvel doado com cláusula de incomunicabilidade é excluído da comunhão (art. 1.668, I), mas a incomunicabilidade não se estende aos frutos percebidos ou vencidos durante o casamento (art. 1.669).'],
+    ['Clara não tem direito a nada, pois a incomunicabilidade alcança também todos os frutos do bem.', false, 'Errada. O art. 1.669 diz expressamente que a incomunicabilidade dos bens do art. 1.668 não se estende aos frutos percebidos ou vencidos na constância do casamento.'],
+    ['A cláusula de incomunicabilidade é nula na comunhão universal, pois contraria o regime escolhido pelo casal.', false, 'Errada. A lei admite a cláusula e lhe dá efeito justamente nesse regime (art. 1.668, I). Quem doa pode impor a incomunicabilidade.']
+  ] },
+{ id: 'ci597', materia: 'civil', topico: 'ci-divorcio',
+  enunciado: 'Vera e Lauro são coproprietários, em partes iguais, de uma casa urbana de 180 m², onde moravam. Lauro abandonou o lar há dois anos e meio e nunca mais deu notícias nem contribuiu com nada. Vera permaneceu na casa, sem oposição, usando-a como moradia, e não tem outro imóvel. Assinale a afirmativa correta.',
+  alt: [
+    ['Vera só poderá adquirir a parte de Lauro por usucapião extraordinária, após quinze anos de posse.', false, 'Errada. Há modalidade específica e muito mais curta: a usucapião familiar, com prazo de dois anos (art. 1.240-A).'],
+    ['Vera pode adquirir o domínio integral do imóvel por usucapião familiar, pois exerceu posse direta, exclusiva e ininterrupta por mais de dois anos sobre imóvel urbano de até 250 m² após o abandono do lar por Lauro.', true, 'Correta. Estão presentes os requisitos do art. 1.240-A: imóvel urbano de até 250 m² dividido com ex-cônjuge ou ex-companheiro que abandonou o lar, posse direta e exclusiva por dois anos sem oposição, moradia própria ou da família e ausência de outro imóvel.'],
+    ['A usucapião familiar não se aplica porque o casal ainda não se divorciou formalmente.', false, 'Errada. O art. 1.240-A fala em ex-cônjuge ou ex-companheiro que abandonou o lar. O que importa é o abandono e o fim da vida em comum, e não a sentença de divórcio.'],
+    ['Vera adquire apenas o direito real de habitação sobre a casa, sem se tornar proprietária da parte de Lauro.', false, 'Errada. O direito real de habitação é instituto sucessório, ligado à morte do cônjuge (art. 1.831). A usucapião familiar dá a Vera o domínio integral (art. 1.240-A).']
+  ] },
+{ id: 'ci598', materia: 'civil', topico: 'filiacao',
+  enunciado: 'Mário, depois de exame de DNA particular, descobre ser pai biológico de Pedro, de 30 anos, que foi registrado apenas com o nome da mãe. Mário vai ao cartório para reconhecer Pedro como filho, mas Pedro não quer o reconhecimento. Assinale a afirmativa correta.',
+  alt: [
+    ['Mário pode reconhecer Pedro sem a concordância dele, pois o reconhecimento é ato unilateral e irrevogável.', false, 'Errada. O reconhecimento é irrevogável (art. 1.610), mas o filho maior não pode ser reconhecido sem o seu consentimento (art. 1.614).'],
+    ['Como Pedro é maior, seu reconhecimento depende do consentimento dele.', true, 'Correta. O filho maior não pode ser reconhecido sem o seu consentimento (art. 1.614, primeira parte). O menor, ao contrário, pode ser reconhecido e terá quatro anos após a maioridade para impugnar.'],
+    ['Pedro pode impugnar o reconhecimento apenas nos quatro anos seguintes ao ato, mas não pode impedi-lo.', false, 'Errada. O prazo de quatro anos após a maioridade vale para o filho reconhecido quando ainda era menor (art. 1.614, segunda parte). Para o filho maior, o consentimento é prévio e indispensável.'],
+    ['O reconhecimento só pode ser feito por testamento, já que Pedro é maior de idade.', false, 'Errada. O reconhecimento pode ser feito no registro, por escritura pública ou escrito particular arquivado em cartório, por testamento ou perante o juiz (art. 1.609). A idade do filho não muda a forma, apenas exige seu consentimento (art. 1.614).']
   ] }
 );
