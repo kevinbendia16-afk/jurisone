@@ -75,6 +75,7 @@ Não transcreva trechos longos de leis ou de livros: explique com suas palavras,
 ${ESTILO}
 ${REGRAS_JURIDICAS}
 ${REGRAS_FORMATO}
+${args.extra || ""}
 Devolva o resumo pedido.`, { label: `redigir:${lote}`, phase: 'Redigir', schema: OK })
 }
 async function tentar(lote) {

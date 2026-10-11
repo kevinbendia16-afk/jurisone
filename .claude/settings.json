@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Workflow",
+      "Bash",
+      "Edit",
+      "Write",
+      "Read",
+      "Artifact",
+      "TaskStop"
+    ]
+  }
+}
