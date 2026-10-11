@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Wagner pode exigir de Vítor outro terreno equivalente.', false, 'Errada. O que volta é a obrigação original (o pagamento em dinheiro), não um dever de entregar outro imóvel (art. 359).'],
     ['Restabelece-se a obrigação primitiva, ficando sem efeito a quitação dada, ressalvados os direitos de terceiros.', true, 'Correta. É a regra da evicção na dação em pagamento (art. 359).'],
     ['O caso é de novação, e a nova dívida é a de entregar o terreno.', false, 'Errada. Houve dação em pagamento: o credor aceitou prestação diversa para extinguir a dívida (art. 356), não a criação de dívida nova.']
+  ] },
+{ id: 'ci433', materia: 'civil', topico: 'obrigacoes',
+  enunciado: 'Bruna emprestou R$ 8 mil a Caio, por contrato escrito que fixou o pagamento para o dia 10 de março. Caio não pagou na data. Em 20 de abril, Bruna enviou notificação extrajudicial cobrando a dívida. Caio alega que só está em mora desde a notificação. Assinale a afirmativa correta.',
+  alt: [
+    ['Caio tem razão, pois a mora do devedor sempre depende de interpelação judicial ou extrajudicial.', false, 'Errada. A interpelação só é necessária quando não há termo certo; é a chamada mora ex persona (art. 397, parágrafo único).'],
+    ['Caio está em mora desde 10 de março, pois a obrigação positiva e líquida, não cumprida no seu termo, constitui de pleno direito o devedor em mora.', true, 'Correta. É a mora ex re: o próprio dia do vencimento interpela o devedor (art. 397, caput).'],
+    ['Caio só está em mora a partir da citação em eventual ação de cobrança.', false, 'Errada. A citação constitui em mora quando ainda não havia mora (art. 240 do CPC), mas aqui a mora nasceu no vencimento (art. 397, caput).'],
+    ['Caio não está em mora, pois a mora exige prova de culpa do credor.', false, 'Errada. Não há mora do devedor sem fato ou omissão imputável a ele (art. 396), mas a culpa a ser vista é a do devedor, não a do credor.']
+  ] },
+{ id: 'ci434', materia: 'civil', topico: 'ci-modalidades',
+  enunciado: 'Daniel, Elias e Fábio se obrigaram, em conjunto, a entregar a Gilda um cavalo de raça específico. Por culpa exclusiva de Elias, o animal morreu antes da entrega. Gilda quer o valor do cavalo e também indenização pelos lucros que deixou de ter. Assinale a afirmativa correta.',
+  alt: [
+    ['Todos respondem solidariamente pelo valor do cavalo e pelas perdas e danos.', false, 'Errada. A obrigação era indivisível, não solidária; e convertida em perdas e danos ela perde a indivisibilidade (art. 263).'],
+    ['A obrigação se extingue para todos, sem qualquer indenização, pois a coisa pereceu.', false, 'Errada. A extinção sem indenização só ocorre se a perda for sem culpa (art. 234). Aqui houve culpa de Elias.'],
+    ['A obrigação perde a indivisibilidade; cada devedor responde por sua parte no equivalente, mas apenas Elias responde pelas perdas e danos.', true, 'Correta. Resolvida em perdas e danos, a obrigação deixa de ser indivisível; se a culpa é de um só, os outros ficam exonerados das perdas e danos, que recaem só sobre o culpado (art. 263, caput e §2º).'],
+    ['Apenas Elias responde pelo valor do cavalo, ficando Daniel e Fábio totalmente liberados, inclusive do equivalente.', false, 'Errada. O §2º do art. 263 exonera os não culpados apenas das perdas e danos; o equivalente se divide entre os devedores (art. 263).']
+  ] },
+{ id: 'ci435', materia: 'civil', topico: 'ci-solidariedade',
+  enunciado: 'Helena e Ícaro se obrigaram solidariamente a entregar a Júlia uma escultura específica. Por culpa exclusiva de Ícaro, a escultura foi destruída. Júlia pretende cobrar de Helena o valor da escultura e as perdas e danos. Assinale a afirmativa correta.',
+  alt: [
+    ['Helena responde pelo valor da escultura, mas as perdas e danos só podem ser cobradas de Ícaro.', true, 'Correta. Na impossibilidade por culpa de um devedor solidário, todos continuam obrigados pelo equivalente, mas pelas perdas e danos só responde o culpado (art. 279).'],
+    ['Helena responde pelo valor da escultura e pelas perdas e danos, pois a solidariedade abrange tudo.', false, 'Errada. A lei separa: o equivalente é de todos, as perdas e danos só do culpado (art. 279).'],
+    ['Helena fica liberada, pois não teve culpa e a solidariedade se extingue com a perda do objeto.', false, 'Errada. A solidariedade subsiste quanto ao equivalente (art. 279); a perda da indivisibilidade pela conversão em perdas e danos (art. 263) não vale para a solidariedade, que decorre da lei ou do contrato, e não da natureza do objeto.'],
+    ['Júlia deve cobrar de cada devedor apenas metade do valor da escultura.', false, 'Errada. Quanto ao equivalente, cada devedor solidário continua obrigado pela dívida toda (arts. 264 e 279).']
+  ] },
+{ id: 'ci436', materia: 'civil', topico: 'ci-transmissao',
+  enunciado: 'Leandro devia R$ 50 mil a Marta, e a dívida estava garantida por penhor de joias dadas pelo próprio Leandro. Com o consentimento expresso de Marta, Nuno assumiu a dívida. Leandro não disse nada sobre o penhor. Assinale a afirmativa correta.',
+  alt: [
+    ['O penhor continua garantindo a dívida, pois os acessórios seguem o principal.', false, 'Errada. A regra de que o acessório segue o principal vale para a cessão de crédito (art. 287); na assunção, as garantias especiais dadas pelo devedor primitivo se extinguem, salvo assentimento dele (art. 300).'],
+    ['O penhor se extingue, salvo se Leandro tiver concordado expressamente com sua manutenção.', true, 'Correta. Com a assunção, consideram-se extintas as garantias especiais originariamente dadas pelo devedor primitivo, salvo seu assentimento expresso (art. 300).'],
+    ['A assunção é nula, pois Leandro não participou do acordo de forma expressa.', false, 'Errada. O que a lei exige é o consentimento expresso do credor (art. 299).'],
+    ['Leandro continua responsável pela dívida, junto com Nuno, de forma solidária.', false, 'Errada. Na assunção liberatória, o devedor primitivo fica exonerado, salvo se o novo devedor já era insolvente e o credor ignorava (art. 299).']
+  ] },
+{ id: 'ci437', materia: 'civil', topico: 'ci-pagamento',
+  enunciado: 'Otávio emitiu uma nota promissória em favor de Priscila. Algum tempo depois, Otávio apresentou o título original em seu poder e alegou que a dívida estava paga. Priscila afirma que nunca recebeu o valor e que o título foi retirado de sua gaveta. Assinale a afirmativa correta.',
+  alt: [
+    ['A posse do título pelo devedor prova de forma absoluta o pagamento.', false, 'Errada. A presunção é relativa: o credor pode provar que não houve pagamento (art. 324, parágrafo único).'],
+    ['A entrega do título ao devedor gera presunção relativa de pagamento, e Priscila pode provar a falta do pagamento em 60 dias.', true, 'Correta. A entrega do título firma a presunção do pagamento, que fica sem efeito se o credor provar, em 60 dias, a falta do pagamento (art. 324).'],
+    ['A quitação só vale por instrumento público, então a posse do título é irrelevante.', false, 'Errada. A quitação pode ser dada por instrumento particular (art. 320), e a entrega do título gera presunção de pagamento (art. 324).'],
+    ['Cabe a Otávio provar, em 60 dias, que pagou, sob pena de perder a presunção.', false, 'Errada. O prazo de 60 dias é para o credor provar a falta de pagamento, não para o devedor (art. 324, parágrafo único).']
+  ] },
+{ id: 'ci438', materia: 'civil', topico: 'ci-pagamento-especial',
+  enunciado: 'Quésia deve a Renan uma única dívida de R$ 10 mil de capital, já vencida, e R$ 2 mil de juros vencidos. Ela paga R$ 2 mil e nada diz sobre a imputação; a quitação também não indica nada. Não há acordo diferente entre eles. Assinale a afirmativa correta.',
+  alt: [
+    ['O pagamento abate o capital, pois o devedor sempre pode escolher a parcela mais onerosa.', false, 'Errada. Havendo capital e juros, o pagamento imputa-se primeiro nos juros vencidos, salvo estipulação em contrário ou quitação por conta do capital (art. 354).'],
+    ['O pagamento abate primeiro os juros vencidos.', true, 'Correta. Sem estipulação em contrário e sem quitação por conta do capital, o pagamento imputa-se primeiro nos juros vencidos e depois no capital (art. 354).'],
+    ['O pagamento deve ser dividido proporcionalmente entre capital e juros.', false, 'Errada. A divisão proporcional é a regra para dívidas líquidas e vencidas ao mesmo tempo e igualmente onerosas quando faltar outro critério (art. 355), e não para capital e juros.'],
+    ['Renan pode recusar o pagamento parcial, e, se aceitar, o valor abate o capital.', false, 'Errada. Embora o credor não seja obrigado a receber por partes (art. 314), se aceitar, a imputação segue o art. 354: primeiro os juros.']
   ] }
 );

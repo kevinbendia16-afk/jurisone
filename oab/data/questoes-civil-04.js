@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['O negócio é nulo, por ter objeto ilícito.', false, 'Errada. O objeto, a venda de uma pintura, é lícito. Dolo é causa de anulabilidade, não de nulidade (art. 171, II).'],
     ['O negócio subsiste, e Quitéria responde solidariamente com Rafael pelas perdas e danos.', false, 'Errada. Se Quitéria não sabia nem devia saber, ela não responde; só o autor do dolo responde pelas perdas e danos (art. 148).'],
     ['O negócio subsiste, mas Rafael responde por todas as perdas e danos sofridos por Pietro.', true, 'Correta. Se a parte a quem o dolo aproveita não sabia nem devia saber dele, o negócio vale, e o terceiro responde por todas as perdas e danos (art. 148 do CC).']
+  ] },
+{ id: 'ci393', materia: 'civil', topico: 'bensciv',
+  enunciado: 'Durante contrato de locação residencial, a inquilina Úrsula, sem pedir autorização ao locador Vítor, trocou toda a fiação elétrica da casa, que apresentava risco de incêndio, e instalou um ofurô decorativo no quintal. O contrato nada dispõe sobre benfeitorias. Ao fim da locação, Úrsula pede indenização pelas duas obras. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Úrsula não tem direito a nenhuma indenização, pois as obras não foram autorizadas pelo locador.', false, 'Errada. A autorização só é exigida para as benfeitorias úteis. As necessárias são indenizáveis mesmo sem autorização, salvo cláusula em contrário (art. 35 da Lei 8.245/91).'],
+    ['Úrsula tem direito à indenização pela troca da fiação, benfeitoria necessária, ainda que não autorizada, mas não pelo ofurô, que pode apenas ser levantado se não afetar a estrutura do imóvel.', true, 'Correta. Salvo cláusula em contrário, a benfeitoria necessária é indenizável mesmo sem autorização e permite retenção (art. 35 da Lei 8.245/91); a voluptuária não é indenizável, mas pode ser levantada sem afetar a estrutura e a substância do imóvel (art. 36). A classificação vem do art. 96 do CC.'],
+    ['Úrsula tem direito à indenização pelas duas obras, pois ambas valorizaram o imóvel.', false, 'Errada. A valorização não basta. O ofurô decorativo é benfeitoria voluptuária, de mero deleite (art. 96, §1º, do CC), e na locação não é indenizável (art. 36 da Lei 8.245/91).'],
+    ['Úrsula tem direito à indenização apenas pelo ofurô, pois a fiação era obrigação do próprio inquilino.', false, 'Errada. A troca da fiação para evitar incêndio conserva o bem e é benfeitoria necessária (art. 96, §3º, do CC), indenizável pelo locador (art. 35 da Lei 8.245/91). O ofurô é voluptuário e não se indeniza (art. 36).']
+  ] },
+{ id: 'ci394', materia: 'civil', topico: 'ci-bem-familia',
+  enunciado: 'O casal Wagner e Yara é dono de dois imóveis: um apartamento na capital e uma casa menor e mais barata no interior. A família reside nos dois, alternadamente, ao longo do ano. Nenhum deles foi registrado como bem de família no cartório. Em execução por dívida contraída em empréstimo pessoal, o credor pede a penhora. Sobre a impenhorabilidade, assinale a afirmativa correta.',
+  alt: [
+    ['Os dois imóveis são impenhoráveis, pois ambos servem de residência à família.', false, 'Errada. A Lei 8.009/90 protege um único imóvel usado como moradia permanente (art. 5º, caput). Havendo vários, a proteção não se estende a todos.'],
+    ['Nenhum dos imóveis é impenhorável, pois a proteção legal exige que a família tenha um único imóvel.', false, 'Errada. Ter mais de um imóvel não afasta a proteção. A lei indica sobre qual deles ela recai (art. 5º, parágrafo único, da Lei 8.009/90).'],
+    ['A impenhorabilidade recai sobre o imóvel de menor valor, a casa do interior, podendo o apartamento ser penhorado.', true, 'Correta. Se o casal possuir vários imóveis utilizados como residência, a impenhorabilidade recai sobre o de menor valor, salvo se outro tiver sido registrado como bem de família no cartório de imóveis (art. 5º, parágrafo único, da Lei 8.009/90).'],
+    ['A impenhorabilidade recai sobre o imóvel que o casal escolher no processo, independentemente de registro.', false, 'Errada. A escolha de outro imóvel só prevalece se ele tiver sido registrado como bem de família, nos termos do Código Civil (art. 5º, parágrafo único, da Lei 8.009/90; arts. 1.711 e 1.714 do CC). Sem registro, protege-se o de menor valor.']
+  ] },
+{ id: 'ci395', materia: 'civil', topico: 'ci-fato-juridico',
+  enunciado: 'Zeca dirigia com cuidado quando um pedestre adulto, distraído com o celular, atravessou de repente fora da faixa. Para não atropelá-lo, Zeca desviou e danificou o carro estacionado de Amélia, que em nada contribuiu para o perigo. Sobre a responsabilidade pelo dano ao carro de Amélia, assinale a afirmativa correta.',
+  alt: [
+    ['Zeca não precisa indenizar Amélia, pois agiu em estado de necessidade, que exclui a ilicitude e, por isso, o dever de indenizar.', false, 'Errada. O estado de necessidade afasta a ilicitude (art. 188, II, do CC), mas não o dever de indenizar a vítima que não causou o perigo (art. 929).'],
+    ['Zeca deve indenizar Amélia, pois praticou ato ilícito ao danificar coisa alheia.', false, 'Errada. O ato não é ilícito: deteriorar coisa alheia para remover perigo iminente está entre as excludentes do art. 188, II, do CC. O dever de indenizar decorre do art. 929, e não da ilicitude.'],
+    ['Apenas o pedestre responde perante Amélia, pois foi ele quem criou a situação de perigo.', false, 'Errada. A vítima inocente pode cobrar de quem causou diretamente o dano, Zeca (art. 929). O pedestre responde em ação regressiva proposta por Zeca (art. 930).'],
+    ['Zeca deve indenizar Amélia, embora não tenha praticado ato ilícito, e terá ação regressiva contra o pedestre que causou o perigo.', true, 'Correta. Embora lícito o ato praticado em estado de necessidade (art. 188, II), a vítima que não foi culpada pelo perigo tem direito à indenização (art. 929), e quem indenizou pode cobrar do terceiro culpado (art. 930 do CC).']
+  ] },
+{ id: 'ci396', materia: 'civil', topico: 'ci-planos',
+  enunciado: 'Benedita vendeu uma casa a Celso por R$ 600 mil, valor efetivamente pago. Para reduzir o imposto de transmissão, as partes fizeram constar na escritura o preço de R$ 200 mil. Sobre a validade do negócio, de acordo com o Código Civil, assinale a afirmativa correta.',
+  alt: [
+    ['Todo o negócio é anulável, no prazo decadencial de quatro anos, por se tratar de simulação.', false, 'Errada. No Código de 2002, a simulação é causa de nulidade, e não de anulabilidade (art. 167). A regra da anulabilidade era a do Código de 1916.'],
+    ['O negócio simulado é nulo, mas subsiste a compra e venda pelo preço real, se válida na substância e na forma.', true, 'Correta. Há simulação relativa, por declaração não verdadeira (art. 167, §1º, II). O negócio simulado é nulo, mas subsiste o dissimulado, se válido na substância e na forma (art. 167, caput, do CC).'],
+    ['O negócio é inteiramente válido, pois o preço declarado é questão apenas tributária, sem reflexo civil.', false, 'Errada. A declaração de preço falso configura simulação, que o Código Civil trata como causa de nulidade (art. 167, §1º, II).'],
+    ['O negócio é nulo por inteiro, e as partes devem ser restituídas ao estado anterior, sem possibilidade de aproveitamento.', false, 'Errada. O art. 167 expressamente preserva o negócio dissimulado, a venda pelo preço real, desde que válido na substância e na forma.']
+  ] },
+{ id: 'ci397', materia: 'civil', topico: 'ci-representacao',
+  enunciado: 'Dalva celebrou com o sobrinho Edu, por escritura pública, a doação de um terreno, estabelecendo que a doação só produziria efeitos "se Edu atravessar a pé o Oceano Atlântico". Sobre esse negócio, assinale a afirmativa correta.',
+  alt: [
+    ['A condição é tida por inexistente, e a doação produz efeitos desde logo.', false, 'Errada. Só se têm por inexistentes as condições impossíveis resolutivas e as de não fazer coisa impossível (art. 124). A condição do caso é suspensiva.'],
+    ['Trata-se de termo, pois o evento é futuro, e a doação aguardará a data fixada.', false, 'Errada. Termo é evento futuro e certo (art. 131). Atravessar o oceano a pé é evento fisicamente impossível, e a cláusula foi redigida como condição ("se").'],
+    ['Trata-se de encargo impossível, que se considera não escrito, permanecendo válida a doação.', false, 'Errada. Encargo é obrigação imposta ao beneficiário que não suspende a aquisição do direito (art. 136). Aqui, a eficácia da doação foi subordinada ao evento, o que caracteriza condição suspensiva.'],
+    ['A condição suspensiva fisicamente impossível invalida a doação.', true, 'Correta. Invalidam os negócios a elas subordinados as condições física ou juridicamente impossíveis, quando suspensivas (art. 123, I, do CC).']
+  ] },
+{ id: 'ci398', materia: 'civil', topico: 'ci-erro-dolo',
+  enunciado: 'Fabiana assinou contrato de compra do lote 12 de um loteamento, mas, por engano perceptível para o vendedor Gilson, o lote que ela realmente pretendia comprar, e que visitou com ele, era o lote 21, de mesmo preço e tamanho. Ao saber da intenção de Fabiana de anular o contrato, Gilson se ofereceu para entregar o lote 21 nas mesmas condições. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['O negócio continua anulável, pois o erro substancial sempre autoriza a anulação no prazo de quatro anos.', false, 'Errada. O próprio Código afasta a anulação quando a outra parte se oferece para executar o negócio conforme a vontade real de quem errou (art. 144).'],
+    ['O erro não prejudica a validade do negócio, pois Gilson se ofereceu para executá-lo conforme a vontade real de Fabiana.', true, 'Correta. O erro não prejudica a validade do negócio quando a pessoa a quem a manifestação de vontade se dirige se oferece para executá-la na conformidade da vontade real do manifestante (art. 144 do CC).'],
+    ['O negócio é nulo, pois houve divergência sobre o objeto do contrato.', false, 'Errada. Erro sobre o objeto principal é vício do consentimento que gera anulabilidade, e não nulidade (arts. 139, I, e 171, II, do CC). E, no caso, nem a anulação é cabível (art. 144).'],
+    ['O negócio é anulável por dolo de Gilson, que deverá pagar perdas e danos, além de entregar o lote 21.', false, 'Errada. Não há artifício malicioso de Gilson; houve engano espontâneo de Fabiana, isto é, erro (art. 138). O dolo exige que o engano seja provocado (art. 145).']
   ] }
 );

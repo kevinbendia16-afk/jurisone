@@ -63,5 +63,37 @@ window.QUESTOES.push(
     ['A decisão deveria indicar as consequências jurídicas e administrativas da anulação e, quando for o caso, as condições para regularizar a situação.', true, 'Correta. É o que exige o art. 21 e seu parágrafo único da LINDB, sem impor ônus anormais ou excessivos.'],
     ['A LINDB não se aplica a tribunais de contas, apenas ao Poder Judiciário.', false, 'Errada. Os arts. 20 e 21 alcançam as esferas administrativa, controladora e judicial.'],
     ['A anulação só seria possível com consulta pública prévia.', false, 'Errada. A consulta pública é prevista para atos normativos e é facultativa (art. 29). Não é requisito para anular contrato.']
+  ] },
+{ id: 'ci329', materia: 'civil', topico: 'lindbcivil',
+  enunciado: 'Rita doou a Sérgio um apartamento por escritura pública. Depois, surgiu dúvida sobre se a doação incluía também os móveis que estavam no imóvel, pois a escritura falava apenas no apartamento. Sérgio sustenta que a doação deve ser lida de forma ampla. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['A doação deve ser interpretada extensivamente, para incluir tudo o que estava no imóvel.', false, 'Errada. A doação pura é negócio benéfico, e os negócios benéficos interpretam-se estritamente (CC, art. 114). A leitura ampla favoreceria quem nada paga, contra a lógica da lei.'],
+    ['A doação, por ser negócio jurídico benéfico, interpreta-se estritamente.', true, 'Correta. Os negócios jurídicos benéficos e a renúncia interpretam-se estritamente (CC, art. 114). Na dúvida, não se presume que Rita quis doar mais do que declarou.'],
+    ['A dúvida deve ser resolvida sempre a favor do donatário, como ocorre com o aderente nos contratos de adesão.', false, 'Errada. A interpretação mais favorável ao aderente é regra própria do contrato de adesão (CC, art. 423). Na doação vale a interpretação estrita (CC, art. 114).'],
+    ['Como a lei é omissa, o juiz deve decidir por equidade, independentemente de autorização legal.', false, 'Errada. Não há lacuna: o art. 114 do CC resolve a questão. Além disso, o juiz só decide por equidade nos casos previstos em lei (CPC, art. 140, parágrafo único).']
+  ] },
+{ id: 'ci330', materia: 'civil', topico: 'ci-vigencia',
+  enunciado: 'Uma lei federal foi publicada no Diário Oficial em 10 de maio, com a cláusula "esta lei entra em vigor após decorridos 15 dias de sua publicação oficial". Considerando as regras da Lei Complementar 95/98, assinale a data em que a lei entra em vigor.',
+  alt: [
+    ['24 de maio.', false, 'Errada. O dia 24 é o último dia do prazo, que deve se consumar integralmente. A lei entra em vigor no dia seguinte (LC 95/98, art. 8º, §1º).'],
+    ['25 de maio.', true, 'Correta. A contagem inclui a data da publicação (10 de maio) e o último dia do prazo (24 de maio). A lei vigora no dia subsequente à consumação integral do prazo, 25 de maio (LC 95/98, art. 8º, §1º).'],
+    ['26 de maio.', false, 'Errada. Essa data resulta de excluir o dia da publicação, como se faz nos prazos processuais. Para a vacatio, o dia da publicação é incluído (LC 95/98, art. 8º, §1º).'],
+    ['24 de junho, pois prevalece o prazo supletivo de 45 dias da LINDB.', false, 'Errada. O prazo de 45 dias só se aplica quando a lei não fixa sua própria vigência (LINDB, art. 1º, caput: "salvo disposição contrária"). Aqui a lei fixou 15 dias.']
+  ] },
+{ id: 'ci331', materia: 'civil', topico: 'ci-integracao',
+  enunciado: 'As sociedades Alfa e Beta firmaram contrato com cláusula compromissória e, na convenção de arbitragem, autorizaram expressamente que os árbitros julgassem por equidade. Depois, Beta alegou que a decisão por equidade é inválida, pois a equidade não consta do art. 4º da LINDB. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Beta tem razão, pois a equidade nunca pode ser usada fora do Poder Judiciário.', false, 'Errada. A Lei de Arbitragem permite expressamente a arbitragem de equidade, a critério das partes (Lei 9.307/96, art. 2º).'],
+    ['Beta tem razão, pois os únicos meios de integração admitidos no direito brasileiro são a analogia, os costumes e os princípios gerais.', false, 'Errada. O art. 4º da LINDB é a regra geral para lacunas, mas leis especiais podem autorizar a equidade, como a Lei de Arbitragem (art. 2º) e o próprio CPC (art. 140, parágrafo único).'],
+    ['Beta não tem razão, pois a arbitragem pode ser de direito ou de equidade, a critério das partes.', true, 'Correta. A Lei 9.307/96, art. 2º, permite que as partes escolham a arbitragem de equidade. Isso é coerente com o CPC, que admite decisão por equidade nos casos previstos em lei (art. 140, parágrafo único). Só a arbitragem com a Administração Pública é sempre de direito (art. 2º, §3º).'],
+    ['Beta não tem razão, pois a equidade é o primeiro meio de integração previsto na LINDB.', false, 'Errada. A equidade não está no art. 4º da LINDB, cuja lista é analogia, costumes e princípios gerais de direito. A validade decorre da autorização da Lei de Arbitragem (art. 2º).']
+  ] },
+{ id: 'ci332', materia: 'civil', topico: 'ci-lindb-publico',
+  enunciado: 'Em 2019, o Município de Rio Claro do Sul celebrou contrato seguindo a jurisprudência administrativa majoritária da época, e o contrato foi integralmente executado. Em 2025, o tribunal de contas mudou seu entendimento e pretende declarar inválido aquele contrato com base na nova orientação. À luz da LINDB, assinale a afirmativa correta.',
+  alt: [
+    ['O tribunal pode invalidar o contrato, pois a nova orientação se aplica a todos os atos, inclusive os já concluídos.', false, 'Errada. A LINDB veda que, com base em mudança posterior de orientação geral, se declarem inválidas situações plenamente constituídas (art. 24).'],
+    ['A revisão do contrato deve levar em conta as orientações gerais da época, sendo vedado invalidar situação plenamente constituída com base em mudança posterior de orientação.', true, 'Correta. É a regra do art. 24 da LINDB. E o parágrafo único considera orientação geral também a jurisprudência judicial ou administrativa majoritária.'],
+    ['A LINDB só protege o contrato se a orientação da época estiver prevista em lei formal; jurisprudência administrativa não conta.', false, 'Errada. O parágrafo único do art. 24 inclui como orientações gerais a jurisprudência judicial ou administrativa majoritária e a prática administrativa reiterada e de amplo conhecimento público.'],
+    ['O tribunal deve apenas prever um regime de transição antes de invalidar o contrato.', false, 'Errada. O regime de transição do art. 23 se refere a novos deveres impostos para o futuro. Para atos já concluídos, a regra é a do art. 24, que impede a invalidação com base na nova orientação.']
   ] }
 );

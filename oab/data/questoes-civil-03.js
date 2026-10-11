@@ -63,5 +63,37 @@ window.QUESTOES.push(
     ['O pedido é impossível, pois a desconsideração só alcança bens dos sócios por dívidas da sociedade, nunca o contrário.', false, 'Errada. A desconsideração inversa está prevista expressamente no art. 50, §3º, do CC e no art. 133, §2º, do CPC.'],
     ['Basta a Márcia demonstrar que Otávio é sócio majoritário, sendo desnecessária a prova de abuso.', false, 'Errada. Mesmo na forma inversa, aplicam-se os requisitos do art. 50: desvio de finalidade ou confusão patrimonial. Aqui, a transferência de bens sem contraprestação configura confusão patrimonial (art. 50, §2º, II).'],
     ['A decisão que resolver o incidente é sentença, impugnável por apelação.', false, 'Errada. O incidente é resolvido por decisão interlocutória (art. 136 do CPC), impugnável por agravo de instrumento (art. 1.015, IV, do CPC).']
+  ] },
+{ id: 'ci369', materia: 'civil', topico: 'ci-domicilio',
+  enunciado: 'Ricardo, oficial da Aeronáutica, está servindo temporariamente em uma base aérea em Natal, mas é imediatamente subordinado a um comando sediado em Brasília. Sua família reside em Recife. De acordo com o Código Civil, o domicílio necessário de Ricardo é',
+  alt: [
+    ['Natal, lugar onde efetivamente serve.', false, 'Errada. "Onde servir" é a regra do militar em geral, como o do Exército. Para Marinha e Aeronáutica, o art. 76, parágrafo único, do CC fixa a sede do comando a que o militar está imediatamente subordinado.'],
+    ['Recife, onde reside sua família.', false, 'Errada. O domicílio da família pode ser domicílio voluntário de Ricardo (arts. 70 e 71), mas o domicílio NECESSÁRIO do militar é fixado pela lei (art. 76).'],
+    ['Brasília, sede do comando a que está imediatamente subordinado.', true, 'Correta. Para o militar da Marinha ou da Aeronáutica, o domicílio necessário é a sede do comando a que se encontra imediatamente subordinado (art. 76, parágrafo único, do CC).'],
+    ['o lugar onde ele for encontrado, pois não tem residência fixa.', false, 'Errada. A regra do lugar onde a pessoa for encontrada (art. 73) vale para quem não tem residência habitual, e não para o militar, que tem domicílio necessário previsto no art. 76.']
+  ] },
+{ id: 'ci370', materia: 'civil', topico: 'ci-pj',
+  enunciado: 'A Associação Esportiva Vila Nova tem 250 associados. A diretoria se recusa a convocar assembleia geral para deliberar sobre a destituição dos próprios diretores. O estatuto nada dispõe de diferente da lei sobre convocação. Assinale a afirmativa correta.',
+  alt: [
+    ['A destituição pode ser decidida pelo conselho fiscal, dispensada a assembleia, já que a diretoria se recusa a convocá-la.', false, 'Errada. Destituir os administradores é competência PRIVATIVA da assembleia geral (art. 59, I, do CC), especialmente convocada para esse fim.'],
+    ['Cinquenta associados, que correspondem a um quinto do total, podem promover a convocação da assembleia, que deliberará pelo quórum previsto no estatuto.', true, 'Correta. O art. 60 do CC garante a 1/5 dos associados o direito de promover a convocação, e o art. 59, parágrafo único, remete ao estatuto o quórum da deliberação.'],
+    ['Somente o Ministério Público pode requerer ao juiz a convocação, pois cabe a ele velar pelas associações.', false, 'Errada. O MP vela pelas FUNDAÇÕES (art. 66 do CC), não pelas associações. Nas associações, a própria minoria de 1/5 pode convocar (art. 60).'],
+    ['A destituição exige o voto de dois terços dos associados, quórum fixado diretamente no Código Civil.', false, 'Errada. O quórum de 2/3 constava da redação antiga do art. 59. Desde a Lei 11.127/05, o quórum é o estabelecido no estatuto (art. 59, parágrafo único).']
+  ] },
+{ id: 'ci371', materia: 'civil', topico: 'ci-fundacoes',
+  enunciado: 'A Fundação Saber, voltada à educação e com atuação apenas no Distrito Federal, pretende alterar seu estatuto. A alteração foi aprovada por dois terços dos administradores e mantém a finalidade educacional, mas não houve unanimidade. Sobre o procedimento, assinale a afirmativa correta.',
+  alt: [
+    ['A alteração deve ser submetida ao Ministério Público Federal, que tem prazo indeterminado para se manifestar.', false, 'Errada. No DF, quem vela pelas fundações é o MPDFT (art. 66, §1º, do CC; ADI 2.794), e o prazo do MP é de no máximo 45 dias (art. 67, III).'],
+    ['A alteração depende de aprovação unânime dos administradores, por se tratar de fundação.', false, 'Errada. A lei exige deliberação de 2/3 dos competentes para gerir e representar a fundação (art. 67, I, do CC), não unanimidade.'],
+    ['Os administradores, ao submeterem a alteração ao MPDFT, devem pedir que se dê ciência à minoria vencida para impugná-la em 10 dias; se o MP negar a aprovação ou não se manifestar em 45 dias, o juiz pode supri-la a requerimento do interessado.', true, 'Correta. É a combinação do art. 68 (ciência à minoria vencida, 10 dias) com o art. 67, III (aprovação do MP em até 45 dias e suprimento judicial) e o art. 66, §1º (MPDFT), todos do CC.'],
+    ['A alteração dispensa aprovação do Ministério Público, bastando o registro em cartório, pois o fim foi mantido.', false, 'Errada. Mesmo mantido o fim, a alteração precisa ser aprovada pelo Ministério Público (art. 67, III, do CC). Respeitar o fim (art. 67, II) é requisito adicional, e não substituto.']
+  ] },
+{ id: 'ci372', materia: 'civil', topico: 'ci-desconsideracao',
+  enunciado: 'Em ação de cobrança de natureza civil, sem relação de consumo, movida por Helena contra a Construtora Delta Ltda., a autora requereu já na petição inicial a desconsideração da personalidade jurídica, alegando que a sociedade pagava com frequência as dívidas pessoais do sócio-administrador Fábio. Sobre o caso, assinale a afirmativa correta.',
+  alt: [
+    ['Fábio deve ser citado como réu desde o início, dispensada a instauração do incidente, e o processo não fica suspenso por esse motivo.', true, 'Correta. Requerida a desconsideração na petição inicial, dispensa-se o incidente e cita-se o sócio (art. 134, §2º, do CPC), sem a suspensão prevista no art. 134, §3º. O cumprimento repetitivo de obrigações do sócio pela sociedade é confusão patrimonial (art. 50, §2º, I, do CC).'],
+    ['O pedido é inadmissível na petição inicial, pois a desconsideração só pode ser requerida na fase de cumprimento de sentença.', false, 'Errada. O incidente cabe em todas as fases (art. 134, caput, do CPC) e o pedido pode ser feito na própria inicial (art. 134, §2º).'],
+    ['Basta a Helena provar que a sociedade não tem bens suficientes para pagar a dívida, independentemente de abuso.', false, 'Errada. A mera insuficiência de bens é a teoria menor (art. 28, §5º, do CDC), que não se aplica fora da relação de consumo ou ambiental. No regime do CC, exige-se desvio de finalidade ou confusão patrimonial (art. 50).'],
+    ['O juiz poderia, mesmo sem o pedido de Helena, desconsiderar de ofício a personalidade jurídica ao constatar a confusão patrimonial.', false, 'Errada. A desconsideração depende de requerimento da parte ou do MP, quando lhe couber intervir (art. 50, caput, do CC; art. 133 do CPC); o juiz não age de ofício.']
   ] }
 );

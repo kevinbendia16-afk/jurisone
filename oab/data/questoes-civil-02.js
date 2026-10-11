@@ -95,5 +95,53 @@ window.QUESTOES.push(
     ['Igor fica com todos os aluguéis, e Nelson deve capitalizar metade deles.', true, 'Correta. Art. 33 do CC: descendente, ascendente ou cônjuge sucessor fica com todos os frutos; os demais sucessores capitalizam metade.'],
     ['Nenhum deles pode receber os aluguéis antes da sucessão definitiva.', false, 'Errada. Na sucessão provisória, os herdeiros empossados recebem os frutos, nos termos do art. 33.'],
     ['Nelson fica com todos os aluguéis, por ser herdeiro testamentário, e Igor deve capitalizar metade.', false, 'Errada. A regra é inversa: o benefício integral é do descendente, ascendente ou cônjuge (art. 33).']
+  ] },
+{ id: 'ci353', materia: 'civil', topico: 'ci-personalidade-inicio',
+  enunciado: 'Otávio, viúvo, e seu único filho, Breno, solteiro e sem descendentes, morreram no mesmo desabamento. A perícia não conseguiu determinar quem faleceu primeiro. Otávio deixou também uma irmã, Sônia; Breno deixou a avó materna, Dalva. Sobre a sucessão, assinale a afirmativa correta.',
+  alt: [
+    ['Presume-se que Otávio, por ser mais velho, morreu primeiro, de modo que Breno herdou do pai e transmitiu a herança à avó Dalva.', false, 'Errada. O Código Civil não adota presunção baseada na idade. Na dúvida sobre a ordem das mortes ocorridas na mesma ocasião, presume-se a morte simultânea (art. 8º).'],
+    ['Presume-se que morreram simultaneamente; por isso um não herda do outro, e cada herança segue para os demais herdeiros de cada falecido.', true, 'Correta. É a comoriência: sem prova de quem morreu antes, presume-se que morreram ao mesmo tempo (art. 8º). Como nenhum sobreviveu ao outro, não há sucessão entre eles; a herança de Otávio vai para a irmã, colateral (art. 1.839), e a de Breno vai para a avó, ascendente (art. 1.836).'],
+    ['Presume-se que Breno, por ser mais jovem, sobreviveu ao pai, devendo a herança de Otávio ir para Dalva.', false, 'Errada. Essa presunção pela idade não existe no direito brasileiro. A regra é a morte simultânea (art. 8º).'],
+    ['A herança de ambos deve ser declarada vacante, pois a comoriência impede a sucessão de qualquer herdeiro.', false, 'Errada. A comoriência só impede a sucessão entre os comorientes. Os outros herdeiros de cada um recebem normalmente (art. 8º).']
+  ] },
+{ id: 'ci354', materia: 'civil', topico: 'ci-incapacidades',
+  enunciado: 'Laura, de 14 anos, é credora de indenização por danos materiais decorrentes de um acidente. Seu irmão, Tiago, de 17 anos, é credor de outra indenização, decorrente do mesmo fato. Os pais de ambos nada fizeram. Sobre a prescrição dessas pretensões, assinale a afirmativa correta.',
+  alt: [
+    ['A prescrição está suspensa para ambos, pois são menores de idade.', false, 'Errada. A causa impeditiva do art. 198, I, protege só os absolutamente incapazes, que hoje são apenas os menores de 16 anos (art. 3º). Contra Tiago, relativamente incapaz, a prescrição corre.'],
+    ['A prescrição corre normalmente contra ambos, cabendo a eles apenas ação contra os pais.', false, 'Errada. Contra Laura, menor de 16 anos, a prescrição não corre (art. 198, I, combinado com o art. 3º).'],
+    ['A prescrição não corre contra Laura, mas corre contra Tiago, que poderá voltar-se contra os pais se estes deram causa à prescrição.', true, 'Correta. Não corre prescrição contra os absolutamente incapazes (art. 198, I), e Laura tem menos de 16 anos (art. 3º). Tiago, de 17 anos, é relativamente incapaz (art. 4º, I); contra ele a prescrição corre, e ele tem ação contra os assistentes que lhe deram causa (art. 195).'],
+    ['A prescrição corre contra Laura, mas não contra Tiago, porque apenas o relativamente incapaz pode praticar atos sozinho.', false, 'Errada. A lógica é a inversa: a proteção do art. 198, I, é dada ao absolutamente incapaz, que é Laura.']
+  ] },
+{ id: 'ci355', materia: 'civil', topico: 'ci-emancipacao',
+  enunciado: 'Vítor casou-se aos 16 anos, com autorização dos pais. Aos 17 anos, divorciou-se e, logo depois, pretende comprar sozinho um carro financiado. A financeira exige a assinatura dos pais dele. Assinale a afirmativa correta.',
+  alt: [
+    ['A exigência é correta, pois o divórcio faz cessar a emancipação e Vítor voltou a ser relativamente incapaz.', false, 'Errada. O divórcio não revoga a emancipação obtida pelo casamento. A capacidade adquirida é definitiva (art. 5º, parágrafo único, II).'],
+    ['A exigência é correta, pois a emancipação pelo casamento só vale enquanto durar a sociedade conjugal.', false, 'Errada. A lei não condiciona a emancipação à manutenção do casamento. Desfeito o vínculo por divórcio ou viuvez, o emancipado continua capaz (art. 5º, parágrafo único, II).'],
+    ['A exigência é incorreta, mas Vítor precisaria de autorização judicial para o financiamento, por ser menor de 18 anos.', false, 'Errada. O emancipado pratica sozinho todos os atos da vida civil, sem necessidade de autorização judicial (art. 5º, parágrafo único).'],
+    ['A exigência é incorreta, pois Vítor continua emancipado após o divórcio e pode contratar sozinho.', true, 'Correta. O casamento emancipou Vítor (art. 5º, parágrafo único, II), e a emancipação não se desfaz com o divórcio. Ele é plenamente capaz para contratar, embora continue menor de idade para outros fins, como o penal.']
+  ] },
+{ id: 'ci356', materia: 'civil', topico: 'ci-apoiada',
+  enunciado: 'Sílvia, pessoa com deficiência, obteve judicialmente a tomada de decisão apoiada, tendo como apoiadores Paulo e Regina. Ela quer investir quase todo o seu patrimônio em um negócio de alto risco. Paulo concorda, mas Regina discorda, entendendo que o negócio pode trazer prejuízo relevante. Assinale a afirmativa correta.',
+  alt: [
+    ['Prevalece a vontade de Sílvia, sem qualquer controle, pois a pessoa apoiada é plenamente capaz.', false, 'Errada. Embora Sílvia seja capaz, a lei prevê controle judicial específico quando há divergência em negócio de risco ou prejuízo relevante (art. 1.783-A, § 6º).'],
+    ['O juiz deverá decidir a questão, ouvido o Ministério Público.', true, 'Correta. Havendo divergência entre a pessoa apoiada e um dos apoiadores em negócio que possa trazer risco ou prejuízo relevante, o juiz decide, ouvido o Ministério Público (art. 1.783-A, § 6º).'],
+    ['O negócio fica vetado, porque basta a discordância de um apoiador para impedi-lo.', false, 'Errada. O apoiador não tem poder de veto. Ele presta apoio e informação; a divergência relevante é resolvida pelo juiz (art. 1.783-A, § 6º).'],
+    ['Prevalece a opinião da maioria entre a apoiada e os apoiadores, de modo que o negócio pode ser feito.', false, 'Errada. A lei não adota votação por maioria. Em negócio de risco relevante com divergência, a solução é judicial (art. 1.783-A, § 6º).']
+  ] },
+{ id: 'ci357', materia: 'civil', topico: 'personalidade',
+  enunciado: 'Uma plataforma de streaming lançou série documental sobre um crime ocorrido há 25 anos, narrando fatos verdadeiros, obtidos licitamente em processos públicos. Mauro, condenado à época e que já cumpriu a pena, ajuizou ação para impedir a exibição, alegando apenas o decurso do tempo. Segundo o entendimento do STF, assinale a afirmativa correta.',
+  alt: [
+    ['O pedido deve ser acolhido, pois o direito ao esquecimento decorre da dignidade da pessoa humana e impede a divulgação de fatos antigos.', false, 'Errada. O STF fixou que um direito ao esquecimento, entendido como poder de impedir, pela passagem do tempo, a divulgação de fatos verdadeiros e licitamente obtidos, é incompatível com a Constituição (Tema 786).'],
+    ['O pedido deve ser rejeitado, pois o direito ao esquecimento assim entendido é incompatível com a Constituição, embora eventuais abusos possam ser examinados caso a caso.', true, 'Correta. É a tese do Tema 786 do STF (RE 1.010.606): o mero decurso do tempo não impede a divulgação de fatos verdadeiros e lícitos; excessos na divulgação são analisados concretamente, à luz da proteção à honra, à imagem e à privacidade (arts. 20 e 21 do CC).'],
+    ['O pedido deve ser acolhido, pois o cumprimento da pena extingue qualquer possibilidade de menção ao nome do condenado.', false, 'Errada. Não existe regra que proíba de forma absoluta a menção a fatos verdadeiros após o cumprimento da pena. O que se protege é contra abusos concretos (Tema 786 do STF).'],
+    ['O pedido deve ser rejeitado, pois os direitos da personalidade não se aplicam a pessoas condenadas criminalmente.', false, 'Errada. Os direitos da personalidade são de todas as pessoas (arts. 11 a 21 do CC). O pedido é rejeitado por outro motivo: a inexistência de um direito ao esquecimento genérico.']
+  ] },
+{ id: 'ci358', materia: 'civil', topico: 'ci-ausencia',
+  enunciado: 'Ernesto desapareceu de seu domicílio sem deixar notícias nem procurador. Foi declarada sua ausência e, depois, aberta a sucessão provisória, cuja sentença transitou em julgado há quatro anos. Seus filhos comprovam que Ernesto completou 81 anos e que as últimas notícias dele datam de seis anos atrás. Assinale a afirmativa correta.',
+  alt: [
+    ['Os filhos devem aguardar dez anos do trânsito em julgado da sentença da sucessão provisória para requerer a sucessão definitiva.', false, 'Errada. Os 10 anos do art. 37 são a regra geral, mas o art. 38 traz hipótese própria para o ausente idoso, que se aplica ao caso.'],
+    ['Os filhos já podem requerer a sucessão definitiva, pois o ausente conta mais de 80 anos e de mais de cinco datam suas últimas notícias.', true, 'Correta. Pode-se requerer a sucessão definitiva provando-se que o ausente conta 80 anos de idade e que de 5 datam as últimas notícias dele (art. 38). Com a sucessão definitiva, presume-se a morte (art. 6º).'],
+    ['A sucessão definitiva só é possível se houver declaração judicial de morte presumida em razão de perigo de vida.', false, 'Errada. A declaração do art. 7º é outro instituto, para casos de perigo de vida ou guerra. Na ausência, a definitiva segue os arts. 37 e 38.'],
+    ['Os filhos podem requerer a sucessão definitiva, mas precisam manter as garantias prestadas por mais dez anos.', false, 'Errada. Na sucessão definitiva há o levantamento das cauções (art. 37). Além disso, descendentes nem precisam prestar garantia na provisória (art. 30, § 2º).']
   ] }
 );
