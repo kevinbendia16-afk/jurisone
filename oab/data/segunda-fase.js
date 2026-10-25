@@ -17,7 +17,7 @@ window.SEGUNDA_FASE = {
     ['Fechamento', '"Nestes termos, pede deferimento. Local..., Data... Advogado... OAB..."']
   ],
   areas: [
-    { id: 'civil2', nome: 'Direito Civil', icone: '📜',
+    { id: 'civil2', nome: 'Direito Civil', icone: 'CI',
       pecas: [
         ['Petição inicial (procedimento comum)', 'Enunciado narra um conflito e o cliente ainda não ajuizou ação.', 'Art. 319 e 320 CPC'],
         ['Contestação', 'Cliente foi citado e o prazo de resposta está aberto.', 'Art. 335 a 342 CPC'],
@@ -27,7 +27,7 @@ window.SEGUNDA_FASE = {
         ['Impugnação ao cumprimento de sentença', 'Cliente intimado a pagar após sentença.', 'Art. 525 CPC']
       ],
       dicas: ['Sempre pedir tutela provisória quando houver urgência no enunciado.', 'Valor da causa é obrigatório na inicial (art. 292).', 'Fazer opção pela audiência de conciliação (art. 319, VII).'] },
-    { id: 'penal2', nome: 'Direito Penal', icone: '🔒',
+    { id: 'penal2', nome: 'Direito Penal', icone: 'PE',
       pecas: [
         ['Resposta à acusação', 'Réu citado após recebimento da denúncia.', 'Art. 396 e 396-A CPP'],
         ['Memoriais (alegações finais)', 'Instrução encerrada, antes da sentença.', 'Art. 403, §3º CPP'],
@@ -37,7 +37,7 @@ window.SEGUNDA_FASE = {
         ['Relaxamento / liberdade provisória', 'Prisão em flagrante ilegal ou desnecessária.', 'Art. 310 e 321 CPP; art. 5º, LXV e LXVI, CF']
       ],
       dicas: ['Ordem das teses: nulidades → extinção da punibilidade → absolvição → pena (dosimetria, regime, substituição).', 'Sempre pedir subsidiariamente: pena mínima, regime mais brando, substituição por restritiva de direitos.', 'Apelação: interposição (5 dias, art. 593) + razões (8 dias, art. 600 CPP) em peças separadas. No JECrim, 10 dias, com as razões junto da interposição (art. 82, §1º, Lei 9.099/95).'] },
-    { id: 'trabalho2', nome: 'Direito do Trabalho', icone: '👷',
+    { id: 'trabalho2', nome: 'Direito do Trabalho', icone: 'TR',
       pecas: [
         ['Reclamação trabalhista', 'Empregado com direitos violados ainda não ajuizou ação.', 'Art. 840, §1º CLT'],
         ['Contestação', 'Empresa notificada para audiência.', 'Art. 847 CLT'],
@@ -47,7 +47,7 @@ window.SEGUNDA_FASE = {
         ['Agravo de petição', 'Decisão na fase de execução.', 'Art. 897, a, CLT']
       ],
       dicas: ['Pedidos da reclamação devem ser certos, determinados e com indicação de valor (art. 840, §1º).', 'Lembre de honorários de sucumbência (5% a 15%, art. 791-A) e justiça gratuita (art. 790, §§3º e 4º). Beneficiário da gratuidade vencido: honorários ficam sob condição suspensiva, sem desconto de créditos obtidos em juízo (ADI 5766).', 'Recurso da empresa: comprovar preparo (custas + depósito recursal). O depósito cai pela metade para entidades sem fins lucrativos, empregador doméstico, MEI, ME e EPP (art. 899, §9º, CLT) e é dispensado para beneficiários da justiça gratuita, entidades filantrópicas e empresas em recuperação judicial (art. 899, §10).'] },
-    { id: 'tributario2', nome: 'Direito Tributário', icone: '💰',
+    { id: 'tributario2', nome: 'Direito Tributário', icone: 'TB',
       pecas: [
         ['Ação declaratória de inexistência de relação jurídico-tributária', 'Ainda não houve lançamento; quer evitar a cobrança.', 'Art. 19, I, CPC'],
         ['Ação anulatória de débito fiscal', 'Já houve lançamento e o contribuinte quer anulá-lo.', 'Art. 38 LEF'],
@@ -57,7 +57,7 @@ window.SEGUNDA_FASE = {
         ['Exceção de pré-executividade', 'Matéria de ordem pública sem necessidade de prova, sem garantir o juízo.', 'Súmula 393 STJ']
       ],
       dicas: ['Observe o momento: antes do lançamento → declaratória/MS preventivo; depois → anulatória/MS; após pagar → repetição; após execução → embargos.', 'Peça o depósito do montante integral (art. 151, II, CTN), a liminar no MS (IV) ou a tutela provisória (V) para suspender a exigibilidade. O depósito é faculdade, não requisito da ação (Súmula Vinculante 28).'] },
-    { id: 'administrativo2', nome: 'Direito Administrativo', icone: '🏢',
+    { id: 'administrativo2', nome: 'Direito Administrativo', icone: 'AD',
       pecas: [
         ['Mandado de segurança', 'Ato ilegal de autoridade, prova pré-constituída, até 120 dias.', 'Art. 5º, LXIX, CF; Lei 12.016/09'],
         ['Ação ordinária (procedimento comum)', 'Precisa de dilação probatória ou já passaram os 120 dias.', 'Art. 319 CPC'],
@@ -66,7 +66,7 @@ window.SEGUNDA_FASE = {
         ['Contestação / recursos', 'Cliente é réu ou perdeu a ação.', 'CPC']
       ],
       dicas: ['Responsabilidade do Estado: pedir com base na responsabilidade objetiva (art. 37, §6º) e ajuizar contra a pessoa jurídica, não contra o agente, que só responde em regresso (Tema 940 STF).', 'No MS, indicar a autoridade coatora e a pessoa jurídica a que pertence.'] },
-    { id: 'constitucional2', nome: 'Direito Constitucional', icone: '🏛️',
+    { id: 'constitucional2', nome: 'Direito Constitucional', icone: 'CO',
       pecas: [
         ['ADI / ADC / ADO / ADPF', 'Legitimado do art. 103 quer impugnar lei em abstrato.', 'Lei 9.868/99 e 9.882/99'],
         ['Mandado de segurança', 'Direito líquido e certo violado por autoridade.', 'Lei 12.016/09'],
@@ -76,7 +76,7 @@ window.SEGUNDA_FASE = {
         ['Recurso extraordinário', 'Acórdão que contraria a Constituição, com repercussão geral.', 'Art. 102, III, CF']
       ],
       dicas: ['Ações de controle concentrado: demonstrar legitimidade e, se for o caso, pertinência temática.', 'Pedir medida cautelar quando houver urgência.'] },
-    { id: 'empresarial2', nome: 'Direito Empresarial', icone: '🏭',
+    { id: 'empresarial2', nome: 'Direito Empresarial', icone: 'EM',
       pecas: [
         ['Pedido de recuperação judicial', 'Empresário em crise quer preservar a empresa.', 'Art. 47 e 51 Lei 11.101/05'],
         ['Pedido de falência / contestação', 'Credor com título protestado acima de 40 salários mínimos.', 'Art. 94 e 98 Lei 11.101/05'],

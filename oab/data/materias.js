@@ -4,7 +4,7 @@
  * e videoId opcional (ID de um vídeo do YouTube para tocar dentro do app). */
 window.MATERIAS = [
 {
-  id: 'etica', nome: 'Ética Profissional', icone: '⚖️', qtd: 8, cor: '#f5b942',
+  id: 'etica', nome: 'Ética Profissional', icone: 'ET', qtd: 8, cor: '#f5b942',
   dica: 'A matéria que mais aprova: 8 questões, quase todas de letra de lei (Estatuto – Lei 8.906/94, Código de Ética e Regulamento Geral). Leia o Estatuto inteiro pelo menos 3 vezes.',
   topicos: [
     { id: 'inscricao', titulo: 'Inscrição, incompatibilidade e impedimento', incidencia: 'alta',
@@ -157,7 +157,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'constitucional', nome: 'Direito Constitucional', icone: '🏛️', qtd: 6, cor: '#5b8def',
+  id: 'constitucional', nome: 'Direito Constitucional', icone: 'CO', qtd: 6, cor: '#5b8def',
   dica: 'Foco em direitos fundamentais (art. 5º), remédios constitucionais, controle de constitucionalidade e organização dos Poderes.',
   topicos: [
     { id: 'remedios', titulo: 'Remédios constitucionais', incidencia: 'alta',
@@ -287,7 +287,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'civil', nome: 'Direito Civil', icone: '📜', qtd: 6, cor: '#3fbf8f',
+  id: 'civil', nome: 'Direito Civil', icone: 'CI', qtd: 6, cor: '#3fbf8f',
   dica: 'Parte Geral, Obrigações, Contratos, Responsabilidade Civil, Família e Sucessões. Família e Sucessões caem quase sempre.',
   topicos: [
     { id: 'capacidade', titulo: 'Capacidade civil', incidencia: 'alta',
@@ -454,7 +454,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'processocivil', nome: 'Direito Processual Civil', icone: '📂', qtd: 6, cor: '#8e6cf0',
+  id: 'processocivil', nome: 'Direito Processual Civil', icone: 'PC', qtd: 6, cor: '#8e6cf0',
   dica: 'Prazos, recursos, tutelas provisórias e procedimento comum. A FGV adora prazos e o cabimento de agravo de instrumento.',
   topicos: [
     { id: 'prazos', titulo: 'Prazos processuais', incidencia: 'alta',
@@ -616,7 +616,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'penal', nome: 'Direito Penal', icone: '🔒', qtd: 6, cor: '#e8615a',
+  id: 'penal', nome: 'Direito Penal', icone: 'PE', qtd: 6, cor: '#e8615a',
   dica: 'Teoria do crime, penas, extinção da punibilidade e crimes em espécie (patrimônio, contra a pessoa e contra a Administração).',
   topicos: [
     { id: 'aplicacao', titulo: 'Aplicação da lei penal', incidencia: 'media',
@@ -764,7 +764,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'processopenal', nome: 'Direito Processual Penal', icone: '🚔', qtd: 6, cor: '#f08a4b',
+  id: 'processopenal', nome: 'Direito Processual Penal', icone: 'PP', qtd: 6, cor: '#f08a4b',
   dica: 'Inquérito, ação penal, prisões e medidas cautelares, procedimentos e recursos. Pacote Anticrime (Lei 13.964/19) é presença constante.',
   topicos: [
     { id: 'prisoes', titulo: 'Prisões e medidas cautelares', incidencia: 'alta',
@@ -923,7 +923,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'trabalho', nome: 'Direito do Trabalho', icone: '👷', qtd: 5, cor: '#2bb3c0',
+  id: 'trabalho', nome: 'Direito do Trabalho', icone: 'TR', qtd: 5, cor: '#2bb3c0',
   dica: 'Reforma Trabalhista (Lei 13.467/17) é o coração da matéria: jornada, férias, verbas rescisórias e contrato de trabalho.',
   topicos: [
     { id: 'jornada', titulo: 'Jornada de trabalho', incidencia: 'alta',
@@ -1012,7 +1012,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'processotrabalho', nome: 'Processo do Trabalho', icone: '🧾', qtd: 5, cor: '#1e9e8a',
+  id: 'processotrabalho', nome: 'Processo do Trabalho', icone: 'PT', qtd: 5, cor: '#1e9e8a',
   dica: 'Recursos trabalhistas, prazos de 8 dias, depósito recursal, honorários sucumbenciais e procedimento sumaríssimo.',
   topicos: [
     { id: 'recursostrab', titulo: 'Recursos trabalhistas', incidencia: 'alta',
@@ -1095,7 +1095,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'administrativo', nome: 'Direito Administrativo', icone: '🏢', qtd: 5, cor: '#c27adf',
+  id: 'administrativo', nome: 'Direito Administrativo', icone: 'AD', qtd: 5, cor: '#c27adf',
   dica: 'Atos administrativos, licitações (Lei 14.133/21), improbidade (Lei 14.230/21), responsabilidade civil do Estado e agentes públicos.',
   topicos: [
     { id: 'atos', titulo: 'Atos administrativos', incidencia: 'alta',
@@ -1141,7 +1141,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'tributario', nome: 'Direito Tributário', icone: '💰', qtd: 5, cor: '#d9a43b',
+  id: 'tributario', nome: 'Direito Tributário', icone: 'TB', qtd: 5, cor: '#d9a43b',
   dica: 'Princípios, imunidades, espécies tributárias, obrigação, crédito tributário (suspensão, extinção e exclusão) e prescrição/decadência.',
   topicos: [
     { id: 'principios', titulo: 'Princípios e imunidades', incidencia: 'alta',
@@ -1172,7 +1172,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'empresarial', nome: 'Direito Empresarial', icone: '🏭', qtd: 4, cor: '#7b8794',
+  id: 'empresarial', nome: 'Direito Empresarial', icone: 'EM', qtd: 4, cor: '#7b8794',
   dica: 'Empresário e sociedades, títulos de crédito e Lei de Falências e Recuperação (Lei 11.101/05, alterada pela Lei 14.112/20).',
   topicos: [
     { id: 'sociedades', titulo: 'Empresário e sociedades', incidencia: 'alta',
@@ -1198,7 +1198,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'eca', nome: 'Estatuto da Criança e do Adolescente', icone: '🧒', qtd: 2, cor: '#ff8fab',
+  id: 'eca', nome: 'Estatuto da Criança e do Adolescente', icone: 'EC', qtd: 2, cor: '#ff8fab',
   dica: 'Medidas socioeducativas, adoção e direitos fundamentais. Questões de leitura direta da lei.',
   topicos: [
     { id: 'medidas', titulo: 'Ato infracional e medidas socioeducativas', incidencia: 'alta',
@@ -1214,7 +1214,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'cdc', nome: 'Direito do Consumidor', icone: '🛒', qtd: 2, cor: '#4fc3f7',
+  id: 'cdc', nome: 'Direito do Consumidor', icone: 'CD', qtd: 2, cor: '#4fc3f7',
   dica: 'Responsabilidade pelo fato e pelo vício, prazos e práticas abusivas.',
   topicos: [
     { id: 'respcdc', titulo: 'Fato x vício e prazos', incidencia: 'alta',
@@ -1231,7 +1231,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'ambiental', nome: 'Direito Ambiental', icone: '🌳', qtd: 2, cor: '#66bb6a',
+  id: 'ambiental', nome: 'Direito Ambiental', icone: 'AM', qtd: 2, cor: '#66bb6a',
   dica: 'Princípios, responsabilidade ambiental, licenciamento, SNUC e Código Florestal.',
   topicos: [
     { id: 'respamb', titulo: 'Responsabilidade ambiental', incidencia: 'alta',
@@ -1247,7 +1247,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'dh', nome: 'Direitos Humanos', icone: '🕊️', qtd: 2, cor: '#ab47bc',
+  id: 'dh', nome: 'Direitos Humanos', icone: 'DH', qtd: 2, cor: '#ab47bc',
   dica: 'Hierarquia dos tratados, sistema interamericano (Comissão e Corte IDH) e sistema global.',
   topicos: [
     { id: 'tratados', titulo: 'Tratados e sistema interamericano', incidencia: 'alta',
@@ -1263,7 +1263,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'internacional', nome: 'Direito Internacional', icone: '🌎', qtd: 2, cor: '#26a69a',
+  id: 'internacional', nome: 'Direito Internacional', icone: 'IN', qtd: 2, cor: '#26a69a',
   dica: 'LINDB, homologação de sentença estrangeira, nacionalidade e cooperação jurídica internacional.',
   topicos: [
     { id: 'lindb', titulo: 'LINDB e homologação', incidencia: 'alta',
@@ -1278,7 +1278,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'financeiro', nome: 'Direito Financeiro', icone: '📊', qtd: 2, cor: '#8d6e63',
+  id: 'financeiro', nome: 'Direito Financeiro', icone: 'FI', qtd: 2, cor: '#8d6e63',
   dica: 'Leis orçamentárias, Lei de Responsabilidade Fiscal e precatórios.',
   topicos: [
     { id: 'orcamento', titulo: 'Orcamento, LRF e precatorios', incidencia: 'alta',
@@ -1324,7 +1324,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'eleitoral', nome: 'Direito Eleitoral', icone: '🗳️', qtd: 2, cor: '#5c6bc0',
+  id: 'eleitoral', nome: 'Direito Eleitoral', icone: 'EL', qtd: 2, cor: '#5c6bc0',
   dica: 'Condições de elegibilidade, inelegibilidades (Lei da Ficha Limpa), partidos e propaganda.',
   topicos: [
     { id: 'elegibilidade', titulo: 'Elegibilidade e inelegibilidade', incidencia: 'alta',
@@ -1342,7 +1342,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'previdenciario', nome: 'Direito Previdenciário', icone: '🧓', qtd: 2, cor: '#78909c',
+  id: 'previdenciario', nome: 'Direito Previdenciário', icone: 'PV', qtd: 2, cor: '#78909c',
   dica: 'Benefícios do RGPS após a Reforma da Previdência (EC 103/19), carência e segurados.',
   topicos: [
     { id: 'beneficios', titulo: 'Benefícios e carência', incidencia: 'alta',
@@ -1358,7 +1358,7 @@ window.MATERIAS = [
   ]
 },
 {
-  id: 'filosofia', nome: 'Filosofia do Direito', icone: '🤔', qtd: 2, cor: '#a1887f',
+  id: 'filosofia', nome: 'Filosofia do Direito', icone: 'FL', qtd: 2, cor: '#a1887f',
   dica: 'Autores clássicos: Aristóteles, Kant, Kelsen, Hart, Bobbio, Dworkin, Rawls. A FGV cobra a ideia central de cada um.',
   topicos: [
     { id: 'autores', titulo: 'Principais autores', incidencia: 'alta',
