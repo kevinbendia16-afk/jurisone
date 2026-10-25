@@ -92,8 +92,8 @@
       </div>
       <h2>Como a prova funciona</h2>
       <div class="grid two">
-        <div class="card"><h3>📝 1ª fase – objetiva</h3><p class="muted">80 questões de múltipla escolha, 5 horas. Precisa acertar 40 (50%). Ética sozinha vale 8 questões.</p><a class="btn sm ghost" href="#/materias">Ver matérias por peso</a></div>
-        <div class="card"><h3>✍️ 2ª fase – prático-profissional</h3><p class="muted">Peça profissional (5 pontos) + 4 questões discursivas (1,25 cada), na área escolhida. Precisa de nota 6,0.</p><a class="btn sm ghost" href="#/segunda">Preparar a 2ª fase</a></div>
+        <div class="card"><h3>1ª fase -- objetiva</h3><p class="muted">80 questões de múltipla escolha, 5 horas. Precisa acertar 40 (50%). Ética sozinha vale 8 questões.</p><a class="btn sm ghost" href="#/materias">Ver matérias por peso</a></div>
+        <div class="card"><h3>2ª fase -- prático-profissional</h3><p class="muted">Peça profissional (5 pontos) + 4 questões discursivas (1,25 cada), na área escolhida. Precisa de nota 6,0.</p><a class="btn sm ghost" href="#/segunda">Preparar a 2ª fase</a></div>
       </div>
       <p class="footer-note">Conteúdo inédito, organizado a partir da lei e das súmulas cobradas pela FGV. Confira sempre o edital vigente do seu exame.</p>`;
     ligarChecks();
@@ -141,9 +141,9 @@
     let n = 0;
     app.innerHTML = `
       <a class="back" href="#/materias">← Matérias</a>
-      <h1>${m.icone} ${esc(m.nome)}</h1>
+      <h1>${esc(m.nome)}</h1>
       <p class="muted">${tot} aulas em ${grade.length} unidade(s) · ${m.topicos.length} no ar · ${aulasDe(m)} concluídas por você · ≈ ${m.qtd} questões na prova</p>
-      <div class="box macete"><h3>🎯 Estratégia para esta matéria</h3>${esc(m.dica)}</div>
+      <div class="box macete"><h3>Estratégia para esta matéria</h3>${esc(m.dica)}</div>
       ${grade.map((u, ui) => {
         const noAr = u.aulas.filter(a => a.t).length, feitas = u.aulas.filter(a => a.t && state.aulas[m.id + ':' + a.t.id]).length;
         return `<details class="unidade" ${ui === 0 || (feitas && feitas < noAr) ? 'open' : ''}>
@@ -189,11 +189,11 @@
 
       <div class="card lesson" style="margin-top:16px">
         ${t.aula.map(paragrafoAula).join('')}
-        <div class="box cai"><h3>📌 Como a FGV cobra</h3><ul>${t.cai.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
-        <div class="box macete"><h3>💡 Macetes</h3><ul>${t.macetes.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
+        <div class="box cai"><h3>Como a FGV cobra</h3><ul>${t.cai.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
+        <div class="box macete"><h3>Dicas práticas</h3><ul>${t.macetes.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>
       </div>
 
-      <h2>🎬 Videoaula</h2>
+      <h2>Videoaula</h2>
       <div class="card">
         ${vid ? `<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${vid}" title="Videoaula" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe></div>` :
           `<p class="muted">Abra as melhores aulas deste assunto no YouTube. Gostou de alguma? Cole o link abaixo e ela passa a tocar aqui dentro do app.</p>`}
@@ -234,21 +234,21 @@
       <h2>Questões inéditas do Aprova OAB</h2>
       <p class="muted">${Q.length} questões no estilo FGV, com explicação de cada alternativa: por que a certa está certa e por que as erradas estão erradas.</p>
       <div class="grid">
-        <a class="card subj" href="#/quiz/todas"><span class="ico" style="background:#f5b94222">🔀</span><h3>Todas misturadas</h3><span class="muted">${st.feitas}/${st.total} resolvidas</span></a>
-        <a class="card subj" href="#/simulado"><span class="ico" style="background:#5b8def22">⏱️</span><h3>Simulado cronometrado</h3><span class="muted">Ritmo de prova: 3 min por questão</span></a>
-        <a class="card subj" href="#/quiz/erradas"><span class="ico" style="background:#ff6b6b22">🔁</span><h3>Revisar erros</h3><span class="muted">${erradas} para refazer</span></a>
+        <a class="card subj" href="#/quiz/todas"><span class="ico" style="background:rgba(25,118,210,.15);color:#42A5F5">MX</span><h3>Todas misturadas</h3><span class="muted">${st.feitas}/${st.total} resolvidas</span></a>
+        <a class="card subj" href="#/simulado"><span class="ico" style="background:rgba(25,118,210,.15);color:#42A5F5">SM</span><h3>Simulado cronometrado</h3><span class="muted">Ritmo de prova: 3 min por questão</span></a>
+        <a class="card subj" href="#/quiz/erradas"><span class="ico" style="background:rgba(198,40,40,.15);color:#ef9a9a">RV</span><h3>Revisar erros</h3><span class="muted">${erradas} para refazer</span></a>
       </div>
       <h2>Por matéria</h2>
       <div class="list">${M.map(m => {
         const s = statsDe(Q.filter(q => q.materia === m.id));
-        return `<a class="card" href="#/quiz/${m.id}"><div><h3>${m.icone} ${esc(m.nome)}</h3><span class="muted">${s.feitas}/${s.total} resolvidas · ${pct(s.acertos, s.feitas)}% de acerto</span></div><span class="muted">→</span></a>`;
+        return `<a class="card" href="#/quiz/${m.id}"><div><h3>${esc(m.nome)}</h3><span class="muted">${s.feitas}/${s.total} resolvidas · ${pct(s.acertos, s.feitas)}% de acerto</span></div><span class="muted">→</span></a>`;
       }).join('')}</div>`;
     carregarIndice().then(ind => {
       const tot = document.getElementById('ofTotal'), box = document.getElementById('ofMaterias');
       if (!tot) return;
       tot.textContent = ind.total ? `${ind.total} questões` : 'em revisão';
       box.innerHTML = ORDEM_CADERNO.filter(id => ind.porMateria[id]).map(id => {
-        return `<a class="card subj" href="#/oficiais/${id}"><span class="muted">${mat(id).icone} ${esc(mat(id).nome)}</span><b>${ind.porMateria[id]} questões</b></a>`;
+        return `<a class="card subj" href="#/oficiais/${id}"><span class="muted">${esc(mat(id).nome)}</span><b>${ind.porMateria[id]} questões</b></a>`;
       }).join('') || '<p class="muted">As questões oficiais estão sendo revisadas e aparecem aqui conforme ficam prontas.</p>';
     });
   }
@@ -273,7 +273,7 @@
       app.innerHTML = `
         <div class="row between"><a class="back" href="${opts.voltar || '#/questoes'}">← Sair</a>
           ${fim ? '<span class="timer" id="timer">--:--</span>' : ''}</div>
-        <div class="row between"><span class="pill">${m.icone} ${esc(m.nome)}</span><span class="muted">Questão ${i + 1} de ${prep.length}</span></div>
+        <div class="row between"><span class="pill">${esc(m.nome)}</span><span class="muted">Questão ${i + 1} de ${prep.length}</span></div>
         ${q.oficial ? `<div class="row" style="margin-top:8px">${seloOficial(q)}</div>` : ''}
         <div class="bar"><i style="width:${pct(i, prep.length)}%"></i></div>
         <div class="card" style="margin-top:14px">
@@ -309,19 +309,19 @@
         <div class="card result">
           <div class="muted">Resultado</div>
           <div class="big ${p >= 50 ? 'grad' : ''}">${acertos}/${total}</div>
-          <p>${p >= 50 ? '🎉 Acima da nota de corte (50%). Continue assim!' : '💪 Abaixo de 50%. Revise as aulas e refaça os erros.'}</p>
+          <p>${p >= 50 ? 'Acima da nota de corte (50%). Continue assim.' : 'Abaixo de 50%. Revise as aulas e refaça os erros.'}</p>
           <div class="row" style="justify-content:center">
             <a class="btn" href="#/quiz/erradas">Revisar erros</a><a class="btn ghost" href="#/questoes">Voltar</a>
           </div>
         </div>
         <h2>Desempenho por matéria</h2>
         <div class="card table-wrap"><table><tr><th>Matéria</th><th>Acertos</th><th>%</th></tr>
-          ${Object.keys(porMat).map(id => `<tr><td>${mat(id).icone} ${esc(mat(id).nome)}</td><td>${porMat[id].a}/${porMat[id].t}</td><td>${pct(porMat[id].a, porMat[id].t)}%</td></tr>`).join('')}
+          ${Object.keys(porMat).map(id => `<tr><td>${esc(mat(id).nome)}</td><td>${porMat[id].a}/${porMat[id].t}</td><td>${pct(porMat[id].a, porMat[id].t)}%</td></tr>`).join('')}
         </table></div>
-        ${opts.semGabarito ? `<h2>Gabarito comentado</h2>${resp.map(r => `<div class="card" style="margin-bottom:10px"><div class="q-enun">${r.ok ? '✅' : '❌'} ${esc(r.q.enunciado)}</div>${r.q.alt.filter(a => a[1]).map(a => `<b>${esc(a[0])}</b><span class="why">${esc(a[2])}</span>`).join('')}</div>`).join('')}` : ''}`;
+        ${opts.semGabarito ? `<h2>Gabarito comentado</h2>${resp.map(r => `<div class="card" style="margin-bottom:10px"><div class="q-enun">${r.ok ? '<span style="color:var(--ok)">Correta</span>' : '<span style="color:var(--bad)">Incorreta</span>'} ${esc(r.q.enunciado)}</div>${r.q.alt.filter(a => a[1]).map(a => `<b>${esc(a[0])}</b><span class="why">${esc(a[2])}</span>`).join('')}</div>`).join('')}` : ''}`;
     }
     if (!prep.length) {
-      app.innerHTML = `<a class="back" href="#/questoes">← Voltar</a><div class="card result"><div class="big">🎉</div><p>Nada para mostrar aqui. Você não tem questões pendentes nesta lista.</p><a class="btn" href="#/questoes">Ir para as questões</a></div>`;
+      app.innerHTML = `<a class="back" href="#/questoes">← Voltar</a><div class="card result"><div class="big" style="color:var(--ok)">0</div><p>Nada para mostrar aqui. Você não tem questões pendentes nesta lista.</p><a class="btn" href="#/questoes">Ir para as questões</a></div>`;
       return;
     }
     tela();
@@ -407,7 +407,7 @@
         <div class="row"><button class="btn" id="comecar">Começar a prova</button></div>
       </div>
       ${hist.length ? `<h2>Seus simulados</h2><div class="card table-wrap"><table><tr><th>Data</th><th>Acertos</th><th>Resultado</th></tr>
-        ${hist.slice().reverse().map(h => `<tr><td>${fmtData(h.data)}</td><td>${h.acertos}/${h.total}</td><td>${h.acertos >= 40 ? '✅ Acima da nota de corte' : '❌ Abaixo de 40'}</td></tr>`).join('')}</table></div>` : ''}`;
+        ${hist.slice().reverse().map(h => `<tr><td>${fmtData(h.data)}</td><td>${h.acertos}/${h.total}</td><td>${h.acertos >= 40 ? '<span style="color:var(--ok)">Aprovado</span>' : '<span style="color:var(--bad)">Abaixo de 40</span>'}</td></tr>`).join('')}</table></div>` : ''}`;
     document.getElementById('comecar').onclick = () => {
       const { ids, ineditas } = montarProvaOficial(todas);
       state.prova = { ids, resp: {}, flags: {}, inicio: Date.now(), fim: Date.now() + DURACAO_PROVA, atual: 0, ineditas };
@@ -501,20 +501,20 @@
       <div class="card result">
         <div class="muted">Simulado de domingo · resultado</div>
         <div class="big ${passou ? 'grad' : ''}">${p.acertos}/80</div>
-        <p>${passou ? '🎉 Aprovado neste simulado: acima dos 40 acertos.' : `💪 Faltaram ${40 - p.acertos} acerto(s) para os 40. Veja abaixo onde focar.`}</p>
+        <p>${passou ? 'Aprovado neste simulado: acima dos 40 acertos.' : `Faltaram ${40 - p.acertos} acerto(s) para os 40. Veja abaixo onde focar.`}</p>
         <p class="muted">Tempo usado: ${fmtMin(Math.round((Math.min(p.entregue, p.fim) - p.inicio) / 60000))} de 5h.</p>
         <div class="row" style="justify-content:center"><button class="btn" id="nova">Fazer outra prova</button><a class="btn ghost" href="#/plano">Voltar ao plano</a></div>
       </div>
       ${p.ineditas && p.ineditas.length ? `<p class="muted">Nesta prova, ${esc(p.ineditas.join(', '))} ainda não tinham questões oficiais revisadas suficientes e foram completadas com questões do app.</p>` : ''}
       <h2>Desempenho por matéria</h2>
       <div class="card table-wrap"><table><tr><th>Matéria</th><th>Acertos</th><th>%</th></tr>
-        ${ORDEM_CADERNO.filter(id => porMateria[id]).map(id => { const [a, t] = porMateria[id]; return `<tr><td>${mat(id).icone} ${esc(mat(id).nome)}</td><td>${a}/${t}</td><td>${pct(a, t)}%</td></tr>`; }).join('')}
+        ${ORDEM_CADERNO.filter(id => porMateria[id]).map(id => { const [a, t] = porMateria[id]; return `<tr><td>${esc(mat(id).nome)}</td><td>${a}/${t}</td><td>${pct(a, t)}%</td></tr>`; }).join('')}
       </table></div>
       <h2>Gabarito comentado</h2>
       <div class="list">${qs.map((q, k) => {
         if (!q) return '';
         const marcada = p.resp[k], certa = q.alt.findIndex(a => a[1]), ok = marcada === certa;
-        return `<details class="card gab" ${ok ? '' : 'open'}><summary><b>${k + 1}.</b> ${ok ? '✅' : marcada == null ? '⬜ Em branco' : '❌'} ${esc(mat(q.materia).nome)} ${seloOficial(q)}</summary>
+        return `<details class="card gab" ${ok ? '' : 'open'}><summary><b>${k + 1}.</b> ${ok ? '<span style="color:var(--ok)">Correta</span>' : marcada == null ? '<span style="color:var(--muted)">Em branco</span>' : '<span style="color:var(--bad)">Incorreta</span>'} ${esc(mat(q.materia).nome)} ${seloOficial(q)}</summary>
           <div class="q-enun">${esc(q.enunciado)}</div>
           ${q.alt.map((a, j) => `<div class="alt ${j === certa ? 'ok' : j === marcada ? 'bad' : ''}"><span class="lt">${LETRAS[j]}</span><span>${esc(a[0])}<span class="why">${esc(a[2])}</span></span></div>`).join('')}
         </details>`;
@@ -575,13 +575,13 @@
   function segunda() {
     app.innerHTML = `
       <h1>2ª Fase · Prova prático-profissional</h1>
-      <div class="card"><h3>📋 Regras que você precisa saber</h3><ul>${S2.regras.map(r => `<li>${esc(r)}</li>`).join('')}</ul></div>
+      <div class="card"><h3>Regras que você precisa saber</h3><ul>${S2.regras.map(r => `<li>${esc(r)}</li>`).join('')}</ul></div>
       <h2>Estrutura de qualquer peça</h2>
       <div class="card"><ol class="steps">${S2.estrutura.map(e => `<li><b>${esc(e[0])}</b><br><span class="muted">${esc(e[1])}</span></li>`).join('')}</ol></div>
       <h2>Escolha sua área</h2>
       <div class="grid">${S2.areas.map(a => {
         const n = casosDe(a.id).length;
-        return `<a class="card subj" href="#/segunda/${a.id}"><span class="ico" style="background:#f5b94222">${a.icone}</span><h3>${esc(a.nome)}</h3><span class="muted">${a.pecas.length} peças principais${n ? ` · ${n} treinos com espelho` : ''}</span></a>`;
+        return `<a class="card subj" href="#/segunda/${a.id}"><span class="ico" style="background:rgba(25,118,210,.15);color:#42A5F5">${a.icone}</span><h3>${esc(a.nome)}</h3><span class="muted">${a.pecas.length} peças principais${n ? ` · ${n} treinos com espelho` : ''}</span></a>`;
       }).join('')}</div>`;
   }
 
@@ -589,20 +589,20 @@
     const a = S2.areas.find(x => x.id === id); if (!a) return notFound();
     app.innerHTML = `
       <a class="back" href="#/segunda">← 2ª Fase</a>
-      <h1>${a.icone} ${esc(a.nome)}</h1>
+      <h1>${esc(a.nome)}</h1>
       <p class="muted">O segredo da 2ª fase: descobrir a peça certa pelas pistas do enunciado. Use esta tabela como guia.</p>
       <div class="card table-wrap"><table>
         <tr><th>Peça</th><th>Quando usar (pista no enunciado)</th><th>Base legal</th></tr>
         ${a.pecas.map(p => `<tr><td><b>${esc(p[0])}</b></td><td>${esc(p[1])}</td><td class="muted">${esc(p[2])}</td></tr>`).join('')}
       </table></div>
-      <div class="box macete"><h3>💡 Dicas de quem já passou</h3><ul>${a.dicas.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>
-      ${casosDe(id).length ? `<h2>✍️ Treine com correção pelo espelho</h2>
+      <div class="box macete"><h3>Dicas de quem já passou</h3><ul>${a.dicas.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>
+      ${casosDe(id).length ? `<h2>Treine com correção pelo espelho</h2>
       <div class="list">${casosDe(id).map(c => {
         const n = state.casos[c.id];
         return `<a class="card" href="#/caso/${c.id}"><div><span class="pill">${c.tipo === 'peca' ? 'Peça · 5,00' : 'Questão · 1,25'}</span><h3 style="margin-top:6px">${esc(c.titulo)}</h3></div>
           ${n != null ? `<span class="check">${fmtNota(n)}</span>` : '<span class="muted">→</span>'}</a>`;
       }).join('')}</div>` : ''}
-      <h2>🎬 Videoaulas</h2>
+      <h2>Videoaulas</h2>
       <div class="row">${a.pecas.map(p => `<a class="btn ghost sm" target="_blank" rel="noopener" href="${ytBusca('OAB 2ª fase ' + a.nome + ' como fazer ' + p[0])}">▶ ${esc(p[0])}</a>`).join('')}</div>`;
   }
 
@@ -708,7 +708,7 @@
     const marcavel = !['prova', 'aula', 'caso'].includes(it.tipo);
     return `<div class="meta ${feito ? 'feita' : ''}">
       ${marcavel ? `<input type="checkbox" class="chk-meta" data-d="${d.data}" data-k="${esc(it.chave)}" ${feito ? 'checked' : ''} aria-label="Marcar como feita">`
-        : `<span class="meta-ico">${it.tipo === 'prova' ? '🏁' : feito ? '✓' : '○'}</span>`}
+        : `<span class="meta-ico">${it.tipo === 'prova' ? 'P' : feito ? '✓' : '○'}</span>`}
       <div class="meta-txt"><b>${esc(it.texto)}</b><span class="muted">${esc(it.detalhe || '')}</span></div>
       <span class="meta-min">${it.tipo === 'prova' ? '' : fmtMin(it.min)}</span>
       ${link ? `<a class="btn ghost sm" href="${link}">Abrir</a>` : ''}
@@ -799,14 +799,14 @@
         <div class="contagem">${cont.length ? cont.map(c => `<div><div class="stat">${c.n}</div><div class="muted">${c.txt}<br>${fmtData(c.data)}</div></div>`).join('') : '<div class="muted">As datas do plano já passaram. Edite o plano para a próxima prova.</div>'}
           <div><div class="stat">${sit.pct}%</div><div class="muted">do plano concluído</div></div></div>
         <p style="margin:14px 0 0">${etapaAtual ? `Etapa atual: <b>${esc(etapaAtual.nome)}</b> (até ${fmtData(etapaAtual.ate)}).` : ''}
-          ${sit.atrasadas ? `Você tem <b>${sit.atrasadas}</b> meta(s) atrasada(s). Faça as que puder ou replaneje a partir de hoje.` : 'Você está em dia. 👏'}</p>
+          ${sit.atrasadas ? `Você tem <b>${sit.atrasadas}</b> meta(s) atrasada(s). Faça as que puder ou replaneje a partir de hoje.` : 'Você está em dia.'}</p>
         <div class="row" style="margin-top:12px">
           <button class="btn sm" id="replanejar">Replanejar a partir de hoje</button>
           <button class="btn ghost sm" id="editar">Editar datas e rotina</button>
         </div>
       </div>
-      ${PD.seccionais[cfg.uf || 'RJ'] ? `<p class="muted">📍 ${esc(PD.seccionais[cfg.uf || 'RJ'])}</p>` : ''}
-      ${r.avisos.length ? `<div class="box macete"><h3>⚠️ Atenção</h3><ul>${r.avisos.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>` : ''}
+      ${PD.seccionais[cfg.uf || 'RJ'] ? `<p class="muted">${esc(PD.seccionais[cfg.uf || 'RJ'])}</p>` : ''}
+      ${r.avisos.length ? `<div class="box macete"><h3>Atenção</h3><ul>${r.avisos.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>` : ''}
       <h2>Próximos dias</h2>
       <div class="list">${proximos.map((d, i) => diaHtml(d, i === 0 || d.data === h)).join('') || '<p class="muted">Nenhuma meta pela frente.</p>'}</div>
       <h2>Etapas</h2>
