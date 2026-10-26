@@ -1,0 +1,27 @@
+/* Questoes – lote processotrabalho-02. */
+window.QUESTOES.push(
+{ id: 'pt10', materia: 'processotrabalho', topico: 'competenciatrab',
+  enunciado: 'Regina, servidora publica estadual regida por estatuto proprio, ajuiza reclamacao trabalhista pleiteando diferencas salariais contra o Estado. A empresa de previdencia complementar privada a que ela contribui tambem e incluida no polo passivo, para revisao do beneficio complementar. Assinale a alternativa correta sobre a competencia.',
+  alt: [
+    ['A Justica do Trabalho e competente para ambas as pretensoes, pois a EC 45/2004 ampliou a competencia para todas as relacoes de trabalho.', false, 'Errada. O STF, na ADI 3395, suspendeu a interpretacao que incluiria servidores estatutarios na competencia da JT. Alem disso, acoes contra entidade de previdencia complementar privada sao da Justica Comum (Tema 190, STF).'],
+    ['A Justica do Trabalho e competente apenas para a acao contra o Estado, sendo a acao contra a entidade de previdencia da Justica Comum.', false, 'Errada. A acao contra o Estado tambem nao e da JT, pois Regina e servidora estatutaria (ADI 3395). Ambas as pretensoes sao da Justica Comum.'],
+    ['A Justica Comum e competente para ambas as pretensoes: a acao contra o Estado porque Regina e estatutaria (ADI 3395), e a acao contra a entidade de previdencia complementar porque a relacao e de natureza civil (Tema 190 do STF).', true, 'Correta. O STF excluiu os estatutarios da JT (ADI 3395) e fixou que acoes de previdencia complementar privada sao da Justica Comum (Tema 190).'],
+    ['A Justica Federal e competente para ambas as pretensoes, pois envolvem servidora publica e entidade regulada por lei federal.', false, 'Errada. Regina e servidora estadual, portanto a acao contra o Estado e da Justica Comum Estadual. A acao contra a entidade de previdencia tambem e da Justica Comum, nao da Federal.']
+  ] },
+{ id: 'pt11', materia: 'processotrabalho', topico: 'pt-competencia-casos',
+  enunciado: 'Luciana, viuva de Marcos, empregado de construtora que faleceu em acidente de trabalho na obra, ajuiza acao de indenizacao por danos morais e materiais contra a empregadora do marido. A construtora alega que a Justica do Trabalho seria incompetente, pois Luciana nunca foi empregada da empresa. Assinale a alternativa correta.',
+  alt: [
+    ['A construtora tem razao: Luciana nao e empregada, logo a acao deve tramitar na Justica Comum.', false, 'Errada. O que define a competencia e a origem do dano (relacao de trabalho), nao a qualidade da parte autora. A SV 22 do STF confirma a competencia da JT para dano decorrente da relacao de trabalho.'],
+    ['A Justica do Trabalho e competente, pois a indenizacao decorre de acidente de trabalho na relacao entre Marcos e a construtora, conforme art. 114, VI, da CF e Sumula Vinculante 22 do STF.', true, 'Correta. A SV 22 do STF fixa que a JT e competente para acoes de indenizacao por dano moral ou patrimonial decorrentes da relacao de trabalho, mesmo que ajuizadas por herdeiros do empregado falecido.'],
+    ['A competencia e da Justica Comum Estadual, pois acoes de acidente de trabalho sao sempre julgadas pela Justica Estadual.', false, 'Errada. A acao acidentaria contra o INSS (beneficio previdenciario) e que vai para a Justica Estadual. A acao de indenizacao contra o empregador e da JT (SV 22).'],
+    ['A competencia depende do valor da causa: ate 40 salarios minimos, Justica do Trabalho; acima, Justica Comum.', false, 'Errada. A competencia material e definida pela natureza da causa (art. 114, CF), nao pelo valor. O valor da causa so define o rito processual (sumarissimo ou ordinario), nao a competencia.']
+  ] },
+{ id: 'pt12', materia: 'processotrabalho', topico: 'pt-competencia-territorial',
+  enunciado: 'Felipe e vendedor viajante contratado pela empresa Beta, sediada em Curitiba-PR. Ele percorre os estados do Parana e Santa Catarina, mas esta subordinado a filial de Londrina-PR. Felipe mora em Blumenau-SC. Ao ser demitido, quer ajuizar reclamacao trabalhista. Assinale a alternativa que indica corretamente o foro competente.',
+  alt: [
+    ['Curitiba, onde fica a sede da empresa, seguindo a regra do domicilio do reu.', false, 'Errada. No processo do trabalho, a regra nao e o domicilio do reu (regra do processo civil), mas o local da prestacao dos servicos (art. 651, CLT). Para viajantes, aplica-se a regra especial do par. 1.'],
+    ['Blumenau, pois a competencia e sempre do domicilio do empregado para facilitar seu acesso a justica.', false, 'Errada. O domicilio do empregado so e utilizado quando nao ha agencia ou filial a que o empregado esteja subordinado (art. 651, par. 1). Como ha filial em Londrina, esta prevalece.'],
+    ['Londrina, pois sendo viajante comercial, a competencia e da localidade em que a empresa tenha agencia ou filial a que o empregado esteja subordinado, nos termos do art. 651, par. 1, da CLT.', true, 'Correta. O art. 651, par. 1, da CLT preve que, para agente ou viajante comercial, a competencia e da Vara da localidade em que a empresa tenha agencia ou filial a que o empregado esteja subordinado. Felipe esta subordinado a filial de Londrina.'],
+    ['Qualquer localidade do Parana ou de Santa Catarina, pois o empregado viajante pode escolher livremente o foro.', false, 'Errada. O viajante nao tem liberdade total de escolha. O art. 651, par. 1, fixa criterios objetivos: primeiro, onde ha filial subordinada; na falta, domicilio do empregado ou localidade mais proxima.']
+  ] }
+);
