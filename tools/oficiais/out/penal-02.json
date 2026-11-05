@@ -1,0 +1,242 @@
+[
+  {"id": "41-61", "status": "valida", "explicacoes": [
+    "Errada. O reincidente não pode iniciar o cumprimento no regime aberto (art. 33, §2º, c, do CP), e o sursis exige pena de até 2 anos e réu não reincidente em crime doloso (art. 77, caput e I, do CP).",
+    "Errada. O semiaberto é cabível, mas a pena superior a 1 ano não pode ser substituída só por multa: exige uma restritiva de direitos e multa ou duas restritivas de direitos (art. 44, §2º, do CP).",
+    "Errada. O regime aberto é vedado ao reincidente (art. 33, §2º, c, do CP); com pena de até 4 anos e circunstâncias judiciais favoráveis, o que se obtém é o semiaberto (Súmula 269 do STJ).",
+    "Correta. A Súmula 269 do STJ admite o semiaberto ao reincidente condenado a pena de até 4 anos com circunstâncias judiciais favoráveis. Como a reincidência não é específica (lesão corporal e furto) e o furto não tem violência ou grave ameaça, cabe a substituição se socialmente recomendável (art. 44, I e §3º, do CP), e a pena superior a 1 ano é substituída por duas restritivas de direitos (art. 44, §2º)."
+  ]},
+  {"id": "41-62", "status": "valida", "explicacoes": [
+    "Errada. A Constituição só prevê a imprescritibilidade do racismo e da ação de grupos armados contra a ordem constitucional e o Estado Democrático (art. 5º, XLII e XLIV, da CF); o estupro de vulnerável prescreve.",
+    "Errada. A redução pela metade para o maior de 70 anos considera a idade na data da sentença (art. 115 do CP), que sequer foi proferida; e, ainda que aplicada, o prazo de 10 anos contado dos 18 anos da vítima não teria se esgotado.",
+    "Correta. Nos crimes contra a dignidade sexual de criança ou adolescente, a prescrição corre da data em que a vítima completa 18 anos, se a ação ainda não foi proposta (art. 111, V, do CP, incluído pela Lei 12.650/12 e alterado pela Lei 14.344/22). O fato de 2013 está sob essa regra, e o prazo de 20 anos (art. 109, I) acaba de começar.",
+    "Errada. O prazo é de 20 anos (art. 109, I, do CP), mas não se conta da data do fato, e sim da data em que a vítima completou 18 anos (art. 111, V, do CP)."
+  ]},
+  {"id": "41-63", "status": "valida", "explicacoes": [
+    "Correta. O desacato tem pena máxima de 2 anos e é infração de menor potencial ofensivo (art. 61 da Lei 9.099/95), julgada no Juizado Especial Criminal. Lá cabe apelação no prazo de 10 dias, com as razões já na petição de interposição (art. 82, §1º, da Lei 9.099/95).",
+    "Errada. Apelação em 5 dias com razões em 8 dias é o regime do CPP (arts. 593 e 600), que não se aplica à sentença do Juizado Especial Criminal (art. 82, §1º, da Lei 9.099/95).",
+    "Errada. Recurso inominado é o nome usado nos Juizados Especiais Cíveis (art. 41 da Lei 9.099/95); contra a sentença criminal do Juizado cabe apelação (art. 82).",
+    "Errada. O prazo de 3 dias para razões é previsto no CPP para as contravenções (art. 600); no Juizado Especial Criminal a apelação é interposta em 10 dias, já com as razões (art. 82, §1º, da Lei 9.099/95)."
+  ]},
+  {"id": "40-57", "status": "valida", "explicacoes": [
+    "Correta. Arthur iniciou a execução do furto (começou a cortar os cabos), mas a consumação não ocorreu por circunstância alheia à sua vontade, o atropelamento; há tentativa, com redução de 1/3 a 2/3 (art. 14, II e parágrafo único, do CP).",
+    "Errada. O arrependimento posterior exige reparação do dano ou restituição da coisa, por ato voluntário, até o recebimento da denúncia (art. 16 do CP); a lesão sofrida pelo próprio agente não é reparação.",
+    "Errada. Crime impossível exige ineficácia absoluta do meio ou impropriedade absoluta do objeto (art. 17 do CP); o corte dos cabos era meio idôneo para o furto.",
+    "Errada. O perdão judicial só cabe nos casos previstos em lei (art. 107, IX, do CP), como o homicídio e a lesão culposos (arts. 121, §5º, e 129, §8º); não há essa previsão para o furto."
+  ]},
+  {"id": "40-58", "status": "valida", "explicacoes": [
+    "Errada. O CP adota a equivalência dos antecedentes, mas a limita: a causa superveniente relativamente independente que, por si só, produz o resultado exclui a imputação (art. 13, §1º), e ninguém responde por resultado que não causou ao menos culposamente (art. 19).",
+    "Correta. A descarga elétrica, imprevisível para Júlio, foi causa relativamente independente que, por si só, produziu a morte; ela rompe a imputação do resultado, e Júlio responde apenas pelos atos anteriores, a lesão corporal (art. 13, §1º, do CP).",
+    "Errada. O crime preterdoloso exige culpa no resultado agravador, isto é, previsibilidade (art. 19 do CP); a morte por descarga elétrica era imprevisível, o que afasta a lesão corporal seguida de morte (art. 129, §3º).",
+    "Errada. Sem previsibilidade objetiva do resultado não há culpa; como Júlio não podia imaginar o fio exposto, não responde por homicídio culposo."
+  ]},
+  {"id": "40-59", "status": "valida", "explicacoes": [
+    "Errada. No roubo o próprio agente subtrai a coisa; aqui a vantagem dependia de ato indispensável da vítima (as transferências por PIX e TED), o que caracteriza extorsão, e não roubo.",
+    "Errada. A extorsão mediante sequestro (art. 159 do CP) exige que a vantagem seja condição ou preço do resgate; aqui a restrição da liberdade foi o meio para a própria vítima entregar a vantagem.",
+    "Errada. O sequestro (art. 148 do CP) fica absorvido, pois a privação da liberdade foi meio para a obtenção da vantagem econômica, elemento da extorsão qualificada.",
+    "Correta. Constranger a vítima, mediante grave ameaça e restrição da liberdade necessária à obtenção da vantagem, a fazer transferências bancárias é o sequestro relâmpago, extorsão qualificada do art. 158, §3º, do CP (incluído pela Lei 11.923/09)."
+  ]},
+  {"id": "40-60", "status": "valida", "explicacoes": [
+    "Correta. Descumprir decisão que defere medida protetiva é crime (art. 24-A da Lei 11.340/06, hoje com pena de reclusão de 2 a 5 anos e multa, pela Lei 14.994/24), e a lei não exige representação: a ação penal é pública incondicionada.",
+    "Errada. O crime é afiançável; a lei só restringe quem concede a fiança: em caso de prisão em flagrante, apenas o juiz pode concedê-la (art. 24-A, §2º, da Lei 11.340/06).",
+    "Errada. Trata-se de crime, e não de contravenção, e a Lei 9.099/95 não se aplica à violência doméstica contra a mulher (art. 41 da Lei 11.340/06), o que impede a suspensão condicional do processo (Súmula 536 do STJ).",
+    "Errada. Embora caiba preventiva para garantir as medidas protetivas (art. 313, III, do CPP), o descumprimento configura o crime do art. 24-A da Lei 11.340/06."
+  ]},
+  {"id": "40-61", "status": "valida", "explicacoes": [
+    "Errada. Corrupção passiva é crime do funcionário que solicita, recebe ou aceita a vantagem (art. 317 do CP); Patrícia, particular, ofereceu a vantagem, e Antônio recusou.",
+    "Errada. Patrícia não é funcionária pública nem solicitou ou recebeu vantagem; quem oferece vantagem indevida a funcionário comete corrupção ativa (art. 333 do CP).",
+    "Errada. A corrupção ativa é crime formal: consuma-se com o oferecimento ou a promessa da vantagem, ainda que recusada e sem pagamento (art. 333 do CP).",
+    "Correta. Oferecer vantagem indevida a funcionário público para que pratique, omita ou retarde ato de ofício é corrupção ativa (art. 333 do CP), crime formal que se consuma com o simples oferecimento, independentemente de aceitação ou pagamento."
+  ]},
+  {"id": "40-62", "status": "valida", "explicacoes": [
+    "Correta. A lesão culposa (art. 129, §6º, do CP) não se divide em grave ou gravíssima; a gravidade só pesa na dosimetria. Mesmo com o aumento de 1/3 pela inobservância de regra técnica (art. 129, §7º), a pena máxima fica abaixo de 2 anos: é infração de menor potencial ofensivo, do JECrim, com as medidas despenalizadoras da Lei 9.099/95.",
+    "Errada. As formas grave e gravíssima (art. 129, §§1º e 2º, do CP) pressupõem lesão dolosa; sem dolo, o médico responde por lesão culposa (art. 129, §6º), de menor potencial ofensivo.",
+    "Errada. Não existe lesão grave culposa: as qualificadoras do art. 129, §1º, do CP são das lesões dolosas; o caso é de lesão culposa, de competência do Juizado Especial Criminal.",
+    "Errada. A conduta culposa não configura lesão gravíssima; além disso, a gravíssima tem pena mínima de 2 anos, acima do limite de 1 ano para a suspensão condicional do processo (art. 89 da Lei 9.099/95)."
+  ]},
+  {"id": "39-58", "status": "valida", "explicacoes": [
+    "Errada. Corrupção passiva privilegiada (art. 317, §2º, do CP) é praticar ou deixar de praticar ato de ofício cedendo a pedido ou influência de outrem; Xavier agiu para prejudicar um inimigo.",
+    "Correta. Prolongar a prisão temporária, deixando sem motivo justo e excepcionalíssimo de cumprir o alvará de soltura ou de soltar o preso esgotado o prazo, é abuso de autoridade (art. 12, parágrafo único, IV, da Lei 13.869/19); a finalidade de prejudicar Maciel preenche o dolo específico exigido (art. 1º, §1º).",
+    "Errada. A conduta tem tipo específico na Lei de Abuso de Autoridade, que prevalece pela especialidade sobre a desobediência (art. 330 do CP).",
+    "Errada. O crime se consuma com o prolongamento indevido da prisão; o cumprimento tardio do alvará não afasta a infração (art. 12, parágrafo único, IV, da Lei 13.869/19)."
+  ]},
+  {"id": "39-59", "status": "valida", "explicacoes": [
+    "Errada. Não houve morte, e a lei dá solução específica quando a vítima é menor de 14 anos e sofre lesão gravíssima (art. 122, §7º, do CP).",
+    "Correta. Se a instigação ao suicídio resulta em lesão gravíssima e a vítima é menor de 14 anos, o agente responde pela lesão corporal gravíssima do art. 129, §2º, do CP, por expressa previsão do art. 122, §7º (Lei 13.968/19). Pablo, de 13 anos, ficou tetraplégico.",
+    "Errada. Desde a Lei 13.968/19 o crime do art. 122 se consuma com a instigação, e o resultado de lesão gravíssima em vítima menor de 14 anos desloca a tipificação para o art. 129, §2º, do CP (art. 122, §7º).",
+    "Errada. Não há previsão de perdão judicial para o art. 122 do CP; o perdão judicial só incide nos casos expressos em lei (art. 107, IX)."
+  ]},
+  {"id": "39-60", "status": "valida", "explicacoes": [
+    "Errada. O arrependimento posterior pressupõe crime consumado sem violência ou grave ameaça, com reparação do dano até o recebimento da denúncia (art. 16 do CP); Paulo não consumou o furto.",
+    "Correta. Paulo iniciou a execução e, podendo prosseguir, desistiu por vontade própria; na desistência voluntária ele só responde pelos atos já praticados (art. 15, primeira parte, do CP), e no caso não há crime autônomo.",
+    "Errada. Na tentativa a consumação não ocorre por circunstâncias alheias à vontade do agente (art. 14, II, do CP); Paulo parou por vontade própria.",
+    "Errada. O arrependimento eficaz ocorre quando o agente, já esgotados os atos de execução, impede o resultado (art. 15, segunda parte, do CP); Paulo interrompeu a execução antes de concluí-la."
+  ]},
+  {"id": "39-61", "status": "valida", "explicacoes": [
+    "Errada. A coação física irresistível exclui a própria conduta de quem é coagido; Caio não foi coagido por ninguém.",
+    "Errada. A coação moral irresistível (art. 22 do CP) pressupõe ameaça de terceiro que obriga o agente a delinquir; não é o caso.",
+    "Errada. Repelir agressão injusta e atual a terceiro, com moderação e meios necessários, não é exercício regular de direito, mas legítima defesa (art. 25 do CP).",
+    "Correta. Caio repeliu, usando moderadamente os meios necessários, injusta agressão atual a direito de terceiro (a senhora); é legítima defesa de terceiro, que exclui a ilicitude (arts. 23, II, e 25 do CP)."
+  ]},
+  {"id": "39-62", "status": "valida", "explicacoes": [
+    "Correta. Paulo tinha 20 anos na data do fato, e o prazo prescricional é reduzido de metade para o menor de 21 anos ao tempo do crime (art. 115 do CP). O homicídio simples (pena máxima de 20 anos) prescreve em 20 anos (art. 109, I), reduzidos a 10: a prescrição ocorreu em julho de 2021, antes da denúncia.",
+    "Errada. O prazo de 20 anos (art. 109, I, do CP) deve ser reduzido de metade porque Paulo era menor de 21 anos na data do fato (art. 115).",
+    "Errada. O homicídio simples só é hediondo se praticado em atividade típica de grupo de extermínio (art. 1º, I, da Lei 8.072/90), e não existe acréscimo de 1/3 ao prazo da pretensão punitiva por hediondez; o aumento de 1/3 do art. 110 do CP é da reincidência na pretensão executória.",
+    "Errada. A hediondez não torna o crime imprescritível; só são imprescritíveis o racismo e a ação de grupos armados contra a ordem constitucional (art. 5º, XLII e XLIV, da CF)."
+  ]},
+  {"id": "39-64", "status": "valida", "explicacoes": [
+    "Errada. O perdão do ofendido só extingue a punibilidade nos crimes de ação penal privada (arts. 105 e 107, V, do CP); o latrocínio é de ação pública incondicionada.",
+    "Errada. O latrocínio, consumado ou tentado, é hediondo, e o condenado por crime hediondo não pode receber graça ou indulto, o que inclui a comutação, que é indulto parcial (art. 5º, XLIII, da CF; art. 2º, I, da Lei 8.072/90).",
+    "Correta. O condenado em regime fechado ou semiaberto pode remir parte da pena pelo trabalho ou pelo estudo: 1 dia de pena a cada 3 dias de trabalho ou a cada 12 horas de estudo (art. 126 da LEP).",
+    "Errada. A anistia é concedida por lei federal, do Congresso Nacional (arts. 21, XVII, e 48, VIII, da CF), e é vedada para crimes hediondos (art. 5º, XLIII, da CF)."
+  ]},
+  {"id": "38-57", "status": "valida", "explicacoes": [
+    "Correta. Bruno dirigia com cautela e a colisão decorreu da conduta de André, sem culpa de Bruno, o que afasta o homicídio culposo (art. 302 do CTB). Resta a omissão de socorro do condutor envolvido no sinistro (art. 304 do CTB), que se aplica justamente a quem não agiu com culpa.",
+    "Errada. A emoção não exclui a imputabilidade nem a tipicidade (art. 28, I, do CP); Bruno responde pela omissão de socorro do art. 304 do CTB.",
+    "Errada. Sem culpa de Bruno não há homicídio culposo na direção de veículo (art. 302 do CTB) nem, portanto, a causa de aumento do seu §1º, III; a omissão configura o crime autônomo do art. 304.",
+    "Errada. Não há homicídio culposo, pois Bruno não violou dever de cuidado; ele responde apenas pela omissão de socorro (art. 304 do CTB)."
+  ]},
+  {"id": "38-58", "status": "valida", "explicacoes": [
+    "Errada. Não cabe substituição por restritiva de direitos em crime cometido com violência ou grave ameaça à pessoa (art. 44, I, do CP), nem em crime contra a mulher com violência no âmbito doméstico (Súmula 588 do STJ).",
+    "Correta. Vedada a substituição (art. 44, I, do CP e Súmula 588 do STJ), o sursis é cabível ao condenado não reincidente com pena de até 2 anos (art. 77 do CP), com período de prova de 2 a 4 anos, e o STJ o admite na violência doméstica.",
+    "Errada. A suspensão condicional do processo é inaplicável na violência doméstica contra a mulher (art. 41 da Lei 11.340/06 e Súmula 536 do STJ) e, além disso, não cabe depois da sentença condenatória.",
+    "Errada. Na violência doméstica é vedada a substituição que implique pagamento isolado de multa (art. 17 da Lei 11.340/06), além da vedação do art. 44, I, do CP e da Súmula 588 do STJ."
+  ]},
+  {"id": "38-59", "status": "valida", "explicacoes": [
+    "Errada. O erro de tipo permissivo recai sobre os pressupostos fáticos de uma excludente de ilicitude (art. 20, §1º, do CP); Alan errou sobre o objeto da conduta (a espécie do animal), que é elemento do tipo.",
+    "Correta. Alan se enganou sobre elemento do tipo (supôs animal silvestre, e não o gato doméstico de terceiro), mas o erro era evitável, pois deixou de seguir o procedimento devido de levar o animal ao Centro de Triagem. O erro de tipo inescusável exclui o dolo e permite a punição por culpa, se prevista em lei (art. 20, caput, do CP).",
+    "Errada. O erro não foi escusável, porque Alan não adotou as cautelas exigidas e abandonou o procedimento correto para poupar tempo; por isso só se exclui o dolo (art. 20, caput, do CP).",
+    "Errada. Erro de proibição é a falsa percepção sobre a ilicitude da conduta (art. 21 do CP); Alan errou sobre a realidade fática (a espécie do animal), o que é erro de tipo."
+  ]},
+  {"id": "38-61", "status": "valida", "explicacoes": [
+    "Errada. No peculato culposo, a reparação antes da sentença irrecorrível extingue a punibilidade; só a reparação posterior a ela reduz a pena de metade (art. 312, §3º, do CP).",
+    "Correta. No peculato culposo, a reparação do dano que precede a sentença irrecorrível extingue a punibilidade (art. 312, §3º, do CP); Francisco ressarciu o erário antes do julgamento.",
+    "Errada. A atenuante do art. 65, III, b, do CP exige reparação antes do julgamento, e não antes do recebimento da denúncia; de todo modo, a regra especial do art. 312, §3º, já extingue a punibilidade.",
+    "Errada. O arrependimento posterior exige reparação até o recebimento da denúncia (art. 16 do CP), e no peculato culposo prevalece a regra especial do art. 312, §3º, que extingue a punibilidade."
+  ]},
+  {"id": "37-58", "status": "valida", "explicacoes": [
+    "Correta. Conjunção carnal ou ato libidinoso com menor de 14 anos é estupro de vulnerável (art. 217-A do CP), e o consentimento da vítima ou sua experiência sexual anterior são irrelevantes (art. 217-A, §5º, e Súmula 593 do STJ). A conduta é típica, ilícita e culpável.",
+    "Errada. A conduta é típica: o art. 217-A do CP protege objetivamente o menor de 14 anos, e Antônio conhecia a idade da vítima.",
+    "Errada. O consentimento da vítima menor de 14 anos não exclui a ilicitude, pois é juridicamente irrelevante (art. 217-A, §5º, do CP e Súmula 593 do STJ).",
+    "Errada. Antônio é imputável, tinha potencial consciência da ilicitude e dele se exigia conduta diversa; não há causa que exclua a culpabilidade."
+  ]},
+  {"id": "37-59", "status": "valida", "explicacoes": [
+    "Errada. A efetiva transposição da fronteira entre Estados é dispensável para a majorante do art. 40, V, da Lei 11.343/06 (Súmula 587 do STJ).",
+    "Errada. A intenção inequívoca de realizar o tráfico interestadual precisa ser demonstrada; o que se dispensa é a transposição da fronteira (Súmula 587 do STJ).",
+    "Correta. Conforme a Súmula 587 do STJ, para a majorante do tráfico interestadual (art. 40, V, da Lei 11.343/06) basta a demonstração inequívoca da intenção de realizar o tráfico entre Estados, sendo desnecessária a efetiva transposição de fronteiras.",
+    "Errada. É a intenção inequívoca de traficar entre Estados que justifica a majorante; a transposição é dispensável e, sozinha, não basta (Súmula 587 do STJ)."
+  ]},
+  {"id": "37-60", "status": "valida", "explicacoes": [
+    "Errada. Na extorsão a vítima é constrangida a fazer, tolerar ou deixar de fazer algo, com colaboração indispensável; Silvio arrancou ele mesmo o cordão, o que é subtração, própria do roubo.",
+    "Errada. O roubo se consuma com a inversão da posse mediante violência ou grave ameaça, ainda que por breve tempo e seguida de perseguição e recuperação do bem (Súmula 582 do STJ).",
+    "Errada. No roubo impróprio a violência ou a ameaça é empregada depois da subtração, para assegurar a impunidade ou a detenção da coisa (art. 157, §1º, do CP); aqui a ameaça precedeu a subtração.",
+    "Correta. Silvio subtraiu o cordão mediante grave ameaça (art. 157 do CP) e houve inversão da posse; pela teoria da amotio, o roubo se consuma ainda que haja perseguição imediata e recuperação do bem, sendo prescindível a posse mansa e pacífica (Súmula 582 do STJ)."
+  ]},
+  {"id": "37-61", "status": "valida", "explicacoes": [
+    "Correta. Ygor usou a semelhança física e o uniforme para iludir a vigilância e, assim, subtrair os pacotes sem que ninguém os entregasse a ele; é furto qualificado mediante fraude (art. 155, §4º, II, do CP).",
+    "Errada. No estelionato a fraude leva a vítima a entregar a coisa voluntariamente (art. 171 do CP); aqui ninguém entregou nada, e a fraude serviu para reduzir a vigilância e permitir a subtração.",
+    "Errada. A falsa identidade (art. 307 do CP) é expressamente subsidiária e fica absorvida quando é meio para crime mais grave, no caso o furto mediante fraude.",
+    "Errada. O abuso de confiança pressupõe uma relação de confiança entre o agente e a vítima que facilite a subtração; Ygor não tinha relação alguma com os moradores."
+  ]},
+  {"id": "37-62", "status": "valida", "explicacoes": [
+    "Errada. Mesmo na posição de garantidora (art. 13, §2º, b, do CP), Fernanda só responde pelo resultado se agiu com dolo ou culpa; o direito penal não admite responsabilidade objetiva (arts. 18 e 19 do CP).",
+    "Correta. A responsabilização penal exige dolo ou culpa (arts. 18 e 19 do CP). Sem comprovação de negligência, imprudência ou imperícia, Fernanda não responde pela lesão sofrida pelo idoso, ainda que fosse garantidora.",
+    "Errada. Crime omissivo próprio é a mera abstenção descrita no tipo, sem vinculação a resultado; Fernanda não se omitiu e, como garantidora, eventual responsabilidade seria por omissão imprópria, que também exige dolo ou culpa.",
+    "Errada. O Estatuto da Pessoa Idosa (Lei 10.741/03, assim renomeado pela Lei 14.423/22) não tipifica um acidente sem dolo; seus crimes, como expor o idoso a perigo (art. 99), exigem conduta dolosa."
+  ]},
+  {"id": "37-63", "status": "valida", "explicacoes": [
+    "Errada. A perda do cargo na Lei 13.869/19 não decorre da quantidade de pena: exige reincidência em crime de abuso de autoridade e não é automática, devendo ser declarada motivadamente na sentença (art. 4º, III e parágrafo único).",
+    "Errada. A inabilitação para cargo público de 1 a 5 anos é efeito da condenação, condicionado à reincidência em abuso de autoridade e não automático (art. 4º, II e parágrafo único, da Lei 13.869/19); não é pena substitutiva.",
+    "Errada. Tornar certa a obrigação de indenizar é efeito da condenação que não depende de reincidência (art. 4º, I, da Lei 13.869/19); a reincidência só é exigida para a inabilitação e a perda do cargo.",
+    "Correta. As penas restritivas de direitos substitutivas da Lei 13.869/19 são a prestação de serviços à comunidade ou a entidades públicas e a suspensão do exercício do cargo, função ou mandato, por 1 a 6 meses, com perda dos vencimentos e vantagens (art. 5º, I e II)."
+  ]},
+  {"id": "36-58", "status": "valida", "explicacoes": [
+    "Errada. O assédio sexual (art. 216-A do CP) é crime formal: consuma-se com o constrangimento, independentemente da obtenção da vantagem sexual.",
+    "Correta. Robson, prevalecendo-se da condição de superior hierárquico, constrangeu Camila com o intuito de obter favorecimento sexual, sob ameaça de demissão. O assédio sexual (art. 216-A do CP) é formal e se consumou com o constrangimento.",
+    "Errada. A proposta acompanhada da ameaça de demissão já é o constrangimento típico do art. 216-A do CP; não se trata de ato preparatório.",
+    "Errada. A importunação sexual (art. 215-A do CP) exige a prática de ato libidinoso contra alguém sem sua anuência; Robson não praticou ato libidinoso, mas constrangeu a vítima valendo-se da hierarquia."
+  ]},
+  {"id": "36-59", "status": "valida", "explicacoes": [
+    "Errada. A isonomia não impede frações diferentes: a individualização da pena (art. 5º, XLVI, da CF) impõe considerar a situação pessoal de cada condenado, como primariedade e reincidência (art. 112 da LEP).",
+    "Errada. O juiz da execução não altera a pena fixada na sentença conforme o comportamento; o comportamento é requisito subjetivo da progressão e de outros benefícios (art. 112, §1º, da LEP).",
+    "Correta. A progressão é assegurada aos condenados por crime hediondo, mas a fração varia conforme a situação pessoal: no hediondo com resultado morte, como o latrocínio, exige-se 50% do primário (art. 112, VI, a, da LEP) e 70% do reincidente em crime hediondo ou equiparado com resultado morte (art. 112, VIII).",
+    "Errada. A progressão depende de requisitos legais: o objetivo (fração do art. 112 da LEP) e o subjetivo (boa conduta carcerária e exame criminológico, art. 112, §1º, com a redação da Lei 14.843/24); preenchidos, é direito do condenado, e não escolha livre do juiz."
+  ]},
+  {"id": "36-60", "status": "valida", "explicacoes": [
+    "Errada. A omissão de socorro (art. 135 do CP) só se configura quando é possível prestar assistência sem risco pessoal; Raquel corria risco de morrer.",
+    "Errada. A legítima defesa exige agressão injusta (art. 25 do CP); Tainá não agredia ninguém, e o perigo decorreu de evento natural, o naufrágio.",
+    "Errada. A conduta de Raquel é típica, mas não ilícita, por estar amparada pelo estado de necessidade (arts. 23, I, e 24 do CP).",
+    "Correta. Raquel salvou a própria vida de perigo atual que não provocou por sua vontade nem podia de outro modo evitar, sacrificando bem de igual valor; age em estado de necessidade, excludente de ilicitude (arts. 23, I, e 24 do CP)."
+  ]},
+  {"id": "36-61", "status": "valida", "explicacoes": [
+    "Errada. Alfredo não aderiu ao estupro nem contribuiu para ele; quem quis participar de crime diverso responde apenas pelo crime que quis cometer (art. 29, §2º, do CP).",
+    "Errada. Túlio também responde pelo emprego de arma de fogo, circunstância objetiva do roubo combinado entre ambos, que se comunica ao coautor que dela tinha ciência (arts. 30 e 157, §2º-A, I, do CP).",
+    "Correta. Ambos respondem pelo roubo com as majorantes do concurso de pessoas e do emprego de arma de fogo (art. 157, §2º, II, e §2º-A, I, do CP). O estupro foi decisão exclusiva de Túlio, que responde por ele em concurso material (arts. 213 e 69); Alfredo não responde, pela cooperação dolosamente distinta (art. 29, §2º).",
+    "Errada. A participação de menor importância (art. 29, §1º, do CP) pressupõe alguma contribuição para o crime; Alfredo não aderiu ao estupro nem contribuiu para ele, e por isso não responde por esse delito."
+  ]},
+  {"id": "36-62", "status": "valida", "explicacoes": [
+    "Correta. O art. 33 da Lei 11.343/06 é tipo misto alternativo (de ação múltipla): a prática de vários verbos no mesmo contexto fático configura crime único de tráfico.",
+    "Errada. Não há concurso formal, porque os verbos do tipo misto alternativo praticados no mesmo contexto configuram um só crime de tráfico.",
+    "Errada. A pluralidade de verbos praticados no mesmo contexto não gera pluralidade de crimes no tipo de ação múltipla do art. 33 da Lei 11.343/06.",
+    "Errada. O tráfico privilegiado exige agente primário, de bons antecedentes, que não se dedique a atividades criminosas nem integre organização criminosa (art. 33, §4º, da Lei 11.343/06); Elias é reincidente específico."
+  ]},
+  {"id": "36-63", "status": "valida", "explicacoes": [
+    "Errada. O cambismo consiste em vender ingresso por preço superior ao estampado no bilhete; André ofereceu ingresso falso, empregando fraude para obter vantagem ilícita.",
+    "Errada. Ingresso de futebol não é documento público, e o enunciado não atribui a André a falsificação; a fraude foi o meio para o estelionato.",
+    "Correta. André empregou fraude (ingressos falsos) para induzir a vítima em erro e obter vantagem ilícita (art. 171 do CP); a execução começou, mas a vítima percebeu a falsidade antes do pagamento, o que configura tentativa (art. 14, II).",
+    "Errada. O falso usado como meio para o estelionato, sem mais potencialidade lesiva, é por ele absorvido (Súmula 17 do STJ); André responde por estelionato tentado."
+  ]},
+  {"id": "35-58", "status": "valida", "explicacoes": [
+    "Errada. Não houve corrupção passiva, pois Alan não solicitou, recebeu ou aceitou vantagem indevida (art. 317 do CP); agiu para satisfazer sentimento pessoal.",
+    "Errada. A prevaricação é crime formal e se consumou quando Alan deixou de praticar o ato; a atuação posterior do supervisor não a torna tentada.",
+    "Correta. Deixar de praticar, indevidamente, ato de ofício para satisfazer interesse ou sentimento pessoal é prevaricação (art. 319 do CP), crime formal consumado com a omissão; a defesa deve pedir a desclassificação para a forma consumada.",
+    "Errada. A condescendência criminosa (art. 320 do CP) é deixar, por indulgência, de responsabilizar subordinado que cometeu infração; não é o caso."
+  ]},
+  {"id": "35-60", "status": "valida", "explicacoes": [
+    "Errada. O disparo também é atípico: o art. 15 da Lei 10.826/03 exige que ocorra em lugar habitado ou em suas adjacências, em via pública ou em direção a ela, e Breno atirou em local ermo, longe de residências.",
+    "Errada. Não há porte de arma com numeração suprimida, pois a numeração se apagou por desgaste natural e a arma era registrada, com porte autorizado; e o disparo em local ermo também é atípico.",
+    "Errada. Não há concurso de crimes, formal ou material, porque ambas as condutas são atípicas.",
+    "Correta. O disparo em local deserto não se enquadra no art. 15 da Lei 10.826/03, que exige lugar habitado ou adjacências ou via pública. E o apagamento natural da numeração, sem conduta de raspar, suprimir ou adulterar, não configura o art. 16, §1º, IV, ainda mais com arma registrada e porte autorizado."
+  ]},
+  {"id": "35-61", "status": "valida", "explicacoes": [
+    "Correta. Desde a Lei 13.964/19, a prescrição não corre enquanto não cumprido ou não rescindido o acordo de não persecução penal (art. 116, IV, do CP).",
+    "Errada. A redução de metade só se aplica a quem era menor de 21 anos na data do fato (art. 115 do CP); Natan já tinha 21 anos.",
+    "Errada. A prescrição pela pena hipotética ou virtual não é admitida (Súmula 438 do STJ), e o prazo da apropriação indébita simples (pena máxima de 4 anos) é de 8 anos (art. 109, IV, do CP).",
+    "Errada. A prescrição pela pena aplicada não pode ter por termo inicial data anterior à da denúncia ou queixa (art. 110, §1º, do CP, com a redação da Lei 12.234/10)."
+  ]},
+  {"id": "35-62", "status": "valida", "explicacoes": [
+    "Correta. Ato libidinoso com menor de 14 anos é estupro de vulnerável, sem possibilidade de desclassificação para importunação sexual (art. 217-A do CP e Tema 1121 do STJ). Sendo crime hediondo e Fausto reincidente específico em crime hediondo (já condenado por latrocínio), não terá direito a novo livramento condicional (art. 83, V, do CP).",
+    "Errada. Contra menor de 14 anos, o ato libidinoso configura estupro de vulnerável, e não importunação sexual (Tema 1121 do STJ).",
+    "Errada. A tipificação está correta, mas o livramento condicional é vedado ao reincidente específico em crimes hediondos (art. 83, V, do CP), situação de Fausto.",
+    "Errada. A conduta é estupro de vulnerável (Tema 1121 do STJ), e o livramento seria vedado pela reincidência específica em crime hediondo (art. 83, V, do CP)."
+  ]},
+  {"id": "35-63", "status": "valida", "explicacoes": [
+    "Errada. A condenação anterior deixa de gerar reincidência após 5 anos entre a extinção da pena e a nova infração, computado o período de prova do sursis não revogado (art. 64, I, do CP).",
+    "Errada. O prazo de 5 anos do art. 64, I, do CP inclui o período de prova do sursis, iniciado em abril de 2016; em maio de 2021 o prazo já havia passado.",
+    "Correta. Computando o período de prova do sursis, iniciado em abril de 2016, mais de 5 anos se passaram até o novo crime, em maio de 2021; a condenação anterior não gera reincidência (art. 64, I, do CP), embora possa valer como mau antecedente.",
+    "Errada. O CP não exige o mesmo tipo penal para a reincidência: basta cometer novo crime depois do trânsito em julgado de condenação por crime anterior (art. 63 do CP)."
+  ]},
+  {"id": "34-58", "status": "valida", "explicacoes": [
+    "Errada. A quantidade de dias-multa segue os critérios do art. 59 do CP (gravidade do fato), e só o valor do dia-multa considera a situação econômica (art. 60). Além disso, o juiz não pode deixar de aplicar a multa cominada cumulativamente por pobreza do réu.",
+    "Correta. Na fixação da multa, o número de dias-multa (10 a 360) reflete a gravidade do fato e as circunstâncias do art. 59 do CP, enquanto o valor do dia-multa (1/30 a 5 salários mínimos) deve atender principalmente à situação econômica do réu (arts. 49 e 60 do CP).",
+    "Errada. Desde a Lei 9.268/96 a multa não paga não pode ser convertida em prisão; é dívida de valor, executada perante o juiz da execução penal (art. 51 do CP).",
+    "Errada. No concurso de crimes, as penas de multa são aplicadas distinta e integralmente (art. 72 do CP); a exasperação do concurso formal (de 1/6 até a metade, art. 70) vale só para a pena privativa de liberdade."
+  ]},
+  {"id": "34-59", "status": "valida", "explicacoes": [
+    "Errada. A morte resultou unicamente do envenenamento por erro na medicação, causa superveniente relativamente independente que, por si só, produziu o resultado; ela exclui a imputação da morte, e Lúcio responde por tentativa de homicídio (art. 13, §1º, do CP).",
+    "Correta. O remédio vencido e inadequado foi causa superveniente relativamente independente que, por si só, produziu a morte, o que afasta a forma consumada (art. 13, §1º, do CP). A agravante da embriaguez preordenada (art. 61, II, l) exige que o agente se embriague para cometer o crime, e Lúcio bebeu para esquecer os problemas.",
+    "Errada. A embriaguez de Lúcio foi voluntária, mas não preordenada, pois ele não bebeu com o propósito de cometer o crime; isso afasta a agravante do art. 61, II, l, do CP.",
+    "Errada. Lúcio agiu com intenção de matar, o que afasta a lesão corporal seguida de morte (art. 129, §3º, do CP), que pressupõe ausência de dolo quanto à morte; a imputação correta é de homicídio tentado."
+  ]},
+  {"id": "34-60", "status": "valida", "explicacoes": [
+    "Correta. O concurso de pessoas não exige ajuste prévio: basta o liame subjetivo de quem adere à conduta alheia, ainda que o autor o desconheça. Gabriel contribuiu dolosamente para o furto, deixando o portão aberto e desligando os alarmes, e responde por furto qualificado pelo concurso de pessoas (arts. 29 e 155, §4º, IV, do CP).",
+    "Errada. Havia elemento subjetivo: Gabriel quis contribuir para o furto de Ricardo, e o liame subjetivo pode ser unilateral, dispensando o conhecimento do autor.",
+    "Errada. A contribuição foi eficaz: Ricardo entrou pelo portão aberto e com os alarmes desligados, o que facilitou a subtração.",
+    "Errada. O favorecimento real (art. 349 do CP) pressupõe auxílio prestado depois do crime, fora dos casos de coautoria ou participação; Gabriel colaborou antes da execução e é partícipe do furto."
+  ]},
+  {"id": "34-61", "status": "valida", "explicacoes": [
+    "Correta. Não há organização criminosa, que exige 4 ou mais pessoas e infrações com pena máxima superior a 4 anos ou de caráter transnacional (art. 1º, §1º, da Lei 12.850/13). Há associação criminosa (art. 288 do CP), formada por 3 ou mais pessoas, contado o adolescente, com pena aumentada até a metade pela participação de adolescente (art. 288, parágrafo único).",
+    "Errada. Não há organização criminosa: são apenas 3 pessoas e os crimes visados são de menor potencial ofensivo (art. 1º, §1º, da Lei 12.850/13).",
+    "Errada. O adolescente inimputável conta para o número mínimo de integrantes da associação criminosa, e os maiores respondem pelo art. 288 do CP.",
+    "Errada. O art. 288, parágrafo único, do CP prevê aumento até a metade se a associação é armada ou se houver participação de criança ou adolescente."
+  ]}
+]

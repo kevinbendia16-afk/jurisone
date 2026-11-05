@@ -1,0 +1,51 @@
+/* Questoes – eca-01. */
+window.QUESTOES.push(
+{ id: 'ec320', materia: 'eca', topico: 'direitoseca',
+  enunciado: 'Uma crianca de 10 anos e encontrada em situacao de rua, sem qualquer acompanhamento familiar. O Conselho Tutelar e acionado. Com base no ECA, assinale a alternativa correta sobre a atuacao do Conselho Tutelar.',
+  alt: [
+    ['O Conselho Tutelar pode aplicar medida de protecao de encaminhamento aos pais ou responsavel e, se necessario, requisitar servicos publicos de saude e assistencia social.', true, 'Correta. O art. 136, I e III, do ECA confere ao Conselho Tutelar a atribuicao de atender criancas com direitos ameacados ou violados e requisitar servicos publicos. As medidas de protecao dos incisos I a VII do art. 101 podem ser aplicadas pelo CT.'],
+    ['O Conselho Tutelar deve encaminhar a crianca diretamente para adocao, por se tratar de situacao de abandono.', false, 'Errada. A colocacao em familia substituta (incluindo adocao) e competencia exclusiva da autoridade judiciaria (art. 101, §2, do ECA). O CT nao pode determinar adocao.'],
+    ['O Conselho Tutelar deve aplicar medida socioeducativa de advertencia, pois a crianca esta em situacao irregular.', false, 'Errada. Medidas socioeducativas so se aplicam a adolescentes autores de ato infracional (art. 112). Crianca em situacao de risco recebe medida de protecao (art. 101), nao socioeducativa.'],
+    ['O Conselho Tutelar nao tem competencia para atuar nesse caso, devendo encaminhar diretamente ao Ministerio Publico.', false, 'Errada. O CT tem competencia para atender criancas com direitos ameacados ou violados (art. 136, I). O encaminhamento ao MP e cabivel para questoes judiciais, mas o atendimento imediato e atribuicao do CT.']
+  ] },
+{ id: 'ec321', materia: 'eca', topico: 'familiasubst',
+  enunciado: 'Joao e Maria, avos maternos de uma crianca de 5 anos cujos pais faleceram, requerem a guarda judicial da neta. O juiz constata que a crianca ja reside com os avos ha 2 anos e mantem vinculos afetivos solidos. Sobre a colocacao em familia substituta, assinale a alternativa correta.',
+  alt: [
+    ['A guarda deve ser deferida aos avos, pois integram a familia extensa e a crianca ja possui vinculos de afinidade e afetividade com eles, nos termos do art. 25, paragrafo unico, do ECA.', true, 'Correta. A familia extensa (parentes proximos com vinculo de afinidade e afetividade) tem preferencia na colocacao em familia substituta (art. 25, paragrafo unico, do ECA). A convivencia de 2 anos reforça o vinculo.'],
+    ['Os avos nao podem obter a guarda, pois a unica medida cabivel apos o falecimento dos pais e a adocao por terceiros.', false, 'Errada. A guarda e a tutela sao formas validas de colocacao em familia substituta (art. 28 do ECA). A adocao nao e a unica opcao, especialmente quando ha familia extensa com vinculo.'],
+    ['A guarda so pode ser deferida se os avos comprovarem renda minima equivalente a 3 salarios minimos por pessoa.', false, 'Errada. O ECA nao exige renda minima para guarda. Alem disso, o art. 23 do ECA dispoe que a falta ou carencia de recursos materiais nao constitui motivo para perda ou suspensao do poder familiar ou para negar a guarda.'],
+    ['Os avos devem primeiro se cadastrar no Cadastro Nacional de Adocao para obter a guarda da neta.', false, 'Errada. O Cadastro Nacional de Adocao e exigido para adocao (art. 50), nao para guarda. A guarda por familia extensa independe de cadastro.']
+  ] },
+{ id: 'ec322', materia: 'eca', topico: 'adocao',
+  enunciado: 'Carlos, solteiro, 30 anos, pretende adotar Lucas, adolescente de 15 anos, com quem nao possui nenhum vinculo anterior. Carlos nao esta inscrito no cadastro de pretendentes a adocao. Assinale a alternativa correta.',
+  alt: [
+    ['A adocao pode ser deferida, desde que Carlos se habilite no cadastro e cumpra o estagio de convivencia, pois a diferenca de idade e suficiente.', false, 'Errada. A diferenca de idade entre Carlos (30) e Lucas (15) e de apenas 15 anos, inferior ao minimo de 16 anos exigido pelo art. 42, §3, do ECA. A adocao nao pode ser deferida.'],
+    ['Carlos nao pode adotar por ser solteiro, pois a adocao exige que o adotante seja casado ou viva em uniao estavel.', false, 'Errada. O art. 42 do ECA permite a adocao por qualquer pessoa maior de 18 anos, independentemente do estado civil. O impedimento nao e o estado civil, mas a diferenca de idade insuficiente.'],
+    ['A adocao e impossivel porque a diferenca de idade entre Carlos e Lucas e de apenas 15 anos, inferior ao minimo legal de 16 anos previsto no art. 42, §3, do ECA.', true, 'Correta. O art. 42, §3, do ECA exige diferenca minima de 16 anos entre adotante e adotado. Carlos tem 30 anos e Lucas 15, totalizando diferenca de 15 anos, insuficiente para a adocao.'],
+    ['Lucas, por ser adolescente, nao precisa consentir com a adocao, bastando a autorizacao de seus pais biologicos.', false, 'Errada. O art. 45, §2, do ECA exige o consentimento do adotando adolescente, colhido em audiencia. A opiniao do adolescente e obrigatoria.']
+  ] },
+{ id: 'ec323', materia: 'eca', topico: 'protecao',
+  enunciado: 'O Conselho Tutelar de determinado municipio recebe denuncia de que uma crianca de 8 anos esta sendo submetida a trabalho em feira livre pelos pais, em horario que prejudica sua frequencia escolar. Assinale a alternativa correta sobre as providencias cabiveis.',
+  alt: [
+    ['O Conselho Tutelar pode aplicar aos pais medida de advertencia e obrigacao de matricula e frequencia escolar da crianca, alem de requisitar servicos de assistencia social.', true, 'Correta. O CT pode aplicar medidas de protecao a crianca (art. 101, III – matricula obrigatoria) e medidas aplicaveis aos pais (art. 129, V – advertencia, e art. 129, III – obrigacao de matricular). Pode tambem requisitar servicos publicos (art. 136, III, a).'],
+    ['O Conselho Tutelar deve imediatamente retirar a crianca da familia e coloca-la em acolhimento institucional.', false, 'Errada. O acolhimento institucional e medida de competencia exclusiva da autoridade judiciaria (art. 101, §2) e so se aplica como ultima ratio (art. 101, §1). O CT deve buscar medidas menos gravosas primeiro.'],
+    ['O Conselho Tutelar nao tem competencia para intervir, pois trabalho infantil e materia de competencia exclusiva do Ministerio do Trabalho.', false, 'Errada. O CT tem competencia para atender criancas com direitos violados (art. 136, I), incluindo situacoes de trabalho infantil. A fiscalizacao trabalhista e do Ministerio do Trabalho, mas a protecao da crianca e atribuicao concorrente do CT.'],
+    ['O Conselho Tutelar deve aplicar medida socioeducativa de prestacao de servicos a comunidade aos pais.', false, 'Errada. Medidas socioeducativas aplicam-se apenas a adolescentes autores de ato infracional (art. 112). As medidas aplicaveis aos pais estao no art. 129 do ECA.']
+  ] },
+{ id: 'ec324', materia: 'eca', topico: 'processoeca',
+  enunciado: 'Pedro, adolescente de 16 anos, foi apreendido em flagrante pela pratica de ato infracional analogo ao crime de roubo (art. 157 do CP). O Ministerio Publico ofereceu representacao. O juiz aplicou medida socioeducativa de internacao. Assinale a alternativa correta.',
+  alt: [
+    ['A internacao e cabivel, pois o ato infracional foi cometido mediante violencia a pessoa, enquadrando-se na hipotese do art. 122, I, do ECA.', true, 'Correta. O roubo envolve violencia ou grave ameaca a pessoa (art. 157 do CP). O art. 122, I, do ECA autoriza a internacao quando o ato infracional e cometido mediante grave ameaca ou violencia a pessoa.'],
+    ['A internacao e ilegal, pois medida privativa de liberdade nao pode ser aplicada a adolescentes, apenas a maiores de 18 anos.', false, 'Errada. O ECA preve a internacao como medida socioeducativa privativa de liberdade aplicavel a adolescentes (art. 121). O que nao se aplica e pena criminal, nao medida socioeducativa.'],
+    ['A internacao so seria cabivel se Pedro fosse reincidente, pois a primeira infracao deve ser punida com advertencia.', false, 'Errada. Nao ha exigencia de progressividade obrigatoria das medidas. O art. 122, I, autoriza internacao na primeira infracao se cometida com violencia ou grave ameaca.'],
+    ['Pedro devera ser internado por prazo fixo de 3 anos, correspondente ao maximo legal.', false, 'Errada. A internacao nao comporta prazo determinado (art. 121, §2). O prazo de 3 anos e o maximo, mas a manutencao deve ser reavaliada a cada 6 meses no maximo.']
+  ] },
+{ id: 'ec325', materia: 'eca', topico: 'processoeca',
+  enunciado: 'Ana, 14 anos, praticou ato infracional analogo ao trafico de drogas. O Ministerio Publico requereu a aplicacao de medida de internacao. O defensor de Ana alega que o trafico, por si so, nao autoriza a internacao. Assinale a alternativa correta.',
+  alt: [
+    ['O defensor esta correto, pois a Sumula 492 do STJ estabelece que o ato infracional analogo ao trafico de drogas, por si so, nao conduz obrigatoriamente a internacao.', true, 'Correta. A Sumula 492 do STJ e expressa: o ato infracional analogo ao trafico de drogas nao conduz obrigatoriamente a internacao. O trafico nao envolve violencia ou grave ameaca a pessoa, nao se enquadrando automaticamente no art. 122, I, do ECA.'],
+    ['O defensor esta errado, pois o trafico de drogas e crime hediondo equiparado, e o ECA preve internacao obrigatoria para atos infracionais analogos a crimes hediondos.', false, 'Errada. O ECA nao preve internacao obrigatoria para atos analogos a crimes hediondos. As hipoteses de internacao sao taxativas (art. 122) e nao incluem a natureza hedionda do crime analogoa.'],
+    ['A internacao e cabivel porque o trafico envolve grave ameaca a saude publica, equiparando-se a violencia contra a pessoa.', false, 'Errada. O art. 122, I, refere-se a violencia ou grave ameaca a pessoa de forma direta e concreta, nao a ameaca generica a saude publica. A Sumula 492 do STJ confirma esse entendimento.'],
+    ['O juiz pode aplicar a internacao independentemente das hipoteses do art. 122, pois tem discricionariedade plena na escolha da medida socioeducativa.', false, 'Errada. As hipoteses de internacao do art. 122 sao taxativas, nao havendo discricionariedade para aplica-la fora dessas situacoes (STJ, Sumula 492).']
+  ] }
+);

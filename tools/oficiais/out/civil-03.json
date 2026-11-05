@@ -1,0 +1,278 @@
+[
+  { "id": "35-41", "status": "valida",
+    "explicacoes": [
+      "Errada. A emancipação produz efeitos apenas para o futuro e não convalida atos anteriores; aqui nem havia o que convalidar, pois o maior de 16 anos já pode testar (art. 1.860, parágrafo único, do CC).",
+      "Errada. Podem ser chamadas a suceder por testamento as pessoas jurídicas cuja organização for determinada pelo testador sob a forma de fundação (art. 1.799, III, do CC), e não só as já constituídas.",
+      "Correta. Os maiores de 16 anos podem testar sem assistência (art. 1.860, parágrafo único, do CC), e o testador pode destinar a parte disponível a fundação a ser criada (art. 1.799, III, do CC).",
+      "Errada. A capacidade de testar é aferida no momento do testamento (art. 1.861 do CC), e aos 16 anos Renatinho já podia testar, mesmo sem emancipação (art. 1.860, parágrafo único)."
+    ] },
+  { "id": "34-35", "status": "valida",
+    "explicacoes": [
+      "Errada. Ricardo, com 8 anos, é absolutamente incapaz (art. 3º do CC) e não manifesta validamente sua vontade; além disso, na doação pura ao absolutamente incapaz a aceitação é dispensada (art. 543 do CC).",
+      "Errada. Nem por meio dos representantes legais a aceitação é exigida: tratando-se de doação pura a absolutamente incapaz, a lei a dispensa (art. 543 do CC).",
+      "Correta. Se o donatário for absolutamente incapaz, dispensa-se a aceitação, desde que se trate de doação pura (art. 543 do CC).",
+      "Errada. A doação é contrato (art. 538 do CC) e, em regra, depende de aceitação; a dispensa no caso decorre da regra especial do art. 543, e não de suposta natureza unilateral do negócio."
+    ] },
+  { "id": "34-36", "status": "valida",
+    "explicacoes": [
+      "Correta. Se sobrevier a uma das partes diminuição patrimonial capaz de tornar duvidosa a prestação, a outra pode recusar a sua até que aquela cumpra ou dê garantia bastante de satisfazê-la: é a exceção de inseguridade (art. 477 do CC).",
+      "Errada. A obra seguia o cronograma, sem inadimplemento nem declaração de que não seria cumprida; a lei dá ao dono da obra a exceção de inseguridade (suspender a prestação e exigir garantia, art. 477 do CC), e não a extinção imediata.",
+      "Errada. A cláusula resolutiva expressa é válida e opera de pleno direito; só a tácita depende de interpelação judicial (art. 474 do CC).",
+      "Errada. A exceção de contrato não cumprido pressupõe que a outra parte já não tenha cumprido sua obrigação (art. 476 do CC); diante do risco gerado pela redução patrimonial, o instrumento é a exceção de inseguridade (art. 477)."
+    ] },
+  { "id": "34-37", "status": "valida",
+    "explicacoes": [
+      "Errada. Na venda ad mensuram, se a área não corresponde à declarada, o comprador tem direito ao complemento, à resolução ou ao abatimento do preço (art. 500 do CC), no prazo decadencial de 1 ano (art. 501).",
+      "Correta. Estipulado o preço pela área declarada e sendo ela inferior, o comprador pode exigir o complemento e, se impossível, a resolução do contrato ou o abatimento proporcional do preço (art. 500, caput, do CC).",
+      "Errada. A área foi determinante e o preço foi ajustado para 420 m², o que caracteriza venda ad mensuram, e não ad corpus (art. 500, § 3º, do CC); a referência às dimensões não foi enunciativa.",
+      "Errada. A presunção de referência enunciativa só existe se a diferença não exceder 1/20 (5%) da área total (art. 500, § 1º, do CC); aqui a falta é de cerca de 13%, e o primeiro remédio é o complemento da área."
+    ] },
+  { "id": "34-38", "status": "valida",
+    "explicacoes": [
+      "Errada. Luiz morreu antes de Catarina e, por isso, não herda dela; sem descendentes de Luiz, não há representação, e o cônjuge não representa (arts. 1.798 e 1.851 do CC). A herança de Catarina vai toda para Rogério.",
+      "Correta. Na sucessão de Luiz, sem descendentes, herdam a ascendente Catarina e a cônjuge Aline em concorrência, cabendo a Aline metade por haver um só ascendente (arts. 1.829, II, e 1.837 do CC); morta Catarina depois, o quinhão dela passa a Rogério.",
+      "Errada. Rogério está vivo e não há sucessão dele em jogo; além disso, na sucessão de Luiz a concorrência do cônjuge com ascendentes independe do regime de bens (art. 1.829, II, do CC).",
+      "Errada. Catarina sobreviveu a Luiz e, como ascendente, concorre com a cônjuge na herança dele, cabendo a cada uma metade (arts. 1.829, II, e 1.837 do CC)."
+    ] },
+  { "id": "34-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A vedação de converter os bens da legítima em outros de espécie diversa se dirige a cláusula testamentária (art. 1.848, § 1º, do CC); em vida, o proprietário pode vender livremente seus bens.",
+      "Correta. A legítima (50%) divide-se igualmente entre as duas filhas, herdeiras necessárias (arts. 1.789 e 1.846 do CC); Luciana recebe ainda a parte disponível pelo testamento (art. 1.849), ficando com 75%, e Leonora com 25%.",
+      "Errada. O diagnóstico de doença grave não retira a capacidade de testar; basta o pleno discernimento no momento do ato (arts. 1.860 e 1.861 do CC), que Clóvis tinha.",
+      "Errada. A divisão igual só ocorreria na sucessão legítima pura; quem tem herdeiros necessários pode dispor livremente da metade disponível (art. 1.789 do CC), como Clóvis fez em favor de Luciana."
+    ] },
+  { "id": "34-40", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de 10 anos é o geral (art. 205 do CC), aplicado pelo STJ à responsabilidade contratual; a reparação civil extracontratual prescreve em 3 anos (art. 206, § 3º, V, do CC).",
+      "Correta. A pretensão de reparação civil extracontratual prescreve em 3 anos (art. 206, § 3º, V, do CC), contados do dano conhecido em 02/02/2016; o prazo terminou em fevereiro de 2019.",
+      "Errada. O prazo não é de 5 anos, e sim de 3 anos (art. 206, § 3º, V, do CC), já esgotado quando Jorge procurou o advogado.",
+      "Errada. A pretensão contra o causador do dano extracontratual prescreve em 3 anos, e não em 10 (art. 206, § 3º, V, do CC), e já está prescrita."
+    ] },
+  { "id": "34-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Desde o Estatuto da Pessoa com Deficiência, a deficiência não torna a pessoa incapaz (arts. 3º e 4º do CC, com a redação da Lei 13.146/15); Júlia é plenamente capaz e não precisa de anuência materna.",
+      "Correta. A deficiência não afeta a plena capacidade civil da pessoa, inclusive para casar-se e constituir união estável (art. 6º, I, da Lei 13.146/15; art. 1.550, § 2º, do CC).",
+      "Errada. Não há curador obrigatório: a curatela é medida extraordinária, judicial, restrita a atos patrimoniais e negociais, e não alcança o matrimônio (arts. 84 e 85, § 1º, da Lei 13.146/15).",
+      "Errada. A curatela não pode ser imposta pela mãe; depende de processo judicial, é excepcional e não alcança o direito ao matrimônio (art. 85, § 1º, da Lei 13.146/15)."
+    ] },
+  { "id": "33-35", "status": "valida",
+    "explicacoes": [
+      "Errada. Não é necessária a concordância do alimentando: sobrevindo mudança na situação financeira de quem paga, o interessado pode pedir ao juiz a revisão (art. 1.699 do CC).",
+      "Errada. A filiação socioafetiva gera os mesmos direitos da biológica, inclusive alimentos, vedada qualquer discriminação (art. 227, § 6º, da CF; arts. 1.593 e 1.596 do CC).",
+      "Correta. Sobrevindo mudança na situação financeira de quem supre os alimentos, o interessado pode reclamar ao juiz a exoneração, a redução ou a majoração do encargo (art. 1.699 do CC).",
+      "Errada. A decisão sobre alimentos pode ser revista sempre que mudar a relação entre necessidade e possibilidade (art. 1.699 do CC; art. 15 da Lei 5.478/68); a melhora financeira de Antônio autoriza pedido de majoração."
+    ] },
+  { "id": "33-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Quadros e piano são pertenças, e não benfeitorias (arts. 93 e 96 do CC), e as pertenças, em regra, não seguem o bem principal (art. 94).",
+      "Errada. As torneiras incorporadas aos banheiros são partes integrantes e acompanham o imóvel; só as pertenças (quadros e piano) ficam fora do negócio, salvo ajuste (arts. 93 e 94 do CC).",
+      "Correta. As torneiras são partes integrantes e seguem a mansão; quadros e piano são pertenças, que não acompanham o principal salvo lei, vontade das partes ou circunstâncias do caso (arts. 93 e 94 do CC).",
+      "Errada. As pertenças não seguem o principal, salvo lei, manifestação de vontade ou circunstâncias do caso (art. 94 do CC); e as torneiras, partes integrantes, acompanham o imóvel."
+    ] },
+  { "id": "33-37", "status": "valida",
+    "explicacoes": [
+      "Correta. Havendo direito de arrependimento, as arras são penitenciais: quem as recebeu e desiste deve devolvê-las mais o equivalente, sem indenização suplementar (art. 420 do CC), com atualização monetária, juros e honorários (arts. 389 e 418 do CC).",
+      "Errada. Com arras penitenciais não há direito a indenização suplementar (art. 420 do CC), e Max recebe o valor das arras mais o equivalente, e não só os R$ 50.000,00.",
+      "Errada. Não há devolução em triplo; quem recebeu arras penitenciais e desiste devolve-as mais o equivalente, isto é, em dobro (art. 420 do CC).",
+      "Errada. Quem recebeu as arras e se arrependeu deve devolvê-las mais o equivalente (art. 420 do CC); Max tem direito a R$ 100.000,00 atualizados, e não só ao que pagou."
+    ] },
+  { "id": "33-38", "status": "valida",
+    "explicacoes": [
+      "Errada. No depósito, o depositário recebe coisa móvel para guardar até que o depositante a reclame (art. 627 do CC); a cessão gratuita de imóvel para uso é comodato (art. 579).",
+      "Errada. O mútuo é empréstimo de coisas fungíveis e transfere o domínio (art. 586 do CC); o imóvel cedido para moradia é coisa infungível, emprestada em comodato (art. 579).",
+      "Correta. O empréstimo gratuito de coisa infungível é comodato (art. 579 do CC); o comodatário deve conservá-la e, constituído em mora, pagará o aluguel arbitrado pelo comodante até restituí-la (art. 582).",
+      "Errada. A locação é onerosa por definição (art. 565 do CC); a cessão gratuita caracteriza comodato, e o aluguel do art. 582 é sanção pela mora, e não retribuição."
+    ] },
+  { "id": "33-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A responsabilidade pessoal do médico é subjetiva, dependente de culpa (art. 951 do CC; art. 14, § 4º, do CDC); não se aplica a regra da atividade de risco do art. 927, parágrafo único.",
+      "Errada. Mesmo havendo relação de consumo, a responsabilidade pessoal do profissional liberal é apurada mediante verificação de culpa (art. 14, § 4º, do CDC).",
+      "Errada. A responsabilidade é subjetiva, mas não se limita aos danos diretos: abrange despesas de tratamento, lucros cessantes e pensão pela incapacidade (arts. 949 e 950 do CC), além de eventual dano moral.",
+      "Correta. Na lesão à saúde causada por culpa no exercício profissional, indenizam-se as despesas do tratamento e os lucros cessantes até o fim da convalescença e, havendo incapacidade para o ofício, pensão correspondente (arts. 949, 950 e 951 do CC)."
+    ] },
+  { "id": "33-40", "status": "valida",
+    "explicacoes": [
+      "Correta. O testamento é revogável a qualquer tempo, e o posterior incompatível revoga o anterior (arts. 1.858, 1.969 e 1.970 do CC); como irmão não é herdeiro necessário, toda a herança pode ir para Donizete.",
+      "Errada. Irmão é colateral, e não herdeiro necessário (art. 1.845 do CC); para excluí-lo basta dispor de todo o patrimônio sem contemplá-lo (art. 1.850).",
+      "Errada. A deserdação só atinge herdeiros necessários (art. 1.961 do CC), e abandono afetivo não é causa legal; o colateral é afastado simplesmente por testamento (art. 1.850).",
+      "Errada. O testamento é ato essencialmente revogável e pode ser mudado a qualquer tempo (arts. 1.858 e 1.969 do CC)."
+    ] },
+  { "id": "32-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A usucapião extraordinária exige 15 anos de posse, ou 10 com moradia ou obras produtivas (art. 1.238 do CC); o caso é de usucapião familiar, com prazo de 2 anos (art. 1.240-A).",
+      "Errada. Não há negócio jurídico nem desdobramento da posse: após o abandono, Simone exerce posse direta e exclusiva sobre o imóvel, o que permite a usucapião familiar (art. 1.240-A do CC).",
+      "Correta. Quem exerce por 2 anos, sem interrupção nem oposição, posse direta e exclusiva sobre imóvel urbano de até 250 m² cuja propriedade divida com ex-cônjuge que abandonou o lar, usando-o para moradia e sem outro imóvel, adquire o domínio integral (art. 1.240-A do CC).",
+      "Errada. A usucapião familiar existe justamente para o imóvel em copropriedade com o ex-cônjuge ou ex-companheiro que abandonou o lar (art. 1.240-A do CC)."
+    ] },
+  { "id": "32-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A multipropriedade não é personalíssima: o multiproprietário pode ceder sua fração de tempo em locação ou comodato e aliená-la (art. 1.358-I, II e III, do CC).",
+      "Errada. A multipropriedade é modalidade própria de condomínio (art. 1.358-C do CC), e não condomínio necessário; o direito de ceder o uso decorre do art. 1.358-I, II.",
+      "Correta. É direito do multiproprietário ceder a fração de tempo em locação ou comodato (art. 1.358-I, II, do CC, incluído pela Lei 13.777/18); a recusa à mãe de Liz é ilegal.",
+      "Errada. Além de alienar a fração de tempo (art. 1.358-I, III, do CC), o multiproprietário pode cedê-la em locação ou comodato (art. 1.358-I, II)."
+    ] },
+  { "id": "32-37", "status": "valida",
+    "explicacoes": [
+      "Correta. Não havendo prazo determinado, se o dono do negócio dispensar o corretor e o negócio se realizar depois como fruto da sua mediação, a corretagem é devida (art. 727 do CC).",
+      "Errada. A conclusão direta entre as partes não afasta a remuneração quando o negócio resulta da aproximação feita pelo corretor (arts. 725 e 727 do CC).",
+      "Errada. O corretor foi dispensado, e não omisso; tendo o negócio resultado da sua mediação, a comissão é devida (art. 727 do CC).",
+      "Errada. A remuneração é integral, e não proporcional, pois o negócio se realizou como fruto da mediação (art. 727 do CC); a divisão só ocorre entre vários corretores (art. 728)."
+    ] },
+  { "id": "32-38", "status": "valida",
+    "explicacoes": [
+      "Errada. Luna e Gabriel não herdam, pois suas mães estão vivas e os descendentes mais próximos excluem os mais remotos (art. 1.833 do CC); e Vinícius nem integra a família descrita.",
+      "Errada. Lucas e João herdam por representação (por estirpe) o quinhão do pai pré-morto e o dividem entre si (arts. 1.835 e 1.855 do CC); não recebem quota igual à das tias.",
+      "Errada. Os filhos de Humberto, pré-morto, são chamados a suceder por direito de representação (arts. 1.851 e 1.852 do CC).",
+      "Correta. As filhas herdam por cabeça e os netos Lucas e João, por representação, dividem o terço do pai pré-morto, recebendo cada um metade do quinhão de uma tia (arts. 1.835, 1.851 e 1.855 do CC)."
+    ] },
+  { "id": "32-39", "status": "valida",
+    "explicacoes": [
+      "Correta. O locatário que não restitui a coisa no prazo fica em mora e responde pelo dano que ela sofrer, ainda que por caso fortuito (arts. 399 e 575 do CC); depois, poderá cobrar de Diego em regresso.",
+      "Errada. A identificação do vândalo não afasta a responsabilidade de Érico perante Astolfo, decorrente da mora na restituição (arts. 399 e 575 do CC); Érico terá ação regressiva contra Diego.",
+      "Errada. Em mora, o devedor responde pela impossibilidade da prestação ainda que decorrente de caso fortuito ou força maior (art. 399 do CC), e o locatário em mora responde pelo dano à coisa (art. 575).",
+      "Errada. Não se exige que Érico tenha colaborado com o vandalismo; basta a mora na restituição (arts. 399 e 575 do CC)."
+    ] },
+  { "id": "32-40", "status": "valida",
+    "explicacoes": [
+      "Errada. Não se pode renunciar antecipadamente ao direito de revogar a doação por ingratidão (art. 556 do CC); a cláusula não tem validade.",
+      "Errada. A obrigação de fazer as obras é encargo, e a doação é modal (onerosa), e não condicional; o encargo não suspende a aquisição do direito (arts. 136 e 553 do CC).",
+      "Correta. Não se revogam por ingratidão as doações puramente remuneratórias (art. 564, I, do CC), como a feita para remunerar os serviços prestados por Carmen.",
+      "Errada. A doação de imóvel de valor superior a 30 salários mínimos exige escritura pública (arts. 108 e 541 do CC); o instrumento particular não bastava."
+    ] },
+  { "id": "32-41", "status": "valida",
+    "explicacoes": [
+      "Correta. O dono do edifício responde pelos danos resultantes de sua ruína, se esta provier de falta de reparos cuja necessidade fosse manifesta (art. 937 do CC), como no prédio em péssimo estado.",
+      "Errada. A responsabilidade pela ruína do prédio por falta de reparos recai sobre o dono (art. 937 do CC); a locatária não é a única responsável.",
+      "Errada. A responsabilidade do dono perante a vítima é objetiva (art. 937 do CC; Enunciado 556 da Jornada de Direito Civil) e não se afasta por alegada culpa da locatária, cabendo, se for o caso, ação regressiva.",
+      "Errada. Carlos estava parado no sinal vermelho e em nada contribuiu para o dano; não há culpa exclusiva da vítima."
+    ] },
+  { "id": "31-35", "status": "duvidosa",
+    "motivo": "A alternativa B, tida como errada pela FGV, diz que a anulação do negócio por erro não se sujeita a prazo prescricional, o que é tecnicamente verdadeiro: o prazo é decadencial de 4 anos (art. 178, II, do CC). A ambiguidade pode levar o aluno a confundir prescrição e decadência; melhor deixá-la de fora."
+  },
+  { "id": "31-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A obrigação alimentar entre colaterais vai só até os irmãos (art. 1.697 do CC); o primo, colateral de 4º grau, não deve alimentos.",
+      "Errada. A lei impõe alimentos aos irmãos, germanos ou unilaterais, na falta de ascendentes e descendentes (art. 1.697 do CC).",
+      "Correta. Sem ascendentes vivos e sem descendentes, a obrigação alimentar recai sobre os irmãos, germanos ou unilaterais (arts. 1.694 e 1.697 do CC); Bernardo deve alimentos se Salomão precisar.",
+      "Errada. Marcos, primo, não integra o rol de obrigados (art. 1.697 do CC); só Bernardo deve alimentos."
+    ] },
+  { "id": "31-37", "status": "valida",
+    "explicacoes": [
+      "Errada. Laura não é terceira interessada, pois não pode ser compelida a pagar, como o fiador; e o terceiro não interessado que paga em nome próprio não se sub-roga (arts. 305 e 346, III, do CC).",
+      "Correta. O terceiro não interessado que paga a dívida em seu próprio nome tem direito a reembolsar-se do que pagou, mas não se sub-roga nos direitos do credor (art. 305 do CC).",
+      "Errada. Laura não é devedora solidária, pois a solidariedade não se presume (art. 265 do CC); como terceira não interessada, tem apenas direito ao reembolso (art. 305).",
+      "Errada. Pagando em nome próprio, sem intenção declarada de doar, o terceiro não interessado tem direito ao reembolso (art. 305 do CC)."
+    ] },
+  { "id": "31-38", "status": "valida",
+    "explicacoes": [
+      "Errada. A venda de ascendente a descendente é anulável sem o consentimento expresso dos outros descendentes e do cônjuge (art. 496 do CC); basta a oposição de um deles.",
+      "Errada. A venda de pai para filho exige o consentimento expresso dos demais descendentes e do cônjuge, sob pena de anulabilidade (art. 496 do CC).",
+      "Errada. A doação de ascendente a descendente é válida e dispensa a anuência dos demais, importando adiantamento do que lhe cabe por herança (art. 544 do CC).",
+      "Correta. A doação de ascendente a descendente não depende do consentimento dos demais e importa adiantamento da legítima (art. 544 do CC), sujeita à colação e ao limite da parte disponível (arts. 549 e 2.002)."
+    ] },
+  { "id": "31-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A emancipação concedida pelos pais dispensa homologação judicial (art. 5º, parágrafo único, I, do CC).",
+      "Errada. A emancipação voluntária exige instrumento público (art. 5º, parágrafo único, I, do CC).",
+      "Correta. A emancipação por concessão dos pais deve ser registrada no Registro Civil das Pessoas Naturais e só produz efeitos após o registro (art. 9º, II, do CC; arts. 89 a 91 da Lei 6.015/73).",
+      "Errada. A economia própria é hipótese autônoma de emancipação (art. 5º, parágrafo único, V, do CC); a concessão dos pais exige apenas 16 anos completos e instrumento público (inciso I)."
+    ] },
+  { "id": "31-40", "status": "valida",
+    "explicacoes": [
+      "Errada. Quando o herdeiro renuncia em prejuízo de seus credores, estes podem aceitar a herança em nome do renunciante, com autorização judicial (art. 1.813 do CC).",
+      "Errada. A habilitação dos credores deve ocorrer em 30 dias, e não 40, contados do conhecimento do fato, e depende de autorização judicial (art. 1.813, caput e § 1º, do CC).",
+      "Errada. O credor recebe só até o limite do seu crédito; o remanescente é devolvido aos demais herdeiros (art. 1.813, § 2º, do CC).",
+      "Correta. Os credores prejudicados pela renúncia podem, com autorização do juiz, aceitar a herança em nome do renunciante, em 30 dias do conhecimento do fato e até o limite do crédito (art. 1.813, caput e §§ 1º e 2º, do CC)."
+    ] },
+  { "id": "31-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Os R$ 50.000,00 recebidos antes do casamento são bens particulares de Mariane (art. 1.659, I, do CC); só se comunicam os frutos percebidos na constância do casamento (art. 1.660, V).",
+      "Errada. Na comunhão parcial, os frutos dos bens particulares percebidos durante o casamento entram na comunhão (art. 1.660, V, do CC).",
+      "Correta. Entram na comunhão os frutos dos bens comuns ou particulares percebidos na constância do casamento (art. 1.660, V, do CC); Aldo tem direito à meação dos R$ 100.000,00 recebidos após o casamento.",
+      "Errada. O imóvel recebido por doação antes do casamento é bem particular e não se comunica (art. 1.659, I, do CC); só os aluguéis do período do casamento entram na comunhão."
+    ] },
+  { "id": "30-35", "status": "valida",
+    "explicacoes": [
+      "Correta. O adquirente não pode demandar pela evicção se sabia que a coisa era alheia ou litigiosa (art. 457 do CC), e Renata comprou ciente da ação.",
+      "Errada. A garantia contra a evicção é própria dos contratos onerosos (art. 447 do CC); o doador não se sujeita às consequências da evicção, salvo na doação para casamento com certa e determinada pessoa (art. 552).",
+      "Errada. A ciência do litígio afasta a garantia contra a evicção (art. 457 do CC), em vez de reforçá-la; o reforço depende de cláusula expressa (art. 448).",
+      "Errada. A doação é contrato gratuito, e não aleatório; além disso, quem doou foi Joana, e não Marta, já falecida."
+    ] },
+  { "id": "30-36", "status": "valida",
+    "explicacoes": [
+      "Errada. É nulo o contrato de compra e venda quando se deixa ao arbítrio exclusivo de uma das partes a fixação do preço (art. 489 do CC).",
+      "Errada. Na venda de coisa futura em que o comprador assume o risco de ela não vir a existir (emptio spei), o vendedor tem direito a todo o preço, ainda que nada venha a existir, se não agiu com culpa (art. 458 do CC).",
+      "Errada. Se o comprador assume o risco quanto à quantidade (emptio rei speratae), o vendedor tem direito a todo o preço, ainda que a coisa venha em quantidade inferior, desde que sem culpa sua (art. 459 do CC).",
+      "Correta. A fixação do preço pode ser deixada ao arbítrio de terceiro que os contratantes logo designarem ou prometerem designar (art. 485 do CC)."
+    ] },
+  { "id": "30-37", "status": "valida",
+    "explicacoes": [
+      "Errada. Se a inexecução for de quem recebeu as arras, quem as deu pode desfazer o contrato e exigir sua devolução mais o equivalente (art. 418 do CC).",
+      "Correta. Sendo as arras confirmatórias e a inexecução de quem as recebeu, Lucas pode haver o contrato por desfeito e exigir sua devolução mais o equivalente, com atualização monetária, juros e honorários de advogado (art. 418 do CC).",
+      "Errada. Não há redução pela metade por aviso prévio do inadimplemento; quem recebeu as arras e não cumpriu as devolve mais o equivalente (art. 418 do CC).",
+      "Errada. A perda das arras atinge quem as deu e não cumpriu; o inadimplente foi Leonardo, que as recebeu e deve devolvê-las mais o equivalente (art. 418 do CC)."
+    ] },
+  { "id": "30-38", "status": "valida",
+    "explicacoes": [
+      "Errada. O descendente pode ser privado da legítima por deserdação, feita em testamento com expressa declaração de causa legal (arts. 1.961 e 1.964 do CC).",
+      "Errada. O abandono não está entre as causas de indignidade (art. 1.814 do CC); o desamparo em grave enfermidade é causa de deserdação, que exige testamento (arts. 1.962, IV, e 1.964).",
+      "Errada. Além de ofensa física, injúria grave e relações ilícitas com madrasta ou padrasto, a lei prevê o desamparo do ascendente em alienação mental ou grave enfermidade (art. 1.962, IV, do CC).",
+      "Correta. O desamparo do ascendente em grave enfermidade autoriza a deserdação do descendente (art. 1.962, IV, do CC), feita em testamento com expressa declaração da causa (art. 1.964), cabendo ao herdeiro instituído prová-la (art. 1.965)."
+    ] },
+  { "id": "30-39", "status": "valida",
+    "explicacoes": [
+      "Correta. O casamento faz cessar a incapacidade do menor (art. 5º, parágrafo único, II, do CC), e o divórcio posterior não a restabelece; aos 17 anos, Alberto podia contratar sozinho.",
+      "Errada. Absolutamente incapazes são só os menores de 16 anos (art. 3º do CC); e Alberto, emancipado pelo casamento, é plenamente capaz.",
+      "Errada. A emancipação pelo casamento é definitiva e não se desfaz com o divórcio (art. 5º, parágrafo único, II, do CC); Alberto não é relativamente incapaz.",
+      "Errada. Gabriela já é ex-cônjuge e, de todo modo, a compra de um pacote turístico não depende de outorga conjugal (art. 1.647 do CC)."
+    ] },
+  { "id": "30-40", "status": "valida",
+    "explicacoes": [
+      "Errada. No penhor industrial, as coisas empenhadas continuam em poder do devedor, que as guarda (arts. 1.431, parágrafo único, e 1.447 do CC).",
+      "Errada. O penhor não impede a revogação da doação; a revogação por ingratidão apenas não prejudica os direitos adquiridos por terceiros (art. 563 do CC), e nada indica má-fé do banco.",
+      "Correta. A revogação por ingratidão não prejudica os direitos adquiridos por terceiros (art. 563 do CC); resolvida a propriedade por causa superveniente, o terceiro que adquiriu direito antes conserva sua garantia (art. 1.360).",
+      "Errada. A revogação por ingratidão não é automática: depende de ação judicial proposta em 1 ano (arts. 559 e 560 do CC) e não atinge os direitos de terceiros (art. 563)."
+    ] },
+  { "id": "30-41", "status": "valida",
+    "explicacoes": [
+      "Errada. Na comunhão parcial, alienar imóvel exige autorização do outro cônjuge, ainda que o bem seja particular e qualquer que seja o destino do dinheiro (art. 1.647, I, do CC); a recusa injusta pode ser suprida pelo juiz (art. 1.648).",
+      "Correta. Salvo no regime da separação absoluta, nenhum cônjuge pode alienar imóveis sem autorização do outro (art. 1.647, I, do CC); na comunhão parcial, a regra vale até para bens particulares.",
+      "Errada. Ser bem particular não dispensa a outorga conjugal na comunhão parcial; a dispensa só existe na separação absoluta (art. 1.647, I, do CC) ou no pacto de participação final nos aquestos (art. 1.656).",
+      "Errada. A exigência não independe do regime: na separação absoluta de bens a autorização é dispensada (art. 1.647, caput, do CC)."
+    ] },
+  { "id": "29-35", "status": "valida",
+    "explicacoes": [
+      "Correta. No usufruto simultâneo, extingue-se a parte de cada usufrutuário que falecer, salvo estipulação expressa de acrescer (art. 1.411 do CC); e o usufruto se extingue pela morte do usufrutuário, e não do instituidor (art. 1.410, I).",
+      "Errada. O direito de acrescer entre usufrutuários depende de estipulação expressa, qualquer que seja o parentesco (art. 1.411 do CC); e a morte do instituidor não extingue o usufruto (art. 1.410, I).",
+      "Errada. A morte de Arnaldo não extingue o usufruto de Bruna (art. 1.410, I, do CC); a parte de Cláudia se extinguiu com a morte dela (art. 1.411) e não passa aos seus herdeiros.",
+      "Errada. A morte de um dos usufrutuários extingue apenas a parte dele (art. 1.411 do CC); os herdeiros de Arnaldo só poderiam reclamar a metade correspondente à parte extinta, e não a integralidade."
+    ] },
+  { "id": "29-36", "status": "valida",
+    "explicacoes": [
+      "Correta. Pendente a condição suspensiva, a donatária é titular de direito eventual e pode praticar os atos destinados a conservá-lo (art. 130 do CC), como exigir obras urgentes para evitar a ruína.",
+      "Errada. Adriana não tem mera expectativa de fato, mas direito eventual, que autoriza atos de conservação (art. 130 do CC).",
+      "Errada. Sob condição suspensiva, enquanto ela não se verificar, não se adquire o direito (art. 125 do CC); Adriana não pode exigir a transferência antes de se casar.",
+      "Errada. As disposições feitas pelo doador na pendência da condição suspensiva não terão valor, realizada a condição, se forem incompatíveis com ela (art. 126 do CC); a doação registrada prevalece."
+    ] },
+  { "id": "29-37", "status": "valida",
+    "explicacoes": [
+      "Errada. Havendo herdeiro necessário, o testador só pode dispor de metade da herança (arts. 1.789 e 1.846 do CC); a disposição excedente deve ser reduzida.",
+      "Errada. A disposição que excede a parte disponível não é nula; reduz-se aos limites dela (art. 1.967 do CC).",
+      "Errada. A legítima (50% da herança) é dividida entre os dois filhos, herdeiros necessários; a quota de Mariana é de 25% do total (arts. 1.846 e 1.967 do CC).",
+      "Correta. A disposição testamentária é reduzida para preservar a legítima, que corresponde à metade da herança dividida entre os dois filhos; Mariana recebe 25% do total (arts. 1.789, 1.846 e 1.967 do CC)."
+    ] },
+  { "id": "29-38", "status": "valida",
+    "explicacoes": [
+      "Errada. A perda do poder familiar decorre de ato judicial, e não policial, e o filho maior já não está sujeito ao poder familiar (arts. 1.630 e 1.635, III, do CC).",
+      "Correta. Perde, por ato judicial, o poder familiar quem pratica feminicídio contra outrem igualmente titular do mesmo poder familiar (art. 1.638, parágrafo único, I, a, do CC); só os filhos menores estão sujeitos a ele (art. 1.630).",
+      "Errada. A hipótese é de perda, e não de suspensão, do poder familiar (art. 1.638, parágrafo único, I, a, do CC).",
+      "Errada. A perda depende de decisão judicial e não alcança o filho maior, que já não está sob poder familiar (arts. 1.630 e 1.638, parágrafo único, do CC)."
+    ] },
+  { "id": "29-39", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei não exige o corpo: o desaparecimento autoriza a declaração de ausência e, em certos casos, a morte presumida (arts. 6º, 7º e 22 a 39 do CC).",
+      "Errada. Esse é o caminho geral, mas a lei permite requerer diretamente a sucessão definitiva se o ausente conta 80 anos e as últimas notícias dele datam de 5 anos (art. 38 do CC).",
+      "Correta. Pode-se requerer a sucessão definitiva provando-se que o ausente conta 80 anos de idade e que de 5 anos datam as últimas notícias dele (art. 38 do CC); Gumercindo teria 86 anos e sumiu há 9.",
+      "Errada. A morte presumida sem decretação de ausência só cabe se for extremamente provável a morte de quem estava em perigo de vida, ou para desaparecido em campanha ou prisioneiro não encontrado até 2 anos após o fim da guerra (art. 7º do CC)."
+    ] }
+]

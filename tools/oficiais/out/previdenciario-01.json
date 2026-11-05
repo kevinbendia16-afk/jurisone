@@ -1,0 +1,142 @@
+[
+  { "id": "47-69", "status": "valida",
+    "explicacoes": [
+      "Errada. O auxílio-acidente não é devido ao contribuinte individual (autônomo), pois o art. 18, § 1º, da Lei 8.213/91 o restringe a empregados, domésticos, avulsos e segurados especiais. Além disso, ele exige sequela que reduza a capacidade após a consolidação das lesões (art. 86), e não apenas incapacidade superior a 30 dias.",
+      "Correta. O auxílio por incapacidade temporária é devido ao segurado incapaz por mais de 15 dias consecutivos (art. 59 da Lei 8.213/91), e a carência é dispensada nos casos de acidente de qualquer natureza ou causa, inclusive o sofrido no lazer (art. 26, II).",
+      "Errada. Não existe presunção de invalidez pelo afastamento superior a um ano: a aposentadoria por incapacidade permanente exige incapacidade total e insuscetível de reabilitação, constatada em perícia médica (art. 42, caput e § 1º, da Lei 8.213/91).",
+      "Errada. A cobertura previdenciária não se limita aos acidentes do trabalho: o acidente de qualquer natureza também gera direito a benefício por incapacidade, com dispensa de carência (arts. 26, II, e 59 da Lei 8.213/91)."
+    ] },
+  { "id": "47-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A Constituição veda a filiação ao RGPS, na qualidade de segurado facultativo, de pessoa participante de regime próprio de previdência (art. 201, § 5º, da CF).",
+      "Errada. O servidor vinculado a RPPS pode ser filiado ao RGPS ao mesmo tempo: se exercer atividade abrangida pelo regime geral, torna-se segurado obrigatório em relação a ela (art. 12, § 1º, da Lei 8.213/91).",
+      "Errada. Empregador doméstico não é categoria de segurado do RGPS (não consta do rol do art. 11 da Lei 8.213/91); ele apenas recolhe a contribuição patronal sobre o salário do empregado doméstico (art. 24 da Lei 8.212/91).",
+      "Correta. O servidor amparado por RPPS é excluído do RGPS (art. 12 da Lei 8.213/91), mas, se exercer concomitantemente atividade abrangida pelo regime geral, torna-se segurado obrigatório em relação a essa atividade (art. 12, § 1º)."
+    ] },
+  { "id": "46-69", "status": "valida",
+    "explicacoes": [
+      "Errada. A carência da aposentadoria programada (antiga aposentadoria por idade) é de 180 contribuições mensais (art. 25, II, da Lei 8.213/91), e Antônio tem cerca de 360, decorrentes de 30 anos como empregado.",
+      "Correta. Antônio tem a idade mínima de 65 anos exigida do homem (art. 201, § 7º, I, da CF, na redação da EC 103/19) e supera tanto a carência de 180 contribuições (art. 25, II, da Lei 8.213/91) quanto o tempo mínimo de contribuição (15 anos na transição do art. 18 da EC 103/19 ou 20 anos na regra do art. 19).",
+      "Errada. A EC 103/19 extinguiu a aposentadoria por tempo de contribuição sem idade mínima; para o homem, bastam hoje 65 anos de idade e 20 anos de contribuição (15 anos para quem já era filiado antes da reforma), conforme os arts. 18 e 19 da EC 103/19.",
+      "Errada. A idade mínima do homem no RGPS é de 65 anos (art. 201, § 7º, I, da CF), exatamente a idade que Antônio já completou."
+    ] },
+  { "id": "46-70", "status": "valida",
+    "explicacoes": [
+      "Correta. O acidente do trabalho dispensa carência para o auxílio por incapacidade temporária (art. 26, II, da Lei 8.213/91), e a empregada doméstica tem cobertura acidentária desde a LC 150/15 (arts. 19 e 59 da Lei 8.213/91).",
+      "Errada. Acidente do trabalho é o que provoca lesão corporal ou perturbação funcional que cause morte ou perda ou redução, permanente ou temporária, da capacidade para o trabalho (art. 19 da Lei 8.213/91); não há exigência de incapacidade mínima de seis meses.",
+      "Errada. A perícia do INSS pode caracterizar a natureza acidentária pelo NTEP, inclusive a partir da relação entre a atividade do empregado doméstico e a doença (art. 21-A da Lei 8.213/91, na redação da LC 150/15).",
+      "Errada. A doença profissional e a doença do trabalho equiparam-se ao acidente do trabalho (art. 20 da Lei 8.213/91), de modo que a incapacidade pode decorrer de doença, e não só de evento súbito."
+    ] },
+  { "id": "45-69", "status": "valida",
+    "explicacoes": [
+      "Correta. Joana mantém a qualidade de segurada por até 12 meses após cessar as contribuições (período de graça do art. 15, II, da Lei 8.213/91), qualquer que seja o motivo da dispensa. Como o acidente de qualquer natureza dispensa carência (art. 26, II), ela tem direito à aposentadoria por incapacidade permanente (art. 42).",
+      "Errada. A dispensa por justa causa não afeta a qualidade de segurada: o período de graça do art. 15, II, da Lei 8.213/91 vale para qualquer forma de cessação do vínculo.",
+      "Errada. Recolhimentos como facultativa não são condição para o benefício, pois Joana ainda está no período de graça de 12 meses (art. 15, II, da Lei 8.213/91), durante o qual conserva todos os seus direitos perante a Previdência (art. 15, § 3º).",
+      "Errada. O período de graça de quem deixa de exercer atividade remunerada é de 12 meses (art. 15, II, da Lei 8.213/91), e não de três; o prazo de três meses aplica-se ao segurado licenciado do serviço militar (art. 15, V)."
+    ] },
+  { "id": "45-70", "status": "valida",
+    "explicacoes": [
+      "Errada. A aposentadoria por incapacidade permanente exige incapacidade total e definitiva, insuscetível de reabilitação (art. 42 da Lei 8.213/91), e Sílvia se recuperou plenamente.",
+      "Errada. O auxílio-acidente pressupõe sequela que reduza a capacidade para o trabalho habitual após a consolidação das lesões (art. 86 da Lei 8.213/91), o que não ocorreu, pois a recuperação foi plena.",
+      "Errada. A empresa paga o salário apenas nos primeiros 15 dias de afastamento (art. 60, § 3º, da Lei 8.213/91); depois disso, o contrato fica suspenso e a segurada recebe o benefício do INSS.",
+      "Correta. O acidente sofrido a serviço da empresa, em atividade externa, é acidente do trabalho (arts. 19 e 21, IV, \"a\", da Lei 8.213/91). Cessado o auxílio por incapacidade temporária acidentário, a segurada tem garantia de emprego de no mínimo 12 meses (art. 118 da Lei 8.213/91; Súmula 378 do TST)."
+    ] },
+  { "id": "44-69", "status": "valida",
+    "explicacoes": [
+      "Correta. A reabilitação profissional compreende o transporte do acidentado do trabalho, quando necessário (art. 89, parágrafo único, \"c\", da Lei 8.213/91).",
+      "Errada. O segurado em gozo de benefício por incapacidade é obrigado a submeter-se ao processo de reabilitação profissional prescrito pelo INSS, sob pena de suspensão do benefício (art. 101, II, da Lei 8.213/91); só o tratamento cirúrgico e a transfusão de sangue são facultativos.",
+      "Errada. Não há estabilidade de 5 anos: a garantia de emprego do acidentado do trabalho é de no mínimo 12 meses após a cessação do auxílio por incapacidade temporária acidentário (art. 118 da Lei 8.213/91).",
+      "Errada. A reabilitação profissional inclui o fornecimento de próteses, órteses e instrumentos de auxílio para locomoção, além de sua reparação ou substituição (art. 89, parágrafo único, \"a\" e \"b\", da Lei 8.213/91)."
+    ] },
+  { "id": "44-70", "status": "valida",
+    "explicacoes": [
+      "Correta. Quem exerce, por conta própria, atividade econômica de natureza urbana, como o eletricista autônomo que atende pessoas físicas, é segurado obrigatório na categoria de contribuinte individual (art. 11, V, \"h\", da Lei 8.213/91).",
+      "Errada. O contribuinte individual tem direito à aposentadoria programada (por idade) e à aposentadoria por incapacidade permanente (art. 18, I, da Lei 8.213/91); a restrição que o atinge é a do auxílio-acidente (art. 18, § 1º).",
+      "Errada. Como segurado obrigatório, ele deve recolher a própria contribuição, por iniciativa própria (arts. 21 e 30, II, da Lei 8.212/91), ainda que não tenha vínculo de emprego.",
+      "Errada. Trabalhador avulso é quem presta serviços a diversas empresas, sem vínculo de emprego, com intermediação obrigatória do sindicato ou do órgão gestor de mão de obra (art. 11, VI, da Lei 8.213/91; Lei 12.023/09), o que não é o caso."
+    ] },
+  { "id": "43-69", "status": "valida",
+    "explicacoes": [
+      "Errada. O empregado doméstico é segurado obrigatório do RGPS (art. 11, II, da Lei 8.213/91) e, desde a LC 150/15, tem inclusive cobertura acidentária.",
+      "Correta. O auxílio por incapacidade temporária é devido a quem fica incapaz para o trabalho por mais de 15 dias consecutivos (art. 59 da Lei 8.213/91), e o acidente dispensa carência (art. 26, II); para a doméstica, ele é pago desde o início da incapacidade (art. 60).",
+      "Errada. Não há dever de requerer o benefício de imediato nem canal obrigatório; se o pedido for feito mais de 30 dias após o afastamento, o benefício apenas passa a ser devido a partir da data do requerimento (art. 60, § 1º, da Lei 8.213/91).",
+      "Errada. Basta incapacidade superior a 15 dias consecutivos para o auxílio por incapacidade temporária (art. 59 da Lei 8.213/91); não se exige afastamento mínimo de 30 dias."
+    ] },
+  { "id": "43-70", "status": "valida",
+    "explicacoes": [
+      "Errada. O auxílio-reclusão é devido aos dependentes do segurado de baixa renda recolhido à prisão em regime fechado, e não ao próprio preso (art. 201, IV, da CF; art. 80 da Lei 8.213/91).",
+      "Errada. O auxílio-reclusão só é devido aos dependentes do segurado de baixa renda (art. 201, IV, da CF; art. 27 da EC 103/19; art. 80 da Lei 8.213/91).",
+      "Errada. Não há vedação à acumulação do auxílio-reclusão com o benefício por incapacidade da própria dependente: o art. 124 da Lei 8.213/91 não prevê essa hipótese, e as restrições do art. 80 referem-se a rendimentos e benefícios do segurado preso.",
+      "Correta. O exercício de atividade remunerada pelo segurado recluso em regime fechado não acarreta a perda do auxílio-reclusão pelos dependentes (art. 80, § 7º, da Lei 8.213/91, incluído pela Lei 13.846/19)."
+    ] },
+  { "id": "42-69", "status": "valida",
+    "explicacoes": [
+      "Correta. A filha menor de 21 anos é dependente de classe I, com dependência econômica presumida (art. 16, I e § 4º, da Lei 8.213/91), e sua existência exclui a mãe, que é dependente de classe II (art. 16, § 1º).",
+      "Errada. A dependência econômica do filho menor de 21 anos é presumida (art. 16, § 4º, da Lei 8.213/91); a condição de estudante é irrelevante.",
+      "Errada. A mãe, dependente de classe II, é excluída pela existência de dependente de classe I (art. 16, § 1º, da Lei 8.213/91) e, de todo modo, teria de comprovar dependência econômica (art. 16, § 4º).",
+      "Errada. Francisca não concorre com Helena, pois os dependentes de classe I excluem os das classes seguintes (art. 16, § 1º, da Lei 8.213/91)."
+    ] },
+  { "id": "42-70", "status": "valida",
+    "explicacoes": [
+      "Errada. O acréscimo de 25% cessa com a morte do aposentado e não se incorpora ao valor da pensão (art. 45, parágrafo único, \"c\", da Lei 8.213/91).",
+      "Correta. O acréscimo de 25% será recalculado quando o benefício que lhe deu origem for reajustado (art. 45, parágrafo único, \"b\", da Lei 8.213/91).",
+      "Errada. O acréscimo é devido ainda que o valor da aposentadoria atinja o limite máximo legal (art. 45, parágrafo único, \"a\", da Lei 8.213/91).",
+      "Errada. O acréscimo é exclusivo da aposentadoria por incapacidade permanente (art. 45 da Lei 8.213/91), não alcança o auxílio por incapacidade temporária, e o STF afastou até sua extensão a outras espécies de aposentadoria (Tema 1.095)."
+    ] },
+  { "id": "41-69", "status": "valida",
+    "explicacoes": [
+      "Errada. O servidor ocupante de cargo efetivo amparado por regime próprio é excluído do RGPS (art. 40 da CF; art. 12 da Lei 8.213/91), e não há opção de permanecer no regime geral como segurado empregado.",
+      "Errada. No regime próprio da União, a aposentadoria voluntária exige, além de idade e tempo de contribuição, 10 anos de efetivo exercício no serviço público e 5 anos no cargo (art. 10, § 1º, I, da EC 103/19), de modo que não pode ser requerida logo no ingresso.",
+      "Errada. É assegurada a contagem recíproca do tempo de contribuição do RGPS para aposentadoria no regime próprio, com compensação financeira entre os regimes (art. 201, § 9º, da CF; art. 94 da Lei 8.213/91).",
+      "Correta. O servidor titular de cargo efetivo vincula-se obrigatoriamente ao regime próprio do ente (art. 40 da CF), o que o exclui do RGPS (art. 12 da Lei 8.213/91); a filiação decorre automaticamente do exercício do cargo."
+    ] },
+  { "id": "41-70", "status": "valida",
+    "explicacoes": [
+      "Correta. O auxílio-acidente é devido, como indenização, ao segurado empregado que, após a consolidação das lesões decorrentes de acidente de qualquer natureza, fica com sequelas que reduzem sua capacidade para o trabalho habitual (art. 86 da Lei 8.213/91).",
+      "Errada. O benefício por incapacidade temporária pressupõe incapacidade para o trabalho (art. 59 da Lei 8.213/91); após a alta, Antônio está apto, embora com capacidade reduzida, situação coberta pelo auxílio-acidente.",
+      "Errada. O pecúlio foi extinto na década de 1990 e não integra o rol atual de prestações do RGPS (art. 18 da Lei 8.213/91).",
+      "Errada. O abono de permanência em serviço do RGPS foi extinto (antigo art. 87 da Lei 8.213/91, revogado pela Lei 8.870/94); hoje o abono de permanência existe apenas no regime próprio dos servidores (art. 40, § 19, da CF)."
+    ] },
+  { "id": "40-69", "status": "valida",
+    "explicacoes": [
+      "Errada. A aposentadoria por incapacidade permanente decorrente de acidente independe de carência (art. 26, II, da Lei 8.213/91); mesmo nos demais casos, a carência é de 12 contribuições, e não de 24 (art. 25, I).",
+      "Errada. O acréscimo devido ao aposentado que necessita da assistência permanente de outra pessoa é de 25%, e não de até 50% (art. 45 da Lei 8.213/91).",
+      "Correta. O aposentado por incapacidade permanente que retornar voluntariamente à atividade terá a aposentadoria automaticamente cancelada a partir da data do retorno (art. 46 da Lei 8.213/91).",
+      "Errada. A doença ou lesão preexistente à filiação não impede a aposentadoria quando a incapacidade sobrevém por motivo de progressão ou agravamento dela (art. 42, § 2º, da Lei 8.213/91)."
+    ] },
+  { "id": "40-70", "status": "valida",
+    "explicacoes": [
+      "Correta. Desde a Lei 13.846/19, o auxílio-reclusão exige carência de 24 contribuições mensais (art. 25, IV, da Lei 8.213/91), e Manoel, preso em 2022, recolheu apenas 12.",
+      "Errada. O filho menor de 21 anos é dependente de classe I (art. 16, I, da Lei 8.213/91); além disso, a premissa é falsa, pois Manoel não cumpriu a carência de 24 meses (art. 25, IV).",
+      "Errada. O exercício de atividade remunerada pelo segurado recluso em regime fechado não acarreta a perda do auxílio-reclusão pelos dependentes (art. 80, § 7º, da Lei 8.213/91).",
+      "Errada. O benefício é requerido pelos dependentes, e o requerimento deve ser instruído com certidão judicial que ateste o recolhimento efetivo à prisão (art. 80, § 1º, da Lei 8.213/91)."
+    ] },
+  { "id": "39-69", "status": "valida",
+    "explicacoes": [
+      "Errada. O salário-família independe de carência (art. 26, I, da Lei 8.213/91).",
+      "Errada. O salário-família é devido por filho de até 14 anos ou inválido de qualquer idade (arts. 65 e 66 da Lei 8.213/91), e o filho de 15 anos é inválido.",
+      "Correta. O salário-família é devido ao empregado, inclusive o doméstico, e ao trabalhador avulso de baixa renda, na proporção do número de filhos de até 14 anos ou inválidos (art. 65 da Lei 8.213/91; art. 27 da EC 103/19); sendo pai e mãe segurados, ambos o recebem (art. 82, § 3º, do Decreto 3.048/99).",
+      "Errada. O trabalhador avulso tem direito ao salário-família, assim como o empregado e o empregado doméstico (art. 65 da Lei 8.213/91)."
+    ] },
+  { "id": "39-70", "status": "valida",
+    "explicacoes": [
+      "Errada. Para dependente que não seja filho menor de 16 anos, a pensão é devida desde o óbito quando requerida em até 90 dias (art. 74, I, da Lei 8.213/91); só é devida desde o requerimento se pedida depois desse prazo (art. 74, II).",
+      "Correta. A pensão por morte é devida desde o óbito quando requerida em até 90 dias pelos dependentes em geral (180 dias para filhos menores de 16 anos), nos termos do art. 74, I, da Lei 8.213/91; Henrique a requereu 61 dias após o óbito.",
+      "Errada. Não há perda do direito pela demora: requerida após o prazo, a pensão é devida a partir da data do requerimento administrativo (art. 74, II, da Lei 8.213/91), sem necessidade de ação judicial.",
+      "Errada. A data de início depende da data do requerimento: a pensão só é devida desde o óbito se requerida no prazo do art. 74, I, da Lei 8.213/91; fora dele, é devida desde o requerimento (art. 74, II)."
+    ] },
+  { "id": "38-69", "status": "valida",
+    "explicacoes": [
+      "Correta. O salário-maternidade da empregada doméstica independe de carência (art. 26, VI, da Lei 8.213/91).",
+      "Errada. A carência de 10 contribuições prevista no art. 25, III, da Lei 8.213/91 não se aplica à empregada doméstica, cujo salário-maternidade independe de carência (art. 26, VI).",
+      "Errada. Para a empregada doméstica, o salário-maternidade não exige carência (art. 26, VI, da Lei 8.213/91), bastando a qualidade de segurada na data do parto.",
+      "Errada. A empregada doméstica é segurada obrigatória e tem direito ao salário-maternidade, pago diretamente pela Previdência Social (arts. 11, II, 71 e 73, I, da Lei 8.213/91)."
+    ] },
+  { "id": "38-70", "status": "valida",
+    "explicacoes": [
+      "Errada. Quem exerce atividade que o torna segurado obrigatório não pode filiar-se também como facultativo (art. 13 da Lei 8.213/91), e o trabalho voluntário não gera filiação própria ao RGPS.",
+      "Correta. O sócio administrador que recebe pró-labore é segurado obrigatório do RGPS na categoria de contribuinte individual (art. 11, V, \"f\", da Lei 8.213/91).",
+      "Errada. A aposentadoria por incapacidade permanente (antiga aposentadoria por invalidez) é devida a todas as categorias de segurados, inclusive ao contribuinte individual (arts. 18, I, \"a\", e 42 da Lei 8.213/91).",
+      "Errada. Encerradas as atividades, Manoel mantém a qualidade de segurado durante o período de graça (art. 15, II, da Lei 8.213/91) e pode continuar contribuindo como segurado facultativo (art. 13)."
+    ] }
+]

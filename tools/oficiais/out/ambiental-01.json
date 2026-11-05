@@ -1,0 +1,277 @@
+[
+  { "id": "47-35", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há competência privativa dos estados: proteção do meio ambiente e controle da poluição são matérias de competência legislativa concorrente (art. 24, VI, da CF), cabendo à União editar normas gerais e aos estados apenas suplementá-las (art. 24, §§ 1º e 2º).",
+      "Errada. Resolução do Conama não é hierarquicamente superior à lei estadual. O vício está na violação da Constituição, que exige estudo prévio de impacto ambiental para atividade potencialmente causadora de significativa degradação (art. 225, §1º, IV, da CF), e das normas gerais federais.",
+      "Correta. A exigência de EIA decorre diretamente do art. 225, §1º, IV, da CF e das normas gerais federais (art. 24, VI e §1º), que o estado não pode afastar. O STF declara inconstitucionais normas estaduais que dispensam o EIA nesses casos (ADI 1086).",
+      "Errada. A lei estadual não pode reduzir a proteção imposta pela Constituição e pelas normas gerais federais; a dispensa do EIA para atividade potencialmente degradadora viola o art. 225, §1º, IV, da CF."
+    ] },
+  { "id": "47-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Não existe responsabilidade penal objetiva: a pessoa natural responde na medida de sua culpabilidade (art. 2º da Lei 9.605/98), e a pessoa jurídica responde nas condições do art. 3º da mesma lei.",
+      "Errada. A responsabilidade penal da pessoa jurídica é autônoma, não subsidiária. O STF (RE 548.181) afastou a exigência de dupla imputação, de modo que a punição da empresa não depende da identificação da pessoa natural.",
+      "Errada. Há previsão expressa de responsabilidade penal da pessoa jurídica por crimes ambientais no art. 225, §3º, da CF e no art. 3º da Lei 9.605/98.",
+      "Correta. A pessoa jurídica responde penalmente quando a infração é cometida por decisão de seu representante legal ou órgão colegiado, no seu interesse ou benefício (art. 3º, caput, da Lei 9.605/98), sem excluir a responsabilidade das pessoas físicas autoras, coautoras ou partícipes (art. 3º, parágrafo único)."
+    ] },
+  { "id": "46-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A cobrança pelo uso da água não depende de dano: é instrumento da Política Nacional de Recursos Hídricos (arts. 5º, IV, e 19 a 22 da Lei 9.433/97). A prevenção trata de evitar danos conhecidos, não de condicionar a cobrança à ocorrência de dano.",
+      "Errada. Não se trata de cobrança antecipada por danos futuros, e sim de contrapartida pelo uso de recurso natural com fins econômicos (usuário-pagador). O desenvolvimento sustentável busca conciliar crescimento econômico e preservação, sem fundamentar essa cobrança.",
+      "Correta. Pelo princípio do usuário-pagador, quem utiliza recursos ambientais com fins econômicos deve pagar contribuição pelo uso (art. 4º, VII, da Lei 6.938/81). A água é bem de domínio público dotado de valor econômico, e sua cobrança está prevista nos arts. 1º, II, e 19 da Lei 9.433/97.",
+      "Errada. A cobrança pelo uso da água independe de dano ou de prova pericial de nexo causal (arts. 19 a 22 da Lei 9.433/97). A precaução se aplica a riscos cientificamente incertos, não à cobrança pelo uso de recursos hídricos."
+    ] },
+  { "id": "46-36", "status": "valida",
+    "explicacoes": [
+      "Correta. Na APA, nas áreas sob propriedade privada, cabe ao proprietário estabelecer as condições para pesquisa e visitação pelo público, observadas as exigências e restrições legais (art. 15, §4º, da Lei 9.985/2000).",
+      "Errada. As unidades de conservação são criadas por ato do Poder Público (art. 22 da Lei 9.985/2000), o que inclui o decreto, precedido de estudos técnicos e consulta pública. Somente a desafetação ou a redução dos limites exige lei específica (art. 22, §7º).",
+      "Errada. A APA pode ser constituída por terras públicas ou privadas (art. 15, §1º, da Lei 9.985/2000) e não exige desapropriação; admite apenas normas e restrições ao uso da propriedade privada (art. 15, §2º).",
+      "Errada. A APA integra o grupo das unidades de uso sustentável (art. 14, I, da Lei 9.985/2000), e não o de proteção integral, que admite apenas o uso indireto dos recursos naturais (art. 7º, §1º)."
+    ] },
+  { "id": "45-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A omissão no dever de fiscalizar pode, sim, gerar responsabilidade civil do ente público por dano ambiental, de caráter solidário, mas de execução subsidiária (Súmula 652 do STJ).",
+      "Errada. Responde pelo dano ambiental todo aquele que, direta ou indiretamente, contribui para a degradação (arts. 3º, IV, e 14, §1º, da Lei 6.938/81), inclusive por omissão, além do adquirente do imóvel, pela natureza propter rem da obrigação.",
+      "Errada. As obrigações ambientais têm natureza propter rem e podem ser cobradas do proprietário ou possuidor atual e/ou dos anteriores, à escolha do credor (Súmula 623 do STJ), ainda que o adquirente desconhecesse o dano.",
+      "Correta. Poluidor é quem causa a degradação direta ou indiretamente (art. 3º, IV, da Lei 6.938/81); o adquirente responde pela natureza propter rem da obrigação (Súmula 623 do STJ), e os entes omissos na fiscalização respondem solidariamente, com execução subsidiária (Súmula 652 do STJ)."
+    ] },
+  { "id": "45-36", "status": "valida",
+    "explicacoes": [
+      "Errada. O critério não é a sede do empreendedor, mas a localização ou o alcance da atividade: a desenvolvida em dois ou mais estados é licenciada pela União (art. 7º, XIV, e, da LC 140/2011; art. 4º, II, da Resolução Conama 237/1997).",
+      "Errada. Não há licenciamento conjunto pelos estados: os empreendimentos são licenciados por um único ente federativo (art. 13 da LC 140/2011; art. 7º da Resolução Conama 237/1997), que no caso é a União.",
+      "Correta. Compete ao Ibama, pela União, licenciar empreendimentos e atividades localizados ou desenvolvidos em dois ou mais estados (art. 7º, XIV, e, da LC 140/2011; art. 4º, II, da Resolução Conama 237/1997).",
+      "Errada. O empreendedor não escolhe o órgão licenciador; a competência decorre de critérios legais e, para atividade em dois ou mais estados, é da União (art. 7º, XIV, e, da LC 140/2011)."
+    ] },
+  { "id": "44-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A avaliação de impactos ambientais é instrumento da Política Nacional do Meio Ambiente (art. 9º, III, da Lei 6.938/81) e abrange tanto o EIA quanto o EIV, este também previsto como instrumento da política urbana (art. 4º, VI, da Lei 10.257/2001).",
+      "Correta. A elaboração do EIV não substitui a elaboração e a aprovação do EIA, requeridas nos termos da legislação ambiental (art. 38 da Lei 10.257/2001 – Estatuto da Cidade).",
+      "Errada. O EIV deve contemplar os efeitos positivos e negativos do empreendimento quanto à qualidade de vida da população residente na área e suas proximidades (art. 37 da Lei 10.257/2001).",
+      "Errada. Cabe à lei municipal definir os empreendimentos e atividades que dependem de EIV (art. 36 da Lei 10.257/2001); sem essa previsão, o EIV não é exigível."
+    ] },
+  { "id": "44-36", "status": "valida",
+    "explicacoes": [
+      "Correta. As condutas lesivas ao meio ambiente sujeitam os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar os danos (art. 225, §3º, da CF). A pessoa jurídica responde nas três esferas quando a infração decorre de decisão de seu representante, em seu benefício (art. 3º da Lei 9.605/98).",
+      "Errada. As esferas penal, civil e administrativa são independentes (art. 225, §3º, da CF; art. 3º da Lei 9.605/98), e a condenação penal não afasta as demais responsabilidades.",
+      "Errada. A responsabilização administrativa independe de condenação penal, em razão da independência das instâncias (art. 225, §3º, da CF; art. 70 da Lei 9.605/98).",
+      "Errada. A pessoa jurídica pode ser responsabilizada penalmente por crimes ambientais (art. 225, §3º, da CF; art. 3º da Lei 9.605/98)."
+    ] },
+  { "id": "43-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A litigância climática tem amparo no direito ao meio ambiente ecologicamente equilibrado (art. 225 da CF), que também limita a livre iniciativa (art. 170, VI, da CF), além de normas internacionais e legais sobre o clima.",
+      "Errada. Além da Lei 12.187/2009 (PNMC), a matéria tem fundamento constitucional (art. 225 da CF) e em tratados internacionais, como o Acordo de Paris.",
+      "Errada. Há fundamento constitucional: o art. 225 da CF impõe ao Poder Público e à coletividade o dever de defender o meio ambiente, base reconhecida pelo STF no julgamento da ADPF 708 (Fundo Clima).",
+      "Correta. A litigância climática se apoia no art. 225 da CF, em tratados internacionais (Convenção-Quadro sobre Mudança do Clima e Acordo de Paris, tratado pelo STF na ADPF 708 como tratado de direitos humanos) e na legislação interna, como a Lei 12.187/2009 (PNMC)."
+    ] },
+  { "id": "43-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A atuação supletiva segue a ordem do art. 15 da LC 140/2011: faltando órgão capacitado ou conselho no Município, atua o Estado (inciso II); a União só atua se também faltarem no Estado (incisos I e III).",
+      "Correta. Inexistindo órgão ambiental capacitado ou conselho de meio ambiente no Município, o Estado deve desempenhar as ações administrativas municipais até a sua criação (art. 15, II, da LC 140/2011).",
+      "Errada. A falta de estrutura municipal não paralisa o licenciamento, pois instaura a competência supletiva do Estado (art. 15, II, da LC 140/2011).",
+      "Errada. Não existe licença ambiental tácita: o decurso dos prazos sem emissão da licença não implica emissão tácita nem autoriza a atividade, mas instaura a competência supletiva (art. 14, §3º, da LC 140/2011)."
+    ] },
+  { "id": "42-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A implantação de trilhas para o ecoturismo não está entre as hipóteses de interesse social (art. 3º, IX, da Lei 12.651/2012), e sim entre as atividades de baixo impacto ambiental (art. 3º, X, c).",
+      "Errada. O art. 8º do Código Florestal admite intervenção ou supressão de vegetação em APP nos casos de utilidade pública, interesse social ou baixo impacto ambiental, e a trilha para ecoturismo é atividade de baixo impacto (art. 3º, X, c).",
+      "Correta. A implantação de trilhas para o desenvolvimento do ecoturismo é atividade eventual ou de baixo impacto ambiental (art. 3º, X, c, da Lei 12.651/2012), o que permite a intervenção ou supressão de vegetação nativa em APP (art. 8º).",
+      "Errada. A hipótese se enquadra como baixo impacto ambiental, e o Código Florestal não admite supressão em APP fora das hipóteses legais mediante simples pagamento de compensação (art. 8º da Lei 12.651/2012)."
+    ] },
+  { "id": "42-36", "status": "duvidosa",
+    "motivo": "O gabarito (A) afirma ser incabível a transação penal no crime de pesca em período proibido (art. 34 da Lei 9.605/98: detenção de 1 a 3 anos ou multa). Embora a pena máxima supere 2 anos (art. 61 da Lei 9.099/95), o STJ (HC 125.850/SP, Informativo 475) admite transação penal e suspensão condicional do processo quando a pena de multa é cominada alternativamente, o que torna controvertida a afirmação contida na alternativa dada como correta." },
+  { "id": "41-35", "status": "valida",
+    "explicacoes": [
+      "Errada. A água é bem de domínio público (art. 1º, I, da Lei 9.433/97), e sua utilização depende, em regra, de outorga do Poder Público (art. 12).",
+      "Errada. A água é recurso natural limitado, dotado de valor econômico (art. 1º, II, da Lei 9.433/97).",
+      "Correta. Em situações de escassez, o uso prioritário dos recursos hídricos é o consumo humano e a dessedentação de animais (art. 1º, III, da Lei 9.433/97).",
+      "Errada. A gestão dos recursos hídricos deve ser descentralizada e contar com a participação do Poder Público, dos usuários e das comunidades (art. 1º, VI, da Lei 9.433/97)."
+    ] },
+  { "id": "41-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A licença ambiental não gera direito adquirido de poluir: o órgão competente, mediante decisão motivada, pode modificar condicionantes, suspender ou cancelar licença já expedida quando houver inadequação às normas legais (art. 19 da Resolução Conama 237/1997).",
+      "Errada. Não há anulação automática: a modificação, suspensão ou cancelamento da licença depende de decisão motivada do órgão competente (art. 19 da Resolução Conama 237/1997).",
+      "Errada. A nova exigência legal pode alcançar empreendimentos já licenciados, inclusive com licença de operação válida, por decisão motivada que modifique as condicionantes (art. 19, I, da Resolução Conama 237/1997).",
+      "Correta. O órgão ambiental competente, mediante decisão motivada, pode modificar condicionantes e medidas de controle, suspender ou cancelar licença expedida quando ocorrer violação ou inadequação de condicionantes ou normas legais (art. 19, I, da Resolução Conama 237/1997), pois não há direito adquirido de poluir."
+    ] },
+  { "id": "40-35", "status": "valida",
+    "explicacoes": [
+      "Correta. A licença concedida na fase preliminar do planejamento, que aprova localização e concepção, atesta a viabilidade ambiental e fixa requisitos e condicionantes, é a licença prévia, sucedida pela licença de instalação (art. 8º, I e II, da Resolução Conama 237/1997).",
+      "Errada. A licença de instalação autoriza a instalação conforme os planos e projetos aprovados (art. 8º, II, da Resolução Conama 237/1997); a licença descrita, da fase preliminar, é a prévia.",
+      "Errada. A Resolução Conama 237/1997 prevê licença prévia, de instalação e de operação (art. 8º); não existe a sequência de licença de funcionamento precedida de licença simplificada que autorize estudos.",
+      "Errada. A licença de operação autoriza a operação após a verificação do cumprimento das licenças anteriores (art. 8º, III, da Resolução Conama 237/1997), e não é a licença da fase inicial do planejamento."
+    ] },
+  { "id": "40-36", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei não exige autorização dos órgãos ambientais estadual e federal; o problema é o instrumento, pois a redução dos limites de UC exige lei específica (art. 22, §7º, da Lei 9.985/2000).",
+      "Errada. Estudos técnicos e consulta pública são exigidos para a criação da UC (art. 22, §2º, da Lei 9.985/2000), mas não suprem a exigência de lei específica para a desafetação ou redução de limites (art. 22, §7º).",
+      "Correta. A desafetação ou redução dos limites de unidade de conservação só pode ser feita mediante lei específica (art. 22, §7º, da Lei 9.985/2000; art. 225, §1º, III, da CF), ainda que a UC tenha sido criada por decreto.",
+      "Errada. Não se aplica o paralelismo das formas: a UC pode ser criada por ato do Poder Público (art. 22), mas sua alteração ou supressão só pode ocorrer por lei (art. 225, §1º, III, da CF; art. 22, §7º, da Lei 9.985/2000)."
+    ] },
+  { "id": "39-35", "status": "valida",
+    "explicacoes": [
+      "Errada. O princípio da precaução se aplica justamente diante da incerteza científica sobre os riscos, e não exige certeza conclusiva.",
+      "Correta. O princípio da prevenção incide quando os riscos e impactos são conhecidos de antemão, com certeza científica, como no caso, e autoriza o indeferimento da licença para evitar o dano.",
+      "Errada. O desenvolvimento sustentável busca conciliar crescimento econômico e proteção ambiental (art. 4º, I, da Lei 6.938/81; art. 170, VI, da CF); a incerteza científica é o campo da precaução.",
+      "Errada. O poluidor-pagador impõe ao poluidor a internalização dos custos e a reparação dos danos (art. 4º, VII, da Lei 6.938/81); o indeferimento diante de risco certo se baseia na prevenção."
+    ] },
+  { "id": "39-36", "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 69-A da Lei 9.605/98 tipifica a elaboração ou apresentação, no licenciamento, de estudo ou relatório ambiental total ou parcialmente falso ou enganoso, inclusive por omissão.",
+      "Errada. O crime do art. 69-A pode ser praticado por quem elabora ou apresenta o estudo falso ou enganoso, não apenas pelo empreendedor, e quem concorre para o crime responde na medida de sua culpabilidade (art. 2º da Lei 9.605/98).",
+      "Correta. João praticou o crime do art. 69-A da Lei 9.605/98, e a pena é aumentada de 1/3 a 2/3 se há dano significativo ao meio ambiente em decorrência do uso da informação falsa, incompleta ou enganosa (art. 69-A, §2º).",
+      "Errada. Não há causa de diminuição de pena por ser o autor profissional técnico; ao contrário, o dano significativo aumenta a pena (art. 69-A, §2º, da Lei 9.605/98)."
+    ] },
+  { "id": "38-35", "status": "valida",
+    "explicacoes": [
+      "Errada. Não se trata de licença ambiental do Ibama: a extração de água de aquífero subterrâneo depende de outorga de direito de uso (art. 12, II, da Lei 9.433/97), e as águas subterrâneas são bens dos estados (art. 26, I, da CF).",
+      "Errada. O ato necessário é a outorga de direito de uso de recursos hídricos, a cargo do ente titular do domínio da água, que é o Estado (art. 26, I, da CF; arts. 12, II, e 14 da Lei 9.433/97).",
+      "Errada. Municípios não têm domínio sobre águas nem competência para outorgar seu uso; as águas subterrâneas são do Estado (art. 26, I, da CF), e o instrumento é a outorga (art. 14 da Lei 9.433/97).",
+      "Correta. A extração de água de aquífero subterrâneo para consumo final depende de outorga (art. 12, II, da Lei 9.433/97), concedida pelo Estado, titular das águas subterrâneas (art. 26, I, da CF; art. 14 da Lei 9.433/97). O condomínio urbano não se enquadra na dispensa para pequenos núcleos rurais (art. 12, §1º, I)."
+    ] },
+  { "id": "38-36", "status": "valida",
+    "explicacoes": [
+      "Errada. Proteção do meio ambiente não é competência privativa da União, e sim concorrente (art. 24, VI, da CF), podendo o Município suplementar a legislação federal e estadual no interesse local (art. 30, I e II).",
+      "Errada. A competência da União, dos Estados e do DF é concorrente, não privativa (art. 24, VI, da CF), e os Municípios também podem legislar sobre o tema no limite do interesse local (art. 30, I e II).",
+      "Correta. O Município é competente para legislar sobre meio ambiente com a União e o Estado, no limite do seu interesse local e desde que em harmonia com a disciplina dos demais entes (arts. 24, VI, e 30, I e II, da CF; STF, RE 586.224, Tema 145).",
+      "Errada. A competência municipal é suplementar (art. 30, II, da CF) e não autoriza norma menos protetiva que a federal ou estadual; o regramento local deve ser harmônico com o dos demais entes (Tema 145 do STF)."
+    ] },
+  { "id": "37-33", "status": "valida",
+    "explicacoes": [
+      "Errada. O instrumento previsto no art. 36 do Estatuto da Cidade é o estudo prévio de impacto de vizinhança (EIV), aplicável a empreendimentos privados ou públicos; o EIA continua exigível nos termos da legislação ambiental (art. 38).",
+      "Errada. O art. 36 trata de empreendimentos privados ou públicos que dependem de EIV, e as diretrizes do plano diretor devem ser incorporadas pelo plano plurianual, pelas diretrizes orçamentárias e pelo orçamento anual (art. 40, §1º, da Lei 10.257/2001).",
+      "Errada. A elaboração do plano diretor exige audiências públicas e debates com a participação da população e de associações representativas (art. 40, §4º, I, da Lei 10.257/2001).",
+      "Correta. Lei municipal definirá os empreendimentos e atividades privados ou públicos em área urbana que dependerão de EIV para obter licenças ou autorizações de construção, ampliação ou funcionamento a cargo do Poder Público municipal (art. 36 da Lei 10.257/2001)."
+    ] },
+  { "id": "37-34", "status": "valida",
+    "explicacoes": [
+      "Correta. Fabricantes e comerciantes de pilhas e baterias são obrigados a estruturar e implementar sistemas de logística reversa, com retorno dos produtos após o uso, de forma independente do serviço público de limpeza urbana (art. 33, II, da Lei 12.305/2010).",
+      "Errada. A coleta seletiva cabe ao titular dos serviços públicos de limpeza urbana e de manejo de resíduos sólidos (art. 36, II, da Lei 12.305/2010), e não ao fabricante.",
+      "Errada. A parceria com cooperativas de catadores é apenas uma das medidas que podem ser adotadas na logística reversa (art. 33, §3º, III, da Lei 12.305/2010), e não obrigação imposta ao fabricante.",
+      "Errada. Para implementar a logística reversa, o fabricante pode tanto implantar procedimentos de compra de produtos usados quanto disponibilizar postos de entrega de resíduos (art. 33, §3º, I e II, da Lei 12.305/2010)."
+    ] },
+  { "id": "36-33", "status": "valida",
+    "explicacoes": [
+      "Errada. Medidas mitigadoras buscam reduzir os impactos do próprio empreendimento; o apoio à implantação e à manutenção de UC de proteção integral é compensação ambiental (art. 36 da Lei 9.985/2000).",
+      "Correta. Nos empreendimentos de significativo impacto ambiental, assim considerado com base em EIA/RIMA, o empreendedor deve apoiar a implantação e a manutenção de UC do grupo de proteção integral, em valor fixado conforme o grau de impacto: é a compensação ambiental (art. 36 da Lei 9.985/2000; STF, ADI 3378).",
+      "Errada. A compensação ambiental não é sanção por dano: é devida pelo impacto previsto de empreendimento licenciado, mesmo sem ilícito (art. 36 da Lei 9.985/2000).",
+      "Errada. Não existe a figura de inibição por dano ambiental; a obrigação descrita é a compensação ambiental do art. 36 da Lei 9.985/2000."
+    ] },
+  { "id": "36-34", "status": "valida",
+    "explicacoes": [
+      "Correta. A perícia produzida no inquérito civil ou no juízo cível poderá ser aproveitada no processo penal, instaurando-se o contraditório (art. 19, parágrafo único, da Lei 9.605/98).",
+      "Errada. A independência das instâncias não impede o aproveitamento da prova; a lei autoriza expressamente o uso da perícia cível no processo penal (art. 19, parágrafo único, da Lei 9.605/98).",
+      "Errada. Não há exigência de laudo da Polícia Federal; a perícia cível pode ser aproveitada no processo penal, com contraditório (art. 19, parágrafo único, da Lei 9.605/98).",
+      "Errada. As condenações nas esferas cível e penal são cumulativas e não configuram bis in idem, pois as instâncias são independentes (art. 225, §3º, da CF)."
+    ] },
+  { "id": "35-33", "status": "valida",
+    "explicacoes": [
+      "Errada. Havendo autos lavrados por órgãos diferentes, prevalece o lavrado pelo órgão que detém a atribuição de licenciamento ou autorização, e não o lavrado primeiro (art. 17, §3º, da LC 140/2011).",
+      "Correta. Em regra, cabe ao órgão licenciador lavrar o auto de infração (art. 17 da LC 140/2011), mas isso não impede a fiscalização pelos demais entes (art. 17, §3º), e o STF (ADI 4757) admitiu a atuação supletiva de outro ente quando comprovada a omissão ou insuficiência do órgão originalmente competente.",
+      "Errada. A fiscalização ambiental é competência comum (art. 23, VI e VII, da CF), e o art. 17, §3º, da LC 140/2011 não impede que outros entes a exerçam.",
+      "Errada. Qualquer ente federativo pode atuar diante da omissão do órgão licenciador, inclusive o Município (art. 23, VI, da CF; art. 17, §3º, da LC 140/2011; ADI 4757), e não apenas a União."
+    ] },
+  { "id": "35-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A licitude da atividade e a existência de licença não afastam a responsabilidade civil por dano ambiental, que é objetiva (art. 14, §1º, da Lei 6.938/81).",
+      "Errada. Pela teoria do risco integral, adotada pelo STJ (Temas 681 e 707 dos recursos repetitivos), não se admitem excludentes como caso fortuito ou força maior.",
+      "Errada. A responsabilidade civil ambiental é objetiva e independe de dolo ou culpa (art. 14, §1º, da Lei 6.938/81; art. 225, §3º, da CF).",
+      "Correta. A responsabilidade civil por dano ambiental é objetiva (art. 14, §1º, da Lei 6.938/81) e fundada na teoria do risco integral, que não admite as excludentes de caso fortuito e força maior (STJ, Temas 681 e 707)."
+    ] },
+  { "id": "34-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A prestação pecuniária varia de 1 a 360 salários mínimos, e o valor pago é deduzido de eventual reparação civil (art. 12 da Lei 9.605/98).",
+      "Errada. Não há limite de 40 salários mínimos, e a dedução é feita do montante da reparação civil, não da multa penal (art. 12 da Lei 9.605/98).",
+      "Errada. O teto é de 360 salários mínimos, e o valor pago deve ser deduzido da reparação civil (art. 12 da Lei 9.605/98).",
+      "Correta. A prestação pecuniária é fixada entre 1 e 360 salários mínimos, e o valor pago será deduzido do montante de eventual reparação civil (art. 12 da Lei 9.605/98); logo, os 400 salários mínimos excedem o limite legal."
+    ] },
+  { "id": "34-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A Constituição exige autorização do Congresso Nacional, ouvidas as comunidades afetadas (art. 231, §3º, da CF), e não autorização de todos os órgãos do Sisnama.",
+      "Correta. A pesquisa e a lavra das riquezas minerais em terras indígenas só podem ser efetivadas com autorização do Congresso Nacional, ouvidas as comunidades afetadas, assegurada a participação nos resultados da lavra, na forma da lei (art. 231, §3º, e art. 49, XVI, da CF).",
+      "Errada. Não há vedação absoluta: a CF admite a pesquisa e a lavra em terras indígenas mediante autorização do Congresso Nacional e oitiva das comunidades afetadas (art. 231, §3º).",
+      "Errada. Não existe vedação constitucional absoluta; a mineração em terras indígenas é possível nas condições do art. 231, §3º, da CF."
+    ] },
+  { "id": "33-33", "status": "valida",
+    "explicacoes": [
+      "Errada. O princípio da precaução se aplica a riscos incertos ou não comprovados cientificamente; no caso, os riscos eram conhecidos e certos.",
+      "Correta. O princípio da prevenção incide quando os riscos e impactos são conhecidos com certeza científica, o que justifica o indeferimento da licença para impedir o dano, como na zona industrial saturada.",
+      "Errada. O poluidor-pagador impõe ao poluidor a internalização dos custos ambientais e o dever de reparar (art. 4º, VII, da Lei 6.938/81), mas não fundamenta diretamente o indeferimento destinado a evitar um dano certo.",
+      "Errada. A responsabilidade objetiva (art. 14, §1º, da Lei 6.938/81) trata da reparação de danos, e não há exigência de caução prévia como fundamento do indeferimento da licença."
+    ] },
+  { "id": "33-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A Reserva Legal é área localizada no interior de propriedade ou posse rural (arts. 3º, III, e 12 da Lei 12.651/2012), e não instrumento para proteger área marinha.",
+      "Correta. O Parque Nacional, unidade de proteção integral, tem por objetivo preservar ecossistemas naturais de grande relevância ecológica e beleza cênica (art. 11 da Lei 9.985/2000), podendo ser marinho, o que impede a exploração petrolífera na área.",
+      "Errada. A zona de amortecimento é o entorno de uma unidade de conservação (arts. 2º, XVIII, e 25 da Lei 9.985/2000); pressupõe UC já criada e não é, por si só, meio de preservar a área.",
+      "Errada. Não existe a figura de Área de Indisponibilidade da Zona Costeira na legislação ambiental; a proteção adequada é a criação de unidade de conservação de proteção integral."
+    ] },
+  { "id": "32-33", "status": "valida",
+    "explicacoes": [
+      "Correta. O ente federativo pode delegar, mediante convênio, a execução de ações administrativas a ele atribuídas, desde que o ente destinatário disponha de órgão ambiental capacitado e de conselho de meio ambiente (art. 5º da LC 140/2011).",
+      "Errada. A LC 140/2011 não exige manifestação de conselhos, do Ministério Público nem homologação judicial; bastam o convênio e os requisitos do art. 5º.",
+      "Errada. A delegação da execução de ações administrativas é expressamente admitida como instrumento de cooperação (arts. 4º, VI, e 5º da LC 140/2011).",
+      "Errada. Qualquer ente federativo, inclusive a União, pode delegar a execução de suas ações administrativas a outro ente (art. 5º da LC 140/2011)."
+    ] },
+  { "id": "32-34", "status": "valida",
+    "explicacoes": [
+      "Errada. Os estados não têm competência privativa sobre APP: florestas e proteção do meio ambiente são matérias de competência concorrente (art. 24, VI, da CF), e a União já fixou as normas gerais no Código Florestal.",
+      "Errada. A lei é inválida por inteiro, pois cria hipóteses de supressão em APP não previstas nas normas gerais federais (art. 8º da Lei 12.651/2012), seja para lazer, seja para fins comerciais.",
+      "Errada. O vício não é invasão de competência municipal; a lei estadual contraria as normas gerais da União sobre proteção ambiental (art. 24, VI e §1º, da CF).",
+      "Correta. Cabe à União editar normas gerais sobre florestas e proteção do meio ambiente (art. 24, VI e §1º, da CF), e o Código Florestal restringe a supressão em APP às hipóteses de utilidade pública, interesse social ou baixo impacto (art. 8º); a lei estadual que cria novas hipóteses é inconstitucional."
+    ] },
+  { "id": "31-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão tomada por órgão colegiado da sociedade é justamente uma das hipóteses de responsabilidade penal da pessoa jurídica (art. 3º da Lei 9.605/98).",
+      "Errada. Destruir ou danificar floresta considerada de preservação permanente é crime (art. 38 da Lei 9.605/98).",
+      "Errada. Os crimes da Lei 9.605/98 são de ação penal pública incondicionada (art. 26).",
+      "Correta. A pessoa jurídica responde civil, administrativa e penalmente (art. 225, §3º, da CF; art. 3º da Lei 9.605/98) pelo crime do art. 38, e é circunstância agravante cometer a infração para obter vantagem pecuniária (art. 15, II, a, da Lei 9.605/98)."
+    ] },
+  { "id": "31-34", "status": "valida",
+    "explicacoes": [
+      "Errada. O órgão licenciador analisa o estudo, mas não o elabora: os estudos necessários ao licenciamento são realizados por profissionais legalmente habilitados, às expensas do empreendedor (art. 11 da Resolução Conama 237/1997).",
+      "Errada. O Estado não é o licenciador no caso e, ainda que fosse, não elaboraria o EIA, que cabe a profissionais habilitados custeados pelo empreendedor (art. 11 da Resolução Conama 237/1997).",
+      "Errada. O Ibama não é competente no caso nem elabora o estudo; o EIA é feito por profissionais legalmente habilitados, às expensas do empreendedor (art. 11 da Resolução Conama 237/1997).",
+      "Correta. Os estudos necessários ao processo de licenciamento devem ser realizados por profissionais legalmente habilitados, às expensas do empreendedor (art. 11 da Resolução Conama 237/1997), que respondem pelas informações apresentadas."
+    ] },
+  { "id": "30-33", "status": "valida",
+    "explicacoes": [
+      "Correta. O uso de fogo na vegetação é proibido, salvo, entre outras situações, em locais cujas peculiaridades justifiquem seu emprego em práticas agropastoris ou florestais, mediante prévia aprovação do órgão estadual ambiental competente do Sisnama (art. 38, I, da Lei 12.651/2012).",
+      "Errada. A aprovação nessa hipótese cabe ao órgão estadual ambiental competente do Sisnama (art. 38, I, da Lei 12.651/2012), e a lei não exige audiência pública municipal.",
+      "Errada. A queimada não é vedada de forma absoluta: pode ser autorizada nas hipóteses do art. 38 do Código Florestal.",
+      "Errada. A manutenção da reserva legal não dispensa a prévia aprovação do órgão ambiental para o uso de fogo (art. 38, I, da Lei 12.651/2012)."
+    ] },
+  { "id": "30-34", "status": "valida",
+    "explicacoes": [
+      "Errada. O zoneamento ambiental é instrumento da Política Nacional do Meio Ambiente instituído pelo Poder Público (art. 9º, II, da Lei 6.938/81), e não por instrumento particular do proprietário.",
+      "Correta. O proprietário pode, por instrumento público ou particular, limitar o uso de toda ou de parte de sua propriedade para preservar os recursos ambientais, instituindo servidão ambiental, que pode ser perpétua e deve ser averbada na matrícula do imóvel (arts. 9º-A e 9º-B da Lei 6.938/81).",
+      "Errada. Área Ambiental Restrita não é instrumento previsto na legislação; a limitação voluntária do uso da propriedade por instrumento particular é a servidão ambiental (art. 9º-A da Lei 6.938/81).",
+      "Errada. A Área de Relevante Interesse Ecológico é unidade de conservação de uso sustentável criada por ato do Poder Público (arts. 14, II, 16 e 22 da Lei 9.985/2000), e não por instrumento particular."
+    ] },
+  { "id": "29-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A Defensoria Pública é legitimada para propor ação civil pública (art. 5º, II, da Lei 7.347/85), como reconheceu o STF na ADI 3943.",
+      "Correta. Em matéria de dano ambiental, admite-se a condenação à obrigação de fazer ou não fazer cumulada com a de indenizar (Súmula 629 do STJ), sem bis in idem, em razão do princípio da reparação integral.",
+      "Errada. As instâncias penal e civil são independentes (art. 225, §3º, da CF), e a ação civil pública não depende do prévio julgamento da ação penal.",
+      "Errada. O Ibama não tem legitimidade exclusiva: a ação civil pública ambiental pode ser proposta pelos legitimados do art. 5º da Lei 7.347/85, entre eles a Defensoria Pública e o Ministério Público."
+    ] },
+  { "id": "28-33", "status": "valida",
+    "explicacoes": [
+      "Errada. A audiência pública deve ser promovida quando solicitada por entidade civil, pelo Ministério Público ou por 50 ou mais cidadãos (art. 2º da Resolução Conama 9/1987).",
+      "Errada. Não se exige associação constituída há um ano: a solicitação de 50 ou mais cidadãos basta para tornar obrigatória a audiência pública (art. 2º da Resolução Conama 9/1987).",
+      "Correta. Solicitada a audiência pública por 50 ou mais cidadãos, o órgão ambiental deve realizá-la, e, se não o fizer, a licença concedida não terá validade (art. 2º, caput e §2º, da Resolução Conama 9/1987).",
+      "Errada. A celebração de TAC com o Ministério Público não dispensa a audiência pública regularmente solicitada (art. 2º da Resolução Conama 9/1987)."
+    ] },
+  { "id": "28-34", "status": "valida",
+    "explicacoes": [
+      "Errada. A Estação Ecológica é de posse e domínio públicos, e as áreas particulares em seus limites devem ser desapropriadas (art. 9º, §1º, da Lei 9.985/2000), o que gera indenização.",
+      "Errada. A Reserva Biológica também é de posse e domínio públicos, com desapropriação das áreas particulares (art. 10, §1º, da Lei 9.985/2000).",
+      "Errada. O Parque Nacional é de posse e domínio públicos, e as áreas particulares devem ser desapropriadas (art. 11, §1º, da Lei 9.985/2000).",
+      "Correta. A APA pode ser constituída por terras públicas ou privadas (art. 15, §1º, da Lei 9.985/2000) e admite apenas restrições ao uso da propriedade privada, sem necessidade de desapropriação."
+    ] },
+  { "id": "27-33", "status": "valida",
+    "explicacoes": [
+      "Correta. O corpo de água que separa dois estados é bem da União (art. 20, III, da CF), e o lançamento de esgotos para diluição está sujeito a outorga (art. 12, III, da Lei 9.433/97), concedida pela União por meio da ANA (art. 14 da Lei 9.433/97; art. 4º, IV, da Lei 9.984/2000).",
+      "Errada. Não há águas de domínio municipal; lago em terreno municipal não é bem da União (art. 20, III, da CF), e eventual outorga caberia ao Estado (art. 26, I, da CF).",
+      "Errada. Rio que banha apenas um estado é bem estadual (art. 26, I, da CF), e a outorga cabe ao Estado, não à União.",
+      "Errada. O uso para satisfação das necessidades de pequenos núcleos populacionais distribuídos no meio rural independe de outorga (art. 12, §1º, I, da Lei 9.433/97)."
+    ] }
+]

@@ -1,0 +1,278 @@
+[
+  { "id": "41-15", "status": "valida",
+    "explicacoes": [
+      "Errada. O STF admite controle judicial preventivo de PEC tendente a abolir cláusula pétrea, por mandado de segurança impetrado por parlamentar da Casa em que ela tramita, para assegurar o devido processo legislativo (art. 60, § 4º, da CF; MS 20.257 e MS 32.033).",
+      "Correta. O parlamentar tem direito líquido e certo de não deliberar sobre PEC tendente a abolir cláusula pétrea, como a forma federativa de Estado (art. 60, § 4º, I, da CF), e pode impetrar mandado de segurança no STF (art. 102, I, d) para o controle preventivo.",
+      "Errada. A ADI só tem por objeto lei ou ato normativo já promulgado (art. 102, I, a, da CF); proposta de emenda em tramitação não pode ser impugnada pela via abstrata.",
+      "Errada. A ADPF também pressupõe ato do Poder Público já existente e é subsidiária (arts. 1º e 4º, § 1º, da Lei 9.882/99); o único controle judicial preventivo admitido é o mandado de segurança do parlamentar."
+    ] },
+  { "id": "41-16", "status": "valida",
+    "explicacoes": [
+      "Correta. Na representação de inconstitucionalidade estadual, o TJ é o guardião da Constituição Estadual, e a definição dos legitimados é matéria de direito local (art. 125, § 2º, da CF); o recurso extraordinário só cabe se o parâmetro for norma da CF de reprodução obrigatória (art. 102, III; Súmula 280 do STF).",
+      "Errada. O STF não revê a interpretação da Constituição Estadual, que é direito local (Súmula 280 do STF); o recurso extraordinário exige ofensa direta à Constituição Federal (art. 102, III, da CF).",
+      "Errada. O recurso ordinário para o STF cabe só nas hipóteses taxativas do art. 102, II, da CF (por exemplo, MS, HC, HD e MI denegados em única instância pelos Tribunais Superiores, e crime político), não contra acórdão de TJ em representação de inconstitucionalidade.",
+      "Errada. O recurso extraordinário não cabe contra qualquer decisão: exige causa decidida em única ou última instância, questão constitucional federal e repercussão geral (art. 102, III e § 3º, da CF)."
+    ] },
+  { "id": "40-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A súmula vinculante vincula os demais órgãos do Poder Judiciário e também a administração pública direta e indireta, nas esferas federal, estadual e municipal (art. 103-A da CF).",
+      "Correta. O efeito vinculante da súmula não alcança o Poder Legislativo no exercício da função de legislar (art. 103-A da CF), que pode editar lei em sentido diverso, evitando a fossilização da Constituição.",
+      "Errada. A súmula vinculante é obrigatória para o Judiciário e a administração pública, e o ato que a contrariar ou aplicá-la indevidamente pode ser cassado por reclamação ao STF (art. 103-A, § 3º, da CF).",
+      "Errada. O art. 103-A da CF não inclui a função legislativa entre os destinatários do efeito vinculante; o Congresso pode aprovar o projeto, ainda que contrário à súmula."
+    ] },
+  { "id": "40-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A saúde é direito de todos e dever do Estado, com acesso universal e igualitário (art. 196 da CF); não depende de contribuição, ao contrário da previdência social (art. 201).",
+      "Errada. O atendimento pelo SUS não exige vínculo de trabalho; vigora a universalidade de acesso (art. 196 da CF; art. 7º, I, da Lei 8.080/90).",
+      "Errada. O acesso universal alcança também estrangeiros: a CF protege a vida de brasileiros e estrangeiros (art. 5º, caput) e garante a saúde a todos (art. 196).",
+      "Correta. A saúde é direito de todos, com acesso universal e igualitário às ações e serviços (art. 196 da CF; arts. 2º e 7º, I, da Lei 8.080/90), independentemente de nacionalidade, trabalho ou contribuição."
+    ] },
+  { "id": "40-13", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo não é discricionário: o decreto fixa a duração dentro do limite de 30 dias, prorrogável uma vez (art. 136, §§ 1º e 2º, da CF), e não há aprovação prévia, pois o decreto é submetido ao Congresso em 24 horas (art. 136, § 4º).",
+      "Correta. O estado de defesa não pode durar mais de 30 dias, podendo ser prorrogado uma vez, por igual período, se persistirem as razões que o justificaram (art. 136, § 2º, da CF).",
+      "Errada. A CF não vincula o prazo à sessão legislativa: o limite é de 30 dias, com uma única prorrogação por igual período (art. 136, § 2º).",
+      "Errada. Quem decreta e fixa o tempo de duração é o Presidente da República (art. 136, § 1º, da CF); ao Congresso cabe aprovar ou rejeitar o decreto por maioria absoluta (art. 136, § 4º)."
+    ] },
+  { "id": "40-14", "status": "valida",
+    "explicacoes": [
+      "Errada. É vedada medida provisória sobre cidadania (art. 62, § 1º, I, a, da CF), e o trancamento da pauta só ocorre se a MP não for apreciada em 45 dias da publicação (art. 62, § 6º).",
+      "Correta. Nos projetos de sua iniciativa, o Presidente pode pedir urgência; se Câmara e Senado não se manifestarem, cada qual, sucessivamente, em até 45 dias, ficam sobrestadas as demais deliberações da Casa, salvo as de prazo constitucional determinado (art. 64, §§ 1º e 2º, da CF).",
+      "Errada. O próprio Presidente pode propor emenda constitucional (art. 60, II, da CF), e o regime de urgência do art. 64, § 1º, aplica-se a projetos de lei de sua iniciativa, não a PEC.",
+      "Errada. Matéria de cidadania não pode ser objeto de delegação legislativa (art. 68, § 1º, II, da CF)."
+    ] },
+  { "id": "40-15", "status": "valida",
+    "explicacoes": [
+      "Errada. Os emolumentos têm natureza de taxa, mas a CF vincula sua destinação: custas e emolumentos destinam-se exclusivamente ao custeio dos serviços afetos às atividades específicas da Justiça (art. 98, § 2º).",
+      "Correta. Destinar emolumentos a políticas de educação viola o art. 98, § 2º, da CF, que os reserva exclusivamente ao custeio dos serviços afetos às atividades específicas da Justiça.",
+      "Errada. A vinculação do art. 98, § 2º, da CF vale para qualquer ente; o fato de a nova destinação ser da União não afasta a inconstitucionalidade.",
+      "Errada. A CF não destina emolumentos à seguridade social; eles se destinam ao custeio dos serviços afetos às atividades específicas da Justiça (art. 98, § 2º)."
+    ] },
+  { "id": "40-16", "status": "valida",
+    "explicacoes": [
+      "Errada. Não cabe ADI contra proposta de emenda em tramitação, pois a ação pressupõe norma já promulgada (art. 102, I, a, da CF); a emenda só poderá ser impugnada por ADI depois de promulgada.",
+      "Errada. O STF admite mandado de segurança de parlamentar contra PEC tendente a abolir cláusula pétrea, pois o respeito aos limites do art. 60, § 4º, da CF não é matéria interna corporis (MS 20.257 e MS 32.033).",
+      "Errada. A ADPF também não serve ao controle preventivo de proposta de emenda em tramitação; ela é subsidiária e exige ato do Poder Público já existente (art. 4º, § 1º, da Lei 9.882/99).",
+      "Correta. O voto secreto é cláusula pétrea (art. 60, § 4º, II, da CF), e qualquer deputado federal, membro da Casa em que a PEC tramita, pode impetrar mandado de segurança no STF (art. 102, I, d) para impedir a deliberação."
+    ] },
+  { "id": "39-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A omissão legislativa que inviabiliza direito constitucional pode ser enfrentada por mandado de injunção (art. 5º, LXXI, da CF), e o Judiciário pode estabelecer as condições de exercício do direito (art. 8º, II, da Lei 13.300/16).",
+      "Errada. Sendo a omissão do Congresso Nacional, a competência para o mandado de injunção é do STF (art. 102, I, q, da CF), e o tribunal não edita lei: ele regula o exercício do direito.",
+      "Correta. Cabe mandado de injunção no STF (art. 5º, LXXI, e art. 102, I, q, da CF); como o Congresso já descumpriu prazo fixado anteriormente, o Tribunal pode estabelecer diretamente as condições de exercício do direito (art. 8º, II e parágrafo único, da Lei 13.300/16).",
+      "Errada. Pessoa física não é legitimada para a ADO (art. 103 da CF; art. 12-A da Lei 9.868/99), e a decisão nessa ação se limita, em regra, a dar ciência ao Poder competente (art. 103, § 2º)."
+    ] },
+  { "id": "39-12", "status": "valida",
+    "explicacoes": [
+      "Errada. O efeito vinculante alcança os demais órgãos do Poder Judiciário, mas não o próprio Plenário do STF, que pode rever seu entendimento (art. 102, § 2º, da CF).",
+      "Correta. O efeito vinculante da decisão em ADI não atinge a função legislativa (art. 102, § 2º, da CF; art. 28, parágrafo único, da Lei 9.868/99), de modo que o Presidente pode editar medida provisória sobre a matéria, que poderá ser objeto de nova ação.",
+      "Errada. A decisão tem eficácia erga omnes e efeito vinculante para o Judiciário e a administração pública, mas não vincula o Legislativo nem o Executivo quando exerce função legislativa (art. 102, § 2º, da CF).",
+      "Errada. A vinculação abrange os demais órgãos do Poder Judiciário e a administração pública direta e indireta, nas esferas federal, estadual e municipal (art. 102, § 2º, da CF)."
+    ] },
+  { "id": "39-13", "status": "valida",
+    "explicacoes": [
+      "Correta. A súmula vinculante vincula os demais órgãos do Poder Judiciário e a administração pública direta e indireta (art. 103-A da CF); não vincula o STF, que pode revê-la ou cancelá-la, nem o Legislativo na função de legislar.",
+      "Errada. O STJ, como órgão do Poder Judiciário, está vinculado às súmulas vinculantes (art. 103-A da CF); ficam de fora apenas o próprio STF e o Legislativo na função legislativa.",
+      "Errada. Não é só o STF que fica de fora: o Poder Legislativo, na função de legislar, também não está vinculado à súmula (art. 103-A da CF).",
+      "Errada. O STF não está vinculado às próprias súmulas, que pode rever ou cancelar (art. 103-A, caput e § 2º, da CF), e o Legislativo também não fica vinculado ao legislar."
+    ] },
+  { "id": "39-14", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão de mérito em ADC produz eficácia contra todos e efeito vinculante (art. 102, § 2º, da CF).",
+      "Errada. A Mesa do Senado Federal é legitimada para propor ADI e ADC (art. 103, II, da CF).",
+      "Correta. Embora a decisão em ADC tenha eficácia erga omnes, a ação só tem por objeto lei ou ato normativo federal (art. 102, I, a, da CF); lei municipal não pode ser objeto de ADC.",
+      "Errada. Lei municipal pode ser objeto de controle concentrado por ADPF no STF (art. 1º, parágrafo único, I, da Lei 9.882/99) e de representação de inconstitucionalidade no TJ (art. 125, § 2º, da CF)."
+    ] },
+  { "id": "39-15", "status": "valida",
+    "explicacoes": [
+      "Correta. Perde o mandato o Governador que assumir outro cargo ou função na administração pública direta ou indireta, ressalvada a posse em virtude de concurso público (art. 28, § 1º, da CF); a Petrobras é sociedade de economia mista, da administração indireta.",
+      "Errada. A CF não prevê licença do Governador para assumir cargo na administração indireta; a consequência é a perda do mandato (art. 28, § 1º).",
+      "Errada. Não há acumulação com opção de remuneração: a posse no novo cargo gera a perda do mandato de Governador (art. 28, § 1º, da CF).",
+      "Errada. A vedação liga-se ao exercício do mandato; se renunciar, Bento deixa de ser Governador e pode assumir a presidência da Petrobras (art. 28, § 1º, da CF)."
+    ] },
+  { "id": "39-16", "status": "valida",
+    "explicacoes": [
+      "Errada. Proteção e integração social das pessoas com deficiência é matéria de competência legislativa concorrente da União, dos Estados e do DF (art. 24, XIV, da CF); o Município apenas suplementa a legislação no que couber (art. 30, II).",
+      "Correta. Compete à União, aos Estados e ao DF legislar concorrentemente sobre proteção e integração social das pessoas com deficiência (art. 24, XIV, da CF), cabendo à União as normas gerais e aos Estados a suplementação (art. 24, §§ 1º e 2º).",
+      "Errada. A matéria não é privativa da União (art. 22 da CF), mas concorrente (art. 24, XIV).",
+      "Errada. A competência residual dos Estados (art. 25, § 1º, da CF) abrange o que não foi atribuído a outros entes; aqui a CF prevê expressamente competência concorrente (art. 24, XIV)."
+    ] },
+  { "id": "38-11", "status": "valida",
+    "explicacoes": [
+      "Errada. O estado de defesa não depende de aprovação prévia: o Presidente o decreta, ouvidos os Conselhos da República e de Defesa Nacional, e submete o ato ao Congresso em 24 horas (art. 136, caput e § 4º, da CF); autorização prévia é exigida no estado de sítio (art. 137).",
+      "Errada. Há controle político posterior: o decreto e a justificação são submetidos ao Congresso em 24 horas, que decide por maioria absoluta (art. 136, § 4º, da CF).",
+      "Errada. O decreto presidencial produz efeitos desde logo, sem decreto legislativo prévio; o Congresso o aprecia depois (art. 136, §§ 4º a 7º, da CF).",
+      "Correta. O estado de defesa é decretado pelo Presidente, ouvidos os Conselhos, sem aprovação prévia do Congresso, ao qual o ato é submetido em 24 horas (art. 136, caput e § 4º, da CF), prazo respeitado no caso."
+    ] },
+  { "id": "38-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A CF de fato veda a secessão (art. 1º: união indissolúvel), mas o decreto é inconstitucional, porque a União só pode intervir em Municípios localizados em Território Federal (art. 35 da CF).",
+      "Errada. A gravidade da situação não supre a falta de previsão: a intervenção federal recai sobre Estados (art. 34 da CF) e, quanto a Municípios, só sobre os situados em Territórios Federais (art. 35).",
+      "Correta. A União não intervém em Município situado em Estado-membro; a intervenção federal em Município só cabe nos localizados em Território Federal (art. 35 da CF). Para manter a integridade nacional, a intervenção federal caberia no próprio Estado (art. 34, I).",
+      "Errada. A requisição do STF não é exigida na hipótese de manutenção da integridade nacional (arts. 34, I, e 36 da CF); o vício do decreto é a falta de previsão de intervenção federal em Município de Estado (art. 35)."
+    ] },
+  { "id": "38-13", "status": "valida",
+    "explicacoes": [
+      "Correta. O ensino público em estabelecimentos oficiais é gratuito (art. 206, IV, da CF), e o acesso ao ensino obrigatório e gratuito é direito público subjetivo (art. 208, I e § 1º); a cobrança de taxa é inconstitucional (Súmula Vinculante 12).",
+      "Errada. Não há espaço para taxa, ainda que proporcional: a gratuidade do ensino público em estabelecimentos oficiais é garantia constitucional (art. 206, IV, da CF; Súmula Vinculante 12).",
+      "Errada. A gratuidade não depende de prova de hipossuficiência; vale para todos os alunos dos estabelecimentos oficiais (art. 206, IV, da CF).",
+      "Errada. A gratuidade alcança todo o ensino público em estabelecimentos oficiais, inclusive o médio (art. 206, IV, da CF), e a educação básica obrigatória e gratuita vai dos 4 aos 17 anos (art. 208, I)."
+    ] },
+  { "id": "38-14", "status": "valida",
+    "explicacoes": [
+      "Errada. O interesse público não autoriza a lei a prejudicar o direito adquirido, o ato jurídico perfeito e a coisa julgada (art. 5º, XXXVI, da CF); a retroatividade máxima é vedada.",
+      "Errada. A garantia do art. 5º, XXXVI, da CF vincula o legislador de todos os entes, inclusive o municipal.",
+      "Correta. A lei não pode retroagir para atingir situações já consolidadas e exauridas, exigindo a devolução de valores recebidos legitimamente (art. 5º, XXXVI, da CF).",
+      "Errada. Não há ressalva constitucional que permita desconsiderar o direito adquirido em favor de políticas públicas de saúde e educação (art. 5º, XXXVI, da CF)."
+    ] },
+  { "id": "38-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A improcedência da ADC equivale à declaração de inconstitucionalidade, com eficácia erga omnes e efeito vinculante (arts. 24 e 28, parágrafo único, da Lei 9.868/99); nova ação é desnecessária.",
+      "Errada. O recurso especial é dirigido ao STJ e trata de lei federal (art. 105, III, da CF); questão constitucional vai ao STF por recurso extraordinário, e a via mais célere aqui é a reclamação.",
+      "Correta. Decisão que aplica lei declarada inconstitucional em controle concentrado desrespeita a autoridade da decisão do STF e desafia reclamação (art. 102, I, l, e § 2º, da CF; art. 988, III, do CPC).",
+      "Errada. O CNJ exerce controle administrativo e disciplinar e não revê decisões jurisdicionais (art. 103-B, § 4º, da CF)."
+    ] },
+  { "id": "38-16", "status": "valida",
+    "explicacoes": [
+      "Correta. Os deputados estaduais têm as mesmas imunidades dos congressistas (art. 27, § 1º, da CF; ADIs 5823, 5824 e 5825); recebida a denúncia por crime ocorrido após a diplomação, a Casa pode, pelo voto da maioria de seus membros, sustar o andamento da ação (art. 53, § 3º).",
+      "Errada. A imunidade material cobre apenas opiniões, palavras e votos (art. 53, caput, c/c art. 27, § 1º, da CF), não qualquer crime, como a agressão física.",
+      "Errada. Desde a EC 35/2001, não há licença prévia da Casa para processar o parlamentar; a Casa pode apenas sustar o andamento da ação já recebida (art. 53, § 3º, da CF).",
+      "Errada. O art. 27, § 1º, da CF estende aos deputados estaduais as regras sobre imunidades, inclusive as formais; logo, a Assembleia pode sustar a ação penal."
+    ] },
+  { "id": "37-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A ADI busca a declaração de inconstitucionalidade e a retirada da norma do ordenamento, o contrário do que pretende o legitimado (art. 102, I, a, da CF).",
+      "Errada. A representação de inconstitucionalidade é a ação do controle concentrado estadual, no TJ, contra leis estaduais ou municipais em face da Constituição Estadual (art. 125, § 2º, da CF); não serve para lei federal.",
+      "Errada. A ADPF é subsidiária e não cabe quando houver outro meio eficaz, como a ADC para lei federal (art. 4º, § 1º, da Lei 9.882/99).",
+      "Correta. A ADC busca confirmar a constitucionalidade de lei ou ato normativo federal e exige controvérsia judicial relevante (art. 102, I, a, da CF; art. 14, III, da Lei 9.868/99), afastando a insegurança sem retirar a lei do ordenamento."
+    ] },
+  { "id": "37-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Além do mandado de injunção individual, admite-se o coletivo, que pode ser impetrado por associação em favor de seus associados (art. 12, III, da Lei 13.300/16).",
+      "Correta. Associação legalmente constituída e em funcionamento há pelo menos 1 ano pode impetrar mandado de injunção coletivo em nome próprio, em favor dos associados (art. 12, III, da Lei 13.300/16); sendo a omissão do Congresso, a competência é do STF (art. 102, I, q, da CF).",
+      "Errada. O mandado de injunção permite viabilizar o exercício do direito enquanto persistir a omissão (art. 5º, LXXI, da CF; art. 8º da Lei 13.300/16).",
+      "Errada. A ação própria contra a omissão normativa é o mandado de injunção (art. 5º, LXXI, da CF); a ação civil pública não serve para obrigar o Congresso a legislar."
+    ] },
+  { "id": "37-13", "status": "valida",
+    "explicacoes": [
+      "Correta. O subsídio dos Vereadores é fixado pela Câmara Municipal, em cada legislatura para a subsequente, observados limites percentuais do subsídio dos Deputados Estaduais que variam conforme a população do Município (art. 29, VI, da CF).",
+      "Errada. A fixação do subsídio dos Vereadores cabe à própria Câmara (art. 29, VI, da CF); até o subsídio do Prefeito é fixado por lei de iniciativa da Câmara (art. 29, V).",
+      "Errada. Há limite específico: o subsídio dos Vereadores não pode ultrapassar percentuais do subsídio dos Deputados Estaduais (art. 29, VI, da CF), além do teto do art. 37, XI.",
+      "Errada. A competência é da Câmara Municipal, e não comum com o Prefeito, e há vinculação aos percentuais do subsídio dos Deputados Estaduais (art. 29, VI, da CF)."
+    ] },
+  { "id": "37-14", "status": "valida",
+    "explicacoes": [
+      "Errada. É assegurada, nos termos da lei, a assistência religiosa nas entidades civis e militares de internação coletiva (art. 5º, VII, da CF), e a Lei 9.982/2000 garante o acesso de religiosos de todas as confissões aos hospitais públicos e privados.",
+      "Correta. A liberdade de crença inclui a assistência religiosa em entidades de internação coletiva (art. 5º, VI e VII, da CF), e a Lei 9.982/2000 assegura o acesso de religiosos de todas as confissões aos hospitais públicos ou privados, de comum acordo com o internado.",
+      "Errada. O direito não depende de o hospital já ter admitido outra religião; decorre diretamente do art. 5º, VII, da CF e da Lei 9.982/2000.",
+      "Errada. A autonomia da instituição privada não afasta o direito do internado à assistência religiosa (art. 5º, VII, da CF; Lei 9.982/2000); as normas internas só podem disciplinar o atendimento para não pôr em risco o paciente ou o ambiente hospitalar."
+    ] },
+  { "id": "37-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A autonomia dos Estados (art. 25 da CF) é limitada pelos princípios da Constituição Federal; as regras básicas do processo legislativo federal são de observância obrigatória pelos Estados (princípio da simetria).",
+      "Errada. Pela simetria, o Estado não pode alterar o modelo federal nem para facilitar nem para dificultar: a lei ordinária é aprovada por maioria simples (art. 47 da CF), e exigir maioria absoluta é inconstitucional.",
+      "Correta. As normas básicas do processo legislativo da CF são de reprodução obrigatória pelos Estados; como a lei ordinária é aprovada por maioria simples (art. 47 da CF), a Constituição Estadual não pode exigir maioria absoluta.",
+      "Errada. Por simetria com o art. 60, II, da CF, o Governador pode propor emenda à Constituição Estadual."
+    ] },
+  { "id": "37-16", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há escolha: a discussão e a votação dos projetos de iniciativa do Presidente começam na Câmara dos Deputados (art. 64, caput, da CF).",
+      "Correta. Os projetos de lei de iniciativa do Presidente da República, do STF e dos Tribunais Superiores têm início na Câmara dos Deputados (art. 64, caput, da CF), e o Senado atua como Casa revisora (art. 65).",
+      "Errada. Não existe regra de alternância entre as Casas; o início na Câmara é obrigatório (art. 64, caput, da CF).",
+      "Errada. O Senado é Casa iniciadora para projetos de senadores ou de suas comissões, não para os do Presidente, que começam na Câmara (art. 64, caput, da CF)."
+    ] },
+  { "id": "37-17", "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 5º pode ser emendado para ampliar direitos; o vedado é a proposta tendente a abolir direitos e garantias individuais (art. 60, § 4º, IV, da CF).",
+      "Correta. A PEC deve ser discutida e votada em cada Casa em dois turnos, com aprovação por três quintos dos votos em ambos (art. 60, § 2º, da CF); a votação em turno único gera inconstitucionalidade formal.",
+      "Errada. A PEC pode ser proposta por um terço, no mínimo, dos membros da Câmara ou do Senado (art. 60, I, da CF), além do Presidente e de mais da metade das Assembleias Legislativas.",
+      "Errada. A emenda constitucional é promulgada pelas Mesas da Câmara e do Senado (art. 60, § 3º, da CF), sem sanção ou promulgação pelo Presidente."
+    ] },
+  { "id": "36-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A ocupação e o uso temporário de bens e serviços públicos em caso de calamidade estão previstos no próprio art. 136, § 1º, II, da CF; o vício está na negativa de ressarcimento.",
+      "Errada. O estado de defesa dura até 30 dias, prorrogáveis uma vez por igual período (art. 136, § 2º, da CF), ou seja, no máximo 60 dias, e os poderes se limitam às medidas previstas no decreto.",
+      "Correta. Na ocupação e uso temporário de bens e serviços públicos em calamidade, a União responde pelos danos e custos decorrentes (art. 136, § 1º, II, da CF); afastar a indenização é inconstitucional.",
+      "Errada. O estado de defesa não depende de autorização prévia do Congresso; o decreto lhe é submetido em 24 horas (art. 136, § 4º, da CF), e o problema da medida é a negativa de indenização."
+    ] },
+  { "id": "36-12", "status": "valida",
+    "explicacoes": [
+      "Errada. O estrangeiro residente goza dos direitos fundamentais do art. 5º, mas não dos direitos políticos, que dependem da nacionalidade brasileira (art. 14, § 2º, da CF), ressalvados os portugueses equiparados (art. 12, § 1º).",
+      "Correta. A CF assegura aos estrangeiros residentes os direitos do art. 5º, entre eles o livre exercício de profissão, atendidas as qualificações legais (art. 5º, caput e XIII), e permite às universidades admitir professores estrangeiros (art. 207, § 1º).",
+      "Errada. Não se exige naturalização: as universidades podem admitir professores, técnicos e cientistas estrangeiros, na forma da lei (art. 207, § 1º, da CF).",
+      "Errada. A CF não condiciona o exercício profissional do estrangeiro residente a prazo mínimo de residência; basta atender às qualificações que a lei estabelecer (art. 5º, XIII)."
+    ] },
+  { "id": "36-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A multa é pena e, como tal, não passa da pessoa do condenado (art. 5º, XLV, da CF); só a obrigação de reparar o dano e o perdimento de bens alcançam os sucessores.",
+      "Errada. A intranscendência atinge as penas, mas a própria CF permite estender aos sucessores a obrigação de reparar o dano e o perdimento de bens, até o limite do patrimônio transferido (art. 5º, XLV).",
+      "Errada. A pena de multa não se transmite aos sucessores, pois é sanção penal (art. 5º, XLV, da CF); a morte do agente extingue a punibilidade (art. 107, I, do CP).",
+      "Correta. Nenhuma pena passa da pessoa do condenado, mas a obrigação de reparar o dano pode ser estendida aos sucessores e contra eles executada, até o limite do valor do patrimônio transferido (art. 5º, XLV, da CF)."
+    ] },
+  { "id": "36-14", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de 30 dias aplica-se apenas a órgão administrativo; ao Poder Legislativo dá-se ciência, sem prazo impositivo (art. 103, § 2º, da CF; art. 12-H da Lei 9.868/99).",
+      "Correta. Declarada a inconstitucionalidade por omissão, o STF dá ciência ao Poder competente para a adoção das providências necessárias (art. 103, § 2º, da CF; art. 12-H da Lei 9.868/99), como fez na ADI 3682 sobre a lei complementar do art. 18, § 4º.",
+      "Errada. A ADO não autoriza o STF a editar a norma faltante em caráter definitivo, nem impede o legislador de atuar depois; a regra é dar ciência ao Poder competente (art. 103, § 2º, da CF).",
+      "Errada. A ADO volta-se justamente contra a falta de regulamentação de normas de eficácia limitada, como o art. 18, § 4º, da CF; as normas de eficácia contida já produzem efeitos sem lei."
+    ] },
+  { "id": "36-15", "status": "valida",
+    "explicacoes": [
+      "Errada. O Governador é legitimado para propor ADI (art. 103, V, da CF) e pode impugnar no STF lei estadual em face da Constituição Federal.",
+      "Errada. Há via jurídica: o Governador pode ajuizar ADI no STF (arts. 102, I, a, e 103, V, da CF); o Legislativo não suspende a eficácia de lei por simples requisição.",
+      "Correta. O Governador tem legitimidade para ADI (art. 103, V, da CF) e pode impugnar no STF lei estadual que usurpou sua iniciativa privativa, vício formal de inconstitucionalidade (art. 61, § 1º, aplicado por simetria).",
+      "Errada. A Mesa da Assembleia Legislativa e o Governador são ambos legitimados para a ADI (art. 103, IV e V, da CF)."
+    ] },
+  { "id": "36-16", "status": "valida",
+    "explicacoes": [
+      "Correta. O habeas data é o meio próprio para retificar dados pessoais constantes de registros ou bancos de dados de entidades governamentais ou de caráter público (art. 5º, LXXII, b, da CF; art. 7º, II, da Lei 9.507/97), e o mandado de segurança é residual (art. 5º, LXIX).",
+      "Errada. Existe remédio constitucional próprio, o habeas data (art. 5º, LXXII, b, da CF), e a prova documental pré-constituída dispensa dilação probatória.",
+      "Errada. O mandado de segurança só cabe quando o direito não é amparado por habeas corpus ou habeas data (art. 5º, LXIX, da CF); aqui o remédio adequado é o habeas data.",
+      "Errada. A lei não excluirá do Judiciário lesão ou ameaça a direito (art. 5º, XXXV, da CF); após a recusa administrativa, cabe habeas data (art. 8º, parágrafo único, da Lei 9.507/97)."
+    ] },
+  { "id": "36-17", "status": "valida",
+    "explicacoes": [
+      "Correta. Na ação popular, o autor fica isento de custas judiciais e do ônus da sucumbência, salvo comprovada má-fé (art. 5º, LXXIII, da CF).",
+      "Errada. A isenção constitucional abrange as custas e também o ônus da sucumbência, salvo comprovada má-fé (art. 5º, LXXIII, da CF).",
+      "Errada. A ação popular foge à regra geral: o autor só arca com custas e sucumbência se ficar comprovada má-fé (art. 5º, LXXIII, da CF).",
+      "Errada. A CF não isenta de custas todos os remédios constitucionais: a gratuidade expressa alcança a ação popular, salvo má-fé, e o habeas corpus e o habeas data (art. 5º, LXXIII e LXXVII)."
+    ] },
+  { "id": "35-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Proteger o meio ambiente e preservar florestas, fauna e flora é competência administrativa comum de todos os entes (art. 23, VI e VII, da CF), e legislar sobre o tema é competência concorrente (art. 24, VI), não privativa da União.",
+      "Correta. A competência comum é de União, Estados, DF e Municípios (art. 23, VI e VII, da CF), e lei complementar, aprovada por maioria absoluta (art. 69), fixa as normas de cooperação (art. 23, parágrafo único), hoje a LC 140/2011.",
+      "Errada. A competência comum inclui também o DF e os Municípios (art. 23 da CF), e a federação brasileira é de terceiro grau, pois os Municípios também são entes federativos (arts. 1º e 18).",
+      "Errada. Não se trata de tarefa precípua da União com delegação discricionária do Presidente; é competência comum de todos os entes (art. 23, VI e VII, da CF)."
+    ] },
+  { "id": "35-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Os Territórios Federais integram a União (art. 18, § 2º, da CF) e têm natureza de autarquia territorial, sem autonomia política.",
+      "Correta. Hoje não há Territórios Federais (Roraima e Amapá viraram Estados e Fernando de Noronha foi reincorporado a Pernambuco, arts. 14 e 15 do ADCT), mas a CF prevê sua criação por lei complementar (art. 18, §§ 2º e 3º).",
+      "Errada. O Território Federal integra a União e é criado por lei complementar federal (art. 18, §§ 2º e 3º, da CF), não pelo Governador.",
+      "Errada. A CF prevê expressamente os Territórios Federais (art. 18, § 2º, e art. 33)."
+    ] },
+  { "id": "35-13", "status": "duvidosa",
+    "motivo": "Giuseppe nasceu em 1998, dentro do período do art. 95 do ADCT (EC 54/2007), que permite aos nascidos no estrangeiro entre 07/06/1994 e 20/09/2007, filhos de pai ou mãe brasileiros, ser registrados em repartição diplomática ou consular brasileira, o que confere a nacionalidade nata (art. 12, I, c, da CF). Assim, o 'somente' da alternativa B (residência no Brasil e opção) é discutível, e o gabarito pode levar o aluno a ignorar a via do registro consular, inclusive tardio."
+  },
+  { "id": "35-14", "status": "valida",
+    "explicacoes": [
+      "Errada. A lei é materialmente incompatível com a CF (art. 203, caput), e legislar sobre proteção e integração social das pessoas com deficiência é competência concorrente (art. 24, XIV), não privativa do Estado.",
+      "Errada. A habilitação e a reabilitação das pessoas com deficiência integram expressamente os objetivos da assistência social (art. 203, IV, da CF).",
+      "Errada. O vício é material, e não formal: a assistência social é prestada a quem dela necessitar, independentemente de contribuição (art. 203, caput, da CF), e não há reserva geral de lei complementar para o tema.",
+      "Correta. A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social (art. 203, caput, da CF), e inclui a habilitação e reabilitação das pessoas com deficiência (art. 203, IV)."
+    ] },
+  { "id": "35-15", "status": "valida",
+    "explicacoes": [
+      "Errada. O poder originário inaugura nova ordem jurídica e é juridicamente ilimitado; a Constituição Estadual nasce dentro dos limites da CF (art. 25 da CF; art. 11 do ADCT).",
+      "Errada. O poder difuso é o que se manifesta pela mutação constitucional, que altera o sentido da norma sem mudar o texto.",
+      "Correta. O poder derivado decorrente é o dos Estados-membros para elaborar suas Constituições, observados os princípios da CF (art. 25 da CF; art. 11 do ADCT), como indica o preâmbulo.",
+      "Errada. O poder reformador altera a própria Constituição Federal por emendas (art. 60 da CF); não elabora Constituição Estadual."
+    ] },
+  { "id": "35-16", "status": "valida",
+    "explicacoes": [
+      "Correta. A casa é asilo inviolável, e a entrada sem consentimento por determinação judicial só pode ocorrer durante o dia (art. 5º, XI, da CF); cumprir mandado de busca domiciliar após as 21h ou antes das 5h é abuso de autoridade (art. 22, § 1º, III, da Lei 13.869/19).",
+      "Errada. Além do flagrante delito, a CF admite a entrada por determinação judicial, durante o dia (art. 5º, XI); o mandado judicial não é nulo.",
+      "Errada. Razões de conveniência da autoridade policial não afastam a restrição constitucional: com ordem judicial, a entrada só pode ocorrer durante o dia (art. 5º, XI, da CF).",
+      "Errada. A entrada a qualquer hora só é permitida em flagrante delito, desastre ou para prestar socorro; por determinação judicial, somente durante o dia (art. 5º, XI, da CF)."
+    ] }
+]

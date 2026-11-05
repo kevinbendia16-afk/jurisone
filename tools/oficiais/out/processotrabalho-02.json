@@ -1,0 +1,282 @@
+[
+  { "id": "39-77", "status": "valida",
+    "explicacoes": [
+      "Errada. A Fazenda Pública tem prerrogativas próprias também na execução trabalhista: seus bens são impenhoráveis e o pagamento se faz por precatório ou RPV (art. 100 da CF), de modo que não se exige garantia do juízo.",
+      "Correta. Por ser ente público, o Município é citado para opor embargos sem garantia do juízo, no prazo de 30 dias (art. 910 do CPC, aplicado subsidiariamente, e art. 1º-B da Lei 9.494/97), e o pagamento seguirá o regime de precatório ou RPV (art. 100 da CF).",
+      "Errada. Não há regra que exija depósito de metade do valor; o ente público embarga sem qualquer garantia (art. 910 do CPC e art. 100 da CF).",
+      "Errada. O seguro-garantia judicial é uma forma de garantir a execução prevista para o executado comum (art. 882 da CLT); não é exigido do ente público, que embarga sem garantia."
+    ] },
+  { "id": "39-78", "status": "valida",
+    "explicacoes": [
+      "Correta. O depoimento de quem não fala português é feito por intérprete nomeado pelo juiz (art. 819 da CLT). As despesas ficam com a parte sucumbente, salvo se beneficiária da justiça gratuita (art. 819, § 2º), caso em que a União arca com elas (Súmula 457 do TST, por analogia, e Resolução CSJT 247/2019).",
+      "Errada. Quem paga não é a parte a quem o depoimento interessa, mas a sucumbente; e o beneficiário da justiça gratuita fica isento (art. 819, § 2º, da CLT).",
+      "Errada. O intérprete é nomeado pelo juiz (art. 819 da CLT) e atua como auxiliar da justiça, sujeito a impedimento e suspeição; a própria parte, interessada no processo, não pode servir de intérprete da sua testemunha.",
+      "Errada. A gratuidade abrange a remuneração do intérprete (art. 98, § 1º, VI, do CPC), e o art. 819, § 2º, da CLT isenta expressamente o beneficiário da justiça gratuita dessa despesa."
+    ] },
+  { "id": "39-79", "status": "valida",
+    "explicacoes": [
+      "Correta. Compete à Justiça do Trabalho julgar as ações relativas às penalidades administrativas impostas aos empregadores pelos órgãos de fiscalização do trabalho e o mandado de segurança sobre matéria sujeita à sua jurisdição (art. 114, IV e VII, da CF). Com prova documental pré-constituída, o mandado de segurança, com pedido liminar, é a via urgente para sustar os autos de infração.",
+      "Errada. O agravo de petição é o recurso contra decisões do juiz na execução (art. 897, a, da CLT); não serve para atacar ato administrativo da fiscalização.",
+      "Errada. Desde a EC 45/2004, a competência para as ações contra penalidades aplicadas pela fiscalização do trabalho é da Justiça do Trabalho (art. 114, VII, da CF), e não mais da Justiça Federal.",
+      "Errada. No processo do trabalho, o agravo de instrumento só cabe contra a decisão que nega seguimento a recurso (art. 897, b, da CLT)."
+    ] },
+  { "id": "39-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A CLT não impõe ordem rígida para ouvir as testemunhas e autoriza o juiz a alterar a ordem de produção das provas (art. 775, § 2º, da CLT).",
+      "Errada. A CLT trata do tema: o art. 775, § 2º, permite alterar a ordem das provas, e a quantidade de testemunhas é fixada em lei (até 3 por parte no rito ordinário, art. 821, e até 2 no sumaríssimo, art. 852-H, § 2º), sem ficar a critério do juiz.",
+      "Correta. O art. 775, § 2º, da CLT permite ao juiz alterar a ordem de produção dos meios de prova, adequando-a às necessidades do conflito. Como a defesa alegou justa causa, cujo ônus é do empregador, foi legítimo ouvir primeiro as testemunhas da ré.",
+      "Errada. A inversão é autorizada por lei e, de todo modo, só haveria nulidade se houvesse manifesto prejuízo à parte (art. 794 da CLT)."
+    ] },
+  { "id": "38-76", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo dos embargos à execução é de 5 dias após a garantia do juízo (art. 884 da CLT), e não de 3 dias; os embargos foram apresentados no prazo.",
+      "Errada. Os embargos são tempestivos, mas o executado foi intimado para impugnar os cálculos e ficou inerte. Por isso a discussão sobre os cálculos está preclusa (art. 879, § 2º, da CLT).",
+      "Correta. Tornada líquida a conta, o juiz deve abrir às partes prazo comum de 8 dias para impugnação fundamentada, sob pena de preclusão (art. 879, § 2º, da CLT). Como a executada se calou, não pode rediscutir os cálculos nos embargos.",
+      "Errada. Não existe preparo de 30% para os embargos à execução; as custas da execução são pagas ao final pelo executado (art. 789-A da CLT). O obstáculo, no caso, é a preclusão do art. 879, § 2º."
+    ] },
+  { "id": "38-77", "status": "valida",
+    "explicacoes": [
+      "Correta. É o texto da Súmula 9 do TST: a ausência do reclamante, quando adiada a instrução após contestada a ação em audiência, não importa arquivamento do processo. Se ele tiver sido intimado com a advertência legal, pode ser aplicada a confissão ficta (Súmula 74, I, do TST).",
+      "Errada. O arquivamento só ocorre quando o reclamante falta à audiência inicial (art. 844 da CLT); depois de apresentada a contestação, isso não acontece mais (Súmula 9 do TST).",
+      "Errada. Não há direito a novo adiamento; a consequência da ausência injustificada, se houve intimação com advertência, é a confissão ficta quanto aos fatos (Súmula 74, I, do TST).",
+      "Errada. A ausência do reclamante na audiência em prosseguimento não gera falta de interesse de agir nem extinção sem resolução do mérito (Súmula 9 do TST)."
+    ] },
+  { "id": "38-78", "status": "valida",
+    "explicacoes": [
+      "Errada. Ajuizar reclamação só para celebrar acordo já pronto é lide simulada. A CLT prevê processo próprio de homologação de acordo extrajudicial, no qual não se admite o jus postulandi (arts. 855-B a 855-E da CLT).",
+      "Errada. No processo de homologação de acordo extrajudicial é obrigatória a representação das partes por advogado (art. 855-B, caput, da CLT), de modo que o jus postulandi não se aplica.",
+      "Correta. O processo de homologação de acordo extrajudicial começa por petição conjunta, com representação obrigatória por advogado (art. 855-B da CLT), e as partes não podem ter advogado comum (art. 855-B, § 1º).",
+      "Errada. A CLT proíbe que as partes sejam representadas por advogado comum (art. 855-B, § 1º); o trabalhador pode ser assistido pelo advogado do seu sindicato (§ 2º)."
+    ] },
+  { "id": "38-79", "status": "valida",
+    "explicacoes": [
+      "Correta. O dissídio coletivo de âmbito municipal é julgado originariamente pelo TRT (art. 678, I, a, da CLT). Contra a decisão em processo de competência originária do TRT cabe recurso ordinário ao TST (art. 895, II, da CLT), julgado pela SDC (art. 2º, II, a, da Lei 7.701/88).",
+      "Errada. A sentença normativa é recorrível: cabe recurso ordinário ao TST (art. 895, II, da CLT).",
+      "Errada. O recurso de revista cabe contra acórdãos de TRT proferidos em grau de recurso ordinário em dissídio individual (art. 896 da CLT), e não contra decisão originária em dissídio coletivo.",
+      "Errada. A sentença normativa já foi proferida pelo próprio TRT, em competência originária; o recurso ordinário é dirigido ao TST (art. 895, II, da CLT)."
+    ] },
+  { "id": "38-80", "status": "valida",
+    "explicacoes": [
+      "Errada. Provocar incidentes manifestamente infundados, agir de modo temerário e opor resistência injustificada ao andamento do processo caracterizam litigância de má-fé (art. 793-B, IV, V e VI, da CLT); a ampla defesa não protege o abuso processual.",
+      "Errada. Quando o valor da causa é irrisório ou inestimável, a multa pode ser fixada em até duas vezes o limite máximo dos benefícios do RGPS (art. 793-C, § 2º, da CLT), e não sobre o valor da causa.",
+      "Errada. Deduzir pretensão ou defesa contra texto expresso de lei é hipótese expressa de litigância de má-fé (art. 793-B, I, da CLT).",
+      "Correta. As condutas narradas estão no art. 793-B da CLT (alterar a verdade dos fatos, resistência injustificada, conduta temerária e incidentes infundados). O art. 793-C prevê multa superior a 1% e inferior a 10% do valor corrigido da causa, além de indenização dos prejuízos, honorários e despesas."
+    ] },
+  { "id": "37-76", "status": "valida",
+    "explicacoes": [
+      "Correta. Têm preferência para julgamento os dissídios sobre pagamento de salário e os que derivarem da falência do empregador (art. 652, parágrafo único, da CLT). A ação de Rogério, que cobra salários retidos, é a única que se enquadra.",
+      "Errada. O pedido de férias vencidas não está entre as hipóteses de preferência do art. 652, parágrafo único, da CLT, e Luzia (42 anos) não é pessoa idosa.",
+      "Errada. A prioridade por idade vale para quem tem 60 anos ou mais (art. 71 da Lei 10.741/03 e art. 1.048, I, do CPC); Pedro tem 55 anos, e horas extras não dão preferência.",
+      "Errada. Nem a ação de Luzia nem a de Pedro se enquadram nas preferências legais (art. 652, parágrafo único, da CLT e art. 1.048, I, do CPC)."
+    ] },
+  { "id": "37-77", "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 855-A da CLT manda aplicar ao processo do trabalho o IDPJ dos arts. 133 a 137 do CPC, que cabe em todas as fases do processo de conhecimento e também na execução (art. 134 do CPC).",
+      "Correta. Pelo art. 855-A da CLT c/c art. 134 do CPC, a desconsideração pode ser requerida na fase de conhecimento ou na execução. Se for pedida já na petição inicial, os sócios são citados desde logo e dispensa-se a instauração do incidente (art. 134, § 2º, do CPC).",
+      "Errada. A desconsideração não depende da concordância dos sócios; eles são citados para se manifestar e requerer provas em 15 dias (art. 135 do CPC, aplicado por força do art. 855-A da CLT).",
+      "Errada. A CLT não exige prova documental da necessidade do incidente. O requerente deve demonstrar os pressupostos legais da desconsideração (art. 134, § 4º, do CPC), por qualquer meio de prova admitido."
+    ] },
+  { "id": "37-78", "status": "valida",
+    "explicacoes": [
+      "Correta. No rito sumaríssimo, o recurso de revista só é admitido por contrariedade a súmula do TST ou a súmula vinculante do STF e por violação direta da Constituição (art. 896, § 9º, da CLT). A contrariedade a orientação jurisprudencial não o autoriza (Súmula 442 do TST).",
+      "Errada. No sumaríssimo, a contrariedade a OJ do TST não permite o recurso de revista (art. 896, § 9º, da CLT e Súmula 442 do TST).",
+      "Errada. O recurso de revista também cabe no rito sumaríssimo, mas só nas hipóteses restritas do art. 896, § 9º, da CLT.",
+      "Errada. No sumaríssimo, nem a violação de OJ nem a de lei federal autorizam o recurso de revista; só cabem a contrariedade a súmula do TST ou a súmula vinculante e a violação direta da CF (art. 896, § 9º, da CLT)."
+    ] },
+  { "id": "37-79", "status": "valida",
+    "explicacoes": [
+      "Errada. A ação monitória serve a quem tem prova escrita sem eficácia de título executivo. Para fazer cumprir a sentença normativa, a CLT prevê a ação de cumprimento (art. 872, parágrafo único).",
+      "Errada. A sentença normativa não é título executivo extrajudicial (art. 876 da CLT); seu descumprimento se resolve pela ação de cumprimento.",
+      "Errada. A CLT prevê ação específica para obrigar o cumprimento das cláusulas da sentença normativa, que é a ação de cumprimento (art. 872, parágrafo único, da CLT), e não a ação civil coletiva.",
+      "Correta. Se o empregador não cumpre a sentença normativa, o sindicato, como substituto processual, pode ajuizar ação de cumprimento na Vara do Trabalho (art. 872, parágrafo único, da CLT e Súmula 286 do TST). O trânsito em julgado da sentença normativa é dispensável (Súmula 246 do TST)."
+    ] },
+  { "id": "37-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A ação rescisória trabalhista exige depósito prévio de 20% do valor da causa (art. 836 da CLT), dispensado apenas se o autor provar miserabilidade jurídica.",
+      "Correta. A ação rescisória na Justiça do Trabalho exige depósito prévio de 20% do valor da causa, salvo prova de miserabilidade jurídica do autor (art. 836 da CLT). A sociedade empresária de grande porte não se enquadra nessa exceção.",
+      "Errada. O fato de o processo estar em execução não impede a ação rescisória contra a decisão transitada em julgado (art. 836 da CLT e art. 966 do CPC), e o ajuizamento da rescisória não suspende o cumprimento da decisão (art. 969 do CPC).",
+      "Errada. Não se recolhem custas de 2% sobre a condenação para ajuizar a rescisória. O requisito de admissibilidade é o depósito prévio de 20% do valor da causa (art. 836 da CLT), e as custas são pagas pelo vencido ao final."
+    ] },
+  { "id": "36-76", "status": "valida",
+    "explicacoes": [
+      "Errada. O marco legal não é o início da instrução, mas o oferecimento da contestação, ainda que eletrônica; depois dele, a desistência depende do consentimento do reclamado (art. 841, § 3º, da CLT).",
+      "Errada. Oferecida a contestação, o reclamante não pode desistir da ação sem o consentimento do reclamado (art. 841, § 3º, da CLT).",
+      "Correta. Pelo art. 841, § 3º, da CLT, oferecida a contestação, ainda que eletronicamente, o reclamante não pode desistir da ação sem o consentimento do reclamado. Como a ré não concordou, a desistência não pode ser homologada.",
+      "Errada. A renúncia ao direito é ato unilateral do autor e não depende da concordância do réu (art. 487, III, c, do CPC). A exigência de consentimento do art. 841, § 3º, da CLT vale só para a desistência."
+    ] },
+  { "id": "36-77", "status": "valida",
+    "explicacoes": [
+      "Correta. Da decisão que resolve o IDPJ na fase de execução cabe agravo de petição, independentemente de garantia do juízo (art. 855-A, § 1º, II, da CLT).",
+      "Errada. Embora a decisão seja interlocutória, a CLT abre exceção expressa e admite agravo de petição contra a decisão do IDPJ na execução (art. 855-A, § 1º, II).",
+      "Errada. O recurso ordinário não é cabível nesse caso. Na fase de conhecimento a decisão do IDPJ é irrecorrível de imediato, e na execução cabe agravo de petição (art. 855-A, § 1º, I e II, da CLT).",
+      "Errada. No processo do trabalho, o agravo de instrumento só cabe contra a decisão que nega seguimento a recurso (art. 897, b, da CLT)."
+    ] },
+  { "id": "36-78", "status": "valida",
+    "explicacoes": [
+      "Errada. Na CLT, os embargos à execução pressupõem a garantia da execução ou a penhora de bens (art. 884, caput). A dispensa vale só para entidades filantrópicas e seus diretores (art. 884, § 6º) e para entes públicos.",
+      "Correta. O art. 884 da CLT só abre prazo de 5 dias para embargos depois de garantida a execução ou penhorados bens suficientes. Com bloqueio de R$ 20.000,00 de uma dívida de R$ 30.000,00, o juízo não está integralmente garantido.",
+      "Errada. A CLT não prevê garantia de metade do valor para admitir embargos; a redução de 50% existe apenas para o depósito recursal de certos empregadores (art. 899, § 9º, da CLT).",
+      "Errada. A CLT prevê expressamente os embargos à execução (art. 884), desde que garantido o juízo."
+    ] },
+  { "id": "36-79", "status": "valida",
+    "explicacoes": [
+      "Errada. Para as partes, o termo de conciliação vale como decisão irrecorrível (art. 831, parágrafo único, da CLT), e o reclamante só pode atacá-lo por ação rescisória (Súmula 259 do TST); o recurso dele não será conhecido.",
+      "Errada. O reclamante não pode recorrer do acordo homologado (art. 831, parágrafo único, da CLT). Já a Previdência Social tem legitimidade para recorrer quanto às contribuições, como terceira interessada, mesmo sem ter sido parte.",
+      "Correta. O termo de conciliação vale como decisão irrecorrível, salvo para a Previdência Social quanto às contribuições que lhe forem devidas (art. 831, parágrafo único, da CLT). Hoje esse recurso é interposto pela União (art. 832, § 4º, da CLT), e o reclamante só pode usar a ação rescisória (Súmula 259 do TST).",
+      "Errada. A lei ressalva expressamente o recurso da Previdência Social quanto às contribuições (art. 831, parágrafo único, e art. 832, § 4º, da CLT); a homologação não é imune a impugnação."
+    ] },
+  { "id": "36-80", "status": "valida",
+    "explicacoes": [
+      "Correta. Contra decisões de Turmas do TST que divergirem entre si cabem embargos à Subseção de Dissídios Individuais (SDI-1), no prazo de 8 dias (art. 894, II, da CLT e art. 3º, III, b, da Lei 7.701/88).",
+      "Errada. A divergência é entre Turmas do TST, e o recurso ordinário não é o meio para uniformizá-la; o recurso cabível são os embargos à SDI-1 (art. 894, II, da CLT).",
+      "Errada. Os embargos de declaração servem para sanar omissão, contradição, obscuridade ou erro material e são julgados pelo próprio órgão prolator (art. 897-A da CLT), e não pelo STF.",
+      "Errada. Não se trata de conflito de competência, e o STJ não revê decisões do TST. A divergência entre Turmas se resolve por embargos à SDI-1 (art. 894, II, da CLT)."
+    ] },
+  { "id": "35-76", "status": "valida",
+    "explicacoes": [
+      "Correta. No IDPJ, o sócio é citado para se manifestar e requerer provas em 15 dias, sem exigência de garantia (art. 855-A da CLT c/c art. 135 do CPC). A própria CLT dispensa a garantia até para o agravo de petição contra a decisão do incidente (art. 855-A, § 1º, II).",
+      "Errada. A CLT não exige garantia do juízo, nem por fiança bancária nem por seguro-garantia, para que a manifestação do sócio no IDPJ seja apreciada (art. 855-A da CLT c/c art. 135 do CPC).",
+      "Errada. Não há exigência de garantia de 50% para a manifestação do sócio no IDPJ; a defesa é apresentada em 15 dias sem garantia (art. 135 do CPC).",
+      "Errada. A manifestação do sócio no IDPJ independe de garantia do juízo com bens ou dinheiro (art. 855-A da CLT c/c art. 135 do CPC)."
+    ] },
+  { "id": "35-77", "status": "valida",
+    "explicacoes": [
+      "Correta. A prescrição trabalhista não se aplica às ações que tenham por objeto anotações para fins de prova junto à Previdência Social (art. 11, § 1º, da CLT). O pedido de entrega do PPP, documento destinado a comprovar a atividade especial perante o INSS, se enquadra nessa exceção.",
+      "Errada. O prazo bienal do art. 7º, XXIX, da CF e do art. 11 da CLT não alcança as ações de anotação para fins previdenciários (art. 11, § 1º, da CLT).",
+      "Errada. Não existe prescrição trintenária para o PPP; e nem o FGTS a tem mais, pois desde o ARE 709.212 do STF a prescrição do FGTS é quinquenal (Súmula 362 do TST). No caso, o fundamento é a imprescritibilidade do art. 11, § 1º, da CLT.",
+      "Errada. A CLT não é omissa: o art. 11, § 1º, afasta expressamente a prescrição nas ações que tenham por objeto anotações para fins de prova junto à Previdência Social."
+    ] },
+  { "id": "35-78", "status": "valida",
+    "explicacoes": [
+      "Correta. A exigência de garantia ou penhora não se aplica às entidades filantrópicas nem a quem compõe ou compôs a sua diretoria (art. 884, § 6º, da CLT).",
+      "Errada. Nenhuma lei proíbe a entidade filantrópica de embargar; a CLT, ao contrário, a dispensa da garantia do juízo (art. 884, § 6º).",
+      "Errada. A entidade filantrópica não precisa depositar o valor da execução para embargar (art. 884, § 6º, da CLT).",
+      "Errada. A CLT não condiciona os embargos da entidade filantrópica ao depósito do valor incontroverso; ela é dispensada de qualquer garantia (art. 884, § 6º)."
+    ] },
+  { "id": "35-79", "status": "valida",
+    "explicacoes": [
+      "Correta. Compete à Justiça do Trabalho processar e julgar as ações relativas às penalidades administrativas impostas aos empregadores pelos órgãos de fiscalização das relações de trabalho (art. 114, VII, da CF).",
+      "Errada. As causas entre o Poder Público e servidores estatutários são da Justiça comum, e não da Justiça do Trabalho (STF, ADI 3.395).",
+      "Errada. A Justiça do Trabalho julga apenas conflitos entre órgãos com jurisdição trabalhista (art. 114, V, da CF). O conflito entre juiz do trabalho e juiz de direito da Justiça comum é decidido pelo STJ (art. 105, I, d, da CF), salvo se o juiz de direito estiver investido de jurisdição trabalhista (Súmula 180 do STJ).",
+      "Errada. A competência alcança só a execução das contribuições previdenciárias decorrentes das sentenças que a Justiça do Trabalho proferir e dos acordos que homologar (art. 114, VIII, da CF, Súmula Vinculante 53 e Súmula 368, I, do TST), e não todas as contribuições oriundas da relação de emprego."
+    ] },
+  { "id": "35-80", "status": "valida",
+    "explicacoes": [
+      "Errada. O acordo homologado faz coisa julgada, mas pode ser desconstituído por ação rescisória (art. 836 da CLT e Súmula 259 do TST).",
+      "Errada. Para as partes, o termo de conciliação vale como decisão irrecorrível (art. 831, parágrafo único, da CLT) e transita em julgado na data da homologação (Súmula 100, V, do TST); só a Previdência pode recorrer quanto às contribuições.",
+      "Correta. O termo de conciliação homologado só pode ser impugnado por ação rescisória (Súmula 259 do TST e art. 836 da CLT). Os recibos encontrados depois, cuja existência a inventariante ignorava, podem fundamentar a rescisão por prova nova (art. 966, VII, do CPC).",
+      "Errada. A ação de cobrança esbarraria na coisa julgada formada pelo acordo homologado; o meio próprio para desconstituí-lo é a ação rescisória (Súmula 259 do TST)."
+    ] },
+  { "id": "34-76", "status": "valida",
+    "explicacoes": [
+      "Errada. As entidades filantrópicas são isentas do depósito recursal (art. 899, § 10, da CLT); a falta do depósito não impede o seguimento do recurso.",
+      "Errada. Não há vício a sanar, porque a entidade filantrópica é isenta do depósito recursal (art. 899, § 10, da CLT); as custas foram recolhidas.",
+      "Errada. A redução do depósito recursal pela metade vale para entidades sem fins lucrativos, empregadores domésticos, MEI, ME e EPP (art. 899, § 9º, da CLT). As entidades filantrópicas são totalmente isentas (§ 10).",
+      "Correta. São isentos do depósito recursal os beneficiários da justiça gratuita, as entidades filantrópicas e as empresas em recuperação judicial (art. 899, § 10, da CLT). Com as custas recolhidas, o preparo está completo."
+    ] },
+  { "id": "34-77", "status": "valida",
+    "explicacoes": [
+      "Errada. A União não precisa depositar o valor para embargar: é citada para opor embargos em 30 dias, sem garantia (art. 910 do CPC e art. 1º-B da Lei 9.494/97), e paga por precatório ou RPV (art. 100 da CF).",
+      "Errada. Os bens públicos são impenhoráveis, e a execução contra a Fazenda Pública segue o regime de precatório ou RPV (art. 100 da CF); não há penhora prévia aos embargos.",
+      "Errada. Não existe regra que exija do ente público o depósito de metade do valor; a Fazenda Pública embarga sem qualquer garantia (art. 910 do CPC).",
+      "Correta. A Fazenda Pública, ainda que devedora subsidiária, é citada para opor embargos sem garantia do juízo, no prazo de 30 dias (art. 910 do CPC, aplicado subsidiariamente, e art. 1º-B da Lei 9.494/97), e o pagamento se faz por precatório ou RPV (art. 100 da CF)."
+    ] },
+  { "id": "34-78", "status": "valida",
+    "explicacoes": [
+      "Correta. O recurso adesivo é compatível com o processo do trabalho e cabe, no prazo de 8 dias, nos recursos ordinário, de revista, de embargos e no agravo de petição (Súmula 283 do TST). O exequente, também vencido, pode aderir no prazo das contrarrazões.",
+      "Errada. O TST admite o recurso adesivo no processo do trabalho, aplicando subsidiariamente o CPC (Súmula 283 do TST).",
+      "Errada. A Súmula 283 do TST admite o recurso adesivo também no agravo de petição e nos embargos, além dos recursos ordinário e de revista.",
+      "Errada. O agravo de petição adesivo é aceito, mas a Súmula 283 do TST dispensa que a matéria do adesivo esteja relacionada com a do recurso da parte contrária."
+    ] },
+  { "id": "34-79", "status": "valida",
+    "explicacoes": [
+      "Correta. A audiência deve ser a primeira desimpedida depois de 5 dias do recebimento da notificação (art. 841 da CLT), prazo contado em dias úteis (art. 775 da CLT). Entre a citação em 9/2 e a audiência em 11/2 esse prazo não foi respeitado, e o reclamado pode pedir a remarcação.",
+      "Errada. As 48 horas do art. 841 da CLT são o prazo para a secretaria remeter a notificação ao reclamado; o intervalo mínimo entre a notificação e a audiência é de 5 dias.",
+      "Errada. A CLT não prevê intervalo de 8 dias úteis; o mínimo é de 5 dias (art. 841 da CLT).",
+      "Errada. O prazo mínimo de 5 dias do art. 841 da CLT existe para garantir a preparação da defesa e vale tanto para a audiência presencial quanto para a telepresencial."
+    ] },
+  { "id": "34-80", "status": "valida",
+    "explicacoes": [
+      "Errada. Com valor da causa de 30 salários mínimos o rito é sumaríssimo (art. 852-A da CLT), no qual o recurso de revista cabe por contrariedade a súmula do TST (art. 896, § 9º). A irrecorribilidade só existe nas causas de alçada de até 2 salários mínimos, salvo matéria constitucional (art. 2º, § 4º, da Lei 5.584/70).",
+      "Errada. No processo do trabalho, o agravo de instrumento só cabe contra a decisão que nega seguimento a recurso (art. 897, b, da CLT).",
+      "Errada. O agravo de petição é o recurso contra decisões na fase de execução (art. 897, a, da CLT), e não contra acórdão de TRT na fase de conhecimento.",
+      "Correta. No rito sumaríssimo, cabe recurso de revista contra o acórdão do TRT que contraria súmula do TST (art. 896, § 9º, da CLT), no prazo de 8 dias úteis; a transcendência será examinada pelo TST (art. 896-A)."
+    ] },
+  { "id": "33-76", "status": "valida",
+    "explicacoes": [
+      "Errada. Mesmo ausente o reclamado, se o advogado estiver presente na audiência, a contestação e os documentos apresentados serão aceitos (art. 844, § 5º, da CLT); a defesa não pode ser desprezada.",
+      "Errada. Não há tolerância legal para atraso das partes (OJ 245 da SDI-1 do TST). Os 15 minutos do art. 815, parágrafo único, da CLT referem-se ao atraso do juiz.",
+      "Errada. A CLT não é omissa: o art. 844, § 5º, determina que, presente o advogado, sejam aceitos a contestação e os documentos.",
+      "Correta. Pelo art. 844, § 5º, da CLT, incluído pela Reforma Trabalhista, ainda que ausente o reclamado (ou seu preposto), presente o advogado na audiência, serão aceitos a contestação e os documentos eventualmente apresentados."
+    ] },
+  { "id": "33-77", "status": "valida",
+    "explicacoes": [
+      "Errada. No processo do trabalho, o agravo de instrumento só cabe contra a decisão que nega seguimento a recurso (art. 897, b, da CLT).",
+      "Errada. O agravo de petição é o recurso contra decisões na fase de execução (art. 897, a, da CLT).",
+      "Errada. A ação rescisória pressupõe decisão de mérito transitada em julgado (art. 836 da CLT e art. 966 do CPC). Ainda cabe recurso contra o acórdão regional.",
+      "Correta. Cabe recurso de revista contra acórdão de TRT proferido em grau de recurso ordinário que contrariar súmula do TST (art. 896, a, da CLT), no prazo de 8 dias úteis, observada a transcendência (art. 896-A)."
+    ] },
+  { "id": "33-78", "status": "valida",
+    "explicacoes": [
+      "Errada. A representação por advogado é obrigatória, mas as partes não podem ter advogado comum (art. 855-B, § 1º, da CLT).",
+      "Errada. O acordo já celebrado deve ser levado ao processo próprio de homologação de acordo extrajudicial (arts. 855-B a 855-E da CLT), com advogado; reclamação ajuizada só para formalizar o acordo seria lide simulada.",
+      "Errada. No processo de homologação de acordo extrajudicial não vigora o jus postulandi, pois a representação por advogado é obrigatória (art. 855-B, caput, da CLT).",
+      "Correta. O processo de homologação de acordo extrajudicial começa por petição conjunta, com representação obrigatória por advogado (art. 855-B da CLT), e as partes não podem ter advogado comum (§ 1º), ou seja, cada uma precisa do seu."
+    ] },
+  { "id": "33-79", "status": "valida",
+    "explicacoes": [
+      "Correta. O recurso ordinário contra a sentença deve ser interposto em 8 dias (art. 895, I, da CLT), contados em dias úteis (art. 775 da CLT). A sociedade de economia mista, pessoa jurídica de direito privado (art. 173, § 1º, II, da CF), não tem prazo em dobro.",
+      "Errada. O prazo em dobro para recorrer vale só para a União, os Estados, o DF, os Municípios e suas autarquias e fundações de direito público (art. 1º, III, do Decreto-Lei 779/69), e não para a sociedade de economia mista.",
+      "Errada. Desde a Reforma Trabalhista, os prazos processuais na CLT são contados em dias úteis (art. 775 da CLT).",
+      "Errada. A sociedade de economia mista não tem prazo em dobro (Decreto-Lei 779/69), e os prazos são contados em dias úteis (art. 775 da CLT)."
+    ] },
+  { "id": "33-80", "status": "valida",
+    "explicacoes": [
+      "Errada. A recuperação judicial isenta só do depósito recursal (art. 899, § 10, da CLT). As custas continuam devidas, pois a empresa não está entre os isentos do art. 790-A da CLT e não obteve gratuidade; a dispensa da Súmula 86 do TST vale apenas para a massa falida.",
+      "Correta. As empresas em recuperação judicial são isentas do depósito recursal (art. 899, § 10, da CLT), mas devem recolher as custas para recorrer (art. 789, § 1º, da CLT), já que não obtiveram a gratuidade.",
+      "Errada. A recuperação judicial basta para isentar a empresa do depósito recursal (art. 899, § 10, da CLT); não é preciso falência.",
+      "Errada. A redução do depósito recursal pela metade vale para entidades sem fins lucrativos, empregadores domésticos, MEI, ME e EPP (art. 899, § 9º, da CLT). A empresa em recuperação judicial é isenta do depósito, e as custas não são reduzidas."
+    ] },
+  { "id": "32-76", "status": "valida",
+    "explicacoes": [
+      "Errada. Na CLT os embargos à execução exigem garantia da execução ou penhora (art. 884, caput), salvo para entidades filantrópicas (art. 884, § 6º) e entes públicos.",
+      "Correta. O executado pode garantir a execução com depósito, seguro-garantia judicial ou nomeação de bens à penhora (art. 882 da CLT). Garantido o juízo, terá 5 dias para embargar (art. 884 da CLT); o seguro deve ter acréscimo de 30% (OJ 59 da SDI-2 do TST).",
+      "Errada. A nota promissória não é forma de garantia da execução prevista na CLT; o art. 882 admite depósito, seguro-garantia judicial ou bens à penhora.",
+      "Errada. A CLT não admite garantia parcial de 50% para embargar; a garantia deve cobrir a execução (arts. 882 e 884 da CLT)."
+    ] },
+  { "id": "32-77", "status": "valida",
+    "explicacoes": [
+      "Errada. Não existe apelação no processo do trabalho; contra sentença cabe recurso ordinário, em 8 dias (art. 895 da CLT). No caso, porém, a causa é de alçada e a sentença é irrecorrível.",
+      "Correta. Nas causas de valor até 2 salários mínimos, considerado o valor da causa na data do ajuizamento, não cabe recurso, salvo se versarem sobre matéria constitucional (art. 2º, §§ 3º e 4º, da Lei 5.584/70; Súmulas 71 e 356 do TST). A discussão sobre a prova da quitação do 13º não envolve matéria constitucional.",
+      "Errada. O reexame necessário só existe para decisões contrárias a entes públicos (Decreto-Lei 779/69 e Súmula 303 do TST), e não para sociedade empresária privada.",
+      "Errada. Por se tratar de causa de alçada sem matéria constitucional, não cabe recurso ordinário (art. 2º, § 4º, da Lei 5.584/70); o valor fixado na sentença não altera a alçada (Súmula 71 do TST)."
+    ] },
+  { "id": "32-78", "status": "valida",
+    "explicacoes": [
+      "Errada. O TAC firmado perante o MPT não é título judicial, pois não foi homologado em juízo; é título executivo extrajudicial (art. 876 da CLT e art. 5º, § 6º, da Lei 7.347/85).",
+      "Correta. Os termos de ajuste de conduta firmados perante o Ministério Público do Trabalho são títulos executivos extrajudiciais e se executam pela forma da CLT (art. 876 da CLT), perante a Vara do Trabalho (art. 877-A).",
+      "Errada. O inquérito judicial serve para apurar falta grave de empregado estável (art. 853 da CLT) e não para cobrar obrigações do TAC.",
+      "Errada. Como o TAC já é título executivo, não é necessário processo de conhecimento; o caminho próprio é a execução direta (art. 876 da CLT)."
+    ] },
+  { "id": "32-79", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora interlocutória, a decisão do IDPJ na execução é recorrível por agravo de petição (art. 855-A, § 1º, II, da CLT).",
+      "Correta. Da decisão que acolhe o IDPJ na fase de execução cabe agravo de petição, independentemente de garantia do juízo (art. 855-A, § 1º, II, da CLT).",
+      "Errada. A lei não é omissa: o art. 855-A, § 1º, II, da CLT prevê o agravo de petição e dispensa a garantia do juízo.",
+      "Errada. O agravo de petição contra a decisão do IDPJ independe de garantia do juízo (art. 855-A, § 1º, II, da CLT)."
+    ] },
+  { "id": "32-80", "status": "valida",
+    "explicacoes": [
+      "Correta. Causas de até 40 salários mínimos seguem o rito sumaríssimo (art. 852-A da CLT), do qual só se excluem a Administração direta, autárquica e fundacional (parágrafo único), e não a sociedade de economia mista. Nesse rito, cada parte pode levar no máximo 2 testemunhas (art. 852-H, § 2º).",
+      "Errada. O chamado rito sumário (causas de alçada) vale para causas de até 2 salários mínimos (art. 2º, §§ 3º e 4º, da Lei 5.584/70); R$ 17.000,00 se enquadra no sumaríssimo.",
+      "Errada. Não existe rito especial misto, e no sumaríssimo é vedada a citação por edital (art. 852-B, II, da CLT).",
+      "Errada. A exclusão do sumaríssimo abrange só a Administração Pública direta, autárquica e fundacional (art. 852-A, parágrafo único, da CLT); a sociedade de economia mista, pessoa jurídica de direito privado, não está excluída."
+    ] },
+  { "id": "31-75", "status": "valida",
+    "explicacoes": [
+      "Correta. As anotações do empregador na CTPS não geram presunção absoluta, mas apenas relativa, e cedem à prova em contrário (Súmula 12 do TST). Provada a função de doméstico, a CTPS deve ser retificada, e a ação de anotação para fins previdenciários nem sequer prescreve (art. 11, § 1º, da CLT).",
+      "Errada. Qualquer dado anotado na CTPS, inclusive a função, pode ser corrigido judicialmente, pois a presunção é apenas relativa (Súmula 12 do TST e art. 39 da CLT).",
+      "Errada. Não há modulação de efeitos: a retificação reconhece a realidade do contrato desde o início, pelo princípio da primazia da realidade, e não apenas a partir da sentença.",
+      "Errada. A presunção das anotações na CTPS é relativa (juris tantum), e não absoluta (Súmula 12 do TST)."
+    ] }
+]

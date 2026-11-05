@@ -1,0 +1,18 @@
+{
+ "lancados": [
+  "etica-01",
+  "etica-02",
+  "etica-03",
+  "etica-04",
+  "etica-05",
+  "etica-06",
+  "etica-07",
+  "etica-08",
+  "etica-09",
+  "etica-10",
+  "etica-11",
+  "etica-12"
+ ],
+ "integrados": [],
+ "observacao": "Fluxos com oab/tools/producao/producao-lotes.js (esteira redator -> revisor, com retentativa). Proximos na fila: a partir de etica-13 em jobs.json."
+}

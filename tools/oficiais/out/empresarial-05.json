@@ -1,0 +1,267 @@
+[
+  { "id": "13-51", "status": "valida",
+    "explicacoes": [
+      "Errada. O endossante é coobrigado: garante a aceitação e o pagamento do título, salvo cláusula 'sem garantia' (arts. 15 e 77 da LUG, Decreto 57.663/66). A responsabilidade é a regra, não a exceção.",
+      "Correta. A perda ou o extravio involuntário não extingue as obrigações cambiais do emitente e do endossante; o portador desapossado pode obter em juízo novo título e impedir o pagamento a outrem (art. 909 do CC; art. 259, II, do CPC/2015).",
+      "Errada. O desapossamento involuntário não libera os devedores cambiais; apenas autoriza o portador a buscar a recuperação ou a substituição do título (art. 909 do CC).",
+      "Errada. A Lei 5.474/68 (art. 2º) proíbe apenas que o vendedor saque outro título pela importância faturada; nada impede que o comprador emita notas promissórias para pagar o preço, e emitente e endossante respondem por elas."
+    ] },
+  { "id": "13-52", "status": "valida",
+    "explicacoes": [
+      "Correta. A pessoa legalmente impedida que exerce atividade própria de empresário responde pelas obrigações contraídas (art. 973 do CC), que são válidas; sem registro, é empresário irregular e responde ilimitadamente com todo o seu patrimônio.",
+      "Errada. O impedimento do militar da ativa (art. 29 da Lei 6.880/80) não torna nulas as obrigações; o art. 973 do CC manda o impedido responder por elas, protegendo terceiros de boa-fé.",
+      "Errada. As obrigações assumidas no exercício da empresa também são válidas e exigíveis (art. 973 do CC).",
+      "Errada. O empresário individual responde ilimitadamente, sobretudo quando irregular, e as demais obrigações não são anuláveis (art. 973 do CC)."
+    ] },
+  { "id": "12-48", "status": "valida",
+    "explicacoes": [
+      "Errada. A licença compulsória não é outorga de patente: é a licença de patente já concedida, imposta ao titular em casos como abuso de direitos, falta de exploração, dependência ou emergência nacional e interesse público (arts. 68 a 71 da Lei 9.279/96).",
+      "Correta. Cabe licença compulsória quando a comercialização não satisfizer às necessidades do mercado (art. 68, § 1º, II, da Lei 9.279/96).",
+      "Errada. As licenças compulsórias são sempre concedidas sem exclusividade (art. 72 da Lei 9.279/96).",
+      "Errada. Na licença compulsória não se admite o sublicenciamento (art. 72 da Lei 9.279/96)."
+    ] },
+  { "id": "12-49", "status": "valida",
+    "explicacoes": [
+      "Errada. As ações preferenciais podem ter ou não direito de voto (art. 111 da Lei 6.404/76), e a preferência pode consistir em prioridade no dividendo fixo ou mínimo, no reembolso do capital ou em ambas (art. 17).",
+      "Correta. A vantagem pode consistir apenas em prioridade no reembolso do capital, com ou sem prêmio (art. 17, II, da Lei 6.404/76); as exigências adicionais do § 1º do art. 17 só valem para preferenciais sem voto negociadas no mercado de valores mobiliários.",
+      "Errada. Na companhia fechada, a primeira convocação deve ser feita com no mínimo 8 dias de antecedência (art. 124, § 1º, I, da Lei 6.404/76); na aberta, com 21 dias (inciso II, redação da Lei 14.195/21).",
+      "Errada. O conselho de administração é obrigatório nas companhias abertas, nas de capital autorizado (art. 138, § 2º, da Lei 6.404/76) e nas sociedades de economia mista (art. 239), mas não em todas as fechadas."
+    ] },
+  { "id": "12-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A afirmativa é verdadeira: a letra de câmbio à vista vence no dia da apresentação ao sacado (art. 34 da LUG).",
+      "Errada. A afirmativa é verdadeira: a cláusula 'sem despesas' ou 'sem protesto', lançada pelo sacador, dispensa o portador do protesto para exercer seus direitos de ação (art. 46 da LUG).",
+      "Correta. A afirmativa é falsa e deve ser assinalada: a cláusula 'não à ordem' só pode ser inserida pelo sacador (art. 11 da LUG); o endossante pode apenas proibir novo endosso, caso em que não garante o pagamento aos endossatários posteriores (art. 15 da LUG).",
+      "Errada. A afirmativa é verdadeira: na letra pagável à vista ou a certo termo de vista, o sacador pode estipular juros, indicando a taxa (art. 5º da LUG)."
+    ] },
+  { "id": "12-51", "status": "valida",
+    "explicacoes": [
+      "Errada. O administrador judicial é nomeado na decisão que defere o processamento (art. 52, I, da Lei 11.101/05) e deve ser profissional idôneo ou pessoa jurídica especializada (art. 21), não um dos maiores credores.",
+      "Errada. A suspensão das ações e execuções decorre do deferimento do processamento, e não da simples distribuição, pelo prazo de 180 dias, hoje prorrogável uma única vez por igual período (art. 6º, II e § 4º, da Lei 11.101/05, redação da Lei 14.112/20).",
+      "Correta. Desde a distribuição do pedido, o devedor não pode alienar ou onerar bens do ativo permanente (hoje chamado ativo não circulante), salvo autorização do juiz, ouvido o Comitê de Credores, se houver, ressalvados os bens já previstos no plano (art. 66 da Lei 11.101/05, redação da Lei 14.112/20).",
+      "Errada. Na recuperação judicial, o devedor e seus administradores são mantidos na condução da atividade, sob fiscalização do Comitê e do administrador judicial; o afastamento só ocorre nas hipóteses do art. 64 da Lei 11.101/05."
+    ] },
+  { "id": "12-52", "status": "valida",
+    "explicacoes": [
+      "Errada. A sub-rogação do adquirente nos contratos de exploração do estabelecimento é regra supletiva, que vale 'salvo disposição em contrário' (art. 1.148 do CC).",
+      "Correta. O art. 1.148 do CC prevê a sub-rogação do adquirente nos contratos sem caráter pessoal 'salvo disposição em contrário', de modo que as partes podem afastá-la no contrato de trespasse.",
+      "Errada. A rescisão em 90 dias da publicação da transferência é faculdade dos terceiros quando há sub-rogação e justa causa (art. 1.148 do CC); não torna anulável a cláusula que afasta a sub-rogação.",
+      "Errada. A solidariedade do alienante por um ano refere-se aos débitos anteriores regularmente contabilizados (art. 1.146 do CC) e não impede que o contrato afaste a sub-rogação nos contratos (art. 1.148)."
+    ] },
+  { "id": "11-48", "status": "valida",
+    "explicacoes": [
+      "Correta. A autorização de capital deve especificar os casos ou as condições em que os acionistas terão direito de preferência para subscrição ou em que esse direito não existirá (art. 168, § 1º, 'd', c/c art. 172 da Lei 6.404/76).",
+      "Errada. O órgão competente para deliberar sobre as emissões no capital autorizado é a assembleia geral ou o conselho de administração (art. 168, § 1º, 'b', da Lei 6.404/76), nunca a diretoria.",
+      "Errada. Os bônus de subscrição são emitidos dentro do limite do capital autorizado (art. 75), mas as partes beneficiárias não têm relação com o capital social (art. 46) e são vedadas às companhias abertas (art. 47, parágrafo único, da Lei 6.404/76).",
+      "Errada. Qualquer companhia, aberta ou fechada, pode adotar capital autorizado (art. 168 da Lei 6.404/76); nesse caso, o conselho de administração é obrigatório (art. 138, § 2º)."
+    ] },
+  { "id": "11-49", "status": "valida",
+    "explicacoes": [
+      "Errada. Na cooperativa, o capital social é variável e pode até ser dispensado (art. 1.094, I, do CC).",
+      "Errada. Na omissão da legislação especial, aplicam-se às cooperativas as normas da sociedade simples, e não as da sociedade anônima (art. 1.096 do CC).",
+      "Errada. A responsabilidade dos sócios da cooperativa pode ser limitada ou ilimitada, conforme o estatuto (art. 1.095 do CC).",
+      "Correta. É característica da cooperativa a intransferibilidade das quotas do capital a terceiros estranhos à sociedade, ainda que por herança (art. 1.094, IV, do CC)."
+    ] },
+  { "id": "11-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A informação está correta: o empresário individual que admitir sócios pode pedir a transformação do seu registro em registro de sociedade empresária (art. 968, § 3º, do CC).",
+      "Correta. A informação está errada e deve ser assinalada: para o MEI, a lei permite dispensar o uso da firma com assinatura autógrafa, em trâmite especial e simplificado (art. 968, §§ 4º e 5º, do CC; art. 4º, § 1º, I, da LC 123/06). A receita prevista cabe no limite do MEI, hoje de R$ 81 mil anuais (art. 18-A, § 1º, da LC 123/06).",
+      "Errada. A informação está correta: a inscrição é obrigatória antes do início da atividade (art. 967 do CC), mas tem natureza declaratória, e não constitutiva, da condição de empresário (Enunciado 199 da III Jornada de Direito Civil); só o empresário regular usufrui de prerrogativas como a recuperação judicial.",
+      "Errada. A informação está correta: a inscrição obedece a número de ordem contínuo para todos os empresários inscritos, e as modificações são averbadas à margem, com as mesmas formalidades (art. 968, §§ 1º e 2º, do CC)."
+    ] },
+  { "id": "11-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A alienação de bens do ativo não previstos no plano não leva à falência: pode ser autorizada pelo juiz, ouvido o Comitê de Credores (art. 66 da Lei 11.101/05).",
+      "Errada. Não é prerrogativa do administrador judicial: a alienação depende de autorização judicial, ouvido o Comitê de Credores, se houver (art. 66 da Lei 11.101/05).",
+      "Correta. A sociedade que tenha sócio com mais de 10% do capital do devedor pode participar da assembleia, mas sem direito a voto, e não é considerada para o quórum de instalação e de deliberação (art. 43 da Lei 11.101/05).",
+      "Errada. A credora podia participar da assembleia; apenas não tinha direito a voto nem contava para os quóruns (art. 43 da Lei 11.101/05)."
+    ] },
+  { "id": "11-52", "status": "valida",
+    "explicacoes": [
+      "Correta. A afirmativa é falsa e deve ser assinalada: para executar o endossante, basta que a recusa de pagamento seja comprovada pelo protesto ou pela declaração do sacado, escrita e datada no cheque, ou da câmara de compensação (art. 47, II, da Lei 7.357/85); o protesto não é indispensável.",
+      "Errada. A afirmativa é verdadeira: o emitente pode sustar o pagamento, mesmo durante o prazo de apresentação, por oposição escrita fundada em relevante razão de direito (art. 36 da Lei 7.357/85).",
+      "Errada. A afirmativa é verdadeira: o prazo de apresentação é de 30 dias da emissão quando o cheque é da mesma praça, e de 60 dias quando de praça diversa (art. 33 da Lei 7.357/85).",
+      "Errada. A afirmativa é verdadeira: a execução do cheque prescreve em 6 meses contados da expiração do prazo de apresentação (art. 59 da Lei 7.357/85)."
+    ] },
+  { "id": "10-48", "status": "desatualizada",
+    "motivo": "A Lei 14.195/21 alterou o art. 15, § 1º, e incluiu os arts. 16-A e 110-A na Lei 6.404/76: a companhia aberta pode ter mais de uma classe de ações ordinárias quando adota voto plural. Assim, a alternativa D, antes errada por contrariar o art. 15, § 1º, tornou-se defensável, e a questão deixou de ter uma única resposta correta." },
+  { "id": "10-49", "status": "valida",
+    "explicacoes": [
+      "Correta. Na recuperação judicial, cabe ao Comitê de Credores fiscalizar a execução do plano (art. 27, II, 'b', da Lei 11.101/05).",
+      "Errada. Fornecer, com presteza, as informações pedidas pelos credores interessados é dever do administrador judicial (art. 22, I, 'b', da Lei 11.101/05).",
+      "Errada. Consolidar o quadro-geral de credores e providenciar sua publicação é atribuição do administrador judicial (art. 22, I, 'f', da Lei 11.101/05).",
+      "Errada. A alternativa reproduz atribuição do administrador judicial: apresentar ao juiz, para juntada aos autos, relatório mensal das atividades do devedor (art. 22, II, 'c', da Lei 11.101/05). Ao Comitê cabe fiscalizar a administração das atividades do devedor (art. 27, II, 'a')."
+    ] },
+  { "id": "10-50", "status": "valida",
+    "explicacoes": [
+      "Errada. O trespasse só produz efeitos perante terceiros depois de averbado no registro da empresa e publicado na imprensa oficial (art. 1.144 do CC).",
+      "Errada. O adquirente responde pelos débitos anteriores regularmente contabilizados, e o alienante continua solidário por um ano (art. 1.146 do CC); a alternativa inverte a regra.",
+      "Errada. No silêncio do contrato, o alienante não pode fazer concorrência ao adquirente nos cinco anos seguintes à transferência (art. 1.147 do CC).",
+      "Correta. Sem autorização expressa, o alienante não pode fazer concorrência ao adquirente nos cinco anos subsequentes à transferência (art. 1.147 do CC)."
+    ] },
+  { "id": "10-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A contraordem (revogação) é ato extrajudicial privativo do emitente e só produz efeito depois de expirado o prazo de apresentação (art. 35 da Lei 7.357/85); o tomador vítima de furto usa a sustação.",
+      "Errada. A sustação (oposição) não depende de prova de fundos; exige apenas manifestação escrita fundada em relevante razão de direito, cuja relevância o sacado não julga (art. 36, caput e § 2º, da Lei 7.357/85).",
+      "Errada. A sustação é extrajudicial e produz efeito inclusive durante o prazo de apresentação (art. 36 da Lei 7.357/85).",
+      "Correta. O emitente e o portador legitimado podem sustar o pagamento por aviso escrito ao sacado, mesmo durante o prazo de apresentação, com base em relevante razão de direito, como o furto do título (art. 36 da Lei 7.357/85)."
+    ] },
+  { "id": "10-52", "status": "valida",
+    "explicacoes": [
+      "Errada. Em shopping center, o locador não pode recusar a renovação alegando que utilizará o imóvel (art. 52, § 2º, c/c art. 52, II, da Lei 8.245/91).",
+      "Errada. As despesas cobradas do lojista devem estar previstas em orçamento, salvo casos de urgência ou força maior devidamente demonstrados (art. 54, § 2º, da Lei 8.245/91).",
+      "Errada. O empreendedor não pode cobrar do locatário despesas com obras de reforma ou acréscimos que interessem à estrutura integral do imóvel (art. 54, § 1º, 'a', c/c art. 22, parágrafo único, 'a', da Lei 8.245/91).",
+      "Correta. Nas relações entre lojistas e empreendedores de shopping center prevalecem as condições livremente pactuadas nos contratos de locação e as disposições procedimentais da Lei do Inquilinato (art. 54 da Lei 8.245/91)."
+    ] },
+  { "id": "09-48", "status": "valida",
+    "explicacoes": [
+      "Correta. Subsidiária integral é a companhia que tem como único acionista uma sociedade brasileira (art. 251 da Lei 6.404/76).",
+      "Errada. A sociedade em conta de participação não tem personalidade jurídica nem capital dividido em ações; a atividade é exercida pelo sócio ostensivo (arts. 991 e 993 do CC).",
+      "Errada. A sociedade limitada tem capital dividido em quotas, e não em ações (art. 1.055 do CC), e não é companhia, ainda que possa ser unipessoal (art. 1.052, § 1º).",
+      "Errada. A sociedade de propósito específico se define pelo objeto restrito a um empreendimento determinado e pode adotar diversos tipos societários; não se caracteriza pela titularidade de suas ações."
+    ] },
+  { "id": "09-49", "status": "valida",
+    "explicacoes": [
+      "Errada. A afirmativa é verdadeira: no momento da constituição, o patrimônio da sociedade corresponde ao capital social formado pelas contribuições dos sócios; depois, varia conforme os resultados da atividade.",
+      "Correta. A afirmativa é falsa e deve ser assinalada: na sociedade limitada é vedada contribuição que consista em prestação de serviços (art. 1.055, § 2º, do CC).",
+      "Errada. A afirmativa é verdadeira: a distribuição de lucros ilícitos ou fictícios acarreta responsabilidade solidária dos administradores que a realizarem e dos sócios que os receberem, conhecendo ou devendo conhecer sua ilegitimidade (art. 1.009 do CC).",
+      "Errada. A afirmativa é verdadeira: sócio remisso é o que não integraliza sua quota no prazo, e os demais sócios podem excluí-lo (arts. 1.004, parágrafo único, e 1.058 do CC)."
+    ] },
+  { "id": "09-50", "status": "valida",
+    "explicacoes": [
+      "Errada. O endosso posterior ao protesto por falta de pagamento produz apenas os efeitos de cessão ordinária de créditos (art. 20 da LUG), sem ação cambiária contra o endossante.",
+      "Errada. A cláusula 'não à ordem' impede a transferência por endosso, mas o cheque continua transmissível pela forma e com os efeitos de cessão de crédito (art. 17, § 1º, da Lei 7.357/85).",
+      "Errada. É nulo o endosso parcial ou o endosso do sacado (art. 18, § 1º, da Lei 7.357/85).",
+      "Correta. A remessa da duplicata para aceite pode ser feita diretamente pelo vendedor ou por meio de instituições financeiras, procuradores ou correspondentes (art. 6º da Lei 5.474/68)."
+    ] },
+  { "id": "09-51", "status": "valida",
+    "explicacoes": [
+      "Errada. As restituições em dinheiro só são pagas depois das despesas e dos créditos trabalhistas salariais dos arts. 150 e 151 (art. 86, parágrafo único, e art. 84, I-A e I-C, da Lei 11.101/05, redação da Lei 14.112/20).",
+      "Errada. O crédito com garantia real prefere ao tributário apenas até o limite do valor do bem gravado (art. 83, II, da Lei 11.101/05); o excedente é quirografário.",
+      "Correta. As remunerações do administrador judicial e de seus auxiliares são créditos extraconcursais, pagos com precedência sobre os créditos concursais do art. 83 (art. 84, I-D, da Lei 11.101/05, redação da Lei 14.112/20).",
+      "Errada. Na convolação, consideram-se habilitados os créditos remanescentes da recuperação definitivamente incluídos no quadro-geral de credores, prosseguindo as habilitações em curso (art. 80 da Lei 11.101/05)."
+    ] },
+  { "id": "09-52", "status": "valida",
+    "explicacoes": [
+      "Correta. No arrendamento mercantil, ainda que haja cláusula resolutiva expressa, é necessária a notificação prévia do arrendatário para constituí-lo em mora (Súmula 369 do STJ); sem ela, falta pressuposto para a reintegração de posse.",
+      "Errada. Não há vedação à cláusula resolutiva expressa no leasing entre empresas; ela é admitida, mas não dispensa a notificação prévia do arrendatário (Súmula 369 do STJ).",
+      "Errada. A via própria para a arrendadora retomar o bem é a reintegração de posse, pois o inadimplemento, após a constituição em mora, torna injusta a posse do arrendatário; não cabe ação de depósito.",
+      "Errada. A arrendadora é proprietária e possuidora indireta do bem, e a opção de compra do arrendatário não impede a ação possessória; a reintegração de posse é a via adequada após a constituição em mora."
+    ] },
+  { "id": "08-48", "status": "valida",
+    "explicacoes": [
+      "Errada. O cheque é emitido contra banco ou instituição financeira a ele equiparada (art. 3º da Lei 7.357/85), e não contra qualquer pessoa jurídica.",
+      "Correta. O portador não pode recusar pagamento parcial; o sacado pode exigir que o pagamento conste do cheque e que o portador dê quitação (art. 38, parágrafo único, da Lei 7.357/85).",
+      "Errada. O cheque é ordem de pagamento à vista, e qualquer menção em contrário considera-se não escrita (art. 32 da Lei 7.357/85).",
+      "Errada. A execução do cheque prescreve em 6 meses contados da expiração do prazo de apresentação (art. 59 da Lei 7.357/85)."
+    ] },
+  { "id": "08-49", "status": "valida",
+    "explicacoes": [
+      "Errada. Sócio oculto é o participante; o ostensivo é o que aparece perante terceiros e se obriga em nome próprio (art. 991 do CC).",
+      "Correta. A atividade constitutiva do objeto social é exercida unicamente pelo sócio ostensivo, em seu nome individual e sob sua própria e exclusiva responsabilidade (art. 991 do CC).",
+      "Errada. Salvo estipulação em contrário, o sócio ostensivo não pode admitir novo sócio sem o consentimento expresso dos demais (art. 995 do CC).",
+      "Errada. Admite-se a pluralidade de sócios ostensivos, tanto que o art. 996, parágrafo único, do CC trata da hipótese de haver mais de um."
+    ] },
+  { "id": "08-50", "status": "valida",
+    "explicacoes": [
+      "Correta. Fora dos casos dos §§ 1º e 2º do art. 59 da Lei 6.404/76, a assembleia geral pode delegar ao conselho de administração a deliberação sobre a oportunidade da emissão e sobre as condições dos incisos VI a VIII, entre elas a época e as condições de vencimento (art. 59, § 4º).",
+      "Errada. A lei permite expressamente essa delegação ao conselho de administração na companhia aberta (art. 59, § 4º, da Lei 6.404/76).",
+      "Errada. A emissão de debêntures conversíveis não depende de assembleia especial dos preferencialistas; os acionistas têm direito de preferência para subscrevê-las (art. 57, § 1º, da Lei 6.404/76).",
+      "Errada. Os acionistas são protegidos da diluição pelo direito de preferência na subscrição das debêntures conversíveis (art. 57, § 1º, e art. 171, § 3º, da Lei 6.404/76), e a deliberação é eficaz perante todos."
+    ] },
+  { "id": "08-51", "status": "valida",
+    "explicacoes": [
+      "Errada. O juiz também concede a recuperação quando o plano não sofre objeção de credor (art. 58, caput, da Lei 11.101/05) e pode concedê-la mesmo com rejeição na assembleia, pelo cram down do art. 58, § 1º.",
+      "Errada. Após o deferimento do processamento, o devedor só pode desistir do pedido com aprovação da assembleia geral de credores (art. 52, § 4º, da Lei 11.101/05).",
+      "Correta. O plano deve ser apresentado no prazo improrrogável de 60 dias da publicação da decisão que defere o processamento, sob pena de convolação em falência (arts. 53 e 73, II, da Lei 11.101/05).",
+      "Errada. O plano pode ser alterado na assembleia, com concordância expressa do devedor e sem diminuir direitos exclusivamente dos credores ausentes (art. 56, § 3º, da Lei 11.101/05); hoje os credores podem até apresentar plano alternativo (art. 56, §§ 4º a 7º)."
+    ] },
+  { "id": "08-52", "status": "desatualizada",
+    "motivo": "A questão trata da administração da EIRELI. A Lei 14.195/21 (art. 41) transformou as EIRELIs existentes em sociedades limitadas unipessoais e a Lei 14.382/22 revogou o art. 980-A do Código Civil; a figura deixou de existir e a questão perdeu o objeto." },
+  { "id": "07-48", "status": "valida",
+    "explicacoes": [
+      "Correta. A afirmativa é falsa e deve ser assinalada: a sociedade em conta de participação é sociedade não personificada, e a eventual inscrição do seu contrato em registro não lhe confere personalidade jurídica (art. 993 do CC).",
+      "Errada. A afirmativa é verdadeira: a atividade constitutiva do objeto social é exercida unicamente pelo sócio ostensivo (art. 991 do CC).",
+      "Errada. A afirmativa é verdadeira: o contrato social produz efeito somente entre os sócios (art. 993 do CC).",
+      "Errada. A afirmativa é verdadeira: a contribuição do sócio participante constitui, com a do sócio ostensivo, patrimônio especial objeto da conta de participação (art. 994 do CC)."
+    ] },
+  { "id": "07-49", "status": "valida",
+    "explicacoes": [
+      "Errada. O avalista do emitente responde da mesma maneira que o avalizado, devedor principal, e pode ser cobrado sem protesto; o protesto só é necessário contra os endossantes e seus avalistas (arts. 32 e 53 da LUG).",
+      "Errada. O aval gera obrigação autônoma e solidária, sem benefício de ordem: o credor pode cobrar diretamente o avalista (art. 32 da LUG; art. 899 do CC).",
+      "Errada. O aval deve ser lançado no próprio título, no verso ou no anverso, ou em folha a ele anexada (art. 31 da LUG; art. 898 do CC); não vale em documento separado.",
+      "Correta. A obrigação do avalista subsiste ainda que nula a obrigação garantida, salvo se a nulidade decorrer de vício de forma (art. 32 da LUG; art. 899, § 2º, do CC)."
+    ] },
+  { "id": "07-50", "status": "valida",
+    "explicacoes": [
+      "Errada. A marca de alto renome (art. 125 da Lei 9.279/96) tem proteção em todos os ramos de atividade; a notoriamente conhecida (art. 126) é protegida no seu ramo, ainda que não registrada no Brasil.",
+      "Errada. O registro da marca vigora por 10 anos, prorrogáveis por períodos iguais e sucessivos (art. 133 da Lei 9.279/96).",
+      "Correta. O pedido de registro e o registro de marca podem ser cedidos, desde que o cessionário atenda aos requisitos legais para requerer tal registro (art. 134 da Lei 9.279/96).",
+      "Errada. A marca que identifica produtos ou serviços de membros de determinada entidade é a marca coletiva (art. 123, III, da Lei 9.279/96); a de produto ou serviço os distingue de outros idênticos, semelhantes ou afins de origem diversa (art. 123, I)."
+    ] },
+  { "id": "07-51", "status": "desatualizada",
+    "motivo": "A Lei 13.129/15 incluiu o art. 136-A na Lei 6.404/76, que assegura ao acionista dissidente o direito de retirada quando a convenção de arbitragem é inserida no estatuto (ressalvadas as hipóteses do § 2º). A alternativa C, considerada errada em 2012, passou a ser correta, e a questão ficou com duas respostas (C e D)." },
+  { "id": "07-52", "status": "valida",
+    "explicacoes": [
+      "Errada. Multas por infração administrativa são créditos concursais, classificados como subquirografários (art. 83, VII, da Lei 11.101/05).",
+      "Correta. As custas judiciais relativas às ações e execuções em que a massa falida tenha sido vencida são créditos extraconcursais (art. 84, IV, da Lei 11.101/05).",
+      "Errada. Créditos quirografários sujeitos à recuperação continuam concursais; hoje o plano apenas pode dar tratamento diferenciado aos fornecedores que continuaram a fornecer (art. 67, parágrafo único, da Lei 11.101/05, redação da Lei 14.112/20). Extraconcursais são as obrigações contraídas durante a recuperação (art. 84, I-E).",
+      "Errada. O saldo dos créditos não coberto pelo produto da alienação dos bens vinculados ao seu pagamento é crédito quirografário, portanto concursal (art. 83, VI, 'b', da Lei 11.101/05)."
+    ] },
+  { "id": "06-48", "status": "valida",
+    "explicacoes": [
+      "Errada. Nas omissões do seu capítulo, a limitada rege-se pelas normas da sociedade simples; a Lei 6.404/76 só se aplica supletivamente se o contrato social assim previr (art. 1.053 do CC).",
+      "Errada. Na omissão do contrato, o sócio pode ceder quotas a quem já seja sócio independentemente da audiência dos demais (art. 1.057 do CC); além disso, a limitada tem contrato social, e não estatuto.",
+      "Correta. A sociedade limitada é administrada por uma ou mais pessoas designadas no contrato social ou em ato separado (art. 1.060 do CC).",
+      "Errada. A designação e a destituição dos administradores dependem de deliberação dos sócios (art. 1.071, II e III, do CC)."
+    ] },
+  { "id": "06-49", "status": "valida",
+    "explicacoes": [
+      "Errada. Programas de computador em si não são considerados invenção nem modelo de utilidade (art. 10, V, da Lei 9.279/96).",
+      "Errada. Técnicas e métodos operatórios ou cirúrgicos não são considerados invenção nem modelo de utilidade (art. 10, VIII, da Lei 9.279/96).",
+      "Errada. A invenção exige novidade, atividade inventiva e aplicação industrial (art. 8º da Lei 9.279/96); o modelo de utilidade exige novidade, ato inventivo e aplicação industrial (art. 9º).",
+      "Correta. A invenção e o modelo de utilidade são considerados novos quando não compreendidos no estado da técnica (art. 11 da Lei 9.279/96)."
+    ] },
+  { "id": "06-50", "status": "valida",
+    "explicacoes": [
+      "Errada. O aceite da duplicata é obrigatório: o sacado só pode recusá-lo pelos motivos do art. 8º da Lei 5.474/68 (avaria ou não recebimento das mercadorias, vícios, divergências de prazo ou de preço).",
+      "Errada. A execução da duplicata não aceita exige protesto, comprovante de entrega e recebimento da mercadoria e ausência de recusa legítima do aceite (art. 15, II, da Lei 5.474/68).",
+      "Errada. O cheque não admite aceite, e qualquer declaração nesse sentido considera-se não escrita (art. 6º da Lei 7.357/85).",
+      "Correta. Ao aceitar a letra de câmbio, o sacado se obriga a pagá-la no vencimento e torna-se o devedor principal (direto) do título (art. 28 da LUG)."
+    ] },
+  { "id": "06-52", "status": "valida",
+    "explicacoes": [
+      "Correta. As debêntures da mesma série terão igual valor nominal e conferirão a seus titulares os mesmos direitos (art. 53, parágrafo único, da Lei 6.404/76).",
+      "Errada. O valor nominal é expresso em moeda nacional, salvo nos casos em que a legislação admite pagamento em moeda estrangeira (art. 54 da Lei 6.404/76).",
+      "Errada. A debênture é valor mobiliário (art. 2º, I, da Lei 6.385/76; art. 52 da Lei 6.404/76).",
+      "Errada. A companhia pode estipular amortizações parciais de cada série, criar fundos de amortização e reservar-se o direito de resgate antecipado (art. 55 da Lei 6.404/76)."
+    ] },
+  { "id": "05-48", "status": "valida",
+    "explicacoes": [
+      "Errada. Além dos administradores, a assembleia pode ser convocada por sócio, quando os administradores retardarem a convocação por mais de 60 dias, por titulares de mais de um quinto do capital e pelo conselho fiscal (art. 1.073 do CC).",
+      "Correta. Dispensam-se as formalidades de convocação quando todos os sócios comparecerem ou se declararem, por escrito, cientes do local, data, hora e ordem do dia (art. 1.072, § 2º, do CC).",
+      "Errada. A deliberação em assembleia é obrigatória se o número de sócios for superior a dez (art. 1.072, § 1º, do CC).",
+      "Errada. As deliberações tomadas de acordo com a lei e o contrato vinculam todos os sócios, ainda que ausentes ou dissidentes (art. 1.072, § 5º, do CC)."
+    ] },
+  { "id": "05-49", "status": "valida",
+    "explicacoes": [
+      "Correta. Valores mobiliários conferem ao titular direitos perante a emissora; são exemplos as ações, as debêntures, os bônus de subscrição e os certificados de depósito de valores mobiliários (art. 2º, I e III, da Lei 6.385/76).",
+      "Errada. A negociação no mercado de valores mobiliários depende de registro na Comissão de Valores Mobiliários (art. 4º, § 1º, da Lei 6.404/76), e não de autorização da Junta Comercial.",
+      "Errada. As ações de companhia aberta também podem ser negociadas fora da bolsa e do balcão, em operações privadas; não há obrigação de negociar sempre por oferta ao público.",
+      "Errada. É vedado às companhias abertas emitir partes beneficiárias (art. 47, parágrafo único, da Lei 6.404/76)."
+    ] },
+  { "id": "05-50", "status": "valida",
+    "explicacoes": [
+      "Correta. Quem é legalmente impedido e exerce atividade própria de empresário responde pelas obrigações contraídas (art. 973 do CC) e, como empresário de fato, pode ter a falência decretada (art. 1º da Lei 11.101/05).",
+      "Errada. O impedido pode ser sócio, cotista ou acionista de sociedade empresária, desde que não a administre nem assuma responsabilidade ilimitada; o impedimento atinge o exercício pessoal da empresa.",
+      "Errada. Incapacidade e impedimento são institutos distintos; além disso, o incapaz pode continuar a empresa, por meio de representante ou assistente e com autorização judicial (art. 974 do CC).",
+      "Errada. A recuperação judicial exige exercício regular da atividade há mais de dois anos (art. 48 da Lei 11.101/05), requisito que o impedido não preenche."
+    ] },
+  { "id": "05-51", "status": "valida",
+    "explicacoes": [
+      "Errada. Na sociedade em comum, os sócios respondem solidária e ilimitadamente pelas obrigações sociais, excluído do benefício de ordem aquele que contratou pela sociedade (art. 990 do CC).",
+      "Errada. A sociedade em comum rege-se pelos arts. 986 a 990 do CC; as normas da sociedade simples aplicam-se apenas subsidiariamente, no que forem compatíveis (art. 986).",
+      "Errada. Nas relações entre si ou com terceiros, os sócios só podem provar a existência da sociedade por escrito; os terceiros é que podem prová-la de qualquer modo (art. 987 do CC).",
+      "Correta. Os bens e dívidas sociais constituem patrimônio especial, do qual os sócios são titulares em comum (art. 988 do CC)."
+    ] }
+]

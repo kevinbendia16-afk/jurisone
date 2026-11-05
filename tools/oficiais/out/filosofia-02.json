@@ -1,0 +1,254 @@
+[
+  { "id": "27-9", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Arendt, a perda de direitos específicos (como a liberdade ou a justiça) ainda pressupõe pertencer a uma comunidade política. O que destrói a dignidade é perder o próprio lugar no mundo, isto é, o “direito a ter direitos”.",
+      "Errada. A tirania que restringe crença e expressão viola direitos dos cidadãos, mas não lhes retira a condição de membros de uma comunidade. Arendt aponta que a calamidade dos apátridas é mais profunda que essa opressão.",
+      "Errada. O preso em condições desumanas sofre violação de direitos, mas continua inserido em uma ordem jurídica. Arendt chega a observar que o apátrida melhora sua situação jurídica ao cometer um crime, pois passa a ser alcançado pela lei.",
+      "Correta. Em As Origens do Totalitarismo, Arendt afirma que o homem perde sua qualidade essencial e sua dignidade quando deixa de pertencer a uma comunidade organizada, disposta e capaz de garantir quaisquer direitos. Daí o “direito a ter direitos”, ou seja, o direito de pertencer a uma comunidade política."
+    ] },
+  { "id": "27-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Rousseau, as desigualdades morais não derivam das naturais: decorrem de convenção, sobretudo da propriedade privada e da vida em sociedade. Ele considera descabido perguntar se uma é a fonte da outra.",
+      "Errada. No Discurso, a desigualdade natural não é o problema a ser eliminado nem o motivo da sociedade civil. Esta nasce da propriedade privada (“o primeiro que, tendo cercado um terreno...”) e acaba consolidando a desigualdade moral.",
+      "Correta. Rousseau trata a desigualdade natural como dado da natureza (idade, saúde, força), ao passo que a desigualdade moral ou política, fruto de convenção, consiste nos privilégios de que alguns gozam em prejuízo dos outros (ser mais ricos, mais honrados, mais poderosos) e é por ele criticada.",
+      "Errada. Rousseau não vê a desigualdade como motor do progresso a ser tolerado. Ao contrário, critica o chamado progresso civilizatório por ter gerado e aprofundado as desigualdades convencionais."
+    ] },
+  { "id": "26-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A ideia do Direito como produto do espírito do povo (Volksgeist), transmitido historicamente, é da Escola Histórica de Savigny, à qual Ihering se contrapõe ao enfatizar a luta.",
+      "Correta. Em A Luta pelo Direito, Ihering sustenta que o Direito nasce e se mantém pela luta de pessoas e grupos por seus direitos subjetivos. Por isso é uma força viva, e não mera ideia, e defender o próprio direito é um dever do titular para consigo e para com a sociedade.",
+      "Errada. Ihering não restringe o Direito à ação institucional do Estado ou ao parlamento. A luta pelo Direito é travada também pelos indivíduos, na defesa cotidiana de seus direitos subjetivos.",
+      "Errada. A visão do Direito como instrumento de dominação ligado à luta de classes é marxista, e não de Ihering. Além disso, no marxismo o Direito integra a superestrutura, não a infraestrutura."
+    ] },
+  { "id": "26-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Dworkin não atribui a justiça do ordenamento apenas ao legislador. O caso Riggs v. Palmer mostra que os juízes, ao aplicarem princípios, também concretizam a integridade e a justiça do Direito.",
+      "Errada. Dworkin não vê ativismo ilegítimo na decisão por princípios. Para ele, os princípios fazem parte do Direito, e decidir com base neles é aplicar o Direito, não violá-lo.",
+      "Errada. Dworkin distingue regras (aplicadas no modo tudo ou nada) e princípios (dotados de dimensão de peso), e não os trata como equivalentes nem de livre aplicação.",
+      "Correta. Em Levando os Direitos a Sério, Dworkin critica o positivismo de Hart ao mostrar que regras e princípios são normas logicamente distintas, ambas vinculantes. Em casos difíceis, como Riggs v. Palmer, os princípios justificam de forma mais razoável a decisão."
+    ] },
+  { "id": "25-9", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Bobbio, a heterointegração recorre a ordenamentos diversos (como o direito natural) ou a fontes diversas da dominante (costume, jurisprudência, doutrina). A autointegração se vale do próprio ordenamento e da mesma fonte, sobretudo pela analogia e pelos princípios gerais do direito.",
+      "Errada. Para Bobbio, os princípios gerais do direito são instrumento de autointegração, pois são extraídos do próprio ordenamento. E a autointegração não se faz pelas convicções pessoais do intérprete.",
+      "Errada. A jurisprudência é apenas uma das fontes da heterointegração, e a autointegração se dá por analogia e princípios gerais do direito, não por interpretação extensiva, que Bobbio distingue da analogia.",
+      "Errada. Bobbio não define a heterointegração pelos tratados internacionais nem a autointegração pela jurisprudência. A jurisprudência, ao contrário, é exemplo de fonte usada na heterointegração."
+    ] },
+  { "id": "25-10", "status": "valida",
+    "explicacoes": [
+      "Errada. A falta de clareza da lei não figura entre os quatro casos de Bentham: punição sem fundamento, ineficaz, demasiado onerosa ou desnecessária.",
+      "Correta. Para Bentham, não se deve punir quando a punição é onerosa demais, isto é, quando o mal que ela produz é maior do que o mal que se quer evitar. Os demais casos são a punição sem fundamento, a ineficaz e a desnecessária.",
+      "Errada. Os casos de Bentham são critérios objetivos de utilidade e não dependem de um juízo de oportunidade do juiz da causa.",
+      "Errada. O sofrimento do acusado com o processo não está entre os quatro casos de Bentham (punição sem fundamento, ineficaz, demasiado onerosa ou desnecessária)."
+    ] },
+  { "id": "24-9", "status": "valida",
+    "explicacoes": [
+      "Errada. O direito de resistência em Locke não é uma capacidade moral de suportar humilhações, mas o direito do povo de se opor ao governo que trai a confiança nele depositada.",
+      "Correta. No Segundo Tratado, Locke afirma que, quando os governantes tentam tirar e destruir a propriedade do povo (vida, liberdade e bens) ou reduzi-lo à escravidão, o governo se dissolve e o povo pode resistir, retomando o poder.",
+      "Errada. Para Locke, o direito de resistência pertence ao povo contra os governantes que violam o pacto, e não aos governantes contra o povo. O contrato não confere aos governantes poder ilimitado.",
+      "Errada. A alternativa descreve a separação entre direito positivo, moral e política, ideia ligada ao positivismo jurídico (como em Kelsen), e não ao direito de resistência do jusnaturalista Locke."
+    ] },
+  { "id": "24-10", "status": "valida",
+    "explicacoes": [
+      "Errada. Montesquieu associa a liberdade política ao governo das leis, e não ao governo dos homens. Ela depende da separação dos poderes e da segurança proporcionada pela lei.",
+      "Errada. A liberdade interior da alma é concepção moral ou filosófica, e não a definição de liberdade política dada por Montesquieu em Do Espírito das Leis.",
+      "Correta. Em Do Espírito das Leis (Livro XI, cap. III), Montesquieu define a liberdade como “o direito de fazer tudo o que as leis permitem”, pois, se um cidadão pudesse fazer o que elas proíbem, os demais também poderiam, e não haveria liberdade.",
+      "Errada. O direito de resistência aos governos injustos é tema associado a Locke, e não à definição de liberdade de Montesquieu na obra citada."
+    ] },
+  { "id": "23-9", "status": "valida",
+    "explicacoes": [
+      "Errada. A soma das vontades particulares é o que Rousseau chama de vontade de todos, que visa ao interesse privado e se distingue da vontade geral.",
+      "Errada. Rousseau distingue expressamente a vontade de todos (soma de vontades particulares, voltada ao interesse privado) da vontade geral, que considera apenas o interesse comum.",
+      "Errada. Em Rousseau, o soberano é o próprio povo, e a vontade geral volta-se sempre ao bem comum, nunca ao interesse particular de alguém.",
+      "Correta. Para Rousseau, a vontade geral visa ao interesse comum: retirados das vontades particulares os excessos que se anulam mutuamente, resta como soma das diferenças a vontade geral, que é o que há de comum entre os interesses."
+    ] },
+  { "id": "23-10", "status": "valida",
+    "explicacoes": [
+      "Correta. Em A Virtude Soberana, Dworkin defende a igualdade de recursos: as pessoas devem ser iguais nos recursos de que dispõem, e não no bem-estar, que depende das escolhas e ambições de cada um.",
+      "Errada. A igualdade de bem-estar é justamente a concepção que Dworkin critica e rejeita, por ignorar a responsabilidade de cada um por suas escolhas e preferências.",
+      "Errada. A igual partilha de poderes políticos e direitos individuais refere-se à igualdade política, e não à igualdade distributiva de recursos defendida por Dworkin.",
+      "Errada. A maximização do bem-estar agregado é a proposta utilitarista, que Dworkin critica por não tratar cada pessoa com igual consideração e respeito."
+    ] },
+  { "id": "22-11", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Bobbio, há antinomia quando duas normas incompatíveis pertencem ao mesmo ordenamento e têm o mesmo âmbito de validade (temporal, espacial, pessoal e material).",
+      "Errada. Não se exige que as normas provenham da mesma autoridade; o critério hierárquico resolve justamente conflitos entre normas de autoridades diferentes. E, para colidirem, as normas precisam incidir sobre a mesma matéria.",
+      "Errada. A divergência entre decisões de instâncias diferentes não é antinomia; a reforma de uma decisão por recurso é parte do sistema, e não conflito entre normas do ordenamento.",
+      "Errada. A alternativa confunde antinomia (normas incompatíveis entre si) com lacuna (falta de norma), cuja integração se faz por analogia, costumes e princípios gerais."
+    ] },
+  { "id": "22-12", "status": "valida",
+    "explicacoes": [
+      "Errada. O positivismo brando de Hart não reconhece a primazia do direito natural; admite apenas que a regra de reconhecimento, como fato social, possa incorporar critérios morais.",
+      "Errada. A equiparação entre jurisprudência e lei como fontes do direito não é o que Hart chama de positivismo brando, tese que trata dos critérios de validade da regra de reconhecimento.",
+      "Errada. O positivismo brando não tem relação com o grau de rigor das ciências sociais; é uma tese sobre a possibilidade de critérios morais integrarem a regra de reconhecimento.",
+      "Correta. No pós-escrito de O Conceito de Direito, Hart admite que a regra de reconhecimento possa incorporar, como critério de validade jurídica, a conformidade com princípios morais ou valores substantivos, em resposta às críticas de Dworkin."
+    ] },
+  { "id": "21-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A fórmula de tratar igualmente os iguais e desigualmente os desiguais é associada a Aristóteles (justiça distributiva), e não à lei de natureza de Hobbes.",
+      "Errada. “Dar a cada um o que é seu” (suum cuique tribuere) é a definição clássica de justiça atribuída a Ulpiano, e não a lei de natureza indicada por Hobbes no Leviatã.",
+      "Correta. No Leviatã (cap. XV), a terceira lei de natureza determina que os homens cumpram os pactos que celebrarem; nela está a fonte e a origem da justiça, pois a injustiça é o descumprimento do pacto.",
+      "Errada. “Fazer o bem e evitar o mal” é o primeiro preceito da lei natural em Tomás de Aquino. Em Hobbes, a primeira lei de natureza manda procurar a paz."
+    ] },
+  { "id": "21-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Mill não propõe substituir o autogoverno por uma meritocracia; sua preocupação é limitar o poder da sociedade e da maioria sobre a esfera individual.",
+      "Errada. Mill não identifica a tirania da maioria com as decisões dos juízes nem aponta o duplo grau de jurisdição como remédio.",
+      "Errada. Para Mill, a tirania da maioria não se reduz à opressão pelos governantes eleitos: a mais temível é a social, exercida pela opinião dominante. Ele não propõe a desobediência civil como solução.",
+      "Correta. Em Sobre a Liberdade, Mill afirma que a tirania da sociedade é mais temível que muitas opressões políticas, porque penetra nos detalhes da vida e escraviza a alma. Por isso é necessária a proteção também contra a tirania da opinião e do sentimento dominantes."
+    ] },
+  { "id": "20-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A justiça natural, em Aristóteles, é a parte da justiça política que tem a mesma força em toda parte, independentemente de convenção; não trata da repartição de honras e bens.",
+      "Errada. A justiça comutativa rege as trocas entre particulares segundo a igualdade aritmética, e não a repartição de bens comuns entre os membros da comunidade.",
+      "Errada. A justiça corretiva atua nas relações entre indivíduos, voluntárias ou involuntárias, restabelecendo a igualdade aritmética, e não na distribuição de honras e riquezas.",
+      "Correta. O trecho descreve a justiça distributiva, que reparte honras, dinheiro e outros bens entre os membros da comunidade política segundo uma igualdade proporcional (geométrica), conforme o mérito de cada um."
+    ] },
+  { "id": "20-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A subsunção do caso à norma, em forma de silogismo, é a aplicação direta de uma norma existente, e não a analogia, que pressupõe a falta de norma para o caso.",
+      "Correta. Para Bobbio, a analogia é o procedimento pelo qual se atribui a um caso não regulamentado a mesma disciplina de um caso regulamentado semelhante, desde que haja semelhança relevante (a mesma razão) entre eles.",
+      "Errada. Bobbio distingue: a extensão de uma norma a casos por ela não previstos é o efeito da interpretação extensiva, ao passo que a analogia cria uma nova norma para o caso não regulamentado.",
+      "Errada. O recurso a práticas sociais uniformes e continuadas, com convicção de obrigatoriedade, descreve o costume, fonte de heterointegração para Bobbio, e não a analogia."
+    ] },
+  { "id": "19-11", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Reale, a norma é integração dinâmica de fatos e valores. Mudanças nos planos fático e axiológico, como o reconhecimento social das uniões homoafetivas, alteram o sentido da norma sem mudança do texto, fenômeno que ele chama de variação semântica da norma.",
+      "Errada. A teoria tridimensional não reduz a interpretação ao poder discricionário do juiz; o sentido da norma resulta da correlação dialética entre fato, valor e norma.",
+      "Errada. Para Reale, nenhum dos elementos prevalece isoladamente: fato, valor e norma se implicam mutuamente, e a teoria não afirma a precedência dos costumes sobre a lei.",
+      "Errada. A alternativa traz uma crítica ao ativismo judicial que não decorre da teoria tridimensional. Esta, ao contrário, explica a decisão do STF como releitura da norma diante de novos fatos e valores."
+    ] },
+  { "id": "19-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A senciência como critério de consideração moral é ideia utilitarista (Bentham, Peter Singer). Para Kant, a dignidade decorre da racionalidade e da autonomia.",
+      "Errada. Kant não funda a dignidade na equivalência entre membros da mesma espécie; ao contrário, a dignidade é justamente aquilo que não admite equivalente.",
+      "Errada. Para Kant, a dignidade não é um valor atribuído pelo ordenamento jurídico, mas o valor intrínseco de todo ser racional, que existe como fim em si mesmo.",
+      "Correta. Na Fundamentação da Metafísica dos Costumes, Kant afirma que, no reino dos fins, tudo tem um preço ou uma dignidade: o que tem preço pode ser substituído por um equivalente, e o que está acima de todo preço, sem equivalente, tem dignidade."
+    ] },
+  { "id": "18-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Bobbio, só há antinomia entre normas do mesmo ordenamento; normas de ordenamentos diferentes não configuram antinomia.",
+      "Errada. A colisão solúvel pelos critérios cronológico, hierárquico ou da especialidade é a antinomia aparente (solúvel), e não a real.",
+      "Correta. Para Bobbio, a antinomia real (insolúvel) ocorre quando o intérprete fica abandonado a si mesmo, seja pela falta de um critério, seja pelo conflito entre os critérios existentes.",
+      "Errada. Para haver antinomia, as normas devem ter o mesmo âmbito de validade (temporal, espacial, pessoal e material); se os âmbitos são diferentes, não há conflito algum."
+    ] },
+  { "id": "18-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Larenz rejeita a ideia de que só os textos obscuros carecem de interpretação (in claris cessat interpretatio); todo texto jurídico, em princípio, precisa ser interpretado.",
+      "Errada. Larenz não reduz a interpretação à busca de um único sentido querido pelo legislador; a interpretação busca o sentido normativo da lei, que pode variar conforme o contexto e a situação.",
+      "Correta. Para Larenz, em Metodologia da Ciência do Direito, os textos jurídicos são suscetíveis e carecedores de interpretação porque a linguagem tem margem de variabilidade de significado e precisa ser adequada a cada situação.",
+      "Errada. Para Larenz, a interpretação judicial não é conclusão logicamente vinculante a ser repetida automaticamente; a interpretação é um processo aberto, que pode ser revisto."
+    ] },
+  { "id": "17-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Kelsen, a interpretação pelo órgão aplicador não é só ato de conhecimento: o conhecimento revela apenas a moldura de possibilidades, e a escolha entre elas é ato de vontade.",
+      "Errada. A escolha do órgão aplicador é ato de vontade, e não de conhecimento, e se faz dentro da moldura da norma, não entre quaisquer normas segundo o arbítrio do agente.",
+      "Correta. Na Teoria Pura do Direito (cap. VIII), Kelsen sustenta que, na interpretação autêntica, a interpretação cognoscitiva, que revela a moldura de sentidos possíveis, combina-se com um ato de vontade pelo qual o órgão escolhe uma dessas possibilidades.",
+      "Errada. Kelsen não atribui primazia à interpretação gramatical nem acredita em um único sentido correto da lei; os métodos de interpretação conduzem apenas a resultados possíveis."
+    ] },
+  { "id": "17-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Na dialética de complementaridade de Reale, fato, valor e norma não se resolvem em síntese conclusiva; mantêm-se em correlação e tensão permanentes.",
+      "Correta. Para Reale, a dialética de complementaridade é a implicação dos opostos: revela-se que a contradição é aparente, mas os termos continuam distintos e contrários, em correlação permanente e aberta entre fato, valor e norma.",
+      "Errada. Reale contrapõe sua dialética de complementaridade à dialética hegeliana de tese, antítese e síntese, justamente porque nela não há síntese final.",
+      "Errada. A teoria tridimensional é dinâmica e concreta e concebe o Direito como processo; não se reduz a uma estrutura estática de subsunção."
+    ] },
+  { "id": "16-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Bobbio, a lacuna ideológica não se refere à legitimidade democrática da norma, mas à ausência de uma norma justa, que se desejaria que existisse.",
+      "Correta. Bobbio chama de lacuna ideológica a falta de uma norma justa, isto é, de uma solução satisfatória para o caso, e não a falta de qualquer norma (lacuna própria). O dever de decidir mesmo diante de lacuna, citado no enunciado pelo art. 126 do CPC/1973, está hoje no art. 140 do CPC/2015.",
+      "Errada. A lacuna ideológica não se mede pelas convicções pessoais do juiz, mas pela comparação entre o ordenamento existente e um ordenamento ideal ou justo.",
+      "Errada. A falta de norma costumeira não é o que Bobbio denomina lacuna ideológica; o costume é, para ele, uma das fontes de heterointegração."
+    ] },
+  { "id": "16-12", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Ihering, em A Luta pelo Direito, o Direito é fruto da luta de pessoas e grupos por seus direitos subjetivos e expressa os conflitos da sociedade; por isso é uma força viva, e não mera ideia.",
+      "Errada. O Direito como produto do espírito do povo (Volksgeist) é tese da Escola Histórica de Savigny, criticada por Ihering, para quem o Direito se conquista pela luta.",
+      "Errada. A concepção do Direito como instrumento de dominação de classe é marxista, e não de Ihering. Além disso, para o marxismo, o Direito integra a superestrutura.",
+      "Errada. Ihering não restringe a luta pelo Direito ao parlamento e ao Estado; ela ocorre também na defesa individual dos direitos subjetivos."
+    ] },
+  { "id": "15-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Tratar a humanidade sempre como fim e nunca apenas como meio é uma das formulações do imperativo categórico (moral), na Fundamentação, e não a lei universal do direito.",
+      "Correta. Na Doutrina do Direito (Metafísica dos Costumes), a lei universal do direito manda agir exteriormente de modo que o livre uso do arbítrio possa coexistir com a liberdade de todos segundo uma lei universal.",
+      "Errada. Agir como se a máxima devesse tornar-se lei universal da natureza é formulação do imperativo categórico da moral, que se refere à máxima interna da ação, e não à lei do direito.",
+      "Errada. Para Kant, o direito é justamente a conciliação das liberdades segundo uma lei universal, e não a preservação da própria liberdade contra a liberdade alheia."
+    ] },
+  { "id": "15-12", "status": "valida",
+    "explicacoes": [
+      "Correta. Para Bobbio, a Escola da Exegese, marcada pela concepção estatal do direito e pela onipotência do legislador, exigia que o intérprete se submetesse inteiramente à vontade expressa na lei, sem valorações próprias.",
+      "Errada. A Escola da Exegese é legalista e rejeita o costume como fonte; a valorização do direito consuetudinário como expressão do espírito do povo é da Escola Histórica.",
+      "Errada. Para a Escola da Exegese, o juiz não aproxima a lei dos valores sociais; ele aplica a vontade do legislador, com interpretação apegada ao texto e à intenção legislativa.",
+      "Errada. A onipotência do legislador significa que não há limite jurídico acima dele; a submissão ao direito natural é tese jusnaturalista, estranha à Escola da Exegese."
+    ] },
+  { "id": "14-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Bentham, o princípio da utilidade não é a razão de obedecer à moral e à lei, mas o critério para avaliar qualquer ação, inclusive as medidas de governo.",
+      "Correta. Bentham define o princípio da utilidade como aquele que aprova ou desaprova qualquer ação segundo sua tendência a aumentar ou diminuir a felicidade das pessoas cujos interesses estão em jogo.",
+      "Errada. Bentham critica o direito natural, que considerava uma ficção; o utilitarismo não sustenta a superioridade do direito natural sobre o positivo.",
+      "Errada. A centralidade da liberdade individual é mais próxima de John Stuart Mill; para Bentham, o critério é a felicidade (prazer e dor), e não a liberdade como bem maior."
+    ] },
+  { "id": "14-12", "status": "valida",
+    "explicacoes": [
+      "Correta. Pela fórmula de Radbruch, o direito positivo prevalece mesmo quando injusto, em nome da segurança jurídica, salvo quando a contradição com a justiça atinge grau insuportável: a lei extremamente injusta perde o caráter de direito.",
+      "Errada. Radbruch não afirma que toda lei injusta deixa de ser direito; só a injustiça extrema afasta a validade, e a lei apenas injusta continua válida pela segurança jurídica.",
+      "Errada. A tese do direito como mínimo ético é atribuída a Jellinek e não corresponde à fórmula de Radbruch, que preserva a validade das leis injustas não extremas.",
+      "Errada. Radbruch não dá sempre prevalência à justiça; como regra, prevalece a segurança jurídica, e a justiça só se impõe diante de injustiça insuportável."
+    ] },
+  { "id": "13-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A opinião pública é um dos auditórios, mas os outros dois, para Perelman, são as partes em litígio e os profissionais do direito, e não o parlamento e as cortes superiores.",
+      "Correta. Em Lógica Jurídica, Perelman sustenta que a decisão judicial deve ser aceitável para três auditórios: as partes em litígio, os profissionais do direito e a opinião pública.",
+      "Errada. As partes em litígio são um dos auditórios, mas os outros dois, para Perelman, são os profissionais do direito e a opinião pública, e não o parlamento e as cortes superiores.",
+      "Errada. Organismos internacionais não figuram entre os auditórios de Perelman, que são as partes em litígio, os profissionais do direito e a opinião pública."
+    ] },
+  { "id": "13-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Dworkin, a justiça do ordenamento não é responsabilidade exclusiva do legislador; os juízes, ao aplicarem princípios como em Riggs v. Palmer, também concretizam o Direito.",
+      "Errada. Dworkin não considera a decisão por princípios ofensiva ao Estado de Direito; os princípios integram o Direito e vinculam o juiz.",
+      "Errada. Dworkin distingue regras (aplicadas no modo tudo ou nada) e princípios (dotados de dimensão de peso), e não os trata como normas de iguais características nem de livre aplicação.",
+      "Correta. Em Levando os Direitos a Sério, Dworkin sustenta que regras e princípios são normas distintas e que, em casos difíceis como Riggs v. Palmer, os princípios justificam melhor a decisão, tornando-a também moralmente aceitável."
+    ] },
+  { "id": "12-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Hart não trata de lacuna material, mas da indeterminação inerente à linguagem das regras gerais, que, nos casos de penumbra, exige escolha da autoridade aplicadora.",
+      "Correta. Em O Conceito de Direito (cap. VII), Hart chama de textura aberta do direito a indeterminação das regras gerais nos casos de penumbra, em que a autoridade competente exerce discricionariedade para lhes dar sentido específico diante do caso concreto.",
+      "Errada. A textura aberta não se confunde com a incompletude do ordenamento integrada pelos princípios gerais do direito; trata-se da vagueza da linguagem das regras.",
+      "Errada. Anomia, conceito sociológico (Durkheim), designa ausência ou enfraquecimento de normas sociais, e não a indeterminação das regras jurídicas descrita por Hart."
+    ] },
+  { "id": "12-12", "status": "valida",
+    "explicacoes": [
+      "Correta. O utilitarismo é consequencialista (julga as ações por seus resultados em termos de utilidade ou felicidade), convencionalista (moral e direito valem como convenções humanas úteis) e antifundacionalista (rejeita fundamentos metafísicos, como o direito natural).",
+      "Errada. O utilitarismo é empirista e rejeita fundamentos transcendentais ou metafísicos para a moral, o que afasta o transcendentalismo e o fundacionalismo.",
+      "Errada. O fatalismo não caracteriza o utilitarismo, que pressupõe a possibilidade de escolher e de reformar leis e instituições para maximizar a felicidade.",
+      "Errada. Mecanicismo e fatalismo não são traços do utilitarismo, doutrina voltada a avaliar e reformar ações e instituições conforme suas consequências."
+    ] },
+  { "id": "11-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A justiça como legalidade (justiça geral ou universal) é apenas um dos sentidos em Aristóteles; o trecho trata da justiça como meio-termo entre ter demais e ter de menos.",
+      "Correta. Na Ética a Nicômaco (Livro V), Aristóteles concebe a justiça como uma espécie de meio-termo: a ação justa fica entre cometer injustiça (ter demais) e sofrê-la (ter de menos).",
+      "Errada. A igualdade aritmética caracteriza apenas a justiça corretiva; a distributiva segue a igualdade proporcional (geométrica), de modo que a justiça não é sempre igualdade aritmética.",
+      "Errada. Aristóteles admite que mesmo o justo por natureza é, entre os homens, de certo modo mutável; a justiça não é definida como ação natural imutável."
+    ] },
+  { "id": "11-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A episteme é o conhecimento científico do necessário e universal; a razão prática lida com o contingente, com o que pode ser de outro modo.",
+      "Errada. A techne (arte) visa à produção de algo exterior ao agente; a razão prática diz respeito à ação (práxis) e à deliberação sobre o que é bom para o homem.",
+      "Errada. A doxa é mera opinião, sem o caráter de virtude intelectual de bem deliberar que define a razão prática.",
+      "Correta. A razão ou sabedoria prática corresponde à phronesis (prudência) aristotélica, a virtude de bem deliberar sobre o que é bom e conveniente para a vida humana, noção retomada por jusfilósofos contemporâneos."
+    ] },
+  { "id": "10-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A interpretação restritiva diz respeito ao resultado (reduzir o alcance de um texto que disse mais do que pretendia), e não à consideração dos objetivos da lei.",
+      "Errada. A interpretação extensiva amplia o alcance de um texto que disse menos do que pretendia; classifica-se pelo resultado, e não pela finalidade da norma.",
+      "Errada. A interpretação autêntica é a feita pelo próprio órgão que editou a norma, em regra por meio de lei interpretativa, e não a que considera as finalidades da lei.",
+      "Correta. A interpretação teleológica busca o sentido da norma à luz de seus fins, como orienta o art. 5º da LINDB: o juiz atenderá aos fins sociais a que a lei se dirige e às exigências do bem comum."
+    ] },
+  { "id": "10-12", "status": "valida",
+    "explicacoes": [
+      "Errada. Para Kant, direito e moral não são idênticos: diferem pela forma de legislação (externa ou interna) e pelo motivo do cumprimento, ainda que alguns deveres coincidam.",
+      "Correta. Kant distingue a legislação moral, que exige que o dever seja o próprio motivo da ação (interioridade), da jurídica, que se satisfaz com o cumprimento externo e admite coerção, qualquer que seja o motivo de quem obedece.",
+      "Errada. A coerção é característica do direito, não da moral; o dever moral não pode ser imposto pela força, pois depende da adesão interna do sujeito.",
+      "Errada. Kant não vê direito e moral como absolutamente distintos; segundo o próprio trecho, cumprir espontaneamente um dever jurídico, sem coerção, é uma ação virtuosa."
+    ] }
+]

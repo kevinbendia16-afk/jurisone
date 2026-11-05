@@ -1,0 +1,402 @@
+[
+  {
+    "id": "47-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A natureza da sociedade não depende do registro escolhido pelos sócios: a sociedade por ações é sempre empresária (art. 982, parágrafo único, do CC) e, por isso, registra-se na Junta Comercial (art. 1.150 do CC).",
+      "Errada. Embora a atividade intelectual não seja, em regra, própria de empresário (art. 966, parágrafo único, do CC), a adoção do tipo anônima torna a sociedade empresária independentemente do objeto (art. 982, parágrafo único), com registro na Junta Comercial.",
+      "Correta. Independentemente do objeto, considera-se empresária a sociedade por ações (art. 982, parágrafo único, do CC); seu ato constitutivo é arquivado na Junta Comercial (art. 1.150) e a personalidade jurídica surge com esse registro (art. 985).",
+      "Errada. Sendo anônima, a sociedade já é empresária pelo tipo (art. 982, parágrafo único, do CC). A transformação em limitada não a tornaria empresária por si só, pois a limitada com objeto intelectual pode ser simples (art. 983)."
+    ]
+  },
+  {
+    "id": "47-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Prevista no contrato, a transformação dispensa unanimidade (art. 1.114 do CC) e, como modificação do contrato social, exige votos de mais da metade do capital (arts. 1.071, V, e 1.076, II, do CC, na redação da Lei 14.451/2022). Com a aplicação supletiva da Lei das S.A., os sócios podem renunciar, no contrato social, ao direito de retirada na transformação em companhia (art. 221, parágrafo único, da Lei 6.404/1976).",
+      "Errada. A unanimidade só é exigida quando a transformação não está prevista no ato constitutivo (art. 1.114 do CC; art. 221 da Lei 6.404/1976); havendo previsão, basta a maioria do capital, e o dissidente pode retirar-se.",
+      "Errada. A maioria dos presentes é o quórum residual (art. 1.076, III, do CC); a modificação do contrato social exige mais da metade do capital (art. 1.076, II), e o direito de retirada do dissidente decorre da lei (art. 1.114), não de previsão contratual.",
+      "Errada. O quórum de três quartos do capital foi extinto pela Lei 14.451/2022; hoje a alteração do contrato exige mais da metade do capital social (art. 1.076, II, do CC), e o direito de retirada pode ser renunciado no contrato (art. 221, parágrafo único, da Lei 6.404/1976)."
+    ]
+  },
+  {
+    "id": "47-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os créditos na falência admitem juros de mora; a lei apenas restringe os juros vencidos após a decretação, que só são exigíveis se o ativo bastar para pagar os credores subordinados (art. 124 da Lei 11.101/2005).",
+      "Errada. Os juros contam-se do vencimento da obrigação até a decretação da falência; os posteriores à quebra é que ficam condicionados à suficiência do ativo para pagar os subordinados (art. 124 da Lei 11.101/2005).",
+      "Errada. Após a decretação, contra a massa falida não são exigíveis juros se o ativo não bastar para pagar os credores subordinados (art. 124 da Lei 11.101/2005); a regra alcança todos os credores, não só os subordinados.",
+      "Correta. Os juros de mora correm do vencimento até a decretação da falência; os vencidos depois dela só são exigíveis se o ativo apurado bastar para pagar os credores subordinados (art. 124 da Lei 11.101/2005), sendo pagos na classe do art. 83, IX."
+    ]
+  },
+  {
+    "id": "46-47",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A execução da nota promissória contra o emitente prescreve em três anos do vencimento (arts. 70 e 77 da Lei Uniforme), e o protesto, lavrado em dezembro de 2023, antes de expirado esse prazo, interrompeu a prescrição (art. 202, III, do CC), que recomeçou a correr da data do ato interruptivo.",
+      "Errada. O prazo prescricional da ação cambial contra o emitente é de três anos a contar do vencimento (arts. 70 e 77 da Lei Uniforme), e não de cinco anos.",
+      "Errada. O protesto é mesmo facultativo para cobrar o emitente, mas, quando feito, interrompe a prescrição (art. 202, III, do CC); como ocorreu antes de completados os três anos, a execução continua possível.",
+      "Errada. A falta de apresentação ou de protesto no prazo só faz perder o direito contra os coobrigados (endossantes e seus avalistas), não contra o emitente, que é devedor principal (arts. 53 e 78 da Lei Uniforme)."
+    ]
+  },
+  {
+    "id": "46-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O depósito elisivo é feito no prazo da contestação, que é de 10 dias contados da citação (art. 98, caput e parágrafo único, da Lei 11.101/2005).",
+      "Correta. Nos pedidos fundados no art. 94, I e II, o devedor pode, no prazo da contestação, depositar o valor total do crédito acrescido de correção monetária, juros e honorários advocatícios, e a falência não será decretada (art. 98, parágrafo único, da Lei 11.101/2005; Súmula 29 do STJ).",
+      "Errada. A lei não prevê suspensão do processo pelo depósito: ele impede a decretação da falência, e, se o pedido for julgado procedente, o juiz ordena o levantamento do valor pelo autor (art. 98, parágrafo único, da Lei 11.101/2005).",
+      "Errada. A lei admite depósito do valor do crédito no prazo de 10 dias da contestação, sem previsão de caução real ou fidejussória nem de prazo de cinco dias (art. 98 da Lei 11.101/2005)."
+    ]
+  },
+  {
+    "id": "46-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não é registrável como marca a reprodução ou imitação de elemento característico de título de estabelecimento de terceiro suscetível de causar confusão ou associação (art. 124, V, da Lei 9.279/1996).",
+      "Errada. O título de estabelecimento não é registrado no INPI, mas mesmo assim é protegido pela LPI, que impede seu registro como marca por terceiro (art. 124, V) e reprime seu uso indevido como concorrência desleal (art. 195, V).",
+      "Correta. Pelo art. 124, V, da Lei 9.279/1996, não é registrável como marca a reprodução de elemento característico de título de estabelecimento de terceiro suscetível de causar confusão ou associação, como ocorre com o bar que usa Pancadão desde 2000 na mesma cidade e revende os produtos da requerente.",
+      "Errada. O impedimento decorre do risco de confusão previsto no art. 124, V, da LPI, e não de prioridade nacional derivada da inscrição na Junta Comercial, que protege o nome empresarial (art. 1.166 do CC), não o título de estabelecimento."
+    ]
+  },
+  {
+    "id": "46-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Código Civil abandonou a teoria dos atos de comércio e adotou a teoria da empresa, que abrange também a prestação de serviços (art. 966 do CC).",
+      "Errada. O exercício de profissão intelectual caracteriza o empresário quando constituir elemento de empresa (art. 966, parágrafo único, do CC).",
+      "Correta. É a definição do art. 966, caput, do CC: considera-se empresário quem exerce profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de serviços.",
+      "Errada. A inscrição na Junta Comercial é obrigação do empresário (art. 967 do CC), e não requisito para caracterizá-lo; quem exerce empresa sem registro é empresário irregular."
+    ]
+  },
+  {
+    "id": "45-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Afonso, por ser sócio da devedora, pode participar da assembleia, mas sem direito a voto (art. 43 da Lei 11.101/2005); quanto a Viana & Cia., de fato não vota (art. 45, § 3º).",
+      "Correta. O sócio do devedor participa da assembleia sem direito a voto (art. 43 da Lei 11.101/2005), e o credor cujo crédito não tem valor nem condições de pagamento alterados pelo plano também não vota (art. 45, § 3º).",
+      "Errada. Nenhum dos dois vota: o sócio é excluído do voto pelo art. 43 da Lei 11.101/2005, e o credor cujo crédito não é alterado pelo plano, pelo art. 45, § 3º.",
+      "Errada. Viana & Cia. não vota, pois o plano não altera o valor nem as condições de pagamento de seu crédito (art. 45, § 3º, da Lei 11.101/2005); quanto a Afonso, de fato não vota (art. 43)."
+    ]
+  },
+  {
+    "id": "45-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A possibilidade não decorre da natureza simples da sociedade: o art. 977 do CC trata da sociedade entre cônjuges em geral, e o que importa é o regime de bens.",
+      "Errada. A vedação do art. 977 do CC alcança apenas os cônjuges casados no regime da comunhão universal ou no da separação obrigatória de bens.",
+      "Correta. Faculta-se aos cônjuges contratar sociedade, entre si ou com terceiros, desde que não sejam casados na comunhão universal ou na separação obrigatória (art. 977 do CC); casados na comunhão parcial, Pedro e Vitória podem ser sócios entre si e com os filhos.",
+      "Errada. O art. 977 do CC não exige separação absoluta de bens; ao contrário, veda a sociedade entre cônjuges casados na separação obrigatória e na comunhão universal, não na comunhão parcial."
+    ]
+  },
+  {
+    "id": "45-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. No inadimplemento ou mora, o proprietário fiduciário pode vender a coisa a terceiros independentemente de leilão, hasta pública, avaliação prévia ou outra medida judicial ou extrajudicial, salvo disposição contratual em contrário, aplicando o preço no pagamento do crédito e entregando o saldo ao devedor (art. 2º do Decreto-Lei 911/1969).",
+      "Errada. Não há ação declaratória para positivar a mora: ela decorre do vencimento e se comprova por carta registrada com aviso de recebimento (art. 2º, § 2º, do DL 911/1969; Súmula 72 do STJ), e a venda dispensa avaliação ou alvará.",
+      "Errada. A lei não prevê interpelação com prazo de 15 dias; comprovada a mora, cabe busca e apreensão liminar, e a propriedade se consolida se o devedor não pagar a integralidade da dívida em 5 dias após a execução da liminar (art. 3º, §§ 1º e 2º, do DL 911/1969).",
+      "Errada. O credor não precisa executar a dívida: pode vender o bem (art. 2º) ou pedir a busca e apreensão (art. 3º); a via executiva é mera faculdade (arts. 4º e 5º do DL 911/1969), e não há tutela de evidência para autorizar a venda."
+    ]
+  },
+  {
+    "id": "45-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O direito à renovação não é absoluto: o locador pode alegar na contestação proposta de terceiro em condições melhores (art. 72, III, da Lei 8.245/1991).",
+      "Errada. A proposta de terceiro deve ser provada por documento subscrito pelo proponente e por duas testemunhas (art. 72, § 2º, da Lei 8.245/1991); a autenticação da assinatura não dispensa as testemunhas.",
+      "Correta. Apresentada proposta de terceiro, o locatário pode, em réplica, aceitar tais condições para obter a renovação pretendida (art. 72, § 2º, parte final, da Lei 8.245/1991).",
+      "Errada. A proposta deve indicar claramente o ramo a ser explorado pelo terceiro, que não pode ser o mesmo do locatário (art. 72, § 2º, da Lei 8.245/1991); a exploração por três anos é requisito do locatário para a renovatória (art. 51, III)."
+    ]
+  },
+  {
+    "id": "44-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O art. 995 do CC exige consentimento expresso dos demais sócios, salvo estipulação em contrário; não existe consentimento tácito por falta de oposição em 30 dias.",
+      "Errada. A responsabilidade pessoal do sócio ostensivo perante terceiros (art. 991 do CC) não lhe permite admitir novo sócio sem o consentimento expresso dos demais (art. 995).",
+      "Correta. Salvo estipulação em contrário, o sócio ostensivo não pode admitir novo sócio sem o consentimento expresso dos demais (art. 995 do CC).",
+      "Errada. No silêncio do contrato, exige-se o consentimento expresso de todos os demais sócios, e não da maioria com voto de qualidade do ostensivo (art. 995 do CC)."
+    ]
+  },
+  {
+    "id": "44-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A novação dos créditos é efeito do plano de recuperação judicial (art. 59 da Lei 11.101/2005), não da falência; na falência, o pagamento de mais de 25% dos quirografários, depois de realizado todo o ativo, é causa de extinção das obrigações do falido (art. 158, II).",
+      "Correta. A decretação da falência determina o vencimento antecipado das dívidas do devedor, com o abatimento proporcional dos juros, e converte os créditos em moeda estrangeira para a moeda do País pelo câmbio do dia da decisão judicial (art. 77 da Lei 11.101/2005).",
+      "Errada. A falência suspende o curso da prescrição (art. 6º, I, da Lei 11.101/2005), mas a retomada do prazo após o trânsito em julgado do encerramento (antigo art. 157) foi revogada pela Lei 14.112/2020; hoje o encerramento da falência extingue as obrigações do falido (art. 158, VI).",
+      "Errada. O prazo de 180 dias prorrogável uma vez é o stay period da recuperação judicial (art. 6º, § 4º, da Lei 11.101/2005); na falência, as execuções contra o falido ficam suspensas durante o processo (arts. 6º, II, e 99, V)."
+    ]
+  },
+  {
+    "id": "44-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A inscrição é feita na Junta da sede da atividade (art. 967 do CC), e não na do domicílio; além disso, a constituição das filiais deve ser averbada na Junta da sede (art. 969, parágrafo único).",
+      "Correta. O empresário inscreve-se no Registro Público de Empresas Mercantis da respectiva sede (art. 967 do CC); a filial em local sujeito a outra Junta deve ser nela inscrita, com prova da inscrição originária, e averbada na Junta da sede (art. 969, caput e parágrafo único).",
+      "Errada. A referência é a sede da atividade (Brasília), não o domicílio, e as filiais situadas em outros Estados devem ser inscritas nas Juntas desses Estados (art. 969 do CC).",
+      "Errada. A filial instituída em local sujeito a outra Junta Comercial deve ser inscrita também nessa Junta, além de averbada na Junta da sede (art. 969 do CC)."
+    ]
+  },
+  {
+    "id": "44-50",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O MEI pode utilizar sua residência como sede do estabelecimento quando não for indispensável a existência de local próprio para o exercício da atividade (art. 18-A, § 25, da LC 123/2006).",
+      "Errada. O teto de R$ 60.000,00 não vale mais: a LC 155/2016 elevou para R$ 81.000,00 o limite de receita bruta anual do MEI (art. 18-A, § 1º, da LC 123/2006).",
+      "Errada. A averbação e a publicação do trespasse para eficácia perante terceiros são regra geral do art. 1.144 do CC, e não tratamento previsto na LC 123/2006, que, ao contrário, dispensa os empresários por ela abrangidos da publicação de atos societários (art. 71).",
+      "Errada. O MEI comprova a receita bruta pela apresentação do registro de vendas ou de prestação de serviços, sem livro-caixa (art. 26, § 1º, da LC 123/2006); o livro-caixa é exigido das demais microempresas e empresas de pequeno porte (art. 26, § 2º)."
+    ]
+  },
+  {
+    "id": "43-47",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A sociedade anônima opera sob denominação integrada pelas expressões “sociedade anônima” ou “companhia”, facultada a designação do objeto social, e nela pode constar o nome do fundador (art. 1.160, caput e parágrafo único, do CC, na redação da Lei 14.382/2022).",
+      "Errada. A companhia não pode adotar firma, apenas denominação (art. 1.160 do CC; art. 3º da Lei 6.404/1976), e a designação do objeto social é facultativa.",
+      "Errada. A denominação não se forma apenas pelo nome dos sócios, e as expressões “sociedade anônima” ou “companhia” são obrigatórias, sendo vedado usar “companhia” ao final (art. 3º da Lei 6.404/1976).",
+      "Errada. A companhia só opera sob denominação (art. 1.160 do CC), não há dever de manter o nome antigo, e a expressão “companhia” não pode figurar ao final do nome (art. 3º da Lei 6.404/1976)."
+    ]
+  },
+  {
+    "id": "43-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A sociedade sem personalidade jurídica pode ser demandada (art. 75, IX e § 2º, do CPC), e as sócias que não contrataram têm benefício de ordem (art. 990 c/c art. 1.024 do CC).",
+      "Correta. A sociedade em comum pode ser demandada mesmo sem personalidade jurídica (art. 75, IX e § 2º, do CPC); todas as sócias respondem solidária e ilimitadamente, mas só Marília, que contratou pela sociedade, fica excluída do benefício de ordem (art. 990 do CC).",
+      "Errada. Lucélia e Natividade respondem solidariamente, mas com benefício de ordem; apenas a sócia que contratou pela sociedade é excluída desse benefício (art. 990 do CC).",
+      "Errada. A sociedade em comum pode ser demandada (art. 75, IX, do CPC), e as sócias respondem solidária e ilimitadamente pelas obrigações sociais, ainda que Lucélia e Natividade tenham benefício de ordem (art. 990 do CC)."
+    ]
+  },
+  {
+    "id": "43-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O vencimento do prazo dissolve a sociedade, salvo se, sem oposição de sócio, ela não entrar em liquidação, caso em que se prorroga por prazo indeterminado (art. 1.033, I, do CC); não há prazo de 30 dias para requerer dissolução.",
+      "Errada. O Código Civil não prevê prazo de 180 dias para a continuação dos negócios após o vencimento do prazo; vale a regra de prorrogação por prazo indeterminado se não houver oposição de sócio (art. 1.033, I).",
+      "Errada. O vencimento do prazo é causa de dissolução de pleno direito (art. 1.033, I, do CC), e não de dissolução judicial por exaurimento do fim social (art. 1.034, II).",
+      "Correta. Dissolve-se a sociedade pelo vencimento do prazo de duração, salvo se, vencido este e sem oposição de sócio, não entrar em liquidação, caso em que se prorroga por tempo indeterminado (art. 1.033, I, do CC)."
+    ]
+  },
+  {
+    "id": "43-50",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. No inadimplemento ou mora, o credor fiduciário pode vender o bem a terceiros independentemente de leilão, hasta pública, avaliação prévia ou outra medida judicial ou extrajudicial, salvo disposição contratual em contrário (art. 2º do DL 911/1969), comprovada a mora por carta registrada com aviso de recebimento (art. 2º, § 2º).",
+      "Errada. A busca e apreensão liminar exige a comprovação da mora (art. 3º, caput, do DL 911/1969; Súmula 72 do STJ), embora possa ser apreciada em plantão judiciário.",
+      "Errada. O meio previsto é a ação de busca e apreensão (art. 3º), convertível em execução se o bem não for encontrado (art. 4º), e o pedido de recuperação judicial não impede a busca e apreensão (art. 6º-A do DL 911/1969).",
+      "Errada. A consolidação extrajudicial da propriedade, incluída pela Lei 14.711/2023 (art. 8º-B do DL 911/1969), exige cláusula expressa em destaque e prévia comprovação da mora."
+    ]
+  },
+  {
+    "id": "42-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O critério legal não é o emprego de mão de obra e insumos, mas o exercício da profissão constituir elemento de empresa (art. 966, parágrafo único, do CC).",
+      "Errada. O concurso de auxiliares ou colaboradores, por si só, não torna empresário o profissional intelectual, como diz expressamente o art. 966, parágrafo único, do CC.",
+      "Correta. Quem exerce profissão intelectual não é empresário, ainda que com o concurso de auxiliares ou colaboradores, salvo se o exercício da profissão constituir elemento de empresa (art. 966, parágrafo único, do CC).",
+      "Errada. A opção pelo Simples Nacional ou o enquadramento como MEI não é a condição prevista no Código Civil, que exige que a profissão constitua elemento de empresa (art. 966, parágrafo único)."
+    ]
+  },
+  {
+    "id": "42-48",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Na sociedade de prazo indeterminado, dissolve-se de pleno direito a sociedade pela deliberação dos sócios por maioria absoluta (art. 1.033, III, do CC), computada segundo o valor das quotas (art. 1.010).",
+      "Errada. O exaurimento do fim social ou sua inexequibilidade é causa de dissolução judicial, a requerimento de qualquer sócio (art. 1.034, II, do CC), e não de pleno direito.",
+      "Errada. A morte de sócio, em regra, gera apenas a liquidação de sua quota; a dissolução só ocorre se o contrato assim dispuser ou se os remanescentes optarem por ela (art. 1.028 do CC).",
+      "Errada. A falta de pluralidade de sócios por 180 dias deixou de ser causa de dissolução, pois o inciso IV do art. 1.033 do CC foi revogado pela Lei 14.195/2021."
+    ]
+  },
+  {
+    "id": "42-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Ao titular da marca é assegurado o direito de ceder o registro, licenciar seu uso e zelar pela sua integridade material ou reputação (art. 130, I a III, da Lei 9.279/1996).",
+      "Errada. O titular não pode impedir que comerciantes ou distribuidores utilizem sinais distintivos próprios juntamente com a marca do produto, na sua promoção e comercialização (art. 132, I, da Lei 9.279/1996).",
+      "Errada. O titular não pode impedir que fabricantes de acessórios utilizem a marca para indicar a destinação do produto, desde que obedecidas as práticas leais de concorrência (art. 132, II, da Lei 9.279/1996).",
+      "Errada. O titular não pode impedir a citação da marca em discurso, obra científica ou literária ou outra publicação, desde que sem conotação comercial e sem prejuízo para seu caráter distintivo (art. 132, IV, da Lei 9.279/1996)."
+    ]
+  },
+  {
+    "id": "42-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A vedação à distribuição de lucros vigora até a aprovação do plano de recuperação judicial (art. 6º-A da Lei 11.101/2005), e não até o encerramento do processo.",
+      "Errada. Até a aprovação do plano, em dezembro de 2022, a distribuição de lucros era vedada pelo art. 6º-A da Lei 11.101/2005, e o direito do sócio aos lucros não afasta essa proibição legal.",
+      "Errada. A lei não condiciona a distribuição de lucros ao pagamento dos credores sujeitos à recuperação; o marco é a aprovação do plano (art. 6º-A da Lei 11.101/2005).",
+      "Correta. É vedado ao devedor distribuir lucros ou dividendos a sócios até a aprovação do plano de recuperação judicial (art. 6º-A da Lei 11.101/2005); aprovado o plano em dezembro de 2022, não havia mais impedimento legal à distribuição no exercício de 2023."
+    ]
+  },
+  {
+    "id": "41-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Reunião e assembleia de sócios pressupõem pluralidade; na limitada unipessoal, as decisões são tomadas pelo sócio único, aplicando-se ao seu ato de constituição apenas no que couber as regras do contrato social (art. 1.052, § 2º, do CC).",
+      "Errada. O distrato depende do consenso dos sócios (art. 1.033, II, c/c art. 1.087 do CC) e, por isso, pressupõe mais de um sócio, não se aplicando à sociedade unipessoal.",
+      "Correta. Tanto na limitada pluripessoal quanto na unipessoal, o administrador pode ser designado no contrato ou em ato separado (arts. 1.060 e 1.062 do CC).",
+      "Errada. A solidariedade de todos os sócios pela exata estimação dos bens conferidos ao capital (art. 1.055, § 1º, do CC) pressupõe pluralidade de sócios."
+    ]
+  },
+  {
+    "id": "41-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Em caso de omissão ou demora da pessoa obrigada, o registro pode ser requerido por qualquer sócio ou interessado (art. 1.151, caput, do CC).",
+      "Errada. O prazo para apresentar os documentos é de 30 dias contados da lavratura do ato (art. 1.151, § 1º, do CC; art. 36 da Lei 8.934/1994), ou seja, terminou em 17/05/2023.",
+      "Errada. Requerido o registro fora do prazo, ele só produz efeito a partir da data de sua concessão (art. 1.151, § 2º, do CC), sem efeito retroativo.",
+      "Correta. Os documentos devem ser apresentados em 30 dias da lavratura (art. 1.151, § 1º, do CC), e as pessoas obrigadas a requerer o registro respondem por perdas e danos em caso de omissão ou demora (art. 1.151, § 3º)."
+    ]
+  },
+  {
+    "id": "41-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. As limitações contidas na outorga de poderes ao gerente, para serem opostas a terceiros, dependem do arquivamento e da averbação do instrumento no Registro Público de Empresas Mercantis, salvo se provado que eram conhecidas de quem tratou com o gerente (art. 1.174 do CC).",
+      "Errada. O registro exigido é no Registro Público de Empresas Mercantis, a cargo das Juntas Comerciais, e não no Registro de Títulos e Documentos (art. 1.174 do CC).",
+      "Errada. A modificação ou a revogação do mandato também deve ser arquivada e averbada no Registro Público de Empresas Mercantis para ser oposta a terceiros (art. 1.174, parágrafo único, do CC).",
+      "Errada. As limitações podem ser opostas ao terceiro que as conhecia, mesmo sem registro (art. 1.174, caput, do CC), de modo que o empresário não responde por todo e qualquer ato do gerente fora dos limites."
+    ]
+  },
+  {
+    "id": "41-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Empresário irregular é quem exerce empresa sem inscrição; Valério continua inscrito na Junta Comercial, e a cessação alegada, sem prova no registro, não afasta sua sujeição à falência.",
+      "Correta. A cessação das atividades há mais de dois anos só impede a falência se comprovada por documento hábil do Registro Público de Empresas (art. 96, VIII, da Lei 11.101/2005); sem essa prova, a falência pode ser decretada.",
+      "Errada. A defesa da cessação há mais de dois anos exige prova por documento do Registro Público de Empresas (art. 96, VIII, da Lei 11.101/2005), que Valério não apresentou.",
+      "Errada. O cancelamento do registro não é condição para a decretação da falência; ao contrário, o documento do registro comprovando a cessação há mais de dois anos é que serviria de defesa (art. 96, VIII, da Lei 11.101/2005)."
+    ]
+  },
+  {
+    "id": "40-47",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A guarda dos bens não é personalíssima: eles podem ficar com pessoa escolhida pelo administrador judicial, sob a responsabilidade deste (art. 108, § 1º, da Lei 11.101/2005).",
+      "Correta. Os bens arrecadados ficam sob a guarda do administrador judicial ou de pessoa por ele escolhida, sob sua responsabilidade, podendo o falido ou qualquer de seus representantes ser nomeado depositário (art. 108, § 1º, da Lei 11.101/2005).",
+      "Errada. Não há vedação: a lei admite expressamente que o falido ou qualquer de seus representantes seja nomeado depositário dos bens (art. 108, § 1º, da Lei 11.101/2005).",
+      "Errada. A lei não exige caução dos depositários como condição para a guarda dos bens arrecadados (art. 108, § 1º, da Lei 11.101/2005)."
+    ]
+  },
+  {
+    "id": "40-48",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A patente confere privilégio temporário (art. 5º, XXIX, da CF): 20 anos para invenção e 15 anos para modelo de utilidade, contados do depósito (art. 40 da Lei 9.279/1996); o prazo mínimo contado da concessão (antigo parágrafo único) caiu com a ADI 5529 e foi revogado pela Lei 14.195/2021.",
+      "Errada. O privilégio não é vitalício: extingue-se com o fim do prazo legal, e o objeto da patente cai em domínio público (arts. 40 e 78, parágrafo único, da Lei 9.279/1996).",
+      "Errada. Não existe privilégio perpétuo nem transmissível por gerações; a Constituição assegura aos autores privilégio temporário (art. 5º, XXIX, da CF).",
+      "Errada. Ambos os privilégios são temporários: 20 anos para invenção e 15 anos para modelo de utilidade (art. 40 da Lei 9.279/1996)."
+    ]
+  },
+  {
+    "id": "40-49",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Enquanto não inscritos os atos constitutivos, a sociedade rege-se pelas normas da sociedade em comum e, subsidiariamente e no que forem compatíveis, pelas da sociedade simples (art. 986 do CC).",
+      "Errada. A falta de registro não converte a sociedade em conta de participação, que tem estrutura própria de sócio ostensivo e participantes (art. 991 do CC); a sociedade não registrada é sociedade em comum (art. 986).",
+      "Errada. Sem registro, aplica-se o regime da sociedade em comum, com as normas da sociedade simples apenas de forma subsidiária, e não as da cooperativa (art. 986 do CC).",
+      "Errada. As normas da companhia não regem a sociedade não registrada; aplica-se o regime da sociedade em comum, com as normas da sociedade simples subsidiariamente (art. 986 do CC)."
+    ]
+  },
+  {
+    "id": "40-50",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Código Civil não cria a figura do “estabelecimento virtual”: o estabelecimento não se confunde com o local onde se exerce a atividade, que pode ser físico ou virtual (art. 1.142, § 1º, do CC).",
+      "Errada. A competência do Município para fixar o horário de funcionamento refere-se ao local físico de exercício da atividade, observado o art. 3º, II, da Lei 13.874/2019 (art. 1.142, § 3º, do CC).",
+      "Correta. Quando o local de exercício da atividade for virtual, o endereço informado para fins de registro poderá ser, conforme o caso, o do empresário individual ou o de um dos sócios da sociedade empresária (art. 1.142, § 2º, do CC, incluído pela Lei 14.382/2022).",
+      "Errada. O Código Civil não impõe dever de comunicar à Junta Comercial, em 15 dias, a escolha ou a alteração do local virtual de exercício da empresa."
+    ]
+  },
+  {
+    "id": "39-47",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Desde a Lei 14.112/2020, os créditos trabalhistas e por acidentes de trabalho podem sujeitar-se à recuperação extrajudicial, desde que haja negociação coletiva com o sindicato da respectiva categoria profissional (art. 161, § 1º, da Lei 11.101/2005).",
+      "Errada. Ficam excluídos da recuperação extrajudicial os créditos tributários e os dos arts. 49, § 3º, e 86, II; os trabalhistas e por acidentes de trabalho podem ser incluídos mediante negociação coletiva (art. 161, § 1º, da Lei 11.101/2005).",
+      "Errada. Não há limite de 150 salários mínimos na recuperação extrajudicial, e os créditos trabalhistas também podem ser incluídos, mediante negociação coletiva (art. 161, § 1º, da Lei 11.101/2005).",
+      "Errada. A negociação coletiva permite incluir tanto os créditos trabalhistas quanto os decorrentes de acidentes de trabalho (art. 161, § 1º, da Lei 11.101/2005)."
+    ]
+  },
+  {
+    "id": "39-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não é preciso dissolver e liquidar a empresa individual: o empresário que admitir sócios pode pedir a transformação do registro em sociedade empresária (art. 968, § 3º, do CC).",
+      "Correta. Caso venha a admitir sócios, o empresário individual pode solicitar ao Registro Público de Empresas Mercantis a transformação de seu registro de empresário para registro de sociedade empresária (art. 968, § 3º, do CC).",
+      "Errada. O enquadramento como microempresa não é requisito para a transformação do registro de empresário em sociedade empresária (art. 968, § 3º, do CC).",
+      "Errada. A lei dispensa dissolução e liquidação, permitindo a transformação direta do registro de empresário em registro de sociedade empresária (art. 968, § 3º, do CC)."
+    ]
+  },
+  {
+    "id": "39-50",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Sem cláusula del credere, o comissário não responde pela insolvência das pessoas com quem tratar, salvo culpa (arts. 697 e 698 do CC); tendo seguido as instruções, ele não responde perante o comitente, que suporta o prejuízo.",
+      "Errada. O vendedor obriga-se perante o comissário, e o comitente não tem ação direta contra ele (art. 694 do CC); o comissário, sem cláusula del credere, não responde pela insolvência do terceiro (art. 697).",
+      "Errada. Sem cláusula del credere e sem culpa, o comissário não responde pelos prejuízos decorrentes do inadimplemento do vendedor (arts. 697 e 698 do CC).",
+      "Errada. Só haveria solidariedade do comissário com o terceiro se houvesse cláusula del credere (art. 698 do CC), e o comitente não tem ação direta contra o vendedor (art. 694)."
+    ]
+  },
+  {
+    "id": "39-51",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O incidente de desconsideração é cabível em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução fundada em título extrajudicial (art. 134 do CPC).",
+      "Correta. A instauração do incidente suspende o processo, salvo quando a desconsideração é requerida na petição inicial (art. 134, § 3º, do CPC), e o incidente é resolvido por decisão interlocutória (art. 136 do CPC).",
+      "Errada. O art. 134, caput, do CPC admite expressamente o incidente no cumprimento de sentença, justamente para atingir quem não figurou no título.",
+      "Errada. Instaurado o incidente, o sócio ou a pessoa jurídica é citado, e não intimado, para manifestar-se e requerer provas em 15 dias (art. 135 do CPC)."
+    ]
+  },
+  {
+    "id": "38-47",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O empresário individual opera sob firma constituída por seu nome, completo ou abreviado, aditando-lhe, se quiser, designação mais precisa da sua pessoa ou do gênero de atividade (art. 1.156 do CC).",
+      "Errada. A firma individual é formada pelo nome civil do empresário, e não por nome de fantasia (art. 1.156 do CC).",
+      "Errada. Nome de fantasia não compõe a firma individual, que se forma pelo nome do empresário, completo ou abreviado (art. 1.156 do CC).",
+      "Errada. A firma não se divide em nome civil e nome de fantasia, e a indicação do gênero de atividade é facultada, não vedada (art. 1.156 do CC)."
+    ]
+  },
+  {
+    "id": "38-48",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A cláusula de proibição de novo endosso não converte o endosso em cessão de crédito; o título continua endossável, e o endossante apenas deixa de garantir o pagamento aos endossatários posteriores (art. 15 da Lei Uniforme).",
+      "Errada. Wagner pode endossar o título; o único efeito da cláusula é que Medeiros Neto não garante o pagamento aos endossatários posteriores, sem desonerar os demais coobrigados (art. 15 da Lei Uniforme).",
+      "Errada. A cláusula de proibição de novo endosso é válida (art. 15 da Lei Uniforme); nulo é o endosso parcial (art. 12).",
+      "Correta. O endossante pode proibir novo endosso e, nesse caso, não garante o pagamento às pessoas a quem o título for posteriormente endossado (art. 15 c/c art. 77 da Lei Uniforme)."
+    ]
+  },
+  {
+    "id": "38-49",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A quota é indivisível em relação à sociedade, salvo para efeito de transferência (art. 1.056, caput, do CC); a cessão da parte ideal é possível, observado o art. 1.057.",
+      "Correta. Os condôminos de quota indivisa respondem solidariamente pelas prestações necessárias à sua integralização (art. 1.056, § 2º, do CC).",
+      "Errada. No condomínio de quota, os direitos a ela inerentes só podem ser exercidos pelo condômino representante (art. 1.056, § 1º, do CC).",
+      "Errada. Omisso o contrato, a cessão a outro sócio independe de audiência dos demais, mas a cessão a terceiro só é possível se não houver oposição de titulares de mais de um quarto do capital social (art. 1.057 do CC)."
+    ]
+  },
+  {
+    "id": "38-50",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Não podem ser arquivados os atos de empresas mercantis com nome idêntico a outro já existente (art. 35, V, da Lei 8.934/1994, na redação da Lei 14.195/2021).",
+      "Errada. Não há mais vedação ao arquivamento da prorrogação do contrato depois de findo o prazo (o inciso IV do art. 35 da Lei 8.934/1994 foi revogado pela Lei 14.195/2021); vencido o prazo sem oposição de sócio, a sociedade se prorroga por tempo indeterminado (art. 1.033, I, do CC).",
+      "Errada. Sem cláusula restritiva, a alteração contratual aprovada pela maioria do capital exigida em lei pode ser arquivada normalmente; a lei não proíbe esse arquivamento.",
+      "Errada. A lei não exige que o ato constitutivo designe liquidante e forma de liquidação; o que se exige é a indicação do capital e a declaração precisa do objeto (art. 35, III, da Lei 8.934/1994)."
+    ]
+  },
+  {
+    "id": "37-46",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Na sociedade em comum, os bens sociais respondem pelos atos de gestão de qualquer sócio (art. 989 do CC), e todos os sócios respondem solidária e ilimitadamente, com benefício de ordem, do qual fica excluído aquele que contratou pela sociedade, no caso Lauro (art. 990 c/c art. 1.024 do CC).",
+      "Errada. O desconhecimento da sociedade por Agnes não impede que ela alcance os bens sociais (art. 989 do CC) e os bens de Moysés, que também responde ilimitadamente (art. 990).",
+      "Errada. Moysés também responde solidária e ilimitadamente pelas obrigações sociais; ele apenas tem benefício de ordem, por não ter contratado pela sociedade (art. 990 do CC).",
+      "Errada. A sociedade em comum não tem personalidade jurídica nem autonomia patrimonial plena, e os sócios respondem solidária e ilimitadamente pelas obrigações sociais (art. 990 do CC)."
+    ]
+  }
+]

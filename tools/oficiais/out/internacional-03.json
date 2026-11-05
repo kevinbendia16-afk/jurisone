@@ -1,0 +1,27 @@
+[
+  {
+    "id": "2010.2-94",
+    "status": "duvidosa",
+    "motivo": "Questão de 2010, feita sob o CPC/1973. O enunciado não diz se o réu alegou a convenção de arbitragem. Pelo CPC/2015, o juiz não pode conhecer de ofício da convenção de arbitragem (art. 337, §5º), e, se o réu não a alegar na contestação, isso significa que aceitou a jurisdição estatal e renunciou ao juízo arbitral (art. 337, §6º). A extinção sem resolução do mérito (art. 485, VII) só ocorre quando o juiz acolhe essa alegação do réu. Sem esse dado, o gabarito A deixa de ser a única resposta segura e pode ensinar que o juiz extingue o processo de ofício."
+  },
+  {
+    "id": "2010.3-99",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A Conferência de Bretton Woods (1944) criou o FMI e o BIRD (Banco Mundial) e lançou as bases da ordem econômica e financeira do pós-guerra. O GATT, assinado em 1947, completou esse tripé e é tradicionalmente associado ao sistema de Bretton Woods.",
+      "Errada. A ONU foi criada pela Carta de São Francisco (1945), e a Liga das Nações foi dissolvida em 1946. A Corte Internacional de Justiça nasceu da Carta da ONU como sucessora da Corte Permanente de Justiça Internacional, sem relação com Bretton Woods.",
+      "Errada. A Declaração Universal dos Direitos Humanos foi adotada pela Assembleia Geral da ONU em 1948, e os dois Pactos Internacionais, em 1966. Nada disso resultou de Bretton Woods, que foi uma conferência econômico-financeira.",
+      "Errada. O Tribunal de Nuremberg foi instituído pelo Acordo de Londres (agosto de 1945), firmado pelas potências aliadas, e não pela Conferência de Bretton Woods."
+    ]
+  },
+  {
+    "id": "2010.3-100",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Nenhuma regra impõe o foro do local de assinatura do contrato. A autoridade judiciária brasileira é competente quando as partes se submetem, expressa ou tacitamente, à jurisdição nacional, como ocorre com a eleição do foro de São Paulo (art. 22, III, do CPC).",
+      "Correta. A eleição do foro paulista permite que o juiz brasileiro julgue a causa (art. 22, III, do CPC). Mas a lei que rege as obrigações é a do país em que se constituírem (art. 9º da LINDB), e, como o contrato foi celebrado na Cidade do Cabo, aplica-se a lei sul-africana.",
+      "Errada. O juiz brasileiro deve aplicar a lei estrangeira indicada pelas regras de conexão da LINDB, podendo exigir de quem a invoca a prova do seu teor e da sua vigência (art. 14 da LINDB e art. 376 do CPC). A lei estrangeira só deixa de ser aplicada se ofender a soberania nacional, a ordem pública ou os bons costumes (art. 17 da LINDB).",
+      "Errada. Ter partes de nacionalidades diferentes não atrai a lex fori. A eleição de foro define apenas onde a causa será julgada, e a lei material do contrato continua sendo a do local de constituição da obrigação (art. 9º da LINDB)."
+    ]
+  }
+]

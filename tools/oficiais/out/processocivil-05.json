@@ -1,0 +1,262 @@
+[
+  { "id": "23-56", "status": "valida",
+    "explicacoes": [
+      "Errada. O CPC/2015 admite expressamente ação rescisória contra decisão baseada em acórdão de casos repetitivos que não considerou a distinção entre o caso e o padrão decisório (art. 966, V e § 5º, incluído pela Lei 13.256/16).",
+      "Correta. Cabe ação rescisória por violação manifesta de norma jurídica quando a decisão aplica precedente repetitivo sem considerar a distinção do caso concreto (art. 966, V e § 5º). O autor deve demonstrar, fundamentadamente, a situação particular que exigia outra solução (art. 966, § 6º).",
+      "Errada. Prova falsa é fundamento autônomo (art. 966, VI) e não se confunde com a aplicação equivocada de precedente, que se enquadra no art. 966, V e § 5º.",
+      "Errada. Ofensa à coisa julgada (art. 966, IV) pressupõe desrespeito a julgado anterior, o que não ocorreu. O fundamento cabível é a violação manifesta de norma jurídica por ausência de distinção (art. 966, V e § 5º)."
+    ] },
+  { "id": "23-57", "status": "valida",
+    "explicacoes": [
+      "Errada. A desistência homologada extingue o processo sem resolução do mérito (art. 485, VIII) e não gera coisa julgada material, de modo que a ação pode ser reproposta (art. 486).",
+      "Errada. Litispendência exige a repetição de ação que ainda está em curso (art. 337, §§ 1º a 3º); o primeiro processo já foi extinto.",
+      "Correta. Extinto o processo sem resolução do mérito e reiterado o pedido, a nova ação é distribuída por dependência ao mesmo juízo (art. 286, II), regra que impede a escolha do juiz.",
+      "Errada. A livre distribuição é afastada pelo art. 286, II, que impõe a distribuição por dependência quando o pedido é reiterado após extinção sem resolução do mérito."
+    ] },
+  { "id": "22-53", "status": "valida",
+    "explicacoes": [
+      "Errada. Não cabe mandado de segurança contra decisão judicial da qual caiba recurso (art. 5º, II, da Lei 12.016/09 e Súmula 267 do STF); a sentença é impugnável por apelação.",
+      "Errada. A tutela provisória concedida na sentença não é atacada por agravo de instrumento, mas por apelação (art. 1.013, § 5º).",
+      "Correta. O capítulo da sentença que concede, confirma ou revoga tutela provisória é impugnável na apelação (art. 1.013, § 5º). Nesse capítulo a apelação não tem efeito suspensivo automático, que pode ser pedido ao tribunal (art. 1.012, § 1º, V, e §§ 3º e 4º).",
+      "Errada. Agravo de instrumento não serve para impugnar sentença; tanto a tutela provisória concedida na sentença quanto a condenação são atacadas por apelação (arts. 1.009 e 1.013, § 5º)."
+    ] },
+  { "id": "22-54", "status": "valida",
+    "explicacoes": [
+      "Errada. Quem pede a rescisão de contrato celebrado com vários contratantes deve demandar todos, pois a relação é incindível: o litisconsórcio é necessário e unitário (arts. 114 e 116), não simples.",
+      "Correta. A rescisão do contrato atinge necessariamente todos os contratantes, o que impõe litisconsórcio passivo necessário (art. 114). Faltando um deles, o juiz determina que o autor requeira sua citação no prazo assinado, sob pena de extinção do processo (art. 115, parágrafo único).",
+      "Errada. O litisconsórcio não é facultativo, mas necessário (art. 114), e a sentença não pode prejudicar quem não foi parte (art. 506).",
+      "Errada. O litisconsórcio é necessário e unitário, não simples; proferida sem a citação de todos, a sentença seria nula (art. 115, I)."
+    ] },
+  { "id": "22-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A reconvenção é ação autônoma do réu e tem valor da causa próprio (art. 292, caput), que não se confunde com o da ação principal.",
+      "Errada. O art. 292, caput, exige a indicação do valor da causa também na reconvenção.",
+      "Correta. Na ação sobre a validade de ato jurídico, o valor é o do ato ou de sua parte controvertida (R$ 200.000,00, art. 292, II); na indenizatória, inclusive por dano moral, é o valor pretendido (R$ 20.000,00, art. 292, V); havendo cumulação, os valores se somam (art. 292, VI).",
+      "Errada. O pedido de dano moral deve ter valor certo, que integra o valor da causa (art. 292, V), e, cumulado com o outro pedido, os valores se somam (art. 292, VI)."
+    ] },
+  { "id": "22-56", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão que indefere prova não está no rol do art. 1.015 e não preclui: pode ser impugnada em preliminar de apelação ou nas contrarrazões (art. 1.009, § 1º). Mesmo com a taxatividade mitigada (Tema 988 do STJ), a falta de agravo não gera preclusão.",
+      "Errada. O CPC/2015 não prevê protesto antipreclusivo; a questão não agravável simplesmente não preclui e é suscitada na apelação (art. 1.009, § 1º).",
+      "Correta. As interlocutórias fora do rol do art. 1.015, como a que indefere prova pericial, não precluem e devem ser suscitadas em preliminar de apelação ou nas contrarrazões (art. 1.009, § 1º).",
+      "Errada. O agravo retido foi extinto pelo CPC/2015; as decisões não agraváveis são impugnadas na apelação (art. 1.009, § 1º)."
+    ] },
+  { "id": "22-57", "status": "valida",
+    "explicacoes": [
+      "Errada. Perempção é a perda do direito de ação após três extinções por abandono (art. 486, § 3º), o que não ocorreu.",
+      "Errada. No CPC/2015 a questão prejudicial decidida expressa e incidentalmente também faz coisa julgada quando presentes os requisitos do art. 503, § 1º, como no caso.",
+      "Errada. Houve contraditório efetivo e exame de DNA, sem restrição probatória nem limitação de cognição, de modo que não incide a exceção do art. 503, § 2º.",
+      "Correta. Em processo iniciado na vigência do CPC/2015 (art. 1.054), a paternidade, decidida como prejudicial da qual dependia o julgamento, com contraditório prévio e efetivo e por juízo competente, é alcançada pela coisa julgada (art. 503, § 1º). A nova ação deve ser extinta sem resolução do mérito (art. 485, V)."
+    ] },
+  { "id": "22-58", "status": "valida",
+    "explicacoes": [
+      "Errada. O parcelamento do art. 916 é próprio da execução de título extrajudicial; o § 7º do mesmo artigo veda sua aplicação ao cumprimento de sentença.",
+      "Errada. O parcelamento legal exige depósito de 30% do valor, mais custas e honorários (art. 916, caput), e, de todo modo, não se aplica ao cumprimento de sentença (art. 916, § 7º).",
+      "Correta. O art. 916, § 7º, do CPC dispõe expressamente que o parcelamento não se aplica ao cumprimento da sentença; sem concordância do exequente, o juiz não pode deferi-lo.",
+      "Errada. O princípio da menor onerosidade (art. 805) não afasta vedação legal expressa, e a execução se realiza no interesse do exequente (art. 797)."
+    ] },
+  { "id": "21-53", "status": "valida",
+    "explicacoes": [
+      "Correta. Ao alegar ilegitimidade passiva, o réu deve indicar o sujeito passivo correto quando o conhecer (art. 339), e o autor pode alterar a inicial para substituir o réu em 15 dias (art. 338).",
+      "Errada. A assistência litisconsorcial é intervenção voluntária de terceiro (art. 124) e não resolve a ilegitimidade do réu.",
+      "Errada. A denunciação da lide pressupõe direito de regresso de quem é parte legítima (art. 125); Lucas não tem responsabilidade pelo fato.",
+      "Errada. O chamamento ao processo serve para trazer o afiançado, outros fiadores ou devedores solidários (art. 130); Lucas não é devedor, mas parte ilegítima."
+    ] },
+  { "id": "21-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A conversão da indisponibilidade em penhora exige prévia intimação do executado para, em 5 dias, alegar impenhorabilidade ou excesso, e só ocorre se a manifestação for rejeitada ou não apresentada (art. 854, §§ 2º, 3º e 5º).",
+      "Errada. A indisponibilidade de ativos é feita sem dar ciência prévia ao executado (art. 854, caput); o contraditório é diferido, não havendo nulidade.",
+      "Correta. Havendo bloqueio excessivo, o juiz deve, de ofício e em 24 horas a contar da resposta, determinar o cancelamento do excesso, a ser cumprido pela instituição financeira em igual prazo (art. 854, § 1º).",
+      "Errada. O juiz não pode desconsiderar o excesso: primeiro cancela de ofício a indisponibilidade excessiva (art. 854, § 1º) e só então intima o executado, que poderá alegar impenhorabilidade ou excesso remanescente (art. 854, §§ 2º e 3º)."
+    ] },
+  { "id": "21-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A cirurgia é medida satisfativa, logo tutela antecipada, não cautelar. O pedido principal em 30 dias é regra da tutela cautelar antecedente (art. 308).",
+      "Correta. Sendo a urgência contemporânea à propositura, a inicial pode limitar-se ao pedido de tutela antecipada e à indicação do pedido final (art. 303). Concedida a tutela, o autor adita a inicial, complementando a argumentação e juntando novos documentos, em 15 dias ou prazo maior fixado pelo juiz (art. 303, § 1º, I).",
+      "Errada. No procedimento antecedente o CPC permite a juntada de novos documentos no aditamento da inicial (art. 303, § 1º, I).",
+      "Errada. O CPC admite tanto a tutela antecipada antecedente (arts. 303 e 304) quanto a tutela cautelar antecedente (arts. 305 a 310)."
+    ] },
+  { "id": "21-56", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão não está no rol do art. 1.015 e, além disso, o juiz de primeiro grau nem tem competência para o juízo de admissibilidade da apelação (art. 1.010, § 3º); o meio adequado é a reclamação.",
+      "Correta. No CPC/2015 a apelação é remetida ao tribunal independentemente de juízo de admissibilidade (art. 1.010, § 3º). Ao inadmiti-la, o juiz usurpa a competência do Tribunal de Justiça, cabendo reclamação (art. 988, I).",
+      "Errada. O agravo interno cabe contra decisão do relator no tribunal (art. 1.021), não contra decisão do juiz de primeiro grau.",
+      "Errada. Não cabe nova apelação contra o ato que inadmite a apelação anterior; a usurpação de competência é combatida por reclamação (art. 988, I)."
+    ] },
+  { "id": "21-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O CPC/2015 aboliu o incidente em autos apartados: a impugnação é feita na contestação, na réplica, nas contrarrazões ou por petição simples, nos próprios autos e sem suspensão do processo (art. 100).",
+      "Correta. Deferida a gratuidade, a parte contrária pode impugná-la na própria contestação (art. 100). A presunção de veracidade da alegação de insuficiência vale só para pessoa natural (art. 99, § 3º); a pessoa jurídica deve comprovar a impossibilidade de arcar com os encargos (Súmula 481 do STJ).",
+      "Errada. A presunção de veracidade só beneficia a pessoa natural (art. 99, § 3º); a pessoa jurídica precisa comprovar sua hipossuficiência (Súmula 481 do STJ), e a ré não tem o ônus de provar o contrário.",
+      "Errada. O agravo de instrumento cabe contra a decisão que indefere a gratuidade ou acolhe o pedido de sua revogação (arts. 101 e 1.015, V); contra o deferimento, o meio é a impugnação do art. 100."
+    ] },
+  { "id": "21-58", "status": "valida",
+    "explicacoes": [
+      "Errada. A ação monitória pode ter por objeto o adimplemento de obrigação de fazer ou de não fazer (art. 700, III).",
+      "Errada. Na ação monitória admite-se reconvenção, vedada apenas a reconvenção à reconvenção (art. 702, § 6º).",
+      "Correta. O CPC/2015 ampliou o objeto da monitória, que pode ser usada por quem, com base em prova escrita sem eficácia de título executivo, exige o adimplemento de obrigação de fazer ou de não fazer (art. 700, III).",
+      "Errada. A defesa do réu na ação monitória é feita por embargos (art. 702), e não por contestação."
+    ] },
+  { "id": "20-53", "status": "valida",
+    "explicacoes": [
+      "Errada. O réu é citado com antecedência mínima de 20 dias da audiência (art. 334, caput), e o prazo de 15 dias para contestar conta-se da audiência ou do protocolo do pedido de cancelamento (art. 335, I e II).",
+      "Errada. A audiência só deixa de ser realizada se ambas as partes manifestarem expressamente desinteresse ou se o direito não admitir autocomposição (art. 334, § 4º); a recusa apenas da autora não basta.",
+      "Errada. Quando o direito não admite autocomposição, a audiência não é realizada (art. 334, § 4º, II).",
+      "Correta. O não comparecimento injustificado à audiência de conciliação é ato atentatório à dignidade da justiça, sancionado com multa de até 2% da vantagem econômica pretendida ou do valor da causa (art. 334, § 8º)."
+    ] },
+  { "id": "20-54", "status": "valida",
+    "explicacoes": [
+      "Errada. No CPC/2015 a impugnação ao valor da causa é feita em preliminar de contestação (arts. 293 e 337, III), e não em incidente autônomo, como no CPC/1973.",
+      "Correta. A decisão que rejeita a impugnação ao valor da causa não está no rol do art. 1.015, não preclui e pode ser impugnada em preliminar de apelação (art. 1.009, § 1º).",
+      "Errada. Na cumulação de pedidos, o valor da causa é a soma dos valores de todos eles (art. 292, VI), ou seja, R$ 100.000,00.",
+      "Errada. O juiz decide a impugnação apresentada na contestação sem precisar aguardar a sentença (art. 293), normalmente na fase de saneamento."
+    ] },
+  { "id": "20-55", "status": "valida",
+    "explicacoes": [
+      "Errada. Os honorários são devidos também quando o advogado atua em causa própria (art. 85, § 17).",
+      "Errada. Os honorários de sucumbência têm natureza alimentar (art. 85, § 14, e Súmula Vinculante 47).",
+      "Errada. O advogado pode requerer que os honorários sejam pagos em favor da sociedade de advogados que integre como sócio (art. 85, § 15).",
+      "Correta. Se a decisão transitada em julgado for omissa quanto aos honorários ou ao seu valor, cabe ação autônoma para sua definição e cobrança (art. 85, § 18), regra que superou a Súmula 453 do STJ."
+    ] },
+  { "id": "20-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Se a garantia se desfalcar no curso do processo, o interessado pode exigir reforço da caução (art. 83, § 2º).",
+      "Correta. O autor, brasileiro ou estrangeiro, que reside fora do Brasil e não tem no país bens imóveis que assegurem o pagamento deve prestar caução suficiente às custas e aos honorários do advogado da parte contrária (art. 83, caput).",
+      "Errada. A caução não é exigida na reconvenção (art. 83, § 1º, III).",
+      "Errada. A homologação pelo STJ é exigida para decisões estrangeiras (arts. 960 e 961 do CPC e art. 105, I, i, da CF), não para contratos; a autoridade brasileira é competente porque a obrigação deve ser cumprida no Brasil (art. 21, II)."
+    ] },
+  { "id": "20-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O CPC/2015 admite negócios processuais atípicos: partes capazes, em causa que admita autocomposição, podem convencionar sobre ônus, poderes, faculdades e deveres processuais, inclusive ampliação de prazos (art. 190).",
+      "Errada. A cláusula não é nula, pois se trata de negócio processual válido (art. 190); ouvir as partes antes (art. 10) não tornaria correta a declaração de nulidade.",
+      "Correta. Partes capazes, em causa sobre direito que admite autocomposição, podem ajustar o procedimento e seus prazos (art. 190). O juiz só recusa aplicação em caso de nulidade, inserção abusiva em contrato de adesão ou manifesta vulnerabilidade de uma das partes (art. 190, parágrafo único), hipóteses ausentes.",
+      "Errada. O juiz controla de ofício a validade das convenções e deve recusar-lhes aplicação em caso de inserção abusiva em contrato de adesão ou de parte em manifesta situação de vulnerabilidade (art. 190, parágrafo único)."
+    ] },
+  { "id": "20-58", "status": "valida",
+    "explicacoes": [
+      "Correta. O advogado do autor é sobrinho do promotor (parente colateral de 3º grau; o filho adotivo tem os mesmos direitos, art. 227, § 6º, da CF), hipótese de impedimento (art. 144, III) que se estende ao Ministério Público (art. 148, I). A arguição é feita por petição fundamentada na primeira oportunidade de falar nos autos (art. 148, § 1º).",
+      "Errada. O CPC/2015 não prevê exceção como peça autônoma; impedimento e suspeição são arguidos por petição específica (arts. 146 e 148, § 1º).",
+      "Errada. Os motivos de impedimento e de suspeição aplicam-se ao membro do Ministério Público (art. 148, I).",
+      "Errada. O impedimento alcança parentes em linha colateral até o terceiro grau, inclusive (art. 144, III)."
+    ] },
+  { "id": "19-53", "status": "desatualizada",
+    "motivo": "A questão (XIX Exame, ainda pelo CPC/1973) cobra a ação de nunciação de obra nova e o embargo extrajudicial do art. 935 do CPC/1973, que fundamenta o gabarito (C). O CPC/2015 extinguiu esse procedimento especial e não reproduziu o embargo extrajudicial; hoje a tutela contra obra irregular do vizinho segue o procedimento comum, com tutela provisória." },
+  { "id": "19-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A improcedência liminar é sentença de mérito (art. 487, I) e faz coisa julgada material; se não houver apelação, o réu é intimado do trânsito em julgado (arts. 332, § 2º, e 241).",
+      "Correta. Interposta apelação contra a sentença de improcedência liminar, o juiz pode retratar-se em 5 dias (art. 332, § 3º); se não o fizer, manda citar o réu para contrarrazões (art. 332, § 4º). Hoje a improcedência liminar depende das hipóteses do art. 332 (como acórdão em recurso repetitivo), não bastando sentenças anteriores do próprio juízo.",
+      "Errada. O CPC só autoriza o julgamento liminar de improcedência (art. 332); não existe procedência liminar sem citação do réu, o que violaria o contraditório.",
+      "Errada. A improcedência liminar só cabe nas causas que dispensem a fase instrutória (art. 332, caput); sendo necessária perícia, o processo deve seguir."
+    ] },
+  { "id": "19-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A desistência gera sentença terminativa, sem resolução do mérito (art. 485, VIII), que não faz coisa julgada material; a ação pode ser reproposta (art. 486).",
+      "Errada. A causa versa sobre direito patrimonial disponível, e o processo depende da iniciativa da parte (arts. 2º e 141); o juiz não pode prosseguir de ofício contra a vontade do autor.",
+      "Errada. O consentimento do réu só é exigido depois de oferecida a contestação (art. 485, § 4º); antes da citação, a desistência é unilateral.",
+      "Correta. Antes da citação, a desistência independe da concordância do réu e, homologada (art. 200, parágrafo único), leva à extinção do processo sem resolução do mérito (art. 485, VIII)."
+    ] },
+  { "id": "19-56", "status": "desatualizada",
+    "motivo": "A questão (XIX Exame, ainda pelo CPC/1973) se apoia nas Súmulas 634 e 635 do STF, que exigiam medida cautelar autônoma dirigida ao presidente do tribunal de origem. O CPC/2015 (art. 1.029, § 5º, III, com redação da Lei 13.256/16) substituiu essa cautelar por simples requerimento ao presidente ou vice-presidente do tribunal recorrido, entre a interposição e a publicação da decisão de admissão; o procedimento descrito no gabarito (D) não corresponde mais ao vigente." },
+  { "id": "19-57", "status": "desatualizada",
+    "motivo": "O gabarito (A) reproduz o art. 296 do CPC/1973, que previa retratação em 48 horas. Pelo art. 331 do CPC/2015, o juiz pode retratar-se em 5 dias e, se não o fizer, deve mandar citar o réu para responder ao recurso (art. 331, § 1º), o que também altera o julgamento da alternativa C." },
+  { "id": "19-58", "status": "valida",
+    "explicacoes": [
+      "Errada. A tutela de urgência pode ser concedida liminarmente, antes da oitiva do réu (arts. 9º, parágrafo único, I, e 300, § 2º).",
+      "Correta. Presentes a probabilidade do direito e o perigo de dano (fumus boni iuris e periculum in mora), o juiz deve conceder a tutela de urgência, inclusive liminarmente (art. 300, caput e § 2º); os comprovantes de pagamento demonstram a probabilidade do direito.",
+      "Errada. A tutela provisória conserva sua eficácia na pendência do processo, mas pode ser revogada ou modificada a qualquer tempo (art. 296).",
+      "Errada. O CPC admite a concessão de tutela provisória na sentença, caso em que a apelação não tem efeito suspensivo nesse capítulo (arts. 1.012, § 1º, V, e 1.013, § 5º)."
+    ] },
+  { "id": "18-53", "status": "desatualizada",
+    "motivo": "A questão aplica a medida cautelar preparatória do CPC/1973 (arts. 806 e 808: ação principal em 30 dias corridos da efetivação, sob pena de perda de eficácia e extinção da cautelar). O CPC/2015 extinguiu o processo cautelar autônomo: na tutela cautelar antecedente o pedido principal é formulado nos mesmos autos em 30 dias (arts. 308 e 309), e a forma de contagem desse prazo (dias úteis ou corridos) é controvertida, o que compromete a premissa e a conclusão sobre o dia 14 de março." },
+  { "id": "18-54", "status": "valida",
+    "explicacoes": [
+      "Errada. Na execução por carta, embora a defesa possa ser oferecida em qualquer dos juízos, a competência para julgá-la é do deprecado quando versar unicamente sobre vícios da penhora, avaliação ou alienação por ele realizadas (art. 914, § 2º, e Súmula 46 do STJ).",
+      "Correta. A defesa pode ser oferecida no juízo deprecante ou no deprecado, mas, versando unicamente sobre vício da avaliação feita no juízo deprecado, é este o competente para julgá-la (art. 914, § 2º, aplicável ao cumprimento de sentença pelos arts. 513 e 771, e Súmula 46 do STJ).",
+      "Errada. Não há obrigação de oferecer a defesa no juízo deprecado, e o julgamento do vício de avaliação feita por carta cabe ao deprecado, não ao deprecante (art. 914, § 2º).",
+      "Errada. A defesa pode ser oferecida em qualquer dos dois juízos (art. 914, § 2º), não apenas no deprecante."
+    ] },
+  { "id": "18-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão que fixa a multa não faz coisa julgada nem preclui, e o juiz pode, de ofício ou a requerimento, modificar o valor ou a periodicidade da multa vincenda (art. 537, § 1º, e Tema 706 do STJ).",
+      "Correta. Se a multa se mostrar insuficiente, o juiz pode aumentá-la (art. 537, § 1º, I) ou determinar outras medidas necessárias à satisfação do exequente (art. 536, § 1º, e art. 139, IV). A multa não se submete à coisa julgada (Tema 706 do STJ).",
+      "Errada. Como a multa não faz coisa julgada, sua alteração dispensa ação rescisória (art. 537, § 1º, e Tema 706 do STJ).",
+      "Errada. A multa pode ser majorada (art. 537, § 1º), e o juiz não pode, de ofício, condenar a ré por danos morais não pedidos (arts. 141 e 492); as perdas e danos não se confundem com a multa (art. 500)."
+    ] },
+  { "id": "18-56", "status": "valida",
+    "explicacoes": [
+      "Errada. A improcedência por falta de provas é decisão de mérito (art. 487, I) e faz coisa julgada material (art. 502), impedindo a repropositura do pedido de lucros cessantes.",
+      "Errada. O prazo decadencial da ação rescisória é de 2 anos contados do trânsito em julgado (art. 975).",
+      "Errada. Sentença proferida por juiz impedido (irmão da parte, art. 144, IV) é atacada por ação rescisória (art. 966, II); a ação anulatória do art. 966, § 4º, serve para atos de disposição de direitos praticados pelas partes.",
+      "Correta. A propositura da ação rescisória não impede o cumprimento da decisão rescindenda, ressalvada a concessão de tutela provisória (art. 969); a mera injustiça da sentença não basta para suspendê-la nem para rescindi-la."
+    ] },
+  { "id": "18-57", "status": "valida",
+    "explicacoes": [
+      "Errada. A sentença arbitral nacional é título executivo judicial (art. 515, VII), mas a estrangeira só se torna exequível no Brasil após homologação pelo STJ (art. 515, VIII, e art. 35 da Lei 9.307/96).",
+      "Errada. A sentença arbitral é título judicial, não extrajudicial, e, sendo estrangeira, depende de homologação pelo STJ (art. 35 da Lei 9.307/96).",
+      "Errada. Como o devedor e seu patrimônio estão no Brasil, a execução deve ocorrer aqui, após a homologação da sentença arbitral estrangeira pelo STJ (art. 35 da Lei 9.307/96 e art. 960, § 3º, do CPC).",
+      "Correta. A sentença arbitral proferida fora do território nacional é estrangeira (art. 34, parágrafo único, da Lei 9.307/96) e, para ser executada no Brasil, depende de homologação pelo STJ (art. 35 da Lei 9.307/96, art. 105, I, i, da CF e art. 960, § 3º, do CPC). Depois, o cumprimento se faz na Justiça Federal (art. 109, X, da CF)."
+    ] },
+  { "id": "18-58", "status": "valida",
+    "explicacoes": [
+      "Errada. O incidente de remoção de inventariante corre em apenso aos autos do inventário (art. 623, parágrafo único).",
+      "Errada. O CPC não prevê afastamento imediato: o inventariante é intimado para, em 15 dias, defender-se e produzir provas (art. 623), e só depois o juiz decide (art. 624).",
+      "Errada. Removido o inventariante, o juiz nomeia outro observando a ordem do art. 617 (art. 624, parágrafo único), sem preferência para quem requereu a remoção.",
+      "Correta. O inventariante removido entrega imediatamente os bens do espólio ao substituto; se não o fizer, será compelido por mandado de busca e apreensão ou de imissão na posse, conforme se trate de móvel ou imóvel, sem prejuízo de multa de até 3% do valor dos bens inventariados (art. 625)."
+    ] },
+  { "id": "17-53", "status": "valida",
+    "explicacoes": [
+      "Errada. Pela Lei 11.804/08, o réu é citado para apresentar resposta em 5 dias (art. 7º); o prazo não corre da audiência.",
+      "Correta. Nos alimentos gravídicos o réu é citado para responder em 5 dias (art. 7º da Lei 11.804/08); sendo a citação feita por oficial de justiça, o prazo começa da juntada aos autos do mandado cumprido (art. 231, II, do CPC).",
+      "Errada. A defesa é apresentada em 5 dias contados da citação (art. 7º da Lei 11.804/08), e não na audiência, como no rito da Lei 5.478/68.",
+      "Errada. O prazo de resposta nos alimentos gravídicos é de 5 dias (art. 7º da Lei 11.804/08), não de 15."
+    ] },
+  { "id": "17-54", "status": "valida",
+    "explicacoes": [
+      "Correta. A extinção por abandono exige prévia intimação pessoal da parte para suprir a falta em 5 dias (art. 485, III e § 1º). Sua ausência é vício de procedimento (error in procedendo), e, como a causa não está madura (o réu nem foi citado), o pedido é de anulação da sentença.",
+      "Errada. Erro material é inexatidão evidente, corrigível de ofício ou por embargos (art. 494, I); a falta de intimação pessoal é vício de procedimento.",
+      "Errada. Error in judicando é erro no conteúdo do julgamento e leva à reforma; aqui houve desrespeito à forma (falta de intimação pessoal, art. 485, § 1º), o que leva à anulação.",
+      "Errada. O julgamento imediato do mérito pelo tribunal exige causa madura (art. 1.013, § 3º), o que não ocorre sem a citação do réu."
+    ] },
+  { "id": "17-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A escusa de depor sobre fatos criminosos ou torpes não se aplica às ações de estado e de família, como a anulação de casamento (art. 388, I e parágrafo único).",
+      "Errada. A parte intimada que não comparece ou se recusa a depor sofre a pena de confesso (art. 385, § 1º).",
+      "Correta. A parte responde pessoalmente sobre os fatos articulados, sem usar escritos preparados, mas o juiz permite a consulta a notas breves que objetivem completar esclarecimentos (art. 387).",
+      "Errada. O juiz pode, de ofício e a qualquer tempo, determinar o comparecimento pessoal das partes para interrogá-las sobre os fatos da causa (arts. 139, VIII, e 385, caput)."
+    ] },
+  { "id": "17-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Os embargos são ação autônoma, mas são distribuídos por dependência e autuados em apartado (art. 914, § 1º).",
+      "Errada. No cumprimento de sentença a defesa do executado é a impugnação (art. 525); os embargos são próprios da execução de título extrajudicial (art. 914).",
+      "Errada. Em regra os embargos não têm efeito suspensivo, que depende de requerimento, garantia do juízo e requisitos da tutela provisória (art. 919, caput e § 1º).",
+      "Correta. O executado pode opor embargos independentemente de penhora, depósito ou caução (art. 914, caput)."
+    ] },
+  { "id": "17-57", "status": "valida",
+    "explicacoes": [
+      "Correta. A multa periódica independe de requerimento da parte e pode ser fixada de ofício na fase de conhecimento, em tutela provisória, na sentença ou na execução (art. 537, caput).",
+      "Errada. A decisão que fixa a multa não preclui nem faz coisa julgada; o juiz pode modificar o valor ou a periodicidade da multa vincenda (art. 537, § 1º, e Tema 706 do STJ).",
+      "Errada. Não há teto legal da multa vinculado ao valor da causa; o juiz pode reduzir a multa vincenda que se tornar excessiva (art. 537, § 1º, I), mas o total acumulado pode superar o valor da obrigação.",
+      "Errada. A multa coercitiva e a multa por litigância de má-fé têm naturezas distintas e são cumuláveis (arts. 81 e 537); o descumprimento injustificado da ordem, aliás, sujeita o executado às penas de má-fé (art. 536, § 3º)."
+    ] },
+  { "id": "17-58", "status": "valida",
+    "explicacoes": [
+      "Errada. A injustiça da sentença não autoriza ação anulatória, que serve para atos de disposição de direitos praticados pelas partes (art. 966, § 4º); contra sentença de mérito transitada em julgado, o meio é a ação rescisória.",
+      "Errada. Decisão em ação individual de terceiro não vincula Luan, e nem mesmo a declaração de inconstitucionalidade pelo STF desfaz automaticamente a coisa julgada anterior, sendo necessária ação rescisória (Tema 733 do STF).",
+      "Errada. A reclamação serve para preservar a competência e garantir a autoridade das decisões do tribunal e de precedentes vinculantes (art. 988); julgado em ação individual de outro servidor não tem esse efeito.",
+      "Correta. A via para desconstituir a sentença de mérito transitada em julgado é a ação rescisória, que, fundada em violação manifesta de norma jurídica (art. 966, V), não permite rediscutir fatos e provas."
+    ] },
+  { "id": "16-53", "status": "valida",
+    "explicacoes": [
+      "Errada. A cumulação exige identidade de procedimento, além de mesmo executado e mesmo juízo competente (art. 780).",
+      "Errada. Os requisitos da cumulação de execuções são pressupostos de regularidade do processo, que o juiz pode examinar de ofício (arts. 780 e 485, § 3º, c/c art. 771, parágrafo único).",
+      "Errada. A cumulação só é permitida quando o executado for o mesmo (art. 780).",
+      "Correta. O exequente pode cumular várias execuções, ainda que fundadas em títulos diferentes, quando o executado for o mesmo e desde que para todas seja competente o mesmo juízo e idêntico o procedimento (art. 780)."
+    ] },
+  { "id": "16-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A petição eletrônica enviada para atender prazo é tempestiva se transmitida até as 24 horas do último dia (art. 3º, parágrafo único, da Lei 11.419/06 e art. 213 do CPC), não até as 20 horas.",
+      "Errada. A arguição de falsidade do documento original é processada eletronicamente, na forma da lei processual (art. 11, § 2º, da Lei 11.419/06).",
+      "Errada. Se o juízo de destino não tiver sistema compatível, os autos eletrônicos devem ser impressos em papel e autuados (art. 12, § 2º, da Lei 11.419/06); não há a vedação nem a ressalva mencionadas.",
+      "Correta. A publicação no Diário da Justiça eletrônico substitui qualquer outro meio de publicação oficial, salvo quando a lei exige intimação ou vista pessoal (art. 4º, § 2º, da Lei 11.419/06), e nos casos urgentes o juiz pode determinar outro meio (art. 5º, § 5º). Considera-se publicado no primeiro dia útil seguinte à disponibilização, e o prazo começa no primeiro dia útil seguinte à publicação (art. 4º, §§ 3º e 4º, e art. 224, §§ 2º e 3º, do CPC)."
+    ] }
+]

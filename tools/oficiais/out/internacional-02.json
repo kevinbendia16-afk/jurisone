@@ -1,0 +1,367 @@
+[
+  {
+    "id": "26-21",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O asilo diplomático só é admitido em legações (sede da missão diplomática e residência do chefe de missão), navios de guerra e acampamentos ou aeronaves militares, e apenas a perseguidos por motivos ou delitos políticos (arts. I e III da Convenção de Caracas sobre Asilo Diplomático, 1954). Consulado não serve, e extorsão é crime comum.",
+      "Errada. Consulado não é território do Estado estrangeiro, e o asilo territorial é concedido pelo Estado em seu próprio território (art. 27 da Lei 13.445/17). Aqui o pedido foi feito no Brasil, dentro de uma repartição consular.",
+      "Errada. A ausência de tratado não impede a extradição, que pode fundar-se em promessa de reciprocidade (Lei 13.445/17, arts. 81 e seguintes; jurisprudência do STF).",
+      "Correta. A Convenção de Caracas (1954) só admite o asilo diplomático em legações, navios de guerra e acampamentos ou aeronaves militares, não em consulados. Além disso, não cabe asilo a quem responde por crime comum, como a extorsão (art. III)."
+    ]
+  },
+  {
+    "id": "25-20",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Brasil (Decreto 8.660/16) e Estados Unidos são partes da Convenção da Apostila de Haia, que dispensa a legalização consular. A apostila é emitida pela autoridade competente do Estado de onde provém o documento (arts. 2º, 3º e 6º).",
+      "Errada. Entre Estados partes da Convenção da Apostila, a legalização consular (consularização) foi substituída pela apostila (arts. 2º e 3º).",
+      "Errada. Não existe essa exigência: a legalização de documento estrangeiro se faz pela apostila emitida no país de origem, não por notarização em consulado norte-americano no Brasil.",
+      "Errada. A apostila não é aposta pelo consulado brasileiro, e sim pela autoridade designada pelo Estado de origem do documento (arts. 3º e 6º da Convenção)."
+    ]
+  },
+  {
+    "id": "25-21",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O local da celebração rege as obrigações contratuais (art. 9º da LINDB), não a capacidade das partes, que segue a lei do domicílio (art. 7º).",
+      "Correta. A capacidade da pessoa rege-se pela lei do país em que ela é domiciliada (art. 7º, caput, da LINDB). François vive em Paris, logo aplica-se a lei francesa.",
+      "Errada. A lei do local da prestação dos serviços não rege a capacidade, que é matéria do estatuto pessoal regida pela lei do domicílio (art. 7º da LINDB).",
+      "Errada. A cláusula de escolha de lei não alcança a capacidade, que é regida imperativamente pela lei do domicílio da pessoa (art. 7º da LINDB)."
+    ]
+  },
+  {
+    "id": "24-20",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O lugar do casamento não fixa competência exclusiva: o divórcio pode ser requerido na Holanda, onde o casal vive, ou no Brasil. A competência exclusiva brasileira (art. 23, III, do CPC) só alcança a partilha de bens situados no Brasil, e o casal não tem bens.",
+      "Errada. A sentença estrangeira de divórcio consensual produz efeitos no Brasil independentemente de homologação pelo STJ (art. 961, §5º, do CPC). A averbação é feita diretamente no registro civil.",
+      "Correta. Sem filhos e sem bens, trata-se de divórcio consensual simples, que dispensa homologação pelo STJ (art. 961, §5º, do CPC) e pode ser averbado diretamente no cartório, conforme regulamentação do CNJ (antigo Provimento 53/2016).",
+      "Errada. Não há exigência de residência no Brasil. A jurisdição brasileira pode ser exercida (art. 21, III, do CPC, casamento celebrado aqui), e o divórcio consensual sem filhos menores pode até ser feito por escritura pública no consulado brasileiro (art. 18, §§ 1º e 2º, da LINDB)."
+    ]
+  },
+  {
+    "id": "24-21",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A sucessão obedece à lei do país em que era domiciliado o falecido (art. 10 da LINDB), e Roger era domiciliado no Brasil, de modo que se aplica a lei brasileira.",
+      "Correta. A lei do domicílio do herdeiro regula a capacidade para suceder (art. 10, §2º, da LINDB). O filho reside na Suíça, logo aplica-se a lei suíça.",
+      "Errada. A forma do testamento segue a lei do local em que foi lavrado (locus regit actum), não a lei da nacionalidade do testador.",
+      "Errada. A autoridade brasileira tem competência exclusiva para o inventário e a partilha dos bens situados no Brasil (art. 23, II, do CPC). O imóvel suíço será inventariado na Suíça (pluralidade de juízos sucessórios)."
+    ]
+  },
+  {
+    "id": "23-20",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Bons ofícios, conciliação e mediação podem ser usados a qualquer tempo, inclusive durante o procedimento do grupo especial (art. 5º do Entendimento sobre Solução de Controvérsias).",
+      "Correta. Cabe ao Órgão de Solução de Controvérsias adotar o relatório do grupo especial. Se nenhuma parte apelar, ele é adotado em até 60 dias, salvo se o OSC decidir por consenso não adotá-lo (consenso negativo, arts. 2.1 e 16.4 do ESC).",
+      "Errada. As recomendações e decisões do OSC não podem aumentar nem diminuir os direitos e obrigações previstos nos acordos da OMC (arts. 3.2 e 19.2 do ESC).",
+      "Errada. Só as partes na controvérsia podem apelar. Os terceiros que foram ouvidos pelo grupo especial podem apenas apresentar manifestações escritas e ser ouvidos pelo Órgão de Apelação (art. 17.4 do ESC)."
+    ]
+  },
+  {
+    "id": "23-21",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O ingresso irregular não impede o pedido de refúgio (art. 8º da Lei 9.474/97).",
+      "Errada. O reconhecimento em primeira instância cabe ao CONARE, órgão colegiado vinculado ao Ministério da Justiça e Segurança Pública (art. 12, I, da Lei 9.474/97). O Ministro da Justiça só decide o recurso.",
+      "Correta. O protocolo do pedido autoriza a emissão de carteira de trabalho provisória, e o solicitante pode exercer atividade remunerada enquanto o processo tramita (art. 21, caput e §1º, da Lei 9.474/97).",
+      "Errada. Contra a decisão negativa cabe recurso ao Ministro de Estado da Justiça em 15 dias (art. 29), e essa decisão não admite novo recurso administrativo (art. 31). Não há recurso ao STF."
+    ]
+  },
+  {
+    "id": "22-23",
+    "status": "desatualizada",
+    "motivo": "O gabarito (C) condiciona a extradição aos “requisitos legais do Estatuto do Estrangeiro” (Lei 6.815/80), que foi revogado pela Lei de Migração (Lei 13.445/17, vigente desde 21/11/2017). Hoje os requisitos estão nos arts. 81 a 99 da Lei 13.445/17. A conclusão de fundo continua igual (filho brasileiro não impede a extradição, Súmula 421 do STF, e a reciprocidade basta), mas a alternativa correta cita uma lei revogada."
+  },
+  {
+    "id": "22-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Estar a serviço do Brasil é requisito apenas da alínea b do art. 12, I, da CF. Pela alínea c, o filho de pai ou mãe brasileiros nascido no exterior também é nato se for registrado em repartição brasileira competente ou se vier a residir no Brasil e optar pela nacionalidade.",
+      "Errada. A opção pode ser feita “em qualquer tempo, depois de atingida a maioridade” (art. 12, I, c, da CF, redação da EC 54/07). Ser maior de idade não impede.",
+      "Errada. Quem adquire a nacionalidade pela via do art. 12, I, c, da CF (registro, ou residência mais opção) é brasileiro nato.",
+      "Correta. Sem registro em repartição brasileira, Luca deve passar a residir no Brasil e fazer a opção, que é personalíssima e processada na Justiça Federal (art. 12, I, c, e art. 109, X, da CF). Com isso será brasileiro nato."
+    ]
+  },
+  {
+    "id": "21-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Cada Estado parte indica a sua própria autoridade central para receber e dar andamento aos pedidos (art. 2º do Acordo). Não é o Grupo Mercado Comum quem as designa.",
+      "Errada. O Acordo garante igualdade de tratamento processual e proíbe exigir caução ou depósito em razão de a parte ser nacional ou residente de outro Estado parte (arts. 3º e 4º).",
+      "Errada. A carta rogatória é cumprida segundo a lei do Estado requerido, mas este pode atender, a pedido do Estado requerente, a procedimentos ou formalidades especiais que não sejam incompatíveis com a sua ordem pública (art. 12).",
+      "Correta. Se a sentença ou o laudo arbitral não puder ter eficácia na totalidade, a autoridade do Estado requerido pode admitir a eficácia parcial, a pedido da parte interessada (art. 23 do Acordo)."
+    ]
+  },
+  {
+    "id": "21-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Estado acreditante deve obter o agrément do Estado acreditado antes de nomear o chefe de missão (art. 4º da Convenção de Viena sobre Relações Diplomáticas).",
+      "Errada. O Estado acreditado pode declarar o diplomata persona non grata a qualquer momento e sem ter de explicar os motivos (art. 9º da CVRD). Cabe ao acreditante retirá-lo ou dar por terminadas as suas funções.",
+      "Errada. Se o agente morrer, os membros de sua família continuam a gozar dos privilégios e imunidades até o fim de um prazo razoável para deixar o país (art. 39, 3, da CVRD).",
+      "Correta. A residência particular do agente diplomático goza da mesma inviolabilidade e proteção que os locais da missão (art. 30, 1, da CVRD)."
+    ]
+  },
+  {
+    "id": "20-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O juiz brasileiro aplica a lei estrangeira quando a norma de conexão manda, e pode exigir prova do texto e da vigência (art. 14 da LINDB; art. 376 do CPC). O limite é a ordem pública (art. 17 da LINDB).",
+      "Errada. A eleição do foro brasileiro submete a causa à jurisdição nacional (art. 22, III, do CPC). Não há foro necessário no local em que o contrato foi assinado.",
+      "Correta. As obrigações regem-se pela lei do país em que se constituírem (art. 9º, caput, da LINDB). O contrato foi assinado em Londres, logo aplica-se a lei do Reino Unido, embora o foro eleito seja o brasileiro.",
+      "Errada. Não existe regra de aplicação da lex fori a litígios entre brasileiros e estrangeiros. Vale a norma de conexão da LINDB, que para os contratos é o local de constituição (art. 9º)."
+    ]
+  },
+  {
+    "id": "20-24",
+    "status": "duvidosa",
+    "motivo": "A alternativa B (gabarito) continua correta: a partilha de bens situados no Brasil é de competência exclusiva da Justiça brasileira (art. 23, III, do CPC). A alternativa C, porém, pode também ser considerada correta: o casal tem três filhos menores e bens a partilhar, e um divórcio consensual “qualificado” (que trata de guarda, alimentos ou partilha) depende de homologação pelo STJ, segundo a regulamentação do CNJ (antigo Provimento 53/2016). Além disso, “Mauro não se opõe” não torna a sentença necessariamente consensual. Há risco de duas respostas corretas."
+  },
+  {
+    "id": "19-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A vedação absoluta alcança só o brasileiro nato. O naturalizado pode ser extraditado por crime comum praticado antes da naturalização ou por envolvimento comprovado em tráfico de entorpecentes (art. 5º, LI, da CF).",
+      "Errada. Ter cônjuge ou filho brasileiro não impede a extradição (Súmula 421 do STF). Essa circunstância impede apenas a expulsão (art. 55, II, a, da Lei 13.445/17).",
+      "Correta. O crime comum foi praticado antes da naturalização, hipótese em que a CF admite a extradição do brasileiro naturalizado (art. 5º, LI). A Lei 13.445/17 só veda a extradição do nato (art. 82, I).",
+      "Errada. Um tratado com a França é irrelevante. A extradição se baseia em tratado ou promessa de reciprocidade entre o Brasil e o Estado requerente (a Colômbia)."
+    ]
+  },
+  {
+    "id": "19-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O acionamento da autoridade central estrangeira (arts. 8º e 9º da Convenção da Haia de 1980) só cabe se a criança tiver menos de 16 anos. Com 17 anos, a Convenção não se aplica (art. 4º).",
+      "Errada. Além de a Convenção não incidir por causa da idade, o pedido de retorno tramita entre autoridades centrais e perante a Justiça do Estado em que a criança está, não por ação na Justiça Federal brasileira.",
+      "Correta. A Convenção sobre os Aspectos Civis do Sequestro Internacional de Crianças deixa de se aplicar quando a criança completa 16 anos (art. 4º). A filha tem 17.",
+      "Errada. A guarda conjunta não afasta a Convenção, que protege o direito de guarda exercido por um ou ambos os pais (art. 3º). O óbice aqui é a idade da filha."
+    ]
+  },
+  {
+    "id": "18-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A nacionalidade, nata ou derivada, não é elemento de conexão do regime de bens. O que vale é o domicílio dos nubentes (art. 7º, §4º, da LINDB).",
+      "Errada. O local da celebração rege a forma do casamento (locus regit actum), não o regime de bens.",
+      "Errada. Não há prevalência do domicílio do marido, até porque a CF garante igualdade entre os cônjuges (art. 226, §5º). Com domicílios diversos, aplica-se a lei do primeiro domicílio conjugal (art. 7º, §4º, da LINDB).",
+      "Correta. Os nubentes tinham domicílios diferentes (Rio de Janeiro e Roma), então o regime de bens segue a lei do primeiro domicílio conjugal, São Paulo (art. 7º, §4º, da LINDB)."
+    ]
+  },
+  {
+    "id": "18-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A Convenção Interamericana sobre Cartas Rogatórias não dispensa o exequatur. A citação ordenada por juiz estrangeiro depende de exequatur do STJ (art. 105, I, i, da CF).",
+      "Errada. O exequatur cabe ao STJ, mas o cumprimento da carta rogatória cabe aos juízes federais, não à Justiça estadual (art. 109, X, da CF).",
+      "Correta. Compete ao STJ conceder exequatur às cartas rogatórias (art. 105, I, i, da CF), e aos juízes federais executá-las depois dele (art. 109, X, da CF).",
+      "Errada. A autoridade central (no Brasil, o Ministério da Justiça) só recebe e encaminha os pedidos. O exequatur é do STJ, e a execução é da Justiça Federal."
+    ]
+  },
+  {
+    "id": "17-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF não distingue a forma pela qual o pai adquiriu a nacionalidade: basta pai ou mãe brasileiros, natos ou naturalizados, e o registro em repartição brasileira competente (art. 12, I, c).",
+      "Errada. O motivo da mudança é irrelevante, e trabalho na iniciativa privada não é estar “a serviço da República Federativa do Brasil” (art. 12, I, b). A nacionalidade nata decorre do registro consular (alínea c).",
+      "Errada. Residência no Brasil e opção só são exigidas quando não há registro em repartição brasileira. Cláudia foi registrada no consulado e já é nata (art. 12, I, c, da CF).",
+      "Correta. Nascida no exterior, filha de pai brasileiro (ainda que naturalizado) e registrada em repartição consular brasileira, Cláudia é brasileira nata (art. 12, I, c, da CF, redação da EC 54/07)."
+    ]
+  },
+  {
+    "id": "17-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O foro eleito não determina a lei aplicável. As obrigações regem-se pela lei do país em que se constituírem (art. 9º, caput, da LINDB).",
+      "Correta. O contrato foi celebrado em Caracas, e as obrigações regem-se pela lei do local de sua constituição, a venezuelana (art. 9º, caput, da LINDB).",
+      "Errada. Quando a obrigação deve ser executada no Brasil, a lei brasileira se impõe apenas quanto à forma essencial (art. 9º, §1º, da LINDB). O conteúdo continua regido pela lei do local da constituição.",
+      "Errada. A LINDB não veda a eleição de foro, e o CPC admite cláusula de foro exclusivo estrangeiro em contrato internacional, desde que arguida pelo réu na contestação (art. 25)."
+    ]
+  },
+  {
+    "id": "16-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Mercosul tem sistema próprio de solução de controvérsias, hoje regido pelo Protocolo de Olivos. Não adota o Entendimento sobre Solução de Controvérsias da OMC (Anexo 2 do Acordo de Marrakesh).",
+      "Errada. O Protocolo de Brasília (1991) foi o sistema provisório, e o Protocolo de Ouro Preto (1994) definiu a estrutura institucional mas manteve esse sistema. O Protocolo de Olivos (2002) o substituiu.",
+      "Correta. O Protocolo de Olivos (2002) rege hoje a solução de controvérsias do Mercosul e criou o Tribunal Permanente de Revisão como instância final.",
+      "Errada. O Protocolo de Las Leñas (1992) trata da cooperação e assistência jurisdicional em matéria civil, comercial, trabalhista e administrativa, não da solução de controvérsias entre os Estados."
+    ]
+  },
+  {
+    "id": "16-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A negociação é o meio diplomático direto: as próprias partes buscam o entendimento, sem intervenção de terceiro.",
+      "Correta. Nos bons ofícios, um terceiro (Estado, organismo internacional ou autoridade) oferece-se espontaneamente, ou a pedido, para aproximar as partes, sem propor solução para o mérito.",
+      "Errada. O mediador pode ser um Estado, um organismo internacional ou uma pessoa. Ele participa ativamente e propõe uma solução às partes.",
+      "Errada. A conciliação é feita por uma comissão de conciliação, que examina o litígio e propõe uma solução em relatório não vinculante. O que a distingue da mediação é esse procedimento mais formal, não a natureza de quem atua."
+    ]
+  },
+  {
+    "id": "15-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O domicílio do testador rege a sucessão (art. 10 da LINDB), mas a forma do testamento segue a lei do local em que foi feito (locus regit actum).",
+      "Correta. As formalidades extrínsecas do testamento obedecem à lei do lugar em que ele foi feito (locus regit actum). Alexia testou em Lisboa, logo aplica-se a lei portuguesa.",
+      "Errada. O lugar da morte é irrelevante: compete exclusivamente à autoridade brasileira o inventário e a partilha de bens situados no Brasil (art. 23, II, do CPC).",
+      "Errada. A sucessão rege-se pela lei do domicílio do falecido, não pela sua nacionalidade (art. 10 da LINDB). Alexia era domiciliada no Brasil."
+    ]
+  },
+  {
+    "id": "15-24",
+    "status": "desatualizada",
+    "motivo": "O gabarito reproduz o art. 64 da Lei 6.815/80 (Estatuto do Estrangeiro), que exigia do deportado o ressarcimento ao Tesouro das despesas da deportação e o pagamento da multa como condição de reingresso. A Lei 6.815/80 foi revogada pela Lei de Migração (Lei 13.445/17), que não reproduz essa condição: a deportação está nos arts. 50 a 53 e as hipóteses de impedimento de ingresso no art. 45."
+  },
+  {
+    "id": "14-24",
+    "status": "desatualizada",
+    "motivo": "O enunciado pede a resposta “disciplinada pela Lei n. 6.815/80” (Estatuto do Estrangeiro), revogada pela Lei de Migração (Lei 13.445/17, vigente desde 21/11/2017). A regra da alternativa B foi reproduzida no art. 85 da nova lei, mas a questão apresenta uma lei revogada como vigente e perdeu o objeto."
+  },
+  {
+    "id": "13-23",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. É a afirmativa incorreta, por isso é a resposta. O art. 222 da CF (EC 36/02) admite como proprietários brasileiros natos, naturalizados há mais de 10 anos ou pessoas jurídicas constituídas sob as leis brasileiras e com sede no país, e só exige que 70% do capital total e votante pertença a brasileiros (§1º). Logo, há participação de capital estrangeiro de até 30% (Lei 10.610/02).",
+      "Errada. A afirmativa é verdadeira, logo não é a resposta: reproduz o art. 199, §3º, da CF. As exceções vêm da lei, como o art. 23 da Lei 8.080/90 (redação da Lei 13.097/15).",
+      "Errada. A afirmativa é verdadeira: o art. 192 da CF (redação da EC 40/03) prevê leis complementares que disporão, inclusive, sobre a participação do capital estrangeiro nas instituições do sistema financeiro.",
+      "Errada. A afirmativa é verdadeira: o art. 172 da CF manda a lei disciplinar, com base no interesse nacional, os investimentos de capital estrangeiro, incentivar os reinvestimentos e regular a remessa de lucros."
+    ]
+  },
+  {
+    "id": "13-24",
+    "status": "desatualizada",
+    "motivo": "A questão se baseia na Lei 6.815/80 (Estatuto do Estrangeiro), revogada pela Lei 13.445/17. O gabarito (C) reproduz o antigo art. 66 (expulsão como decisão exclusiva do Presidente da República). Hoje cabe à “autoridade competente” decidir sobre a expulsão (art. 54, §2º, da Lei 13.445/17), que é o Ministro da Justiça e Segurança Pública (Decreto 9.199/17). A expulsão passou a exigir condenação transitada em julgado por crime do Estatuto de Roma ou crime comum doloso (art. 54, §1º), o que também mudou a análise das demais alternativas."
+  },
+  {
+    "id": "12-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A afirmativa é verdadeira, logo não é a resposta: a autoridade brasileira tem competência concorrente quando a obrigação deve ser cumprida no Brasil (art. 21, II, do CPC), e a entrega seria no Rio de Janeiro.",
+      "Errada. A afirmativa é verdadeira: as obrigações regem-se pela lei do país em que se constituírem (art. 9º, caput, da LINDB), e o contrato foi celebrado no Japão.",
+      "Correta. É a afirmativa incorreta, por isso é a resposta. O lugar de constituição do contrato não define a jurisdição, e a Justiça brasileira é competente porque a obrigação deveria ser cumprida no Brasil (art. 21, II, do CPC).",
+      "Errada. A afirmativa é verdadeira: o juiz que não conhecer a lei estrangeira pode exigir de quem a invoca prova do texto e da vigência (art. 14 da LINDB; art. 376 do CPC)."
+    ]
+  },
+  {
+    "id": "12-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O agente diplomático goza de imunidade de jurisdição penal no Estado acreditado (art. 31, 1, da Convenção de Viena sobre Relações Diplomáticas). Continua, porém, sujeito à jurisdição do Estado acreditante (art. 31, 4).",
+      "Errada. A imunidade pertence ao Estado acreditante. Só ele pode renunciar a ela, e a renúncia deve ser expressa (art. 32, 1 e 2, da CVRD), não feita pelo próprio agente.",
+      "Errada. O julgamento no Estado acreditado é possível se o Estado acreditante renunciar expressamente à imunidade (art. 32 da CVRD).",
+      "Correta. A renúncia à imunidade de jurisdição cabe ao Estado acreditante e deve ser sempre expressa (art. 32, 1 e 2, da CVRD). Com ela, o agente pode ser julgado no Estado acreditado."
+    ]
+  },
+  {
+    "id": "11-24",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O Tribunal Permanente de Revisão foi criado pelo Protocolo de Olivos (2002). Ele julga recursos contra laudos arbitrais ou atua em instância única (arts. 17 a 23), emite opiniões consultivas (art. 3º) e pode ditar medidas excepcionais de urgência (art. 24).",
+      "Errada. Só a Assembleia Geral, o Conselho de Segurança e os órgãos e agências especializadas autorizados podem pedir pareceres consultivos à CIJ (art. 96 da Carta da ONU; art. 65 do Estatuto). Estados atuam apenas no contencioso.",
+      "Errada. Os grupos especiais e o Órgão de Apelação da OMC admitem manifestações de atores privados como amici curiae, entendimento firmado no caso Camarões-Tartarugas (1998).",
+      "Errada. Estados que não são membros da ONU podem tornar-se partes no Estatuto da CIJ (art. 93, 2, da Carta), e outros Estados podem ter acesso à Corte nas condições fixadas pelo Conselho de Segurança (art. 35, 2, do Estatuto)."
+    ]
+  },
+  {
+    "id": "10-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O começo e o fim da personalidade, o nome, a capacidade e os direitos de família regem-se pela lei do domicílio da pessoa, não da nacionalidade (art. 7º da LINDB).",
+      "Correta. No contrato de trabalho prevalece a lei do local da prestação dos serviços (lex loci executionis, territorialidade; art. 198 do Código Bustamante). Atenção: para o trabalhador contratado no Brasil ou transferido para o exterior, a Lei 7.064/82 (art. 3º, II) manda aplicar a lei brasileira quando mais favorável, por isso a Súmula 207 do TST foi cancelada.",
+      "Errada. A responsabilidade extracontratual segue, segundo a doutrina, a lei do local do ato ilícito (lex loci delicti commissi), não a lei do domicílio da vítima.",
+      "Errada. Como regra geral, as obrigações regem-se pela lei do local de sua constituição (lex loci celebrationis, art. 9º da LINDB). A lei do local da execução só se impõe quanto à forma essencial (art. 9º, §1º)."
+    ]
+  },
+  {
+    "id": "10-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF não distingue a forma pela qual o pai adquiriu a nacionalidade: basta pai ou mãe brasileiros, natos ou naturalizados, e o registro em repartição brasileira competente (art. 12, I, c).",
+      "Errada. A ida a trabalho para empresa privada não é estar “a serviço da República Federativa do Brasil” (art. 12, I, b). A nacionalidade nata de Valentina decorre do registro consular (alínea c), não do motivo do deslocamento.",
+      "Errada. Residência e opção só são exigidas quando não há registro em repartição brasileira. Com o registro consular, Valentina já é brasileira nata (art. 12, I, c, da CF).",
+      "Correta. Nascida no exterior, filha de pai brasileiro (ainda que naturalizado) e registrada em repartição consular brasileira, Valentina é brasileira nata (art. 12, I, c, da CF, redação da EC 54/07)."
+    ]
+  },
+  {
+    "id": "09-23",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O membro que viola persistentemente os princípios da Carta pode ser expulso pela Assembleia Geral, mediante recomendação do Conselho de Segurança (art. 6º da Carta da ONU).",
+      "Errada. Os órgãos principais da ONU são a Assembleia Geral, o Conselho de Segurança, o Conselho Econômico e Social, o Conselho de Tutela, a Corte Internacional de Justiça e o Secretariado (art. 7º). A OMC é organização autônoma, fora do sistema da Carta.",
+      "Errada. O Conselho de Segurança tem a responsabilidade principal pela manutenção da paz e da segurança internacionais (art. 24). A liberalização do comércio não está entre as suas atribuições.",
+      "Errada. Estados que não são membros da ONU podem tornar-se partes no Estatuto da CIJ, nas condições fixadas pela Assembleia Geral mediante recomendação do Conselho de Segurança (art. 93, 2, da Carta)."
+    ]
+  },
+  {
+    "id": "09-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O domicílio do testador rege a sucessão (art. 10 da LINDB), mas a forma do testamento segue a lei do local em que foi feito (locus regit actum).",
+      "Correta. As formalidades extrínsecas do testamento obedecem à lei do lugar em que ele foi feito (locus regit actum). Maria testou em Londres, logo aplica-se a lei inglesa.",
+      "Errada. O lugar da morte é irrelevante: compete exclusivamente à autoridade brasileira o inventário e a partilha de bens situados no Brasil (art. 23, II, do CPC).",
+      "Errada. A sucessão rege-se pela lei do domicílio do falecido, não pela sua nacionalidade (art. 10 da LINDB). Maria era domiciliada no Brasil."
+    ]
+  },
+  {
+    "id": "08-23",
+    "status": "desatualizada",
+    "motivo": "A questão se baseia no regime do Estatuto do Estrangeiro (Lei 6.815/80) e das resoluções do CNIg da época, que previam “visto permanente” e autorização de trabalho dada pelo Ministério do Trabalho. A Lei de Migração (Lei 13.445/17) e o Decreto 9.199/17 extinguiram o visto permanente, hoje substituído pela autorização de residência. Desde 2019 a imigração laboral passou ao Ministério da Justiça e Segurança Pública. O gabarito (A) não corresponde mais ao direito vigente."
+  },
+  {
+    "id": "08-24",
+    "status": "desatualizada",
+    "motivo": "O gabarito (A) aplica os arts. 65, parágrafo único, a, e 66 da Lei 6.815/80, revogada pela Lei 13.445/17. A fraude para entrar ou permanecer no país, por si só, não é mais hipótese de expulsão: esta exige condenação transitada em julgado por crime do Estatuto de Roma ou crime comum doloso (art. 54, §1º). A decisão também não é mais exclusiva do Presidente da República: cabe à autoridade competente (Ministro da Justiça, Decreto 9.199/17), em processo com contraditório e ampla defesa (art. 58)."
+  },
+  {
+    "id": "07-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A atuação do Estado não termina no mar territorial. Na zona contígua (12 a 24 milhas) o Brasil pode reprimir infrações às suas leis cometidas no território ou no mar territorial (art. 5º, II, da Lei 8.617/93; art. 33 da Convenção de Montego Bay), e há ainda o direito de perseguição contínua (art. 111 da CNUDM).",
+      "Errada. Não há exclusividade da Polícia Federal que torne ilegal a atuação da Marinha, que exerce a patrulha naval (art. 17, V, da LC 97/99). Além disso, qualquer pessoa pode prender quem esteja em flagrante delito (art. 301 do CPP).",
+      "Correta. A primeira embarcação foi alcançada no mar territorial (até 12 milhas, art. 1º da Lei 8.617/93), onde há soberania plena. A segunda foi alcançada na zona contígua (12 a 24 milhas, art. 4º), onde o Brasil pode reprimir infrações cometidas em seu território ou mar territorial (art. 5º, II).",
+      "Errada. O mar territorial está sob soberania brasileira, e a Marinha pode atuar nele (art. 17, V, da LC 97/99; art. 301 do CPP). Por isso as duas prisões são legais."
+    ]
+  },
+  {
+    "id": "07-24",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A autoridade brasileira tem competência concorrente quando o fundamento da ação é fato ocorrido no Brasil (art. 21, III, do CPC), e o acidente ocorreu em território brasileiro.",
+      "Errada. Ser empresa estrangeira sem operação no Brasil não afasta a jurisdição brasileira quando o fato ocorreu aqui (art. 21, III, do CPC).",
+      "Errada. A competência é concorrente, e o juiz brasileiro julga a causa. A carta rogatória serve para atos de cooperação, como a citação, e não para remeter o processo à Justiça estrangeira.",
+      "Errada. A nacionalidade da vítima não é critério de competência internacional (arts. 21 a 23 do CPC). O que fixa a competência aqui é o local do fato."
+    ]
+  },
+  {
+    "id": "06-23",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O foro eleito não define a lei aplicável. As obrigações regem-se pela lei do local de constituição do contrato, a argentina (art. 9º, caput, da LINDB).",
+      "Correta. A capacidade das sociedades segue a lei do Estado em que se constituíram (art. 11 da LINDB), a brasileira e a chilena. O contrato, celebrado em Buenos Aires, rege-se pela lei argentina (art. 9º). As leis são diversas.",
+      "Errada. Mesmo que a obrigação devesse ser executada no Brasil, a lei brasileira só seria obrigatória quanto à forma essencial (art. 9º, §1º, da LINDB). O contrato continua regido pela lei do local da constituição.",
+      "Errada. A LINDB não veda a eleição de foro, e o CPC admite cláusula de foro exclusivo estrangeiro em contrato internacional (art. 25)."
+    ]
+  },
+  {
+    "id": "06-24",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A lei do local da coisa (lex rei sitae) rege os direitos reais (art. 8º da LINDB). A sucessão segue a lei do domicílio do falecido (art. 10), e a forma do testamento segue a lei do local em que foi feito.",
+      "Errada. A LINDB não proíbe que testamento feito no exterior disponha de imóvel situado no Brasil. Apenas o inventário e a partilha desse bem cabem à Justiça brasileira (art. 23, II, do CPC).",
+      "Correta. A forma do testamento rege-se pela lei do lugar em que foi feito (locus regit actum). Como seguiu todas as formalidades da lei italiana, é válido quanto à forma, ainda que não observe as da lei brasileira.",
+      "Errada. A Justiça brasileira tem competência exclusiva para confirmar testamento particular e para o inventário e a partilha de bens situados no Brasil (art. 23, II, do CPC). Por isso pode examinar a validade do testamento."
+    ]
+  },
+  {
+    "id": "2010.2-93",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Ser pessoa jurídica estrangeira não afasta a jurisdição brasileira quando o fundamento da ação é fato ocorrido no Brasil (art. 21, III, do CPC).",
+      "Correta. O dano à imagem se consumou no Brasil, onde o vídeo teve repercussão, o que configura fato ocorrido no Brasil e atrai a competência concorrente do juiz brasileiro (art. 21, III, do CPC; STJ, REsp 1.168.547/RJ).",
+      "Errada. A competência é concorrente, e o juiz brasileiro julga a causa. Não se remete o caso à Justiça estrangeira por carta rogatória.",
+      "Errada. A nacionalidade do autor não é critério de competência internacional (arts. 21 a 23 do CPC). O que fixa a competência é o local do dano."
+    ]
+  }
+]

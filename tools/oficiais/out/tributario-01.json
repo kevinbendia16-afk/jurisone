@@ -1,0 +1,402 @@
+[
+  {
+    "id": "47-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O domicílio do donatário não define a competência do ITCMD. Para bens imóveis, o imposto cabe ao Estado da situação do bem (art. 155, §1º, I, CF).",
+      "Correta. Na transmissão de bem imóvel e respectivos direitos, o ITCMD compete ao Estado da situação do bem; o imóvel fica em Salvador, logo o imposto é devido à Bahia (art. 155, §1º, I, CF).",
+      "Errada. O domicílio do doador só define a competência para bens móveis, títulos e créditos (art. 155, §1º, II, CF, na redação da EC 132/23). Para imóveis vale o Estado da situação do bem.",
+      "Errada. O ITCMD é imposto estadual (art. 155, I, CF). O Município da situação do imóvel institui o ITBI, que incide sobre transmissões onerosas inter vivos, e não sobre doações (art. 156, II, CF)."
+    ]
+  },
+  {
+    "id": "47-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A operação é uma integralização de capital com bem imóvel; o tributo que em tese a alcançaria seria o ITBI, e não o IOF. E o ITBI, no caso, é afastado pela imunidade do art. 156, §2º, I, da CF.",
+      "Correta. O ITBI não incide sobre a transmissão de bens incorporados ao patrimônio de pessoa jurídica em realização de capital, salvo se a atividade preponderante for imobiliária (art. 156, §2º, I, CF; arts. 36 e 37 do CTN). A sociedade vende roupas e o valor do imóvel é igual ao das ações subscritas, de modo que não há excedente tributável (Tema 796 do STF).",
+      "Errada. A integralização é operação onerosa (o imóvel é entregue em troca de ações), e não doação, por isso não há ITCMD (art. 155, I, CF). A transmissão é imune ao ITBI (art. 156, §2º, I, CF).",
+      "Errada. O ITBI compete ao Município da situação do bem, e não ao do domicílio do transmitente (art. 156, §2º, II, CF). Além disso, a operação está imune (art. 156, §2º, I, CF)."
+    ]
+  },
+  {
+    "id": "47-27",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A CF proíbe a União de instituir isenções de tributos da competência dos Estados, do DF ou dos Municípios (isenção heterônoma, art. 151, III, CF). Só o Município, por lei específica, pode isentar o IPTU (art. 150, §6º, CF).",
+      "Errada. O problema não é o momento da eficácia: a lei federal é inconstitucional porque a União não tem competência para isentar o IPTU (art. 151, III, CF).",
+      "Errada. A lei não é constitucional, pois configura isenção heterônoma vedada (art. 151, III, CF). Além disso, a anterioridade protege o contribuinte contra a instituição ou majoração de tributos, e não contra benefícios.",
+      "Errada. Não existe exceção constitucional que permita, em calamidade pública, isenção federal de imposto municipal. Para a União, a calamidade autoriza apenas a criação de empréstimo compulsório por lei complementar (art. 148, I, CF)."
+    ]
+  },
+  {
+    "id": "47-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A atribuição das funções de arrecadar ou fiscalizar compreende as garantias e os privilégios processuais do ente que a conferiu (art. 7º, §1º, CTN). Por isso, a cobrança judicial também pode ser delegada.",
+      "Correta. A competência tributária (instituir o tributo) é indelegável, mas as funções de arrecadar, fiscalizar e executar leis em matéria tributária podem ser atribuídas a outra pessoa jurídica de direito público, com as garantias e privilégios processuais (art. 7º, caput e §1º, CTN).",
+      "Errada. A autorização para delegar a capacidade tributária ativa já consta do art. 7º do CTN, recepcionado com status de lei complementar. Não é preciso uma nova lei complementar.",
+      "Errada. Indelegável é apenas a competência para instituir o tributo. Fiscalizar e arrecadar podem ser delegados a outro ente (art. 7º, CTN)."
+    ]
+  },
+  {
+    "id": "47-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não existe certidão negativa parcial. Débitos não vencidos e débitos com exigibilidade suspensa autorizam a certidão positiva com efeitos de negativa (art. 206, CTN).",
+      "Errada. O CTN não exige a quitação de todos os tributos: a certidão positiva com efeitos de negativa é expedida quando há créditos não vencidos, com penhora efetivada ou com exigibilidade suspensa (art. 206, CTN).",
+      "Errada. Nenhum dos dois débitos permite certidão negativa, mas ambos (o não vencido e o suspenso por liminar, art. 151, IV, CTN) autorizam a certidão positiva com efeitos de negativa (art. 206, CTN).",
+      "Correta. Havendo débitos, não cabe certidão negativa, mas créditos não vencidos ou com exigibilidade suspensa dão direito à certidão positiva com efeitos de negativa (art. 206, CTN), que comprova a regularidade fiscal exigida na licitação (art. 68, III, da Lei 14.133/21)."
+    ]
+  },
+  {
+    "id": "46-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As contribuições de seguridade social não se sujeitam à anterioridade anual, apenas à nonagesimal (art. 195, §6º, CF).",
+      "Correta. A nova fonte de custeio (contribuição residual) exige lei complementar (art. 195, §4º, c/c art. 154, I, CF), e as contribuições de seguridade só podem ser exigidas 90 dias após a publicação da lei (art. 195, §6º, CF). Entre 1º/9 e 1º/11 passaram cerca de 60 dias, mas a anterioridade anual não se aplica.",
+      "Errada. As novas contribuições de seguridade (residuais) dependem de lei complementar (art. 195, §4º, c/c art. 154, I, CF) e devem respeitar a noventena (art. 195, §6º, CF).",
+      "Errada. As contribuições de seguridade social só ficam fora da anterioridade anual; a nonagesimal se aplica (art. 195, §6º, CF) e foi violada no caso."
+    ]
+  },
+  {
+    "id": "46-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O despacho que ordenou a citação interrompeu a prescrição (art. 174, parágrafo único, I, CTN). Depois do ajuizamento, o que corre é a prescrição intercorrente do art. 40 da LEF, que ainda não havia se consumado.",
+      "Errada. A citação por edital é válida quando frustradas as demais modalidades (Súmula 414 do STJ), e a falta de citação pessoal não impede o curso da prescrição intercorrente (art. 40, LEF).",
+      "Errada. A prescrição intercorrente na execução fiscal está prevista no art. 40, §4º, da Lei 6.830/80 (LEF), e não no CTN. Além disso, o prazo ainda não estava completo em julho de 2025.",
+      "Correta. Pelo art. 40 da LEF e pelo Tema 566 do STJ, o ano de suspensão começa automaticamente quando a Fazenda é cientificada da não localização do devedor ou de bens (abril de 2020). Só depois corre o prazo quinquenal, que terminaria em 2026."
+    ]
+  },
+  {
+    "id": "46-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não incide imposto de renda sobre indenização por danos morais (Súmula 498 do STJ), pois ela recompõe o patrimônio e não gera acréscimo patrimonial (art. 43, CTN). A existência de relação de emprego não a transforma em salário.",
+      "Correta. Prescreve em dois anos a ação anulatória da decisão administrativa que denegar a restituição (art. 169, CTN).",
+      "Errada. Não é necessário esgotar a via administrativa para ir ao Judiciário (art. 5º, XXXV, CF); o contribuinte pode ajuizar a ação de repetição de indébito (art. 165, CTN).",
+      "Errada. É inconstitucional exigir depósito ou arrolamento prévio como requisito de admissibilidade de recurso administrativo (Súmula Vinculante 21; Súmula 373 do STJ)."
+    ]
+  },
+  {
+    "id": "46-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Na CIDE-Combustíveis, a alíquota pode ser restabelecida por ato do Executivo sem a anterioridade anual (art. 177, §4º, I, b, CF). Vale apenas a noventena, respeitada no caso (efeitos mais de 90 dias depois do decreto).",
+      "Errada. A CF autoriza expressamente que a alíquota da CIDE-Combustíveis seja reduzida por ato do Poder Executivo (art. 177, §4º, I, b, CF).",
+      "Correta. A alíquota da CIDE-Combustíveis pode ser reduzida e restabelecida por ato do Poder Executivo (art. 177, §4º, I, b, CF), desde que o restabelecimento não ultrapasse o valor fixado em lei e respeite a noventena.",
+      "Errada. O restabelecimento por decreto é exceção constitucional à legalidade (art. 177, §4º, I, b, CF), limitado ao patamar legal de R$ 37,20/m³, o que foi observado."
+    ]
+  },
+  {
+    "id": "46-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de pagamento não está entre as matérias reservadas à lei (art. 97, CTN) e pode ser fixado pela legislação tributária, o que inclui decretos (arts. 96 e 160, CTN).",
+      "Errada. O prazo de 30 dias do art. 160 do CTN é supletivo: só se aplica quando a legislação tributária não fixar o vencimento, e o decreto fixou.",
+      "Errada. A taxa pelo exercício regular do poder de polícia é espécie de taxa expressamente prevista (art. 145, II, CF; art. 78, CTN), e o Município tem competência para fiscalizar as concessionárias de cemitérios locais.",
+      "Correta. A data de pagamento não se submete à reserva legal (art. 97, CTN) e pode ser fixada por decreto, que integra a legislação tributária (arts. 96 e 160, CTN), mesmo sem previsão na lei instituidora."
+    ]
+  },
+  {
+    "id": "45-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há regra geral de vacatio legis de 30 dias. Na omissão, a lei entra em vigor 45 dias depois de publicada (art. 1º da LINDB, aplicado por força do art. 101 do CTN).",
+      "Correta. A vigência da legislação tributária segue as regras aplicáveis às normas jurídicas em geral (art. 101, CTN): na falta de disposição expressa, a lei vigora 45 dias depois de oficialmente publicada em todo o país (art. 1º, LINDB).",
+      "Errada. O prazo de 90 dias é a anterioridade nonagesimal (art. 150, III, c, CF), aplicável à instituição ou majoração de tributos. A lei que amplia o prazo de pagamento beneficia o contribuinte e segue a vacatio geral de 45 dias.",
+      "Errada. O primeiro dia do exercício seguinte (art. 104, CTN; anterioridade anual) vale para leis que instituem ou majoram tributos ou extinguem isenções de impostos sobre patrimônio ou renda, e não para lei que amplia prazo de pagamento."
+    ]
+  },
+  {
+    "id": "45-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A nova incidência do IPVA deve respeitar tanto a anterioridade anual quanto a nonagesimal (art. 150, III, b e c, CF). A exceção do art. 150, §1º, só alcança a fixação da base de cálculo do IPVA.",
+      "Errada. Desde a EC 132/23, o IPVA incide sobre veículos automotores terrestres, aquáticos e aéreos, com as exceções das alíneas do art. 155, §6º, III, da CF.",
+      "Correta. A instituição de novas hipóteses de incidência do IPVA submete-se à noventena (art. 150, III, c, CF), pois a exceção do art. 150, §1º, só abrange a base de cálculo. Com a lei publicada em 29/12/2024, a cobrança só poderia ocorrer depois de 90 dias da publicação.",
+      "Errada. O art. 155, §6º, III, da CF (EC 132/23) autoriza o IPVA também sobre veículos aéreos, ressalvadas, por exemplo, as aeronaves agrícolas e as de operador certificado para prestar serviços aéreos a terceiros."
+    ]
+  },
+  {
+    "id": "45-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O óbito é o fato gerador e serve de referência para a decadência, não para a prescrição. Como o crédito já foi constituído pela declaração (Súmula 436 do STJ), a prescrição só corre depois que ele se torna exigível.",
+      "Correta. A declaração do contribuinte constitui o crédito (Súmula 436 do STJ), e a prescrição de cinco anos (art. 174, CTN) começa no vencimento ou na entrega da declaração, o que ocorrer por último (Tema 383 do STJ). Aqui, a partir do vencimento da guia.",
+      "Errada. O primeiro dia do exercício seguinte é o termo inicial da decadência para o lançamento (art. 173, I, CTN), e não da prescrição para a cobrança.",
+      "Errada. A entrega da declaração não é o fato gerador do ITCMD, que é a transmissão causa mortis (abertura da sucessão; Súmula 112 do STF). A declaração constitui o crédito, mas a prescrição só corre após o vencimento."
+    ]
+  },
+  {
+    "id": "45-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A imunidade da entidade beneficente (art. 150, VI, c, CF) não alcança o ISS devido pela construtora, que é a contribuinte de direito. A imunidade subjetiva não beneficia o contribuinte de fato (Tema 342 do STF).",
+      "Correta. A imunidade não afasta a condição de responsável pelos tributos que caiba à entidade reter na fonte (art. 9º, §1º, CTN). A lei local pode atribuir ao tomador a responsabilidade pela retenção do ISS (art. 128, CTN; art. 6º da LC 116/03), e a entidade pode ser cobrada.",
+      "Errada. O contribuinte do ISS é o prestador do serviço, ou seja, a construtora (art. 5º da LC 116/03). A entidade tomadora responde como responsável tributária, e não como contribuinte.",
+      "Errada. O art. 9º, §1º, do CTN determina que a imunidade não exclui a condição de responsável pela retenção na fonte nem dispensa os atos que asseguram o cumprimento de obrigações tributárias por terceiros."
+    ]
+  },
+  {
+    "id": "45-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A ação anulatória pressupõe um lançamento já realizado. Antes da vigência da lei e de qualquer lançamento, cabe a ação declaratória de inexistência de relação jurídico-tributária (art. 19, I, CPC) ou o mandado de segurança preventivo.",
+      "Errada. Os impostos municipais são instituídos por lei ordinária. A lei complementar é exigida em hipóteses específicas, como a competência residual da União (art. 154, I, CF).",
+      "Errada. A lei publicada em 10/07/2025 com efeitos a partir de 01/01/2026 respeita as anterioridades anual e nonagesimal (mais de 90 dias entre a publicação e a produção de efeitos). O vício está na falta de competência.",
+      "Correta. Os Municípios só podem instituir os impostos que a CF lhes atribui (IPTU, ITBI e ISS, art. 156, CF, além da participação no IBS do art. 156-A), e a competência residual é exclusiva da União (art. 154, I, CF). A licença de localização e funcionamento é exercício do poder de polícia, remunerável por taxa (art. 145, II, CF)."
+    ]
+  },
+  {
+    "id": "44-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O local do inventário era o critério para bens móveis antes da EC 132/23. Hoje, o ITCMD sobre bens móveis compete ao Estado onde era domiciliado o de cujus (art. 155, §1º, II, CF).",
+      "Errada. O domicílio do herdeiro não define a competência do ITCMD. Para bens móveis, vale o domicílio do de cujus (art. 155, §1º, II, CF).",
+      "Correta. A embarcação é bem móvel, e o ITCMD sobre bens móveis, títulos e créditos compete ao Estado onde era domiciliado o de cujus (art. 155, §1º, II, CF, na redação da EC 132/23). Paulo era domiciliado em Ubatuba, logo o imposto é devido a São Paulo.",
+      "Errada. O critério da situação do bem só se aplica aos bens imóveis e respectivos direitos (art. 155, §1º, I, CF), e a embarcação é bem móvel."
+    ]
+  },
+  {
+    "id": "44-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A imunidade não se limita a um único imóvel: alcança o patrimônio relacionado com as finalidades essenciais da entidade religiosa (art. 150, §4º, CF).",
+      "Errada. A existência de matrículas distintas é irrelevante. O que importa é a vinculação do imóvel às finalidades essenciais da entidade (art. 150, VI, b, e §4º, CF).",
+      "Correta. A imunidade dos templos de qualquer culto alcança o patrimônio, a renda e os serviços relacionados com as finalidades essenciais da entidade (art. 150, VI, b, e §4º, CF), inclusive a residência dos ministros religiosos, conforme o STF (RE 325.822), independentemente das matrículas.",
+      "Errada. A CF não exige unificação de matrículas; basta que os imóveis estejam afetados às finalidades essenciais da entidade (art. 150, §4º, CF)."
+    ]
+  },
+  {
+    "id": "44-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Desde a EC 132/23, a CF admite o IPVA sobre veículos aquáticos (art. 155, §6º, III, CF), com exceções pontuais.",
+      "Errada. O IPVA pode incidir sobre veículos aquáticos e aéreos, e não apenas terrestres (art. 155, §6º, III, CF). A unidade só fica fora por exceção expressa.",
+      "Errada. A exceção já está no próprio texto constitucional (art. 155, §6º, III, c, CF), e não depende de lei complementar.",
+      "Correta. A CF exclui do IPVA as plataformas que se locomovem na água por meios próprios, inclusive as destinadas à exploração de atividades econômicas em águas territoriais e na zona econômica exclusiva (art. 155, §6º, III, c, CF, incluído pela EC 132/23)."
+    ]
+  },
+  {
+    "id": "44-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O lançamento não basta para a inscrição: a dívida ativa só se forma depois de esgotado o prazo fixado para pagamento (art. 201, CTN).",
+      "Correta. A inscrição em dívida ativa pressupõe o esgotamento do prazo para pagamento (art. 201, CTN). Dentro do prazo de pagamento ou impugnação, a inscrição é indevida; a impugnação suspenderia a exigibilidade (art. 151, III, CTN).",
+      "Errada. Não existe inscrição em dívida ativa sob condição resolutiva. Ela só pode ocorrer depois de esgotado o prazo para pagamento (art. 201, CTN).",
+      "Errada. O lançamento é ato privativo da autoridade administrativa que constitui o crédito (art. 142, CTN). A inscrição em dívida ativa é ato posterior de controle de legalidade (art. 2º, §3º, da Lei 6.830/80) e não se confunde com o lançamento."
+    ]
+  },
+  {
+    "id": "44-29",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A União não pode isentar tributos municipais (art. 151, III, CF). A isenção do IPTU depende de lei específica do próprio Município (art. 150, §6º, CF; art. 176, CTN).",
+      "Errada. A CF não prevê exceção para calamidade pública que permita à União isentar impostos municipais (art. 151, III, CF).",
+      "Errada. A União não pode condicionar o repasse de recursos à aceitação de isenção heterônoma, vedada pelo art. 151, III, da CF, que protege a autonomia municipal (arts. 18 e 30, III, CF).",
+      "Errada. O decreto do Prefeito não convalida a isenção concedida por ente incompetente. A isenção exige lei específica do Município (art. 150, §6º, CF; art. 176, CTN)."
+    ]
+  },
+  {
+    "id": "43-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. As normas que ampliam os poderes de investigação do Fisco aplicam-se ao lançamento de fatos geradores anteriores (art. 144, §1º, CTN). A irretroatividade (art. 150, III, a, CF) protege contra a instituição ou majoração de tributos.",
+      "Errada. As anterioridades (art. 150, III, b e c, CF) só se aplicam a leis que instituem ou majoram tributos. Normas sobre processos de fiscalização não se submetem a elas.",
+      "Correta. A legislação posterior que institui novos processos de fiscalização ou amplia os poderes de investigação aplica-se ao lançamento de fatos geradores passados (art. 144, §1º, CTN), e o STF admite isso para o acesso a dados bancários (Tema 225). Os fatos de 2019 ainda não estavam alcançados pela decadência em janeiro de 2023.",
+      "Errada. O art. 144, §1º, do CTN autoriza expressamente o lançamento com base em legislação posterior ao fato gerador que tenha instituído novos critérios de apuração ou processos de fiscalização."
+    ]
+  },
+  {
+    "id": "43-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O contribuinte do IPTU é o proprietário, o titular do domínio útil ou o possuidor a qualquer título com ânimo de dono (art. 34, CTN). O locatário tem posse direta decorrente do contrato, sem ânimo de dono.",
+      "Correta. Salvo disposição de lei, as convenções particulares sobre a responsabilidade pelo pagamento de tributos não podem ser opostas à Fazenda para modificar o sujeito passivo (art. 123, CTN). O locatário não integra a relação tributária e não pode ser executado (Súmula 614 do STJ).",
+      "Errada. A substituição tributária decorre de lei (art. 128, CTN), e não de cláusula contratual.",
+      "Errada. A responsabilidade por sucessão (arts. 129 a 133, CTN) pressupõe a transmissão do bem ou do patrimônio, o que a locação não provoca."
+    ]
+  },
+  {
+    "id": "43-27",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Desde a EC 132/23, o art. 149-A da CF permite aos Municípios e ao DF instituir contribuição para o custeio, a expansão e a melhoria do serviço de iluminação pública e de sistemas de monitoramento para segurança e preservação de logradouros públicos.",
+      "Errada. A CF autoriza expressamente o custeio da iluminação pública por contribuição (art. 149-A, CF). Só a taxa é vedada para esse fim (Súmula Vinculante 41).",
+      "Errada. O monitoramento de logradouros é serviço indivisível e não pode ser remunerado por taxa, que exige serviço específico e divisível (art. 145, II, CF). O art. 149-A da CF autoriza seu custeio por contribuição.",
+      "Errada. Após a EC 132/23, os sistemas de monitoramento de logradouros públicos podem ser custeados pela contribuição do art. 149-A da CF."
+    ]
+  },
+  {
+    "id": "43-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O parcelamento pode ser concedido por lei ordinária específica (art. 155-A, CTN). A CF exige lei complementar apenas para a remissão e a anistia dessas contribuições (art. 195, §11, CF).",
+      "Correta. A CF veda a moratória e o parcelamento em prazo superior a 60 meses das contribuições sociais do empregador sobre a folha e dos trabalhadores (art. 195, §11, CF, na redação da EC 103/19). Noventa meses excedem esse limite.",
+      "Errada. A CF não exige pagamento de parcela inicial de 20% para o parcelamento de contribuições de seguridade social. O limite constitucional é o prazo máximo de 60 meses (art. 195, §11, CF).",
+      "Errada. A CF não proíbe o parcelamento dessas contribuições: admite-o em até 60 meses (art. 195, §11, CF)."
+    ]
+  },
+  {
+    "id": "43-29",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O crédito tributário não pago deve ser inscrito em dívida ativa, e a CDA é título executivo extrajudicial (art. 784, IX, CPC). Sua cobrança judicial segue a Lei 6.830/80 (art. 1º), por meio de execução fiscal.",
+      "Errada. O prazo para constituir o crédito tributário pelo lançamento é decadencial, e não prescricional (art. 173, I, CTN). A prescrição se refere à ação de cobrança do crédito já constituído (art. 174, CTN).",
+      "Errada. Sem declaração nem pagamento antecipado, a decadência conta do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado (art. 173, I, CTN; Súmula 555 do STJ), e não do fato gerador.",
+      "Errada. Houve lançamento de ofício, pois o sujeito passivo omitiu as declarações exigidas (art. 149, II e V, CTN). O lançamento por declaração (art. 147, CTN) pressupõe que o sujeito passivo preste as informações."
+    ]
+  },
+  {
+    "id": "42-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo para os embargos é de 30 dias contados da intimação da penhora (art. 16, III, da Lei 6.830/80), e já se esgotara quando José encontrou a guia, três meses depois.",
+      "Errada. Não houve prescrição em dezembro de 2021: o crédito foi constituído pela declaração (Súmula 436 do STJ) e o prazo quinquenal começou em 2017, interrompido pelo despacho que ordenou a citação (art. 174, parágrafo único, I, CTN). Além disso, o pagamento também pode ser alegado.",
+      "Correta. A exceção de pré-executividade é admitida na execução fiscal para matérias conhecíveis de ofício que não exijam dilação probatória (Súmula 393 do STJ). O pagamento, que extingue o crédito (art. 156, I, CTN), pode ser provado de plano pela guia DARF quitada.",
+      "Errada. O agravo de instrumento seria intempestivo (15 dias úteis, art. 1.003, §5º, CPC) e não é o meio próprio para demonstrar a extinção do crédito. O meio adequado é a exceção de pré-executividade (Súmula 393 do STJ)."
+    ]
+  },
+  {
+    "id": "42-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. É inconstitucional exigir depósito prévio como requisito de admissibilidade de recurso administrativo (Súmula Vinculante 21; Súmula 373 do STJ).",
+      "Errada. As taxas podem ser objeto de isenção quando a lei o prevê expressamente. Pelo art. 177, I, do CTN, a isenção não se estende às taxas apenas se a lei não dispuser em contrário.",
+      "Correta. A legislação que outorga isenção deve ser interpretada literalmente (art. 111, II, CTN), e, salvo disposição de lei em contrário, a isenção não é extensiva às taxas (art. 177, I, CTN). A isenção do IPVA não alcança a taxa de licenciamento.",
+      "Errada. As isenções não admitem interpretação extensiva: interpretam-se literalmente (art. 111, II, CTN) e não se estendem às taxas sem previsão legal (art. 177, I, CTN)."
+    ]
+  },
+  {
+    "id": "42-27",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. Quando o lançamento é anulado por vício formal, o Fisco tem cinco anos para fazer um novo lançamento, contados da data em que se tornou definitiva a decisão anulatória (art. 173, II, CTN).",
+      "Errada. No caso de anulação por vício formal, o prazo do novo lançamento conta da data em que a decisão anulatória se tornou definitiva (art. 173, II, CTN), e não do primeiro dia do exercício seguinte.",
+      "Errada. O art. 173, II, do CTN reabre o prazo decadencial depois da anulação do lançamento por vício formal, de modo que o novo lançamento é possível.",
+      "Errada. A contagem a partir do fato gerador (art. 150, §4º, CTN) pressupõe pagamento antecipado, inexistente no caso. De todo modo, a anulação por vício formal reabre o prazo (art. 173, II, CTN)."
+    ]
+  },
+  {
+    "id": "42-28",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. O arrematante de produtos apreendidos ou abandonados é contribuinte do Imposto de Importação (art. 22, II, CTN).",
+      "Errada. José é contribuinte, e não responsável, por expressa previsão do art. 22, II, do CTN.",
+      "Errada. Para produto apreendido ou abandonado levado a leilão, a base de cálculo do Imposto de Importação é o preço da arrematação (art. 20, III, CTN), e não o valor de mercado.",
+      "Errada. O CTN não restringe quem pode ser arrematante (art. 22, II), e a legislação aduaneira admite pessoas físicas nos leilões da Receita Federal."
+    ]
+  },
+  {
+    "id": "42-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A isenção concedida por lei municipal pode ser revogada por outra lei municipal (art. 178, CTN), sem necessidade de alterar a Lei Orgânica.",
+      "Errada. A isenção legal não é cláusula pétrea: pode ser revogada a qualquer tempo, salvo se concedida por prazo certo e em função de determinadas condições (art. 178, CTN).",
+      "Correta. A revogação de isenção de imposto sobre o patrimônio só produz efeitos no primeiro dia do exercício seguinte (art. 104, III, CTN). O STF a equipara a majoração indireta, sujeita às anterioridades (art. 150, III, b e c, CF), de modo que os efeitos só valem a partir de 1º/1/2025.",
+      "Errada. A isenção decorre de lei municipal, e não da Constituição, e pode ser revogada por lei municipal (art. 178, CTN), sem emenda constitucional."
+    ]
+  },
+  {
+    "id": "41-25",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O Município tem competência para cobrar taxa pelo exercício do poder de polícia (art. 145, II, CF; art. 78, CTN), mas a taxa não pode ser calculada em função do capital das empresas (art. 77, parágrafo único, CTN).",
+      "Errada. A lei publicada em 30/09/2020 só produziu efeitos em 01/01/2021, o que respeita a anterioridade anual e a nonagesimal (art. 150, III, b e c, CF).",
+      "Errada. A taxa é tributo vinculado a uma atividade estatal, e seu valor deve guardar relação com o custo dessa atividade. O CTN proíbe expressamente calculá-la em função do capital das empresas (art. 77, parágrafo único).",
+      "Correta. A taxa não pode ter base de cálculo ou fato gerador idênticos aos de imposto nem ser calculada em função do capital das empresas (art. 77, parágrafo único, CTN)."
+    ]
+  },
+  {
+    "id": "41-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A CF não exige maioria absoluta para a lei que concede benefício de ICMS. O requisito violado é a prévia deliberação dos Estados e do DF por convênio (art. 155, §2º, XII, g, CF; LC 24/75).",
+      "Errada. A iniciativa de leis em matéria tributária é concorrente, e não privativa do chefe do Executivo (Tema 682 do STF).",
+      "Correta. Os benefícios fiscais de ICMS, como o crédito presumido, dependem de deliberação prévia dos Estados e do DF, por convênio celebrado no CONFAZ (art. 155, §2º, XII, g, CF; LC 24/75). Sem convênio, o benefício é inconstitucional.",
+      "Errada. Além do convênio, a concessão de benefício fiscal exige lei específica do ente (art. 150, §6º, CF). Um decreto do governador não basta."
+    ]
+  },
+  {
+    "id": "41-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. O mandado de segurança exige direito líquido e certo, demonstrado por prova pré-constituída, e não admite a perícia contábil necessária no caso.",
+      "Errada. A medida cautelar fiscal (Lei 8.397/92) é proposta pela Fazenda Pública contra o devedor, para garantir o crédito, e não pelo contribuinte.",
+      "Errada. A ação anulatória pressupõe um lançamento já efetuado. Aqui, o objetivo é impedir um lançamento futuro.",
+      "Correta. A ação declaratória de inexistência de relação jurídico-tributária (art. 19, I, CPC) pode ser proposta antes do lançamento e admite ampla produção de provas, inclusive pericial. Ela serve para demonstrar que os aluguéis serão aplicados nas finalidades essenciais (Súmula Vinculante 52)."
+    ]
+  },
+  {
+    "id": "41-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. No lançamento por declaração (art. 147, CTN), o sujeito passivo presta informações e a autoridade apura o tributo e efetua o lançamento. No caso, quem apura e paga é o próprio sujeito passivo.",
+      "Errada. O arbitramento (art. 148, CTN) é uma técnica para fixar a base de cálculo quando as declarações do sujeito passivo não merecem fé, e não a modalidade descrita.",
+      "Correta. Quando a lei atribui ao sujeito passivo o dever de apurar e antecipar o pagamento, sujeito à posterior análise da autoridade dentro do prazo decadencial, o lançamento é por homologação (art. 150, CTN).",
+      "Errada. No lançamento de ofício (art. 149, CTN), a autoridade apura e lança o tributo por iniciativa própria, sem a apuração prévia do sujeito passivo."
+    ]
+  },
+  {
+    "id": "41-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Os impostos estaduais também são cobrados no Território Federal, e competem à União (art. 147, CF).",
+      "Correta. Em Território Federal, competem à União os impostos estaduais e, só se o Território não for dividido em Municípios, também os municipais (art. 147, CF). Como há divisão em Municípios, os impostos municipais pertencem a eles.",
+      "Errada. Os impostos estaduais, em Território Federal, competem à União, e não aos Municípios (art. 147, CF).",
+      "Errada. A União só acumula os impostos municipais se o Território não for dividido em Municípios (art. 147, CF), o que não é o caso."
+    ]
+  },
+  {
+    "id": "40-25",
+    "status": "valida",
+    "explicacoes": [
+      "Correta. A imunidade dos livros alcança a importação e a comercialização interna do livro eletrônico e dos suportes exclusivamente usados para fixá-lo, como os leitores (Súmula Vinculante 57; art. 150, VI, d, CF).",
+      "Errada. A imunidade abrange também os aparelhos exclusivamente leitores de livros eletrônicos, ainda que tenham funcionalidades acessórias (Súmula Vinculante 57).",
+      "Errada. A imunidade dos livros é objetiva e alcança justamente os impostos que incidem sobre o bem, como o Imposto de Importação e o ICMS (art. 150, VI, d, CF; Súmula Vinculante 57).",
+      "Errada. O STF equiparou os livros eletrônicos e seus leitores exclusivos aos livros para fins de imunidade (Súmula Vinculante 57)."
+    ]
+  },
+  {
+    "id": "40-26",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A União não pode conceder isenção de tributos estaduais, nem por lei complementar nacional (art. 151, III, CF).",
+      "Errada. A CF não prevê exceção à vedação da isenção heterônoma por situação extraordinária ou por caráter temporário (art. 151, III, CF).",
+      "Correta. É vedado à União instituir isenções de tributos da competência dos Estados, do DF ou dos Municípios (art. 151, III, CF). A lei é inconstitucional na parte em que atinge os tributos estaduais.",
+      "Errada. A ANP é uma autarquia e não tem competência tributária, que pertence aos entes políticos (arts. 145, 153, 155 e 156, CF) e é indelegável (art. 7º, CTN)."
+    ]
+  },
+  {
+    "id": "40-27",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Não há ITBI a recolher, porque a integralização de capital com imóvel é imune (art. 156, §2º, I, CF). Não existe, portanto, responsabilidade solidária de José.",
+      "Errada. Não há isenção legal para empresas de informática. A não incidência decorre da imunidade constitucional da integralização de capital (art. 156, §2º, I, CF).",
+      "Errada. Embora haja transmissão da propriedade, o ITBI não incide sobre bens incorporados ao patrimônio de pessoa jurídica em realização de capital (art. 156, §2º, I, CF).",
+      "Correta. O ITBI não incide sobre a transmissão de bens incorporados ao patrimônio de pessoa jurídica em realização de capital, salvo atividade preponderante imobiliária (art. 156, §2º, I, CF; arts. 36 e 37, CTN). A prestação de serviços de informática não é atividade imobiliária."
+    ]
+  },
+  {
+    "id": "40-28",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. Na iminência ou no caso de guerra externa, a União pode instituir impostos extraordinários compreendidos ou não em sua competência (art. 154, II, CF). Isso inclui hipótese de incidência de imposto estadual.",
+      "Errada. O imposto extraordinário de guerra pode ser instituído por lei ordinária. A lei complementar é exigida para a competência residual (art. 154, I, CF).",
+      "Errada. A própria CF autoriza a bitributação nesse caso, ao permitir impostos extraordinários fora da competência da União (art. 154, II, CF).",
+      "Correta. A União pode instituir impostos extraordinários de guerra, compreendidos ou não em sua competência, que devem ser suprimidos gradativamente quando cessarem as causas de sua criação (art. 154, II, CF; art. 76, CTN)."
+    ]
+  },
+  {
+    "id": "40-29",
+    "status": "valida",
+    "explicacoes": [
+      "Errada. A competência tributária é indelegável (art. 7º, CTN). O convênio transfere apenas as funções de fiscalizar e cobrar (capacidade tributária ativa), não a competência.",
+      "Correta. O Município que optar por fiscalizar e cobrar o ITR fica com 100% do arrecadado relativo aos imóveis situados em seu território (art. 158, II, c/c art. 153, §4º, III, CF; Lei 11.250/05).",
+      "Errada. A CF autoriza expressamente que o ITR seja fiscalizado e cobrado pelos Municípios que assim optarem, desde que não haja redução do imposto ou renúncia fiscal (art. 153, §4º, III, CF).",
+      "Errada. O Município optante pode fiscalizar e cobrar o ITR, e não apenas arrecadar (art. 153, §4º, III, CF)."
+    ]
+  }
+]

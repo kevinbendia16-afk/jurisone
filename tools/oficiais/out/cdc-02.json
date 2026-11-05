@@ -1,0 +1,267 @@
+[
+  { "id": "25-44", "status": "desatualizada",
+    "motivo": "O gabarito afirma que os descontos de crédito consignado devem ser limitados a 30% da remuneração, parâmetro que o STJ aplicava por analogia na época da prova. Hoje a margem consignável é definida em lei e foi ampliada (para beneficiários do INSS e servidores federais chega a 45%, com 35% para empréstimos e parcelas específicas para cartão de crédito e cartão benefício, conforme a Lei 14.431/2022 e a Lei 14.509/2022; para servidores estaduais vale a lei local), e o STJ passou a seguir o limite da legislação específica (o Tema 1085 ainda afastou qualquer teto analógico para descontos em conta-corrente). A afirmação de que o limite é de 30% não vale mais, e o tema hoje também é tratado pelas regras de superendividamento da Lei 14.181/2021." },
+  { "id": "25-45", "status": "valida",
+    "explicacoes": [
+      "Correta. O dano decorreu da aplicação do produto no salão (acidente de consumo), o que configura fato do serviço (art. 14 do CDC) e também fato do produto (art. 12). Todos os que concorreram para o dano respondem solidariamente (arts. 7º, parágrafo único, e 25, § 1º, do CDC).",
+      "Errada. O Estúdio Max não é mero comerciante: prestou o serviço que causou o dano e responde objetiva e solidariamente com o fabricante (arts. 14 e 25, § 1º, do CDC). A responsabilidade subsidiária do comerciante (art. 13) não se aplica aqui.",
+      "Errada. A responsabilidade subjetiva do art. 14, § 4º, do CDC é pessoal do profissional liberal e não exclui a do estabelecimento, que responde objetivamente pelo serviço prestado por seu empregado (art. 14 do CDC e art. 932, III, do CC).",
+      "Errada. Queda e quebra dos fios é acidente de consumo (fato), e não vício do produto. Não há responsabilidade subsidiária: fabricante e estabelecimento respondem solidariamente (arts. 12, 14 e 25, § 1º, do CDC)."
+    ] },
+  { "id": "24-44", "status": "valida",
+    "explicacoes": [
+      "Correta. A agência descumpriu o dever de informação clara e adequada sobre a necessidade de visto de trânsito (arts. 6º, III, e 31 do CDC) e responde objetivamente pelo defeito do serviço (art. 14), inclusive pelos danos extrapatrimoniais da viagem frustrada.",
+      "Errada. Houve dano material: o casal pagou pelo pacote e não pôde usufruí-lo. O consumidor tem direito à reparação integral dos danos (arts. 6º, VI, e 14 do CDC).",
+      "Errada. Não há culpa exclusiva do consumidor (art. 14, § 3º, II, do CDC): cabia à agência, que organizou o trajeto, informar a exigência de visto, e a escolaridade dos noivos não afasta esse dever.",
+      "Errada. A agência integra a cadeia de fornecimento e responde solidariamente pelos serviços que vende no pacote (arts. 7º, parágrafo único, 14 e 25, § 1º, do CDC). Não há responsabilidade subsidiária."
+    ] },
+  { "id": "24-45", "status": "valida",
+    "explicacoes": [
+      "Correta. A rachadura no motor, sem acidente, é vício de qualidade do produto (art. 18 do CDC). Em regra, o fornecedor tem até 30 dias para saná-lo antes de o consumidor exigir troca, devolução do dinheiro ou abatimento (art. 18, § 1º), ressalvadas as hipóteses do § 3º.",
+      "Errada. Não houve acidente de consumo, então não é fato do produto (art. 12 do CDC). A restituição imediata só cabe depois dos 30 dias sem reparo ou nas hipóteses do art. 18, § 3º.",
+      "Errada. No vício do produto, a concessionária responde solidariamente com o fabricante (art. 18, caput, do CDC). A responsabilidade subsidiária do comerciante (art. 13) é só para o fato do produto.",
+      "Errada. O caso é de vício, e não de fato do produto. Além disso, há interesse de agir, pois a concessionária se recusou a qualquer providência."
+    ] },
+  { "id": "23-44", "status": "valida",
+    "explicacoes": [
+      "Errada. A contratação fraudulenta e a negativação indevida configuram defeito do serviço: a fraude é fortuito interno, inerente ao risco da atividade (art. 14 do CDC; mesma lógica da Súmula 479 do STJ), e a inscrição indevida gera dano moral.",
+      "Errada. Heitor não deve nada, pois não contratou; não precisa pagar para discutir e pode pedir a declaração de inexistência do débito e a exclusão da anotação. A devolução em dobro (art. 42, parágrafo único, do CDC) pressupõe pagamento indevido.",
+      "Errada. Quem sofre dano decorrente da atividade do fornecedor é consumidor por equiparação (art. 17 do CDC; também art. 29), e a responsabilidade da operadora é objetiva (art. 14).",
+      "Correta. Heitor é consumidor por equiparação (art. 17 do CDC), e a operadora responde objetivamente pelo risco da atividade (art. 14; fortuito interno, como na Súmula 479 do STJ). A inscrição indevida em cadastro de inadimplentes gera dano moral in re ipsa, além da declaração de inexistência do débito e da exclusão da anotação."
+    ] },
+  { "id": "23-45", "status": "duvidosa",
+    "motivo": "O gabarito afirma, de forma absoluta, que o plano de saúde só pode limitar as doenças cobertas e nunca o tipo de tratamento. Depois da prova, o STJ fixou que a operadora não é obrigada a fornecer medicamento sem registro na Anvisa (Tema 990), adotou o rol da ANS como taxativo mitigado (EREsp 1.886.929, 2022), e a Lei 14.454/2022, interpretada pelo STF na ADI 7265 (2025), passou a condicionar a cobertura de tratamentos fora do rol a critérios técnicos cumulativos. A frase ainda aparece em julgados, mas deixou de ser regra absoluta, de modo que não há segurança de que a alternativa C continue sendo a única correta." },
+  { "id": "22-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Alvina, moradora que usa os elevadores, é destinatária final do serviço e sofreu diretamente os danos; é consumidora (art. 2º do CDC) ou, ao menos, equiparada (art. 17) e tem legitimidade própria.",
+      "Errada. Há relação de consumo: a empresa é fornecedora de serviços (art. 3º, § 2º, do CDC) e os condôminos são destinatários finais. A multa contratual não impede a reparação dos danos individuais (art. 6º, VI).",
+      "Errada. A defesa coletiva não exclui a individual (art. 81 do CDC): cada condômino lesado pode pedir a reparação dos próprios danos, sem litisconsórcio necessário.",
+      "Correta. Pela teoria finalista, Alvina é destinatária final do serviço de modernização dos elevadores (art. 2º do CDC) e pode ajuizar individualmente a ação indenizatória pelos danos que sofreu (arts. 6º, VI, e 14 do CDC)."
+    ] },
+  { "id": "22-47", "status": "valida",
+    "explicacoes": [
+      "Errada. Não basta a cláusula estar escrita: a informação deve ser clara e adequada (arts. 6º, III, e 31 do CDC), e as cláusulas que limitam direitos devem ser redigidas com destaque e fácil compreensão (art. 54, §§ 3º e 4º). A remissão vaga à lei civil e a oferta do telemarketing violaram esse dever.",
+      "Correta. A carência no seguro de vida para o caso de morte é lícita (regra do antigo art. 797 do CC, hoje tratada pela Lei 15.040/2024, o Marco Legal dos Seguros). Mas a informação sobre ela não foi clara, o que viola os arts. 6º, III, 31 e 54, § 4º, do CDC, e a oferta feita pelo telemarketing vincula o fornecedor (art. 30).",
+      "Errada. A carência é admitida também nas relações de consumo, desde que informada de forma clara e destacada (arts. 6º, III, e 54, § 4º, do CDC). O problema do caso é a falha de informação, não a carência em si.",
+      "Errada. A mera previsão contratual não supre o dever de informação clara (arts. 6º, III, 46 e 54, § 4º, do CDC), e a carência não é ilícita nas relações de consumo."
+    ] },
+  { "id": "21-46", "status": "valida",
+    "explicacoes": [
+      "Errada. O CDC não proíbe a publicidade comparativa, que é admitida se for verdadeira, objetiva e não enganosa nem depreciativa (arts. 36 a 38 do CDC e Lei 9.279/96). E a dispensa de pagamento por atraso na entrega por motociclista é vedada pela Lei 12.436/2011.",
+      "Correta. A Lei 12.436/2011 (art. 1º, II) proíbe prometer dispensa de pagamento ao consumidor se a entrega por motociclista sair do prazo, pois isso estimula o aumento de velocidade. Já a publicidade comparativa é lícita se respeitar o CDC e as normas de proteção à marca e à concorrência (Lei 9.279/96).",
+      "Errada. A dispensa de pagamento por atraso é vedada pela Lei 12.436/2011 (art. 1º, II), e a publicidade comparativa não é proibida pelo CDC.",
+      "Errada. A promessa de dispensa de pagamento é proibida expressamente pela Lei 12.436/2011; só a publicidade comparativa é lícita, dentro dos limites legais."
+    ] },
+  { "id": "21-47", "status": "valida",
+    "explicacoes": [
+      "Errada. Pela Súmula 532 do STJ, o envio de cartão de crédito sem prévia e expressa solicitação é prática abusiva e ilícito indenizável, e não mero aborrecimento.",
+      "Errada. Além da sanção administrativa (arts. 56 e 57 do CDC), a conduta configura ilícito indenizável, independentemente de extravio do cartão (art. 39, III, do CDC e Súmula 532 do STJ).",
+      "Correta. O envio de cartão não solicitado é prática abusiva (art. 39, III, do CDC) e, segundo a Súmula 532 do STJ, ilícito indenizável e sujeito a multa administrativa. A multa é revertida a fundos públicos, e não ao consumidor (art. 57 do CDC).",
+      "Errada. A conduta é abusiva mesmo sem desbloqueio ou prejuízo material (art. 39, III e parágrafo único, do CDC), e gera dever de indenizar e multa administrativa (Súmula 532 do STJ)."
+    ] },
+  { "id": "20-46", "status": "valida",
+    "explicacoes": [
+      "Errada. A exclusão cabe ao credor, sem necessidade de notificação do consumidor, e o prazo é de 5 dias úteis, não de 24 horas (Súmula 548 do STJ).",
+      "Errada. Depois da quitação, o ônus de pedir a exclusão do registro é do credor, e não do consumidor (Súmula 548 do STJ e art. 43, § 3º, do CDC).",
+      "Correta. Compete ao credor pedir a exclusão do registro em 5 dias úteis, contados do primeiro dia útil seguinte à disponibilização do valor que quita o débito (Súmula 548 e Tema 735 do STJ).",
+      "Errada. A exclusão é obrigação do credor, e a manutenção indevida pode gerar ordem judicial de exclusão, indenização e sanções administrativas e penais (arts. 43, § 3º, 56 e 73 do CDC), e não apenas sanção civil."
+    ] },
+  { "id": "20-47", "status": "valida",
+    "explicacoes": [
+      "Errada. As Convenções de Varsóvia e Montreal prevalecem só quanto aos danos materiais (Tema 210 do STF). Para danos extrapatrimoniais no transporte aéreo internacional, elas não se aplicam (Tema 1240 do STF), incidindo o CDC.",
+      "Errada. Os funcionários também são consumidores, pois são destinatários finais do serviço de transporte (art. 2º do CDC), e a vulnerabilidade do consumidor é presumida, qualquer que seja sua condição financeira (art. 4º, I).",
+      "Correta. Para danos extrapatrimoniais em voo internacional, aplica-se o CDC, e não as convenções internacionais (Tema 1240 do STF). A vulnerabilidade é presumida para todo consumidor (art. 4º, I, do CDC), tanto para Heitor, que contratou, quanto para os funcionários, destinatários finais do transporte.",
+      "Errada. Havendo relação de consumo, o CDC se aplica ao contrato de transporte, com o CC em aplicação compatível (art. 732 do CC). A responsabilidade da companhia aérea é objetiva (art. 14 do CDC e art. 734 do CC) e não depende de prova de culpa."
+    ] },
+  { "id": "19-46", "status": "valida",
+    "explicacoes": [
+      "Correta. O CDC se aplica aos planos de saúde, inclusive coletivos (Súmula 608 do STJ, que só exclui os de autogestão), e é vedado cobrar da pessoa idosa valores diferenciados em razão da idade (art. 15, § 3º, do Estatuto da Pessoa Idosa). Reajuste desarrazoado por faixa etária é abusivo (Temas 952 e 1016 do STJ).",
+      "Errada. O CDC se aplica aos planos coletivos (Súmula 608 do STJ), e o reajuste etário só é válido se previsto em contrato, de acordo com as normas da ANS e sem percentuais desarrazoados que onerem excessivamente o idoso (Temas 952 e 1016 do STJ; art. 51, IV, do CDC).",
+      "Errada. O CDC não autoriza reajustes livres por faixa etária: um aumento de cerca de 400% aos 60 anos é abusivo (art. 51, IV e § 1º, do CDC; art. 15, § 3º, do Estatuto da Pessoa Idosa; Temas 952 e 1016 do STJ).",
+      "Errada. Não há colisão de normas: o CDC e o Estatuto da Pessoa Idosa se aplicam em conjunto (diálogo das fontes), ambos protegendo o consumidor idoso."
+    ] },
+  { "id": "19-47", "status": "valida",
+    "explicacoes": [
+      "Errada. Quando o vício de quantidade decorre de pesagem feita com instrumento não aferido, responde apenas o fornecedor imediato (art. 19, § 2º, do CDC); a solidariedade do caput não alcança produtores que não participaram da pesagem.",
+      "Errada. Não há subsidiariedade: o comerciante responde diretamente e com exclusividade pela pesagem que fez (art. 19, § 2º, do CDC). A subsidiariedade do art. 13 se refere ao fato do produto.",
+      "Correta. O fornecedor imediato é responsável quando faz a pesagem ou a medição e o instrumento utilizado não está aferido segundo os padrões oficiais (art. 19, § 2º, do CDC).",
+      "Errada. Responsabilidade objetiva dispensa a prova de culpa, mas admite excludentes, previstas por exemplo nos arts. 12, § 3º, e 14, § 3º, do CDC."
+    ] },
+  { "id": "18-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Por se tratar de produto essencial (aparelho de oxigênio para doente grave), o consumidor pode exigir de imediato a substituição, a restituição ou o abatimento, sem aguardar os 30 dias (art. 18, § 3º, do CDC).",
+      "Errada. Joana é consumidora, pois adquiriu o produto, e sua mãe, que o utiliza, também é destinatária final (art. 2º do CDC). Os 90 dias são o prazo decadencial para reclamar de vício em produto durável (art. 26, II), e não um prazo de conserto.",
+      "Correta. Por ser produto essencial, o consumidor pode fazer uso imediato das alternativas do art. 18, § 1º, como a substituição do produto, sem esperar o prazo de 30 dias (art. 18, § 3º, do CDC).",
+      "Errada. Se não for possível substituir por produto da mesma espécie, pode-se trocar por outro de espécie, marca ou modelo diversos, mediante complementação ou restituição da diferença de preço (art. 18, § 4º, do CDC)."
+    ] },
+  { "id": "18-47", "status": "valida",
+    "explicacoes": [
+      "Errada. A validade de 10 dias só vale se não houver estipulação em contrário (art. 40, § 1º, do CDC); como a oficina fixou 15 dias, fica vinculada por esse prazo.",
+      "Errada. Aprovado o orçamento, o consumidor não responde por ônus ou acréscimos decorrentes da contratação de serviços de terceiros não previstos no orçamento prévio (art. 40, § 3º, do CDC).",
+      "Correta. Nos vícios de qualidade do serviço, o consumidor pode exigir, à sua escolha, a reexecução sem custo adicional, a restituição da quantia paga corrigida ou o abatimento proporcional do preço (art. 20 do CDC).",
+      "Errada. É prática abusiva executar serviço sem orçamento prévio e sem autorização expressa do consumidor (art. 39, VI, do CDC); não basta consentimento tácito, e o orçamento deve discriminar mão de obra, materiais, pagamento e prazos (art. 40)."
+    ] },
+  { "id": "17-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Os convidados intoxicados são consumidores por equiparação, vítimas do acidente de consumo (art. 17 do CDC), e também podem pedir indenização; Carla e Jair são consumidores diretos (art. 2º), e não indiretos.",
+      "Correta. O ente despersonalizado que exerce a atividade com habitualidade é fornecedor (art. 3º do CDC), e os convidados que sofreram o dano são consumidores por equiparação (art. 17), podendo acionar diretamente o casal (art. 12).",
+      "Errada. Carla e Jair são consumidores padrão (art. 2º do CDC), e não por equiparação. A facilitação da defesa vale para todos os consumidores, inclusive os equiparados (art. 6º, VIII), e no fato do produto cabe ao fornecedor provar as excludentes (art. 12, § 3º).",
+      "Errada. A falta de registro não afasta a condição de fornecedor, pois o art. 3º do CDC inclui expressamente os entes despersonalizados. Aplica-se o regime do fato do produto (art. 12), e não o dos vícios redibitórios do CC."
+    ] },
+  { "id": "17-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O CDC se aplica às instituições financeiras (Súmula 297 do STJ e art. 3º, § 2º, do CDC), inclusive aos financiamentos com alienação fiduciária, o que permite a revisão de cláusulas (art. 6º, V) e a inversão do ônus da prova (art. 6º, VIII).",
+      "Errada. Não é preciso ajuizar ação prévia de exibição de documentos: o pedido pode ser feito no próprio processo (arts. 396 a 400 do CPC/2015). A cautelar preparatória do CPC/1973 nem existe mais nesse formato.",
+      "Errada. O Decreto-Lei 911/69 regula a garantia e sua execução, mas não afasta o CDC na relação entre o consumidor e o banco (Súmula 297 do STJ).",
+      "Correta. Aplica-se o CDC (Súmula 297 do STJ), e a ação revisional pode ser ajuizada sem ação prévia de exibição, pois a exibição do contrato pode ser pedida incidentalmente, nos próprios autos (arts. 396 a 400 do CPC/2015)."
+    ] },
+  { "id": "16-46", "status": "valida",
+    "explicacoes": [
+      "Errada. A responsabilidade do fabricante é objetiva e independe de culpa (art. 12 do CDC); o consumidor deve demonstrar o dano e o nexo causal, não a culpa.",
+      "Errada. O fabricante responde objetivamente. No fato do produto, quem responde de forma subsidiária é o comerciante (art. 13 do CDC), e no vício do produto todos respondem solidariamente (art. 18).",
+      "Correta. Mesmo na responsabilidade objetiva, cabe ao consumidor demonstrar elementos mínimos do dano e do nexo causal com o produto; a lei dispensa apenas a prova da culpa (arts. 12 e 14 do CDC).",
+      "Errada. A inversão do ônus da prova do art. 6º, VIII, do CDC não é automática: depende de decisão do juiz, diante da verossimilhança da alegação ou da hipossuficiência do consumidor (inversão ope judicis)."
+    ] },
+  { "id": "16-47", "status": "valida",
+    "explicacoes": [
+      "Errada. A convenção coletiva de consumo só se torna obrigatória a partir do registro do instrumento no cartório de títulos e documentos (art. 107, § 1º, do CDC).",
+      "Errada. A convenção pode tratar justamente de condições relativas a preço, qualidade, quantidade, garantia e características de produtos e serviços (art. 107, caput, do CDC).",
+      "Errada. O fornecedor que se desligar da entidade em data posterior ao registro não se exime de cumprir a convenção (art. 107, § 3º, do CDC).",
+      "Correta. A convenção coletiva de consumo somente obriga os filiados às entidades signatárias (art. 107, § 2º, do CDC)."
+    ] },
+  { "id": "15-46", "status": "valida",
+    "explicacoes": [
+      "Errada. A inversão do art. 6º, VIII, do CDC depende de verossimilhança ou hipossuficiência, a critério do juiz; e, no fato do produto, o fabricante se exime provando que o defeito não existe (art. 12, § 3º, II), como mostrou a perícia.",
+      "Errada. Pelo fato do produto respondem o fabricante, o produtor, o construtor e o importador (art. 12 do CDC); o comerciante responde apenas nas hipóteses do art. 13.",
+      "Errada. A responsabilidade objetiva dispensa a prova de culpa, mas exige defeito e nexo causal; provado que o airbag funcionou como projetado, não há defeito (art. 12, §§ 1º e 3º, II, do CDC).",
+      "Correta. O produto ofereceu a segurança que dele legitimamente se espera (art. 12, § 1º, do CDC): o airbag frontal não deve abrir em colisão traseira e em baixa velocidade. Provada a inexistência de defeito, o fabricante não responde (art. 12, § 3º, II)."
+    ] },
+  { "id": "15-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O consumidor tem direito de acesso às informações que sobre ele constem em cadastros e bancos de dados, sem necessidade de ordem judicial (art. 43, caput, do CDC).",
+      "Correta. Impedir ou dificultar o acesso do consumidor às informações que sobre ele constem em cadastros e bancos de dados é crime, punido com detenção de seis meses a um ano ou multa (art. 72 do CDC).",
+      "Errada. A conduta não é mera infração administrativa: é crime tipificado no art. 72 do CDC, sem prejuízo das sanções administrativas (art. 56).",
+      "Errada. O crime do art. 72 do CDC não depende do tipo de produto ou serviço; operações com alimentos, medicamentos ou serviços essenciais são apenas circunstância agravante (art. 76, V)."
+    ] },
+  { "id": "14-46", "status": "duvidosa",
+    "motivo": "O gabarito afirma que o hospital responde objetivamente pelo erro médico da equipe que indicou. A jurisprudência do STJ distingue: a responsabilidade objetiva do hospital (art. 14 do CDC) alcança os serviços do próprio estabelecimento (internação, enfermagem, equipamentos); quanto aos atos técnicos dos médicos, ainda que integrantes do corpo clínico ou indicados pelo hospital, o hospital responde solidariamente, mas só se comprovada a culpa do médico (REsp 1.145.728 e julgados posteriores). A afirmação de responsabilidade objetiva pelo erro médico contraria essa orientação, que a FGV pode cobrar; por isso a questão não é segura." },
+  { "id": "14-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O fornecedor deve informar prévia e adequadamente a taxa efetiva anual de juros e também os acréscimos legalmente previstos (art. 52, II e III, do CDC); a discriminação não é facultativa.",
+      "Errada. A liquidação antecipada com redução proporcional dos juros e demais acréscimos é direito do consumidor, independentemente de opção na contratação (art. 52, § 2º, do CDC).",
+      "Correta. Na outorga de crédito ou financiamento, o preço do produto ou serviço deve ser informado em moeda corrente nacional (art. 52, I, do CDC).",
+      "Errada. A multa de mora não pode superar 2% do valor da prestação (art. 52, § 1º, do CDC), e pode ser cobrada junto com os juros de mora, que têm natureza diversa."
+    ] },
+  { "id": "13-46", "status": "valida",
+    "explicacoes": [
+      "Correta. A oferta suficientemente precisa vincula o fornecedor (art. 30 do CDC), e recusar a prestação de serviço a quem se dispõe a contratá-lo, sem justificativa, é prática abusiva (art. 39, II e IX). O consumidor pode exigir o cumprimento forçado da obrigação (art. 35, I).",
+      "Errada. Aplica-se o CDC, e a seguradora não pode recusar a contratação sem motivo justificado (arts. 30 e 39, II e IX, do CDC); a recusa só se admite com fundamento técnico legítimo.",
+      "Errada. A relação é de consumo (art. 3º, § 2º, do CDC), e a oferta vincula o fornecedor (art. 30). Mesmo no CC, a proposta em regra obriga o proponente (art. 427).",
+      "Errada. A proposta de seguro dirigida aos empregados é oferta suficientemente precisa e vincula a seguradora (arts. 30 e 35 do CDC)."
+    ] },
+  { "id": "13-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O produto não é considerado defeituoso pelo fato de outro de melhor qualidade ter sido colocado no mercado (art. 12, § 2º, do CDC).",
+      "Errada. O dever de assegurar peças de reposição é do fabricante e do importador (art. 32 do CDC), e não da concessionária, e permanece por período razoável mesmo após cessada a fabricação.",
+      "Errada. Cessada a produção ou importação, a oferta de peças deve ser mantida por período razoável de tempo, na forma da lei (art. 32, parágrafo único, do CDC); a exoneração não é imediata.",
+      "Correta. Mesmo cessada a fabricação, o fabricante deve manter a oferta de peças por período razoável de tempo, na forma da lei (art. 32, parágrafo único, do CDC), e o reparo deve empregar componentes originais e novos, salvo autorização em contrário do consumidor (art. 21)."
+    ] },
+  { "id": "12-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Bruna é consumidora por equiparação, pois foi exposta a prática abusiva (art. 29 do CDC) e é vítima do evento danoso (art. 17); aplica-se o CDC independentemente de contrato.",
+      "Correta. Equiparam-se a consumidores todas as pessoas expostas às práticas comerciais (art. 29 do CDC). O envio de cartão não solicitado é prática abusiva e ilícito indenizável (art. 39, III, do CDC e Súmula 532 do STJ).",
+      "Errada. O furto decorrente de falha do preposto do banco é fortuito interno, ligado ao risco da atividade, e não exclui a responsabilidade (art. 14 do CDC e Súmula 479 do STJ).",
+      "Errada. O CDC veda expressamente enviar produto ou fornecer serviço sem solicitação prévia (art. 39, III); a equiparação a amostra grátis (parágrafo único) protege o consumidor e não afasta o dever de indenizar."
+    ] },
+  { "id": "12-47", "status": "valida",
+    "explicacoes": [
+      "Errada. A vulnerabilidade é presumida para o consumidor pessoa física (art. 4º, I, do CDC), mas para a pessoa jurídica deve ser demonstrada (finalismo mitigado do STJ). Além disso, a inversão do ônus da prova não é automática (art. 6º, VIII).",
+      "Correta. A doutrina trata a vulnerabilidade como conceito plurissignificativo (técnica, jurídica, fática e informacional), e o casal é faticamente vulnerável diante da concessionária única. A interrupção injustificada de serviço essencial gera dever de indenizar (arts. 6º, VI, 14 e 22 do CDC).",
+      "Errada. Vulnerabilidade não é sinônimo de hipossuficiência: a primeira é presumida para todo consumidor (art. 4º, I, do CDC); a segunda é aferida no caso concreto e é um dos requisitos alternativos da inversão do ônus da prova (art. 6º, VIII).",
+      "Errada. Além da técnica e da jurídica ou científica, a doutrina reconhece a vulnerabilidade fática ou socioeconômica e a informacional; e a inversão do ônus depende de verossimilhança ou hipossuficiência (art. 6º, VIII, do CDC)."
+    ] },
+  { "id": "11-46", "status": "valida",
+    "explicacoes": [
+      "Errada. No vício do produto, os fornecedores da cadeia, inclusive o comerciante, respondem solidariamente (art. 19 do CDC); o Mercado A é parte legítima.",
+      "Errada. A divergência entre o volume e o rótulo é vício de quantidade (art. 19 do CDC), e não fato do produto; e não há subsidiariedade, que só existe para o comerciante no fato do produto (art. 13).",
+      "Errada. O Mercado B adquiriu o desinfetante para consumo próprio na limpeza de suas instalações, e não para revenda ou como insumo, sendo destinatário final (art. 2º do CDC).",
+      "Correta. Volume inferior ao indicado no rótulo é vício de quantidade do produto, pelo qual respondem solidariamente o comerciante e o fabricante (art. 19 do CDC)."
+    ] },
+  { "id": "11-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O dentista é profissional liberal, cuja responsabilidade pessoal é apurada mediante verificação de culpa (art. 14, § 4º, do CDC). O prazo de 5 anos (art. 27) é de prescrição da pretensão, mas não torna a responsabilidade objetiva.",
+      "Errada. Houve acidente de consumo (fato do serviço), e não vício; a responsabilidade do profissional liberal é subjetiva (art. 14, § 4º, do CDC), e a pretensão indenizatória prescreve em 5 anos (art. 27), não se aplicando o prazo decadencial de 90 dias (art. 26).",
+      "Correta. A responsabilidade pessoal dos profissionais liberais é apurada mediante verificação de culpa (art. 14, § 4º, do CDC), exceção à regra da responsabilidade objetiva.",
+      "Errada. A relação entre o dentista e o paciente é de consumo (arts. 2º e 3º do CDC); o CDC apenas prevê responsabilidade subjetiva para o profissional liberal (art. 14, § 4º)."
+    ] },
+  { "id": "10-46", "status": "valida",
+    "explicacoes": [
+      "Correta. A indenização por perdas e danos se faz sem prejuízo da multa fixada para compelir o réu ao cumprimento da obrigação (art. 84, § 2º, do CDC; art. 500 do CPC/2015).",
+      "Errada. O juiz pode impor multa diária ao réu independentemente de pedido do autor (art. 84, § 4º, do CDC; art. 537 do CPC/2015).",
+      "Errada. A conversão em perdas e danos só ocorre se o autor a requerer ou se for impossível a tutela específica ou o resultado prático equivalente (art. 84, § 1º, do CDC; art. 499 do CPC/2015).",
+      "Errada. Para efetivar a tutela específica, o juiz pode determinar busca e apreensão e outras medidas nos próprios autos, sem ação cautelar própria (art. 84, § 5º, do CDC; art. 536, § 1º, do CPC/2015)."
+    ] },
+  { "id": "10-47", "status": "valida",
+    "explicacoes": [
+      "Correta. A operadora que vende o pacote responde solidariamente pelas falhas dos serviços que o integram, inclusive o seguro prestado por terceiro (arts. 7º, parágrafo único, 14, 25, § 1º, e 34 do CDC).",
+      "Errada. A operadora integra a cadeia de fornecimento do pacote e responde solidariamente com a seguradora (arts. 7º, parágrafo único, e 25, § 1º, do CDC).",
+      "Errada. Na solidariedade, o consumidor pode acionar qualquer dos responsáveis, isolada ou conjuntamente (art. 275 do CC); não há litisconsórcio necessário.",
+      "Errada. A responsabilidade da operadora decorre de o seguro integrar o pacote que ela vendeu (arts. 7º, parágrafo único, e 34 do CDC), e não da existência de venda casada."
+    ] },
+  { "id": "09-46", "status": "valida",
+    "explicacoes": [
+      "Errada. A publicidade que induz o consumidor a se comportar de forma prejudicial ou perigosa à sua saúde ou segurança é abusiva (art. 37, § 2º, do CDC), e não enganosa.",
+      "Errada. Informação total ou parcialmente falsa sobre preço e qualidade caracteriza publicidade enganosa (art. 37, § 1º, do CDC), e não abusiva.",
+      "Errada. A publicidade deve ser veraz: anunciar uso sem custo adicional quando há cobrança induz o consumidor em erro, e a oferta vincula o fornecedor (arts. 30, 31 e 37, §§ 1º e 3º, do CDC).",
+      "Correta. É enganosa a publicidade inteira ou parcialmente falsa, ou capaz de induzir o consumidor em erro, inclusive quanto ao preço (art. 37, § 1º, do CDC), como o anúncio de uso sem custo adicional."
+    ] },
+  { "id": "09-47", "status": "valida",
+    "explicacoes": [
+      "Correta. O CDC protege o consumidor e assegura a revisão contratual em favor dele (art. 6º, V), e não do fornecedor. Dívidas e problemas judiciais da empresa são riscos do próprio negócio, e não acontecimento extraordinário e imprevisível (arts. 478 a 480 do CC).",
+      "Errada. A revisão por onerosidade excessiva prevista no CDC é direito do consumidor (art. 6º, V), e não do fornecedor; a dificuldade financeira da empresa é risco do negócio.",
+      "Errada. O CDC não exige imprevisibilidade para a revisão em favor do consumidor (art. 6º, V, teoria da base objetiva), e esse direito não socorre o fornecedor.",
+      "Errada. Não houve acontecimento extraordinário e imprevisível, mas problemas internos da empresa, que integram o risco do negócio; faltam os requisitos da teoria da imprevisão (art. 478 do CC)."
+    ] },
+  { "id": "08-46", "status": "valida",
+    "explicacoes": [
+      "Errada. O CDC se aplica plenamente aos contratos de seguro oferecidos no mercado de consumo (art. 3º, § 2º, do CDC), em diálogo com a legislação de seguros.",
+      "Errada. É nula a cláusula que autoriza o fornecedor a cancelar o contrato unilateralmente sem igual direito ao consumidor (art. 51, XI, do CDC), seja qual for o momento.",
+      "Correta. O Ministério Público tem legitimidade para a defesa coletiva dos consumidores (arts. 81 e 82, I, do CDC), inclusive para pedir a nulidade de cláusula abusiva (art. 51, § 4º) e a proibição de sua oferta no mercado.",
+      "Errada. A cláusula é abusiva, pois permite o cancelamento unilateral pelo fornecedor (art. 51, XI, do CDC) e coloca o consumidor em desvantagem exagerada (art. 51, IV)."
+    ] },
+  { "id": "08-47", "status": "valida",
+    "explicacoes": [
+      "Errada. Houve dano comprovado (quebra do dente) causado por elemento rígido inesperado no produto, o que basta para caracterizar defeito de segurança (art. 12, § 1º, do CDC), ainda que o material não fosse tóxico.",
+      "Correta. O produto não ofereceu a segurança que dele legitimamente se espera e causou dano ao consumidor, configurando fato do produto (art. 12, § 1º, do CDC), ainda que não fosse impróprio para o consumo.",
+      "Errada. A responsabilidade do fornecedor pelo fato do produto é objetiva e independe de culpa (arts. 12 e 13 do CDC).",
+      "Errada. Há fato do produto, pois o defeito de segurança causou dano; o fabricante responde objetivamente (art. 12 do CDC), e o comerciante nas hipóteses do art. 13."
+    ] },
+  { "id": "07-46", "status": "valida",
+    "explicacoes": [
+      "Errada. A garantia legal independe de termo expresso, mas é vedada a exoneração contratual do fornecedor (art. 24 do CDC), e a ignorância sobre os vícios não o exime de responsabilidade (art. 23).",
+      "Correta. É nula de pleno direito a cláusula que impossibilite, exonere ou atenue a responsabilidade do fornecedor por vícios do produto (arts. 25 e 51, I, do CDC), e a vistoria prévia não afasta essa garantia.",
+      "Errada. São nulas as cláusulas que subtraiam ao consumidor a opção de reembolso da quantia paga (art. 51, II, do CDC) e que transfiram responsabilidades a terceiros (art. 51, III); o comerciante responde solidariamente pelo vício (art. 18).",
+      "Errada. São nulas as cláusulas que determinem a utilização compulsória de arbitragem (art. 51, VII, do CDC) e que obriguem o consumidor a ressarcir custos de cobrança sem igual direito contra o fornecedor (art. 51, XII)."
+    ] },
+  { "id": "07-47", "status": "valida",
+    "explicacoes": [
+      "Errada. O prazo de arrependimento é de 7 dias, e não de 15, contados da assinatura ou do recebimento do produto, e tem natureza decadencial (art. 49 do CDC).",
+      "Correta. Na compra fora do estabelecimento (por telefone), o consumidor pode desistir em 7 dias do recebimento, sem justificar, e os valores pagos a qualquer título devem ser devolvidos de imediato, atualizados (art. 49, caput e parágrafo único, do CDC); 25 de março está dentro do prazo.",
+      "Errada. Contando-se do recebimento em 19 de março, com exclusão do dia do começo, o sétimo dia é 26 de março, de modo que ainda cabe o arrependimento (art. 49 do CDC).",
+      "Errada. O arrependimento não se confunde com a garantia legal: o consumidor pode reclamar de vícios nos prazos do art. 26 do CDC e exigir o cumprimento da oferta (arts. 30 e 35), independentemente de garantia contratual."
+    ] },
+  { "id": "06-46", "status": "valida",
+    "explicacoes": [
+      "Errada. Salvo estipulação em contrário, o orçamento vale por 10 dias, contados do recebimento pelo consumidor (art. 40, § 1º, do CDC).",
+      "Errada. É o contrário: o consumidor não responde por ônus ou acréscimos decorrentes da contratação de serviços de terceiros não previstos no orçamento prévio (art. 40, § 3º, do CDC).",
+      "Correta. Salvo estipulação em contrário, o orçamento vale por 10 dias do recebimento pelo consumidor; aprovado, obriga os contraentes e pode ser alterado mediante livre negociação das partes (art. 40, §§ 1º e 2º, do CDC).",
+      "Errada. Aprovado, o orçamento obriga os contraentes, mas pode ser alterado mediante livre negociação, sem necessidade de novo orçamento (art. 40, § 2º, do CDC)."
+    ] },
+  { "id": "06-47", "status": "valida",
+    "explicacoes": [
+      "Errada. No vício oculto, o prazo decadencial só se inicia quando o defeito fica evidenciado (art. 26, § 3º, do CDC), e não na retirada do veículo.",
+      "Correta. No vício oculto, o prazo decadencial começa quando o defeito fica evidenciado (art. 26, § 3º, do CDC) e, por ser o veículo produto durável, é de 90 dias (art. 26, II).",
+      "Errada. O prazo de 30 dias vale para produtos não duráveis (art. 26, I, do CDC); para o veículo, produto durável, o prazo é de 90 dias (art. 26, II).",
+      "Errada. O prazo de 7 dias para desistência (art. 49 do CDC) só se aplica às contratações fora do estabelecimento comercial e não se confunde com o prazo para reclamar de vícios (art. 26)."
+    ] }
+]

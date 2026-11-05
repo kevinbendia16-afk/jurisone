@@ -1,0 +1,282 @@
+[
+  { "id": "34-51", "status": "valida",
+    "explicacoes": [
+      "Errada. Mesmo com indícios de desvio, a remoção exige a intimação prévia do inventariante para se defender e produzir provas em 15 dias (art. 623 do CPC); não pode ser decretada sem contraditório.",
+      "Correta. O pedido de remoção corre em apenso aos autos do inventário (art. 623, parágrafo único, do CPC), e o inventariante deve ser intimado para, em 15 dias, defender-se e produzir provas (art. 623, caput).",
+      "Errada. A remoção pode ser determinada de ofício ou a requerimento de qualquer interessado (art. 622 do CPC), o que inclui a herdeira Maria; não há exclusividade do cônjuge supérstite.",
+      "Errada. Sonegar, ocultar ou desviar bens do espólio é causa expressa de remoção do inventariante (art. 622, VI, do CPC)."
+    ] },
+  { "id": "34-52", "status": "valida",
+    "explicacoes": [
+      "Errada. A fungibilidade das possessórias é exceção legal à congruência: a propositura de uma ação possessória em vez de outra não impede que o juiz conceda a proteção legal correspondente (art. 554 do CPC).",
+      "Errada. É lícito cumular o pedido possessório com o de condenação em perdas e danos e indenização dos frutos (art. 555, I e II, do CPC).",
+      "Correta. O juiz recebeu o interdito proibitório como reintegração de posse, aplicando a fungibilidade das ações possessórias, já que os pressupostos da proteção concedida estavam provados (art. 554 do CPC).",
+      "Errada. Houve agressão concreta à posse (retirada da cerca e ocupação de área), o que autoriza a tutela possessória; a demarcatória (art. 569, I, do CPC) serve para fixar limites confusos ou apagados, e não para repelir esbulho."
+    ] },
+  { "id": "34-53", "status": "valida",
+    "explicacoes": [
+      "Errada. A oposição (art. 682 do CPC) cabe na fase de conhecimento, até a sentença, para quem pretende a coisa ou o direito disputado entre autor e réu; não serve para atacar penhora em cumprimento de sentença.",
+      "Correta. Quem não é parte e sofre constrição sobre bem que possui pode opor embargos de terceiro, inclusive como possuidor (art. 674, caput e § 1º, do CPC), mesmo sem registro do título (Súmula 84 do STJ), até 5 dias após a alienação e antes da assinatura da carta (art. 675).",
+      "Errada. A habilitação (arts. 687 a 692 do CPC) serve à sucessão de parte falecida no processo, e não à defesa de terceiro atingido por constrição judicial.",
+      "Errada. O meio próprio do terceiro possuidor para desconstituir a penhora são os embargos de terceiro (art. 674 do CPC), ação que permite provar a posse e a aquisição do bem."
+    ] },
+  { "id": "34-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A tese firmada em julgamento de casos repetitivos pode ser alterada ou superada, inclusive com audiências públicas e modulação de efeitos (art. 927, §§ 2º a 4º, do CPC).",
+      "Errada. O relator pode admitir a manifestação de amicus curiae e designar audiência pública para instruir o julgamento dos repetitivos (art. 1.038, I e II, do CPC).",
+      "Errada. O julgamento de casos repetitivos pode ter por objeto questão de direito material ou processual (art. 928, parágrafo único, do CPC).",
+      "Correta. A escolha feita pelo presidente ou vice-presidente do tribunal de origem não vincula o relator no tribunal superior, que pode selecionar outros recursos representativos da controvérsia (art. 1.036, § 4º, do CPC)."
+    ] },
+  { "id": "34-55", "status": "valida",
+    "explicacoes": [
+      "Correta. Cabe recurso especial quando o acórdão der à lei federal interpretação divergente da de outro tribunal (art. 105, III, c, da CF), devendo o recorrente provar a divergência e mencionar as circunstâncias que identifiquem ou assemelhem os casos confrontados (art. 1.029, § 1º, do CPC).",
+      "Errada. Embargos de divergência cabem contra acórdão de órgão fracionário do próprio STJ ou STF, em recurso especial ou extraordinário, que divergir de outro órgão do mesmo tribunal (art. 1.043 do CPC), e não contra acórdão de tribunal local.",
+      "Errada. O incidente de assunção de competência exige relevante questão de direito, com grande repercussão social, sem repetição em múltiplos processos (art. 947 do CPC).",
+      "Errada. O IRDR é instaurado nos tribunais locais (TJ e TRF) e pressupõe efetiva repetição de processos sobre a mesma questão de direito (arts. 976 e 977 do CPC); não é meio de impugnar acórdão já proferido."
+    ] },
+  { "id": "34-56", "status": "valida",
+    "explicacoes": [
+      "Correta. A extinção por abandono (art. 485, III, do CPC) exige a prévia intimação pessoal da parte para suprir a falta em 5 dias (art. 485, § 1º); a intimação apenas do advogado pelo Diário da Justiça não basta.",
+      "Errada. Além do decurso de mais de 30 dias, exige-se a intimação pessoal da parte (art. 485, § 1º, do CPC) e, após a contestação, o requerimento do réu (art. 485, § 6º).",
+      "Errada. O prazo legal de abandono pelo autor é de mais de 30 dias (art. 485, III, do CPC), e não de 60, e também se exige intimação pessoal prévia (art. 485, § 1º).",
+      "Errada. O CPC prevê a extinção sem resolução de mérito quando o autor abandonar a causa por mais de 30 dias (art. 485, III)."
+    ] },
+  { "id": "34-57", "status": "valida",
+    "explicacoes": [
+      "Correta. No Juizado Especial Cível a contestação pode ser oral ou escrita (art. 30 da Lei 9.099/95), mas não se admite reconvenção, sendo lícito apenas o pedido contraposto fundado nos mesmos fatos (art. 31).",
+      "Errada. A contestação pode ser oral (art. 30 da Lei 9.099/95); só está certa a parte que veda a reconvenção (art. 31).",
+      "Errada. A reconvenção é vedada no Juizado Especial Cível (art. 31 da Lei 9.099/95), e a contestação pode ser oral (art. 30).",
+      "Errada. Embora a contestação possa ser oral, a reconvenção não é admitida no Juizado; cabe apenas pedido contraposto (art. 31 da Lei 9.099/95)."
+    ] },
+  { "id": "33-51", "status": "valida",
+    "explicacoes": [
+      "Errada. Antes de indeferir a inicial por falta de documento indispensável, o juiz deve determinar a emenda (art. 321 do CPC); só haverá indeferimento se o autor não cumprir a diligência (art. 321, parágrafo único).",
+      "Errada. A certidão de casamento é indispensável apenas às ações que dependem da prova do casamento, como o divórcio, e o prazo para emenda é de 15 dias, e não de 5 (art. 321 do CPC).",
+      "Correta. Faltando documento indispensável à propositura da ação (art. 320 do CPC), o juiz intima o autor para emendar ou completar a inicial em 15 dias, indicando com precisão o que deve ser corrigido (art. 321).",
+      "Errada. A improcedência liminar (art. 332 do CPC) é julgamento de mérito em causas que dispensam instrução e contrariam precedentes, ou em caso de prescrição e decadência; a falta de documento leva à emenda e, não suprida, ao indeferimento da inicial."
+    ] },
+  { "id": "33-52", "status": "valida",
+    "explicacoes": [
+      "Correta. Admitida a oposição, ela é apensada aos autos e tramita simultaneamente com a ação originária, sendo ambas julgadas pela mesma sentença (art. 685 do CPC); a regra do parágrafo único vale só para oposição proposta após o início da audiência de instrução.",
+      "Errada. Cabendo ao juiz decidir simultaneamente a ação originária e a oposição, desta conhecerá em primeiro lugar (art. 686 do CPC), por ser prejudicial.",
+      "Errada. Os opostos formam litisconsórcio passivo necessário, mas simples, e não unitário: a decisão pode ser diferente para cada um, tanto que, se um reconhecer a procedência do pedido, o processo prossegue contra o outro (art. 684 do CPC).",
+      "Errada. Se um dos opostos reconhecer a procedência do pedido, contra o outro prosseguirá o opoente (art. 684 do CPC); o reconhecimento de Pedro não basta para declarar Karine proprietária."
+    ] },
+  { "id": "33-53", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora a apelação tenha, em regra, efeito suspensivo (art. 1.012 do CPC), a sentença que condena a pagar alimentos começa a produzir efeitos logo após a publicação (art. 1.012, § 1º, II).",
+      "Errada. A sentença que fixa alimentos é condenatória, e não meramente declaratória, e admite cumprimento provisório (arts. 520 e 1.012, § 1º, II, e § 2º, do CPC).",
+      "Correta. A apelação contra sentença que condena a pagar alimentos não tem efeito suspensivo, de modo que a sentença produz efeitos logo após a publicação e admite cumprimento provisório (art. 1.012, § 1º, II, e § 2º, do CPC).",
+      "Errada. A regra é que a apelação tenha efeito suspensivo (art. 1.012, caput, do CPC); as exceções estão no § 1º e em leis especiais."
+    ] },
+  { "id": "33-54", "status": "valida",
+    "explicacoes": [
+      "Errada. Admitido o IRDR, o relator suspende os processos pendentes (art. 982, I, do CPC), e a tese se aplica tanto aos processos em curso quanto aos futuros (art. 985, I e II).",
+      "Correta. O IRDR exige efetiva repetição de processos sobre a mesma questão unicamente de direito, material ou processual (arts. 976, I, e 928, parágrafo único, do CPC); não serve para resolver questão de fato que depende de perícia.",
+      "Errada. O IRDR não se presta a controvérsia fática nem à produção de prova pericial única; seu objeto é questão unicamente de direito (art. 976, I, do CPC).",
+      "Errada. O IRDR é instaurado e julgado nos tribunais (arts. 977 e 978 do CPC), e não em primeira instância; o juiz pode suscitá-lo, mas o pedido é dirigido ao presidente do tribunal."
+    ] },
+  { "id": "33-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A decisão do STF não se sobrepõe automaticamente à coisa julgada: só torna inexigível o título, por meio de impugnação, se for anterior ao trânsito em julgado da decisão exequenda (art. 525, §§ 12 e 14, do CPC).",
+      "Errada. A modulação de efeitos não é o critério decisivo; como a decisão do STF é posterior ao trânsito em julgado, a inexigibilidade não pode ser alegada em impugnação (art. 525, § 14, do CPC).",
+      "Correta. Se a decisão do STF for proferida após o trânsito em julgado da decisão exequenda, a inexigibilidade não pode ser alegada em impugnação, cabendo ação rescisória para desconstituir o título (art. 525, §§ 14 e 15, do CPC).",
+      "Errada. A inexigibilidade abrange lei declarada inconstitucional pelo STF tanto em controle concentrado quanto difuso (art. 525, § 12, do CPC); o obstáculo aqui é a decisão ser posterior ao trânsito em julgado."
+    ] },
+  { "id": "33-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Não cabe recurso extraordinário contra sentença de primeiro grau ainda recorrível; ele pressupõe causa decidida em única ou última instância (art. 102, III, da CF).",
+      "Correta. A sentença que concede ou confirma tutela provisória produz efeitos imediatos e é impugnada por apelação (arts. 1.012, § 1º, V, e 1.013, § 5º, do CPC); o efeito suspensivo é pedido ao tribunal, entre a interposição e a distribuição da apelação (art. 1.012, §§ 3º, I, e 4º).",
+      "Errada. Não cabe mandado de segurança contra decisão judicial da qual caiba recurso com possibilidade de efeito suspensivo (art. 5º, II, da Lei 12.016/09; Súmula 267 do STF).",
+      "Errada. Concedida a tutela na própria sentença, esse capítulo é impugnável por apelação, e não por agravo de instrumento (art. 1.013, § 5º, do CPC)."
+    ] },
+  { "id": "33-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O juiz pode exigir caução real ou fidejussória idônea para ressarcir os danos que a outra parte possa sofrer com a tutela de urgência (art. 300, § 1º, do CPC).",
+      "Errada. A decisão interlocutória sobre tutela provisória é impugnável por agravo de instrumento (art. 1.015, I, do CPC), e não em preliminar de apelação.",
+      "Errada. O CPC não fixa percentual mínimo de caução; o juiz a arbitra conforme o caso e pode dispensá-la se a parte for economicamente hipossuficiente (art. 300, § 1º).",
+      "Correta. Para conceder a tutela de urgência, o juiz pode exigir caução para ressarcir os danos que o requerido possa sofrer, dispensando-a só se o requerente for hipossuficiente, o que não é o caso de Thiago (art. 300, § 1º, do CPC)."
+    ] },
+  { "id": "32-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A falha na intimação só poderia prejudicar a autora, que venceu; quando o mérito é decidido a favor de quem aproveitaria a nulidade, ela não é pronunciada (art. 282, § 2º, do CPC), e a ré não sofreu prejuízo (art. 282, § 1º).",
+      "Correta. Quando puder decidir o mérito a favor da parte a quem aproveite a decretação da nulidade, o juiz não a pronunciará nem mandará repetir o ato ou suprir-lhe a falta (art. 282, § 2º, do CPC).",
+      "Errada. Anulado um ato, só se reputam sem efeito os atos subsequentes que dele dependam (art. 281 do CPC); a nulidade da intimação para réplica não atingiria a citação.",
+      "Errada. Não se declara nulidade sem prejuízo (arts. 282, § 1º, e 283, parágrafo único, do CPC)."
+    ] },
+  { "id": "32-52", "status": "valida",
+    "explicacoes": [
+      "Errada. Em autos físicos, a falta de comunicação ao juízo de origem em 3 dias (art. 1.018, § 2º, do CPC) não é sanada de ofício: a inadmissibilidade depende de arguição e prova pelo agravado (art. 1.018, § 3º).",
+      "Errada. A arguição não pode ser feita a qualquer tempo; segundo o STJ, o agravado deve fazê-la na primeira oportunidade, nas contrarrazões, sob pena de preclusão (art. 1.018, § 3º, do CPC).",
+      "Correta. Em autos não eletrônicos, a falta de juntada da cópia do agravo no juízo de origem em 3 dias, desde que arguida e provada pelo agravado, importa inadmissibilidade do recurso (art. 1.018, §§ 2º e 3º, do CPC), o que deve ser feito nas contrarrazões.",
+      "Errada. O vício não pode ser conhecido de ofício pelo relator; a inadmissibilidade depende de arguição e prova pelo agravado (art. 1.018, § 3º, do CPC)."
+    ] },
+  { "id": "32-53", "status": "valida",
+    "explicacoes": [
+      "Errada. A Fazenda Pública tem 30 dias para impugnar o cumprimento de sentença (art. 535 do CPC), de modo que a impugnação em 25 dias úteis é tempestiva.",
+      "Errada. Não se aplica à Fazenda Pública a multa de 10% do art. 523, § 1º, do CPC (art. 534, § 2º), pois o pagamento se faz por precatório ou RPV.",
+      "Correta. Na impugnação parcial, a parte não questionada pela Fazenda será desde logo objeto de cumprimento (art. 535, § 4º, do CPC), admitindo-se precatório ou RPV da parcela incontroversa (Tema 28 do STF).",
+      "Errada. Ao alegar excesso de execução, a Fazenda deve declarar de imediato o valor que entende correto, sob pena de não conhecimento da arguição (art. 535, § 2º, do CPC)."
+    ] },
+  { "id": "32-54", "status": "valida",
+    "explicacoes": [
+      "Correta. Compete ao STF julgar em recurso ordinário o mandado de segurança, o habeas data e o mandado de injunção decididos em única instância pelos Tribunais Superiores, se denegatória a decisão (art. 102, II, a, da CF; art. 1.027, I, do CPC).",
+      "Errada. O recurso ordinário ao STF pressupõe decisão em única instância e denegatória (art. 102, II, a, da CF); contra decisão concessiva cabe, conforme o caso, recurso extraordinário.",
+      "Errada. Mandado de segurança denegado em única instância por TRF ou TJ desafia recurso ordinário ao STJ, e não ao STF (art. 105, II, b, da CF).",
+      "Errada. Causas entre Estado estrangeiro ou organismo internacional e Município ou pessoa residente no país ensejam recurso ordinário ao STJ (art. 105, II, c, da CF)."
+    ] },
+  { "id": "32-56", "status": "valida",
+    "explicacoes": [
+      "Correta. Na penhora de faturamento, o juiz fixa percentual que permita satisfazer o crédito em tempo razoável sem tornar inviável o exercício da atividade empresarial (art. 866, § 1º, do CPC; Tema 769 do STJ).",
+      "Errada. A penhora de faturamento não equivale à penhora de dinheiro (Tema 769 do STJ) e ocupa o décimo lugar na ordem preferencial (art. 835, X, do CPC); além disso, não pode inviabilizar a empresa (art. 866, § 1º).",
+      "Errada. O faturamento da empresa é penhorável (arts. 835, X, e 866 do CPC), observado percentual que não inviabilize a atividade.",
+      "Errada. Há limite: o percentual deve permitir a satisfação em tempo razoável sem tornar inviável a atividade empresarial (art. 866, § 1º, do CPC)."
+    ] },
+  { "id": "32-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O cumprimento de sentença que reconhece obrigação de pagar quantia depende de requerimento do exequente (arts. 513, § 1º, e 523 do CPC); a atuação de ofício é admitida nas obrigações de fazer e não fazer (art. 536).",
+      "Errada. A multa de 10% e os honorários de 10% só incidem se o executado, intimado, não pagar voluntariamente em 15 dias (art. 523, § 1º, do CPC).",
+      "Errada. O cumprimento de sentença de obrigação de pagar não é instaurado de ofício: exige requerimento do exequente (art. 513, § 1º, do CPC); o dever de cooperação (art. 6º) não altera essa regra.",
+      "Correta. Transitada em julgado a sentença, o exequente requer o cumprimento, e o executado é intimado a pagar em 15 dias, sob pena de multa de 10% e honorários de 10% (arts. 513, § 1º, e 523, caput e § 1º, do CPC)."
+    ] },
+  { "id": "31-51", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora o ônus da prova dos fatos constitutivos seja do autor (art. 373, I, do CPC), a prova produzida por qualquer das partes pode ser usada a favor da outra (art. 371).",
+      "Correta. Pelo princípio da comunhão ou aquisição da prova, o juiz aprecia a prova constante dos autos independentemente do sujeito que a tiver promovido (art. 371 do CPC).",
+      "Errada. O princípio da aquisição da prova se aplica justamente aqui: a prova pertence ao processo e pode beneficiar a autora (art. 371 do CPC).",
+      "Errada. O princípio da aquisição da prova diz o contrário: uma vez produzida, a prova pode beneficiar qualquer das partes (art. 371 do CPC)."
+    ] },
+  { "id": "31-52", "status": "valida",
+    "explicacoes": [
+      "Errada. A emenda (art. 321 do CPC) é exigida quando a inicial tem defeito ou falta documento indispensável; não é pressuposto da improcedência liminar, que é julgamento de mérito a favor do réu (art. 332).",
+      "Errada. O CPC prevê a improcedência liminar do pedido no art. 332, nas causas que dispensem a fase instrutória.",
+      "Errada. A inépcia leva ao indeferimento da petição inicial, sem resolução de mérito (art. 330, I, do CPC); as hipóteses de improcedência liminar estão no art. 332 (contrariedade a súmulas, repetitivos, IRDR ou IAC, súmula de direito local, prescrição ou decadência).",
+      "Correta. A improcedência liminar só cabe nas causas que dispensem a fase instrutória (art. 332, caput, do CPC); havendo controvérsia fática que exija prova, ela não é admitida."
+    ] },
+  { "id": "31-53", "status": "valida",
+    "explicacoes": [
+      "Errada. A sentença condenatória vale como título de hipoteca judiciária ainda que impugnada por recurso dotado de efeito suspensivo (art. 495, § 1º, III, do CPC).",
+      "Errada. Constituída a hipoteca judiciária, o credor hipotecário tem direito de preferência quanto ao pagamento, observada a prioridade no registro (art. 495, § 4º, do CPC).",
+      "Errada. A hipoteca judiciária é registrada mediante simples apresentação de cópia da sentença ao cartório, independentemente de ordem judicial, declaração expressa do juiz ou demonstração de urgência (art. 495, § 2º, do CPC).",
+      "Correta. A sentença condenatória vale como título de hipoteca judiciária mesmo pendente apelação, pode ser registrada com cópia da sentença e confere preferência, observada a prioridade do registro (art. 495, §§ 1º, III, 2º e 4º, do CPC)."
+    ] },
+  { "id": "31-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A rejeição liminar sem resolução de mérito só ocorre se o excesso de execução for o único fundamento dos embargos (art. 917, § 4º, I, do CPC); havendo também alegação de incompetência relativa, os embargos prosseguem.",
+      "Errada. Incompetência absoluta ou relativa e excesso de execução são matérias alegáveis em embargos à execução (art. 917, III e V, do CPC).",
+      "Correta. Não apontado o valor correto nem apresentado o demonstrativo, os embargos são processados se houver outro fundamento, mas o juiz não examina a alegação de excesso de execução (art. 917, §§ 3º e 4º, II, do CPC).",
+      "Errada. A tempestividade não supre o ônus de indicar o valor correto e apresentar o demonstrativo do débito (art. 917, § 3º, do CPC); sem isso, a alegação de excesso não é examinada (art. 917, § 4º)."
+    ] },
+  { "id": "31-55", "status": "valida",
+    "explicacoes": [
+      "Errada. Transitada em julgado a sentença, não cabe mais apelação; a coisa julgada só pode ser desconstituída por ação rescisória (art. 966 do CPC).",
+      "Errada. A reclamação (art. 988 do CPC) preserva a competência e garante a autoridade de decisões de tribunal e de precedentes qualificados; não serve para rescindir sentença transitada em julgado.",
+      "Correta. Cabe ação rescisória quando a decisão de mérito transitada em julgado se fundar em prova cuja falsidade tenha sido apurada em processo criminal (art. 966, VI, do CPC), no prazo de 2 anos (art. 975).",
+      "Errada. A decisão criminal que reconhece a falsidade de documento não é título para transferir a propriedade do imóvel; Carla precisa rescindir a sentença cível (art. 966, VI, do CPC)."
+    ] },
+  { "id": "31-56", "status": "valida",
+    "explicacoes": [
+      "Errada. É lícito cumular o pedido possessório com condenação em perdas e danos e indenização dos frutos (art. 555 do CPC).",
+      "Correta. Na pendência de ação possessória, é vedado ao autor e ao réu propor ação de reconhecimento do domínio, exceto se a pretensão for deduzida em face de terceira pessoa (art. 557 do CPC).",
+      "Errada. Pela fungibilidade, a propositura de uma ação possessória em vez de outra não impede que o juiz conceda a proteção legal correspondente (art. 554 do CPC).",
+      "Errada. As possessórias têm caráter dúplice: o réu pode, na própria contestação, demandar a proteção possessória e indenização (art. 556 do CPC), sem necessidade de reconvenção."
+    ] },
+  { "id": "31-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O réu pode propor reconvenção mesmo sem oferecer contestação (art. 343, § 6º, do CPC).",
+      "Correta. O réu pode propor reconvenção independentemente de oferecer contestação (art. 343, § 6º, do CPC), e ela pode ser proposta em litisconsórcio com terceiro e contra o autor e terceiro (art. 343, §§ 3º e 4º).",
+      "Errada. A reconvenção pode ser proposta pelo réu em litisconsórcio com terceiro (art. 343, § 4º, do CPC).",
+      "Errada. A reconvenção pode ser proposta contra o autor e terceiro (art. 343, § 3º, do CPC)."
+    ] },
+  { "id": "30-51", "status": "valida",
+    "explicacoes": [
+      "Errada. Na audiência de conciliação ou mediação do art. 334, as partes devem estar acompanhadas por seus advogados ou defensores públicos (art. 334, § 9º, do CPC).",
+      "Errada. Os mediadores podem atuar mediante inscrição em cadastro do tribunal (art. 167 do CPC); a criação de quadro próprio por concurso é opção do tribunal (art. 167, § 6º), e não requisito.",
+      "Correta. Pode haver mais de uma sessão de conciliação e mediação, não podendo exceder 2 meses da data da primeira, desde que necessárias à composição das partes (art. 334, § 2º, do CPC).",
+      "Errada. O mediador judicial que é advogado fica impedido de advogar nos juízos em que desempenha suas funções (art. 167, § 5º, do CPC), o que abrange o CEJUSC onde atua."
+    ] },
+  { "id": "30-52", "status": "valida",
+    "explicacoes": [
+      "Errada. O réu pode, na contestação, propor reconvenção para manifestar pretensão própria contra o autor (art. 343 do CPC).",
+      "Errada. A reconvenção exige conexão com a ação principal ou com o fundamento da defesa (art. 343, caput, do CPC); a identidade de partes não basta.",
+      "Errada. A desistência da ação ou outra causa extintiva da ação principal não obsta o prosseguimento da reconvenção (art. 343, § 2º, do CPC).",
+      "Correta. Na contestação, é lícito ao réu propor reconvenção para manifestar pretensão própria, conexa com a ação principal ou com o fundamento da defesa (art. 343, caput, do CPC)."
+    ] },
+  { "id": "30-53", "status": "valida",
+    "explicacoes": [
+      "Correta. As partes podem apresentar ao juiz, para homologação, delimitação consensual das questões de fato e de direito, que, homologada, vincula as partes e o juiz (art. 357, § 2º, do CPC).",
+      "Errada. A distribuição diversa do ônus da prova pode ocorrer por convenção das partes, salvo se recair sobre direito indisponível ou tornar excessivamente difícil o exercício do direito (art. 373, §§ 3º e 4º, do CPC).",
+      "Errada. O contraditório é garantia fundamental (art. 5º, LV, da CF; arts. 9º e 10 do CPC) e não pode ser integralmente renunciado por negócio processual, cuja validade o juiz controla (art. 190, parágrafo único).",
+      "Errada. O negócio processual não pode afastar a produção de prova oral essencial à solução da controvérsia, pois o juiz controla a validade da convenção e determina as provas necessárias ao julgamento do mérito (arts. 190, parágrafo único, e 370 do CPC)."
+    ] },
+  { "id": "30-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A assistência (art. 119 do CPC) é intervenção voluntária de terceiro juridicamente interessado; não é o meio para o réu trazer o afiançado ao processo.",
+      "Errada. A denunciação da lide (art. 125 do CPC) serve ao exercício de direito de regresso contra o alienante ou quem esteja obrigado a indenizar, e não ao benefício de ordem.",
+      "Correta. É admissível o chamamento ao processo do afiançado, na ação em que o fiador for réu (art. 130, I, do CPC), o que viabiliza o benefício de ordem (art. 827 do CC).",
+      "Errada. A nomeação à autoria não existe no CPC/2015; a correção do polo passivo por alegação de ilegitimidade segue os arts. 338 e 339 do CPC."
+    ] },
+  { "id": "30-55", "status": "valida",
+    "explicacoes": [
+      "Errada. Os embargos à execução não têm efeito suspensivo automático (art. 919, caput, do CPC); ele depende de decisão judicial presentes os requisitos do § 1º, o que não ocorreu.",
+      "Errada. A apelação contra sentença que julga improcedentes os embargos do executado não tem efeito suspensivo legal; a sentença produz efeitos imediatamente (art. 1.012, § 1º, III, do CPC).",
+      "Correta. A sentença que extingue sem resolução do mérito ou julga improcedentes os embargos do executado produz efeitos logo após a publicação (art. 1.012, § 1º, III, do CPC), o que permite atos de constrição como a penhora.",
+      "Errada. Os embargos à execução são ação autônoma julgada por sentença, impugnável por apelação (arts. 920, III, e 1.009 do CPC)."
+    ] },
+  { "id": "30-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Na ação civil pública, a associação autora não é condenada em honorários, salvo comprovada má-fé (art. 18 da Lei 7.347/85); o problema não é o percentual, mas a própria condenação.",
+      "Errada. A isenção do art. 18 da Lei 7.347/85 vale para a tutela coletiva; na tutela individual, a associação vencida responde por honorários normalmente (art. 85 do CPC).",
+      "Errada. Na ação civil pública, a associação autora não é condenada em honorários, salvo má-fé (art. 18 da Lei 7.347/85), e o CPC não prevê fixação por prudente arbítrio fora dos critérios do art. 85.",
+      "Correta. Na ação civil pública, a associação autora não é condenada em honorários, custas e despesas, salvo comprovada má-fé (art. 18 da Lei 7.347/85), caso em que ela e seus diretores respondem solidariamente pelos honorários e pelo décuplo das custas (art. 17)."
+    ] },
+  { "id": "29-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A impugnação é a defesa do executado no cumprimento de sentença (art. 525 do CPC), e não o meio de invalidar arrematação em execução de título extrajudicial após a expedição da carta.",
+      "Errada. A simples petição nos autos só cabe se o juiz for provocado em até 10 dias após o aperfeiçoamento da arrematação (art. 903, § 2º, do CPC); expedida a carta, esse caminho se fecha.",
+      "Correta. Passados os 10 dias do aperfeiçoamento da arrematação e expedida a carta, a invalidação, inclusive por preço vil, só pode ser pleiteada por ação autônoma, na qual o arrematante é litisconsorte necessário (art. 903, §§ 2º a 4º, do CPC).",
+      "Errada. Os embargos à execução são opostos em 15 dias da citação (art. 915 do CPC) e não servem para atacar arrematação já aperfeiçoada; após a carta, cabe ação autônoma (art. 903, § 4º)."
+    ] },
+  { "id": "29-52", "status": "valida",
+    "explicacoes": [
+      "Errada. Na tutela de direitos individuais homogêneos, a sentença coletiva de procedência beneficia as vítimas, ainda que não tenham integrado o polo ativo (arts. 97 e 103, III, do CDC).",
+      "Correta. Em caso de procedência, a condenação é genérica, e a liquidação e a execução podem ser promovidas pela vítima e seus sucessores (arts. 95 e 97 do CDC, aplicáveis por força do art. 21 da Lei 7.347/85).",
+      "Errada. O Ministério Público tem legitimidade para ações coletivas em defesa de interesses individuais homogêneos de relevância social (art. 82, I, do CDC; art. 5º, I, da Lei 7.347/85).",
+      "Errada. A condenação genérica, que fixa a responsabilidade do réu pelos danos causados, é expressamente prevista em lei (art. 95 do CDC)."
+    ] },
+  { "id": "29-53", "status": "valida",
+    "explicacoes": [
+      "Errada. Esgotado o prazo, a decisão que rejeitou a impugnação está preclusa, e a decisão posterior do STF não reabre o prazo recursal; o caminho é a ação rescisória (art. 525, § 15, do CPC).",
+      "Errada. Além de intempestiva, a apelação não é o recurso cabível contra decisão que rejeita impugnação sem extinguir a execução, que é interlocutória e agravável (art. 1.015, parágrafo único, do CPC).",
+      "Errada. A inexigibilidade fundada em decisão do STF só pode ser alegada em impugnação se essa decisão for anterior ao trânsito em julgado da decisão exequenda (art. 525, § 14, do CPC).",
+      "Correta. Se a decisão do STF for posterior ao trânsito em julgado da decisão exequenda, cabe ação rescisória (art. 525, § 15, do CPC)."
+    ] },
+  { "id": "29-54", "status": "valida",
+    "explicacoes": [
+      "Errada. O valor é inferior a 60 salários mínimos, mas estão excluídas do JEF as causas que impugnem pena de demissão imposta a servidor público civil (art. 3º, § 1º, IV, da Lei 10.259/01).",
+      "Errada. A Lei 12.153/09 rege os Juizados da Fazenda Pública dos Estados, DF e Municípios; causas contra a União seguem a Lei 10.259/01, que exclui a impugnação de demissão de servidor.",
+      "Errada. No foro onde estiver instalada Vara do Juizado Especial Federal, sua competência é absoluta (art. 3º, § 3º, da Lei 10.259/01).",
+      "Correta. Não se incluem na competência do JEF as causas que tenham por objeto a impugnação da pena de demissão imposta a servidores públicos civis (art. 3º, § 1º, IV, da Lei 10.259/01), de modo que se segue o procedimento comum."
+    ] },
+  { "id": "29-55", "status": "valida",
+    "explicacoes": [
+      "Errada. O não comparecimento injustificado à audiência de conciliação é ato atentatório à dignidade da justiça e gera multa (art. 334, § 8º, do CPC).",
+      "Correta. O não comparecimento injustificado do autor ou do réu à audiência de conciliação é ato atentatório à dignidade da justiça, sancionado com multa de até 2% da vantagem econômica pretendida ou do valor da causa, revertida à União ou ao Estado (art. 334, § 8º, do CPC).",
+      "Errada. No procedimento comum, a ausência do autor à audiência de conciliação não extingue o processo; a sanção é a multa do art. 334, § 8º, do CPC (a extinção por ausência do autor é regra do Juizado, art. 51, I, da Lei 9.099/95).",
+      "Errada. A ausência à audiência de conciliação não gera presunção de veracidade das alegações do réu; a consequência é a multa do art. 334, § 8º, do CPC."
+    ] },
+  { "id": "29-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Para o STJ, interpor recurso especial no lugar do recurso ordinário cabível é erro grosseiro, que afasta a fungibilidade recursal.",
+      "Errada. Contra decisão denegatória em mandado de segurança decidido em única instância por TJ cabe recurso ordinário ao STJ (art. 105, II, b, da CF), e não recurso extraordinário.",
+      "Correta. O mandado de segurança decidido em única instância pelo TJ, quando denegatória a decisão, desafia recurso ordinário ao STJ (art. 105, II, b, da CF; art. 1.027, II, a, do CPC).",
+      "Errada. A decisão é recorrível por recurso ordinário ao STJ quando a ordem for denegada (art. 105, II, b, da CF; art. 18 da Lei 12.016/09)."
+    ] },
+  { "id": "29-57", "status": "valida",
+    "explicacoes": [
+      "Errada. A tutela da evidência dispensa a demonstração de perigo de dano ou de risco ao resultado útil do processo (art. 311, caput, do CPC) e pode ser concedida antes da sentença.",
+      "Correta. A tutela da evidência é concedida, independentemente de urgência, quando as alegações de fato puderem ser comprovadas documentalmente e houver tese firmada em casos repetitivos ou súmula vinculante, podendo ser deferida liminarmente (art. 311, II e parágrafo único, do CPC).",
+      "Errada. O art. 311, II, do CPC equipara a tese firmada em julgamento de casos repetitivos à súmula vinculante para fins de tutela da evidência.",
+      "Errada. Só as hipóteses dos incisos II e III do art. 311 do CPC admitem concessão liminar (art. 311, parágrafo único); as dos incisos I e IV exigem a prévia oitiva do réu."
+    ] }
+]

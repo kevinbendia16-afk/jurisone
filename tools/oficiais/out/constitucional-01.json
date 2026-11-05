@@ -1,0 +1,282 @@
+[
+  { "id": "47-11", "status": "valida",
+    "explicacoes": [
+      "Errada. O Governador não tem iniciativa para propor a criação de varas judiciárias: essa iniciativa é privativa do Tribunal de Justiça (art. 96, I, d, da CRFB/88), e a sanção não supre o vício de iniciativa.",
+      "Errada. A mera concordância do Tribunal não convalida o vício, porque a própria iniciativa do projeto é privativa do Tribunal de Justiça (art. 96, I, d, da CRFB/88).",
+      "Correta. Compete privativamente aos tribunais propor ao Legislativo a criação de novas varas judiciárias (art. 96, I, d, da CRFB/88); o projeto enviado pelo Governador tem inconstitucionalidade formal por vício de iniciativa.",
+      "Errada. Parlamentares não têm iniciativa nessa matéria, reservada ao Tribunal de Justiça (art. 96, I, d, da CRFB/88); a lei de iniciativa parlamentar também seria formalmente inconstitucional."
+    ] },
+  { "id": "47-12", "status": "valida",
+    "explicacoes": [
+      "Correta. Deixar de aplicar o mínimo exigido da receita municipal na manutenção e desenvolvimento do ensino autoriza a intervenção estadual espontânea, por decreto do Governador (art. 35, III, da CRFB/88). O controle político é posterior: o decreto vai à Assembleia Legislativa em 24 horas (art. 36, § 1º).",
+      "Errada. A hipótese do art. 35, III, da CRFB/88 dispensa ação judicial prévia; só a intervenção do art. 35, IV, depende de provimento de representação pelo Tribunal de Justiça.",
+      "Errada. O provimento do Tribunal de Justiça só é exigido no caso do art. 35, IV, da CRFB/88; no caso do art. 35, III, o Governador decreta a intervenção de ofício.",
+      "Errada. Não há autorização legislativa prévia: o decreto de intervenção é submetido à Assembleia Legislativa no prazo de 24 horas após sua edição (art. 36, § 1º, da CRFB/88)."
+    ] },
+  { "id": "47-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A compatibilidade formal com a CRFB/88 é irrelevante para a recepção; o que importa é a compatibilidade material com a nova Constituição. Por isso o CTN, editado como lei ordinária, foi recebido com status de lei complementar.",
+      "Errada. Não se exige compatibilidade formal com a nova Constituição, pois a forma é aferida pela Constituição vigente na época da edição (tempus regit actum); a recepção depende só da compatibilidade material com a CRFB/88.",
+      "Errada. A recepção não é automática: a norma pré-constitucional precisa ser materialmente compatível com a CRFB/88, sob pena de não recepção (revogação). Apenas a regularidade formal é aferida em face da Constituição anterior.",
+      "Correta. A recepção exige compatibilidade material com a CRFB/88; a incompatibilidade formal superveniente não a impede, e a norma passa a ter a natureza da espécie normativa hoje exigida para a matéria."
+    ] },
+  { "id": "47-14", "status": "valida",
+    "explicacoes": [
+      "Errada. A natureza do instrumento é decisiva: é vedada medida provisória sobre direitos políticos e direito eleitoral (art. 62, § 1º, I, a, da CRFB/88), e novas inelegibilidades exigem lei complementar (art. 14, § 9º).",
+      "Errada. Mesmo presentes relevância e urgência, a medida provisória não pode tratar de direitos políticos e direito eleitoral (art. 62, § 1º, I, a) nem de matéria reservada a lei complementar (art. 62, § 1º, III, da CRFB/88).",
+      "Correta. A CRFB/88 veda medida provisória sobre direitos políticos e direito eleitoral (art. 62, § 1º, I, a) e sobre matéria reservada a lei complementar (art. 62, § 1º, III), caso das inelegibilidades (art. 14, § 9º).",
+      "Errada. O rol constitucional de inelegibilidades não é exaustivo: lei complementar pode criar outros casos (art. 14, § 9º, da CRFB/88; LC 64/90). O vício está no instrumento normativo, não na matéria."
+    ] },
+  { "id": "47-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A exigência de indenização prévia está correta (art. 5º, XXIV), mas o Município não pode legislar sobre desapropriação, matéria de competência privativa da União (art. 22, II, da CRFB/88).",
+      "Errada. O vício não se supera com a prova do uso reiterado do imóvel: o Município não pode criar hipóteses de desapropriação (art. 22, II) nem adiar a indenização (art. 5º, XXIV, da CRFB/88).",
+      "Correta. Legislar sobre desapropriação é competência privativa da União (art. 22, II, da CRFB/88), e a indenização deve ser prévia, justa e em dinheiro (art. 5º, XXIV), e não paga só após o trânsito em julgado.",
+      "Errada. A finalidade de proteger direitos humanos não afasta a competência privativa da União (art. 22, II) nem a indenização prévia (art. 5º, XXIV); a expropriação sem indenização só cabe nos casos do art. 243 da CRFB/88 (plantas psicotrópicas e trabalho escravo)."
+    ] },
+  { "id": "47-16", "status": "valida",
+    "explicacoes": [
+      "Correta. O brasileiro naturalizado pode ser extraditado por crime comum praticado antes da naturalização (art. 5º, LI, da CRFB/88).",
+      "Errada. A naturalização não impede a extradição por crime comum anterior a ela; essa é justamente uma das exceções do art. 5º, LI, da CRFB/88.",
+      "Errada. O tráfico ilícito de entorpecentes é hipótese autônoma de extradição do naturalizado, inclusive por fato posterior à naturalização; no crime comum anterior à naturalização, a extradição também é admitida (art. 5º, LI, da CRFB/88).",
+      "Errada. O momento do crime é decisivo: o naturalizado só pode ser extraditado por crime comum praticado antes da naturalização ou por comprovado envolvimento com tráfico de drogas (art. 5º, LI, da CRFB/88)."
+    ] },
+  { "id": "46-11", "status": "valida",
+    "explicacoes": [
+      "Errada. O mandado de segurança é residual (art. 5º, LXIX); para retificar dados pessoais o remédio próprio é o habeas data (art. 5º, LXXII, b, da CRFB/88).",
+      "Errada. O processo sigiloso, judicial ou administrativo, é só uma opção do interessado: o habeas data cabe para retificar dados quando não se prefira essa via (art. 5º, LXXII, b, da CRFB/88).",
+      "Correta. O habeas data serve para retificar dados (art. 5º, LXXII, b, da CRFB/88; Lei 9.507/97) e, ao contrário do habeas corpus, exige capacidade postulatória, ou seja, advogado (art. 1º, I, da Lei 8.906/94).",
+      "Errada. O habeas data não se limita ao acesso a informações: também serve para retificar dados (art. 5º, LXXII, b, da CRFB/88) e para anotar contestação ou explicação (art. 7º, III, da Lei 9.507/97)."
+    ] },
+  { "id": "46-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A participação no resultado da exploração de petróleo e gás é assegurada, nos termos da lei, à União, aos Estados, ao DF e aos Municípios (art. 20, § 1º, da CRFB/88), e não só ao Município onde está a reserva.",
+      "Correta. Desde a EC 102/2019, o art. 20, § 1º, da CRFB/88 assegura à União, aos Estados, ao DF e aos Municípios, nos termos da lei, participação no resultado da exploração de petróleo ou gás natural ou compensação financeira.",
+      "Errada. Embora os recursos minerais pertençam à União (art. 20, IX), a CRFB/88 assegura também aos Estados, ao DF e aos Municípios participação no resultado da exploração (art. 20, § 1º).",
+      "Errada. A União também participa do resultado da exploração, ao lado de Estados, DF e Municípios (art. 20, § 1º, da CRFB/88, com redação da EC 102/2019)."
+    ] },
+  { "id": "46-13", "status": "valida",
+    "explicacoes": [
+      "Errada. Não cabe reclamação, porque o efeito vinculante da decisão em ADI não alcança o Legislativo em sua função típica de legislar (art. 102, § 2º, da CRFB/88; art. 28, parágrafo único, da Lei 9.868/99); a lei nova deve ser impugnada por nova ação.",
+      "Correta. O efeito vinculante atinge os demais órgãos do Judiciário e a Administração Pública, mas não o Legislativo na função típica (art. 102, § 2º, da CRFB/88), o que evita a fossilização da Constituição. A lei de conteúdo idêntico pode ser objeto de nova ADI.",
+      "Errada. Como o Legislativo não fica vinculado, a nova lei é ato normativo autônomo e pode ser impugnada por nova ADI proposta por qualquer legitimado do art. 103 da CRFB/88.",
+      "Errada. A nova ADI cabe justamente porque o Legislativo não está vinculado à decisão anterior do STF em sua função típica (art. 102, § 2º, da CRFB/88)."
+    ] },
+  { "id": "46-14", "status": "valida",
+    "explicacoes": [
+      "Errada. O STF não participa da intervenção estadual em Município; quando as contas não são prestadas, a intervenção é decretada de ofício pelo Governador (art. 35, II, da CRFB/88).",
+      "Errada. A intervenção por falta de prestação de contas (art. 35, II, da CRFB/88) é espontânea e não depende de decisão judicial; só a do art. 35, IV, exige provimento de representação pelo Tribunal de Justiça.",
+      "Errada. Não há autorização legislativa prévia: o decreto é submetido à Assembleia Legislativa em 24 horas, em controle político posterior (art. 36, § 1º, da CRFB/88).",
+      "Correta. Não prestar as contas devidas, na forma da lei, é hipótese expressa de intervenção estadual (art. 35, II, da CRFB/88), decretada pelo Governador sem autorização prévia e com controle posterior da Assembleia (art. 36, § 1º)."
+    ] },
+  { "id": "46-15", "status": "valida",
+    "explicacoes": [
+      "Errada. Os Tribunais de Contas não são subordinados ao Legislativo: são órgãos autônomos que o auxiliam no controle externo (arts. 71, 73 e 75 da CRFB/88), e suas decisões de imputação de débito não dependem de confirmação legislativa.",
+      "Errada. A decisão que imputa débito tem eficácia de título executivo (art. 71, § 3º, c/c art. 75 da CRFB/88), o que dispensa ação declaratória ou de conhecimento.",
+      "Correta. As decisões dos Tribunais de Contas que imputam débito ou multa têm eficácia de título executivo (art. 71, § 3º, c/c art. 75 da CRFB/88) e são cobradas pelo ente público beneficiário (Tema 642 do STF), inclusive por execução fiscal após inscrição em dívida ativa.",
+      "Errada. Os Tribunais de Contas têm competência constitucional para julgar contas e imputar débito a gestores que causem prejuízo ao erário (art. 71, II e § 3º, c/c art. 75 da CRFB/88)."
+    ] },
+  { "id": "46-16", "status": "valida",
+    "explicacoes": [
+      "Errada. O subsídio do Prefeito é fixado por lei, mas a iniciativa é da Câmara Municipal (art. 29, V, da CRFB/88); o projeto enviado pelo Prefeito tem vício de iniciativa.",
+      "Errada. A Lei Orgânica não pode afastar o art. 29, V, da CRFB/88, que reserva à Câmara Municipal a iniciativa da lei que fixa os subsídios do Prefeito e do Vice-Prefeito.",
+      "Errada. O fato de João Carlos não ser beneficiado não supre o vício formal: a iniciativa da lei é da Câmara Municipal (art. 29, V, da CRFB/88).",
+      "Correta. Os subsídios do Prefeito, do Vice-Prefeito e dos Secretários Municipais são fixados por lei de iniciativa da Câmara Municipal (art. 29, V, da CRFB/88)."
+    ] },
+  { "id": "45-11", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há vedação constitucional a ações afirmativas na pós-graduação; o STF validou as cotas (ADPF 186 e ADC 41), e a Lei 12.711/12, alterada pela Lei 14.723/23, prevê ações afirmativas na pós-graduação stricto sensu das instituições federais.",
+      "Errada. A autonomia universitária (art. 207 da CRFB/88) não é ilimitada: os critérios de acesso devem observar a lei e a igualdade, e não podem ser fixados livremente para quaisquer grupos.",
+      "Correta. A igualdade material (arts. 3º, III e IV, e 5º, caput, da CRFB/88) legitima ações afirmativas temporárias em favor de grupos historicamente desfavorecidos, como reconheceu o STF na ADPF 186 e na ADC 41.",
+      "Errada. A isonomia não é apenas formal: o STF admite tratamento diferenciado e temporário para promover a igualdade material (ADPF 186), e o edital tem respaldo em lei."
+    ] },
+  { "id": "45-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A autonomia municipal não autoriza restringir a livre concorrência: pela Súmula Vinculante 49, ofende esse princípio a lei municipal que impede a instalação de estabelecimentos do mesmo ramo em determinada área.",
+      "Errada. O Município é ente federativo (arts. 1º e 18 da CRFB/88) e pode editar leis complementares, conforme sua Lei Orgânica.",
+      "Errada. Não há hierarquia entre lei federal e lei municipal: os conflitos se resolvem pela repartição constitucional de competências. O vício da LC X é a ofensa à livre concorrência (SV 49).",
+      "Correta. A lei municipal que impõe distância mínima entre estabelecimentos do mesmo ramo viola a livre concorrência (art. 170, IV, da CRFB/88; Súmula Vinculante 49)."
+    ] },
+  { "id": "45-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A CRFB/88 fixa a ordem cronológica de apresentação dos precatórios como regra geral, inclusive para créditos não alimentares (art. 100, caput).",
+      "Correta. Créditos não alimentares são pagos na ordem cronológica de apresentação dos precatórios (art. 100, caput, da CRFB/88). A preferência por idade só alcança débitos alimentares de titulares com 60 anos ou mais (art. 100, § 2º), o que não é o caso.",
+      "Errada. Não existe pagamento imediato por idade; a superpreferência do art. 100, § 2º, da CRFB/88 exige crédito alimentar e titular com 60 anos ou mais, e mesmo assim se limita ao triplo do valor da RPV.",
+      "Errada. Não há prioridade entre credores por diferença de idade; Joana não tem 60 anos e seu crédito não é alimentar, de modo que vale a ordem cronológica (art. 100, caput, da CRFB/88)."
+    ] },
+  { "id": "45-14", "status": "valida",
+    "explicacoes": [
+      "Correta. São reservadas aos Estados as competências que a Constituição não lhes veda (competência remanescente, art. 25, § 1º, da CRFB/88).",
+      "Errada. As competências legislativas da União são enumeradas (arts. 22 e 24 da CRFB/88); a competência legislativa residual é dos Estados (art. 25, § 1º).",
+      "Errada. A competência municipal é para assuntos de interesse local (art. 30, I, da CRFB/88) e não decorre do silêncio constitucional; matéria não enumerada cabe aos Estados (art. 25, § 1º).",
+      "Errada. Não existe autorização do Congresso como requisito; a CRFB/88 só prevê que lei complementar federal autorize os Estados a legislar sobre questões específicas da competência privativa da União (art. 22, parágrafo único), o que não é o caso."
+    ] },
+  { "id": "45-15", "status": "valida",
+    "explicacoes": [
+      "Errada. Norma anterior à CRFB/88 não pode ser objeto de ADI: a incompatibilidade gera não recepção (revogação), e não inconstitucionalidade. O meio adequado de controle concentrado é a ADPF (art. 1º, parágrafo único, I, da Lei 9.882/99).",
+      "Errada. O STF só admite a fungibilidade entre ADI e ADPF quando há dúvida razoável sobre a via cabível, e não em qualquer caso; o erro grosseiro afasta a conversão.",
+      "Errada. A ADC também não serve para normas pré-constitucionais: seu objeto é lei ou ato normativo federal posterior à CRFB/88 (art. 102, I, a).",
+      "Correta. A lei pré-constitucional não é objeto de ADI, e sim de ADPF (art. 1º, parágrafo único, I, da Lei 9.882/99). Como esse entendimento é pacífico, o STF considera erro grosseiro o ajuizamento de ADI e não aplica a fungibilidade."
+    ] },
+  { "id": "45-16", "status": "valida",
+    "explicacoes": [
+      "Correta. Após a EC 131/2023, o brasileiro só perde a nacionalidade por cancelamento judicial da naturalização ou por pedido expresso de perda perante autoridade brasileira, ressalvada a apatridia (art. 12, § 4º, I e II, da CRFB/88). Adquirir outra nacionalidade, por si só, não gera perda.",
+      "Errada. A CRFB/88 não exige comunicação prévia ao governo brasileiro; desde a EC 131/2023, a perda depende de pedido expresso (art. 12, § 4º, II).",
+      "Errada. Deixar de exercer direitos políticos ou civis no Brasil não é causa de perda da nacionalidade, cujas hipóteses estão taxativamente previstas no art. 12, § 4º, da CRFB/88.",
+      "Errada. A perda por aquisição voluntária de outra nacionalidade constava da antiga redação do art. 12, § 4º, II, alterada pela EC 131/2023; hoje só o pedido expresso gera a perda para o brasileiro nato."
+    ] },
+  { "id": "44-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A CRFB/88 fixa percentuais mínimos, e não máximos, de aplicação em ações e serviços públicos de saúde (art. 198, § 2º); o vício está em destinar recursos a entidades com fins lucrativos (art. 199, § 2º).",
+      "Errada. A autonomia do ente e a chefia do Executivo não afastam a vedação de destinar recursos públicos a instituições privadas com fins lucrativos (art. 199, § 2º, da CRFB/88).",
+      "Correta. É vedada a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos (art. 199, § 2º, da CRFB/88).",
+      "Errada. Cuidar da saúde é competência comum de todos os entes (art. 23, II), e legislar sobre defesa da saúde é competência concorrente (art. 24, XII, da CRFB/88); os Estados têm orçamento próprio para a área."
+    ] },
+  { "id": "44-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A sociedade de economia mista não está entre os entes com foro na Justiça Federal (art. 109, I, da CRFB/88), e a participação acionária da União não desloca a competência (Súmula 556 do STF).",
+      "Errada. A competência da Justiça Federal é definida pela própria CRFB/88 (art. 109), e não pela lei que autoriza a criação da entidade; a ação vai à Justiça Estadual independentemente dessa lei (Súmula 556 do STF).",
+      "Errada. Não há competência originária do TRF para essa ação (art. 108 da CRFB/88); a causa é julgada em primeiro grau pela Justiça Estadual.",
+      "Correta. A Justiça Comum Estadual é competente para as causas em que é parte sociedade de economia mista (Súmula 556 do STF; Súmula 42 do STJ), pois ela não consta do art. 109, I, da CRFB/88."
+    ] },
+  { "id": "44-13", "status": "valida",
+    "explicacoes": [
+      "Errada. As normas do ADCT são constitucionais, com a mesma hierarquia das normas do corpo permanente, e servem de parâmetro para o controle de constitucionalidade enquanto produzem efeitos.",
+      "Errada. O ADCT não tem status supralegal, e sim constitucional; por isso suas normas são parâmetro do controle de constitucionalidade.",
+      "Correta. As normas do ADCT têm estatura constitucional e, enquanto eficazes, servem de parâmetro para ADI contra lei estadual (art. 102, I, a), que o partido político com representação no Congresso pode propor (art. 103, VIII, da CRFB/88).",
+      "Errada. O ADCT tem natureza constitucional, e lei infraconstitucional posterior não revoga norma constitucional: a lei incompatível é inconstitucional."
+    ] },
+  { "id": "44-14", "status": "valida",
+    "explicacoes": [
+      "Errada. O Congresso pode emendar projetos de iniciativa do Presidente, mas não pode aumentar a despesa prevista nos de iniciativa exclusiva do Presidente da República (art. 63, I, da CRFB/88).",
+      "Errada. O vício não se sana com quórum qualificado: a vedação de aumento de despesa do art. 63, I, da CRFB/88 independe do número de votos.",
+      "Errada. O aumento de remuneração de cargos do Executivo se faz por lei de iniciativa privativa do Presidente (arts. 37, X, e 61, § 1º, II, a, da CRFB/88), e não apenas por medida provisória.",
+      "Correta. Não se admite aumento da despesa prevista nos projetos de iniciativa exclusiva do Presidente da República, ressalvado o art. 166, §§ 3º e 4º (art. 63, I, da CRFB/88)."
+    ] },
+  { "id": "44-15", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há hierarquia entre normas constitucionais originárias; as normas apenas formalmente constitucionais também têm status constitucional, e não legal.",
+      "Errada. Nem toda norma formalmente constitucional é materialmente constitucional; Pedro está certo pela ausência de hierarquia entre as normas da Constituição, e não por esse fundamento.",
+      "Errada. Norma apenas formalmente constitucional não tem status supralegal: integra a Constituição e tem hierarquia constitucional, como qualquer norma originária.",
+      "Correta. Pelo princípio da unidade da Constituição, não há hierarquia entre normas constitucionais originárias, sejam material ou apenas formalmente constitucionais (STF, ADI 815); eventuais tensões se resolvem por harmonização ou ponderação."
+    ] },
+  { "id": "44-16", "status": "valida",
+    "explicacoes": [
+      "Errada. Na requisição administrativa a indenização é ulterior e condicionada à existência de dano (art. 5º, XXV, da CRFB/88).",
+      "Correta. No caso de iminente perigo público, a autoridade competente pode usar a propriedade particular, assegurada indenização ulterior apenas se houver dano (art. 5º, XXV, da CRFB/88); sem dano, não há indenização.",
+      "Errada. Se houver dano ao bem requisitado, o proprietário tem direito à indenização ulterior (art. 5º, XXV, da CRFB/88).",
+      "Errada. A requisição pode ser feita pela autoridade competente de qualquer ente, inclusive o Prefeito (art. 5º, XXV, da CRFB/88); a competência privativa da União (art. 22, III) é para legislar sobre requisições, não para executá-las."
+    ] },
+  { "id": "43-11", "status": "valida",
+    "explicacoes": [
+      "Errada. O naturalizado é brasileiro e, sendo eleitor, é cidadão legitimado para a ação popular (art. 5º, LXXIII, da CRFB/88; art. 1º, § 3º, da Lei 4.717/65). Além disso, mandado de segurança contra ato do Presidente é julgado pelo STF, e não pelo STJ (art. 102, I, d).",
+      "Errada. O STF não tem competência originária para julgar ação popular, ainda que contra o Presidente da República; a ação é proposta no primeiro grau de jurisdição.",
+      "Errada. O cidadão não tem legitimidade para propor ação civil pública (art. 5º da Lei 7.347/85); o instrumento adequado para ele é a ação popular (art. 5º, LXXIII, da CRFB/88).",
+      "Correta. Qualquer cidadão, inclusive o naturalizado em pleno gozo dos direitos políticos, pode propor ação popular para anular ato lesivo ao patrimônio público e à moralidade administrativa (art. 5º, LXXIII, da CRFB/88), perante o juízo de primeiro grau, mesmo contra ato do Presidente."
+    ] },
+  { "id": "43-12", "status": "valida",
+    "explicacoes": [
+      "Errada. A preferência da pessoa com deficiência em débitos alimentares é limitada ao triplo do valor fixado para as requisições de pequeno valor; o restante segue a ordem cronológica (art. 100, § 2º, da CRFB/88).",
+      "Correta. Os débitos alimentares de titulares com 60 anos ou mais, portadores de doença grave ou pessoas com deficiência têm preferência sobre os demais, até o triplo do valor da RPV, admitido o fracionamento (art. 100, § 2º, da CRFB/88).",
+      "Errada. O limite da superpreferência é o triplo do valor fixado em lei para as RPVs, e não cinco salários mínimos, e a preferência não é absoluta sobre qualquer credor (art. 100, § 2º, da CRFB/88).",
+      "Errada. A CRFB/88 prevê preferência para débitos alimentares (art. 100, § 1º) e superpreferência para idosos, portadores de doença grave e pessoas com deficiência (art. 100, § 2º)."
+    ] },
+  { "id": "43-13", "status": "valida",
+    "explicacoes": [
+      "Errada. Não há ofensa à igualdade: reduzir as desigualdades regionais é objetivo fundamental da República (art. 3º, III), e a CRFB/88 prevê incentivos regionais, inclusive juros favorecidos (art. 43, § 2º, II).",
+      "Correta. Reduzir as desigualdades regionais é objetivo fundamental da República (art. 3º, III, da CRFB/88), e os incentivos regionais incluem juros favorecidos para financiar atividades prioritárias (art. 43, § 2º, II).",
+      "Errada. Juros favorecidos para financiar atividades prioritárias são incentivo regional expressamente previsto na Constituição (art. 43, § 2º, II, da CRFB/88).",
+      "Errada. O combate às desigualdades regionais tem sede constitucional: é objetivo fundamental da República (art. 3º, III) e princípio da ordem econômica (art. 170, VII, da CRFB/88)."
+    ] },
+  { "id": "43-14", "status": "valida",
+    "explicacoes": [
+      "Correta. A Câmara, o Senado ou qualquer de suas comissões pode convocar Ministro de Estado para prestar informações sobre assunto previamente determinado, e a ausência sem justificação adequada é crime de responsabilidade (arts. 50, caput, e 58, § 2º, III, da CRFB/88).",
+      "Errada. A convocação de Ministro de Estado por comissão está prevista na própria CRFB/88 (arts. 50 e 58, § 2º, III) como mecanismo de controle, sem ofensa à separação dos Poderes.",
+      "Errada. Não só a CPI pode convocar Ministro: as comissões permanentes também têm essa competência (art. 58, § 2º, III, da CRFB/88).",
+      "Errada. Ministros de Estado não têm as prerrogativas do Presidente da República e podem ser convocados pelas Casas e por suas comissões (art. 50 da CRFB/88)."
+    ] },
+  { "id": "43-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A inviolabilidade do domicílio não é absoluta: a entrada sem consentimento é permitida, a qualquer hora, em caso de flagrante delito, desastre ou para prestar socorro (art. 5º, XI, da CRFB/88).",
+      "Correta. A CRFB/88 permite o ingresso no domicílio sem consentimento do morador, de dia ou à noite, em caso de desastre ou para prestar socorro (art. 5º, XI); o ingresso foi lícito.",
+      "Errada. A ordem judicial é apenas uma das exceções, e só pode ser cumprida durante o dia; desastre e socorro também dispensam o consentimento, a qualquer hora (art. 5º, XI, da CRFB/88).",
+      "Errada. A restrição ao período diurno vale apenas para o cumprimento de determinação judicial; em caso de desastre ou para prestar socorro, o ingresso é permitido também à noite (art. 5º, XI, da CRFB/88)."
+    ] },
+  { "id": "43-16", "status": "valida",
+    "explicacoes": [
+      "Errada. A ação popular não é meio de controle concentrado e não serve para impugnar ato normativo em tese; contra o decreto autônomo cabe ADI.",
+      "Errada. O decreto autônomo (art. 84, VI, da CRFB/88) é ato normativo primário, dotado de generalidade e abstração, e por isso se submete ao controle concentrado.",
+      "Correta. O decreto autônomo retira seu fundamento de validade diretamente da Constituição (art. 84, VI, da CRFB/88) e, como ato normativo primário, pode ser objeto de ADI (art. 102, I, a), proposta por partido político com representação no Congresso (art. 103, VIII).",
+      "Errada. A ADPF é subsidiária e não cabe quando houver outro meio eficaz (art. 4º, § 1º, da Lei 9.882/99); sendo cabível a ADI contra o decreto autônomo, não se usa a ADPF."
+    ] },
+  { "id": "42-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A CRFB/88 confere ao Presidente da República o poder de veto, total ou parcial, aos projetos de lei (arts. 66, § 1º, e 84, V).",
+      "Correta. O veto incide sobre projetos de lei, inclusive de lei complementar (art. 66, § 1º, da CRFB/88). A emenda constitucional não se sujeita a sanção ou veto: é promulgada pelas Mesas da Câmara e do Senado (art. 60, § 3º).",
+      "Errada. O veto alcança projetos de lei ordinária e de lei complementar (art. 66 da CRFB/88); só a proposta de emenda constitucional escapa da sanção e do veto (art. 60, § 3º).",
+      "Errada. A proposta de emenda constitucional não pode ser vetada, pois não há sanção nem veto na reforma constitucional; aprovada, é promulgada pelas Mesas das Casas (art. 60, § 3º, da CRFB/88)."
+    ] },
+  { "id": "42-12", "status": "valida",
+    "explicacoes": [
+      "Correta. O CNJ é órgão do Poder Judiciário (art. 92, I-A, da CRFB/88), mas tem competência apenas administrativa, financeira e disciplinar (art. 103-B, § 4º); não pode rever nem desconstituir decisões jurisdicionais (STF, ADI 3.367).",
+      "Errada. Embora integre o Judiciário, o CNJ não exerce jurisdição e não pode rever atos jurisdicionais; suas atribuições são de controle administrativo, financeiro e disciplinar (art. 103-B, § 4º, da CRFB/88).",
+      "Errada. O CNJ não é órgão de controle externo nem vinculado ao Ministério da Justiça: é órgão interno do Poder Judiciário (art. 92, I-A, da CRFB/88; STF, ADI 3.367).",
+      "Errada. O CNJ integra a estrutura do Poder Judiciário (art. 92, I-A, da CRFB/88) e não tem poderes jurisdicionais, nem mesmo atípicos."
+    ] },
+  { "id": "42-13", "status": "valida",
+    "explicacoes": [
+      "Errada. O poder constituinte reformador é limitado: não pode ser objeto de deliberação proposta de emenda tendente a abolir a forma federativa de Estado (art. 60, § 4º, I, da CRFB/88).",
+      "Errada. A Federação é indissolúvel (art. 1º da CRFB/88), sem direito de secessão, e a autonomia dos Estados é a definida pela Constituição (art. 18).",
+      "Errada. Não há subordinação dos Estados à União: os entes são autônomos (art. 18 da CRFB/88), e a ingerência federal só ocorre nas hipóteses excepcionais de intervenção (art. 34).",
+      "Correta. Permitir que o Congresso anule leis estaduais e que o Presidente reveja atos de Governadores suprimiria a autonomia dos Estados, ofendendo a forma federativa, que é cláusula pétrea (art. 60, § 4º, I, da CRFB/88)."
+    ] },
+  { "id": "42-14", "status": "valida",
+    "explicacoes": [
+      "Correta. Suspender o pagamento da dívida fundada por mais de dois anos consecutivos, salvo força maior, autoriza intervenção federal espontânea (art. 34, V, a, da CRFB/88), decretada pelo Presidente e submetida ao Congresso Nacional em 24 horas (art. 36, § 1º).",
+      "Errada. A autonomia dos Estados não é absoluta: a CRFB/88 admite intervenção federal nas hipóteses taxativas do art. 34, entre elas a suspensão do pagamento da dívida fundada (inciso V, a).",
+      "Errada. Nessa hipótese a intervenção é espontânea e dispensa decisão do STF; requisição ou provimento judicial só são exigidos nos casos do art. 36, I (coação contra o Judiciário), II e III, da CRFB/88.",
+      "Errada. A intervenção é executada pelo interventor que o Presidente nomear no decreto, se for o caso (art. 36, § 1º, da CRFB/88); ao Congresso cabe apenas aprovar ou suspender o decreto (art. 49, IV)."
+    ] },
+  { "id": "42-15", "status": "valida",
+    "explicacoes": [
+      "Errada. A CRFB/88 não impõe igualdade de subsídios: limita o dos Deputados Estaduais a 75% do subsídio dos Deputados Federais (art. 27, § 2º).",
+      "Errada. O subsídio dos Deputados Estaduais é fixado por lei de iniciativa da Assembleia (art. 27, § 2º, da CRFB/88), sem o quórum de três quintos em dois turnos, próprio das emendas constitucionais; além disso, o valor proposto excede o teto de 75%.",
+      "Errada. Não há paridade com o subsídio dos Senadores; o parâmetro constitucional é o subsídio dos Deputados Federais, com limite de 75% (art. 27, § 2º, da CRFB/88).",
+      "Correta. O subsídio dos Deputados Estaduais é fixado por lei de iniciativa da Assembleia Legislativa, na razão de, no máximo, 75% daquele estabelecido, em espécie, para os Deputados Federais (art. 27, § 2º, da CRFB/88)."
+    ] },
+  { "id": "42-16", "status": "valida",
+    "explicacoes": [
+      "Errada. O STF considera incompatível com a Constituição exigir inscrição na Ordem dos Músicos do Brasil para o exercício da profissão (RE 414.426 e RE 795.467, Tema 738).",
+      "Errada. A liberdade profissional não é absoluta: a lei pode exigir qualificações profissionais (art. 5º, XIII, da CRFB/88) quando a atividade oferece risco à sociedade, o que não ocorre com a música.",
+      "Errada. A atividade de músico não tem potencial lesivo que justifique controle por conselho profissional; a exigência viola as liberdades de profissão e de expressão artística (art. 5º, IX e XIII, da CRFB/88; Tema 738 do STF).",
+      "Correta. Para o STF, a música é manifestação artística protegida pela liberdade de expressão (art. 5º, IX, da CRFB/88) e não oferece risco que justifique a inscrição obrigatória em conselho profissional (RE 414.426; Tema 738)."
+    ] },
+  { "id": "41-11", "status": "valida",
+    "explicacoes": [
+      "Errada. A súmula vinculante obriga todos os órgãos do Poder Judiciário, inclusive os Tribunais de Justiça, e a Administração Pública direta e indireta de todas as esferas (art. 103-A da CRFB/88).",
+      "Correta. A aprovação, a revisão e o cancelamento de súmula vinculante exigem decisão de dois terços dos membros do STF (art. 103-A, caput, da CRFB/88; art. 2º, § 3º, da Lei 11.417/06).",
+      "Errada. O STF pode rever ou cancelar súmula vinculante de ofício ou por provocação (art. 103-A, caput, da CRFB/88; art. 2º da Lei 11.417/06).",
+      "Errada. O cancelamento se busca por proposta de revisão ou cancelamento de súmula, que o PGR pode apresentar (art. 103-A, § 2º, da CRFB/88; art. 3º da Lei 11.417/06), e não por ADI."
+    ] },
+  { "id": "41-12", "status": "valida",
+    "explicacoes": [
+      "Errada. As terras tradicionalmente ocupadas pelos índios são inalienáveis e indisponíveis (art. 231, § 4º, da CRFB/88), sem exceção por imperativos da ordem econômica.",
+      "Errada. Essas terras são bens da União (art. 20, XI, da CRFB/88), e eventual registro em nome de particular não produz efeitos (art. 231, § 6º); são inalienáveis e indisponíveis (art. 231, § 4º).",
+      "Correta. As terras tradicionalmente ocupadas pelos índios são bens da União, inalienáveis e indisponíveis, e os direitos sobre elas são imprescritíveis (arts. 20, XI, e 231, § 4º, da CRFB/88).",
+      "Errada. A comunidade indígena não é proprietária: tem a posse permanente e o usufruto exclusivo das riquezas (art. 231, § 2º), e a propriedade é da União (art. 20, XI, da CRFB/88); a terra é inalienável mesmo com autorização da comunidade."
+    ] },
+  { "id": "41-13", "status": "valida",
+    "explicacoes": [
+      "Errada. A CRFB/88 exige comunicação imediata da prisão e do local em que se encontra o preso ao juiz competente e à família ou pessoa indicada (art. 5º, LXII), e não em 72 horas.",
+      "Correta. A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada (art. 5º, LXII, da CRFB/88).",
+      "Errada. A periculosidade não retira a titularidade de direitos fundamentais; comunicar a prisão é dever constitucional, não liberalidade (art. 5º, LXII, da CRFB/88).",
+      "Errada. Razões de segurança não afastam o dever de comunicar imediatamente a prisão e o local de custódia (art. 5º, LXII, da CRFB/88)."
+    ] },
+  { "id": "41-14", "status": "valida",
+    "explicacoes": [
+      "Errada. O direito de petição independentemente do pagamento de taxas é assegurado a todos, inclusive às pessoas jurídicas (art. 5º, XXXIV, a, da CRFB/88).",
+      "Correta. A CRFB/88 assegura a todos, independentemente do pagamento de taxas, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder (art. 5º, XXXIV, a); a lei que cobra a taxa é inconstitucional.",
+      "Errada. O direito de petição não é remédio jurisdicional: é exercido perante os Poderes Públicos, inclusive na via administrativa (art. 5º, XXXIV, a, da CRFB/88).",
+      "Errada. A gratuidade alcança tanto a defesa de direitos quanto a petição contra ilegalidade ou abuso de poder (art. 5º, XXXIV, a, da CRFB/88); não há interpretação conforme que salve a cobrança."
+    ] }
+]

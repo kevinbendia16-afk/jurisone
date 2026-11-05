@@ -1,0 +1,282 @@
+[
+  { "id": "28-51", "status": "valida",
+    "explicacoes": [
+      "Errada. O CPC não admite desconsideração de ofício: o incidente é instaurado a pedido da parte ou do Ministério Público, quando lhe couber intervir (art. 133, caput, do CPC).",
+      "Errada. O requerimento é de fato indispensável, mas a desconsideração tem natureza de incidente processual (arts. 133 a 137 do CPC), cabível em qualquer fase, inclusive no cumprimento de sentença (art. 134), e não de processo autônomo.",
+      "Correta. Exigem-se o requerimento da parte ou do MP (art. 133) e a instauração do incidente, com citação do sócio para se manifestar em 15 dias (arts. 134 e 135 do CPC); o incidente só é dispensado se o pedido for feito na petição inicial (art. 134, § 2º), o que não ocorreu.",
+      "Errada. O CPC disciplina expressamente a desconsideração da personalidade jurídica (arts. 133 a 137 e art. 795, § 4º), observados os pressupostos do direito material (art. 50 do CC; art. 28 do CDC)."
+    ] },
+  { "id": "28-52", "status": "valida",
+    "explicacoes": [
+      "Correta. Havendo solidariedade passiva, o recurso interposto por um devedor aproveita aos outros quando as defesas opostas ao credor lhes forem comuns (art. 1.005, parágrafo único, do CPC); a prescrição é defesa comum às devedoras.",
+      "Errada. O litisconsórcio entre devedores solidários é facultativo, pois o credor pode cobrar a dívida de um ou de todos (art. 275 do CC e art. 113 do CPC); não há obrigatoriedade de formação, logo não é necessário.",
+      "Errada. O juiz pode reconhecer a prescrição de ofício (arts. 332, § 1º, e 487, II, do CPC), devendo, fora da improcedência liminar, ouvir antes as partes (art. 487, parágrafo único).",
+      "Errada. O prazo em dobro para litisconsortes com procuradores de escritórios distintos não se aplica aos processos em autos eletrônicos (art. 229, § 2º, do CPC)."
+    ] },
+  { "id": "28-53", "status": "valida",
+    "explicacoes": [
+      "Errada. O foro da situação dos imóveis só é critério subsidiário, aplicável quando o autor da herança não possuía domicílio certo (art. 48, parágrafo único, I e II, do CPC).",
+      "Correta. O foro do domicílio do autor da herança no Brasil é o competente para o inventário e a partilha (art. 48, caput, do CPC); João Paulo era domiciliado em São Paulo.",
+      "Errada. O local dos bens móveis só importaria, subsidiariamente, se não houvesse domicílio certo nem bens imóveis (art. 48, parágrafo único, III, do CPC).",
+      "Errada. O local do óbito não é critério de competência no CPC/2015; prevalece o domicílio do autor da herança (art. 48, caput)."
+    ] },
+  { "id": "28-54", "status": "valida",
+    "explicacoes": [
+      "Errada. O requerimento de distinção é dirigido ao juiz da causa quando o processo sobrestado tramita em primeiro grau (art. 1.037, § 10, I, do CPC), e não ao STJ.",
+      "Correta. A parte demonstra a distinção ao juízo de primeiro grau e requer o prosseguimento (art. 1.037, §§ 9º e 10, I, do CPC); da decisão que resolver o requerimento cabe agravo de instrumento (art. 1.037, § 13, I).",
+      "Errada. Há recurso próprio (agravo de instrumento, art. 1.037, § 13, I), o que afasta o mandado de segurança contra ato judicial (art. 5º, II, da Lei 12.016/09 e Súmula 267 do STF).",
+      "Errada. O agravo interno só cabe contra decisão de relator, quando o processo sobrestado está no tribunal (art. 1.037, § 13, II, do CPC); em primeiro grau, cabe agravo de instrumento."
+    ] },
+  { "id": "28-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A impenhorabilidade da caderneta de poupança até 40 salários-mínimos (art. 833, X, do CPC) não se aplica à penhora para pagamento de prestação alimentícia, independentemente de sua origem (art. 833, § 2º).",
+      "Errada. O CPC não permite a penhora de quaisquer valores: em regra, a quantia depositada em poupança até 40 salários-mínimos é impenhorável (art. 833, X); a penhora aqui se justifica pela natureza alimentar do crédito.",
+      "Errada. O limite legal é de 40, e não de 100, salários-mínimos (art. 833, X, do CPC), e essa proteção não vale contra dívida de alimentos (art. 833, § 2º).",
+      "Correta. O art. 833, § 2º, do CPC afasta a impenhorabilidade da poupança (inciso X) quando a penhora se destina ao pagamento de prestação alimentícia."
+    ] },
+  { "id": "28-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Se a perícia for requerida por ambas as partes, a remuneração do perito é rateada entre elas, e não adiantada só pelo autor (art. 95, caput, do CPC).",
+      "Correta. A remuneração do perito é adiantada pela parte que requereu a perícia ou rateada quando requerida por ambas as partes ou determinada de ofício (art. 95, caput, do CPC).",
+      "Errada. Os honorários periciais são adiantados no curso do processo (arts. 82 e 95 do CPC), podendo o juiz determinar o depósito do valor correspondente (art. 95, § 1º); a responsabilidade final segue a sucumbência.",
+      "Errada. O juiz não tem a faculdade de escolher quem paga: a lei impõe o rateio quando ambas as partes requerem a perícia (art. 95, caput, do CPC)."
+    ] },
+  { "id": "28-57", "status": "valida",
+    "explicacoes": [
+      "Correta. É admissível o chamamento ao processo do afiançado na ação em que o fiador for réu (art. 130, I, do CPC); a sentença valerá como título para o fiador que pagar exigir a dívida da devedora (art. 132).",
+      "Errada. A denunciação da lide serve ao alienante na evicção e a quem está obrigado, por lei ou contrato, a indenizar em regresso (art. 125 do CPC); para o fiador demandado trazer o devedor principal, a via própria é o chamamento ao processo (art. 130, I).",
+      "Errada. O fiador tem legitimidade para ser demandado isoladamente; o benefício de ordem é defesa que pode ser alegada, mas não gera ilegitimidade passiva (art. 827 do CC e art. 794 do CPC).",
+      "Errada. O benefício de ordem deve ser invocado até a contestação (art. 827 do CC), e não somente na fase executiva; além disso, não traz Aline ao processo para formar título contra ela."
+    ] },
+  { "id": "27-51", "status": "valida",
+    "explicacoes": [
+      "Errada. O pedido fundado no perigo de dano é tutela de urgência antecipada (arts. 300 e 303 do CPC); a tutela da evidência dispensa justamente a demonstração de perigo de dano ou de risco ao resultado útil (art. 311).",
+      "Errada. Quando a urgência é contemporânea à propositura, a petição inicial pode limitar-se ao requerimento da tutela antecipada e à indicação do pedido de tutela final, com a exposição da lide, do direito e do perigo (art. 303, caput, do CPC).",
+      "Correta. O art. 303 do CPC autoriza o requerimento de tutela antecipada em caráter antecedente, com a simples indicação do pedido final, exatamente como feito pelo advogado de Márcia.",
+      "Errada. Se o juiz entender que não há elementos para a concessão, determinará a emenda da inicial em até 5 dias; só se não houver emenda a petição será indeferida (art. 303, § 6º, do CPC)."
+    ] },
+  { "id": "27-52", "status": "valida",
+    "explicacoes": [
+      "Errada. A avaliação por oficial de justiça não é indispensável: ela é dispensada quando uma das partes aceita a estimativa feita pela outra (art. 871, I, do CPC).",
+      "Errada. A nomeação de avaliador especializado só ocorre se forem necessários conhecimentos especializados e o valor da execução comportar (art. 870, parágrafo único, do CPC), e a avaliação é dispensável na hipótese do art. 871, I.",
+      "Errada. A inspeção judicial (art. 481 do CPC) não é requisito para o leilão nem meio de avaliação do bem penhorado.",
+      "Correta. Não se procede à avaliação quando uma das partes aceita a estimativa feita pela outra (art. 871, I, do CPC); Amanda pode concordar com o valor indicado por Carla e seguir para a alienação."
+    ] },
+  { "id": "27-53", "status": "valida",
+    "explicacoes": [
+      "Correta. Cabe tutela da evidência quando as alegações de fato puderem ser comprovadas documentalmente e houver tese firmada em casos repetitivos, como o IRDR (art. 311, II, do CPC), e nessa hipótese ela pode ser concedida liminarmente, sem oitiva da ré (art. 311, parágrafo único, e art. 9º, parágrafo único, II).",
+      "Errada. A tutela de urgência exige probabilidade do direito e perigo de dano ou risco ao resultado útil do processo (art. 300 do CPC); quem dispensa o perigo é a tutela da evidência (art. 311).",
+      "Errada. A estabilização só alcança a tutela antecipada requerida em caráter antecedente e não impugnada (art. 304 do CPC), e não a concedida em caráter incidental.",
+      "Errada. A tutela provisória pode ser revogada ou modificada a qualquer tempo (art. 296 do CPC), e não apenas até o fim da instrução."
+    ] },
+  { "id": "27-54", "status": "valida",
+    "explicacoes": [
+      "Errada. O não comparecimento injustificado à audiência de conciliação ou mediação é ato atentatório à dignidade da justiça, punido com multa de até 2% da vantagem econômica pretendida ou do valor da causa (art. 334, § 8º, do CPC).",
+      "Errada. Nas ações de família, todos os esforços devem ser empreendidos para a solução consensual da controvérsia (art. 694 do CPC); o divórcio e a partilha admitem acordo.",
+      "Errada. Havendo vínculo anterior entre as partes, atua preferencialmente o mediador, que não propõe soluções, mas ajuda os interessados a restabelecer a comunicação (art. 165, § 3º, do CPC); o conciliador atua preferencialmente quando não há vínculo anterior (art. 165, § 2º).",
+      "Correta. A requerimento das partes, o juiz pode suspender o processo enquanto os litigantes se submetem à mediação extrajudicial ou a atendimento multidisciplinar (art. 694, parágrafo único, do CPC)."
+    ] },
+  { "id": "27-55", "status": "valida",
+    "explicacoes": [
+      "Correta. A produção antecipada da prova é admitida quando o prévio conhecimento dos fatos puder justificar ou evitar o ajuizamento de ação (art. 381, III, do CPC).",
+      "Errada. A produção antecipada de prova é faculdade da parte, e não requisito para o ajuizamento da ação de reparação (art. 381 do CPC).",
+      "Errada. O risco de a verificação dos fatos se tornar impossível é apenas uma das hipóteses (art. 381, I); os incisos II e III do art. 381 do CPC dispensam a urgência.",
+      "Errada. Não se exige pedido conjunto: o requerente formula o pedido e o juiz determina a citação dos interessados (art. 382, caput e § 1º, do CPC)."
+    ] },
+  { "id": "27-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Sem consentimento do réu, o pedido só pode ser aditado ou alterado até a citação (art. 329, I, do CPC); depois dela, até o saneamento, exige-se o consentimento do réu (art. 329, II).",
+      "Errada. A citação e a contestação não impedem o aditamento: até o saneamento, ele é possível com o consentimento do réu (art. 329, II, do CPC).",
+      "Correta. Até o saneamento do processo, o autor pode aditar ou alterar o pedido e a causa de pedir com o consentimento do réu, assegurado o contraditório (art. 329, II, do CPC).",
+      "Errada. O limite temporal é o saneamento do processo, e não a sentença, e exige-se consentimento do réu (art. 329, II, do CPC)."
+    ] },
+  { "id": "27-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O agravo em recurso especial não cabe quando a inadmissão se funda na aplicação de entendimento firmado em julgamento de recursos repetitivos (art. 1.042, caput, do CPC).",
+      "Correta. Contra a decisão que nega seguimento ao recurso especial por conformidade do acórdão com tese de recurso repetitivo cabe agravo interno (arts. 1.030, I, b, e § 2º, e 1.021 do CPC), julgado no próprio tribunal de origem, em que se demonstra a distinção.",
+      "Errada. O agravo interno contra a decisão da Presidência é julgado pelo órgão colegiado do tribunal de origem, e não pelo STJ (art. 1.030, § 2º, e art. 1.021 do CPC).",
+      "Errada. O recurso extraordinário não é meio de impugnar decisão de inadmissão do recurso especial; o recurso cabível é o agravo interno (art. 1.030, § 2º, do CPC)."
+    ] },
+  { "id": "26-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A ação popular é proposta pelo cidadão (art. 5º, LXXIII, da CF e art. 1º da Lei 4.717/65); o Ministério Público não é seu autor obrigatório, atuando como fiscal (art. 6º, § 4º).",
+      "Errada. O indivíduo não tem legitimidade para a ação civil pública; os legitimados estão no art. 5º da Lei 7.347/85 (MP, Defensoria, entes federativos, entidades da administração indireta e associações).",
+      "Errada. A ação civil pública é o instrumento próprio para a responsabilização por danos ao meio ambiente (art. 1º, I, da Lei 7.347/85 e art. 129, III, da CF).",
+      "Correta. Cabe ação civil pública por dano ambiental, e o Ministério Público, se não for autor, atuará obrigatoriamente como fiscal da ordem jurídica (art. 5º, § 1º, da Lei 7.347/85)."
+    ] },
+  { "id": "26-52", "status": "valida",
+    "explicacoes": [
+      "Errada. Nas ações de família, o MP intervém quando há interesse de incapaz e deve ser ouvido previamente à homologação do acordo (art. 698 do CPC); não há exigência de intimá-lo para comparecer à sessão de mediação.",
+      "Errada. Na audiência de mediação e conciliação das ações de família, as partes devem estar acompanhadas de seus advogados ou defensores públicos (art. 695, § 4º, do CPC).",
+      "Errada. A audiência de mediação e conciliação pode dividir-se em tantas sessões quantas sejam necessárias para viabilizar a solução consensual (art. 696 do CPC).",
+      "Correta. A requerimento das partes, o juiz pode suspender o processo enquanto os litigantes se submetem à mediação extrajudicial (art. 694, parágrafo único, do CPC)."
+    ] },
+  { "id": "26-53", "status": "valida",
+    "explicacoes": [
+      "Correta. Indeferida a petição inicial, cabe apelação, sendo facultado ao juiz retratar-se no prazo de 5 dias (art. 331, caput, do CPC).",
+      "Errada. Os autos não sobem diretamente: antes, o juiz pode retratar-se em 5 dias; só se não houver retratação ele manda citar o réu para responder ao recurso e remete os autos (art. 331, caput e § 1º, do CPC).",
+      "Errada. Não havendo retratação, o réu deve ser citado para responder ao recurso (art. 331, § 1º, do CPC).",
+      "Errada. O indeferimento da inicial é sentença, impugnável por apelação (arts. 331 e 1.009 do CPC), e há previsão expressa de retratação."
+    ] },
+  { "id": "26-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A tutela da evidência tem quatro hipóteses (art. 311, I a IV, do CPC); a tese de súmula vinculante ou de casos repetitivos é apenas uma delas (inciso II).",
+      "Errada. O abuso do direito de defesa deve ser aferido no próprio processo, e a tutela da evidência com base nele (art. 311, I) não pode ser concedida liminarmente (art. 311, parágrafo único, do CPC).",
+      "Errada. A tutela da evidência só pode ser concedida liminarmente nas hipóteses dos incisos II e III do art. 311 (art. 311, parágrafo único, e art. 9º, parágrafo único, II, do CPC), e mesmo a tutela de urgência liminar é faculdade conforme o caso.",
+      "Correta. A tutela da evidência fundada no abuso do direito de defesa ou no manifesto propósito protelatório (art. 311, I, do CPC) pressupõe a defesa do réu e não admite concessão liminar (art. 311, parágrafo único)."
+    ] },
+  { "id": "26-55", "status": "valida",
+    "explicacoes": [
+      "Correta. Efetuado o pagamento parcial no prazo, a multa de 10% e os honorários de 10% incidem sobre o restante, ou seja, sobre R$ 15.000,00 (art. 523, § 2º, do CPC).",
+      "Errada. Multa e honorários seguem a mesma base: ambos incidem sobre o saldo não pago (art. 523, § 2º, do CPC).",
+      "Errada. O pagamento parcial reduz a base de cálculo da multa e dos honorários ao valor remanescente (art. 523, § 2º, do CPC).",
+      "Errada. A multa e os honorários incidem sobre o que deixou de ser pago (R$ 15.000,00), e não sobre a parcela paga (art. 523, § 2º, do CPC)."
+    ] },
+  { "id": "26-56", "status": "valida",
+    "explicacoes": [
+      "Errada. Embora a gratuidade do art. 54 da Lei 9.099/95 se refira ao primeiro grau, em segundo grau só o recorrente vencido paga custas e honorários (art. 55); Luciana não recorreu.",
+      "Correta. Nos Juizados, em segundo grau, somente o recorrente vencido é condenado em custas e honorários (art. 55 da Lei 9.099/95); como Carlos teve o recurso provido e Luciana não recorreu, não há sucumbência a impor.",
+      "Errada. A litigância de má-fé é a exceção que autoriza a condenação em primeiro grau; em segundo grau, o recorrente vencido paga custas e honorários independentemente de má-fé (art. 55 da Lei 9.099/95).",
+      "Errada. A gratuidade não é irrestrita: o recorrente vencido arca com custas e honorários (art. 55 da Lei 9.099/95), e o preparo do recurso é exigido (art. 42, § 1º)."
+    ] },
+  { "id": "26-57", "status": "valida",
+    "explicacoes": [
+      "Errada. As associações são legitimadas para a ação civil pública (art. 5º, V, da Lei 7.347/85).",
+      "Correta. A associação constituída há pelo menos 1 ano, nos termos da lei civil, e que inclua entre suas finalidades institucionais a proteção do meio ambiente pode propor ação civil pública (art. 5º, V, a e b, da Lei 7.347/85).",
+      "Errada. O requisito de pré-constituição é de 1 ano, e não de 3 (art. 5º, V, a, da Lei 7.347/85), podendo ainda ser dispensado pelo juiz em caso de manifesto interesse social (art. 5º, § 4º).",
+      "Errada. A legitimidade para a ação civil pública é concorrente e disjuntiva, e não subsidiária: a associação não depende da inércia do MP (art. 5º da Lei 7.347/85)."
+    ] },
+  { "id": "25-51", "status": "valida",
+    "explicacoes": [
+      "Correta. A incompetência relativa é alegada como preliminar de contestação (arts. 64 e 337, II, do CPC), que pode ser protocolada antes da audiência, inclusive no foro do domicílio do réu, suspendendo-se a audiência de conciliação ou de mediação designada (art. 340, caput e § 3º).",
+      "Errada. Apenas a incompetência absoluta pode ser alegada a qualquer tempo (art. 64, § 1º, do CPC); a relativa, se não alegada na contestação, é prorrogada (art. 65).",
+      "Errada. A competência fixada por foro de eleição é relativa, derrogável pelas partes (arts. 62 e 63 do CPC), e não absoluta.",
+      "Errada. O CPC/2015 extinguiu a exceção de incompetência em peça separada; a incompetência, absoluta ou relativa, é alegada como questão preliminar de contestação (art. 64 do CPC)."
+    ] },
+  { "id": "25-52", "status": "valida",
+    "explicacoes": [
+      "Errada. A via extrajudicial exige que não haja nascituro ou filhos incapazes (art. 733, caput, do CPC); a gravidez de Aline impede a escritura pública, ainda que haja consenso.",
+      "Correta. O divórcio consensual por escritura pública só é possível não havendo nascituro ou filhos incapazes do casal (art. 733, caput, do CPC); havendo nascituro, o divórcio deve ser judicial.",
+      "Errada. O divórcio pode ser concedido sem prévia partilha de bens (art. 1.581 do CC), que pode ser feita depois (art. 731, parágrafo único, do CPC).",
+      "Errada. Não há exigência de ação judicial para a partilha consensual entre capazes, e, no caso, o divórcio não pode ser extrajudicial por causa do nascituro (art. 733 do CPC)."
+    ] },
+  { "id": "25-53", "status": "valida",
+    "explicacoes": [
+      "Errada. O Ministério Público é legitimado para a ação civil pública na defesa de direitos individuais homogêneos dos consumidores (art. 5º, I, da Lei 7.347/85; art. 82, I, do CDC; Súmula 601 do STJ).",
+      "Correta. A associação constituída há mais de 1 ano e que tenha entre seus fins a defesa do consumidor é legitimada para a ação civil pública (art. 5º, V, da Lei 7.347/85 e art. 82, IV, do CDC).",
+      "Errada. O consumidor individual não integra o rol de legitimados à ação civil pública (art. 5º da Lei 7.347/85 e art. 82 do CDC); pode apenas ajuizar ação individual ou habilitar-se como litisconsorte (art. 94 do CDC).",
+      "Errada. Se não for autor, o Ministério Público atuará obrigatoriamente como fiscal da ordem jurídica (art. 5º, § 1º, da Lei 7.347/85 e art. 92 do CDC)."
+    ] },
+  { "id": "25-54", "status": "valida",
+    "explicacoes": [
+      "Errada. A autocomposição obtida na audiência é reduzida a termo e homologada por sentença (art. 334, § 11, do CPC), formando título executivo judicial (art. 515, II); a transação referendada por advogados ou conciliador credenciado, sem homologação, é título extrajudicial (art. 784, IV).",
+      "Errada. No CPC/2015 a audiência de conciliação ocorre antes da contestação, e o prazo de 15 dias úteis para contestar conta da audiência (arts. 334, caput, e 335, I, do CPC).",
+      "Correta. O não comparecimento injustificado do autor ou do réu à audiência de conciliação é ato atentatório à dignidade da justiça, sancionado com multa de até 2% da vantagem econômica pretendida ou do valor da causa, revertida à União ou ao Estado (art. 334, § 8º, do CPC).",
+      "Errada. As partes devem estar acompanhadas por seus advogados ou defensores públicos na audiência de conciliação (art. 334, § 9º, do CPC)."
+    ] },
+  { "id": "25-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A nomeação à autoria era intervenção de terceiro do CPC/1973 e não existe no CPC/2015, que a substituiu pela alegação de ilegitimidade com indicação do sujeito passivo (arts. 338 e 339).",
+      "Correta. Ao alegar ilegitimidade na contestação, o réu deve indicar o sujeito passivo da relação discutida sempre que tiver conhecimento, sob pena de arcar com as despesas e indenizar o autor (art. 339 do CPC).",
+      "Errada. O juiz não substitui o réu de ofício: alegada a ilegitimidade, faculta ao autor alterar a petição inicial em 15 dias (art. 338 do CPC); a escolha do réu cabe ao autor.",
+      "Errada. O chamamento ao processo é restrito ao afiançado, aos fiadores e aos devedores solidários (art. 130 do CPC); o caseiro é mero detentor (art. 1.198 do CC) e deve alegar ilegitimidade."
+    ] },
+  { "id": "25-56", "status": "valida",
+    "explicacoes": [
+      "Errada. A omissão da decisão transitada em julgado quanto aos honorários não extingue o direito: cabe ação autônoma para sua definição e cobrança (art. 85, § 18, do CPC).",
+      "Errada. Não há fixação implícita de honorários; a omissão deve ser suprida por ação autônoma (art. 85, § 18, do CPC).",
+      "Errada. Após o trânsito em julgado, a fixação não se faz por simples petição no mesmo processo; o CPC/2015 prevê ação autônoma (art. 85, § 18), superando a Súmula 453 do STJ.",
+      "Correta. Se a decisão transitada em julgado for omissa quanto ao direito aos honorários ou ao seu valor, é cabível ação autônoma para sua definição e cobrança (art. 85, § 18, do CPC)."
+    ] },
+  { "id": "25-57", "status": "valida",
+    "explicacoes": [
+      "Errada. O recurso interposto antes do julgamento dos embargos de declaração da outra parte não é extemporâneo (art. 218, § 4º, e art. 1.024, § 5º, do CPC; Súmula 579 do STJ, com o cancelamento da Súmula 418).",
+      "Errada. O recorrente só pode complementar ou alterar suas razões se o acolhimento dos embargos modificar a decisão embargada, nos exatos limites da modificação, no prazo de 15 dias (art. 1.024, § 4º, do CPC).",
+      "Correta. Se os embargos forem rejeitados ou não alterarem a conclusão do julgamento, o recurso interposto pela outra parte antes da publicação do julgamento dos embargos será processado e julgado independentemente de ratificação (art. 1.024, § 5º, do CPC).",
+      "Errada. Não é preciso interpor novo recurso especial; o já interposto é processado, e, se os embargos alterarem a decisão, cabe apenas complementá-lo (art. 1.024, §§ 4º e 5º, do CPC)."
+    ] },
+  { "id": "24-51", "status": "valida",
+    "explicacoes": [
+      "Errada. A audiência só deixa de ser realizada se ambas as partes manifestarem expressamente desinteresse na composição consensual (art. 334, § 4º, I, do CPC); o réu manifestou interesse.",
+      "Correta. O não comparecimento injustificado do autor ou do réu à audiência de conciliação é ato atentatório à dignidade da justiça, sancionado com multa de até 2% da vantagem econômica pretendida ou do valor da causa (art. 334, § 8º, do CPC).",
+      "Errada. No procedimento comum, a ausência do autor à audiência não gera extinção do processo (diferentemente do art. 51, I, da Lei 9.099/95), e a multa tem fundamento expresso no art. 334, § 8º, do CPC.",
+      "Errada. O réu deve manifestar desinteresse na audiência por petição apresentada com 10 dias de antecedência da data da audiência (art. 334, § 5º, do CPC), e não 72 horas."
+    ] },
+  { "id": "24-52", "status": "valida",
+    "explicacoes": [
+      "Errada. O agravo de instrumento contra inadmissão de recurso especial era figura do CPC/1973; hoje não cabe, e, sendo a negativa fundada em recurso repetitivo, o recurso é o agravo interno (art. 1.030, § 2º, do CPC).",
+      "Errada. O agravo em recurso especial não é cabível quando a decisão se funda na aplicação de entendimento firmado em recurso repetitivo (art. 1.042, caput, do CPC).",
+      "Errada. Além de o agravo em recurso especial ser incabível na hipótese (art. 1.042, caput), ele seria dirigido ao presidente ou vice-presidente do tribunal de origem e julgado pelo STJ; aqui o recurso correto é o agravo interno.",
+      "Correta. Da decisão que nega seguimento ao recurso especial com base em tese firmada em recurso repetitivo cabe agravo interno (arts. 1.030, I, b, e § 2º, e 1.021 do CPC), julgado pelo órgão colegiado competente do próprio tribunal."
+    ] },
+  { "id": "24-53", "status": "valida",
+    "explicacoes": [
+      "Errada. A tutela de urgência pode ser concedida liminarmente, sem oitiva prévia do réu (art. 300, § 2º, e art. 9º, parágrafo único, I, do CPC); o contraditório é diferido.",
+      "Errada. A demonstração de perigo de dano é requisito da tutela de urgência (art. 300 do CPC); a tutela da evidência independe dele (art. 311).",
+      "Correta. Na urgência contemporânea à propositura da ação, a inicial pode limitar-se ao requerimento da tutela antecipada e à indicação do pedido final (art. 303, caput, do CPC), e, concedida a tutela, o autor deve aditá-la em 15 dias ou em prazo maior fixado pelo juiz (art. 303, § 1º, I).",
+      "Errada. A tutela provisória conserva sua eficácia na pendência do processo, mas pode ser revogada ou modificada a qualquer tempo (art. 296 do CPC)."
+    ] },
+  { "id": "24-54", "status": "valida",
+    "explicacoes": [
+      "Errada. O limite de 100 salários-mínimos vale para os demais Municípios (art. 496, § 3º, III, do CPC); para Município capital de Estado, como São Paulo, o limite é de 500 salários-mínimos (inciso II).",
+      "Errada. Há exceções à remessa necessária, ligadas ao valor da condenação e à existência de precedentes qualificados (art. 496, §§ 3º e 4º, do CPC).",
+      "Errada. A condenação é líquida (200 salários-mínimos); a dispensa da remessa decorre do valor inferior ao limite de 500 salários-mínimos (art. 496, § 3º, II, do CPC), e a execução se faz por cumprimento de sentença contra a Fazenda (art. 534).",
+      "Correta. Não há remessa necessária quando a condenação de Município capital de Estado for inferior a 500 salários-mínimos (art. 496, § 3º, II, do CPC); após o trânsito, Maria promove o cumprimento de sentença contra a Fazenda Pública (arts. 534 e 535)."
+    ] },
+  { "id": "24-55", "status": "valida",
+    "explicacoes": [
+      "Errada. Desde o CPC/2015, os embargos de declaração nos Juizados interrompem, e não apenas suspendem, o prazo para o recurso (art. 50 da Lei 9.099/95, com redação do art. 1.065 do CPC).",
+      "Errada. Os embargos de declaração interrompem o prazo para o recurso inominado (art. 50 da Lei 9.099/95), não havendo necessidade de optar entre um e outro.",
+      "Correta. Os embargos de declaração interrompem o prazo para a interposição de recurso no Juizado Especial (art. 50 da Lei 9.099/95, com redação dada pelo art. 1.065 do CPC).",
+      "Errada. Os embargos de declaração são cabíveis nos Juizados Especiais contra sentença ou acórdão (art. 48 da Lei 9.099/95)."
+    ] },
+  { "id": "24-56", "status": "valida",
+    "explicacoes": [
+      "Errada. A oposição é ajuizada por terceiro que pretende, no todo ou em parte, a coisa ou o direito disputado pelas partes (art. 682 do CPC); Marcos é réu e não disputa o objeto.",
+      "Correta. Cabe denunciação da lide àquele que estiver obrigado, por lei ou contrato, a indenizar em ação regressiva o prejuízo de quem for vencido (art. 125, II, do CPC), como a seguradora; ela pode ser condenada direta e solidariamente com o segurado (Súmula 537 do STJ).",
+      "Errada. O incidente de desconsideração da personalidade jurídica (arts. 133 a 137 do CPC) serve para atingir bens de sócios ou da pessoa jurídica, e não para responsabilizar seguradora por contrato de seguro.",
+      "Errada. O chamamento ao processo é restrito ao afiançado, aos fiadores e aos devedores solidários (art. 130 do CPC); a obrigação da seguradora é de garantia contratual, que se veicula por denunciação da lide."
+    ] },
+  { "id": "24-57", "status": "valida",
+    "explicacoes": [
+      "Errada. A sentença arbitral é título executivo judicial (art. 515, VII, do CPC e art. 31 da Lei 9.307/96), executado por cumprimento de sentença, e não por processo de execução de título extrajudicial.",
+      "Correta. A sentença arbitral é título executivo judicial (art. 515, VII, do CPC) e é executada segundo as regras do cumprimento de sentença, com citação do devedor no juízo cível competente (arts. 515, § 1º, e 516, III).",
+      "Errada. A sentença arbitral produz os mesmos efeitos da sentença judicial e não depende de homologação ou confirmação pelo Judiciário (arts. 18 e 31 da Lei 9.307/96); só a sentença arbitral estrangeira exige homologação pelo STJ (art. 35).",
+      "Errada. A sentença arbitral é título executivo judicial, e não extrajudicial (art. 515, VII, do CPC)."
+    ] },
+  { "id": "23-51", "status": "valida",
+    "explicacoes": [
+      "Errada. Os embargos à execução são a defesa na execução de título extrajudicial (art. 914 do CPC), e mesmo lá independem de penhora; no cumprimento de sentença, a defesa é a impugnação (art. 525).",
+      "Errada. A impugnação ao cumprimento de sentença independe de penhora ou garantia do juízo (art. 525, caput, do CPC).",
+      "Errada. No cumprimento de sentença não cabem embargos à execução; o executado apresenta impugnação (art. 525 do CPC).",
+      "Correta. Transcorrido o prazo de 15 dias para pagamento voluntário, inicia-se o prazo de 15 dias para o executado apresentar impugnação, independentemente de penhora ou nova intimação (art. 525, caput, do CPC)."
+    ] },
+  { "id": "23-52", "status": "valida",
+    "explicacoes": [
+      "Errada. O incidente de assunção de competência trata de questão de direito com grande repercussão social sem repetição em múltiplos processos e é instaurado em recurso, remessa necessária ou processo de competência originária no tribunal (art. 947 do CPC), e não perante o juiz de primeiro grau.",
+      "Correta. Havendo efetiva repetição de processos sobre a mesma questão unicamente de direito e risco de ofensa à isonomia e à segurança jurídica, cabe o IRDR (art. 976 do CPC), cujo pedido é dirigido ao presidente do tribunal, inclusive pelas partes, por petição (art. 977, II).",
+      "Errada. A arguição de inconstitucionalidade é suscitada no julgamento de processo pelo órgão fracionário do tribunal, com remessa ao plenário ou órgão especial (arts. 948 a 950 do CPC); não é instrumento para uniformizar demandas repetitivas em primeiro grau.",
+      "Errada. A conversão da ação individual em coletiva (art. 333 do CPC) foi vetada e não existe no ordenamento."
+    ] },
+  { "id": "23-53", "status": "valida",
+    "explicacoes": [
+      "Errada. O agravo interno cabe contra decisão proferida pelo relator no tribunal (art. 1.021 do CPC), e não contra decisão interlocutória de primeiro grau.",
+      "Errada. A decisão que versa sobre redistribuição do ônus da prova é recorrível por agravo de instrumento (art. 1.015, XI, do CPC).",
+      "Correta. Cabe agravo de instrumento contra decisão interlocutória sobre redistribuição do ônus da prova nos termos do art. 373, § 1º (art. 1.015, XI, do CPC); o STJ entende que a hipótese abrange tanto a decisão que defere quanto a que indefere o pedido.",
+      "Errada. Só as interlocutórias não agraváveis são suscitadas em preliminar de apelação ou nas contrarrazões (art. 1.009, § 1º, do CPC); esta é agravável e preclui se não impugnada."
+    ] },
+  { "id": "23-54", "status": "valida",
+    "explicacoes": [
+      "Errada. O acerto verbal não é título executivo extrajudicial (art. 784 do CPC), e a pretensão de Marina é obter as contas, não executar quantia certa.",
+      "Errada. A reintegração de posse protege o possuidor contra o esbulho (art. 560 do CPC), o que não está narrado; Marina quer os relatórios de receitas e despesas.",
+      "Correta. Quem afirma ser titular do direito de exigir contas requer a citação do réu para que as preste ou ofereça contestação em 15 dias (art. 550 do CPC), via adequada contra o administrador dos imóveis.",
+      "Errada. A consignação em pagamento serve para o devedor extinguir obrigação de pagar ou entregar coisa (art. 539 do CPC), e não para obrigar alguém a apresentar contas."
+    ] },
+  { "id": "23-55", "status": "valida",
+    "explicacoes": [
+      "Errada. A arbitragem é constitucional e expressamente permitida (art. 3º, § 1º, do CPC e Lei 9.307/96); a cláusula compromissória entre pessoas capazes sobre direitos patrimoniais disponíveis é válida.",
+      "Errada. Alegada em contestação a existência de convenção de arbitragem, o juiz extingue o processo sem resolução do mérito (arts. 337, X, e 485, VII, do CPC).",
+      "Correta. O árbitro pode conceder tutela provisória (art. 22-B da Lei 9.307/96) e expedir carta arbitral para que o órgão do Judiciário pratique ou determine o cumprimento de atos de cooperação, como a constrição de bens (art. 22-C da Lei 9.307/96 e arts. 237, IV, e 260, § 3º, do CPC).",
+      "Errada. A sentença arbitral é título executivo judicial (art. 515, VII, do CPC e art. 31 da Lei 9.307/96), executado por cumprimento de sentença no juízo cível competente (art. 516, III)."
+    ] }
+]
