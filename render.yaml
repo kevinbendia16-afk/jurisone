@@ -1,5 +1,23 @@
-# Configuração de deploy no Render (plano free). Sobe backend + frontend num único serviço.
+# Configuração de deploy no Render (plano free).
 services:
+  # Aprova OAB – site estático (PWA)
+  - type: web
+    name: aprova-oab
+    runtime: static
+    plan: free
+    rootDir: oab
+    buildCommand: echo "static site – nada a buildar"
+    staticPublishPath: .
+    headers:
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # Backend JurisOne (API + frontend web)
   - type: web
     name: jurisone
     runtime: node
