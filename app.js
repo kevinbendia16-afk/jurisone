@@ -5,15 +5,46 @@
   const LETRAS = 'ABCDE';
   let timerId = null;
 
-  /* ---------- progresso salvo no aparelho ---------- */
+  /* ---------- progresso salvo (nuvem + aparelho) ---------- */
   const KEY = 'aprova-oab-v1';
-  const state = load();
-  function load() {
-    const vazio = () => ({ resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {}, plano: {} });
+  const vazio = () => ({ resp: {}, aulas: {}, videos: {}, rascunhos: {}, casos: {}, plano: {} });
+  let _db = null, _uid = null, _dbReady = false, _savePending = false;
+  const state = (function loadLocal() {
     try { return Object.assign(vazio(), JSON.parse(localStorage.getItem(KEY)) || {}); }
     catch (e) { return vazio(); }
+  })();
+
+  (async function initCloud() {
+    try {
+      if (!window.claude || !window.claude.use) return;
+      const [db, user] = await Promise.all([claude.use('db'), claude.use('user')]);
+      if (!db || !user) return;
+      const uid = await user.id();
+      if (!uid) return;
+      _db = db; _uid = uid; _dbReady = true;
+      const snap = await db.doc('data/users/' + uid + '/progress').get();
+      if (snap.exists) {
+        const cloud = snap.data();
+        Object.keys(cloud).forEach(k => {
+          if (typeof cloud[k] === 'object' && cloud[k] !== null) {
+            state[k] = Object.assign(state[k] || {}, cloud[k]);
+          }
+        });
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e){}
+        if (typeof router === 'function') router();
+      }
+    } catch(e) {}
+  })();
+
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+    if (!_dbReady || _savePending) { if (_dbReady) _savePending = true; return; }
+    _savePending = true;
+    setTimeout(async () => {
+      _savePending = false;
+      try { await _db.doc('data/users/' + _uid + '/progress').set(state); } catch(e){}
+    }, 1500);
   }
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* modo privado */ } }
 
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const mat = id => M.find(m => m.id === id);
